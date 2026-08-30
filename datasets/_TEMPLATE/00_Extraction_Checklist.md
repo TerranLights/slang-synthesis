@@ -42,6 +42,17 @@ size, start a new one rather than letting it grow unbounded** — update `_index
 commit. Copy the `_TEMPLATE/established/`, `_TEMPLATE/analysis/`, `_TEMPLATE/synthesized/`
 directories (each holding an `_index.json` + one example shard) when starting a language.
 
+**Usage-tier / slang-type categorization.** `established/` entries carry a `usage_tier` field
+(e.g. `core`, `technical`, `taboo`, `slang`, ...) — see `datasets/00_Usage_Tier_Taxonomy.md` for
+the shared vocabulary, which is meant to stay consistent across languages so findings are
+comparable. `analysis/` and `synthesized/` entries carry `slang_type` and `derived_from_tiers`,
+capturing which standard-language tier(s) a given slang-formation mechanism actually draws from —
+this is how "different types of slang derive from different areas of standard language" gets
+tracked concretely rather than staying an impression. **Every tier/type in the taxonomy is
+extensible with dot-notation subcategories** (`"technical.medical"`) — use them freely as real data
+surfaces distinctions worth keeping, and promote a subcategory into the shared taxonomy doc once
+it recurs across 2+ languages.
+
 ## Graphify
 
 This language gets its own graph, scoped to `datasets/{{Language}}/` (separate from
