@@ -21,6 +21,11 @@ new language.
 that language already exists in `source_reference/languages/` — corpus collection can proceed
 without it, but analysis (see `datasets/`) benefits from having it.
 
+**Scaling.** Don't let corpus content pile into one or two giant files — split by register/domain/
+era/source and start new numbered files as existing ones get unwieldy (see the per-language
+`00_Extraction_Checklist.md`). Each language gets its **own** `graphify-out/` scoped to
+`language_corpus/<Language>/`, never one repo-wide graph.
+
 ---
 
 ## Status by language

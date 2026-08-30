@@ -1,0 +1,15 @@
+{
+  "language": "{{Language}}",
+  "kind": "analysis",
+  "description": "Structured mechanics findings for how this language's slang forms and works, sharded by mechanism group, cross-referenced against the narrative .md writeups and language_corpus/ entries they're drawn from.",
+  "schema_version": 1,
+  "last_updated": null,
+  "shard_size_target": 100,
+  "shards": [
+    {
+      "file": "001_....json",
+      "label": "",
+      "entry_count": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "language": "{{Language}}",
+  "shard_label": "",
+  "synthesized_terms": [
+    {
+      "term": "",
+      "gloss": "",
+      "derivation": "",
+      "based_on_mechanisms": [],
+      "based_on_established_terms": [],
+      "notes": "",
+      "revision_history": [
+        {
+          "date": null,
+          "change": "",
+          "reason": ""
+        }
+      ]
+    }
+  ]
+}

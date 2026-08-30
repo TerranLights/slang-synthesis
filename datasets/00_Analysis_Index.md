@@ -23,6 +23,12 @@ terminology that already exists). Copy `_TEMPLATE/` to start a new language.
 **Prerequisite column.** A language cannot move past `not started` here until its corpus in
 `language_corpus/` is at least `in progress` — analysis needs material to analyze.
 
+**Scaling.** Structured output (`established/`, `analysis/`, `synthesized/`) lives as sharded JSON
+directories, not single files — see the per-language `00_Extraction_Checklist.md` for shard-size
+targets. Each language also gets its **own** `graphify-out/` scoped to `datasets/<Language>/`,
+never one repo-wide graph. If a single language's own graph outgrows graphify's size warnings,
+narrow further by graphing `established/`, `analysis/`, and `synthesized/` separately.
+
 ---
 
 ## Status by language

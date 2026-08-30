@@ -20,6 +20,37 @@ explicit decision.
 
 ---
 
+## Structured JSON outputs — sharded, not flat files
+
+**Scale warning:** given how much raw material this project draws on (dozens of languages, each
+potentially thousands of slang terms and mechanism entries), a single `established.json` or
+`synthesized.json` per language will not hold up — it becomes an unreviewable diff and a single
+oversized graphify node. **Every structured output is therefore a directory of shards, not one
+file:**
+
+| Directory | Contents | Shard target size |
+|---|---|---|
+| `established/` | The real {{Language}} baseline — vocabulary/grammar entries with frequency and weighting | ~300 entries/shard |
+| `analysis/` | Structured mechanics findings, one entry per mechanism, cross-referencing corpus entries and `.md` writeups | ~100 entries/shard |
+| `synthesized/` | Derived in-universe slang output. **Explicitly provisional** — revise via `revision_history`, never silent overwrite | ~200 entries/shard |
+
+Each directory has an `_index.json` manifest (list of shard files, per-shard entry counts,
+`last_updated`) and numbered shard files (`001_...json`, `002_...json`, ...), grouped by whatever
+split makes sense for that language (semantic domain, register, mechanism family, alphabetical
+range — pick one and note the convention in the manifest). **When a shard approaches its target
+size, start a new one rather than letting it grow unbounded** — update `_index.json` in the same
+commit. Copy the `_TEMPLATE/established/`, `_TEMPLATE/analysis/`, `_TEMPLATE/synthesized/`
+directories (each holding an `_index.json` + one example shard) when starting a language.
+
+## Graphify
+
+This language gets its own graph, scoped to `datasets/{{Language}}/` (separate from
+`language_corpus/{{Language}}/`'s own graph). Run `/graphify datasets/{{Language}}` once there's
+enough written here to be worth graphing — no need to do this before any content exists. If a
+single language's graph itself grows past graphify's own size warnings (2M words / 500 files), that
+is itself a signal to narrow further — e.g. graph `established/`, `analysis/`, and `synthesized/`
+as separate runs rather than one combined pass.
+
 ## Mechanisms examined
 
 - [ ] *(one bullet per mechanism or corpus subset examined — name the real linguistic phenomenon,

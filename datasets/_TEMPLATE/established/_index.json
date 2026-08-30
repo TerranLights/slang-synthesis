@@ -1,0 +1,15 @@
+{
+  "language": "{{Language}}",
+  "kind": "established",
+  "description": "Real-language baseline vocabulary/grammar entries with frequency and weighting, derived from source_reference/ and language_corpus/.",
+  "schema_version": 1,
+  "last_updated": null,
+  "shard_size_target": 300,
+  "shards": [
+    {
+      "file": "001_....json",
+      "label": "",
+      "entry_count": 0
+    }
+  ]
+}

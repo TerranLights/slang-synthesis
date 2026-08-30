@@ -1,0 +1,18 @@
+{
+  "language": "{{Language}}",
+  "shard_label": "",
+  "mechanisms": [
+    {
+      "mechanism": "",
+      "description": "",
+      "examples": [
+        {
+          "term": "",
+          "explanation": "",
+          "corpus_ref": ""
+        }
+      ],
+      "writeup_ref": ""
+    }
+  ]
+}

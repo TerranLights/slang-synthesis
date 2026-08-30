@@ -16,7 +16,12 @@ explicit decision.
 
 | File | Contents |
 |---|---|
-| `01_....md` | *(fill in as corpus sections take shape — e.g. by register, by domain/subculture, by era)* |
+
+**Scale warning:** given how much raw material this project draws on, don't let corpus content
+accumulate into one or two giant files. Split by whatever axis makes sense (register, domain/
+subculture, era, source) and start a new numbered file (`01_`, `02_`, ...) once an existing one
+gets unwieldy to read/diff — same discipline as the sharded JSONs in `datasets/{{Language}}/`. Fill
+this table in as files are created, one row per file.
 
 ---
 
@@ -29,6 +34,14 @@ explicit decision.
 
 *(Contemporary vs. historical slang? Regional/dialect variation? Specific subcultures or domains
 of interest for this project? Note constraints here as they're decided.)*
+
+## Graphify
+
+This language gets its own graph, scoped to `language_corpus/{{Language}}/` (separate from
+`datasets/{{Language}}/`'s own graph, which additionally covers the sharded JSONs there). Run
+`/graphify language_corpus/{{Language}}` once there's enough written here to be worth graphing —
+no need to do this before any content exists. Watch for graphify's own size warnings (2M words /
+500 files) as a signal this language's corpus itself needs further splitting.
 
 ## Suggested next-session order
 
