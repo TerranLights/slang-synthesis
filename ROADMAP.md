@@ -84,12 +84,25 @@ extraction cost per book substantially and should inform Phase 0.5 prioritizatio
 Tier-1 language whose best source is a 400-page image-only scan is a different effort estimate
 than one with clean text-layer PDFs). **Add a third category, found during the test run: a text
 layer can be *present but garbled* (bad OCR baked into the PDF itself) — functionally equivalent to
-no text layer, but easy to miss if a triage pass only checks "text layer exists: yes/no."**
+no text layer, but easy to miss if a triage pass only checks "text layer exists: yes/no."** A fourth
+category found during the Dutch test run: a text layer can be *clean and fully usable but carry a
+cosmetic artifact* (e.g. page-margin ruler/registration-mark noise prepended to extracted text) —
+distinguishable from garbled OCR by checking that real, clean body text follows immediately after;
+tell extraction subagents to simply ignore such noise rather than treating the file as unusable.
 
 **Copyright discipline.** Reference material is copyrighted grammars/dictionaries. Extraction
 stays in the same mode already modeled by the Inner Tepenia GDD repo's book extractions: selective
 quotes + paraphrase + analysis connecting real material to project needs — never bulk reproduction
 of a book's content into this repo.
+
+**Prioritize register/colloquial-focused chapters, not just sequential coverage.** Confirmed during
+the Dutch test run: grammar-reference extraction otherwise skews almost entirely to `core` usage
+tier (teaching grammars are definitionally basic vocabulary) — but a book's own "colloquial speech,"
+"informal register," or sociolinguistic-commentary chapters reliably surface real `Usage Tier`
+diversity (`colloquial`, `formal`, etc.) that foundational chapters don't. When triaging a language's
+reference material, actively look for and prioritize these chapters/sections over same-length chunks
+of purely foundational grammar — they're disproportionately valuable for this project's specific
+purposes.
 
 ## Phase 2 — Web research / slang corpus collection
 

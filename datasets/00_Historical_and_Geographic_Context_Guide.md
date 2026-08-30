@@ -30,6 +30,17 @@ avoid leaving them empty; an honestly-unknown value is more useful than a false 
 since wrong era/region attribution could actively mislead a later finding (e.g. wrongly treating a
 1960s-only term as evidence of a still-active contemporary mechanism).
 
+**Scope clarification, added after the Dutch test run: `Attested Region` is for regionally-
+restricted *forms/lexemes*, not for *pronunciation* variation of an otherwise single, shared form.**
+A term that varies in how it's pronounced from region to region (allophonic/phonetic realization —
+e.g. Dutch's g/v/w/r pronunciation differing between the Netherlands and Flanders) is not the same
+thing as a term that has genuinely distinct regional *forms* (e.g. Bosnian/Serbian `šta` vs. Croatian
+`što` for "what" — different words, source-tagged as such). The former belongs in the entry's
+`Notes` column as pronunciation commentary, not in `Attested Region`; the latter is exactly what
+`Attested Region` was designed for. When in doubt: would a speaker from the "other" region recognize
+this as *the same word* said differently, or as *a different word*? Same word said differently →
+`Notes`, not `Attested Region`.
+
 ## Why this matters for analysis
 
 If enough `established/`/`analysis/` entries carry real `attested_era`/`attested_region` data, it

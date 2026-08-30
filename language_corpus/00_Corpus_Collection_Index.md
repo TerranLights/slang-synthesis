@@ -38,7 +38,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Avestan | yes (unsorted) | not started | — |
 | Cantonese | yes | not started | — |
 | Danish | yes | not started | — |
-| Dutch | yes | not started | — |
+| Dutch | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 2 corpus collection not yet started; see `methodology-observations/dutch_test_run.md`)* | `language_corpus/Dutch/` |
 | English (Old English) | yes | not started | — |
 | Esperanto | yes | not started | — |
 | Estonian | yes | not started | — |
