@@ -1,0 +1,32 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1788125578.891989,
+    "seen": 1788126556.4647222,
+    "ast_hash": "5319d88ca74017ea767717737c28ee52",
+    "semantic_hash": "5319d88ca74017ea767717737c28ee52"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1788126051.2552068,
+    "seen": 1788126556.464725,
+    "ast_hash": "33d805baa592d55577aeedd6f1d8ac9e",
+    "semantic_hash": "33d805baa592d55577aeedd6f1d8ac9e"
+  },
+  "established/001_chapters1-3_phonology_vowel_harmony.md": {
+    "mtime": 1788125915.392822,
+    "seen": 1788126556.4647262,
+    "ast_hash": "ac300ed0569019226a16e7b9a742e90a",
+    "semantic_hash": "ac300ed0569019226a16e7b9a742e90a"
+  },
+  "established/002_chapter5_nouns.md": {
+    "mtime": 1788125929.1969786,
+    "seen": 1788126556.464727,
+    "ast_hash": "f385c1de6fbb562a68472162cc2cc118",
+    "semantic_hash": "f385c1de6fbb562a68472162cc2cc118"
+  },
+  "established/003_chapter6_case_system.md": {
+    "mtime": 1788126012.0474112,
+    "seen": 1788126556.4647276,
+    "ast_hash": "f68ffd60f2bf9e8eaf95a456df2945c2",
+    "semantic_hash": "f68ffd60f2bf9e8eaf95a456df2945c2"
+  }
+}

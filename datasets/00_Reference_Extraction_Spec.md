@@ -88,10 +88,23 @@ discipline used throughout this project's other sharded content.
 
 Unlike earlier drafts of this pipeline, there is **no `_index.json` to hand-maintain**. The
 checklist's own `## Output files` table is the human-readable index — update it (or have it updated)
-after each dispatch. The machine-queryable summary/pointer layer comes from running
-`/graphify datasets/<Language>` once there's enough content to be worth graphing — its
-`source_file`/`source_location` fields are the "address" back to the exact Markdown table an entry
-came from.
+after each dispatch. **Have the extraction subagent update it directly as part of its own task**
+(the Output files table row and the relevant progress checkbox) — confirmed during the Hungarian
+test run that subagents will do this reliably when explicitly instructed to, removing a manual
+coordination step.
+
+The machine-queryable summary/pointer layer comes from running `/graphify datasets/<Language>` once
+there's enough content to be worth graphing — its `source_file`/`source_location` fields are the
+"address" back to the exact Markdown table an entry came from.
+
+**When running graphify on `established/` content specifically**, instruct its semantic-extraction
+subagents *not* to create one node per vocabulary table row — a chapter's vocabulary table can have
+100+ entries, and a node-per-row approach produces an unusable graph. Instead extract nodes for the
+grammar concepts/mechanisms discussed, the source book itself, and only the handful of vocabulary/
+morpheme-breakdown examples that are genuinely illustrative of a named concept. Confirmed during the
+Hungarian test run: this produced a small, navigable, genuinely useful graph (31 nodes) with
+cross-chapter hyperedges surfacing real patterns (e.g. vowel harmony as a governing mechanism across
+multiple chapters) — the payoff this whole storage model was designed around.
 
 ---
 

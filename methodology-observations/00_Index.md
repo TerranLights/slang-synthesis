@@ -23,7 +23,8 @@ without that explicit review.
 
 | File | Covers | Status |
 |---|---|---|
-| [`serbian_croatian_bosnian_test_run.md`](serbian_croatian_bosnian_test_run.md) | First pipeline test run — Phase 0 triage through initial Phase 1 extraction | tentative |
+| [`serbian_croatian_bosnian_test_run.md`](serbian_croatian_bosnian_test_run.md) | First pipeline test run — Phase 0 triage through initial Phase 1 extraction; also where the Markdown-first storage model and morphological typology guide were decided | tentative |
+| [`hungarian_test_run.md`](hungarian_test_run.md) | Second pipeline test run — first real test of subagent-parallelized extraction and the morpheme-breakdown convention (agglutinative language) | tentative |
 
 ---
 

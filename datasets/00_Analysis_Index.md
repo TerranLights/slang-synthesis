@@ -45,6 +45,7 @@ single language's own graph outgrows graphify's size warnings, narrow further by
 | Language | Corpus status (see language_corpus index) | Analysis status | Folder |
 |---|---|---|---|
 | Serbian/Croatian/Bosnian | not started *(test-run language)* | not started — `established/` has one Markdown vocabulary file (Phase 1, 20 entries, tentative); `analysis/`/`synthesized/` correctly empty pending `language_corpus/` progress | `datasets/Serbian_Croatian_Bosnian/` |
+| Hungarian | not started *(test-run language)* | not started — `established/` has 3 Markdown files (Phase 1, ~273 vocabulary entries across 3 chapters, subagent-parallelized extraction, tentative); own `graphify-out/` built; `analysis/`/`synthesized/` correctly empty pending `language_corpus/` progress | `datasets/Hungarian/` |
 
 ---
 
