@@ -30,6 +30,15 @@ this table in as files are created, one row per file.
 - [ ] *(web source, forum, dictionary, corpus database, etc. — one bullet per source, note what
       was found and what's still unread, same discipline as a book checklist)*
 
+**Subtitles & transcripts are a valid and valuable source** — real spoken usage, often the only
+place certain slang shows up at all. **But see
+[`00_Source_Reliability_Guide.md`](../00_Source_Reliability_Guide.md) before pulling from one**:
+AI-auto-generated captions can be confidently wrong about slang specifically, since the
+transcription model may have no lexical prior for the term at all. Every entry sourced from a
+subtitle/transcript needs a `source_type` and, if AI-generated, a `transcription_confidence` flag
+— this is not optional and the flag must survive into `datasets/{{Language}}/` downstream, not get
+dropped during summarization.
+
 ## Scope notes
 
 *(Contemporary vs. historical slang? Regional/dialect variation? Specific subcultures or domains

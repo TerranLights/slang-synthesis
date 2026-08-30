@@ -10,6 +10,8 @@
       "frequency": null,
       "weight": null,
       "source": "",
+      "source_type": "",
+      "transcription_confidence": null,
       "notes": ""
     }
   ]

@@ -11,7 +11,9 @@
         {
           "term": "",
           "explanation": "",
-          "corpus_ref": ""
+          "corpus_ref": "",
+          "source_type": "",
+          "transcription_confidence": null
         }
       ],
       "writeup_ref": ""

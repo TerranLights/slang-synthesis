@@ -53,6 +53,13 @@ extensible with dot-notation subcategories** (`"technical.medical"`) — use the
 surfaces distinctions worth keeping, and promote a subcategory into the shared taxonomy doc once
 it recurs across 2+ languages.
 
+**Transcription risk carries through.** Any `analysis/` example drawn from a corpus entry that was
+itself sourced from a subtitle/transcript keeps that entry's `source_type` and
+`transcription_confidence` — see
+[`language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
+Don't build a mechanism finding on a `low_confidence` example without saying so; a mechanism whose
+only supporting example is an unverified AI-transcript guess is itself weak evidence, not settled.
+
 ## Graphify
 
 This language gets its own graph, scoped to `datasets/{{Language}}/` (separate from
