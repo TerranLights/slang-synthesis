@@ -19,3 +19,6 @@ The pipeline:
    inversion, etc.), landing in `datasets/`.
 4. **Synthesis** — that analysis feeds into synthesizing invented slang for the sci-fi
    universe's constructed languages/cultures, grounded in real linguistic mechanics.
+
+**See [`ROADMAP.md`](ROADMAP.md)** for how this gets sequenced in practice — the reference
+material alone is 70GB+ across 40+ languages, so this isn't a "do it all at once" effort.

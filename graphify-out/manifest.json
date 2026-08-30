@@ -1,26 +1,116 @@
 {
   ".claude/settings.json": {
     "mtime": 1787615035.7974637,
-    "seen": 1788109407.0458097,
+    "seen": 1788112632.8726244,
     "ast_hash": "a9442d76c66acf7a825f994bb9d15877",
     "semantic_hash": "a9442d76c66acf7a825f994bb9d15877"
   },
   "CLAUDE.md": {
     "mtime": 1787615035.7956746,
-    "seen": 1788109407.0458121,
+    "seen": 1788112632.8726315,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
     "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
   },
   "README.md": {
-    "mtime": 1784230338.9856439,
-    "seen": 1788109407.0458133,
-    "ast_hash": "3b059323eadbf576e74a0ce2470cf07c",
-    "semantic_hash": "3b059323eadbf576e74a0ce2470cf07c"
+    "mtime": 1788109782.0218294,
+    "seen": 1788112632.8726323,
+    "ast_hash": "8c8d88552a6295ff49d8df022643c896",
+    "semantic_hash": "8c8d88552a6295ff49d8df022643c896"
   },
   "source_reference/README.md": {
     "mtime": 1787605146.0537765,
-    "seen": 1788109407.045814,
+    "seen": 1788112632.8726382,
     "ast_hash": "da43ea05c8f13a5c1bcd210c3e7981ea",
     "semantic_hash": "da43ea05c8f13a5c1bcd210c3e7981ea"
+  },
+  "datasets/_TEMPLATE/analysis/001_TEMPLATE_SHARD.json": {
+    "mtime": 1788112336.2749424,
+    "seen": 1788112632.8726273,
+    "ast_hash": "bfcbc07c22e4d78ffbaa4982c3ee8e57",
+    "semantic_hash": "bfcbc07c22e4d78ffbaa4982c3ee8e57"
+  },
+  "datasets/_TEMPLATE/analysis/_index.json": {
+    "mtime": 1788110791.440714,
+    "seen": 1788112632.8726282,
+    "ast_hash": "c0e0deab7cc1005b5466507e28ccbbd6",
+    "semantic_hash": "c0e0deab7cc1005b5466507e28ccbbd6"
+  },
+  "datasets/_TEMPLATE/established/001_TEMPLATE_SHARD.json": {
+    "mtime": 1788112330.591901,
+    "seen": 1788112632.872629,
+    "ast_hash": "b541bf1448e8bb2eba75693c66dc47ad",
+    "semantic_hash": "b541bf1448e8bb2eba75693c66dc47ad"
+  },
+  "datasets/_TEMPLATE/established/_index.json": {
+    "mtime": 1788110776.3046014,
+    "seen": 1788112632.8726296,
+    "ast_hash": "26c699b979aa4e5a6a185cf5c2413a2e",
+    "semantic_hash": "26c699b979aa4e5a6a185cf5c2413a2e"
+  },
+  "datasets/_TEMPLATE/synthesized/001_TEMPLATE_SHARD.json": {
+    "mtime": 1788112343.2729936,
+    "seen": 1788112632.8726306,
+    "ast_hash": "6d157af955d60e442e045336cc542fac",
+    "semantic_hash": "6d157af955d60e442e045336cc542fac"
+  },
+  "datasets/_TEMPLATE/synthesized/_index.json": {
+    "mtime": 1788110807.0558305,
+    "seen": 1788112632.872631,
+    "ast_hash": "6731c20639494fea68fa65728f6ec805",
+    "semantic_hash": "6731c20639494fea68fa65728f6ec805"
+  },
+  "datasets/00_Analysis_Index.md": {
+    "mtime": 1788110908.0835924,
+    "seen": 1788112632.8726327,
+    "ast_hash": "af519c975b45559cc6afbe672aca7034",
+    "semantic_hash": "af519c975b45559cc6afbe672aca7034"
+  },
+  "datasets/00_Historical_and_Geographic_Context_Guide.md": {
+    "mtime": 1788112322.0228386,
+    "seen": 1788112632.8726337,
+    "ast_hash": "586a66fa3369449f507f92ff7e125a54",
+    "semantic_hash": "586a66fa3369449f507f92ff7e125a54"
+  },
+  "datasets/00_Usage_Tier_Taxonomy.md": {
+    "mtime": 1788111358.9721127,
+    "seen": 1788112632.8726342,
+    "ast_hash": "99cf60d8fe65d53586aad3de2bf12754",
+    "semantic_hash": "99cf60d8fe65d53586aad3de2bf12754"
+  },
+  "datasets/README.md": {
+    "mtime": 1788112371.2781985,
+    "seen": 1788112632.872635,
+    "ast_hash": "260e82c1de350818f7a39e26fd983b55",
+    "semantic_hash": "260e82c1de350818f7a39e26fd983b55"
+  },
+  "datasets/_TEMPLATE/00_Extraction_Checklist.md": {
+    "mtime": 1788112351.9200568,
+    "seen": 1788112632.8726354,
+    "ast_hash": "ed0ef5ba4c43ed40b309e395015c11be",
+    "semantic_hash": "ed0ef5ba4c43ed40b309e395015c11be"
+  },
+  "language_corpus/00_Corpus_Collection_Index.md": {
+    "mtime": 1788110916.1026535,
+    "seen": 1788112632.8726358,
+    "ast_hash": "ca64bbbc8bb0d28e810efe0d9ebdaade",
+    "semantic_hash": "ca64bbbc8bb0d28e810efe0d9ebdaade"
+  },
+  "language_corpus/00_Source_Reliability_Guide.md": {
+    "mtime": 1788111951.3672278,
+    "seen": 1788112632.8726363,
+    "ast_hash": "ddc02ee0b7be2a11ee008336627a5768",
+    "semantic_hash": "ddc02ee0b7be2a11ee008336627a5768"
+  },
+  "language_corpus/README.md": {
+    "mtime": 1788112009.7576246,
+    "seen": 1788112632.872637,
+    "ast_hash": "aa6ba22fabae2cf82364cd067655b256",
+    "semantic_hash": "aa6ba22fabae2cf82364cd067655b256"
+  },
+  "language_corpus/_TEMPLATE/00_Extraction_Checklist.md": {
+    "mtime": 1788112361.8031292,
+    "seen": 1788112632.8726375,
+    "ast_hash": "12418fe3bb9edb2ab0ba6c71d4ace483",
+    "semantic_hash": "12418fe3bb9edb2ab0ba6c71d4ace483"
   }
 }
