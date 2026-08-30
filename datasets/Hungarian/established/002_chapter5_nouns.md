@@ -21,111 +21,111 @@ below carry a **Morpheme Breakdown** — this is the chapter where that structur
 
 ## Vocabulary
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| a / az | 'the' | article (definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `az` before a vowel-initial word, `a` otherwise; does not agree in case/number with its noun. p. 76 |
-| egy | 'a, an' | article (indefinite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| ház | 'house' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `házak` (no stem change, no length loss). pp. 76, 81 |
-| esemény | 'event' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `események`. p. 76 |
-| gyerek | 'child' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | shown possessed (`a gyerekem` "my child") and with demonstrative (`ez a gyerek` "this child"). p. 76 |
-| enyém | 'mine' | pronoun (possessive) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `az enyém` — definite article obligatory before possessive pronouns. p. 76 |
-| élet | 'life' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Ilyen az élet` "Such is life" — illustrates article before abstract nouns. p. 76 |
-| banán | 'banana' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Szeretem a banánt` "I like bananas" — generic-reference use of the definite article. p. 76 |
-| kedves | 'nice, dear' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | see Grammar points §5.1.1 — `Kedves a Péter` marked explicitly as colloquial. p. 76 |
-| tegnap | 'yesterday' | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| este | 'evening; last night' | noun/adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `tegnap este` "last night." p. 77 |
-| elolvas | 'to read (through)' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | past tense `elolvastam` "I read." p. 77 |
-| könyv | 'book' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `könyvek` (no stem change). pp. 77, 81 |
-| szép | 'beautiful, nice' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| fa | 'tree' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| kert | 'garden' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| gyönyörű | 'gorgeous, beautiful' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| énekesnő | 'female singer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | used as predicate noun with zero article. p. 77 |
-| rendőr | 'policeman' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | used as predicate noun with zero article. p. 77 |
-| minden | 'every, all' | determiner | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Minden este` "every night." p. 77 |
-| leves | 'soup' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | zero-article object immediately before the verb (`levest főz`). p. 77 |
-| főz | 'to cook' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| lakás | 'apartment' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| lakik | 'to live, reside' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| család | 'family' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 77 |
-| zseb | 'pocket' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | source's own worked example of suffix-stacking: `zseb+k(pl)+ben(loc.)` → `zsebekben` "in pockets." p. 78 |
-| ismerős | 'acquaintance' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `ismerősök`; source's own worked example `ismerős+öm+höz` "to my acquaintance's [house]." pp. 78, 83 |
-| barátnő | 'girlfriend' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | source's own worked example `barátnő+i+d+é+nek`. p. 78 |
-| ló | 'horse' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | irregular v-stem: `lov-`; pl. `lovak`; delative `lóról` shows no stem change outside the plural. pp. 78, 79, 81, 84 |
-| lámpa | 'lamp' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `lámpák` (final -a lengthens to -á). p. 80 |
-| táska | 'bag' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `táskák`. p. 80 |
-| csésze | 'cup' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `csészék` (final -e lengthens to -é). p. 80 |
-| lecke | 'lesson' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `leckék`. p. 80 |
-| nő | 'woman' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `nők` — vowel-final noun, no linking vowel needed. p. 80 |
-| kocsi | 'car' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `kocsik`. p. 80 |
-| hajó | 'boat' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `hajók`. p. 80 |
-| kapu | 'gate' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `kapuk`. p. 80 |
-| tű | 'needle' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `tűk`. p. 80 |
-| férfi | 'man' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | flagged as the sole exception to the low-vowel-noun class: pl. `férfiak`, not the expected pattern. p. 80 |
-| mű | 'work (artistic/literary)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem `műv-`; pl. `művek`; footnoted as the sole v-stem where the vowel before `v` stays long. pp. 80, 81 |
-| cimbalom | 'Hungarian cymbalo (musical instrument)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | footnoted exception within `-alom/-elem` nouns — behaves as a fleeting-vowel word instead. p. 80 |
-| kéz | 'hand' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, loses length: pl. `kezek`. p. 81 |
-| levél | 'letter' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, loses length: pl. `levelek`; acc. pl. `leveleket`. pp. 81, 85 |
-| pohár | 'glass (drinking)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, loses length: pl. `poharak`. p. 81 |
-| út | 'road' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, loses length: pl. `utak`. p. 81 |
-| víz | 'water' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, loses length: pl. `vizek`. p. 81 |
-| őz | 'deer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, no length loss: pl. `őzek`. p. 81 |
-| toll | 'pen' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, no length loss: pl. `tollak`. p. 81 |
-| ügy | 'matter, affair' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | low-vowel noun, no length loss: pl. `ügyek`. p. 81 |
-| cső | 'pipe' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem: pl. `csövek`. p. 81 |
-| fű | 'grass' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem: pl. `füvek`. p. 81 |
-| nyű | 'maggot' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem: pl. `nyüvek`. p. 81 |
-| hó | 'snow' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem with vowel-quality change: pl. `havak`. p. 81 |
-| szó | 'word' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem with vowel-quality change: pl. `szavak`. p. 81 |
-| kő | 'stone' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem: pl. `kövek`. p. 81 |
-| tó | 'lake' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem `tav-`; pl. `tavak`. p. 81 |
-| tő | 'stem, root (also linguistic term "stem")' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | v-stem: pl. `tövek`. p. 81 |
-| uralom | 'reign, rule' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `uralmak`. p. 82 |
-| hatalom | 'power' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `hatalmak`. p. 82 |
-| jutalom | 'reward' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `jutalmak`. p. 82 |
-| rejtelem | 'mystery' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `rejtelmek`. p. 82 |
-| érzelem | 'feeling, emotion' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `érzelmek`. p. 82 |
-| kegyelem | 'mercy' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `-alom/-elem` class: pl. `kegyelmek`. p. 82 |
-| bokor | 'bush' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, back-vowel: pl. `bokrok`. p. 82 |
-| torony | 'tower' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, back-vowel: pl. `tornyok`. p. 82 |
-| iker | 'twin' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, front unrounded: pl. `ikrek`. p. 82 |
-| eper | 'strawberry' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, front unrounded: pl. `eprek`. p. 82 |
-| köröm | 'fingernail' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, front rounded: pl. `körmök`. p. 82 |
-| tükör | 'mirror' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | fleeting-vowel noun, front rounded: pl. `tükrök`. p. 82 |
-| kalap | 'hat' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular consonant-final noun: pl. `kalapok`. p. 83 |
-| papír | 'paper' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `papírok`. p. 83 |
-| tányér | 'plate' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `tányérok`. p. 83 |
-| fiók | 'drawer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `fiókok`. p. 83 |
-| szék | 'chair' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `székek`. p. 83 |
-| törvény | 'law' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `törvények`. p. 83 |
-| füzet | 'notebook' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `füzetek`. p. 83 |
-| bűn | 'crime, sin' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `bűnök`. p. 83 |
-| gyümölcs | 'fruit' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | regular noun: pl. `gyümölcsök`. p. 83 |
-| hat | 'six' | numeral | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Hat ló van az istállóban` — illustrates singular noun required after numerals. p. 84 |
-| hány | 'how many' | pronoun (interrogative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Hány diák van a teremben?` — also triggers singular noun. p. 84 |
-| istálló | 'stable' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 84 |
-| diák | 'student' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `diákok`; shown with delative `a diákokról` "about the students." pp. 84, 85 |
-| terem | 'hall, classroom' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 84 |
-| láb | 'leg, foot' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired body part, listed as normally singular in Hungarian (`fél láb` "one leg" for a specific single reference). p. 84 |
-| szem | 'eye' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired body part, normally singular (`fél szem` "one eye"). p. 84 |
-| kesztyű | 'glove' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired accessory, normally singular in Hungarian. p. 84 |
-| cipő | 'shoe' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired accessory, normally singular; footnoted exception — `fél` does not combine with it for "one shoe" (`félcipő` instead means a specific shoe style). p. 84 |
-| szemüveg | 'eyeglasses' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired accessory, normally singular (`Drága volt a szemüveg` "The glasses were expensive"). p. 84 |
-| nadrág | 'pants, trousers' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | paired-item vocabulary, normally singular. p. 84 |
-| fél | 'half' | noun/quantifier | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | used to force reference to just one item of a normally-singular pair (`fél szem`, `fél kéz`, `fél láb`). p. 84 |
-| koszos | 'dirty' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 84 |
-| drága | 'expensive; dear' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 84 |
-| követ | 'to follow' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | past `követte`; idiom `fél szemmel követ` lit. "follow with half an eye" = "half-heartedly." p. 84 |
-| alma | 'apple' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | generic-category singular use: `Az alma a sarokban... van`. p. 85 |
-| sarok | 'corner' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 85 |
-| körte | 'pear' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 85 |
-| polc | 'shelf' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 85 |
-| bálna | 'whale' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | generic-category singular use: `A bálna a legnagyobb emlősállat`. p. 85 |
-| nagy | 'big' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | superlative `legnagyobb` "biggest" — see Morpheme Breakdown. p. 85 |
-| emlősállat | 'mammal' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | compound; see Morpheme Breakdown. p. 85 |
-| gép | 'machine' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `gépek`, shown with inessive `a gépekben` "in the machines." p. 85 |
-| kutya | 'dog' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | pl. `kutyák`; acc. pl. `kutyákat`. p. 85 |
-| csak | 'only, just' | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | `Csak fél szemmel követte...` p. 84 |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| a / az | 'the' | article (definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `az` before a vowel-initial word, `a` otherwise; does not agree in case/number with its noun. p. 76 |
+| egy | 'a, an' | article (indefinite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| ház | 'house' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `házak` (no stem change, no length loss). pp. 76, 81 |
+| esemény | 'event' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `események`. p. 76 |
+| gyerek | 'child' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | shown possessed (`a gyerekem` "my child") and with demonstrative (`ez a gyerek` "this child"). p. 76 |
+| enyém | 'mine' | pronoun (possessive) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `az enyém` — definite article obligatory before possessive pronouns. p. 76 |
+| élet | 'life' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Ilyen az élet` "Such is life" — illustrates article before abstract nouns. p. 76 |
+| banán | 'banana' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Szeretem a banánt` "I like bananas" — generic-reference use of the definite article. p. 76 |
+| kedves | 'nice, dear' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | see Grammar points §5.1.1 — `Kedves a Péter` marked explicitly as colloquial. p. 76 |
+| tegnap | 'yesterday' | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| este | 'evening; last night' | noun/adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `tegnap este` "last night." p. 77 |
+| elolvas | 'to read (through)' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | past tense `elolvastam` "I read." p. 77 |
+| könyv | 'book' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `könyvek` (no stem change). pp. 77, 81 |
+| szép | 'beautiful, nice' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| fa | 'tree' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| kert | 'garden' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| gyönyörű | 'gorgeous, beautiful' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| énekesnő | 'female singer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | used as predicate noun with zero article. p. 77 |
+| rendőr | 'policeman' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | used as predicate noun with zero article. p. 77 |
+| minden | 'every, all' | determiner | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Minden este` "every night." p. 77 |
+| leves | 'soup' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | zero-article object immediately before the verb (`levest főz`). p. 77 |
+| főz | 'to cook' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| lakás | 'apartment' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| lakik | 'to live, reside' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| család | 'family' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 77 |
+| zseb | 'pocket' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | source's own worked example of suffix-stacking: `zseb+k(pl)+ben(loc.)` → `zsebekben` "in pockets." p. 78 |
+| ismerős | 'acquaintance' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `ismerősök`; source's own worked example `ismerős+öm+höz` "to my acquaintance's [house]." pp. 78, 83 |
+| barátnő | 'girlfriend' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | source's own worked example `barátnő+i+d+é+nek`. p. 78 |
+| ló | 'horse' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | irregular v-stem: `lov-`; pl. `lovak`; delative `lóról` shows no stem change outside the plural. pp. 78, 79, 81, 84 |
+| lámpa | 'lamp' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `lámpák` (final -a lengthens to -á). p. 80 |
+| táska | 'bag' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `táskák`. p. 80 |
+| csésze | 'cup' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `csészék` (final -e lengthens to -é). p. 80 |
+| lecke | 'lesson' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `leckék`. p. 80 |
+| nő | 'woman' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `nők` — vowel-final noun, no linking vowel needed. p. 80 |
+| kocsi | 'car' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `kocsik`. p. 80 |
+| hajó | 'boat' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `hajók`. p. 80 |
+| kapu | 'gate' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `kapuk`. p. 80 |
+| tű | 'needle' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `tűk`. p. 80 |
+| férfi | 'man' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | flagged as the sole exception to the low-vowel-noun class: pl. `férfiak`, not the expected pattern. p. 80 |
+| mű | 'work (artistic/literary)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem `műv-`; pl. `művek`; footnoted as the sole v-stem where the vowel before `v` stays long. pp. 80, 81 |
+| cimbalom | 'Hungarian cymbalo (musical instrument)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | footnoted exception within `-alom/-elem` nouns — behaves as a fleeting-vowel word instead. p. 80 |
+| kéz | 'hand' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, loses length: pl. `kezek`. p. 81 |
+| levél | 'letter' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, loses length: pl. `levelek`; acc. pl. `leveleket`. pp. 81, 85 |
+| pohár | 'glass (drinking)' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, loses length: pl. `poharak`. p. 81 |
+| út | 'road' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, loses length: pl. `utak`. p. 81 |
+| víz | 'water' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, loses length: pl. `vizek`. p. 81 |
+| őz | 'deer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, no length loss: pl. `őzek`. p. 81 |
+| toll | 'pen' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, no length loss: pl. `tollak`. p. 81 |
+| ügy | 'matter, affair' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | low-vowel noun, no length loss: pl. `ügyek`. p. 81 |
+| cső | 'pipe' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem: pl. `csövek`. p. 81 |
+| fű | 'grass' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem: pl. `füvek`. p. 81 |
+| nyű | 'maggot' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem: pl. `nyüvek`. p. 81 |
+| hó | 'snow' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem with vowel-quality change: pl. `havak`. p. 81 |
+| szó | 'word' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem with vowel-quality change: pl. `szavak`. p. 81 |
+| kő | 'stone' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem: pl. `kövek`. p. 81 |
+| tó | 'lake' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem `tav-`; pl. `tavak`. p. 81 |
+| tő | 'stem, root (also linguistic term "stem")' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | v-stem: pl. `tövek`. p. 81 |
+| uralom | 'reign, rule' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `uralmak`. p. 82 |
+| hatalom | 'power' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `hatalmak`. p. 82 |
+| jutalom | 'reward' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `jutalmak`. p. 82 |
+| rejtelem | 'mystery' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `rejtelmek`. p. 82 |
+| érzelem | 'feeling, emotion' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `érzelmek`. p. 82 |
+| kegyelem | 'mercy' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `-alom/-elem` class: pl. `kegyelmek`. p. 82 |
+| bokor | 'bush' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, back-vowel: pl. `bokrok`. p. 82 |
+| torony | 'tower' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, back-vowel: pl. `tornyok`. p. 82 |
+| iker | 'twin' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, front unrounded: pl. `ikrek`. p. 82 |
+| eper | 'strawberry' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, front unrounded: pl. `eprek`. p. 82 |
+| köröm | 'fingernail' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, front rounded: pl. `körmök`. p. 82 |
+| tükör | 'mirror' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | fleeting-vowel noun, front rounded: pl. `tükrök`. p. 82 |
+| kalap | 'hat' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular consonant-final noun: pl. `kalapok`. p. 83 |
+| papír | 'paper' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `papírok`. p. 83 |
+| tányér | 'plate' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `tányérok`. p. 83 |
+| fiók | 'drawer' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `fiókok`. p. 83 |
+| szék | 'chair' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `székek`. p. 83 |
+| törvény | 'law' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `törvények`. p. 83 |
+| füzet | 'notebook' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `füzetek`. p. 83 |
+| bűn | 'crime, sin' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `bűnök`. p. 83 |
+| gyümölcs | 'fruit' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | regular noun: pl. `gyümölcsök`. p. 83 |
+| hat | 'six' | numeral | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Hat ló van az istállóban` — illustrates singular noun required after numerals. p. 84 |
+| hány | 'how many' | pronoun (interrogative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Hány diák van a teremben?` — also triggers singular noun. p. 84 |
+| istálló | 'stable' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 84 |
+| diák | 'student' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `diákok`; shown with delative `a diákokról` "about the students." pp. 84, 85 |
+| terem | 'hall, classroom' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 84 |
+| láb | 'leg, foot' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired body part, listed as normally singular in Hungarian (`fél láb` "one leg" for a specific single reference). p. 84 |
+| szem | 'eye' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired body part, normally singular (`fél szem` "one eye"). p. 84 |
+| kesztyű | 'glove' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired accessory, normally singular in Hungarian. p. 84 |
+| cipő | 'shoe' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired accessory, normally singular; footnoted exception — `fél` does not combine with it for "one shoe" (`félcipő` instead means a specific shoe style). p. 84 |
+| szemüveg | 'eyeglasses' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired accessory, normally singular (`Drága volt a szemüveg` "The glasses were expensive"). p. 84 |
+| nadrág | 'pants, trousers' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | paired-item vocabulary, normally singular. p. 84 |
+| fél | 'half' | noun/quantifier | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | used to force reference to just one item of a normally-singular pair (`fél szem`, `fél kéz`, `fél láb`). p. 84 |
+| koszos | 'dirty' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 84 |
+| drága | 'expensive; dear' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 84 |
+| követ | 'to follow' | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | past `követte`; idiom `fél szemmel követ` lit. "follow with half an eye" = "half-heartedly." p. 84 |
+| alma | 'apple' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | generic-category singular use: `Az alma a sarokban... van`. p. 85 |
+| sarok | 'corner' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 85 |
+| körte | 'pear' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 85 |
+| polc | 'shelf' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 85 |
+| bálna | 'whale' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | generic-category singular use: `A bálna a legnagyobb emlősállat`. p. 85 |
+| nagy | 'big' | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | superlative `legnagyobb` "biggest" — see Morpheme Breakdown. p. 85 |
+| emlősállat | 'mammal' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | compound; see Morpheme Breakdown. p. 85 |
+| gép | 'machine' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `gépek`, shown with inessive `a gépekben` "in the machines." p. 85 |
+| kutya | 'dog' | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | pl. `kutyák`; acc. pl. `kutyákat`. p. 85 |
+| csak | 'only, just' | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | `Csak fél szemmel követte...` p. 84 |
 
 ### Morpheme breakdown
 

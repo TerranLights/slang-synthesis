@@ -168,6 +168,20 @@ column today — this test run's ad hoc "confidence notes section at the end" ap
 per-row column would let a low-confidence *specific entry* be flagged precisely rather than only a
 whole-file confidence note covering everything uniformly.
 
+**Both formalized, same day, after developer sign-off.** `datasets/00_Reference_Extraction_Spec.md`
+now has a dedicated "Vision-reading guard: distinguish print from handwritten marginalia" section
+(mandatory for any no-text-layer source: check whether content is genuinely typeset vs. a reader's
+handwriting, exclude the latter entirely, default to excluding when genuinely unclear) and a
+`Vision Reading Confidence` column rule (same three-tier scale as `Transcription Confidence`:
+`verified`/`plausible_unverified`/`low_confidence`, or `n/a` for text-layer sources). Retrofitted
+onto every existing `established/` table project-wide (this language's two files, all of Hungarian's
+three) via a script that inserts the new column before `Notes`, defaulting to `n/a` for text-layer
+sources and `verified` for `002_lesson01_magner_vision_test.md`'s rows specifically (matching that
+file's own already-recorded medium-high confidence and this session's independent accuracy check —
+no single row was found to warrant a lower rating). Both `_TEMPLATE/established/001_TEMPLATE.md`
+and `_TEMPLATE/analysis/001_TEMPLATE.md` updated so every future language starts with the column
+already in place, not needing its own retrofit.
+
 ---
 
 ### 2026-08-30 — Storage model changed: Markdown-first, JSON shards dropped entirely

@@ -56,6 +56,14 @@ volume) are extracted.
 [`../../language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
 Not yet relevant here since no corpus collection has begun.
 
+**Vision-reading risk — directly relevant to this language.** `established/002_lesson01_magner_
+vision_test.md` was the project's first vision-reading test (a scanned, no-text-layer book), and
+carries a real `Vision Reading Confidence` column (retrofitted `verified` throughout — see that
+file's header for the retrofit note and its own "Vision-reading confidence notes" section for the
+full self-assessment). See `../00_Reference_Extraction_Spec.md`'s Vision-reading guard section —
+this same test found and correctly excluded a previous book owner's handwritten pencil marginalia,
+confirming that guard is a real, not hypothetical, necessity.
+
 **Historical & geographic context.** `Attested Era`/`Attested Region`/`Geographic Scope` columns —
 see [`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).
 This language's first shard already exercised `Attested Region` meaningfully: the source's own

@@ -41,9 +41,32 @@ Write to a Markdown file (path specified per dispatch) following this structure 
    (author(s), title, edition/year, page range).
 2. A **Vocabulary** table with these exact columns: `Term | Gloss | Part of Speech | Usage Tier |
    Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type |
-   Transcription Confidence | Notes`.
+   Transcription Confidence | Vision Reading Confidence | Notes`.
 3. A **Grammar points** section, one subsection per rule, paraphrased explanation with a short
    illustrative example if useful.
+
+### Vision-reading guard: distinguish print from handwritten marginalia
+
+**Mandatory whenever the source has no text layer and is being read visually (a scanned book).**
+Confirmed as a real risk during the Serbian/Croatian/Bosnian test run: a used/scanned copy can carry
+a previous owner's handwritten notes, underlines, or pencil-filled exercise answers alongside the
+book's own printed content. **Before extracting anything from a vision-read page, actively check
+whether it is genuinely typeset/printed source material or handwritten annotation added by a
+reader.** Handwritten content — even when it looks like a plausible answer — is never source
+content: it may be a student's own (possibly wrong) guess, not the book's authoritative material,
+and must never be extracted as if it were.
+
+- If a mark is clearly print (consistent typeset font, matches the surrounding printed page) —
+  proceed normally.
+- If a mark is clearly handwritten (pen/pencil, inconsistent with the printed typeface, sits in a
+  margin or a blank/answer space) — **exclude it entirely**, and note in the file's coverage note
+  that marginalia was found and excluded (don't just silently skip it — flag it, the same way the
+  Magner test run did).
+- If genuinely unclear which it is — **default to treating it as marginalia and exclude it**, the
+  same "default to the riskier assumption when uncertain" principle already used for subtitle/
+  transcript `source_type` defaulting (see `../language_corpus/00_Source_Reliability_Guide.md`).
+  Missing a genuinely-printed word is a smaller loss than silently extracting a stranger's
+  handwritten error as if it were the book's own content.
 
 ### Morphological composition
 
@@ -75,6 +98,19 @@ atomic gloss would hide real compositional structure the mechanics-analysis phas
   always `grammar_reference` or `dictionary`, never a subtitle/transcript type.
 - **Transcription Confidence** — `n/a` for reference-book extraction (this field only matters for
   subtitle/transcript-sourced entries during Phase 2 corpus collection).
+- **Vision Reading Confidence** — the analog of Transcription Confidence, but for entries read from
+  a scanned/image-only source instead of a clean text layer. `n/a` when the source had a real text
+  layer (`pdftotext` or equivalent produced usable text — no vision-reading was needed for this
+  entry). When the source was vision-read, use the same three-tier scale as Transcription
+  Confidence: `verified` (cross-checked — e.g. the same word also appears elsewhere on a clearly
+  legible part of the page, or was independently confirmed), `plausible_unverified` (read with
+  reasonable confidence but not independently cross-checked), `low_confidence` (genuine doubt about
+  a specific character/word — faded print, obscured by a scan artifact like a binding-gutter shadow,
+  an unusual font, or any of the marginalia-adjacent ambiguity described above). Confirmed useful
+  during the Serbian/Croatian/Bosnian vision-reading test: don't just write a whole-file confidence
+  note and leave every row silently uniform — flag the specific rows that actually carry more
+  uncertainty than the rest, the same way Transcription Confidence already does per-entry rather
+  than per-file.
 
 ## Chunking
 

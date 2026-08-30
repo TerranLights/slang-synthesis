@@ -20,153 +20,153 @@ transcribed. Repeated drill sentences reusing already-captured vocabulary are sk
 
 ## Vocabulary
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| könyv | book | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Worked example of case-stacking on p. 86: *könyv+ek+ben* → *könyvekben* "in books." |
-| lámpa | lamp | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; stem type "ends in a/e" (lengthens to á before case suffixes: lámpát, lámpában). |
-| csésze | cup | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/113; full paradigm given as one of three worked declension tables. |
-| nő | woman | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; stem ends in a vowel other than a/e, no stem change (nőt, nőben). |
-| kocsi | car | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/106; vowel-final stem, no change. |
-| hajó | boat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; vowel-final stem. |
-| kapu | gate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; vowel-final stem. |
-| tű | needle | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; low-vowel noun that loses length (tűt, tűben vs. nominative tű). |
-| út | road | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; low-vowel noun, loses length (utat, útban). |
-| kéz | hand | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; low-vowel noun, no loss of length (kezet, kézben). |
-| ház | house | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/93/94; low-vowel noun, no loss of length. |
-| toll | pen | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/104; also the v-assimilation example *toll+val → tollal*. |
-| őz | deer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; low-vowel noun. |
-| tó | lake | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; v-stem noun (tavat, tavon). |
-| cső | pipe | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; v-stem noun (csövet, csövön). |
-| jutalom | reward | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; -alom/-elem class noun, drops final vowel before suffixing (jutalmat). |
-| rejtelem | mystery | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; -alom/-elem class noun (rejtelmet). |
-| bokor | bush | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; fleeting-vowel noun (bokrot). |
-| eper | strawberry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; fleeting-vowel noun (epret). |
-| tükör | mirror | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; fleeting-vowel noun (tükröt). |
-| tányér | plate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; regular noun ending in r, no linking vowel needed for accusative. |
-| festmény | painting | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/98; regular noun ending in ny. |
-| ismerős | acquaintance | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92/112; used as the "front rounded vowel" example in the full plural paradigm. |
-| kalap | hat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; "other regular noun," requires linking vowel (kalapot). |
-| szék | chair | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; "other regular noun" (széket). |
-| gyümölcs | fruit | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90/92; "other regular noun" (gyümölcsöt). |
-| ablak | window | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 90; used to illustrate plural accusative (ablakok → ablakokat). |
-| család | family | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 105/113; subject of the full-declension paradigm table (family: családostul "with the whole family" etc.). |
-| óra | hour, clock | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 99/109/113; also a full-declension paradigm subject; recurs throughout time-expression examples. |
-| vonat | train | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 88, nominative-as-subject example: *Elindult a vonat* "The train departed." |
-| egyetem | university | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 88/95. |
-| apa | father | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 91, dative object example: *Felolvastam a leveleket az apámnak.* |
-| levél | letter | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 91. |
-| ruha | clothes, dress | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 91/98/107. |
-| hét | week | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 89/91/96/110; also root of *hetente* "weekly." |
-| hónap | month | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 89, "ago"-expression example: *Hét hónapja utazott el.* |
-| nap | day | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 89, nominative-case time expressions: *minden nap, egész nap.* |
-| Balaton | Lake Balaton | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 91, superessive example: *Egy hetet töltöttünk a Balatonon.* |
-| Anglia | England | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93, illustrates that country names take interior/inessive cases: *Angliában*. |
-| Magyarország | Hungary | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93/94/103; explicitly noted as the one country name that is an *exception* and takes exterior/superessive cases instead of interior (*Magyarországon*, *Magyarországról*). |
-| Párizs | Paris | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93, illustrates interior cases with cities outside Hungary: *Párizsból* "from Paris." |
-| Debrecen | Debrecen (city) | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93; cities within Hungary ending in j/m/n/ny/r take interior cases (illative *Debrecenbe*), unlike most Hungarian place names, which take exterior cases. |
-| Tihany | Tihany (town) | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93; same j/m/n/ny/r-final exception class as Debrecen (illative *Tihanyba*). |
-| Budapest | Budapest | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94, exterior-case example: *Budapesten* "in Budapest," *Elmegyünk Budapestre* "We are going to Budapest." |
-| Olaszország | Italy | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93, illative example: *Imre elment Olaszországba.* |
-| zseb | pocket | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93. |
-| szív | heart | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93, metaphoric interior example: *a szívemben* "in my heart." |
-| fiók | drawer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 93. |
-| kert | garden | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94/112; used as the "front unrounded vowel" example noun in the plural paradigm. |
-| terem | classroom, hall | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94/109. |
-| füzet | notebook | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94. |
-| város | city | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94, elative interrogative: *Melyik városból jössz?* |
-| villamos | tram | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94; public transportation takes exterior/superessive cases. |
-| sportmérkőzés | sports match | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94. |
-| hangverseny | concert | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94. |
-| asztal | table | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 88/94/99/107; recurring example noun across sublative/delative/superessive illustrations. |
-| jég | ice | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 94, surface example: *jégen* "on ice." |
-| orvos | doctor | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 95/96; a person's place of business takes near-case (adessive *az orvosnál*). |
-| fogorvos | dentist | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 95, allative example: *Elmentünk a fogorvoshoz.* |
-| kerítés | fence | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 95. |
-| ágy | bed | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 96, adessive example: *A kutya az ágynál fekszik.* |
-| munka | work | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 96/108, illative coverb example: *Belefáradt a munkába.* |
-| baj | trouble | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 97, illustrates illative "condition entered": *nagy bajba kerül* "gets into big trouble." |
-| düh | rage | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 97, illative example: *Dühbe jött* "She flew into a rage." |
-| Isten | God | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 97, inessive verb-government example: *Hiszel Istenben?* "Do you believe in God?" |
-| rák | cancer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 97, inessive example: *Rákban halt meg* "He died of cancer." |
-| dollár | dollar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, inessive "units of division" example: *Dollárban fizetnek.* |
-| hó | snow; month (homonym) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98/104/110. Notable homonym pair: *hó* "snow" vs. *hó* "month" — the latter is flagged as an exception to the distributive's linking-vowel rule (*havonta/havonként* "monthly"), see morpheme breakdown below. |
-| fizikus | physicist | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, elative "becoming" example: *Fizikus lett a bátyámból.* |
-| anyag | material | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98. |
-| szerelem | love | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, elative "cause/manner" example: *Nemcsak szerelemből házasodnak az emberek.* |
-| tévedés | mistake | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, elative example: *Tévedésből vettem ezt a könyvet.* |
-| kíváncsiság | curiosity | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98; note the related adjective *kíváncsi* "curious" also appears (p. 89, p. 99). |
-| hal | fish | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, elative partitive example: *Csak keveset evett a halból.* |
-| sütemény | pastry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 98, elative partitive example: *Kérsz még a süteményből?* |
-| gyerek | child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 89/94/99; also the base of the morpheme-stacked *gyerekeire* (see morpheme breakdown). |
-| barátnő | girlfriend | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 99; base of morpheme-stacked *barátnőjére* (see morpheme breakdown). |
-| jelzőtábla | (traffic) sign | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 99, sublative example: *A rendőr rámutatott a jelzőtáblára.* |
-| hagyma | onion | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 99, sublative "result" example: *Apró darabokra vágtam a hagymát.* |
-| leves | soup | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100, superessive-postposition example: *Egy órán belül készült el a leves.* |
-| terv | plan | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100, superessive verb-government example: *Melyik terven dolgozol?* |
-| ügy | matter, affair | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100, superessive example: *Sokáig gondolkozott az ügyön.* |
-| utca | street | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100/108, superessive example: *Átment az utcán.* |
-| cikk | article | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 101, delative "about" example: *Miről szól a cikk?* |
-| párt | (political) party | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 101. |
-| vacsora | dinner | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 101/109. |
-| geometria | geometry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 102, allative "good at" example: *Nem érték a geometriához.* |
-| barack | apricot | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 102, adessive comparative example: *Az idei barack édesebb a tavalyinál.* |
-| kutya | dog | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 103, ablative "fear" example: *Nem félek a kutyáktól.* |
-| csontváz | skeleton | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 103. |
-| hideg | cold | noun/adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 103, ablative "cause" example: *Reszket a hidegtől.* |
-| hőség | heat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 103, ablative example: *Elájult a hőségtől.* |
-| barát | (male) friend | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 104/105; base of the v-assimilation morpheme example *barátommal* (see morpheme breakdown). |
-| víz | water | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 104; base of the v-assimilation example *vízzé* "into water" (see morpheme breakdown). |
-| bor | wine | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 104/108; base of the v-assimilation example *borrá* "into wine." |
-| ész | mind, wit | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 102/104; instrumental assimilation example *ésszel* "with (one's) mind," and adessive idiom *nem vagy észnél* "you are out of your mind." |
-| orr | nose | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 104, double-consonant-simplification example: *orr+val → orral.* |
-| fénykép | photograph | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 105, dative example: *Megmutatja Nórának a fényképeit.* |
-| láz | fever | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 105, dative-possessor "have" construction: *Láza van a lányomnak.* |
-| labda | ball | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 106, dative-possessive example: *Kinek a labdája ez?* |
-| láb | leg, foot | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 106, dative-possessive example: *Gábornak fáj a lába.* |
-| pohár | glass | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 106, instrumental example: *Én is kérek egy pohárral.* |
-| öltöny | suit (clothing) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 106, instrumental causative example: *A szabóval varrattam egy új öltönyt.* |
-| taxi | taxi | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107, instrumental causative example: *Jánossal hívattunk egy taxit.* |
-| elnök | president | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107. |
-| láda | chest, crate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107, instrumental example: *A láda tele van régi ruhával.* |
-| kunyhó | shack | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107, translative example: *Ezt a kunyhót valódi palotává változtatták.* |
-| palota | palace | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107. |
-| kenyér | bread | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107, causal-final example: *Elküldtem a boltba kenyérért.* |
-| repülőtér | airport | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107, causal-final "come for" example: *Zsuzsa eljön a repülőtérre értem.* |
-| cipő | shoe | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108, causal-final financial-transaction example: *Hatezer forintot fizetett a cipőért.* |
-| forint | forint (currency) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108. |
-| hegy | mountain | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108, causal-final purpose-clause example: *Azért megyünk a hegyekbe...* |
-| munkahely | workplace | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108. |
-| sarok | corner | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108, terminative example: *Elkísért bennünket a sarokig.* |
-| karácsony | Christmas | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 109, temporal case example: *Szép, ha karácsonykor esik a hó.* |
-| éjfél | midnight | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 109, temporal case example: *Éjfélkor szoktam lefeküdni.* |
-| Kolozsvár | Kolozsvár/Cluj (city) | proper noun | regional | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 110/113; a Transylvanian city name given as an example of the archaic/limited-use locative case *-t/-ott/-ett/-ött* (Kolozsvárt or Kolozsvárott "in Kolozsvár"). |
-| oldal | side | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 110; locative-case form *oldalt* "sideways" contrasts with plain *oldal* "side." |
-| egyenes | straight | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 110; locative-case form *egyenest* "straight ahead." |
-| lecke | lesson | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 111, verb-government contrast example: *Nem értem a leckét.* |
-| fizika | physics | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 111, allative-government contrast: *Nem érték a fizikához.* |
-| előadás | lecture | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 111, illustrating case-dependent verb meaning: *Sokáig tartott az előadás* "The lecture lasted a long time" vs. accusative object use of *tart* in the next example. |
-| alul | below | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100; one of a set of postpositions that require a superessive-case complement. |
-| fölül | above | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100; superessive-governing postposition. |
-| kívül | outside, besides | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100; superessive-governing postposition, e.g. *Imrén kívül* "besides Imre." |
-| át | across | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100; superessive-governing postposition. |
-| belül | within | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100, e.g. *Egy órán belül* "within an hour." |
-| innen | this side of | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100. |
-| keresztül | across, through | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100. |
-| túl | beyond | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100. |
-| végig | along, to the end | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 100. |
-| együtt | together | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; governs an instrumental complement. |
-| szemben | across, opposite | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; governs an instrumental complement, e.g. *A házzal szemben van egy park.* |
-| mint | as, like | conjunction | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108; near-synonym clause alternative to the essive-formal case (*mint tanár* ≈ *tanárként*). |
-| azért | for that reason | demonstrative pronoun (case-marked) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108; the demonstrative pronoun *az* "that" in the causal-final case, used to introduce purpose clauses. |
-| válik | to become, turn into | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; one of the small closed set of verbs that take a translative complement. |
-| lesz | to become | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; translative-governing verb. |
-| tesz | to make | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; translative-governing verb. |
-| változtat | to change | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 107; translative-governing verb. |
-| bánik | to treat (someone) | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 108, essive-formal example: *Rabszolgaként bánnak velem* "They treat me like a slave." |
-| dolgozik | to work | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 95/100/108; recurring verb across superessive and essive-formal examples. |
-| büszke | proud | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 99; takes a sublative complement — base of the morpheme-stacked example *gyerekeire* (see below). |
-| kíváncsi | curious | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 89/99; also takes an illative/sublative complement depending on construction. |
-| feleségül vesz | to marry (a woman) | verb phrase (idiom, essive) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | p. 109; literally "take as a wife," illustrating the essive case's role in fixed idioms: *István feleségül vette a húgomat.* |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| könyv | book | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Worked example of case-stacking on p. 86: *könyv+ek+ben* → *könyvekben* "in books." |
+| lámpa | lamp | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; stem type "ends in a/e" (lengthens to á before case suffixes: lámpát, lámpában). |
+| csésze | cup | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/113; full paradigm given as one of three worked declension tables. |
+| nő | woman | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; stem ends in a vowel other than a/e, no stem change (nőt, nőben). |
+| kocsi | car | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/106; vowel-final stem, no change. |
+| hajó | boat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; vowel-final stem. |
+| kapu | gate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; vowel-final stem. |
+| tű | needle | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; low-vowel noun that loses length (tűt, tűben vs. nominative tű). |
+| út | road | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; low-vowel noun, loses length (utat, útban). |
+| kéz | hand | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; low-vowel noun, no loss of length (kezet, kézben). |
+| ház | house | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/93/94; low-vowel noun, no loss of length. |
+| toll | pen | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/104; also the v-assimilation example *toll+val → tollal*. |
+| őz | deer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; low-vowel noun. |
+| tó | lake | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; v-stem noun (tavat, tavon). |
+| cső | pipe | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; v-stem noun (csövet, csövön). |
+| jutalom | reward | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; -alom/-elem class noun, drops final vowel before suffixing (jutalmat). |
+| rejtelem | mystery | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; -alom/-elem class noun (rejtelmet). |
+| bokor | bush | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; fleeting-vowel noun (bokrot). |
+| eper | strawberry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; fleeting-vowel noun (epret). |
+| tükör | mirror | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; fleeting-vowel noun (tükröt). |
+| tányér | plate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; regular noun ending in r, no linking vowel needed for accusative. |
+| festmény | painting | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/98; regular noun ending in ny. |
+| ismerős | acquaintance | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92/112; used as the "front rounded vowel" example in the full plural paradigm. |
+| kalap | hat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; "other regular noun," requires linking vowel (kalapot). |
+| szék | chair | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; "other regular noun" (széket). |
+| gyümölcs | fruit | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90/92; "other regular noun" (gyümölcsöt). |
+| ablak | window | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 90; used to illustrate plural accusative (ablakok → ablakokat). |
+| család | family | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 105/113; subject of the full-declension paradigm table (family: családostul "with the whole family" etc.). |
+| óra | hour, clock | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 99/109/113; also a full-declension paradigm subject; recurs throughout time-expression examples. |
+| vonat | train | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 88, nominative-as-subject example: *Elindult a vonat* "The train departed." |
+| egyetem | university | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 88/95. |
+| apa | father | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 91, dative object example: *Felolvastam a leveleket az apámnak.* |
+| levél | letter | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 91. |
+| ruha | clothes, dress | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 91/98/107. |
+| hét | week | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 89/91/96/110; also root of *hetente* "weekly." |
+| hónap | month | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 89, "ago"-expression example: *Hét hónapja utazott el.* |
+| nap | day | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 89, nominative-case time expressions: *minden nap, egész nap.* |
+| Balaton | Lake Balaton | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 91, superessive example: *Egy hetet töltöttünk a Balatonon.* |
+| Anglia | England | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93, illustrates that country names take interior/inessive cases: *Angliában*. |
+| Magyarország | Hungary | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93/94/103; explicitly noted as the one country name that is an *exception* and takes exterior/superessive cases instead of interior (*Magyarországon*, *Magyarországról*). |
+| Párizs | Paris | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93, illustrates interior cases with cities outside Hungary: *Párizsból* "from Paris." |
+| Debrecen | Debrecen (city) | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93; cities within Hungary ending in j/m/n/ny/r take interior cases (illative *Debrecenbe*), unlike most Hungarian place names, which take exterior cases. |
+| Tihany | Tihany (town) | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93; same j/m/n/ny/r-final exception class as Debrecen (illative *Tihanyba*). |
+| Budapest | Budapest | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94, exterior-case example: *Budapesten* "in Budapest," *Elmegyünk Budapestre* "We are going to Budapest." |
+| Olaszország | Italy | proper noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93, illative example: *Imre elment Olaszországba.* |
+| zseb | pocket | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93. |
+| szív | heart | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93, metaphoric interior example: *a szívemben* "in my heart." |
+| fiók | drawer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 93. |
+| kert | garden | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94/112; used as the "front unrounded vowel" example noun in the plural paradigm. |
+| terem | classroom, hall | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94/109. |
+| füzet | notebook | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94. |
+| város | city | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94, elative interrogative: *Melyik városból jössz?* |
+| villamos | tram | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94; public transportation takes exterior/superessive cases. |
+| sportmérkőzés | sports match | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94. |
+| hangverseny | concert | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94. |
+| asztal | table | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 88/94/99/107; recurring example noun across sublative/delative/superessive illustrations. |
+| jég | ice | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 94, surface example: *jégen* "on ice." |
+| orvos | doctor | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 95/96; a person's place of business takes near-case (adessive *az orvosnál*). |
+| fogorvos | dentist | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 95, allative example: *Elmentünk a fogorvoshoz.* |
+| kerítés | fence | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 95. |
+| ágy | bed | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 96, adessive example: *A kutya az ágynál fekszik.* |
+| munka | work | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 96/108, illative coverb example: *Belefáradt a munkába.* |
+| baj | trouble | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 97, illustrates illative "condition entered": *nagy bajba kerül* "gets into big trouble." |
+| düh | rage | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 97, illative example: *Dühbe jött* "She flew into a rage." |
+| Isten | God | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 97, inessive verb-government example: *Hiszel Istenben?* "Do you believe in God?" |
+| rák | cancer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 97, inessive example: *Rákban halt meg* "He died of cancer." |
+| dollár | dollar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, inessive "units of division" example: *Dollárban fizetnek.* |
+| hó | snow; month (homonym) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98/104/110. Notable homonym pair: *hó* "snow" vs. *hó* "month" — the latter is flagged as an exception to the distributive's linking-vowel rule (*havonta/havonként* "monthly"), see morpheme breakdown below. |
+| fizikus | physicist | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, elative "becoming" example: *Fizikus lett a bátyámból.* |
+| anyag | material | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98. |
+| szerelem | love | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, elative "cause/manner" example: *Nemcsak szerelemből házasodnak az emberek.* |
+| tévedés | mistake | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, elative example: *Tévedésből vettem ezt a könyvet.* |
+| kíváncsiság | curiosity | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98; note the related adjective *kíváncsi* "curious" also appears (p. 89, p. 99). |
+| hal | fish | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, elative partitive example: *Csak keveset evett a halból.* |
+| sütemény | pastry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 98, elative partitive example: *Kérsz még a süteményből?* |
+| gyerek | child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 89/94/99; also the base of the morpheme-stacked *gyerekeire* (see morpheme breakdown). |
+| barátnő | girlfriend | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 99; base of morpheme-stacked *barátnőjére* (see morpheme breakdown). |
+| jelzőtábla | (traffic) sign | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 99, sublative example: *A rendőr rámutatott a jelzőtáblára.* |
+| hagyma | onion | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 99, sublative "result" example: *Apró darabokra vágtam a hagymát.* |
+| leves | soup | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100, superessive-postposition example: *Egy órán belül készült el a leves.* |
+| terv | plan | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100, superessive verb-government example: *Melyik terven dolgozol?* |
+| ügy | matter, affair | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100, superessive example: *Sokáig gondolkozott az ügyön.* |
+| utca | street | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100/108, superessive example: *Átment az utcán.* |
+| cikk | article | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 101, delative "about" example: *Miről szól a cikk?* |
+| párt | (political) party | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 101. |
+| vacsora | dinner | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 101/109. |
+| geometria | geometry | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 102, allative "good at" example: *Nem érték a geometriához.* |
+| barack | apricot | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 102, adessive comparative example: *Az idei barack édesebb a tavalyinál.* |
+| kutya | dog | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 103, ablative "fear" example: *Nem félek a kutyáktól.* |
+| csontváz | skeleton | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 103. |
+| hideg | cold | noun/adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 103, ablative "cause" example: *Reszket a hidegtől.* |
+| hőség | heat | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 103, ablative example: *Elájult a hőségtől.* |
+| barát | (male) friend | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 104/105; base of the v-assimilation morpheme example *barátommal* (see morpheme breakdown). |
+| víz | water | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 104; base of the v-assimilation example *vízzé* "into water" (see morpheme breakdown). |
+| bor | wine | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 104/108; base of the v-assimilation example *borrá* "into wine." |
+| ész | mind, wit | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 102/104; instrumental assimilation example *ésszel* "with (one's) mind," and adessive idiom *nem vagy észnél* "you are out of your mind." |
+| orr | nose | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 104, double-consonant-simplification example: *orr+val → orral.* |
+| fénykép | photograph | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 105, dative example: *Megmutatja Nórának a fényképeit.* |
+| láz | fever | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 105, dative-possessor "have" construction: *Láza van a lányomnak.* |
+| labda | ball | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 106, dative-possessive example: *Kinek a labdája ez?* |
+| láb | leg, foot | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 106, dative-possessive example: *Gábornak fáj a lába.* |
+| pohár | glass | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 106, instrumental example: *Én is kérek egy pohárral.* |
+| öltöny | suit (clothing) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 106, instrumental causative example: *A szabóval varrattam egy új öltönyt.* |
+| taxi | taxi | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107, instrumental causative example: *Jánossal hívattunk egy taxit.* |
+| elnök | president | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107. |
+| láda | chest, crate | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107, instrumental example: *A láda tele van régi ruhával.* |
+| kunyhó | shack | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107, translative example: *Ezt a kunyhót valódi palotává változtatták.* |
+| palota | palace | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107. |
+| kenyér | bread | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107, causal-final example: *Elküldtem a boltba kenyérért.* |
+| repülőtér | airport | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107, causal-final "come for" example: *Zsuzsa eljön a repülőtérre értem.* |
+| cipő | shoe | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108, causal-final financial-transaction example: *Hatezer forintot fizetett a cipőért.* |
+| forint | forint (currency) | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108. |
+| hegy | mountain | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108, causal-final purpose-clause example: *Azért megyünk a hegyekbe...* |
+| munkahely | workplace | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108. |
+| sarok | corner | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108, terminative example: *Elkísért bennünket a sarokig.* |
+| karácsony | Christmas | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 109, temporal case example: *Szép, ha karácsonykor esik a hó.* |
+| éjfél | midnight | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 109, temporal case example: *Éjfélkor szoktam lefeküdni.* |
+| Kolozsvár | Kolozsvár/Cluj (city) | proper noun | regional | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 110/113; a Transylvanian city name given as an example of the archaic/limited-use locative case *-t/-ott/-ett/-ött* (Kolozsvárt or Kolozsvárott "in Kolozsvár"). |
+| oldal | side | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 110; locative-case form *oldalt* "sideways" contrasts with plain *oldal* "side." |
+| egyenes | straight | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 110; locative-case form *egyenest* "straight ahead." |
+| lecke | lesson | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 111, verb-government contrast example: *Nem értem a leckét.* |
+| fizika | physics | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 111, allative-government contrast: *Nem érték a fizikához.* |
+| előadás | lecture | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 111, illustrating case-dependent verb meaning: *Sokáig tartott az előadás* "The lecture lasted a long time" vs. accusative object use of *tart* in the next example. |
+| alul | below | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100; one of a set of postpositions that require a superessive-case complement. |
+| fölül | above | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100; superessive-governing postposition. |
+| kívül | outside, besides | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100; superessive-governing postposition, e.g. *Imrén kívül* "besides Imre." |
+| át | across | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100; superessive-governing postposition. |
+| belül | within | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100, e.g. *Egy órán belül* "within an hour." |
+| innen | this side of | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100. |
+| keresztül | across, through | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100. |
+| túl | beyond | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100. |
+| végig | along, to the end | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 100. |
+| együtt | together | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; governs an instrumental complement. |
+| szemben | across, opposite | postposition | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; governs an instrumental complement, e.g. *A házzal szemben van egy park.* |
+| mint | as, like | conjunction | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108; near-synonym clause alternative to the essive-formal case (*mint tanár* ≈ *tanárként*). |
+| azért | for that reason | demonstrative pronoun (case-marked) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108; the demonstrative pronoun *az* "that" in the causal-final case, used to introduce purpose clauses. |
+| válik | to become, turn into | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; one of the small closed set of verbs that take a translative complement. |
+| lesz | to become | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; translative-governing verb. |
+| tesz | to make | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; translative-governing verb. |
+| változtat | to change | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 107; translative-governing verb. |
+| bánik | to treat (someone) | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 108, essive-formal example: *Rabszolgaként bánnak velem* "They treat me like a slave." |
+| dolgozik | to work | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 95/100/108; recurring verb across superessive and essive-formal examples. |
+| büszke | proud | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 99; takes a sublative complement — base of the morpheme-stacked example *gyerekeire* (see below). |
+| kíváncsi | curious | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 89/99; also takes an illative/sublative complement depending on construction. |
+| feleségül vesz | to marry (a woman) | verb phrase (idiom, essive) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | p. 109; literally "take as a wife," illustrating the essive case's role in fixed idioms: *István feleségül vette a húgomat.* |
 
 **Morpheme breakdown (agglutinative forms).** Hungarian case suffixes stack directly onto noun
 stems, and additional suffixes (plural, possessive) may intervene between the stem and the case —

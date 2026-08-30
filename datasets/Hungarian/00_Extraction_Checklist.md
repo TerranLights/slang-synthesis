@@ -88,6 +88,13 @@ Confidence` — see
 [`../../language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
 Don't build a mechanism finding on a `low_confidence` example without saying so.
 
+**Vision-reading risk.** All three `established/` files here were extracted from a source with a
+real text layer, so `Vision Reading Confidence` is `n/a` throughout (retrofitted when this column
+was added to the project schema, after the Serbian/Croatian/Bosnian vision-reading test). Once this
+language's own scanned/no-text-layer sources (`Hungarian-An-Essential-Grammar.pdf` 1st ed.,
+`Hungarian Verbs.pdf`, `Magyar Szlengszótár.pdf`) are extracted, apply the real three-tier scale and
+the marginalia guard — see `../00_Reference_Extraction_Spec.md`.
+
 **Historical & geographic context — optional, fill in only when the source supports it.** Entries
 carry `Attested Era`/`Attested Region`/`Geographic Scope` columns — see
 [`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).

@@ -5,15 +5,19 @@
 **Coverage note:** every grammar point and every distinct vocabulary item from this section, plus
 every explicit dialectal/regional annotation the source itself marks. Repeated drill exercises and
 duplicate example sentences that don't introduce new vocabulary or grammar are skipped — see
-`../../00_Reference_Extraction_Spec.md` for the full coverage rule.
+`../../00_Reference_Extraction_Spec.md` for the full coverage rule. **If this source has no text
+layer (vision-read from a scan): actively distinguish printed source content from any handwritten
+marginalia (a previous owner's notes/pencil answers) and exclude the latter entirely — see the
+extraction spec's "Vision-reading guard" section. Note here if any marginalia was found and
+excluded.**
 
 ---
 
 ## Vocabulary
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| *(term)* | *(gloss)* | *(noun/verb/...)* | *(core/technical/taboo/... — see `00_Usage_Tier_Taxonomy.md`)* | — *(leave as "—" unless a real frequency-dictionary-type source supports a value — a teaching grammar's lesson-ordering is not real frequency data)* | *(only if source supports it — see `00_Historical_and_Geographic_Context_Guide.md`; otherwise "—")* | *(only if source supports it, e.g. explicit `[B]`/`[C]`/`[S]`-style tags; otherwise "—")* | *(local/regional/national/transnational, only if attested region is filled in)* | `grammar_reference`/`dictionary`/`corpus_database`/etc. — see `../../../language_corpus/00_Source_Reliability_Guide.md` | `n/a` unless source_type is a subtitle/transcript type | *(context, illustrative short quote if genuinely useful — never bulk-reproduce source text)* |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| *(term)* | *(gloss)* | *(noun/verb/...)* | *(core/technical/taboo/... — see `00_Usage_Tier_Taxonomy.md`)* | — *(leave as "—" unless a real frequency-dictionary-type source supports a value — a teaching grammar's lesson-ordering is not real frequency data)* | *(only if source supports it — see `00_Historical_and_Geographic_Context_Guide.md`; otherwise "—")* | *(only if source supports it, e.g. explicit `[B]`/`[C]`/`[S]`-style tags; otherwise "—")* | *(local/regional/national/transnational, only if attested region is filled in)* | `grammar_reference`/`dictionary`/`corpus_database`/etc. — see `../../../language_corpus/00_Source_Reliability_Guide.md` | `n/a` unless source_type is a subtitle/transcript type | `n/a` if the source had a real text layer; otherwise `verified`/`plausible_unverified`/`low_confidence` — see the extraction spec | *(context, illustrative short quote if genuinely useful — never bulk-reproduce source text)* |
 
 **Morpheme breakdown (agglutinative/polysynthetic/complex-fusional forms only).** When a vocabulary
 table's `Term` is itself a composed unit whose internal structure matters — not every entry needs

@@ -76,6 +76,14 @@ Confidence` — see
 [`../../language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
 Don't build a mechanism finding on a `low_confidence` example without saying so.
 
+**Vision-reading risk carries through the same way.** `established/` entries extracted from a
+scanned (no-text-layer) source carry a `Vision Reading Confidence` column (`n/a` if the source had a
+real text layer; otherwise `verified`/`plausible_unverified`/`low_confidence`) — see
+`../00_Reference_Extraction_Spec.md`. **Any vision-read source must also be checked for handwritten
+marginalia** (a previous owner's notes/pencil answers) before extraction — never treat handwritten
+content as source material. Same discipline as transcription risk: don't build a finding on a
+`low_confidence` vision-read example without saying so.
+
 **Historical & geographic context — optional, fill in only when the source supports it.** Entries
 carry `Attested Era`/`Attested Region`/`Geographic Scope` columns — see
 [`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).

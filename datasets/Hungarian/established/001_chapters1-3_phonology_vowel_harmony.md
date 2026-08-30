@@ -24,48 +24,48 @@ Grammar points below).
 
 ### Chapter 2.1 — Consonants pronounced differently from English (p. 4-5)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| cukor | sugar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **c** = [ts] (p. 4). |
-| ecet | vinegar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **c** = [ts] (p. 4). |
-| csal | (s/he) deceives | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **cs** = [tʃ] "as in church" (p. 4). |
-| bocsánat | pardon / excuse me | noun (used as interjection) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **cs** (p. 4). |
-| dzsem | jam | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **dzs** = [dʒ] "as in jury" (p. 4). English loanword. |
-| dzsessz | jazz | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **dzs** (p. 4). English loanword. |
-| gaz | weed | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **g** = [g], always "hard" (p. 4). |
-| igen | yes | particle/adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **g** (p. 4). |
-| jó | good | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **j** = [j] "as in yes" (p. 4); reused as the **ó** vowel example (p. 8). |
-| fáj | (it) hurts | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **j** (p. 4). |
-| ró | (s/he) carves | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **r** = trilled (p. 4). |
-| kérem | please | verb (1sg definite, "I ask/request it," lexicalized as a politeness particle) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **r** (p. 4); reused as the **é** vowel example (p. 8). |
-| sárga | yellow | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **s** = [ʃ] "as in she" (p. 4). |
-| este | evening | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **s** (p. 4). |
-| szervusz | hi | interjection | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **sz** = [s] "as in sat" (p. 4). |
-| asztal | table | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **sz** (p. 4); reused as the paradigm back-vowel stem in Ch. 3's vowel-harmony table (p. 12, plural **asztalok** — see morpheme breakdown below). |
-| zseb | pocket | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **zs** = [ʒ] "as in azure" (p. 4). |
-| garázs | garage | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **zs** (p. 4). Loanword (French). |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| cukor | sugar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **c** = [ts] (p. 4). |
+| ecet | vinegar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **c** = [ts] (p. 4). |
+| csal | (s/he) deceives | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **cs** = [tʃ] "as in church" (p. 4). |
+| bocsánat | pardon / excuse me | noun (used as interjection) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **cs** (p. 4). |
+| dzsem | jam | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **dzs** = [dʒ] "as in jury" (p. 4). English loanword. |
+| dzsessz | jazz | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **dzs** (p. 4). English loanword. |
+| gaz | weed | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **g** = [g], always "hard" (p. 4). |
+| igen | yes | particle/adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **g** (p. 4). |
+| jó | good | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **j** = [j] "as in yes" (p. 4); reused as the **ó** vowel example (p. 8). |
+| fáj | (it) hurts | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **j** (p. 4). |
+| ró | (s/he) carves | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **r** = trilled (p. 4). |
+| kérem | please | verb (1sg definite, "I ask/request it," lexicalized as a politeness particle) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **r** (p. 4); reused as the **é** vowel example (p. 8). |
+| sárga | yellow | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **s** = [ʃ] "as in she" (p. 4). |
+| este | evening | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **s** (p. 4). |
+| szervusz | hi | interjection | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **sz** = [s] "as in sat" (p. 4). |
+| asztal | table | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **sz** (p. 4); reused as the paradigm back-vowel stem in Ch. 3's vowel-harmony table (p. 12, plural **asztalok** — see morpheme breakdown below). |
+| zseb | pocket | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **zs** = [ʒ] "as in azure" (p. 4). |
+| garázs | garage | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **zs** (p. 4). Loanword (French). |
 
 ### Chapter 2.1.2 — The palatal series (p. 5)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| gyár | factory | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **gy** = [ɟ], "similar to a dy sound as in during." |
-| magyar | Hungarian | adjective/noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **gy**; also the language's own endonym. |
-| lyuk | hole | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ly** = [j], identical in sound to **j**. |
-| személy | person | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ly**. |
-| nyár | summer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ny** = [ɲ], "as in canyon." |
-| kenyér | bread | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ny**. |
-| tyúk | hen | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ty** = [c], "similar to a ty sound as in studio." |
-| kártya | card | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **ty**. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| gyár | factory | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **gy** = [ɟ], "similar to a dy sound as in during." |
+| magyar | Hungarian | adjective/noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **gy**; also the language's own endonym. |
+| lyuk | hole | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ly** = [j], identical in sound to **j**. |
+| személy | person | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ly**. |
+| nyár | summer | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ny** = [ɲ], "as in canyon." |
+| kenyér | bread | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ny**. |
+| tyúk | hen | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ty** = [c], "similar to a ty sound as in studio." |
+| kártya | card | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **ty**. |
 
 ### Chapter 2.2 — Consonant length (p. 5)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| szeretem | I love him/her | verb (1sg present, definite conjugation) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Minimal pair with **szerettem** demonstrating that consonant length alone changes meaning (short **t**). See breakdown below. |
-| szerettem | I loved him/her | verb (1sg past, definite conjugation) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Same pair, long **tt** = past tense marker + person suffix. See breakdown below. |
-| vissza | back | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates a long digraph (**ssz**, i.e. lengthened **sz**) written by doubling only the first letter of the digraph. |
-| lánnyal | with a girl | noun + instrumental-comitative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long **ny** (written **nny**), and the **-val/-vel** suffix's consonant assimilating to the stem. See breakdown below. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| szeretem | I love him/her | verb (1sg present, definite conjugation) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Minimal pair with **szerettem** demonstrating that consonant length alone changes meaning (short **t**). See breakdown below. |
+| szerettem | I loved him/her | verb (1sg past, definite conjugation) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Same pair, long **tt** = past tense marker + person suffix. See breakdown below. |
+| vissza | back | adverb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates a long digraph (**ssz**, i.e. lengthened **sz**) written by doubling only the first letter of the digraph. |
+| lánnyal | with a girl | noun + instrumental-comitative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long **ny** (written **nny**), and the **-val/-vel** suffix's consonant assimilating to the stem. See breakdown below. |
 
 > **szeretem / szerettem** = szeret- (love/like, verb root) + [Ø / -t-] (present / past tense) +
 > -em (1sg definite object agreement) — the past-tense **-t-** surfaces only as consonant *length*
@@ -82,16 +82,16 @@ Grammar points below).
 This set is the book's own worked paradigm (root + suffix → surface form), so each row gets a full
 morpheme breakdown rather than an inline note.
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| adja | s/he gives it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [ɔɟː] — **d**+**j** lengthens to **gy**-like [ɟː]. |
-| hagyja | s/he leaves it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [hɔɟː] — **gy**+**j** lengthens. |
-| mutatja | s/he shows it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [mutɔcː] — **t**+**j** lengthens to **ty**-like [cː]. |
-| bátyja | his/her (older) brother | noun + 3sg possessive suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [baːcː] — **ty**+**j** lengthens. |
-| kívánjuk | we wish it | verb (1pl present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [kiːvaːŋː] — **n**+**j** lengthens to **ny**-like [ɲː]. |
-| anyja | his/her mother | noun + 3sg possessive suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [ɔɲː] — **ny**+**j** lengthens; stem shows the citation-form **anya**'s final vowel dropping before the suffix. |
-| tanulja | s/he studies it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [tɔnujː] — the one deviation in this set: **l**+**j** assimilates fully to long **jj** rather than palatalizing. |
-| énekeljünk | let's sing | verb (1pl imperative/cohortative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [eːnɛkɛjːyŋk] — same **l**+**j** → long **jj** assimilation as **tanulja**. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| adja | s/he gives it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [ɔɟː] — **d**+**j** lengthens to **gy**-like [ɟː]. |
+| hagyja | s/he leaves it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [hɔɟː] — **gy**+**j** lengthens. |
+| mutatja | s/he shows it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [mutɔcː] — **t**+**j** lengthens to **ty**-like [cː]. |
+| bátyja | his/her (older) brother | noun + 3sg possessive suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [baːcː] — **ty**+**j** lengthens. |
+| kívánjuk | we wish it | verb (1pl present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [kiːvaːŋː] — **n**+**j** lengthens to **ny**-like [ɲː]. |
+| anyja | his/her mother | noun + 3sg possessive suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [ɔɲː] — **ny**+**j** lengthens; stem shows the citation-form **anya**'s final vowel dropping before the suffix. |
+| tanulja | s/he studies it | verb (3sg present, definite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [tɔnujː] — the one deviation in this set: **l**+**j** assimilates fully to long **jj** rather than palatalizing. |
+| énekeljünk | let's sing | verb (1pl imperative/cohortative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [eːnɛkɛjːyŋk] — same **l**+**j** → long **jj** assimilation as **tanulja**. |
 
 > **adja** = ad- (give, verb root) + -ja (3sg present definite object-agreement suffix) — surface
 > **d**+**j** is pronounced long [ɟː], not written differently from a normal **-ja**.
@@ -117,25 +117,25 @@ morpheme breakdown rather than an inline note.
 
 ### Chapter 2.3 — Voicing and devoicing of consonants (p. 6-7)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| népdal | folk song | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **nép** "people/folk" + **dal** "song." Illustrates unvoiced **p**→[b] before a voiced consonant. |
-| kertben | in the garden | noun + inessive case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **t**→[d]. See breakdown below. |
-| lakbér | rent | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **lak** "dwelling" + **bér** "fee/wage." Illustrates **k**→[g]. |
-| kisgyerek | (small) child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **kis** "small" + **gyerek** "child." Illustrates **s**→[ʒ]. |
-| ketrecbe | into the cage | noun + illative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **c**→[dz]. See breakdown below. |
-| bográcsgulyás | kettle goulash | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **bogrács** "kettle/cauldron" + **gulyás** "goulash." Illustrates **cs**→[dʒ]. |
-| részben | in part | noun + inessive case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **sz**→[z]. See breakdown below. |
-| zsiráfból | from (a) giraffe | noun + elative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates **f**→[v]. See breakdown below. |
-| zsebkendő | handkerchief | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **zseb** "pocket" + **kendő** "cloth." Devoicing example, **b**→[p]. |
-| tudtok | you (pl.) know | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Devoicing example, **d**→[t]. See breakdown below (also shows back-vowel **-tok**). |
-| megszeret | (s/he) starts to like/love | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Devoicing example, **g**→[k]. See breakdown below. |
-| nyelvtan | grammar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **nyelv** "language/tongue" + **tan** "study/-ology." Devoicing example, **v**→[f]. |
-| dolgoztok | you (pl.) work | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Devoicing example, **z**→[s]. See breakdown below (back-vowel **-tok**). |
-| varázspálca | magic wand | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **varázs** "magic" + **pálca** "stick/wand." Devoicing example, **zs**→[s]. |
-| nagyterem | main hall | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **nagy** "big" + **terem** "hall." Devoicing example, **gy**→[ty]. |
-| edztek | you (pl.) train | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Devoicing example, **dz**→[c]. See breakdown below (front-vowel **-tek**). |
-| bridzstől | from bridge (the card game) | noun + ablative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | English loanword. Devoicing example, **dzs**→[cs]. See breakdown below. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| népdal | folk song | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **nép** "people/folk" + **dal** "song." Illustrates unvoiced **p**→[b] before a voiced consonant. |
+| kertben | in the garden | noun + inessive case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **t**→[d]. See breakdown below. |
+| lakbér | rent | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **lak** "dwelling" + **bér** "fee/wage." Illustrates **k**→[g]. |
+| kisgyerek | (small) child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **kis** "small" + **gyerek** "child." Illustrates **s**→[ʒ]. |
+| ketrecbe | into the cage | noun + illative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **c**→[dz]. See breakdown below. |
+| bográcsgulyás | kettle goulash | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **bogrács** "kettle/cauldron" + **gulyás** "goulash." Illustrates **cs**→[dʒ]. |
+| részben | in part | noun + inessive case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **sz**→[z]. See breakdown below. |
+| zsiráfból | from (a) giraffe | noun + elative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates **f**→[v]. See breakdown below. |
+| zsebkendő | handkerchief | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **zseb** "pocket" + **kendő** "cloth." Devoicing example, **b**→[p]. |
+| tudtok | you (pl.) know | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Devoicing example, **d**→[t]. See breakdown below (also shows back-vowel **-tok**). |
+| megszeret | (s/he) starts to like/love | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Devoicing example, **g**→[k]. See breakdown below. |
+| nyelvtan | grammar | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **nyelv** "language/tongue" + **tan** "study/-ology." Devoicing example, **v**→[f]. |
+| dolgoztok | you (pl.) work | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Devoicing example, **z**→[s]. See breakdown below (back-vowel **-tok**). |
+| varázspálca | magic wand | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **varázs** "magic" + **pálca** "stick/wand." Devoicing example, **zs**→[s]. |
+| nagyterem | main hall | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **nagy** "big" + **terem** "hall." Devoicing example, **gy**→[ty]. |
+| edztek | you (pl.) train | verb (2pl present) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Devoicing example, **dz**→[c]. See breakdown below (front-vowel **-tek**). |
+| bridzstől | from bridge (the card game) | noun + ablative case suffix | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | English loanword. Devoicing example, **dzs**→[cs]. See breakdown below. |
 
 > **kertben** = kert (garden) + -ben (inessive case, "in," front-unrounded variant) — [kɛrdbɛn],
 > stem-final **t** voices to [d] before the suffix's voiced **b**.
@@ -168,52 +168,52 @@ morpheme breakdown rather than an inline note.
 
 ### Chapter 2.4 — Assimilation of sibilants (p. 7)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| egészség | health | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [ɛgeːʃːeːg] — hissing **sz** + hushing **s** → long hushing **ss**. |
-| igazság | truth | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound-derived: **igaz** "true/right" + **-ság** (abstract-noun suffix). [igɔʃːaːg] — same **z**+**s**→**ss** assimilation. |
-| horgászzsinór | fishing line | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Compound: **horgász** "angler/fishing" + **zsinór** "cord/line." [horgaːʒːinoːr] — hissing **sz** + hushing **zs** → long hushing **zzs**. |
-| tíz zsinór | ten (lines of) cord | numeral + noun phrase | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | [tiːʒːinoːr] — same **z**+**zs**→**zzs** assimilation across a word boundary. |
-| zsinór | cord / line | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Standalone gloss for the noun in the two entries above. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| egészség | health | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [ɛgeːʃːeːg] — hissing **sz** + hushing **s** → long hushing **ss**. |
+| igazság | truth | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound-derived: **igaz** "true/right" + **-ság** (abstract-noun suffix). [igɔʃːaːg] — same **z**+**s**→**ss** assimilation. |
+| horgászzsinór | fishing line | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Compound: **horgász** "angler/fishing" + **zsinór** "cord/line." [horgaːʒːinoːr] — hissing **sz** + hushing **zs** → long hushing **zzs**. |
+| tíz zsinór | ten (lines of) cord | numeral + noun phrase | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | [tiːʒːinoːr] — same **z**+**zs**→**zzs** assimilation across a word boundary. |
+| zsinór | cord / line | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Standalone gloss for the noun in the two entries above. |
 
 ### Chapter 2.5 — Vowels, 2.6 — Stress, 2.7 — Intonation (p. 7-9)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| nap | day / sun | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short **a** = [ɔ], "aw as in awl." |
-| ár | price | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long **á** = [aː]. |
-| reggel | morning | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short **e** = [ɛ], between English "bat" and "bet." |
-| mi | what | pronoun (interrogative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short **i** = [i]. |
-| tíz | ten | numeral | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long **í** = [iː]; reused in the sibilant-assimilation example (2.4, p. 7). |
-| kívánok | I wish | verb (1sg present, indefinite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short **o** = [o]; also the root reused in **kívánjuk** above (2.2.1). |
-| köszönöm | thank you | verb (1sg, "I thank," lexicalized as a politeness formula) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates rounded front **ö** = [ø]. |
-| fő | main / head | adjective/noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long rounded front **ő** = [øː]. |
-| tud | know | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short **u** = [u]; also the root reused in **tudtok** above (2.3.2). |
-| út | road | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long **ú** = [uː]. |
-| üveg | bottle | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates short rounded front **ü** = [y]. |
-| egyszerű | simple | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates long rounded front **ű** = [yː]. |
-| kutya | dog | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | From the stress example "a kutya is" (the dog too) — shows articles **a/az** and the particle **is** ("too/also") carry no stress. |
-| szép | nice / beautiful | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | From the intonation example **Szép idő van** ("The weather is beautiful"). |
-| idő | weather / time | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Same example; also reused in **Milyen idő van?** ("What is the weather like?"). |
-| van | is / there is | verb (3sg of "to be," existential) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Copula/existential verb, used in both intonation examples above. |
-| milyen | what kind of | pronoun/interrogative adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Illustrates the higher pitch rise on a question word (2.7.2). |
-| ez | this | pronoun (demonstrative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | From **Ez az?** ("Is this it?"), a sub-three-syllable yes/no question. |
-| az | that / it (also the definite article "the" before vowels) | pronoun / article | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Same example. |
-| kedves | nice / kind / dear | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | From **Kedves?** ("Is she nice?"), a one-word yes/no question. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| nap | day / sun | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short **a** = [ɔ], "aw as in awl." |
+| ár | price | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long **á** = [aː]. |
+| reggel | morning | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short **e** = [ɛ], between English "bat" and "bet." |
+| mi | what | pronoun (interrogative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short **i** = [i]. |
+| tíz | ten | numeral | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long **í** = [iː]; reused in the sibilant-assimilation example (2.4, p. 7). |
+| kívánok | I wish | verb (1sg present, indefinite) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short **o** = [o]; also the root reused in **kívánjuk** above (2.2.1). |
+| köszönöm | thank you | verb (1sg, "I thank," lexicalized as a politeness formula) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates rounded front **ö** = [ø]. |
+| fő | main / head | adjective/noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long rounded front **ő** = [øː]. |
+| tud | know | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short **u** = [u]; also the root reused in **tudtok** above (2.3.2). |
+| út | road | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long **ú** = [uː]. |
+| üveg | bottle | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates short rounded front **ü** = [y]. |
+| egyszerű | simple | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates long rounded front **ű** = [yː]. |
+| kutya | dog | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | From the stress example "a kutya is" (the dog too) — shows articles **a/az** and the particle **is** ("too/also") carry no stress. |
+| szép | nice / beautiful | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | From the intonation example **Szép idő van** ("The weather is beautiful"). |
+| idő | weather / time | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Same example; also reused in **Milyen idő van?** ("What is the weather like?"). |
+| van | is / there is | verb (3sg of "to be," existential) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Copula/existential verb, used in both intonation examples above. |
+| milyen | what kind of | pronoun/interrogative adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Illustrates the higher pitch rise on a question word (2.7.2). |
+| ez | this | pronoun (demonstrative) | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | From **Ez az?** ("Is this it?"), a sub-three-syllable yes/no question. |
+| az | that / it (also the definite article "the" before vowels) | pronoun / article | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Same example. |
+| kedves | nice / kind / dear | adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | From **Kedves?** ("Is she nice?"), a one-word yes/no question. |
 
 ### Chapter 3 — Vowel harmony (p. 10-12)
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| lány | girl | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Back-vowel stem; dative **lánynak** demonstrates the back-vowel suffix variant. See breakdown below. |
-| nő | woman | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Front-rounded-vowel stem; dative **nőnek** demonstrates the front suffix variant. See breakdown below. |
-| ismerős | acquaintance | noun/adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Front vowels, stem-final vowel rounded (**ő**); allative **ismerőshöz** and plural **ismerősök** both take the front-rounded suffix variant. See breakdown below. |
-| bűn | crime / sin | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Front-rounded-vowel stem; plural **bűnök** demonstrates the front-rounded suffix variant. See breakdown below. |
-| füzet | notebook | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Front vowels, stem-final vowel unrounded (**e**); plural **füzetek** demonstrates the front-unrounded suffix variant. See breakdown below. |
-| gyerek | child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Only neutral (front) vowels, stem-final vowel unrounded; takes front-unrounded suffixes (**gyerekhez**, **gyerekek**). See breakdown below. Also occurs as the second element of the compound **kisgyerek** above (2.3.1). |
-| szív | heart | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Homograph/near-minimal-pair with the verb **szív** below: as a noun it has **front** vowel assonance despite containing only the neutral vowel **í**. |
-| szív | (s/he) inhales | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Same spelling as the noun above, but takes **back**-vowel suffixes — one of the "numerous exceptions" Rounds notes to the rule that neutral-vowel-only stems default to front assonance (footnote 2, p. 11). |
-| papír | paper | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | Mixed stem: back vowel (**á**) followed by a neutral vowel (**í**); classified as a back-vowel word, plural **papírok** takes the back suffix. See breakdown below. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| lány | girl | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Back-vowel stem; dative **lánynak** demonstrates the back-vowel suffix variant. See breakdown below. |
+| nő | woman | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Front-rounded-vowel stem; dative **nőnek** demonstrates the front suffix variant. See breakdown below. |
+| ismerős | acquaintance | noun/adjective | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Front vowels, stem-final vowel rounded (**ő**); allative **ismerőshöz** and plural **ismerősök** both take the front-rounded suffix variant. See breakdown below. |
+| bűn | crime / sin | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Front-rounded-vowel stem; plural **bűnök** demonstrates the front-rounded suffix variant. See breakdown below. |
+| füzet | notebook | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Front vowels, stem-final vowel unrounded (**e**); plural **füzetek** demonstrates the front-unrounded suffix variant. See breakdown below. |
+| gyerek | child | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Only neutral (front) vowels, stem-final vowel unrounded; takes front-unrounded suffixes (**gyerekhez**, **gyerekek**). See breakdown below. Also occurs as the second element of the compound **kisgyerek** above (2.3.1). |
+| szív | heart | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Homograph/near-minimal-pair with the verb **szív** below: as a noun it has **front** vowel assonance despite containing only the neutral vowel **í**. |
+| szív | (s/he) inhales | verb | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Same spelling as the noun above, but takes **back**-vowel suffixes — one of the "numerous exceptions" Rounds notes to the rule that neutral-vowel-only stems default to front assonance (footnote 2, p. 11). |
+| papír | paper | noun | core | — | contemporary (source published 2009, 2nd ed.) | — | — | grammar_reference | n/a | n/a | Mixed stem: back vowel (**á**) followed by a neutral vowel (**í**); classified as a back-vowel word, plural **papírok** takes the back suffix. See breakdown below. |
 
 > **lánynak** = lány (girl, back-vowel stem) + -nak (dative case, "to," back variant) — the dative
 > suffix's two variants are **-nak** (back) / **-nek** (front); the stem's own vowel quality picks

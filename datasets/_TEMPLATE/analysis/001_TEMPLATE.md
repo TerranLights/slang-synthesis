@@ -15,14 +15,15 @@ literature.}}
 
 ## Examples
 
-| Term | Explanation | Corpus Reference | Attested Era | Attested Region | Source Type | Transcription Confidence |
-|---|---|---|---|---|---|---|
-| *(term)* | *(how this example demonstrates the mechanism)* | *(pointer into `language_corpus/{{Language}}/`)* | *(or "—")* | *(or "—")* | `dictionary`/`forum`/`subtitle_ai_generated`/etc. | required if source_type is a subtitle/transcript type — `verified`/`plausible_unverified`/`low_confidence` |
+| Term | Explanation | Corpus Reference | Attested Era | Attested Region | Source Type | Transcription Confidence | Vision Reading Confidence |
+|---|---|---|---|---|---|---|---|
+| *(term)* | *(how this example demonstrates the mechanism)* | *(pointer into `language_corpus/{{Language}}/` or `established/`)* | *(or "—")* | *(or "—")* | `dictionary`/`forum`/`subtitle_ai_generated`/`grammar_reference`/etc. | required if source_type is a subtitle/transcript type — `verified`/`plausible_unverified`/`low_confidence`, else `n/a` | required if the underlying entry was vision-read from a scan — same three-tier scale, else `n/a` |
 
-**Transcription risk carries through.** If this mechanism's only supporting example is a
-`low_confidence` or `plausible_unverified` transcript-derived entry, say so explicitly in the
-writeup below — don't present it as settled. See
-`../../../language_corpus/00_Source_Reliability_Guide.md`.
+**Transcription and vision-reading risk both carry through.** If this mechanism's only supporting
+example is a `low_confidence` or `plausible_unverified` transcript- or vision-read-derived entry,
+say so explicitly in the writeup below — don't present it as settled. See
+`../../../language_corpus/00_Source_Reliability_Guide.md` and
+`../00_Reference_Extraction_Spec.md`'s Vision Reading Confidence rule.
 
 ## Writeup
 

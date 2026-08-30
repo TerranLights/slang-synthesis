@@ -11,6 +11,16 @@ dispatch. See the "Vision-reading confidence notes" section at the end for an ho
 of read reliability — treat that section as load-bearing for judging whether this extraction method
 is trustworthy enough to use at scale on the project's other vision-only source books.
 
+**Retrofit note:** the per-row `Vision Reading Confidence` column was added to the project schema
+after this file was originally written (this test run is what prompted adding it — see
+`../00_Reference_Extraction_Spec.md`). Populated retroactively as `verified` throughout, consistent
+with this file's own "Vision-reading confidence notes" section below (medium-high overall
+confidence, independently corroborated by the coordinating session's own read of the same source
+pages, no entry's headword/gloss found to be actually wrong). No row was downgraded to
+`plausible_unverified`/`low_confidence` — the one specific uncertainty flagged (a possible đ/d
+misread on `gòspođa` as it appears *in the dialogue*) does not affect this table's own `gòspođa`
+entry, which is sourced from the clearly-legible vocabulary-list occurrence, not the dialogue one.
+
 **Coverage note:** every grammar point and every distinct vocabulary item from Lesson 1's "Mali
 rjèčnik/rèčnik" vocabulary list, the Ràzgovor dialogue, the "Svakòdnevni ìzrazi" (Everyday
 Expressions) list, and the Grammar/Working with the Sentences sections, plus every explicit `(Cr.)`/
@@ -27,94 +37,94 @@ not extracted.
 
 ## Vocabulary
 
-| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| a | and, but | conjunction | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Mali rječnik/rečnik, p. 2. |
-| dán | day | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| dèvojka | girl, young woman | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 2; paired with `djèvojka (Cr.)`. Ekavian jat reflex. |
-| djèvojka | girl, young woman | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 2; paired with `dèvojka (S.)`. Ijekavian jat reflex. Also appears in the "Nouns" box, p. 4. |
-| dòbar, dòbro, dòbra *adj.* | good (masc./neut./fem.) | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; source footnote explains gender-agreement pattern (see Grammar points). |
-| dòbro *adv.* | well, fine | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| gòspođa | Mrs., lady, madam | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. Also occurs in the Razgovor dialogue (line 13, both columns) — see Vision-reading confidence notes on a possible đ/d misread there. |
-| hvála | thanks | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; from dialogue "Hvála, dòbro." |
-| ìme | name | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| já | I | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| já sam | I am | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| je | is [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; contrasted explicitly with emphatic `jèst`/`jèste`. |
-| jèst | yes, is [emphatic] | particle/verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 2; paired with `jèste (S.)`. Used as a one-word "Yes." in the dialogue, line 13. |
-| jèste | yes, is [emphatic] | particle/verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 2; paired with `jèst (Cr.)`. |
-| kàko | how | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; "Kàko ste?" |
-| kò | who | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 2; paired with `tkò (Cr.)`. |
-| tkò | who | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 3; paired with `kò (S.)`. |
-| lèkcija | lesson | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| lép, lépo, lépa | beautiful, good-looking | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 2; paired with `lijèp (Cr.)`. Long-jat ekavian reflex. |
-| lijèp, lijèpo, lijèpa | beautiful, good-looking | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 2; paired with `lép (S.)`. Long-jat ijekavian reflex; used in dialogue "Òna je lijèpa djévojka." |
-| li | [yes/no question particle] | particle | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| mlád, mlàdo, mlàda | young | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| mój, mòje, mòja | my | pronoun (possessive) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| nìje | is not, isn't | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| òn, òno, òna | he, it, she | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| počétak | beginning | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; from the proverb "Svàki počétak je téžak." |
-| prvi, prvo, prva | first | adjective/numeral | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| ràzgovor | conversation | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; also the section heading over the Lesson 1 dialogue, p. 1. |
-| Rajli | [Serbian phonetic spelling of "Reilly"] | proper noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | p. 2; the Croatian dialogue column retains the English spelling "Reilly" while the Serbian column respells it phonetically as "Rajli" — a nice illustration of Serbian Cyrillic-influenced phonetic-adaptation practice for foreign proper nouns, p. 1. |
-| sàda | now | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| sam | am [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| se | -self (reflexive) | pronoun/particle | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| sèstra | sister | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; recurs in the "Nouns" box, p. 4. |
-| ste | you are [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| svàki | every, each | pronoun/adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| táj, tó, tá | that, that one | demonstrative pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| tó je | that's | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2. |
-| téžak, téško, téška | difficult, heavy | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 2; from the proverb "Svàki počétak je téžak." |
-| ùdata | married [of women; `òženjen` used of men] | adjective (fem.) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3; source glosses the masculine counterpart in brackets without giving it its own headword. |
-| vèžba | exercise | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 3; paired with `vjèžba (Cr.)`. |
-| vjèžba | exercise | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 3; paired with `vèžba (S.)`. |
-| ví | you (2nd pl./formal) | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| ví se zòvete | you are named | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| ví ste | you are | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| viđénje | meeting, seeing | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. Notably not split into a `(Cr.)`/`(S.)` `viđenje`/`vidjenje` pair despite the general jat pattern — see Vision-reading confidence notes. |
-| do *(prep.)* | until, up to | preposition | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| do viđénja | goodbye | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3; recurs p. 6. |
-| zòve se | he/she is named | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| zòvem se | my name is, I am named/called | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3. |
-| žèna | woman, wife | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 3; recurs in the "Nouns" box, p. 4. |
-| brát | brother | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | "Nouns" box, p. 4. |
-| mòmak | young man, lad | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| muškárac | man, male | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| nástavnik | teacher (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| òtac | father | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| sín | son | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| stùdent | student (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| učènik | pupil (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| čòvjek | man, person | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Given as `čòvjek/čòvek` in the "Nouns" box, p. 4 — no parenthetical tag, but matches the book's own ijekavian(Cr.)/ekavian(S.) jat convention seen throughout; region assigned by that pattern rather than an explicit tag on this specific entry. |
-| čòvek | man, person | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | See `čòvjek` note above — same caveat: inferred from the book's jat convention, not an explicit per-word tag here. |
-| nástavnica | teacher (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| májka | mother | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| kćérka, ćérka | daughter | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4; two orthographic variants given together, no explicit `(Cr.)`/`(S.)` tag in the source for this pair. |
-| stùdentica, stùdentkinja | student (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4; two variant forms, no explicit tag. |
-| učènica | pupil (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 4. |
-| slijèdeća | following, next | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | From the exercise heading "Odgovorite na slijèdeća/slédeća pítanja," p. 4 — a `(Cr.)`/`(S.)` slash-pair in the instructional prose itself, consistent with the book's convention even though not set off in the vocabulary box. |
-| slèdeća | following, next | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Same heading, p. 4; ekavian counterpart of `slijèdeća`. |
-| pítanje | question | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Implied by plural `pítanja` in the same exercise heading, p. 4. |
-| gòvorim | I speak, I am speaking | verb (1sg. pres.) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Used illustratively in the "Personal Pronouns" grammar note, p. 5, to show pronoun-emphasis contrast (`govorim` vs `já gòvorim`); the full `govòriti` paradigm is formally taught in Lesson 2, out of scope here. |
-| zdràvo | greetings, hello, goodbye | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | "Svakòdnevni ìzrazi" (Everyday Expressions) list, p. 5. |
-| dòbar dán | good day | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Opens the Razgovor dialogue, p. 1, identical in both columns; also listed formally in Everyday Expressions, p. 5. |
-| dòbro jùtro | good morning | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Everyday Expressions, p. 5. |
-| dòbar vèče | good evening | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 6; paired with `dòbar vèčer (Cr.)`. Footnote: "Also possible are dòbro vèće and dòbra vèčer," suggesting a looser, less standard-bound variation exists alongside the strict Cr./S. pair. |
-| dòbar vèčer | good evening | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 6; paired with `dòbar vèče (S.)`. |
-| dòbro dòšli | welcome | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 6. |
-| láku nóć | good night | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 6. |
-| zbògom | goodbye [literally "with God"] | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 6. |
-| mòje poštovánje | my respects, regards [formal greeting/departure] | phrase | formal | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | p. 6; explicitly glossed by the source as a formal formula. |
-| srètan pút | Bon voyage! Have a good trip! | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | Explicit `(Cr.)` tag, p. 6; paired with `srèćan pút (S.)`. Matches the well-known real-world sretan/srećan put split. |
-| srèćan pút | Bon voyage! Have a good trip! | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Explicit `(S.)` tag, p. 6; paired with `srètan pút (Cr.)`. |
-| rjèčnik | dictionary, word-list | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | From the section heading "Mali rjèčnik/rèčnik," p. 2 — same `(Cr.)`/`(S.)` slash convention applied to the book's own paratext, consistent with how this pair is explicitly tagged when it recurs as a headword in Lesson 2 (p. 8). |
-| rèčnik | dictionary, word-list | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | Same heading, p. 2; ekavian counterpart of `rjèčnik`. |
-| máli | small | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | From "Mali rjèčnik" ("small dictionary/word-list"), p. 2. |
-| mikròskop | microscope | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Preface, p. xii — used only as an accentuation-pattern illustration ("the accentuation would be sèstra and mikròskop"), not part of Lesson 1's own vocabulary lists. Included for completeness since it fell within the assigned scan range. |
-| ùrok | a spell, a charm | noun | regional | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Preface, p. xii — cited by the author as a Russian/Cr&S "false friend": Russian `urók` means "lesson," while Cr&S `ùrok` means "a spell" or "a charm." Illustrative preface content, not formal Lesson 1 vocabulary. |
-| pònos | pride | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | Preface, p. xii — same false-friend passage: Russian `ponós` means "diarrhea," Cr&S `pònos` means "pride." Illustrative preface content, not formal Lesson 1 vocabulary. |
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| a | and, but | conjunction | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Mali rječnik/rečnik, p. 2. |
+| dán | day | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| dèvojka | girl, young woman | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 2; paired with `djèvojka (Cr.)`. Ekavian jat reflex. |
+| djèvojka | girl, young woman | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 2; paired with `dèvojka (S.)`. Ijekavian jat reflex. Also appears in the "Nouns" box, p. 4. |
+| dòbar, dòbro, dòbra *adj.* | good (masc./neut./fem.) | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; source footnote explains gender-agreement pattern (see Grammar points). |
+| dòbro *adv.* | well, fine | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| gòspođa | Mrs., lady, madam | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. Also occurs in the Razgovor dialogue (line 13, both columns) — see Vision-reading confidence notes on a possible đ/d misread there. |
+| hvála | thanks | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; from dialogue "Hvála, dòbro." |
+| ìme | name | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| já | I | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| já sam | I am | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| je | is [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; contrasted explicitly with emphatic `jèst`/`jèste`. |
+| jèst | yes, is [emphatic] | particle/verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 2; paired with `jèste (S.)`. Used as a one-word "Yes." in the dialogue, line 13. |
+| jèste | yes, is [emphatic] | particle/verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 2; paired with `jèst (Cr.)`. |
+| kàko | how | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; "Kàko ste?" |
+| kò | who | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 2; paired with `tkò (Cr.)`. |
+| tkò | who | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 3; paired with `kò (S.)`. |
+| lèkcija | lesson | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| lép, lépo, lépa | beautiful, good-looking | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 2; paired with `lijèp (Cr.)`. Long-jat ekavian reflex. |
+| lijèp, lijèpo, lijèpa | beautiful, good-looking | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 2; paired with `lép (S.)`. Long-jat ijekavian reflex; used in dialogue "Òna je lijèpa djévojka." |
+| li | [yes/no question particle] | particle | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| mlád, mlàdo, mlàda | young | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| mój, mòje, mòja | my | pronoun (possessive) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| nìje | is not, isn't | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| òn, òno, òna | he, it, she | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| počétak | beginning | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; from the proverb "Svàki počétak je téžak." |
+| prvi, prvo, prva | first | adjective/numeral | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| ràzgovor | conversation | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; also the section heading over the Lesson 1 dialogue, p. 1. |
+| Rajli | [Serbian phonetic spelling of "Reilly"] | proper noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | p. 2; the Croatian dialogue column retains the English spelling "Reilly" while the Serbian column respells it phonetically as "Rajli" — a nice illustration of Serbian Cyrillic-influenced phonetic-adaptation practice for foreign proper nouns, p. 1. |
+| sàda | now | adverb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| sam | am [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| se | -self (reflexive) | pronoun/particle | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| sèstra | sister | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; recurs in the "Nouns" box, p. 4. |
+| ste | you are [unemphatic copula] | verb | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| svàki | every, each | pronoun/adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| táj, tó, tá | that, that one | demonstrative pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| tó je | that's | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2. |
+| téžak, téško, téška | difficult, heavy | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 2; from the proverb "Svàki počétak je téžak." |
+| ùdata | married [of women; `òženjen` used of men] | adjective (fem.) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3; source glosses the masculine counterpart in brackets without giving it its own headword. |
+| vèžba | exercise | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 3; paired with `vjèžba (Cr.)`. |
+| vjèžba | exercise | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 3; paired with `vèžba (S.)`. |
+| ví | you (2nd pl./formal) | pronoun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| ví se zòvete | you are named | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| ví ste | you are | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| viđénje | meeting, seeing | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. Notably not split into a `(Cr.)`/`(S.)` `viđenje`/`vidjenje` pair despite the general jat pattern — see Vision-reading confidence notes. |
+| do *(prep.)* | until, up to | preposition | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| do viđénja | goodbye | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3; recurs p. 6. |
+| zòve se | he/she is named | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| zòvem se | my name is, I am named/called | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3. |
+| žèna | woman, wife | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 3; recurs in the "Nouns" box, p. 4. |
+| brát | brother | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | "Nouns" box, p. 4. |
+| mòmak | young man, lad | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| muškárac | man, male | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| nástavnik | teacher (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| òtac | father | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| sín | son | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| stùdent | student (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| učènik | pupil (male) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| čòvjek | man, person | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Given as `čòvjek/čòvek` in the "Nouns" box, p. 4 — no parenthetical tag, but matches the book's own ijekavian(Cr.)/ekavian(S.) jat convention seen throughout; region assigned by that pattern rather than an explicit tag on this specific entry. |
+| čòvek | man, person | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | See `čòvjek` note above — same caveat: inferred from the book's jat convention, not an explicit per-word tag here. |
+| nástavnica | teacher (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| májka | mother | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| kćérka, ćérka | daughter | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4; two orthographic variants given together, no explicit `(Cr.)`/`(S.)` tag in the source for this pair. |
+| stùdentica, stùdentkinja | student (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4; two variant forms, no explicit tag. |
+| učènica | pupil (female) | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 4. |
+| slijèdeća | following, next | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | From the exercise heading "Odgovorite na slijèdeća/slédeća pítanja," p. 4 — a `(Cr.)`/`(S.)` slash-pair in the instructional prose itself, consistent with the book's convention even though not set off in the vocabulary box. |
+| slèdeća | following, next | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Same heading, p. 4; ekavian counterpart of `slijèdeća`. |
+| pítanje | question | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Implied by plural `pítanja` in the same exercise heading, p. 4. |
+| gòvorim | I speak, I am speaking | verb (1sg. pres.) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Used illustratively in the "Personal Pronouns" grammar note, p. 5, to show pronoun-emphasis contrast (`govorim` vs `já gòvorim`); the full `govòriti` paradigm is formally taught in Lesson 2, out of scope here. |
+| zdràvo | greetings, hello, goodbye | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | "Svakòdnevni ìzrazi" (Everyday Expressions) list, p. 5. |
+| dòbar dán | good day | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Opens the Razgovor dialogue, p. 1, identical in both columns; also listed formally in Everyday Expressions, p. 5. |
+| dòbro jùtro | good morning | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Everyday Expressions, p. 5. |
+| dòbar vèče | good evening | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 6; paired with `dòbar vèčer (Cr.)`. Footnote: "Also possible are dòbro vèće and dòbra vèčer," suggesting a looser, less standard-bound variation exists alongside the strict Cr./S. pair. |
+| dòbar vèčer | good evening | phrase (greeting) | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 6; paired with `dòbar vèče (S.)`. |
+| dòbro dòšli | welcome | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 6. |
+| láku nóć | good night | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 6. |
+| zbògom | goodbye [literally "with God"] | interjection | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 6. |
+| mòje poštovánje | my respects, regards [formal greeting/departure] | phrase | formal | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | p. 6; explicitly glossed by the source as a formal formula. |
+| srètan pút | Bon voyage! Have a good trip! | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | Explicit `(Cr.)` tag, p. 6; paired with `srèćan pút (S.)`. Matches the well-known real-world sretan/srećan put split. |
+| srèćan pút | Bon voyage! Have a good trip! | phrase | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Explicit `(S.)` tag, p. 6; paired with `srètan pút (Cr.)`. |
+| rjèčnik | dictionary, word-list | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Croatia | national | grammar_reference | n/a | verified | From the section heading "Mali rjèčnik/rèčnik," p. 2 — same `(Cr.)`/`(S.)` slash convention applied to the book's own paratext, consistent with how this pair is explicitly tagged when it recurs as a headword in Lesson 2 (p. 8). |
+| rèčnik | dictionary, word-list | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | Serbia | national | grammar_reference | n/a | verified | Same heading, p. 2; ekavian counterpart of `rjèčnik`. |
+| máli | small | adjective | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | From "Mali rjèčnik" ("small dictionary/word-list"), p. 2. |
+| mikròskop | microscope | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Preface, p. xii — used only as an accentuation-pattern illustration ("the accentuation would be sèstra and mikròskop"), not part of Lesson 1's own vocabulary lists. Included for completeness since it fell within the assigned scan range. |
+| ùrok | a spell, a charm | noun | regional | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Preface, p. xii — cited by the author as a Russian/Cr&S "false friend": Russian `urók` means "lesson," while Cr&S `ùrok` means "a spell" or "a charm." Illustrative preface content, not formal Lesson 1 vocabulary. |
+| pònos | pride | noun | core | — | contemporary (source published 1991, rev. ed., 1998 update) | — | — | grammar_reference | n/a | verified | Preface, p. xii — same false-friend passage: Russian `ponós` means "diarrhea," Cr&S `pònos` means "pride." Illustrative preface content, not formal Lesson 1 vocabulary. |
 
 *(No morpheme breakdowns included — Serbian/Croatian/Bosnian is fusional, not agglutinative/
 polysynthetic, per this project's `00_Extraction_Checklist.md` typology note. Adjective/pronoun
