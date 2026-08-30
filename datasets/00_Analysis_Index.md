@@ -30,11 +30,13 @@ before its `language_corpus/<Language>/` folder has anything in it — this is e
 violation of the sequencing rule, as long as `analysis/`/`synthesized/` stay empty until the corpus
 catches up.
 
-**Scaling.** Structured output (`established/`, `analysis/`, `synthesized/`) lives as sharded JSON
-directories, not single files — see the per-language `00_Extraction_Checklist.md` for shard-size
-targets. Each language also gets its **own** `graphify-out/` scoped to `datasets/<Language>/`,
-never one repo-wide graph. If a single language's own graph outgrows graphify's size warnings,
-narrow further by graphing `established/`, `analysis/`, and `synthesized/` separately.
+**Scaling.** Content (`established/`, `analysis/`, `synthesized/`) lives as sharded Markdown files,
+not JSON and not single monolithic files — see the per-language `00_Extraction_Checklist.md` and
+`00_Reference_Extraction_Spec.md` for the numbering/chunking convention. Each language also gets its
+**own** `graphify-out/` scoped to `datasets/<Language>/`, never one repo-wide graph — this is the
+organized-summary/pointer layer over the Markdown content, not a separately hand-authored one. If a
+single language's own graph outgrows graphify's size warnings, narrow further by graphing
+`established/`, `analysis/`, and `synthesized/` separately.
 
 ---
 
@@ -42,7 +44,7 @@ narrow further by graphing `established/`, `analysis/`, and `synthesized/` separ
 
 | Language | Corpus status (see language_corpus index) | Analysis status | Folder |
 |---|---|---|---|
-| Serbian/Croatian/Bosnian | not started *(test-run language)* | not started — `established/` shard populated (Phase 1, 20 entries, tentative); `analysis/`/`synthesized/` correctly empty pending `language_corpus/` progress | `datasets/Serbian_Croatian_Bosnian/` |
+| Serbian/Croatian/Bosnian | not started *(test-run language)* | not started — `established/` has one Markdown vocabulary file (Phase 1, 20 entries, tentative); `analysis/`/`synthesized/` correctly empty pending `language_corpus/` progress | `datasets/Serbian_Croatian_Bosnian/` |
 
 ---
 

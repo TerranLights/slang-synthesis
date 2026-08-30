@@ -24,8 +24,8 @@ than a one-off warning.
 
 ## The rule
 
-**Every corpus entry or established/analysis/synthesized shard entry sourced from a subtitle or
-transcript must record:**
+**Every corpus entry, or `datasets/<Language>/established|analysis|synthesized/` table row, sourced
+from a subtitle or transcript must record:**
 
 1. `source_type` — one of `subtitle_human` / `subtitle_ai_generated` / `transcript_human` /
    `transcript_ai_generated` (alongside the usual non-AV source types: `dictionary`,

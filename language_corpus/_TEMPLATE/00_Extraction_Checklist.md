@@ -1,5 +1,12 @@
 # {{Language}} Slang Corpus — Extraction Checklist
 
+**When filling in `{{Language}}` below: use the folder-safe name (matching the actual
+`language_corpus/<Language>/` directory name, e.g. `Serbian_Croatian_Bosnian`) in every file path,
+and the natural display name (e.g. "Serbian/Croatian/Bosnian") in prose only. A naive
+find-and-replace of `{{Language}}` with the display name will corrupt any path containing it —
+confirmed as a real bug during the first test run, see
+`../../methodology-observations/serbian_croatian_bosnian_test_run.md`.
+
 **Purpose:** collect a real, sourced corpus of {{Language}} slang (contemporary and/or historical,
 note which) to ground later mechanics analysis (`datasets/{{Language}}/`) and eventual synthesis
 work for the sci-fi setting. Source reference grammar/vocabulary for {{Language}}, if any, lives in

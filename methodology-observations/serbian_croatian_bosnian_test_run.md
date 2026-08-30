@@ -116,6 +116,81 @@ they materially affect the scale/sequencing decision already flagged as deferred
 
 ---
 
+### 2026-08-30 — Storage model changed: Markdown-first, JSON shards dropped entirely
+
+**Resolved, not just flagged.** Following developer discussion, the pipeline's storage model
+changed from hand-authored JSON shards (`established/analysis/synthesized` directories of
+`.json` files with `_index.json` manifests) to **Markdown-first**: numbered `.md` files (vocabulary
+tables, mechanism writeups, synthesized-slang writeups) as the sole content store, with
+`/graphify datasets/<Language>` providing the organized-summary/pointer layer instead of a
+hand-maintained manifest. Reasoning (developer + assistant converged):
+
+- Matches the Inner Tepenia GDD repo's own pattern (prose Markdown, not JSON) that this project's
+  whole extraction methodology is modeled on.
+- Subagents produce much more reliable Markdown than deeply-nested JSON with many optional fields —
+  a real risk given the "subagent-parallelized extraction" method decided in the same discussion.
+- Removes a genuine duplication the JSON-shard design had introduced without it being noticed: the
+  checklist template already had a Markdown `## Output files` table *and* parallel JSON shards for
+  the same content.
+- Graphify's own node schema already carries `source_file`/`source_location` — exactly the
+  "addresses pointing to where the full corpus of any particular thing is located" the developer
+  asked for, with no bespoke schema needed. Numeric data (weight/frequency/etc.) lives as ordinary
+  table columns in the Markdown itself rather than needing a separate JSON field.
+
+**What changed:**
+- `datasets/_TEMPLATE/{established,analysis,synthesized}/` now hold one `.md` template each
+  (`001_TEMPLATE.md`) instead of `_index.json` + `001_TEMPLATE_SHARD.json`.
+- New `datasets/00_Reference_Extraction_Spec.md` — the reusable Phase 1 subagent prompt (coverage
+  rule, copyright discipline, Markdown table format, chunking convention), mirroring how
+  `/graphify` itself has a shared `extraction-spec.md` handed to every semantic-extraction
+  subagent.
+- `datasets/00_Usage_Tier_Taxonomy.md` and `datasets/00_Historical_and_Geographic_Context_Guide.md`
+  updated from JSON-field phrasing ("field," "null," "array") to Markdown-column phrasing
+  ("column," "—" for unknown, semicolon-separated lists).
+- `datasets/Serbian_Croatian_Bosnian/established/001_lesson01_basics.json` converted to
+  `.md` (a real table, same 20 entries, same content — no data lost in the conversion).
+- All `_index.json` files removed project-wide; none will be created going forward.
+
+**A second, unrelated bug found and fixed while doing this conversion:** the earlier `replace_all`
+edits that filled `{{Language}}` → `"Serbian/Croatian/Bosnian"` in the per-language checklist copies
+had silently corrupted every file path containing the placeholder —
+`` `language_corpus/{{Language}}/` `` became the literal, broken
+`` `language_corpus/Serbian/Croatian/Bosnian/` `` (three extra, non-existent path segments) instead
+of the real folder name `Serbian_Croatian_Bosnian`. **This went unnoticed for several turns** since
+the broken paths still *looked* plausible in prose. Fixed by hand in both checklist files. **Added a
+standing warning to both `_TEMPLATE/00_Extraction_Checklist.md` files**: fill `{{Language}}` with
+the folder-safe name in paths, the display name in prose — don't naive-replace both from the same
+value. Worth double-checking any other file touched by that same original `replace_all` pass for the
+same corruption (the taxonomy/guide docs were checked during this pass and were clean — they don't
+reference this language's specific paths).
+
+---
+
+### 2026-08-30 — Word-concept / morphological typology added as a new methodology dimension
+
+Developer flagged, independent of the storage-model discussion above: "word" is not a stable
+cross-linguistic unit (Finnish `pikkupukkikaupungissamme` = an entire English phrase in one
+orthographic word). Added `datasets/00_Word_Concept_and_Morphological_Typology_Guide.md` — typology
+categories (isolating/agglutinative/fusional/polysynthetic, usually mixed rather than pure), a
+per-language "Morphological typology" field added to the checklist template (filled in during Phase
+0, before extraction), and a morpheme-breakdown convention for `established/` vocabulary tables when
+a surface word-form has real compositional structure worth decomposing.
+
+**Applied retroactively to this test-run language:** Serbian/Croatian/Bosnian characterized as
+fusional (case/gender/number fused into single non-separable endings, e.g. `mòje`) — no
+agglutinative/polysynthetic behavior in the material extracted so far, so no morpheme breakdowns
+were needed in the existing shard. This is a genuinely different typology than Finnish's
+agglutinative case (the example that prompted this guide), which is itself a useful early
+cross-language data point once a second language gets extracted.
+
+**Also cross-referenced into the taxonomy doc:** `morphological_play` (an existing slang-derivation
+type in `00_Usage_Tier_Taxonomy.md`) means something different depending on typology — rich in
+agglutinative languages where morphological combination is already grammatically normal, more
+marked in isolating languages. Noted in both docs so this doesn't get missed during Phase 3
+analysis on a later, more morphologically complex language.
+
+---
+
 ### 2026-08-30 — Index prerequisite rule found stale against the actual pipeline shape
 
 `datasets/00_Analysis_Index.md`'s original prerequisite note said a language "cannot move past `not

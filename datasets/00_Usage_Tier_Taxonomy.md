@@ -1,14 +1,20 @@
 # Usage-Tier & Slang-Type Taxonomy
 
 **Purpose.** A shared, cross-language vocabulary for two categorization dimensions that every
-language's `established/` and `analysis/` shards should use consistently, so findings are
+language's `established/` and `analysis/` Markdown tables should use consistently, so findings are
 comparable across languages rather than each language inventing its own ad hoc labels.
 
 **This is a living document.** Start from the categories below, but if a language's real data
 doesn't fit, extend this file (don't force a fit) and note the addition's language of origin.
-Language-specific values are fine in a `established/` entry's `usage_tier` field even before
+Language-specific values are fine in an `established/` entry's `Usage Tier` column even before
 they're added here — but if the same value keeps recurring across 2+ languages, promote it into
 this shared list in the same commit.
+
+**See also `00_Word_Concept_and_Morphological_Typology_Guide.md`** — the `morphological_play`
+derivation type below means something different depending on a language's morphological typology
+(agglutinative languages have rich morphological combination built into standard grammar; isolating
+languages don't), so ground any `morphological_play` finding in that language's own typology
+profile.
 
 **Every tier and derivation type here is extensible with subcategories, by design.** Real
 findings will very likely turn up distinctions this list doesn't anticipate — a language's
@@ -45,8 +51,9 @@ colloquial (a rare slang term), so `usage_tier` and `frequency`/`weight` are sep
 ## 2. Slang-derivation types (for `analysis/` mechanism entries)
 
 Categorizes *which usage tier(s) a given slang-formation mechanism draws from* — i.e. what
-"area" of the standard language it raids, inverts, compresses, or repurposes. Record as
-`derived_from_tiers` (array — a mechanism can draw from more than one).
+"area" of the standard language it raids, inverts, compresses, or repurposes. Record in the
+`analysis/` writeup's "Derived from tiers" field — a mechanism can draw from more than one tier,
+list them all.
 
 | Type | Description | Typical source tier(s) |
 |---|---|---|

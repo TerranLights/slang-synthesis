@@ -7,26 +7,26 @@ slang vs. Singaporean Mandarin slang). When this is knowable, it matters for ana
 mechanism that looks "universal" might actually be a regional or era-bound pattern once enough
 entries carry this context.
 
-**These fields are optional, not required.** Most slang collected from general web research will
-not come with confidently attestable date/place attribution, and forcing the field would produce
+**These columns are optional, not required.** Most slang collected from general web research will
+not come with confidently attestable date/place attribution, and forcing a value would produce
 either false precision (guessing an era/region without real basis) or noise (empty placeholders
 everywhere). **Fill them in only when the source actually supports it** — a term explicitly dated
 in a source, discussed as regional in a source, or drawn from a source with clear
 temporal/geographic scope (a specific era's media, a region-specific forum/subtitle track).
 
-## Fields
+## Columns
 
-Added to `established/`, `analysis/` (on examples), and `synthesized/` (as `based_on_*` context)
-entries:
+Added to `established/` vocabulary tables, `analysis/` examples tables, and `synthesized/` entries
+(as a "based on era/region context" note):
 
-| Field | Type | Meaning |
-|---|---|---|
-| `attested_era` | string or `null` | When the term is/was in use, as precisely as the source actually supports — `"1960s"`, `"1960s–1970s"`, `"contemporary (2020s)"`, `"pre-1900, exact period unclear"`. Use `null` when genuinely unknown, not a guess. |
-| `attested_region` | array of strings or `null` | Where the term is/was in use, as specifically as the source supports — `["Quebec City", "Quebec (broader)"]`, `["Shenzhen", "Guangdong"]`. An array because a term can have multiple documented regions. `null` when unknown — most entries will legitimately be `null` here. |
-| `geographic_scope` | string or `null` | Coarse classification when `attested_region` is populated: `local` (single city/small area), `regional` (province/state-sized or a defined dialect area), `national`, `transnational` (spans a language's speaker population across borders). Optional even when `attested_region` is known — only fill in if genuinely clear. |
+| Column | Meaning |
+|---|---|
+| `Attested Era` | When the term is/was in use, as precisely as the source actually supports — `1960s`, `1960s–1970s`, `contemporary (2020s)`, `pre-1900, exact period unclear`. Use `—` when genuinely unknown, not a guess. |
+| `Attested Region` | Where the term is/was in use, as specifically as the source supports — `Quebec City; Quebec (broader)`, `Shenzhen; Guangdong` (semicolon-separated if a term has multiple documented regions). `—` when unknown — most entries will legitimately be `—` here. |
+| `Geographic Scope` | Coarse classification when Attested Region is populated: `local` (single city/small area), `regional` (province/state-sized or a defined dialect area), `national`, `transnational` (spans a language's speaker population across borders). Optional even when Attested Region is known — only fill in if genuinely clear. |
 
-**`null` is a legitimate, expected value — not a TODO.** Don't backfill these with a best guess to
-avoid leaving them empty; an honestly-unknown field is more useful than a false one, especially
+**`—` is a legitimate, expected value — not a TODO.** Don't backfill these with a best guess to
+avoid leaving them empty; an honestly-unknown value is more useful than a false one, especially
 since wrong era/region attribution could actively mislead a later finding (e.g. wrongly treating a
 1960s-only term as evidence of a still-active contemporary mechanism).
 
