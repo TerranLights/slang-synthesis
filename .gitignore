@@ -1,6 +1,7 @@
 source_reference/**/
 
 # graphify machine-specific temp files (regenerated each run)
-graphify-out/.graphify_python
-graphify-out/.graphify_root
-graphify-out/.graphify_detect.json
+# unanchored so this also matches per-language graphify-out/ subfolders, e.g. datasets/<Language>/graphify-out/
+**/graphify-out/.graphify_python
+**/graphify-out/.graphify_root
+**/graphify-out/.graphify_detect.json

@@ -272,3 +272,147 @@ for it. **Fixed the index's wording to distinguish `established/`'s Phase-1-only
 `analysis/`/`synthesized/`'s genuine Phase-2 dependency**, same commit as this observation. Worth
 double-checking during review whether this distinction should also be reflected more explicitly in
 the per-language checklist template, not just the master index.
+
+---
+
+### 2026-08-30 — Bridge-scale test: one full book, full-language-folder-scale readiness verdict
+
+**Purpose of this run.** After three prior test runs each covered a single lesson/chapter-sized
+slice (~20-300 entries), the developer asked directly whether the pipeline was ready for full,
+complete extraction of an entire language folder. Honest assessment at the time: not yet confirmed
+— every validated data point so far was small-scale. The developer's proposed bridge: extract one
+complete, very large book (not a whole language folder, not a single lesson) as an intermediate
+scale test. Recommended and confirmed: Alexander & Elias-Bursać's *Bosnian, Croatian, Serbian, a
+Textbook* (531 pages) — this project's flagship SCB source, clean text layer, 20 lessons + 9
+appendices + a full bilingual glossary, large enough to actually stress the pipeline's untested
+edges (parallelism at real scale, checklist-write concurrency beyond n=3, sustained subagent
+dispatch across dozens of chunks) without yet committing to all 40+ languages.
+
+**Scale achieved.** 32 output files in `established/`, ~338,000 words, ~8,452 vocabulary-table rows,
+covering the entire book: all 20 lessons, Appendices 1-6/9/7-8, and the full 5-part BCS-English
+glossary (~4,172 glossary entries alone). Compare to the Hungarian run's 3-chunk/~350-entry test —
+this run dispatched **28 extraction chunks** (roughly 9x the prior largest run) in a single language.
+
+**Finding 1 — a real hard system limit: 20 concurrent subagents.** Dispatching wave 2 (8 chunks at
+once, on top of wave 1's already-running chunks) hit a genuine ceiling: 6-7 of 8 `Agent` calls were
+flatly rejected with "Concurrent subagent limit reached. You can run 20 subagents at once. Do not
+retry." This is the first time this project's work has actually hit a hard platform limit rather
+than a soft best-practice concern. **Resolved by waiting for in-flight chunks to complete (freeing
+slots) and retrying the remaining wave-2 chunks in smaller batches** (4, then more, as slots freed),
+paced with periodic `find`-based disk-state checks plus `ScheduleWakeup` between retries rather than
+busy-polling. **This is now a confirmed, load-bearing planning constraint for the full 40+-language
+rollout**: any dispatch plan involving more than ~15-18 chunks at once needs an explicit wave/retry
+strategy, not a single flat `Agent` burst.
+
+**Finding 2 — serialized checklist updates, chosen proactively, worked cleanly at this scale.**
+The Dutch run's own finding (n=3 concurrent checklist writers self-protected, but "not a guarantee"
+at higher parallelism) was treated as a real caution here, not just a historical note: at 28
+concurrent-ish chunks, no subagent was told to touch the shared `00_Extraction_Checklist.md` at all.
+A single manual pass compiled the full Output files table and Reference extraction progress
+checkboxes after all chunks landed. **Zero checklist corruption, zero lost updates** — confirms the
+serialized-update mitigation (already promoted into `00_Reference_Extraction_Spec.md` after the
+Dutch run) is the right call once parallelism exceeds single digits, not just a theoretical
+recommendation.
+
+**Finding 3 — check-first duplicate-prevention validated in production, twice.** Every dispatch was
+instructed to check whether its target output file already existed with substantive content and
+stop if so, specifically to protect against retry-driven duplicate dispatch during the wave-based
+concurrency-limit workaround. This was actually exercised: **glossary part 4** (`029_glossary_bcs_
+english_part4.md`) was dispatched twice — a long-running original wave-2 attempt eventually
+succeeded in the background well after the hard-rejection was understood, and a later explicit retry
+of the same chunk was also issued. The second dispatch correctly detected the file already existed
+with ~800 substantive entries and stopped without overwriting. **Glossary part 5** (`030_glossary_
+bcs_english_part5.md`) hit the same double-dispatch scenario via a closer race; the second dispatch
+did write content, but manual verification (`wc -l`/`head`/`tail` against the file) confirmed the
+final file is coherent, complete, and not corrupted — no interleaved or truncated output. **Verdict:
+the check-first pattern is a real, working safety net for exactly the kind of retry-driven duplicate
+dispatch this bridge test's own concurrency-limit workaround created** — worth keeping as a standing
+instruction in the extraction spec for any future high-parallelism run, not just this one.
+
+**Finding 4 — two distinct PDF-extraction bugs, both self-corrected by subagents without
+intervention.** (a) Lesson 5's subagent initially had `pdftotext -layout` scramble a two-column
+vocabulary box, swapping "pet"/"fifth" and "peti, peto, peta"/"five" — caught and corrected by the
+subagent itself via cross-reference to a numeral chart elsewhere on the same page, flagged in Notes.
+(b) The glossary's two-column dictionary layout (parts 3, 4, 5) triggered a related but distinct bug:
+`pdftotext -layout` interleaved left/right column text onto shared lines, corrupting alphabetical
+order — fixed by switching to per-column bounding-box extraction (`-x`/`-W` flags or left/right
+crops) instead of a single `-layout` pass. Glossary part 2 additionally showed artifacts from a
+third-party "Advanced PDF Repair" tool's own prior processing, caught via raw-vs-layout
+cross-checking. **All three fixes were subagent-initiated, not developer-flagged** — worth recording
+as a growing catalog of concrete two-column/multi-column PDF gotchas future language extractions
+should watch for from the start, not rediscover independently each time.
+
+**Finding 5 — source errata flagged, never silently "corrected."** Lesson 15's subagent found what
+looked like a reversed `[B]`/`[C]` dialect tag on `tko`/`ko` (inconsistent with the pattern
+established elsewhere in the book) — rather than normalizing it to match the expected pattern, it
+verified against the actual rendered page image and recorded the anomaly faithfully with an explicit
+flag (`tko_ko_editorial_dialect_tag_anomaly`, later confirmed as a genuine graph node). This is the
+behavior this project's copyright/fidelity discipline is meant to produce, and it held under real
+pressure to "fix" an apparent inconsistency.
+
+**Finding 6 — the most significant single content finding: syllable-switching slang formation.**
+Appendices 7-8's subagent, extracting vocabulary from two copyrighted short stories, surfaced a
+footnoted slang-formation mechanism: syllables within a word get reordered/switched to form new slang
+terms — `vozdra` < `zdravo` ("hello"), `žemka` < `kažem` ("I say") — with explicit regional (Sarajevo/
+Zagreb) and historical (1960s Zagreb) attestation in the source. This is exactly the kind of
+real-world slang-mechanics data point the entire project exists to accumulate, and it came from
+literary-appendix vocabulary extraction, not a dictionary or a "colloquial" chapter — a data point
+worth remembering when triaging future languages' literary/reading-comprehension sections. Graphify
+gave it its own well-developed concept node and made it the anchor of a hyperedge tying together the
+run's first taboo entry, an archaic pair, and the Montenegrin-regional-variant cluster — the graph
+correctly recognized it as a structural hub for this run's usage-tier diversity, not an isolated
+curiosity.
+
+**Finding 7 — new usage-tier and taxonomy territory, all first-appearances in this project.**
+Lesson 19 (an epic-poetry lesson) produced this project's **first `archaic` and `regional`
+usage-tier entries** — Montenegrin-dialect forms explicitly glossed by the source in context (`vakat`/
+`zeman`/`putalj`, Ottoman-Turkism epic-register vocabulary). The glossary (parts 1 and 5) produced
+this project's **first `taboo` entries** (`gòvno`, explicitly marked "vulg." in the source) and
+**first `literary` tier** usage, plus the **first dot-notation subcategory use anywhere in the
+project**: `technical.grammar`/`technical.linguistics` on glossary entries that are themselves
+grammatical/linguistic terminology. Confirms the taxonomy's dot-notation extensibility (designed but
+previously untested on real data) works as intended the first time real data called for it.
+
+**Finding 8 — explicit source-labeled slang, twice.** Lesson 7 flags a phrase as "Amusing slang
+usage" in its own text (`Ma moj!`, an ungrammatical retort to `Ma nemoj!`) — the first time a source
+in this project has self-labeled something as slang rather than requiring inference from register
+cues. Lesson 9 similarly surfaces explicit Belgrade slang (`kèva` "Mom") and teen slang (`stara`/
+`stari`/`starci`), alongside genuine regional variation in ordinary family-term vocabulary across
+four cities/regions in the same lesson.
+
+**Finding 9 — a subagent split its own output file unprompted, correctly.** Lesson 16's dispatch grew
+large enough (letters from three different correspondents, each a distinct register/vocabulary set)
+that its subagent split into three files (`018_lesson16.md` + `_vocab2.md` + `_vocab3.md`) on its own
+initiative, without being told to, correctly following the spirit of the "don't let output files grow
+unbounded" guidance even though no explicit split threshold was given. Worth treating as a working,
+generalizable behavior rather than a one-off — future dispatch prompts don't need to hand-specify
+a file-size split point.
+
+**Finding 10 — graphify held up at ~9x the largest prior per-language scale**, including a real
+two-subagent semantic-extraction split (17 files each) — the first time this project's graphify
+integration has itself been chunked across multiple parallel dispatches rather than a single pass.
+Result: 136 nodes, 206 edges, 10 communities, clean health (one collapsed edge — two independent
+subagents both noted the same real cross-file relationship between Lesson 2 and Lesson 4's B/C/S
+dialect tagging, collapsed to one edge on graph build; benign, not corruption). The `[B]/[C]/[S]`
+dialect-tagging convention emerged as the single highest-degree god node (20 edges) — a strong signal
+that node-collapsing discipline (extracting recurring *concepts*, not one node per vocabulary row)
+continues to scale correctly even at 8x the content volume tested previously. A genuine hyperedge
+("Usage-tier diversity across sources: slang mechanism, taboo entry, archaic register, Montenegrin
+regional variant") ties together findings 6 and 7 above as a single structural pattern — another
+example, following the Dutch run's precedent, of graphify surfacing a cross-cutting pattern no single
+extraction subagent could have seen alone.
+
+**Overall verdict: the methodology is validated for full-language-folder-scale extraction**, with
+one firm operational caveat. Every mechanism this run stress-tested — parallel dispatch, the shared
+extraction spec producing consistent output across 28 independent subagents, check-first
+duplicate-safety, serialized shared-file updates, self-correcting PDF-extraction-bug handling, and
+graphify's node-collapsing discipline — held at ~9x the previous largest scale with zero data loss
+and zero corruption. The one real constraint discovered is **the 20-concurrent-subagent platform
+ceiling**, which is a planning/pacing concern (wave-based dispatch with retry logic), not a
+methodology flaw — it doesn't block full-language-scale extraction, it just means a single language's
+full extraction (let alone dispatching multiple languages in parallel) needs to be planned in waves
+rather than assumed to fire as one uncapped burst. **Recommendation: proceed to full-language-folder
+extraction**, budgeting for wave-based dispatch on any language whose full extraction plan exceeds
+~15-18 concurrent chunks, and continuing the check-first + serialized-checklist safety patterns as
+standing practice rather than optional caution. As with every test run, all findings above remain
+tentative pending developer review before being treated as settled process.

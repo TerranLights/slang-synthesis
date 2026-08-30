@@ -1,0 +1,206 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1788127447.7812996,
+    "seen": 1788132969.515806,
+    "ast_hash": "75a5f923bc65f9705c4d572452accdb9",
+    "semantic_hash": "75a5f923bc65f9705c4d572452accdb9"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1788132440.602409,
+    "seen": 1788132969.515809,
+    "ast_hash": "c22179c8f656a7a7dd5529efb9010ed7",
+    "semantic_hash": "c22179c8f656a7a7dd5529efb9010ed7"
+  },
+  "established/001_lesson01_basics.md": {
+    "mtime": 1788127897.3520718,
+    "seen": 1788132969.51581,
+    "ast_hash": "42f796f28963f6cfd4d5d36adf421fac",
+    "semantic_hash": "42f796f28963f6cfd4d5d36adf421fac"
+  },
+  "established/002_lesson01_magner_vision_test.md": {
+    "mtime": 1788127937.8044598,
+    "seen": 1788132969.5158107,
+    "ast_hash": "58d8eee3563b08fade80859717624aed",
+    "semantic_hash": "58d8eee3563b08fade80859717624aed"
+  },
+  "established/003_lesson01_complete.md": {
+    "mtime": 1788130802.568281,
+    "seen": 1788132969.5158114,
+    "ast_hash": "ca3a8db9e725318ab18928bc1ee26aa8",
+    "semantic_hash": "ca3a8db9e725318ab18928bc1ee26aa8"
+  },
+  "established/004_lesson02.md": {
+    "mtime": 1788130769.663985,
+    "seen": 1788132969.515812,
+    "ast_hash": "17170690f49f2848176ff7c481f6a165",
+    "semantic_hash": "17170690f49f2848176ff7c481f6a165"
+  },
+  "established/005_lesson03.md": {
+    "mtime": 1788130533.4388509,
+    "seen": 1788132969.5158126,
+    "ast_hash": "285166ab6fca4aad707b7c4199267454",
+    "semantic_hash": "285166ab6fca4aad707b7c4199267454"
+  },
+  "established/006_lesson04.md": {
+    "mtime": 1788130920.4363396,
+    "seen": 1788132969.515813,
+    "ast_hash": "14bc10563d204ba2137d3ed8a2e0fccf",
+    "semantic_hash": "14bc10563d204ba2137d3ed8a2e0fccf"
+  },
+  "established/007_lesson05.md": {
+    "mtime": 1788131010.7941492,
+    "seen": 1788132969.5158138,
+    "ast_hash": "18083d59d8f76375c827524581ce3d10",
+    "semantic_hash": "18083d59d8f76375c827524581ce3d10"
+  },
+  "established/008_lesson06.md": {
+    "mtime": 1788130810.670354,
+    "seen": 1788132969.5158143,
+    "ast_hash": "180c5f5f4f0b50d1b7c11ab7e593de1c",
+    "semantic_hash": "180c5f5f4f0b50d1b7c11ab7e593de1c"
+  },
+  "established/009_lesson07.md": {
+    "mtime": 1788130691.2552783,
+    "seen": 1788132969.515815,
+    "ast_hash": "8c846a7980b0cfdccd1a477fe955eb89",
+    "semantic_hash": "8c846a7980b0cfdccd1a477fe955eb89"
+  },
+  "established/010_lesson08.md": {
+    "mtime": 1788130632.5267482,
+    "seen": 1788132969.5158157,
+    "ast_hash": "8dc15a2e68cc945bbfa3f253ee8797c9",
+    "semantic_hash": "8dc15a2e68cc945bbfa3f253ee8797c9"
+  },
+  "established/011_lesson09.md": {
+    "mtime": 1788130845.3066652,
+    "seen": 1788132969.5158162,
+    "ast_hash": "cafa1934a6dde86a72936b3289f72748",
+    "semantic_hash": "cafa1934a6dde86a72936b3289f72748"
+  },
+  "established/012_lesson10.md": {
+    "mtime": 1788130794.7122102,
+    "seen": 1788132969.5158167,
+    "ast_hash": "4756d117b0536ab2a4f4d7cd43865a02",
+    "semantic_hash": "4756d117b0536ab2a4f4d7cd43865a02"
+  },
+  "established/013_lesson11.md": {
+    "mtime": 1788130810.1093488,
+    "seen": 1788132969.5158172,
+    "ast_hash": "bd6106e628eb32843d30a894c416d4ad",
+    "semantic_hash": "bd6106e628eb32843d30a894c416d4ad"
+  },
+  "established/014_lesson12.md": {
+    "mtime": 1788130869.6298835,
+    "seen": 1788132969.5158179,
+    "ast_hash": "4fd9bba8c8d88e5396eb5befc5e91c83",
+    "semantic_hash": "4fd9bba8c8d88e5396eb5befc5e91c83"
+  },
+  "established/015_lesson13.md": {
+    "mtime": 1788130797.6732368,
+    "seen": 1788132969.5158186,
+    "ast_hash": "090a0cffe7831ce4cabaa76a143c7b63",
+    "semantic_hash": "090a0cffe7831ce4cabaa76a143c7b63"
+  },
+  "established/016_lesson14.md": {
+    "mtime": 1788130931.0214345,
+    "seen": 1788132969.5158188,
+    "ast_hash": "5544cf4de87aabe728296a57acdaa4e4",
+    "semantic_hash": "5544cf4de87aabe728296a57acdaa4e4"
+  },
+  "established/017_lesson15.md": {
+    "mtime": 1788130906.3682132,
+    "seen": 1788132969.5158193,
+    "ast_hash": "19a951c004d12acc8665b6de8f1ebbb9",
+    "semantic_hash": "19a951c004d12acc8665b6de8f1ebbb9"
+  },
+  "established/018_lesson16.md": {
+    "mtime": 1788130923.9393709,
+    "seen": 1788132969.5158198,
+    "ast_hash": "5f23eb38ed99eaa17dc2c9209f3cf581",
+    "semantic_hash": "5f23eb38ed99eaa17dc2c9209f3cf581"
+  },
+  "established/018_lesson16_vocab2.md": {
+    "mtime": 1788130986.1919289,
+    "seen": 1788132969.5158203,
+    "ast_hash": "02dc124402392d87107cae32d91260d0",
+    "semantic_hash": "02dc124402392d87107cae32d91260d0"
+  },
+  "established/018_lesson16_vocab3.md": {
+    "mtime": 1788131106.6110065,
+    "seen": 1788132969.515821,
+    "ast_hash": "404ae31aefcee61fe964464d92348efa",
+    "semantic_hash": "404ae31aefcee61fe964464d92348efa"
+  },
+  "established/019_lesson17.md": {
+    "mtime": 1788130859.2897906,
+    "seen": 1788132969.515822,
+    "ast_hash": "9d9dff629b5d4fbfd5c767fdd6e589e9",
+    "semantic_hash": "9d9dff629b5d4fbfd5c767fdd6e589e9"
+  },
+  "established/020_lesson18.md": {
+    "mtime": 1788130814.2093856,
+    "seen": 1788132969.5158226,
+    "ast_hash": "44a5c280a6a9f8e70fa90cae4d0746d2",
+    "semantic_hash": "44a5c280a6a9f8e70fa90cae4d0746d2"
+  },
+  "established/021_lesson19.md": {
+    "mtime": 1788130828.944518,
+    "seen": 1788132969.5158231,
+    "ast_hash": "8f15c67f3806b86ada36a298850d1b3f",
+    "semantic_hash": "8f15c67f3806b86ada36a298850d1b3f"
+  },
+  "established/022_lesson20.md": {
+    "mtime": 1788131152.737419,
+    "seen": 1788132969.5158236,
+    "ast_hash": "568326ef6f7f1358e2ed7c058c231f7e",
+    "semantic_hash": "568326ef6f7f1358e2ed7c058c231f7e"
+  },
+  "established/023_appendices1-6_grammar_reference.md": {
+    "mtime": 1788131105.5269969,
+    "seen": 1788132969.515824,
+    "ast_hash": "a868ebc0fe1ac0a5573358e100934fa1",
+    "semantic_hash": "a868ebc0fe1ac0a5573358e100934fa1"
+  },
+  "established/024_appendix9_verb_types.md": {
+    "mtime": 1788131042.5414333,
+    "seen": 1788132969.5158246,
+    "ast_hash": "4314ff472ce234ebe816bea47ddd8a37",
+    "semantic_hash": "4314ff472ce234ebe816bea47ddd8a37"
+  },
+  "established/025_appendices7-8_literary_readings.md": {
+    "mtime": 1788131117.305102,
+    "seen": 1788132969.515825,
+    "ast_hash": "3ccc344c4d7415707a18a77bf502d144",
+    "semantic_hash": "3ccc344c4d7415707a18a77bf502d144"
+  },
+  "established/026_glossary_bcs_english_part1.md": {
+    "mtime": 1788132138.382871,
+    "seen": 1788132969.5158257,
+    "ast_hash": "75cf82add8d05621969f9db650fd319c",
+    "semantic_hash": "75cf82add8d05621969f9db650fd319c"
+  },
+  "established/027_glossary_bcs_english_part2.md": {
+    "mtime": 1788132221.7782362,
+    "seen": 1788132969.5158262,
+    "ast_hash": "b42874be3261fd3cde61cc75fcde6a21",
+    "semantic_hash": "b42874be3261fd3cde61cc75fcde6a21"
+  },
+  "established/028_glossary_bcs_english_part3.md": {
+    "mtime": 1788132264.2709467,
+    "seen": 1788132969.5158267,
+    "ast_hash": "0384231046dcec42440bbba245f3ea23",
+    "semantic_hash": "0384231046dcec42440bbba245f3ea23"
+  },
+  "established/029_glossary_bcs_english_part4.md": {
+    "mtime": 1788131567.3451161,
+    "seen": 1788132969.5158272,
+    "ast_hash": "ea39c541a85ab797a6ababd38e29724d",
+    "semantic_hash": "ea39c541a85ab797a6ababd38e29724d"
+  },
+  "established/030_glossary_bcs_english_part5.md": {
+    "mtime": 1788132261.96443,
+    "seen": 1788132969.5158277,
+    "ast_hash": "c161608de7432a275c05ab95df8211ba",
+    "semantic_hash": "c161608de7432a275c05ab95df8211ba"
+  }
+}
