@@ -31,6 +31,17 @@ layers vs. image-only scans** that will need vision-based reading rather than te
 of the `.djvu` files especially are likely to be scans; the Inner Tepenia GDD repo hit this with an
 image-only PDF that had to be read visually).
 
+**Also actively check for corpus-type material hiding among the grammar references — don't assume a
+"reference" folder contains only Phase 1 material.** Confirmed during the Hungarian test run: a
+Hungarian slang dictionary (`Magyar Szlengszótár.pdf`) was found sitting directly in
+`source_reference/languages/Hungarian/`, not in `language_corpus/`. The Phase 1 (`source_reference/`)
+vs. Phase 2 (`language_corpus/`) distinction is about *content type* (grammar/vocab reference vs.
+slang corpus), not strictly about which folder a file physically sits in — a title containing words
+like "slang," "colloquial," "argot," or the local-language equivalent is worth flagging during
+triage even though it lives among grammar books, since its eventual extraction belongs conceptually
+in `language_corpus/<Language>/`. Don't rely on this being a repeatable stroke of luck — it may not
+recur for most languages, but the triage pass should still look for it every time.
+
 **Output:** a `Book_TOC_Master_Reference.md`-style catalog per language — what exists, format,
 scan-vs-text-layer status, and a rough priority call — *before* any checklist work in
 `datasets/<Language>/` or `language_corpus/<Language>/` begins. This is cheap and prevents burning

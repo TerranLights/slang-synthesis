@@ -104,6 +104,14 @@ and pointer layer — no separate hand-authored index needed. If a single langua
 grows past graphify's own size warnings (2M words / 500 files), narrow further — e.g. graph
 `established/`, `analysis/`, and `synthesized/` as separate runs rather than one combined pass.
 
+**Before running: `cd` into `datasets/{{Language}}/` first, don't run graphify's own Python calls
+from the repo root with only a `root=` argument.** Confirmed real bug (Hungarian test run):
+`save_manifest()` and likely other graphify internals resolve output paths relative to the *working
+directory*, not `root=` — running from the repo root can silently corrupt the repo-root
+`graphify-out/manifest.json` instead of writing this language's own. **After running, always check
+`git status`/`git diff` on the repo-root `graphify-out/` before committing** to catch this. See
+`../00_Reference_Extraction_Spec.md` for the full writeup.
+
 ## Mechanisms examined
 
 - [ ] *(one bullet per mechanism or corpus subset examined — name the real linguistic phenomenon,

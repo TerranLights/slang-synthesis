@@ -108,12 +108,20 @@ atomic — see `../00_Word_Concept_and_Morphological_Typology_Guide.md`.
 ## Graphify
 
 This language gets its own graph, scoped to `datasets/Hungarian/` (separate from
-`language_corpus/Hungarian/`'s own graph). Run `/graphify datasets/Hungarian` once there's
-enough written here to be worth graphing — no need to do this before any content exists. Its
-`graph.json` (nodes carrying `source_file`/`source_location`) is this language's organized-summary
-and pointer layer — no separate hand-authored index needed. If a single language's graph itself
-grows past graphify's own size warnings (2M words / 500 files), narrow further — e.g. graph
-`established/`, `analysis/`, and `synthesized/` as separate runs rather than one combined pass.
+`language_corpus/Hungarian/`'s own graph). **Already run once** (see `graphify-out/` in this
+folder) — re-run after adding more content. Its `graph.json` (nodes carrying
+`source_file`/`source_location`) is this language's organized-summary and pointer layer — no
+separate hand-authored index needed. If a single language's graph itself grows past graphify's own
+size warnings (2M words / 500 files), narrow further — e.g. graph `established/`, `analysis/`, and
+`synthesized/` as separate runs rather than one combined pass.
+
+**Before re-running: `cd` into `datasets/Hungarian/` first, don't run graphify's own Python calls
+from the repo root with only a `root=` argument.** Confirmed real bug during this language's own
+test run: `save_manifest()` and likely other graphify internals resolve output paths relative to the
+*working directory*, not `root=` — running from the repo root silently corrupted the repo-root
+`graphify-out/manifest.json` the first time this was run (caught and fixed via `git diff` before
+committing). **After running, always check `git status`/`git diff` on the repo-root `graphify-out/`
+before committing.** See `../00_Reference_Extraction_Spec.md` for the full writeup.
 
 ## Mechanisms examined
 

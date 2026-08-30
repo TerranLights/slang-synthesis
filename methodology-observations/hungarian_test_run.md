@@ -131,3 +131,15 @@ breakdowns), a working organized-summary layer produced with no manual bookkeepi
 real content), and a new real-world edge case surfaced and handled sensibly (the slang dictionary in
 the reference folder) rather than causing confusion. Everything above remains tentative pending
 developer review, per the standing rule for test-run output.
+
+---
+
+### 2026-08-30 — Two findings from this run formalized into official process docs
+
+Following a later audit of what had been *confirmed* across all test runs but never actually
+*promoted* into a process doc a future session would read before starting work: (1) the
+`save_manifest()` CWD bug now has a standing warning in `00_Reference_Extraction_Spec.md`,
+`_TEMPLATE/00_Extraction_Checklist.md`'s Graphify section, and this language's own checklist — not
+just this historical log entry; (2) the "check for corpus-type material hiding in a reference
+folder" principle (the slang-dictionary discovery) is now a standing Phase 0 triage instruction in
+`ROADMAP.md`, not just a one-off note in this language's own triage catalog.

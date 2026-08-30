@@ -140,3 +140,13 @@ column-scope refinement (`Attested Region` vs. phonetic variation) was captured 
 guide. And graphify surfaced a genuine cross-chapter linguistic discovery neither individual
 extraction dispatch could have found alone. Everything above remains tentative pending developer
 review, per the standing rule for test-run output.
+
+---
+
+### 2026-08-30 — Concurrent-write finding formalized into official process docs
+
+Following a later audit of confirmed-but-not-yet-promoted findings: the "two of three parallel
+subagents safely handled a checklist race condition, unprompted, but only confirmed at n=3" finding
+now has a standing caution in `00_Reference_Extraction_Spec.md`'s "no manual JSON manifest" section
+— explicitly noting this isn't confirmed to scale past 3 parallel subagents, and recommending a
+serialized follow-up pass instead of per-subagent updates for larger future dispatches.

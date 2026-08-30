@@ -74,7 +74,14 @@ tagged Croatia).
 
 This language gets its own graph, scoped to `datasets/Serbian_Croatian_Bosnian/` (separate from
 `language_corpus/Serbian_Croatian_Bosnian/`'s own graph). Not yet run — `established/` currently has
-one file, likely below the threshold where graphing pays off yet.
+two files, likely below the threshold where graphing pays off yet.
+
+**Before running: `cd` into `datasets/Serbian_Croatian_Bosnian/` first, don't run graphify's own
+Python calls from the repo root with only a `root=` argument.** Confirmed real bug (Hungarian test
+run): `save_manifest()` and likely other graphify internals resolve output paths relative to the
+*working directory*, not `root=` — running from the repo root can silently corrupt the repo-root
+`graphify-out/manifest.json`. **After running, always check `git status`/`git diff` on the repo-root
+`graphify-out/` before committing.** See `../00_Reference_Extraction_Spec.md` for the full writeup.
 
 ## Mechanisms examined
 

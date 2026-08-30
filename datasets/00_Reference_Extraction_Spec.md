@@ -129,6 +129,16 @@ after each dispatch. **Have the extraction subagent update it directly as part o
 test run that subagents will do this reliably when explicitly instructed to, removing a manual
 coordination step.
 
+**Caution on multiple subagents writing to the same shared checklist file.** Confirmed safe with 3
+parallel subagents during the Hungarian and Dutch test runs — when a subagent's own Read-then-Edit
+found the file already changed by a sibling subagent, it re-read and merged rather than overwriting,
+unprompted, on both occasions it was tested. **This has only been confirmed at n=3 parallel
+subagents, not at higher counts.** If a future dispatch parallelizes many more chunks against one
+book (e.g. a full 20+ chapter book in one pass), don't assume this self-protective behavior scales
+indefinitely — consider having subagents skip the checklist update entirely and doing it as a single
+serialized follow-up pass once all chunks land, rather than risking a real collision at higher
+parallelism.
+
 The machine-queryable summary/pointer layer comes from running `/graphify datasets/<Language>` once
 there's enough content to be worth graphing — its `source_file`/`source_location` fields are the
 "address" back to the exact Markdown table an entry came from.
@@ -140,7 +150,23 @@ grammar concepts/mechanisms discussed, the source book itself, and only the hand
 morpheme-breakdown examples that are genuinely illustrative of a named concept. Confirmed during the
 Hungarian test run: this produced a small, navigable, genuinely useful graph (31 nodes) with
 cross-chapter hyperedges surfacing real patterns (e.g. vowel harmony as a governing mechanism across
-multiple chapters) — the payoff this whole storage model was designed around.
+multiple chapters) — the payoff this whole storage model was designed around. The Dutch test run
+confirmed this further: graphify surfaced a genuine cross-chapter linguistic pattern (vowel length
+tracking morphological form across three independently-extracted chapters) that no single extraction
+subagent could have noticed alone — treat a per-language graphify run as a real analytical step, not
+just bookkeeping.
+
+**Mandatory before running any per-language `/graphify` command: `cd` into that language's own
+folder first (e.g. `datasets/<Language>/`), don't run it from the repo root with a `root=` argument
+alone.** Confirmed as a real, repeat-risk bug during the Hungarian test run:
+`graphify.detect.save_manifest()` (and likely other graphify internals) resolve their output path
+relative to the *current working directory*, not the `root=` argument passed to the Python call —
+running the manifest-save step for a per-language graph from the repo root silently overwrote and
+corrupted the repo-root `graphify-out/manifest.json` instead of writing to the language's own
+`graphify-out/manifest.json`. **After any per-language graphify run, always `git status`/`git diff`
+the repo-root `graphify-out/` directory specifically, before committing, to catch this kind of
+cross-contamination** — it will not be obvious from the language folder's own output that anything
+went wrong.
 
 ---
 
