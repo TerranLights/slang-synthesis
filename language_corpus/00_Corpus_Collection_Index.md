@@ -66,7 +66,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Romanian | yes | not started | — |
 | Russian | yes | not started | — |
 | Sanskrit | yes | not started | — |
-| Serbian/Croatian/Bosnian | yes | not started | — |
+| Serbian/Croatian/Bosnian | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 2 corpus collection not yet started; see `methodology-observations/serbian_croatian_bosnian_test_run.md`)* | `language_corpus/Serbian_Croatian_Bosnian/` |
 | Slovene | yes | not started | — |
 | Spanish | yes | not started | — |
 | Sumerian | yes | not started | — |

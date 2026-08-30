@@ -1,0 +1,15 @@
+{
+  "language": "Serbian_Croatian_Bosnian",
+  "kind": "established",
+  "description": "Real-language baseline vocabulary/grammar entries with frequency and weighting, derived from source_reference/ and language_corpus/.",
+  "schema_version": 1,
+  "last_updated": "2026-08-30",
+  "shard_size_target": 300,
+  "shards": [
+    {
+      "file": "001_lesson01_basics.json",
+      "label": "Lesson 1 basic vocabulary and B/C/S variant forms (Alexander & Elias-Bursać textbook)",
+      "entry_count": 20
+    }
+  ]
+}

@@ -8,11 +8,21 @@ uniformly through everything.
 **Status legend:** `not started` · `in progress` · `complete`. Update this file's phase statuses as
 work actually begins/finishes — same discipline as the per-language indexes.
 
+**See also `methodology-observations/`** — a running record of findings about the *methodology
+itself* (schema gaps, tooling gotchas, open process questions), separate from this file's
+phase/task tracking. Check it before starting work on a phase that already has entries.
+
 ---
 
 ## Phase 0 — Triage pass (not full extraction)
 
-**Status: not started.**
+**Status: in progress — Serbian/Croatian/Bosnian (test-run language) done, tentative.** See
+`datasets/Serbian_Croatian_Bosnian/00_Book_Triage_Catalog.md` and
+`methodology-observations/serbian_croatian_bosnian_test_run.md`. Finding worth flagging here: of 9
+real reference files triaged, only 3 had a clean, usable text layer — **roughly 56% needed
+OCR/vision-based reading**, a much higher rate than "some of the files" implied below. If this
+generalizes, OCR/vision-reading capacity should be budgeted as a default expectation for Phase 1,
+not an occasional exception.
 
 Before deep-extracting any single book, survey what's actually in each
 `source_reference/languages/<Language>/` folder: which titles look highest-yield (a real grammar >
@@ -41,19 +51,40 @@ it incrementally (tier the next language right before starting it, rather than a
 
 ## Phase 1 — Reference extraction (grammar/vocab)
 
-**Status: not started.** See `datasets/00_Analysis_Index.md` and
-`language_corpus/00_Corpus_Collection_Index.md` for live per-language status once this begins.
+**Status: in progress — Serbian/Croatian/Bosnian (test-run language) only, tentative.** A first
+`established/` shard (20 entries, one lesson of one book) is populated — see
+`datasets/Serbian_Croatian_Bosnian/established/` and the methodology-observations log. **Two open
+questions surfaced by this pass, not yet resolved, flagged for explicit developer input:**
+
+1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
+   well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
+   coverage of every book, for every language, at this granularity does not appear tractable in
+   reasonable time. Whether Phase 1 should aim for full coverage or deliberately-sampled
+   representative coverage per book is an open decision.
+2. **Manual vs. subagent-parallelized extraction.** Whether extraction work should be dispatched to
+   parallel subagents (the way `/graphify`'s own semantic-extraction step does) rather than done as
+   one continuous manual read-through — this could materially change the tractability math for
+   question 1.
+
+**These two questions directly bear on the "all reference extraction must complete, for every
+language, before any web research begins" sequencing rule** — that rule's practicality depends on
+how expensive exhaustive Phase 1 extraction actually turns out to be. Not resolved yet; the
+sequencing-rule decision itself also remains explicitly deferred (see conversation history).
 
 **Prove the pipeline on one or two flagship languages first — do not fan out to many languages in
 parallel before the schema/shard/OCR approach is actually validated end-to-end.** Catching a
 schema problem, a bad shard-size assumption, or an OCR/scan-handling gap on language #1 is cheap;
-catching it after 15 languages are already partway through is not.
+catching it after 15 languages are already partway through is not. *(Confirmed valuable by the test
+run — see the index-prerequisite-rule and OCR-prevalence findings, both caught during Phase 0/1 on
+just one language.)*
 
 **OCR/scan handling is its own concern**, not a detail to improvise per-book. Flag in the Phase 0
 catalog which books need vision-based reading vs. have a usable text layer — this changes
 extraction cost per book substantially and should inform Phase 0.5 prioritization too (a
 Tier-1 language whose best source is a 400-page image-only scan is a different effort estimate
-than one with clean text-layer PDFs).
+than one with clean text-layer PDFs). **Add a third category, found during the test run: a text
+layer can be *present but garbled* (bad OCR baked into the PDF itself) — functionally equivalent to
+no text layer, but easy to miss if a triage pass only checks "text layer exists: yes/no."**
 
 **Copyright discipline.** Reference material is copyrighted grammars/dictionaries. Extraction
 stays in the same mode already modeled by the Inner Tepenia GDD repo's book extractions: selective

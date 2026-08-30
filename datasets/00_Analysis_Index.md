@@ -20,8 +20,15 @@ mechanism or per coherent finding, in the same narrative style as the extraction
 in this project family (quote real examples, name the actual linguistic phenomenon, don't invent
 terminology that already exists). Copy `_TEMPLATE/` to start a new language.
 
-**Prerequisite column.** A language cannot move past `not started` here until its corpus in
-`language_corpus/` is at least `in progress` — analysis needs material to analyze.
+**Prerequisite column — refined during the first test run (2026-08-30), see
+`methodology-observations/serbian_croatian_bosnian_test_run.md`.** The `analysis/` and
+`synthesized/` shards genuinely need `language_corpus/` to be at least `in progress` first. **The
+`established/` shard does not** — it's populated from `source_reference/` grammar/vocabulary
+material (Phase 1), which has no dependency on the slang corpus (Phase 2) at all. In practice this
+means a language's `datasets/<Language>/` folder can show real progress (an `established/` shard)
+before its `language_corpus/<Language>/` folder has anything in it — this is expected, not a
+violation of the sequencing rule, as long as `analysis/`/`synthesized/` stay empty until the corpus
+catches up.
 
 **Scaling.** Structured output (`established/`, `analysis/`, `synthesized/`) lives as sharded JSON
 directories, not single files — see the per-language `00_Extraction_Checklist.md` for shard-size
@@ -33,14 +40,9 @@ narrow further by graphing `established/`, `analysis/`, and `synthesized/` separ
 
 ## Status by language
 
-*(No language has a corpus in progress yet — this table will grow rows as
-`language_corpus/00_Corpus_Collection_Index.md` entries move past `not started`. Add a row here
-the same commit a language's corpus work begins, not just when analysis itself starts, so the two
-indexes stay in sync.)*
-
 | Language | Corpus status (see language_corpus index) | Analysis status | Folder |
 |---|---|---|---|
-| — | — | — | — |
+| Serbian/Croatian/Bosnian | not started *(test-run language)* | not started — `established/` shard populated (Phase 1, 20 entries, tentative); `analysis/`/`synthesized/` correctly empty pending `language_corpus/` progress | `datasets/Serbian_Croatian_Bosnian/` |
 
 ---
 
