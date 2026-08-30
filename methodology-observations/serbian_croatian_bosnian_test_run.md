@@ -116,6 +116,60 @@ they materially affect the scale/sequencing decision already flagged as deferred
 
 ---
 
+### 2026-08-30 — Vision-based extraction test: works well, one real new risk found
+
+**Setup.** Chose `12.Introduction to the Croatian and Serbian language.pdf` (Magner, Revised
+Edition, 1991/1998) — a scanned, no-text-layer book — specifically to test vision-based extraction
+before it's used at scale (~half of every language's reference PDFs are expected to need this, per
+the OCR-rate finding above and the Hungarian run). Dispatched one subagent on Lesson 1 (PDF pages
+7-12, printed pp. 1-6), explicitly instructed to add a self-assessed "Vision-reading confidence
+notes" section — an analog to `transcription_confidence` for audio/subtitle sources, but for the
+image-reading case.
+
+**Independently verified for accuracy, not just plausibility-checked.** Before dispatching, read the
+same pages directly (this coordinating session is itself multimodal) and recorded the vocabulary
+list as independent ground truth. **Every vocabulary item and every `(Cr.)`/`(S.)` dialect tag in
+the subagent's output matched exactly** — `dévojka`=Serbia/`djévojka`=Croatia, `kò`=Serbia/`tkò`=
+Croatia, `jèst`=Croatia/`jèste`=Serbia, `lép`=Serbia/`lijèp`=Croatia, `vèžba`=Serbia/`vjèžba`=
+Croatia, all correct. No discrepancies found. This is a real accuracy check, not just an internal-
+consistency check — vision-based extraction produced output that matches independent human (well,
+independent-model) reading of the same source.
+
+**A genuinely new risk found, not anticipated by the extraction spec: distinguishing print from
+handwritten marginalia.** One page spread in this specific scanned copy has a previous owner's
+handwritten pencil answers filled into blank exercise spaces. The subagent correctly identified
+these as reader annotations and excluded them from extraction — but this is exactly the kind of
+failure mode a less careful vision-reading pass could get wrong (misattributing a stranger's
+handwritten guess as the textbook's own printed content, silently corrupting the vocabulary data
+with someone else's possibly-wrong homework answer). **This risk is specific to physical scanned
+books (used copies can carry marginalia) and has no analog in the clean-text-layer extractions done
+so far.** Worth adding explicit "distinguish source content from reader annotation" guidance to
+`00_Reference_Extraction_Spec.md` for any vision-reading dispatch.
+
+**Other honestly-flagged uncertainty, exactly as intended by the confidence-notes request:**
+- A binding/gutter shadow (common in book scans) partially obscured a few characters near page
+  centers — the subagent correctly noted where it had to infer a word's correct form from a cleaner
+  occurrence elsewhere on the page rather than the obscured instance itself, rather than guessing
+  silently.
+- Fine-grained pitch-accent diacritic subtyping (grave vs. acute vs. circumflex-like marks,
+  distinguishing among Cr&S's four accent categories) was flagged as lower-confidence than the
+  vocabulary/gloss content itself — an honest, well-calibrated distinction between "I'm confident
+  about the word" and "I'm less confident about this one fine phonological detail of it."
+- Self-reported overall confidence: **medium-high**, with a specific, reasoned basis (clean typeset
+  print, not degraded/faded — the gutter shadow was the only recurring obstacle) rather than a bare
+  unqualified rating.
+
+**Verdict: vision-based extraction is viable and worth using at scale**, with two concrete process
+additions worth making before scaling it up: (1) add the marginalia-vs-print distinction to the
+extraction spec, (2) consider whether a `Vision Reading Confidence` column (parallel to
+`Transcription Confidence`) belongs in the standard `established/` table schema for any entry
+sourced from a scanned/vision-read book, the same way subtitle/transcript entries carry that
+column today — this test run's ad hoc "confidence notes section at the end" approach worked, but a
+per-row column would let a low-confidence *specific entry* be flagged precisely rather than only a
+whole-file confidence note covering everything uniformly.
+
+---
+
 ### 2026-08-30 — Storage model changed: Markdown-first, JSON shards dropped entirely
 
 **Resolved, not just flagged.** Following developer discussion, the pipeline's storage model

@@ -35,6 +35,7 @@ compound-word formation or derivational chains worth decomposing.
 | Directory | File | Contents |
 |---|---|---|
 | `established/` | `001_lesson01_basics.md` | Lesson 1 vocabulary + grammar points, Alexander & Elias-Bursać textbook. 20 vocabulary entries, tentative. |
+| `established/` | `002_lesson01_magner_vision_test.md` | Lesson 1 ("Prva lekcija") vocabulary + grammar points, Magner's *Introduction to the Croatian and Serbian Language* (1991/1998). 86 vocabulary entries. This is a **vision-reading test** — extracted from a scanned, text-layer-less PDF via direct vision reading, with an honest confidence self-assessment in its own "Vision-reading confidence notes" section. Overall confidence rated medium-high by the extracting subagent. |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -79,8 +80,14 @@ one file, likely below the threshold where graphing pays off yet.
 - [ ] `01.Bosnian Croatian Serbian a Textbook...` — Lessons 2-20 not yet done
 - [ ] `11.Bosnian Croatian Serbian - A grammar & Social Commentary.pdf` — not started
 - [ ] `10.Serbian an essential grammar.pdf` — not started
-- [ ] Remaining 5 books — deferred, see `00_Book_Triage_Catalog.md` (OCR/vision-reading needed for
-      most of them)
+- [x] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lesson 1 only (86 entries
+      in `established/002_lesson01_magner_vision_test.md`), **vision-reading test** — no text layer
+      in this PDF, extracted via direct vision reading of rendered page images; see that file's
+      "Vision-reading confidence notes" section for a reliability self-assessment (medium-high
+      confidence) before deciding whether to extend this method to the rest of the book or the
+      other 5 vision-only books.
+- [ ] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lessons 2-30 not yet done
+- [ ] Remaining 5 vision-only books — deferred, see `00_Book_Triage_Catalog.md`
 
 **Resolved methodology questions (see `../00_Reference_Extraction_Spec.md` and
 `../../methodology-observations/serbian_croatian_bosnian_test_run.md`):** coverage should be
