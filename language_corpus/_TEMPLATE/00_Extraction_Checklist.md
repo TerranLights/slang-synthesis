@@ -44,6 +44,14 @@ dropped during summarization.
 *(Contemporary vs. historical slang? Regional/dialect variation? Specific subcultures or domains
 of interest for this project? Note constraints here as they're decided.)*
 
+**Note era/region when a source actually supports it.** A term perfectly natural in one decade can
+be alien in another (1960s slang vs. 1790s), and slang can be sharply localized within a single
+language (Quebec City French vs. Marseille French; Shenzhen Mandarin vs. Singaporean Mandarin).
+When collecting, jot down the source's own date/place context if it has one — this feeds the
+`attested_era`/`attested_region` fields in `datasets/{{Language}}/`'s structured shards later. **Not
+required** — most sources won't support it, and a guessed date/place is worse than none. See
+[`../datasets/00_Historical_and_Geographic_Context_Guide.md`](../../datasets/00_Historical_and_Geographic_Context_Guide.md).
+
 ## Graphify
 
 This language gets its own graph, scoped to `language_corpus/{{Language}}/` (separate from

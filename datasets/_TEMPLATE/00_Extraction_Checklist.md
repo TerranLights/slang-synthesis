@@ -60,6 +60,13 @@ itself sourced from a subtitle/transcript keeps that entry's `source_type` and
 Don't build a mechanism finding on a `low_confidence` example without saying so; a mechanism whose
 only supporting example is an unverified AI-transcript guess is itself weak evidence, not settled.
 
+**Historical & geographic context — optional, fill in only when the source supports it.** Entries
+carry `attested_era`/`attested_region`/`geographic_scope` fields — see
+[`00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).
+`null` is a legitimate value, not a gap to guess-fill; false precision here is worse than an honest
+unknown. When enough entries do carry real era/region data, watch for patterns worth flagging (a
+`slang_type` that's actually region-bound, a mechanism that went dormant after a certain era).
+
 ## Graphify
 
 This language gets its own graph, scoped to `datasets/{{Language}}/` (separate from
