@@ -1,1 +1,6 @@
 source_reference/**/
+
+# graphify machine-specific temp files (regenerated each run)
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/.graphify_detect.json
