@@ -34,18 +34,19 @@ breakdowns were needed in any of the 32 output files. See
 
 ## Output files — Markdown, sharded by numbered file
 
-**Status: 6 of this language's 9 real reference documents fully extracted.** All 3 clean-text-layer
+**Status: 7 of this language's 9 real reference documents fully extracted.** All 3 clean-text-layer
 books are done — the flagship Alexander & Elias-Bursać textbook (32 files, ~8,450 rows, ~338,000
 words), Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
 ~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words).
-Three vision-only books are also now done — Magner's *Introduction to the Croatian and Serbian
+Four vision-only books are also now done — Magner's *Introduction to the Croatian and Serbian
 Language* (30 lessons, `established/002`+`059`-`064`, ~1,190 rows), Hawkesworth's *Colloquial
-Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868 rows, ~96,000 words), and
+Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868 rows, ~96,000 words),
 Hawkesworth & Ćalić's *Colloquial Serbian* (13 files, `established/074`-`083`+parts, ~1,563 rows,
-~95,500 words). Combined: 95 `established/` files, ~14,838 rows, ~700,000 words for this language so
-far. Only 2 remaining vision-only/garbled-OCR books (plus the trivial audio-recordings key) are
-left: *Serbian Folk Tales* and *Teach Yourself Serbian*. A bonus 12-reading "Čitanka" section inside
-Magner's own book (starting PDF p. 95, past the 30 lessons) was found but deliberately deferred — see
+~95,500 words), and *Serbian Folk Tales* (9 files, `established/084`-`092`, ~535 rows, ~45,000
+words). Combined: 104 `established/` files, ~15,373 rows, ~745,000 words for this language so far.
+Only 1 remaining garbled-OCR book (plus the trivial audio-recordings key) is left: *Teach Yourself
+Serbian*. A bonus 12-reading "Čitanka" section inside Magner's own book (starting PDF p. 95, past the
+30 lessons) was found but deliberately deferred — see
 the deferred-content note in Reference extraction progress below.
 
 | Directory | File | Contents |
@@ -133,6 +134,15 @@ the deferred-content note in Reference extraction progress below.
 | `established/` | `081_colloquial_sr_unit20.md` | Unit 20 (final unit, "Kraj") — 46 rows. Register content: reversed-order vocative exclamations (`Budalo jedna!`), a Belgrade cultural term (`сплав`, river barge/floating club). |
 | `established/` | `082_colloquial_sr_grammar_summary.md` | Grammar summary, non-redundant supplement — **0 rows kept**, a near-total duplicate of `072` (same author's sister-book grammar summary), verified via targeted greps before concluding nothing new survived the bar. Honest empty-result reporting rather than padding. |
 | `established/` | `083_colloquial_sr_glossary.md` + `_part2`-`_part4` | Serbian-English glossary, vision-read exhaustively — **~1,337 entries** across 4 files. Several source-tagged `(informal)` colloquial items (`čika`, `drugar`) plus common colloquialisms (`kako da ne`, `nema veze`, `žurka`); no taboo-tier vocabulary (expected for a beginner course glossary). |
+| `established/` | `084_folktales_part1.md` | *Srpske narodne bajke* (Serbian Folk Fairy Tales, ed. Marinković & Marković, 2000), tales 1-3 — 57 rows. First **taboo-avoidance naming** finding: the source explains "snake" (*zmija*) was avoided out of fear, substituted with euphemisms (*baurina*, "nepomenica"/"the unmentionable one"). |
+| `established/` | `085_folktales_part2.md` | Tales continued (Baš-Čelik through Stojša i Mladen) — 59 rows. A taboo item (*kurva*) appears plainly despite this being a children's-marketed anthology. |
+| `established/` | `086_folktales_part3.md` | Tales continued — 107 rows. Found a genuine **source-internal dialect/register contrast**: one tale is consistently Ijekavian with dense Ottoman Turkish loanwords, sharply distinct from the Ekavian, near-Turkism-free register of surrounding tales — likely reflecting different original collectors/regions within the anthology. |
+| `established/` | `087_folktales_part4.md` | Tales continued — 58 rows. A dense cluster of Ottoman Turkish loanwords used as ordinary narrative vocabulary, all glossed by the book's own margin notes; visible Ekavian/Ijekavian mixing within a single tale. |
+| `established/` | `088_folktales_part5.md` | Tales continued — 60 rows. **Second confirmation of taboo-avoidance naming**, this time for wolf and bear (euphemisms *alo*, *kamenko*) — now a recurring, well-attested folkloric practice across multiple animals in this book, not a one-off. |
+| `established/` | `089_folktales_part6.md` | Tales continued — 74 rows. Captured *usud* (personified Fate) and *krsno ime* (Slava, the family patron-saint feast) as culturally load-bearing terms. |
+| `established/` | `090_folktales_part7.md` | Tales continued — 70 rows. **Found 4 tales not in the originally-captured table of contents** (Пепељуга/Cinderella, Ћела, Ђевојка бржа од коња, Тамни вилајет) — the TOC snapshot used for dispatch planning was incomplete. Striking false-friend/regional-polysemy find: *kokoška* glossed as "ball of yarn," not "hen," in this regional usage. |
+| `established/` | `091_folktales_part8.md` | **Not more tales** — this range is the book's own "Пустоловни додатак" (Adventure Appendix), a folklore-studies essay on fairy-tale collecting (Vuk Karadžić's methodology, dialect variants, a Proppian structure exercise) — 40 rows of vocabulary drawn from its own inline definitions. Also corrected the assumed glossary location (see `092`). |
+| `established/` | `092_folktales_glossary.md` | The book's own "Мање познате речи и изрази" section — turned out to be a **bare word→page-number index, not a defining glossary**; 411 entries with analyst-supplied glosses (flagged as such, not source-extracted), confidence-flagged per row. Confirms the tales are printed unchanged from Vuk Karadžić's original 19th-century Ijekavian recordings, specifically to preserve this vocabulary — legitimizes `Attested Era: 19th c.` for the whole book. |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -166,8 +176,10 @@ session across 6 subagent chunks with zero marginalia found in any of them — u
 which had a previous owner's pencil marks). This session also added `065`-`073`+parts (Hawkesworth's
 *Colloquial Croatian and Serbian*, 16 files, vision-read, no marginalia found anywhere). This session
 also added `074`-`083`+parts (Hawkesworth & Ćalić's *Colloquial Serbian*, 13 files, vision-read, no
-marginalia found anywhere). 36 files in this language are now vision-read in total; the other 59 have
-a real text
+marginalia found anywhere), and `084`-`092` (*Serbian Folk Tales*, 9 files, vision-read; real
+marginalia — a library accession stamp and a handwritten underline — was found and correctly
+excluded, unlike the other vision-read books in this batch). 45 files in this language are now
+vision-read in total; the other 59 have a real text
 layer, so `Vision Reading Confidence` is `n/a` throughout them. See
 `../00_Reference_Extraction_Spec.md`'s Vision-reading guard section. This will change further once
 the remaining vision-only books (`03.Colloquial Serbian and Croatian.pdf`, `Colloquial Serbian/
@@ -281,10 +293,14 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       sister book). Confirmed a fixed PDF page-spread-scan gotcha: this file packs 2 printed pages
       per PDF image, so simple offset-based page estimates were wrong by roughly half — every
       subagent correctly self-corrected by direct inspection; see the PDF gotchas note below.
-- [ ] `29.Serbian Folk Tales.pdf` (240p, vision-only) — literary/archaic-tier corpus, deferred per the
-      triage catalog until the `literary`/`archaic` usage tiers need more real examples (they now
-      have some — see Ch. 23-25 above and `025_appendices7-8_literary_readings.md` — worth
-      revisiting this call).
+- [x] `29.Serbian Folk Tales.pdf` (240p, vision-only) — **full book complete**, revisited and
+      extracted rather than left deferred (9 files, `established/084`-`092`, ~535 rows, ~45,000
+      words). Pure literary/folkloric content — vocabulary-only extraction via the book's own inline
+      "+" margin glosses, no plot/prose reproduction. Best finding: two independently-attested
+      taboo-avoidance-naming patterns (snake, then wolf/bear), a real documented example of
+      taboo-inversion slang mechanics. Also found source-internal dialect/register contrasts between
+      tales (different original collectors/regions within one anthology) and 4 tales missing from
+      the initially-captured table of contents.
 - [ ] `Teach Yourself Serbian/Teach Yourself Serbian.pdf` (177p, garbled OCR text layer — needs
       vision reading, not `pdftotext`) — not started, low priority per the triage catalog.
 - [ ] `01.Key to audio recordings.PDF` (2p, trivial) — low value, not started.
@@ -312,10 +328,11 @@ extraction across all 40+ languages.
 `methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
 methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
 
-1. **6 of 9 books done: all 3 clean-text-layer books, Magner's full 30 lessons, and both
-   "Colloquial"-titled books.** What remains: `29.Serbian Folk Tales.pdf` (240p) and `Teach Yourself
-   Serbian.pdf` (177p, garbled OCR). `01.Key to audio recordings.PDF` (trivial, 2 pages) and Magner's
-   deferred "Čitanka" reader section (PDF pp. 95+) can be picked up cheaply alongside either.
+1. **7 of 9 books done: all 3 clean-text-layer books, Magner's full 30 lessons, both
+   "Colloquial"-titled books, and Serbian Folk Tales.** What remains: `Teach Yourself Serbian.pdf`
+   (177p, garbled OCR text layer — needs vision reading, not `pdftotext`). `01.Key to audio
+   recordings.PDF` (trivial, 2 pages) and Magner's deferred "Čitanka" reader section (PDF pp. 95+)
+   can be picked up cheaply alongside it.
 2. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
    language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
    that milestone explicitly, since it would be the first language to reach it.

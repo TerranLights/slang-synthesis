@@ -1,469 +1,469 @@
 {
   "00_Book_Triage_Catalog.md": {
     "mtime": 1788127447.7812996,
-    "seen": 1788162875.6561425,
+    "seen": 1788164385.1337523,
     "ast_hash": "75a5f923bc65f9705c4d572452accdb9",
     "semantic_hash": "75a5f923bc65f9705c4d572452accdb9"
   },
   "00_Extraction_Checklist.md": {
-    "mtime": 1788161889.2926388,
-    "seen": 1788162875.6561525,
-    "ast_hash": "b2ff43a90dd4621ca55e1f65cb8acb6a",
-    "semantic_hash": "b2ff43a90dd4621ca55e1f65cb8acb6a"
+    "mtime": 1788163864.7947495,
+    "seen": 1788164385.1337557,
+    "ast_hash": "3563ff24130e9faa8c550f458e7d39ff",
+    "semantic_hash": "3563ff24130e9faa8c550f458e7d39ff"
   },
   "established/001_lesson01_basics.md": {
     "mtime": 1788127897.3520718,
-    "seen": 1788162875.6561556,
+    "seen": 1788164385.1337569,
     "ast_hash": "42f796f28963f6cfd4d5d36adf421fac",
     "semantic_hash": "42f796f28963f6cfd4d5d36adf421fac"
   },
   "established/002_lesson01_magner_vision_test.md": {
     "mtime": 1788127937.8044598,
-    "seen": 1788162875.6561577,
+    "seen": 1788164385.1337583,
     "ast_hash": "58d8eee3563b08fade80859717624aed",
     "semantic_hash": "58d8eee3563b08fade80859717624aed"
   },
   "established/003_lesson01_complete.md": {
     "mtime": 1788130802.568281,
-    "seen": 1788162875.6561596,
+    "seen": 1788164385.133759,
     "ast_hash": "ca3a8db9e725318ab18928bc1ee26aa8",
     "semantic_hash": "ca3a8db9e725318ab18928bc1ee26aa8"
   },
   "established/004_lesson02.md": {
     "mtime": 1788130769.663985,
-    "seen": 1788162875.656161,
+    "seen": 1788164385.1337597,
     "ast_hash": "17170690f49f2848176ff7c481f6a165",
     "semantic_hash": "17170690f49f2848176ff7c481f6a165"
   },
   "established/005_lesson03.md": {
     "mtime": 1788130533.4388509,
-    "seen": 1788162875.6561627,
+    "seen": 1788164385.1337602,
     "ast_hash": "285166ab6fca4aad707b7c4199267454",
     "semantic_hash": "285166ab6fca4aad707b7c4199267454"
   },
   "established/006_lesson04.md": {
     "mtime": 1788130920.4363396,
-    "seen": 1788162875.6561642,
+    "seen": 1788164385.133761,
     "ast_hash": "14bc10563d204ba2137d3ed8a2e0fccf",
     "semantic_hash": "14bc10563d204ba2137d3ed8a2e0fccf"
   },
   "established/007_lesson05.md": {
     "mtime": 1788131010.7941492,
-    "seen": 1788160879.8853476,
+    "seen": 1788164385.1337616,
     "ast_hash": "18083d59d8f76375c827524581ce3d10",
-    "semantic_hash": ""
+    "semantic_hash": "18083d59d8f76375c827524581ce3d10"
   },
   "established/008_lesson06.md": {
     "mtime": 1788130810.670354,
-    "seen": 1788162875.6561658,
+    "seen": 1788164385.1337624,
     "ast_hash": "180c5f5f4f0b50d1b7c11ab7e593de1c",
     "semantic_hash": "180c5f5f4f0b50d1b7c11ab7e593de1c"
   },
   "established/009_lesson07.md": {
     "mtime": 1788130691.2552783,
-    "seen": 1788160879.8853483,
+    "seen": 1788164385.1337628,
     "ast_hash": "8c846a7980b0cfdccd1a477fe955eb89",
-    "semantic_hash": ""
+    "semantic_hash": "8c846a7980b0cfdccd1a477fe955eb89"
   },
   "established/010_lesson08.md": {
     "mtime": 1788130632.5267482,
-    "seen": 1788157439.6634827,
+    "seen": 1788164385.1337633,
     "ast_hash": "8dc15a2e68cc945bbfa3f253ee8797c9",
-    "semantic_hash": ""
+    "semantic_hash": "8dc15a2e68cc945bbfa3f253ee8797c9"
   },
   "established/011_lesson09.md": {
     "mtime": 1788130845.3066652,
-    "seen": 1788162875.6561682,
+    "seen": 1788164385.1337638,
     "ast_hash": "cafa1934a6dde86a72936b3289f72748",
     "semantic_hash": "cafa1934a6dde86a72936b3289f72748"
   },
   "established/012_lesson10.md": {
     "mtime": 1788130794.7122102,
-    "seen": 1788160879.8853505,
+    "seen": 1788164385.1337645,
     "ast_hash": "4756d117b0536ab2a4f4d7cd43865a02",
-    "semantic_hash": ""
+    "semantic_hash": "4756d117b0536ab2a4f4d7cd43865a02"
   },
   "established/013_lesson11.md": {
     "mtime": 1788130810.1093488,
-    "seen": 1788160879.8853512,
+    "seen": 1788164385.1337652,
     "ast_hash": "bd6106e628eb32843d30a894c416d4ad",
-    "semantic_hash": ""
+    "semantic_hash": "bd6106e628eb32843d30a894c416d4ad"
   },
   "established/014_lesson12.md": {
     "mtime": 1788130869.6298835,
-    "seen": 1788162875.6561708,
+    "seen": 1788164385.133766,
     "ast_hash": "4fd9bba8c8d88e5396eb5befc5e91c83",
     "semantic_hash": "4fd9bba8c8d88e5396eb5befc5e91c83"
   },
   "established/015_lesson13.md": {
     "mtime": 1788130797.6732368,
-    "seen": 1788162875.6561723,
+    "seen": 1788164385.1337664,
     "ast_hash": "090a0cffe7831ce4cabaa76a143c7b63",
     "semantic_hash": "090a0cffe7831ce4cabaa76a143c7b63"
   },
   "established/016_lesson14.md": {
     "mtime": 1788130931.0214345,
-    "seen": 1788162875.6561742,
+    "seen": 1788164385.133767,
     "ast_hash": "5544cf4de87aabe728296a57acdaa4e4",
     "semantic_hash": "5544cf4de87aabe728296a57acdaa4e4"
   },
   "established/017_lesson15.md": {
     "mtime": 1788130906.3682132,
-    "seen": 1788162875.6561756,
+    "seen": 1788164385.1337676,
     "ast_hash": "19a951c004d12acc8665b6de8f1ebbb9",
     "semantic_hash": "19a951c004d12acc8665b6de8f1ebbb9"
   },
   "established/018_lesson16.md": {
     "mtime": 1788130923.9393709,
-    "seen": 1788162875.6561778,
+    "seen": 1788164385.133768,
     "ast_hash": "5f23eb38ed99eaa17dc2c9209f3cf581",
     "semantic_hash": "5f23eb38ed99eaa17dc2c9209f3cf581"
   },
   "established/018_lesson16_vocab2.md": {
     "mtime": 1788130986.1919289,
-    "seen": 1788160879.8853576,
+    "seen": 1788164385.1337688,
     "ast_hash": "02dc124402392d87107cae32d91260d0",
-    "semantic_hash": ""
+    "semantic_hash": "02dc124402392d87107cae32d91260d0"
   },
   "established/018_lesson16_vocab3.md": {
     "mtime": 1788131106.6110065,
-    "seen": 1788160879.8853583,
+    "seen": 1788164385.1337695,
     "ast_hash": "404ae31aefcee61fe964464d92348efa",
-    "semantic_hash": ""
+    "semantic_hash": "404ae31aefcee61fe964464d92348efa"
   },
   "established/019_lesson17.md": {
     "mtime": 1788130859.2897906,
-    "seen": 1788162875.6561806,
+    "seen": 1788164385.13377,
     "ast_hash": "9d9dff629b5d4fbfd5c767fdd6e589e9",
     "semantic_hash": "9d9dff629b5d4fbfd5c767fdd6e589e9"
   },
   "established/020_lesson18.md": {
     "mtime": 1788130814.2093856,
-    "seen": 1788162875.6561823,
+    "seen": 1788164385.1337707,
     "ast_hash": "44a5c280a6a9f8e70fa90cae4d0746d2",
     "semantic_hash": "44a5c280a6a9f8e70fa90cae4d0746d2"
   },
   "established/021_lesson19.md": {
     "mtime": 1788130828.944518,
-    "seen": 1788162875.6561852,
+    "seen": 1788164385.1337712,
     "ast_hash": "8f15c67f3806b86ada36a298850d1b3f",
     "semantic_hash": "8f15c67f3806b86ada36a298850d1b3f"
   },
   "established/022_lesson20.md": {
     "mtime": 1788131152.737419,
-    "seen": 1788162875.6561868,
+    "seen": 1788164385.1337717,
     "ast_hash": "568326ef6f7f1358e2ed7c058c231f7e",
     "semantic_hash": "568326ef6f7f1358e2ed7c058c231f7e"
   },
   "established/023_appendices1-6_grammar_reference.md": {
     "mtime": 1788131105.5269969,
-    "seen": 1788162875.656189,
+    "seen": 1788164385.1337726,
     "ast_hash": "a868ebc0fe1ac0a5573358e100934fa1",
     "semantic_hash": "a868ebc0fe1ac0a5573358e100934fa1"
   },
   "established/024_appendix9_verb_types.md": {
     "mtime": 1788131042.5414333,
-    "seen": 1788162875.6561906,
+    "seen": 1788164385.1337733,
     "ast_hash": "4314ff472ce234ebe816bea47ddd8a37",
     "semantic_hash": "4314ff472ce234ebe816bea47ddd8a37"
   },
   "established/025_appendices7-8_literary_readings.md": {
     "mtime": 1788131117.305102,
-    "seen": 1788162875.656193,
+    "seen": 1788164385.1337738,
     "ast_hash": "3ccc344c4d7415707a18a77bf502d144",
     "semantic_hash": "3ccc344c4d7415707a18a77bf502d144"
   },
   "established/026_glossary_bcs_english_part1.md": {
     "mtime": 1788132138.382871,
-    "seen": 1788162875.6561944,
+    "seen": 1788164385.1337745,
     "ast_hash": "75cf82add8d05621969f9db650fd319c",
     "semantic_hash": "75cf82add8d05621969f9db650fd319c"
   },
   "established/027_glossary_bcs_english_part2.md": {
     "mtime": 1788132221.7782362,
-    "seen": 1788162875.6561956,
+    "seen": 1788164385.133775,
     "ast_hash": "b42874be3261fd3cde61cc75fcde6a21",
     "semantic_hash": "b42874be3261fd3cde61cc75fcde6a21"
   },
   "established/028_glossary_bcs_english_part3.md": {
     "mtime": 1788132264.2709467,
-    "seen": 1788162875.6561983,
+    "seen": 1788164385.133776,
     "ast_hash": "0384231046dcec42440bbba245f3ea23",
     "semantic_hash": "0384231046dcec42440bbba245f3ea23"
   },
   "established/029_glossary_bcs_english_part4.md": {
     "mtime": 1788131567.3451161,
-    "seen": 1788162875.6561997,
+    "seen": 1788164385.1337764,
     "ast_hash": "ea39c541a85ab797a6ababd38e29724d",
     "semantic_hash": "ea39c541a85ab797a6ababd38e29724d"
   },
   "established/030_glossary_bcs_english_part5.md": {
     "mtime": 1788132261.96443,
-    "seen": 1788162875.6562011,
+    "seen": 1788164385.133777,
     "ast_hash": "c161608de7432a275c05ab95df8211ba",
     "semantic_hash": "c161608de7432a275c05ab95df8211ba"
   },
   "established/031_socioling_ch21_intro_writing_standardization.md": {
     "mtime": 1788148707.7022,
-    "seen": 1788162875.656204,
+    "seen": 1788164385.1337776,
     "ast_hash": "d41b46619195c056a597c2a1f0b1dc2e",
     "semantic_hash": "d41b46619195c056a597c2a1f0b1dc2e"
   },
   "established/032_socioling_ch22_dialect_differences.md": {
     "mtime": 1788148816.7937965,
-    "seen": 1788162875.6562061,
+    "seen": 1788164385.133778,
     "ast_hash": "8680a261e86261262ddc17cf137bb4c7",
     "semantic_hash": "8680a261e86261262ddc17cf137bb4c7"
   },
   "established/033_socioling_ch23_bosnian.md": {
     "mtime": 1788148719.5442607,
-    "seen": 1788162875.6562076,
+    "seen": 1788164385.1337786,
     "ast_hash": "16a3ee340aae94098259280c0b55f283",
     "semantic_hash": "16a3ee340aae94098259280c0b55f283"
   },
   "established/034_socioling_ch24_croatian.md": {
     "mtime": 1788148701.8301704,
-    "seen": 1788162875.6562097,
+    "seen": 1788164385.1337793,
     "ast_hash": "bc031b90a35d958bbeb72db973511bb3",
     "semantic_hash": "bc031b90a35d958bbeb72db973511bb3"
   },
   "established/035_socioling_ch25_serbian_montenegro.md": {
     "mtime": 1788148727.7453032,
-    "seen": 1788162875.6562116,
+    "seen": 1788164385.13378,
     "ast_hash": "25a9c8bbad48a50a57544e0dc5e11092",
     "semantic_hash": "25a9c8bbad48a50a57544e0dc5e11092"
   },
   "established/036_socioling_ch26_one_or_more_languages.md": {
     "mtime": 1788148679.7940617,
-    "seen": 1788162875.6562135,
+    "seen": 1788164385.1337805,
     "ast_hash": "a6d559fed1b34acb376a1bb0afb61228",
     "semantic_hash": "a6d559fed1b34acb376a1bb0afb61228"
   },
   "established/037_grammar_ch1-3_supplementary.md": {
     "mtime": 1788150819.8939095,
-    "seen": 1788162875.656215,
+    "seen": 1788164385.1337812,
     "ast_hash": "bf888af67c3a4a00b8d6a4767895a2e7",
     "semantic_hash": "bf888af67c3a4a00b8d6a4767895a2e7"
   },
   "established/038_grammar_ch4-6_supplementary.md": {
     "mtime": 1788150816.8658926,
-    "seen": 1788162875.656217,
+    "seen": 1788164385.1337817,
     "ast_hash": "63722c0b5587b8584acc89e547c2c307",
     "semantic_hash": "63722c0b5587b8584acc89e547c2c307"
   },
   "established/039_grammar_ch7-9_supplementary.md": {
     "mtime": 1788150847.6540658,
-    "seen": 1788162875.6562188,
+    "seen": 1788164385.1337824,
     "ast_hash": "96af643fdb363fce18c9bb0205fcf5d8",
     "semantic_hash": "96af643fdb363fce18c9bb0205fcf5d8"
   },
   "established/040_grammar_ch10-12_supplementary.md": {
     "mtime": 1788151014.4620833,
-    "seen": 1788162875.6562207,
+    "seen": 1788164385.1337829,
     "ast_hash": "82e1947b17f95889edda04bf29b3de46",
     "semantic_hash": "82e1947b17f95889edda04bf29b3de46"
   },
   "established/041_grammar_ch13-16_supplementary.md": {
     "mtime": 1788150815.678886,
-    "seen": 1788162875.656223,
+    "seen": 1788164385.1337833,
     "ast_hash": "c4d44880a66d71943468f6177e22dc29",
     "semantic_hash": "c4d44880a66d71943468f6177e22dc29"
   },
   "established/042_grammar_ch17_case_usage_review.md": {
     "mtime": 1788150833.6949866,
-    "seen": 1788162875.6562257,
+    "seen": 1788164385.1337838,
     "ast_hash": "b72fc71042ec9f9b569d09eb2afbe3c1",
     "semantic_hash": "b72fc71042ec9f9b569d09eb2afbe3c1"
   },
   "established/043_grammar_ch18_word_formation.md": {
     "mtime": 1788150899.2483668,
-    "seen": 1788162875.6562274,
+    "seen": 1788164385.1337843,
     "ast_hash": "e5299fad983264af7c64d6d77e2e3732",
     "semantic_hash": "e5299fad983264af7c64d6d77e2e3732"
   },
   "established/044_grammar_ch19_clitic_accent.md": {
     "mtime": 1788150820.152911,
-    "seen": 1788162875.6562297,
+    "seen": 1788164385.133785,
     "ast_hash": "9a65405a24384192313c3ef41c07047d",
     "semantic_hash": "9a65405a24384192313c3ef41c07047d"
   },
   "established/045_grammar_ch20_phonology.md": {
     "mtime": 1788150730.894438,
-    "seen": 1788162875.6562312,
+    "seen": 1788164385.1337855,
     "ast_hash": "6199789dac6f7281276dd356c72684e6",
     "semantic_hash": "6199789dac6f7281276dd356c72684e6"
   },
   "established/046_serbian_essential_ch1-2_cultural_dialects.md": {
     "mtime": 1788154771.8988016,
-    "seen": 1788162875.6562333,
+    "seen": 1788164385.1337862,
     "ast_hash": "de3e0328ad43be9e85bcf5a4d5ea7652",
     "semantic_hash": "de3e0328ad43be9e85bcf5a4d5ea7652"
   },
   "established/047_serbian_essential_ch3-5_alphabet_pronunciation_stress.md": {
     "mtime": 1788154915.567432,
-    "seen": 1788162875.6562355,
+    "seen": 1788164385.1337867,
     "ast_hash": "00cf34ae42d3da878db134f1e5ce1370",
     "semantic_hash": "00cf34ae42d3da878db134f1e5ce1370"
   },
   "established/048_serbian_essential_ch6a_verbs_part1.md": {
     "mtime": 1788154873.877967,
-    "seen": 1788162875.6562378,
+    "seen": 1788164385.1337874,
     "ast_hash": "a8e834bbe60c5d41b2d38712b6b88f17",
     "semantic_hash": "a8e834bbe60c5d41b2d38712b6b88f17"
   },
   "established/049_serbian_essential_ch6b_verbs_part2.md": {
     "mtime": 1788154807.3282113,
-    "seen": 1788162875.65624,
+    "seen": 1788164385.133788,
     "ast_hash": "cc98a6a779b8927ad3bac8c62f68cd72",
     "semantic_hash": "cc98a6a779b8927ad3bac8c62f68cd72"
   },
   "established/050_serbian_essential_ch7a_nouns_part1.md": {
     "mtime": 1788154875.7079875,
-    "seen": 1788162875.656242,
+    "seen": 1788164385.1337888,
     "ast_hash": "8bed13533c3454203e475cc7a91d16b4",
     "semantic_hash": "8bed13533c3454203e475cc7a91d16b4"
   },
   "established/051_serbian_essential_ch7b_nouns_part2.md": {
     "mtime": 1788154809.4982362,
-    "seen": 1788162875.6562438,
+    "seen": 1788164385.1337895,
     "ast_hash": "a1dd50f04245d5d156f201cbb16485d5",
     "semantic_hash": "a1dd50f04245d5d156f201cbb16485d5"
   },
   "established/052_serbian_essential_ch8_pronouns.md": {
     "mtime": 1788154818.370338,
-    "seen": 1788162875.6562452,
+    "seen": 1788164385.13379,
     "ast_hash": "9f8bf3ac1867d009fab71a6584494c0e",
     "semantic_hash": "9f8bf3ac1867d009fab71a6584494c0e"
   },
   "established/053_serbian_essential_ch9_adjectives.md": {
     "mtime": 1788154848.6136823,
-    "seen": 1788162875.6562464,
+    "seen": 1788164385.1337907,
     "ast_hash": "ebde26281d0c9a0728a6d93f5f62952c",
     "semantic_hash": "ebde26281d0c9a0728a6d93f5f62952c"
   },
   "established/054_serbian_essential_ch10-11_adverbs_prepositions.md": {
     "mtime": 1788154863.926855,
-    "seen": 1788162875.6562495,
+    "seen": 1788164385.1337912,
     "ast_hash": "f3d0e94db43b58f7c18ded8b80ad115e",
     "semantic_hash": "f3d0e94db43b58f7c18ded8b80ad115e"
   },
   "established/055_serbian_essential_ch12-13_conjunctions_enclitics.md": {
     "mtime": 1788154947.2547812,
-    "seen": 1788162875.6562526,
+    "seen": 1788164385.133792,
     "ast_hash": "0710cf2feeefdeb04f1b0b1d33fbec2d",
     "semantic_hash": "0710cf2feeefdeb04f1b0b1d33fbec2d"
   },
   "established/056_serbian_essential_ch14_numerals.md": {
     "mtime": 1788154987.664222,
-    "seen": 1788162875.6562557,
+    "seen": 1788164385.1337924,
     "ast_hash": "83478b160a3617d62307b1d81138cb0d",
     "semantic_hash": "83478b160a3617d62307b1d81138cb0d"
   },
   "established/057_serbian_essential_ch15-17_quantifiers_determiners_particles.md": {
     "mtime": 1788154859.305803,
-    "seen": 1788162875.656259,
+    "seen": 1788164385.1337934,
     "ast_hash": "8170679f16d7fd539c99540d5989003d",
     "semantic_hash": "8170679f16d7fd539c99540d5989003d"
   },
   "established/058_serbian_essential_ch18-20_sentences_word_formation.md": {
     "mtime": 1788154935.2716496,
-    "seen": 1788162875.6562622,
+    "seen": 1788164385.1337938,
     "ast_hash": "27ace88c7616938c92c13edeea2454b9",
     "semantic_hash": "27ace88c7616938c92c13edeea2454b9"
   },
   "established/059_magner_lesson02-06.md": {
     "mtime": 1788156608.5770826,
-    "seen": 1788162875.6562645,
+    "seen": 1788164385.1337943,
     "ast_hash": "2fcb618494b3de01dd7b680444d5ceb9",
     "semantic_hash": "2fcb618494b3de01dd7b680444d5ceb9"
   },
   "established/060_magner_lesson07-11.md": {
     "mtime": 1788156368.999829,
-    "seen": 1788162875.6562674,
+    "seen": 1788164385.1337948,
     "ast_hash": "848e4e0272475b946281214569156f80",
     "semantic_hash": "848e4e0272475b946281214569156f80"
   },
   "established/061_magner_lesson12-16.md": {
     "mtime": 1788156403.9041579,
-    "seen": 1788162875.6562698,
+    "seen": 1788164385.1337953,
     "ast_hash": "f90cb74188d9d17e571abbacebdae36b",
     "semantic_hash": "f90cb74188d9d17e571abbacebdae36b"
   },
   "established/062_magner_lesson17-21.md": {
     "mtime": 1788156564.3036668,
-    "seen": 1788162875.6562726,
+    "seen": 1788164385.1337957,
     "ast_hash": "6e54e3a1d518801c1befcc48dae200e1",
     "semantic_hash": "6e54e3a1d518801c1befcc48dae200e1"
   },
   "established/063_magner_lesson22-26.md": {
     "mtime": 1788156833.425928,
-    "seen": 1788162875.6562743,
+    "seen": 1788164385.1337967,
     "ast_hash": "0bed92980cb406f7751a99b558cf256e",
     "semantic_hash": "0bed92980cb406f7751a99b558cf256e"
   },
   "established/064_magner_lesson27-30.md": {
     "mtime": 1788156451.6206074,
-    "seen": 1788162875.656276,
+    "seen": 1788164385.1337972,
     "ast_hash": "25b0e959c7bf09e50163426ab7befef1",
     "semantic_hash": "25b0e959c7bf09e50163426ab7befef1"
   },
   "established/065_colloquial_hr_sr_units01-03.md": {
     "mtime": 1788157960.6357658,
-    "seen": 1788162875.6562786,
+    "seen": 1788164385.1337976,
     "ast_hash": "a917d1a96d8b4eb65cdf1780e312f800",
     "semantic_hash": "a917d1a96d8b4eb65cdf1780e312f800"
   },
   "established/066_colloquial_hr_sr_units04-06.md": {
     "mtime": 1788160078.3747265,
-    "seen": 1788162875.6562808,
+    "seen": 1788164385.1337981,
     "ast_hash": "113bc545f658367bd28fdb20e0e8342b",
     "semantic_hash": "113bc545f658367bd28fdb20e0e8342b"
   },
   "established/067_colloquial_hr_sr_units07-09.md": {
     "mtime": 1788157858.7998476,
-    "seen": 1788162875.6562834,
+    "seen": 1788164385.1337986,
     "ast_hash": "70b60a587ce62431257d2662183a6677",
     "semantic_hash": "70b60a587ce62431257d2662183a6677"
   },
   "established/068_colloquial_hr_sr_units10-12.md": {
     "mtime": 1788157853.8638031,
-    "seen": 1788162875.6562862,
+    "seen": 1788164385.133799,
     "ast_hash": "eef19cb8313927b4df0ade0db66db753",
     "semantic_hash": "eef19cb8313927b4df0ade0db66db753"
   },
   "established/069_colloquial_hr_sr_units13-15.md": {
     "mtime": 1788157882.7920637,
-    "seen": 1788162875.65629,
+    "seen": 1788164385.1337998,
     "ast_hash": "bbaa414370ac05d0584cca838997b1c0",
     "semantic_hash": "bbaa414370ac05d0584cca838997b1c0"
   },
   "established/070_colloquial_hr_sr_units16-18.md": {
     "mtime": 1788158061.6866794,
-    "seen": 1788162875.6562922,
+    "seen": 1788164385.1338003,
     "ast_hash": "9df17cf8e8c607fbac7b7045b14d5eb7",
     "semantic_hash": "9df17cf8e8c607fbac7b7045b14d5eb7"
   },
   "established/071_colloquial_hr_sr_units19-20.md": {
     "mtime": 1788157855.599819,
-    "seen": 1788162875.6563034,
+    "seen": 1788164385.1338007,
     "ast_hash": "9fb4495bad52e4795fb2a4ce9e428882",
     "semantic_hash": "9fb4495bad52e4795fb2a4ce9e428882"
   },
   "established/072_colloquial_hr_sr_grammar_summary.md": {
     "mtime": 1788157795.8612816,
-    "seen": 1788162875.656306,
+    "seen": 1788164385.1338012,
     "ast_hash": "2a6c7ed8dcdd1fc61a311de85424db8f",
     "semantic_hash": "2a6c7ed8dcdd1fc61a311de85424db8f"
   },
   "established/073_colloquial_hr_sr_glossary.md": {
     "mtime": 1788159920.1143472,
-    "seen": 1788162875.6563072,
+    "seen": 1788164385.1338017,
     "ast_hash": "d99ac0a72a1e3eff5054c31bf9728a13",
     "semantic_hash": "d99ac0a72a1e3eff5054c31bf9728a13"
   },
   "established/073_colloquial_hr_sr_glossary_part8.md": {
     "mtime": 1788160298.3416548,
-    "seen": 1788162875.6563182,
+    "seen": 1788164385.133803,
     "ast_hash": "f092e25f02949695e6375faabd54a983",
     "semantic_hash": "f092e25f02949695e6375faabd54a983"
   },
@@ -471,96 +471,168 @@
     "mtime": 1788159977.7708488,
     "seen": 1788162875.656309,
     "ast_hash": "6ae82147486e165c1ca873eef22a9154",
-    "semantic_hash": "6ae82147486e165c1ca873eef22a9154"
+    "semantic_hash": ""
   },
   "established/073_colloquial_hr_sr_glossary_part3.md": {
     "mtime": 1788160033.1703317,
     "seen": 1788162875.6563103,
     "ast_hash": "9d99491941198542bc71686bbb2782c5",
-    "semantic_hash": "9d99491941198542bc71686bbb2782c5"
+    "semantic_hash": ""
   },
   "established/073_colloquial_hr_sr_glossary_part4.md": {
     "mtime": 1788160081.8207567,
     "seen": 1788162875.6563118,
     "ast_hash": "5872ef2f416c49fffa075b22304c4161",
-    "semantic_hash": "5872ef2f416c49fffa075b22304c4161"
+    "semantic_hash": ""
   },
   "established/073_colloquial_hr_sr_glossary_part5.md": {
     "mtime": 1788160134.7432196,
     "seen": 1788162875.6563125,
     "ast_hash": "860af2e5c3fe7ed92aa1ca5665208388",
-    "semantic_hash": "860af2e5c3fe7ed92aa1ca5665208388"
+    "semantic_hash": ""
   },
   "established/073_colloquial_hr_sr_glossary_part6.md": {
     "mtime": 1788160189.3006976,
     "seen": 1788162875.6563141,
     "ast_hash": "66459128ffaa85fd55d66fd72854f4a5",
-    "semantic_hash": "66459128ffaa85fd55d66fd72854f4a5"
+    "semantic_hash": ""
   },
   "established/073_colloquial_hr_sr_glossary_part7.md": {
     "mtime": 1788160243.4581728,
-    "seen": 1788162875.6563153,
+    "seen": 1788164385.1338024,
     "ast_hash": "102a7e1bcb147388d962fea9fd352ff9",
     "semantic_hash": "102a7e1bcb147388d962fea9fd352ff9"
   },
   "established/074_colloquial_sr_units01-03.md": {
     "mtime": 1788161189.635979,
-    "seen": 1788162875.656319,
+    "seen": 1788164385.1338036,
     "ast_hash": "e9130584961becfc253caabd5d2e8024",
     "semantic_hash": "e9130584961becfc253caabd5d2e8024"
   },
   "established/075_colloquial_sr_units04-06.md": {
     "mtime": 1788161335.6792324,
-    "seen": 1788162875.6563208,
+    "seen": 1788164385.133804,
     "ast_hash": "654910f06853e95191dd19635b988a93",
     "semantic_hash": "654910f06853e95191dd19635b988a93"
   },
   "established/076_colloquial_sr_units07-09.md": {
     "mtime": 1788161478.9962902,
-    "seen": 1788162875.656327,
+    "seen": 1788164385.1338046,
     "ast_hash": "6fadcf81ac83db28aa4e1547aceee114",
     "semantic_hash": "6fadcf81ac83db28aa4e1547aceee114"
   },
   "established/077_colloquial_sr_units10-12.md": {
     "mtime": 1788161462.8450646,
-    "seen": 1788162875.6563282,
+    "seen": 1788164385.133805,
     "ast_hash": "ec9d556906730549caa8494095e65414",
     "semantic_hash": "ec9d556906730549caa8494095e65414"
   },
   "established/078_colloquial_sr_units13-15.md": {
     "mtime": 1788161446.2628314,
-    "seen": 1788162875.6563292,
+    "seen": 1788164385.1338055,
     "ast_hash": "fe95192ba487a1ba3cdd4038c5b1084b",
     "semantic_hash": "fe95192ba487a1ba3cdd4038c5b1084b"
   },
   "established/079_colloquial_sr_units16-17.md": {
     "mtime": 1788161423.3575068,
-    "seen": 1788162875.656331,
+    "seen": 1788164385.1338062,
     "ast_hash": "590247db36c976d919d7e5417815e321",
     "semantic_hash": "590247db36c976d919d7e5417815e321"
   },
   "established/080_colloquial_sr_units18-19_kotor.md": {
     "mtime": 1788161421.2254763,
-    "seen": 1788162875.656332,
+    "seen": 1788164385.1338072,
     "ast_hash": "f6108a4722f6b54aa730812cb0172a61",
     "semantic_hash": "f6108a4722f6b54aa730812cb0172a61"
   },
   "established/081_colloquial_sr_unit20.md": {
     "mtime": 1788161202.5811863,
-    "seen": 1788162875.6563332,
+    "seen": 1788164385.1338112,
     "ast_hash": "6c37270137e3b22d982cb746af1ce960",
     "semantic_hash": "6c37270137e3b22d982cb746af1ce960"
   },
   "established/082_colloquial_sr_grammar_summary.md": {
     "mtime": 1788161193.1540353,
-    "seen": 1788162875.6563342,
+    "seen": 1788164385.133812,
     "ast_hash": "68b898d4de120b0834a69b4b11ed2ba2",
     "semantic_hash": "68b898d4de120b0834a69b4b11ed2ba2"
   },
   "established/083_colloquial_sr_glossary.md": {
     "mtime": 1788161337.0952532,
-    "seen": 1788162875.6563354,
+    "seen": 1788164385.1338124,
     "ast_hash": "f4b2e8b25ada5f09dc2bc95566a57edf",
     "semantic_hash": "f4b2e8b25ada5f09dc2bc95566a57edf"
+  },
+  "established/083_colloquial_sr_glossary_part2.md": {
+    "mtime": 1788161479.0352907,
+    "seen": 1788164385.1338131,
+    "ast_hash": "5dbbed1fc3f49df237bfa422fb25419b",
+    "semantic_hash": "5dbbed1fc3f49df237bfa422fb25419b"
+  },
+  "established/083_colloquial_sr_glossary_part3.md": {
+    "mtime": 1788161630.3043392,
+    "seen": 1788164385.1338139,
+    "ast_hash": "dce7ec7e4601755f13818f8706c65326",
+    "semantic_hash": "dce7ec7e4601755f13818f8706c65326"
+  },
+  "established/083_colloquial_sr_glossary_part4.md": {
+    "mtime": 1788161763.4700627,
+    "seen": 1788164385.1338143,
+    "ast_hash": "38c33f7b2782c7aa6a8f6d3140f27465",
+    "semantic_hash": "38c33f7b2782c7aa6a8f6d3140f27465"
+  },
+  "established/084_folktales_part1.md": {
+    "mtime": 1788163372.9445212,
+    "seen": 1788164385.1338148,
+    "ast_hash": "f528b8ce9cfdeb975b95ced0e03b3bf5",
+    "semantic_hash": "f528b8ce9cfdeb975b95ced0e03b3bf5"
+  },
+  "established/085_folktales_part2.md": {
+    "mtime": 1788163408.6768003,
+    "seen": 1788164385.1338155,
+    "ast_hash": "92c247259519da9d9819fa1223b2bd78",
+    "semantic_hash": "92c247259519da9d9819fa1223b2bd78"
+  },
+  "established/086_folktales_part3.md": {
+    "mtime": 1788163593.1303232,
+    "seen": 1788164385.133816,
+    "ast_hash": "dbdc2a5f0cf0df3ceefd081daf4d5843",
+    "semantic_hash": "dbdc2a5f0cf0df3ceefd081daf4d5843"
+  },
+  "established/087_folktales_part4.md": {
+    "mtime": 1788163335.468235,
+    "seen": 1788164385.1338165,
+    "ast_hash": "b420913e515b07bdc06fc9562ef1082d",
+    "semantic_hash": "b420913e515b07bdc06fc9562ef1082d"
+  },
+  "established/088_folktales_part5.md": {
+    "mtime": 1788163529.9587877,
+    "seen": 1788164385.1338172,
+    "ast_hash": "c665058231118acde26679f93d70d550",
+    "semantic_hash": "c665058231118acde26679f93d70d550"
+  },
+  "established/089_folktales_part6.md": {
+    "mtime": 1788163480.635379,
+    "seen": 1788164385.133818,
+    "ast_hash": "673c202ba376a163392b9e457f2c86f0",
+    "semantic_hash": "673c202ba376a163392b9e457f2c86f0"
+  },
+  "established/090_folktales_part7.md": {
+    "mtime": 1788163412.552831,
+    "seen": 1788164385.1338184,
+    "ast_hash": "4fedb5ddbf64d7f46aea71e38f8ce5ed",
+    "semantic_hash": "4fedb5ddbf64d7f46aea71e38f8ce5ed"
+  },
+  "established/091_folktales_part8.md": {
+    "mtime": 1788163483.3374014,
+    "seen": 1788164385.1338189,
+    "ast_hash": "12678fff08a99bf30c2af178355de4f3",
+    "semantic_hash": "12678fff08a99bf30c2af178355de4f3"
+  },
+  "established/092_folktales_glossary.md": {
+    "mtime": 1788163791.5020783,
+    "seen": 1788164385.1338193,
+    "ast_hash": "1fd2ea08328b76c6182d42defe841c96",
+    "semantic_hash": "1fd2ea08328b76c6182d42defe841c96"
   }
 }
