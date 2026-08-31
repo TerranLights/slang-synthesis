@@ -416,3 +416,75 @@ extraction**, budgeting for wave-based dispatch on any language whose full extra
 ~15-18 concurrent chunks, and continuing the check-first + serialized-checklist safety patterns as
 standing practice rather than optional caution. As with every test run, all findings above remain
 tentative pending developer review before being treated as settled process.
+
+---
+
+### 2026-08-30 — Full-language-folder extraction: two more complete books, all clean-text-layer sources done
+
+Following the bridge test's positive verdict, the developer greenlit full-language extraction for
+this language and asked which language to continue with — this one, being the smallest and most
+tractable corpus (9 real reference documents vs. Hungarian's 131 or Dutch's 84), with a validated
+methodology and infrastructure already in place. Extracted the two remaining clean-text-layer books
+in full: Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
+~67,000 words) and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words).
+**All 3 of this language's clean-text-layer books are now fully extracted** — 60 `established/`
+files, ~10,220 rows, ~457,000 words total. Only the 5 remaining vision-only/garbled-OCR books stand
+between this language and complete Phase 1 coverage.
+
+**A new, reusable extraction pattern: "non-redundant supplement" dispatch.** Both books substantially
+overlap with already-extracted grammar content (the same core word classes taught by every reference
+grammar). Rather than re-extracting duplicate ground or skipping overlapping chapters wholesale,
+every dispatch for an overlapping chapter was instructed to check prior `established/` files first
+and extract *only* genuinely new/deeper material — full paradigm tables not assembled elsewhere,
+finer-grained rules, or a different author's independent examples. This worked cleanly across both
+books: several chunks came back with near-empty vocabulary tables (correctly recognizing near-total
+overlap, e.g. Hammond's Ch.6 §6.1-6.9 kept only 1 new row) while others found real, substantial gaps
+even in "already covered" territory (e.g. Alexander's Ch.10-12 chunk found the Type A/B/C consonant-
+softening system that a later chapter had already cited as "presented earlier" but no file had
+actually captured; Hammond's Ch.7 declension chunk fully tabulated the archaic *mati*/*kći* paradigms
+that prior files had only named). **Recommend promoting this pattern into the extraction spec**:
+when a third-plus source covers the same grammar territory, dispatch as "extract only what's new,
+state what you skipped and why" rather than either full re-extraction or wholesale chapter-skipping.
+
+**A new PDF gotcha, independently confirmed by multiple subagents: a decodable font-substitution
+cipher.** Hammond's book renders Cyrillic (and in some subsections, Latin diacritics) as unrelated
+glyphs under `pdftotext` — but unlike garbled OCR, this is a *fixed, consistent* character-level
+substitution, not random corruption: one subagent extracting Chapters 12-13 actually cracked the
+mapping (š→e, č→a, ć→z, ž→f, đ→]) by cross-referencing garbled forms against known Serbian
+vocabulary. Four different subagents independently encountered and correctly handled this same
+issue across different chapters — either falling back to the book's own clean parallel Latin-script
+column (the safe default) or decoding specific forms with explicit confidence flagging. Distinct
+from the three previously-catalogued PDF gotchas (column-scrambling, two-column interleaving,
+third-party-repair-tool artifacts) — worth checking for on any future source whose Cyrillic renders
+as unrelated glyph soup despite having a genuine text layer.
+
+**Genuinely new content highlights:**
+- Alexander's Sociolinguistic Commentary (Ch. 21-26) delivered exactly the register/dialect data
+  hoped for — Chapter 22 alone gave two source-curated, explicitly-labeled regional lexical tables
+  plus the author's own argument that vocabulary (not alphabet/pronunciation/grammar) is the real
+  B/C/S differentiator, and Chapter 25 substantially deepened the existing Montenegrin finding with
+  real scholarly nuance (the Nikčević orthography movement's claimed distinguishing features are
+  actually shared East Herzegovinian dialect features, per the source's own verdict).
+- Alexander's Chapter 18 (word formation) flagged diminutive and agentive suffixes as the productive,
+  affect-loaded derivational categories — directly relevant to future Phase 3/5 slang-mechanics work.
+- Hammond's Chapter 2 (Dialects) delivered clean, source-tagged Attested Region data via the
+  kajkavski/čakavski/štokavski split, independent confirmation of a phenomenon Alexander's book also
+  covers from a different author's perspective.
+- Hammond's Chapter 17 particles chapter carries the source's own explicit "sarcastic/humorous
+  overtones" annotation on `li`/`ne bi li` — a genuine informal-register signal found via the
+  register-prioritization principle, in a chapter type (particles/exclamations) not previously
+  tested for this.
+- Hammond's noun-type chapter surfaced directly slang-relevant vocabulary (`narkoman`, `siledžija`,
+  `kravetina`, `mangup`) while covering ordinary derivational-suffix grammar — a reminder that
+  slang-adjacent vocabulary can turn up incidentally in grammar-illustration examples, not just in
+  dictionaries or colloquial-labeled chapters.
+
+**Graph scaling confirmed clean.** Rebuilt twice this session (once after each book), growing from
+136→219→241 nodes across 34→49→62 files with consistently healthy diagnostics (one benign collapsed
+edge each time — never dangling/missing endpoints) and zero repo-root cross-contamination. The
+node-collapsing discipline continues to hold at nearly double the bridge-test's original scale.
+
+**Status: all clean-text-layer Phase 1 material for this language is done.** What remains is
+entirely vision-reading work (5 books) — a genuinely different cost/effort profile than what's been
+tested so far. Everything above remains tentative pending developer review, same as every prior
+entry in this log.

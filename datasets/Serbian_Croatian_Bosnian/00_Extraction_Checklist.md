@@ -34,11 +34,13 @@ breakdowns were needed in any of the 32 output files. See
 
 ## Output files — Markdown, sharded by numbered file
 
-**Status: two of this language's 9 real reference documents fully extracted.** The flagship
-Alexander & Elias-Bursać textbook (32 files, ~8,450 rows, ~338,000 words — this project's original
-bridge-scale test) and Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files,
-~990 rows, ~67,000 words) are both complete. Combined: 47 `established/` files, ~9,440 rows,
-~405,000 words for this language so far.
+**Status: three of this language's 9 real reference documents fully extracted — all clean-text-layer
+books now done.** The flagship Alexander & Elias-Bursać textbook (32 files, ~8,450 rows, ~338,000
+words), Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
+~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words)
+are all complete. Combined: 60 `established/` files, ~10,220 rows, ~457,000 words for this language
+so far. Only the 5 remaining vision-only/garbled-OCR books (plus the trivial audio-recordings key)
+are left.
 
 | Directory | File | Contents |
 |---|---|---|
@@ -87,6 +89,19 @@ bridge-scale test) and Alexander's companion *Grammar: With Sociolinguistic Comm
 | `established/` | `043_grammar_ch18_word_formation.md` | Grammar Ch. 18, "Word Formation" (§161-163) — new content, no lesson analog — **~400 rows across 35 derivational-suffix patterns**, the largest single chunk of this book. Directly flags diminutive and agentive suffixes as the productive, affect-loaded categories — relevant to future Phase 3/5 slang-mechanics work. |
 | `established/` | `044_grammar_ch19_clitic_accent.md` | Grammar Ch. 19, clitic placement/BCS accent (§164-166) — new content, no lesson analog — 14 rows, the book's genuinely first full treatment of the XYZ model and rhythmic-constituent framework. |
 | `established/` | `045_grammar_ch20_phonology.md` | Grammar Ch. 20, "The Sound Structure of BCS" (§167) — new content, no lesson analog — 20 rows. Draws an explicit (flagged-as-hypothesis) structural connection between BCS's cluster-simplification/fleeting-vowel rules and the syllable-switching slang mechanism in `025_appendices7-8_literary_readings.md`. |
+| `established/` | `046_serbian_essential_ch1-2_cultural_dialects.md` | Hammond, *Serbian: An Essential Grammar*, Ch. 1-2 (cultural/literary background, dialects) — 19 rows. Delivered real Attested Region data via the kajkavski/čakavski/štokavski split and the štokavian jat-reflex sub-split, each source-tagged to named regions. |
+| `established/` | `047_serbian_essential_ch3-5_alphabet_pronunciation_stress.md` | Hammond, Ch. 3-5 (alphabet, pronunciation, stress), non-redundant supplement to `044`/`045` — 52 rows, including a full Cyrillic↔Latin correspondence table and a Belgrade-vs-Bosnia regional vowel-length register note. |
+| `established/` | `048_serbian_essential_ch6a_verbs_part1.md` | Hammond, Ch. 6 §6.1-6.9 (verb tenses), non-redundant supplement — 1 row (near-total overlap correctly skipped), but full worked aorist paradigms across three stem-shape classes not previously captured. |
+| `established/` | `049_serbian_essential_ch6b_verbs_part2.md` | Hammond, Ch. 6 §6.10-6.18 (imperative through modal verbs), non-redundant supplement — 10 rows, including the 9-way interrogative-formation inventory and 5 new *ići*-derivatives. |
+| `established/` | `050_serbian_essential_ch7a_nouns_part1.md` | Hammond, Ch. 7 §7.1-7.3 (noun types/gender/case usage), non-redundant supplement — 62 rows, including closed-class case-governing verb/adjective inventories and some directly slang-relevant vocabulary (*narkoman*, *siledžija*, *mangup*). |
+| `established/` | `051_serbian_essential_ch7b_nouns_part2.md` | Hammond, Ch. 7 §7.4 (noun declension), non-redundant supplement — 47 rows. Filled a real gap: the archaic *mati*/*kći* paradigms, previously only named, now fully tabulated; also the suppletive *čovek*/*ljudi* counting rule, new to this project. |
+| `established/` | `052_serbian_essential_ch8_pronouns.md` | Hammond, Ch. 8 (pronouns), non-redundant supplement — 29 rows. New content: the internal case-ordering rule within a clitic cluster (dative→genitive→accusative), confirmed complementary to the existing XYZ/rhythmic-constituent models, not a duplicate. |
+| `established/` | `053_serbian_essential_ch9_adjectives.md` | Hammond, Ch. 9 (adjectives), non-redundant supplement — 31 rows, including the possessive-adjective capitalization rule and the passive-participle-to-deverbal-noun derivational pattern, both new to this project. |
+| `established/` | `054_serbian_essential_ch10-11_adverbs_prepositions.md` | Hammond, Ch. 10-11 (adverbs, prepositions), non-redundant supplement — 27 rows, including preposition accentuation as proclitics (entirely new) and 5 preposition headwords absent from the existing master inventory. |
+| `established/` | `055_serbian_essential_ch12-13_conjunctions_enclitics.md` | Hammond, Ch. 12-13 (conjunctions, enclitics), non-redundant supplement — 63 rows: full plain-language conjunction inventory plus 4 genuinely new enclitic-interaction rules. **Cracked the book's font-substitution cipher** (š→e, č→a, ć→z, ž→f, đ→]) — a fixed, decodable mapping, not random corruption (see PDF gotchas note below). |
+| `established/` | `056_serbian_essential_ch14_numerals.md` | Hammond, Ch. 14 (numerals), extracted fully (little prior overlap) — 131 rows: cardinal/ordinal declension, fractions, collectives, multiplicatives, approximatives, distributives, frequentatives, weights/measures, age, calendar/time vocabulary. |
+| `established/` | `057_serbian_essential_ch15-17_quantifiers_determiners_particles.md` | Hammond, Ch. 15-17 (quantifiers, determiners, particles/conjunctions/exclamations), extracted fully — 116 rows. Ch. 17's `li`/`ne bi li` entry carries the source's own explicit "sarcastic/humorous overtones" annotation — the strongest informal-register signal in this book. |
+| `established/` | `058_serbian_essential_ch18-20_sentences_word_formation.md` | Hammond, Ch. 18-20 (sentences, sentence structure, word formation), Ch.18-19 extracted fully, Ch.20 checked against `043_grammar_ch18_word_formation.md` (found only 1 genuine duplicate) — ~148 rows, including a 14-prefix verb-formation inventory. |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -116,7 +131,7 @@ Not yet relevant here since no corpus collection has begun.
 
 **Vision-reading risk.** `established/002_lesson01_magner_vision_test.md` remains this project's
 vision-reading test (a scanned, no-text-layer book), medium-high confidence, retrofitted `Vision
-Reading Confidence` column. All 46 other files in this language have a real text layer, so `Vision
+Reading Confidence` column. All 59 other files in this language have a real text layer, so `Vision
 Reading Confidence` is `n/a` throughout them. See `../00_Reference_Extraction_Spec.md`'s
 Vision-reading guard section. This will change once the vision-only books (`03.Colloquial Serbian
 and Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, the rest of Magner, `29.Serbian Folk
@@ -134,7 +149,15 @@ scramble multi-column vocabulary-table layouts, requiring cross-checking against
 `pdftotext -layout` on a genuinely two-column dictionary/glossary page interleaves left/right column
 text on shared lines, requiring per-column bounding-box extraction (`-x`/`-W` or left/right crops)
 instead; (3) a third-party "Advanced PDF Repair" tool's own processing artifacts can introduce
-additional column-reconstruction noise on top of the above.
+additional column-reconstruction noise on top of the above; (4) **new, found during the Hammond
+*Serbian: An Essential Grammar* extraction**: a fixed, decodable font-substitution cipher on
+Cyrillic and Latin-diacritic characters (this book's specific mapping: š→e, č→a, ć→z, ž→f, đ→]) —
+distinct from garbled OCR (there's a real, present text layer) and from the other column bugs above;
+confirmed independently by 4 different subagents extracting different chapters, all correctly
+identified the pattern and either cross-referenced known vocabulary to decode it or fell back to the
+book's own parallel Latin-script column when unsure. Worth checking for on any future PDF whose
+Cyrillic renders as unrelated glyph soup despite having a real text layer — it may be this same kind
+of fixed-but-undocumented font remapping rather than unusable garbage.
 
 ## Graphify
 
@@ -177,7 +200,15 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       preface states correspond directly to the textbook's Lessons 1-16) extracted as
       non-redundant supplements only, Chapters 17-20 (no lesson analog: case-usage review, word
       formation, clitic placement/accent, phonology) extracted fully and normally.
-- [ ] `10.Serbian an essential grammar.pdf` — not started
+- [x] `10.Serbian an essential grammar.pdf` — **full book complete** (13 files,
+      `established/046`-`058`, ~780 rows, ~52,000 words). Third full-book extraction for this
+      language, all three of it deliberately checked against the two prior books' overlapping
+      grammar content — extracted normally where genuinely new (dialects, numerals, quantifiers/
+      determiners/particles, sentence structure), as non-redundant supplements where it overlapped
+      (verbs, nouns, pronouns, adjectives, adverbs/prepositions, conjunctions/enclitics). This
+      book's PDF has a decodable font-substitution cipher on Cyrillic and diacritic characters
+      (š→e, č→a, ć→z, ž→f, đ→]) — confirmed independently by 4 different subagents; see the
+      PDF gotchas note below.
 - [x] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lesson 1 only (86 entries
       in `established/002_lesson01_magner_vision_test.md`), vision-reading test. Not extended to the
       rest of this book — deferred behind the now-complete flagship textbook.
@@ -216,18 +247,15 @@ extraction across all 40+ languages.
 `methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
 methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
 
-1. **Next up:** `10.Serbian an essential grammar.pdf` (337 pages, clean text, Serbian-only — good
-   for cross-checking Serbian-specific entries against the two already-extracted comparative books).
-   This is the last remaining clean-text-layer book for this language.
-2. Decide a vision-reading approach for the 5 remaining vision-only/garbled-OCR books (`03.Colloquial
-   Serbian and Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, Magner's remaining ~29
-   lessons, `29.Serbian Folk Tales.pdf`, `Teach Yourself Serbian.pdf`) — the two "Colloquial"-titled
-   books are flagged high-value by their register framing despite the vision-reading cost.
-   `01.Key to audio recordings.PDF` (trivial, 2 pages) can be picked up cheaply alongside any of the
-   above.
-3. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
+1. **All 3 clean-text-layer books are now done.** What remains is entirely vision-reading work:
+   decide an approach for the 5 remaining vision-only/garbled-OCR books (`03.Colloquial Serbian and
+   Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, Magner's remaining ~29 lessons,
+   `29.Serbian Folk Tales.pdf`, `Teach Yourself Serbian.pdf`) — the two "Colloquial"-titled books are
+   flagged high-value by their register framing despite the vision-reading cost. `01.Key to audio
+   recordings.PDF` (trivial, 2 pages) can be picked up cheaply alongside any of the above.
+2. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
    language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
    that milestone explicitly, since it would be the first language to reach it.
-4. Given the full corpus now available, Phase 3 (mechanics analysis) could plausibly begin once
+3. Given the full corpus now available, Phase 3 (mechanics analysis) could plausibly begin once
    `language_corpus/Serbian_Croatian_Bosnian/` reaches `in progress` — the syllable-switching slang
    mechanism alone is a strong first analysis target.

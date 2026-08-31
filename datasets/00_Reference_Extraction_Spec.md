@@ -25,6 +25,29 @@ this project's purposes. **Extract:**
 **Skip:** repeated drill exercises and example sentences that don't introduce new vocabulary or
 grammar beyond what's already been captured from this same chunk.
 
+### Multiple sources covering the same grammar territory: "non-redundant supplement" dispatch
+
+Once a language has 2+ reference books extracted, later books substantially overlap in scope with
+earlier ones (every reference grammar teaches cases, verb conjugation, pronouns, etc.). Confirmed
+during the Serbian/Croatian/Bosnian full-language-extraction pass: **don't either fully re-extract
+overlapping chapters or skip them wholesale** — both waste real information. Instead, for any chunk
+whose topic likely overlaps with already-extracted content, instruct the subagent to:
+
+1. Check the relevant prior `established/` files first (name them in the dispatch if known).
+2. Extract *only* what's genuinely new or deeper — a fuller/more systematic paradigm table, a rule
+   or exception not previously captured, a different author's independent examples, explicit
+   dialectal/regional annotation not seen before.
+3. State explicitly in the file's opening note what was skipped as redundant and what was kept and
+   why — so the scope decision is auditable, not silent.
+
+This worked cleanly in practice: some chunks correctly came back with near-empty vocabulary tables
+(recognizing near-total overlap), while others found real, substantial gaps even in "already
+covered" territory — e.g. a later chapter's phonology discussion cited a consonant-softening system
+as "presented earlier," but no prior chunk had actually captured it until this pattern's dispatch
+caught the gap; another book's declension chapter fully tabulated an archaic case paradigm that
+prior extractions had only named. A same-topic chapter from a third, independently-authored source
+is not redundant by default — it's worth a real (if narrowed) look every time.
+
 ## Copyright discipline
 
 Reference material is copyrighted. **Selective quotes + paraphrase + analysis only.** A short
@@ -91,6 +114,17 @@ test, worth checking for on any future language's sources rather than rediscover
   two issues above. **Cross-check raw (non-`-layout`) extraction against `-layout` extraction** when
   something in a processed-looking file seems misaligned — the two extraction modes tend to fail in
   different, non-overlapping ways, so agreement between them is a good confidence signal.
+- **A fixed, decodable font-substitution cipher can corrupt Cyrillic and diacritic characters even
+  with a genuine text layer.** Found during Serbian/Croatian/Bosnian's full-language extraction pass:
+  one source's PDF rendered Cyrillic (and some Latin-diacritic characters) as unrelated glyphs under
+  `pdftotext` — but the substitution was *consistent*, not random garbling, and one subagent actually
+  decoded the specific character-level mapping by cross-referencing corrupted output against known
+  vocabulary in the target language. **Distinguish this from garbled OCR** (no real text layer at
+  all) by checking whether the corruption is a fixed 1:1 character substitution — if so, either
+  decode it (cross-reference known vocabulary, flag confidence explicitly) or fall back to a clean
+  parallel-script column if the source provides one (e.g. a book presenting both Cyrillic and Latin
+  transliteration side by side). Worth checking for on any future source whose Cyrillic renders as
+  unrelated glyph soup despite `pdftotext` reporting a real text layer.
 
 ### Morphological composition
 
