@@ -34,20 +34,23 @@ breakdowns were needed in any of the 32 output files. See
 
 ## Output files — Markdown, sharded by numbered file
 
-**Status: 7 of this language's 9 real reference documents fully extracted.** All 3 clean-text-layer
-books are done — the flagship Alexander & Elias-Bursać textbook (32 files, ~8,450 rows, ~338,000
-words), Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
-~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words).
-Four vision-only books are also now done — Magner's *Introduction to the Croatian and Serbian
-Language* (30 lessons, `established/002`+`059`-`064`, ~1,190 rows), Hawkesworth's *Colloquial
-Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868 rows, ~96,000 words),
-Hawkesworth & Ćalić's *Colloquial Serbian* (13 files, `established/074`-`083`+parts, ~1,563 rows,
-~95,500 words), and *Serbian Folk Tales* (9 files, `established/084`-`092`, ~535 rows, ~45,000
-words). Combined: 104 `established/` files, ~15,373 rows, ~745,000 words for this language so far.
-Only 1 remaining garbled-OCR book (plus the trivial audio-recordings key) is left: *Teach Yourself
-Serbian*. A bonus 12-reading "Čitanka" section inside Magner's own book (starting PDF p. 95, past the
-30 lessons) was found but deliberately deferred — see
-the deferred-content note in Reference extraction progress below.
+**Status: ALL 9 of this language's real reference documents fully extracted or explicitly deferred
+— Phase 1 complete.** All 3 clean-text-layer books: the flagship Alexander & Elias-Bursać textbook
+(32 files, ~8,450 rows, ~338,000 words), Alexander's companion *Grammar: With Sociolinguistic
+Commentary* (15 files, ~990 rows, ~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13
+files, ~780 rows, ~52,000 words). All 5 vision-only/garbled-OCR books: Magner's *Introduction to the
+Croatian and Serbian Language* (30 lessons, `established/002`+`059`-`064`, ~1,190 rows),
+Hawkesworth's *Colloquial Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868
+rows, ~96,000 words), Hawkesworth & Ćalić's *Colloquial Serbian* (13 files, `established/074`-`083`
++parts, ~1,563 rows, ~95,500 words), *Serbian Folk Tales* (9 files, `established/084`-`092`, ~535
+rows, ~45,000 words), and Norris & Ribnikar's *Teach Yourself Serbian* (11 files,
+`established/093`-`101`+parts, ~1,946 rows, ~96,500 words). The trivial `01.Key to audio
+recordings.PDF` is deliberately left unextracted (no real content, per the triage catalog) — this
+does not block Phase 1 completion. **Combined: 115 `established/` files, ~17,319 rows, ~841,000
+words for this language — the first language in the whole 40+-language project to reach full Phase 1
+completion.** A bonus 12-reading "Čitanka" section inside Magner's own book (starting PDF p. 95, past
+the 30 lessons) was found but deliberately deferred — see the deferred-content note in Reference
+extraction progress below; this is genuinely optional bonus content, not a Phase 1 requirement.
 
 | Directory | File | Contents |
 |---|---|---|
@@ -143,6 +146,15 @@ the deferred-content note in Reference extraction progress below.
 | `established/` | `090_folktales_part7.md` | Tales continued — 70 rows. **Found 4 tales not in the originally-captured table of contents** (Пепељуга/Cinderella, Ћела, Ђевојка бржа од коња, Тамни вилајет) — the TOC snapshot used for dispatch planning was incomplete. Striking false-friend/regional-polysemy find: *kokoška* glossed as "ball of yarn," not "hen," in this regional usage. |
 | `established/` | `091_folktales_part8.md` | **Not more tales** — this range is the book's own "Пустоловни додатак" (Adventure Appendix), a folklore-studies essay on fairy-tale collecting (Vuk Karadžić's methodology, dialect variants, a Proppian structure exercise) — 40 rows of vocabulary drawn from its own inline definitions. Also corrected the assumed glossary location (see `092`). |
 | `established/` | `092_folktales_glossary.md` | The book's own "Мање познате речи и изрази" section — turned out to be a **bare word→page-number index, not a defining glossary**; 411 entries with analyst-supplied glosses (flagged as such, not source-extracted), confidence-flagged per row. Confirms the tales are printed unchanged from Vuk Karadžić's original 19th-century Ijekavian recordings, specifically to preserve this vocabulary — legitimizes `Attested Era: 19th c.` for the whole book. |
+| `established/` | `093_tys_units01-03.md` | Norris & Ribnikar, *Teach Yourself Serbian* (2003), Units 1-3 — 99 rows. Historical/political register finding: *drug/drugarica* ("comrade" under Communist Yugoslavia, still means "friend") contrasted with register-neutral *prijatelj*. |
+| `established/` | `094_tys_units04-06.md` | Units 4-6 — ~190 rows. *bakalnica* flagged by the source as "heard often but rarely seen written" — an explicit spoken/written register asymmetry marker. |
+| `established/` | `095_tys_units07-09.md` | Units 7-9 — ~246 rows. "@" glossed colloquially as *majmun* ("monkey") — a real source-attested slang term. |
+| `established/` | `096_tys_units10-12.md` | Units 10-12 — ~185 rows. Clean 3-tier kinship-register finding: *tata/mama* (colloquial) vs. *otac/majka* (source-labeled "somewhat more formal") vs. *suprug/supruga* (source-labeled "formal, official documents"). |
+| `established/` | `097_tys_units13-15.md` | Units 13-15 — 346 rows, the largest chunk. Captures the *slava* family patron-saint tradition and further colloquial register items (*super*, *žurka*, *dečko*). |
+| `established/` | `098_tys_units16-18.md` | Units 16-18 — 201 rows (corrected; originally misreported as 133). **Discovered the book has more units than its own table of contents initially showed** — Unit 19 begins immediately after, not back matter as assumed. Source explicitly notes readily-adopted English loanwords (*bizinis*, *kompjuter*, *vebsajt*) alongside native calques (*miš* for computer "mouse"). |
+| `established/` | `099_tys_grammar_summary.md` | Grammar glossary + grammar summary (paradigm tables) — deliberately empty Vocabulary table (all forms already cataloged elsewhere), cross-checked against 4 other books before concluding nothing new survived; flagged one paradigm-table cell as a pattern-inconsistency rather than silently correcting it. |
+| `established/` | `100_tys_glossary.md` + `_part2` + `_part3` | Serbian-English vocabulary, vision-read exhaustively — 1,188 entries. All `core` tier (a plain pedagogical glossary, no B/C/S or register tags) — but useful cultural-food and kinship-term vocabulary throughout. |
+| `established/` | `101_tys_units19plus.md` | Units 19-20 (the previously-undiscovered units) — 91 rows. **Confirms the book has exactly 20 units total**, closing the gap with zero remaining uncertainty. Real slang-formation finding: *ćevapi* flagged by the source as a colloquial *clipped form* of *ćevapčići*. Aorist forms marked "colloquial survivals" — cross-confirms an archaic-but-colloquial-in-idioms pattern already seen elsewhere in this language's corpus. |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -176,10 +188,12 @@ session across 6 subagent chunks with zero marginalia found in any of them — u
 which had a previous owner's pencil marks). This session also added `065`-`073`+parts (Hawkesworth's
 *Colloquial Croatian and Serbian*, 16 files, vision-read, no marginalia found anywhere). This session
 also added `074`-`083`+parts (Hawkesworth & Ćalić's *Colloquial Serbian*, 13 files, vision-read, no
-marginalia found anywhere), and `084`-`092` (*Serbian Folk Tales*, 9 files, vision-read; real
+marginalia found anywhere), `084`-`092` (*Serbian Folk Tales*, 9 files, vision-read; real
 marginalia — a library accession stamp and a handwritten underline — was found and correctly
-excluded, unlike the other vision-read books in this batch). 45 files in this language are now
-vision-read in total; the other 59 have a real text
+excluded, unlike the other vision-read books in this batch), and `093`-`101`+parts (Norris &
+Ribnikar's *Teach Yourself Serbian*, 11 files, vision-read, no marginalia found anywhere — the final
+vision-read book for this language). 56 files in this language are now vision-read in total; the
+other 59 have a real text
 layer, so `Vision Reading Confidence` is `n/a` throughout them. See
 `../00_Reference_Extraction_Spec.md`'s Vision-reading guard section. This will change further once
 the remaining vision-only books (`03.Colloquial Serbian and Croatian.pdf`, `Colloquial Serbian/
@@ -301,9 +315,24 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       taboo-inversion slang mechanics. Also found source-internal dialect/register contrasts between
       tales (different original collectors/regions within one anthology) and 4 tales missing from
       the initially-captured table of contents.
-- [ ] `Teach Yourself Serbian/Teach Yourself Serbian.pdf` (177p, garbled OCR text layer — needs
-      vision reading, not `pdftotext`) — not started, low priority per the triage catalog.
-- [ ] `01.Key to audio recordings.PDF` (2p, trivial) — low value, not started.
+- [x] `Teach Yourself Serbian/Teach Yourself Serbian.pdf` (177p, garbled OCR text layer) — **full
+      book complete**, and the final book for this language's Phase 1 (11 files, `established/093`-
+      `101`+parts, ~1,946 rows, ~96,500 words). Discovered the book actually has 20 units, not the
+      18 its own table of contents initially showed — closed with zero remaining gap. Genuine
+      slang-formation finding: *ćevapi* flagged by the source as a colloquial clipped form of
+      *ćevapčići*.
+- [x] `01.Key to audio recordings.PDF` (2p, trivial) — **intentionally left unextracted**: a
+      companion index for an audio course with no actual audio files present locally, per
+      `00_Book_Triage_Catalog.md`'s original assessment ("low standalone value"). Not required for
+      Phase 1 completion — see the maintenance note below.
+
+**Phase 1 for this language is now genuinely complete.** All 9 real reference documents have been
+either fully extracted or explicitly, deliberately deferred with a stated reason (the trivial
+audio-recordings key above; Magner's own "Čitanka" reader section, a bonus find beyond its 30
+lessons, deferred in the Magner entry above). **This is the first language in the entire
+40+-language project to reach this milestone** — see
+`methodology-observations/serbian_croatian_bosnian_test_run.md` for the full-session writeup, and
+`ROADMAP.md`/`00_Analysis_Index.md` for the project-wide status update.
 
 **Correction to a stale claim in this section (found during the follow-on extraction pass):**
 Phase 0 triage for this language is already complete — see `00_Book_Triage_Catalog.md`, which
@@ -324,18 +353,28 @@ extraction across all 40+ languages.
 
 ## Suggested next-session order
 
-**Goal: full-language-folder extraction for this language** (see
-`methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
-methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
+**Phase 1 is complete for this language** — all 9 real reference documents extracted or explicitly
+deferred with reason. See
+`methodology-observations/serbian_croatian_bosnian_test_run.md` for the full bridge-scale-test and
+vision-reading-at-scale writeups validating the methodology across clean-text and vision-only sources
+alike.
 
-1. **7 of 9 books done: all 3 clean-text-layer books, Magner's full 30 lessons, both
-   "Colloquial"-titled books, and Serbian Folk Tales.** What remains: `Teach Yourself Serbian.pdf`
-   (177p, garbled OCR text layer — needs vision reading, not `pdftotext`). `01.Key to audio
-   recordings.PDF` (trivial, 2 pages) and Magner's deferred "Čitanka" reader section (PDF pp. 95+)
-   can be picked up cheaply alongside it.
-2. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
-   language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
-   that milestone explicitly, since it would be the first language to reach it.
-3. Given the full corpus now available, Phase 3 (mechanics analysis) could plausibly begin once
-   `language_corpus/Serbian_Croatian_Bosnian/` reaches `in progress` — the syllable-switching slang
-   mechanism alone is a strong first analysis target.
+1. **Optional bonus content, not required for Phase 1:** Magner's own "Čitanka" reader section (PDF
+   p. 95+, 12 readings past the 30 lessons) — worth returning to for more literary/archaic-tier
+   vocabulary if a future session wants to squeeze more out of this language before moving to
+   mechanics analysis.
+2. **The natural next step is Phase 2** (web-research slang corpus collection, see
+   `language_corpus/Serbian_Croatian_Bosnian/00_Corpus_Collection_Index.md`) — Phase 3 (mechanics
+   analysis) is gated on Phase 2 reaching `in progress` for `analysis/`/`synthesized/` content,
+   though `established/` itself is already a rich Phase-1-only dataset ready to inform Phase 2
+   research priorities (e.g. what the syllable-switching slang mechanism or the taboo-avoidance
+   naming pattern suggest is worth searching for in real web-collected slang).
+3. Given the full `established/` corpus now available for this language, Phase 3 (mechanics
+   analysis) could plausibly begin once `language_corpus/Serbian_Croatian_Bosnian/` reaches
+   `in progress` — the syllable-switching slang mechanism and the two independently-attested
+   taboo-avoidance-naming patterns (snake, then wolf/bear) are both strong first analysis targets.
+4. Alternatively, given this language's Phase 1 completion validates the full pipeline end-to-end
+   (clean-text extraction, vision-reading at scale, dense-glossary handling, cross-book redundancy
+   management), a future session might reasonably pivot to starting Phase 1 on a second language
+   using the now-mature methodology, per `ROADMAP.md`'s Phase 0.5 priority-tiering guidance (still
+   blocked on culture-mapping input).
