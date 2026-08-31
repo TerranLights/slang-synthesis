@@ -14,7 +14,8 @@ grounded in.
 **This is research only — nothing here is canon** until worked into actual setting material by
 explicit decision.
 
-**Status legend:** `[x]` analyzed and written into its output file · `[ ]` not yet done.
+**Status legend:** `[x]` analyzed and written into its output file · `[~]` partially done · `[ ]` not
+yet done.
 
 ---
 
@@ -69,6 +70,12 @@ methodology-observations log). 32 files, ~8,450 vocabulary rows, ~338,000 words 
 | `established/` | `028_glossary_bcs_english_part3.md` | Glossary part 3 (napadati through posvetiti) — 792 rows. |
 | `established/` | `029_glossary_bcs_english_part4.md` | Glossary part 4 (posvećujem se through stalan) — 801 rows. |
 | `established/` | `030_glossary_bcs_english_part5.md` | Glossary part 5 (stalo through Ž, end of glossary) — 972 rows. |
+| `established/` | `031_socioling_ch21_intro_writing_standardization.md` | Alexander, *Grammar: With Sociolinguistic Commentary*, Ch. 21 — writing-system history, standardization to 1974 — 19 rows. |
+| `established/` | `032_socioling_ch22_dialect_differences.md` | Ch. 22, "Dialect Differences" — 111 rows across two source-curated tables (ekavian/ijekavian/ikavian pronunciation chart, 42-pair East/West lexical list). **The single highest-value chapter in this book for this project's purposes** — direct, explicitly-labeled regional/national lexical data plus the source's own argument that vocabulary (not alphabet/pronunciation/grammar) is the real B/C/S differentiator. |
+| `established/` | `033_socioling_ch23_bosnian.md` | Ch. 23, "Bosnia" — 27 rows (Ottoman-loanword doublets, the Bosnian/Bosniak naming dispute); sensitive 1990s political content handled source-attributed, not editorialized, matching the Kosovo-note discipline from `006_lesson04.md`. |
+| `established/` | `034_socioling_ch24_croatian.md` | Ch. 24, "Croatia" — 20 rows (dialect-faction nicknames, purist coinages, named standardization documents); WWII-era NDH language-policy history handled with the same neutral, source-attributed discipline. |
+| `established/` | `035_socioling_ch25_serbian_montenegro.md` | Ch. 25, "Serbia"/"Montenegro" — 22 rows, including the Nikčević 1997 Montenegrin-orthography proposals (ś/ź/з). **Confirms and substantially deepens the Lesson 8/19 Montenegrin finding** with real scholarly nuance (claimed distinguishing features are shared East Herzegovinian dialect features, not exclusively Montenegrin, per the source's own verdict). |
+| `established/` | `036_socioling_ch26_one_or_more_languages.md` | Ch. 26 (final chapter), the author's own "one language or more than one" synthesis — 7 rows, deliberately thin. Contains a load-bearing meta-finding: the source states its own `[B]`/`[C]`/`[S]` tagging convention is a simplification of a frequency gradient, not a hard categorical split — relevant to how every `Usage Tier`/`Attested Region` tag drawn from this book should be read. |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -98,9 +105,11 @@ Not yet relevant here since no corpus collection has begun.
 
 **Vision-reading risk.** `established/002_lesson01_magner_vision_test.md` remains this project's
 vision-reading test (a scanned, no-text-layer book), medium-high confidence, retrofitted `Vision
-Reading Confidence` column. All 30 other files in this language have a real text layer, so `Vision
+Reading Confidence` column. All 35 other files in this language have a real text layer, so `Vision
 Reading Confidence` is `n/a` throughout them. See `../00_Reference_Extraction_Spec.md`'s
-Vision-reading guard section.
+Vision-reading guard section. This will change once the vision-only books (`03.Colloquial Serbian
+and Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, the rest of Magner, `29.Serbian Folk
+Tales.pdf`, `Teach Yourself Serbian.pdf`) are extracted.
 
 **Historical & geographic context.** `Attested Era`/`Attested Region`/`Geographic Scope` columns —
 see [`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).
@@ -143,16 +152,38 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       Appendices 1-6, 9, 7-8 + full BCS-English glossary, 32 files, ~8,450 rows). This is the
       project's first full-book bridge-scale extraction — see
       `../../methodology-observations/serbian_croatian_bosnian_test_run.md` for the full writeup.
-- [ ] `11.Bosnian Croatian Serbian - A grammar & Social Commentary.pdf` — not started
+- [~] `11.Bosnian Croatian Serbian - A grammar & Social Commentary.pdf` — **Sociolinguistic
+      Commentary half complete** (Chapters 21-26, all 6 files, 206 rows — deliberately extracted
+      first, ahead of the much larger Grammar half, per the register/sociolinguistic-chapter-
+      prioritization finding from the Dutch test run: this section is genuinely new content, not
+      covered by the companion textbook, and is directly Usage-Tier/Attested-Region-relevant).
+      **Grammar half (Chapters 1-20, ~378 pages) not yet started** — largely overlaps in scope with
+      the already-extracted flagship textbook (same author team, explicitly designed as companion
+      volumes), so extraction should focus on material genuinely deeper/different from what
+      `established/003-024` already cover, not re-derive the same basics.
 - [ ] `10.Serbian an essential grammar.pdf` — not started
 - [x] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lesson 1 only (86 entries
       in `established/002_lesson01_magner_vision_test.md`), vision-reading test. Not extended to the
       rest of this book — deferred behind the now-complete flagship textbook.
 - [ ] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lessons 2-30 not yet done
-- [ ] Remaining vision-only books (`83 The Phonology...`-style candidates for this language,
-      `10 Colloquial Dutch`-style candidates) — deferred, see `00_Book_Triage_Catalog.md`
-- [ ] The 6 untriaged audio-course-style subfolders of source material for this language — not yet
-      surveyed
+- [ ] `03.Colloquial Serbian and Croatian.pdf` (318p) and `Colloquial Serbian/Colloquial Serbian.pdf`
+      (194p) — both vision-only (no text layer), both flagged high-value by their "colloquial"
+      framing per `00_Book_Triage_Catalog.md`; not yet started.
+- [ ] `29.Serbian Folk Tales.pdf` (240p, vision-only) — literary/archaic-tier corpus, deferred per the
+      triage catalog until the `literary`/`archaic` usage tiers need more real examples (they now
+      have some — see Ch. 23-25 above and `025_appendices7-8_literary_readings.md` — worth
+      revisiting this call).
+- [ ] `Teach Yourself Serbian/Teach Yourself Serbian.pdf` (177p, garbled OCR text layer — needs
+      vision reading, not `pdftotext`) — not started, low priority per the triage catalog.
+- [ ] `01.Key to audio recordings.PDF` (2p, trivial) — low value, not started.
+
+**Correction to a stale claim in this section (found during the follow-on extraction pass):**
+Phase 0 triage for this language is already complete — see `00_Book_Triage_Catalog.md`, which
+covers all 9 real reference documents (2 of which live in subfolders: `Colloquial Serbian/` and
+`Teach Yourself Serbian/`, each containing one book). There is no separate set of "6 untriaged
+audio-course subfolders" for this language — that claim, which appeared in an earlier version of
+this section, was inaccurate (likely conflated with the Hungarian language folder's own 6 deferred
+subfolders, a genuinely different situation). Corrected here so it doesn't get repeated.
 
 **Resolved methodology questions (see `../00_Reference_Extraction_Spec.md` and
 `../../methodology-observations/serbian_croatian_bosnian_test_run.md`):** coverage is
@@ -165,13 +196,27 @@ extraction across all 40+ languages.
 
 ## Suggested next-session order
 
-1. Developer review of this full-book extraction (everything here remains tentative pending
-   explicit review, per the project's standing rule for test-run output).
-2. If proceeding with more Phase 1 work for this language: `11.Bosnian Croatian Serbian - A grammar
-   & Social Commentary.pdf` (489 pages, clean text, sociolinguistic-commentary framing — likely
-   another strong source of usage-tier diversity) or `10.Serbian an essential grammar.pdf`.
-3. Decide a vision-reading approach for the 6 books without a usable text layer, and triage the 6
-   untriaged audio-course subfolders, before considering this language's Phase 1 fully complete.
-4. Given the full corpus now available, Phase 3 (mechanics analysis) could plausibly begin once
+**Goal: full-language-folder extraction for this language** (see
+`methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
+methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
+
+1. **In progress:** `11.Bosnian Croatian Serbian - A grammar & Social Commentary.pdf`'s Grammar half
+   (Chapters 1-20, ~378 pages) — the Sociolinguistic Commentary half (Ch. 21-26) is done. This is the
+   largest remaining chunk of clean-text-layer material for this language; dispatch in waves per the
+   20-concurrent-subagent cap (roughly 2 waves of ~10 chapters each, or similar), watching for
+   content overlap with the already-extracted flagship textbook (same author team, explicitly
+   designed as companion volumes) — favor material that's genuinely deeper/different.
+2. `10.Serbian an essential grammar.pdf` (337 pages, clean text, Serbian-only — good for
+   cross-checking Serbian-specific entries against the comparative textbook).
+3. Decide a vision-reading approach for the 5 remaining vision-only/garbled-OCR books (`03.Colloquial
+   Serbian and Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, Magner's remaining ~29
+   lessons, `29.Serbian Folk Tales.pdf`, `Teach Yourself Serbian.pdf`) — the two "Colloquial"-titled
+   books are flagged high-value by their register framing despite the vision-reading cost.
+   `01.Key to audio recordings.PDF` (trivial, 2 pages) can be picked up cheaply alongside any of the
+   above.
+4. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
+   language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
+   that milestone explicitly, since it would be the first language to reach it.
+5. Given the full corpus now available, Phase 3 (mechanics analysis) could plausibly begin once
    `language_corpus/Serbian_Croatian_Bosnian/` reaches `in progress` — the syllable-switching slang
    mechanism alone is a strong first analysis target.
