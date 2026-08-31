@@ -1,131 +1,196 @@
 # Graph Report - Serbian_Croatian_Bosnian  (2026-08-30)
 
 ## Corpus Check
-- 62 files · ~461,297 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Large corpus: 68 files · ~515,802 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
 
 ## Summary
-- 241 nodes · 355 edges · 12 communities (11 shown, 1 thin omitted)
-- Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 64 edges (avg confidence: 0.78)
+- 264 nodes · 393 edges · 29 communities (21 shown, 8 thin omitted)
+- Extraction: 81% EXTRACTED · 19% INFERRED · 1% AMBIGUOUS · INFERRED: 74 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- Verbal Grammar: Aspect, Mood & Case Constructions
-- Flagship Textbook: Tense, Comparison & Early Slang
-- Essential Grammar: Alphabet, Phonology & Aorist
-- Glossary Entries & Source Erratum Flags
-- Standardization History & the Vocabulary-Only-Diagnostic Thesis
-- Sarajevo/Zagreb Syllable-Switching Slang
-- East/West Lexical Model & Native-vs-International Principle
-- Jat Reflex & Serb Identity/Standardization
-- Case Usage Review & Regional Coffee-Word Triplet
-- Accent System & Bosniak Identity
-- Se-Verb Passive/Reflexive Classification
-- Turkish Loanword Layer (Turcizmi)
+- Magner: Cr./S. Comparative Convention & Syntactic Divergence
+- Flagship Textbook: B/C/S Tagging & Verb System
+- Core Grammar Mechanisms (Aspect, Clitics, Softening)
+- Hammond: Alphabet, Stress & Interrogative Inventory
+- Naming Disputes & Standardization Agreements
+- Consonant Softening, Jat Reflex & the XYZ Model
+- Flagship Textbook: B/C/S Lexical-Choice Pairs
+- Early Source-Labeled Slang & Project Index Docs
+- Bosnian/Bosniak Identity & Turkish Loanword Layer
+- Verb Tense Paradigms (Aorist, Future, Present)
+- Numeral System & Irregular Noun Declension
+- Imperative, Instrumental Case & Se-Verb Taxonomy
+- Pronoun Declension & Enclitic Ordering
+- National Lexical Variants & the East-West Syntax Shift
+- Word Formation & the Syllable-Switching Slang Connection
+- Jat-Reflex Sub-Dialects & Vuk Karadžić Reform
+- Case-Governing Verb/Adjective Inventories
+- Noun Types & Slang-Adjacent Derogatory Vocabulary
+- Modal Verbs (trebati, moći, potreban)
+- Adverb Classification & Lexicalized Verbal Adverbs
+- Discourse Particles & Register-Marked Interjections
+- Community 21
+- Community 22
+- Community 23
+- Community 24
+- Community 25
+- Community 26
+- Community 27
+- Community 28
 
 ## God Nodes (most connected - your core abstractions)
-1. `Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010)` - 50 edges
-2. `Lila Hammond — Serbian: An Essential Grammar (Routledge, 2005) — third, Serbian-specific reference book distinct from the flagship comparative B/C/S textbook and the companion Alexander Grammar with Sociolinguistic Commentary` - 31 edges
-3. `B/C/S Bracket-Tagging Convention (Bosnian/Croatian/Serbian Standard-Variant Marking)` - 19 edges
+1. `Hammond, Serbian: An Essential Grammar (2005)` - 48 edges
+2. `Magner, Introduction to the Croatian and Serbian Language (source book; continues established/002's Lesson 1 coverage via the same [Cr.]/[S.] comparative-dialect convention)` - 30 edges
+3. `B/C/S Dialect-Tag Convention ([B]/[C]/[S])` - 15 edges
 4. `Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010)` - 15 edges
-5. `Lesson 9 (Deveta lekcija)` - 14 edges
-6. `[B]/[C]/[S] Dialect-Tag Convention` - 14 edges
-7. `Bosnian, Croatian, Serbian, a Grammar with Sociolinguistic Commentary (Alexander, 2006)` - 13 edges
-8. `Ekavian/Ijekavian (E/J) Pronunciation Reflex` - 12 edges
-9. `"Ljubav na španjolski način" (Muharem Bazdulj) — Appendix 8 advanced reading` - 10 edges
-10. `Lesson 7 (Sedma lekcija)` - 9 edges
+5. `Bosnian, Croatian, Serbian, a Grammar with Sociolinguistic Commentary (Alexander, 2006)` - 15 edges
+6. `Bosnian, Croatian, Serbian, a Textbook: With Exercises and Basic Grammar (Alexander & Elias-Bursać, 2010)` - 13 edges
+7. `Ekavian/Ijekavian Jat-Reflex Split ([E]/[J])` - 12 edges
+8. `Lesson 6 (Šesta lekcija)` - 10 edges
+9. `Lesson 10 (Deseta lekcija)` - 10 edges
+10. `B/C/S Regional Lexical Tagging Convention` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `[E]/[J] jat-reflex tagging convention — independent of, and cross-cutting, the [B]/[C]/[S] standard-lexicon axis` --semantically_similar_to--> `B/C/S Bracket-Tagging Convention (Bosnian/Croatian/Serbian Standard-Variant Marking)`  [INFERRED] [semantically similar]
-  established/024_appendix9_verb_types.md → established/023_appendices1-6_grammar_reference.md
-- `BCS 16-Type Verb Conjugation System` --semantically_similar_to--> `Six-case + count-form + distinct-vocative noun/adjective/pronoun declension system (Appendix 4)`  [INFERRED] [semantically similar]
-  established/024_appendix9_verb_types.md → established/023_appendices1-6_grammar_reference.md
-- `advokat / odvjetnik (lawyer) — international vs. native-root pair` --semantically_similar_to--> `Native-vs-international vocabulary as the one systematic E/W principle`  [INFERRED] [semantically similar]
-  established/042_grammar_ch17_case_usage_review.md → established/032_socioling_ch22_dialect_differences.md
-- `Extraction Checklist` --references--> `Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010)`  [EXTRACTED]
+- `Serbian/Croatian/Bosnian Slang Mechanics Extraction Checklist` --references--> `Bosnian, Croatian, Serbian, a Textbook: With Exercises and Basic Grammar (Alexander & Elias-Bursać, 2010)`  [EXTRACTED]
   00_Extraction_Checklist.md → 00_Book_Triage_Catalog.md
-- `Lesson 1 Basics (superseded manual test-run sample)` --references--> `Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010)`  [EXTRACTED]
-  established/001_lesson01_basics.md → 00_Book_Triage_Catalog.md
+- `Serbian/Croatian/Bosnian Slang Mechanics Extraction Checklist` --references--> `Bosnian, Croatian, Serbian, a Grammar: With Sociolinguistic Commentary (Alexander, 2006)`  [EXTRACTED]
+  00_Extraction_Checklist.md → 00_Book_Triage_Catalog.md
+- `Serbian/Croatian/Bosnian Slang Mechanics Extraction Checklist` --references--> `Serbian: An Essential Grammar (Hammond, 2005)`  [EXTRACTED]
+  00_Extraction_Checklist.md → 00_Book_Triage_Catalog.md
+- `Lesson 10 (Deseta lekcija)` --semantically_similar_to--> `Locative/Dative Case Syncretism`  [INFERRED] [semantically similar]
+  established/012_lesson10.md → established/008_lesson06.md
+- `pozdrav (printed gender marker inconsistency)` --conceptually_related_to--> `Grammar Chapters 4-6: Possessive Adjectives, Genitive Plural, Aspect Derivation`  [AMBIGUOUS]
+  established/029_glossary_bcs_english_part4.md → established/038_grammar_ch4-6_supplementary.md
 
 ## Hyperedges (group relationships)
-- **B/C/S Comparative Dialect-Tagging System** — concept_bcs_dialect_tagging_convention, concept_ekavian_ijekavian_reflex, book_alexander_elias_bursac_textbook, book_magner_introduction_croatian_serbian [INFERRED 0.85]
-- **Teen/Regional Family-Address Slang Cluster** — vocab_keva_belgrade_slang_mom, vocab_stara_stari_starci_teen_address, vocab_regional_father_terms, concept_regional_family_slang_terms [EXTRACTED 1.00]
-- **Core BCS Verb-Morphology Mechanisms** — concept_future_tense_construction, concept_past_tense_l_participle, concept_verbal_aspect, concept_reflexive_se_functions, concept_clitic_word_order [INFERRED 0.85]
-- **Sarajevo/Zagreb Syllable-Switching Slang Word Set** — concept_syllable_switching_slang, established_025_appendices7_8_literary_readings_vozdra, established_025_appendices7_8_literary_readings_zemka, established_025_appendices7_8_literary_readings_dido, established_025_appendices7_8_literary_readings_zibje, established_025_appendices7_8_literary_readings_lima_slang, established_025_appendices7_8_literary_readings_cobra_slang, established_025_appendices7_8_literary_readings_somi_nickname, established_025_appendices7_8_literary_readings_njofra_nickname [EXTRACTED 0.95]
-- **B/C/S Dialect-Tagging Convention Illustrated Across the Chunk** — concept_bcs_dialect_tagging, concept_bcs_dialect_showcase_pattern, established_016_lesson14_kahva_kava_kafa_recipe_title, established_018_lesson16_vocab3_srednjevekovni_three_way, established_019_lesson17_historija_povijest_istorija [INFERRED 0.80]
-- **Impersonal/Experiencer Sentence Cluster (biti, passive, dative-subject)** — concept_passive_voice_formation, concept_dative_experiencer_constructions, established_023_appendices1_6_grammar_reference_biti_irregular [INFERRED 0.75]
-- **BCS dialect/pronunciation classification system (štokavian/čakavian/kajkavian × ekavian/ijekavian/ikavian)** — established_032_socioling_ch22_dialect_differences_stokavian_cakavian_kajkavian_split, established_032_socioling_ch22_dialect_differences_ekavian_ijekavian_ikavian_jat_reflex, established_031_socioling_ch21_intro_writing_standardization_jat_historical_vowel, established_037_grammar_ch1_3_supplementary_jat_ekavian_ijekavian_correspondence_table [EXTRACTED 0.90]
-- **B/C/S standardization and naming-dispute narrative arc across Chapters 21-26** — established_031_socioling_ch21_intro_writing_standardization_novi_sad_agreement_1954, established_033_socioling_ch23_bosnian_bosnian_bosniak_naming_dispute, established_034_socioling_ch24_croatian_croatian_declaration_1967, established_035_socioling_ch25_serbian_montenegro_nikcevic_montenegrin_language_movement, established_036_socioling_ch26_one_or_more_languages_s_language_c_language_framing [EXTRACTED 0.90]
-- **Consonant softening (Types A/B/C) as the shared mechanism behind palatalization and derivational suffixation** — established_040_grammar_ch10_12_supplementary_consonant_softening_types_abc, established_045_grammar_ch20_phonology_palatalization_types_abc_origin, established_043_grammar_ch18_word_formation_agentive_suffixes, established_043_grammar_ch18_word_formation_diminutive_suffixes_affect_marking [EXTRACTED 0.85]
-- **Hammond's Serbian: An Essential Grammar — recurring self-identification as a third, Serbian-specific reference book across chapters, layered against the flagship B/C/S textbook and the Alexander companion Grammar already extracted elsewhere in this project** — datasets_serbian_croatian_bosnian_established_046_serbian_essential_ch1_2_cultural_dialects_hammond_serbian_essential_grammar_book, datasets_serbian_croatian_bosnian_established_046_serbian_essential_ch1_2_cultural_dialects_jat_reflex_dialect_split, datasets_serbian_croatian_bosnian_established_051_serbian_essential_ch7b_nouns_part2_three_declension_framework, datasets_serbian_croatian_bosnian_established_052_serbian_essential_ch8_pronouns_pronominal_enclitic_case_ordering, datasets_serbian_croatian_bosnian_established_056_serbian_essential_ch14_numerals_numeral_agreement_system [INFERRED 0.75]
-- **Slang/register-relevant noun cluster embedded in Ch.7's noun-type grammar illustration (narkoman, siledžija, kravetina, mangup) — a directly flagged group of colloquial/taboo-adjacent vocabulary items sharing one grammar-example context** — datasets_serbian_croatian_bosnian_established_050_serbian_essential_ch7a_nouns_part1_narkoman, datasets_serbian_croatian_bosnian_established_050_serbian_essential_ch7a_nouns_part1_siledzija, datasets_serbian_croatian_bosnian_established_050_serbian_essential_ch7a_nouns_part1_kravetina, datasets_serbian_croatian_bosnian_established_050_serbian_essential_ch7a_nouns_part1_mangup [INFERRED 0.85]
-- **Informal-register discourse-particle cluster spanning this book's verb and particle chapters (li/ne bi li's sarcastic-overtone flag, zar, baš, evo/eto) — the book's clearest register-marked vocabulary layer for slang-synthesis purposes** — datasets_serbian_croatian_bosnian_established_057_serbian_essential_ch15_17_quantifiers_determiners_particles_li_ne_bi_li_sarcastic_register, datasets_serbian_croatian_bosnian_established_049_serbian_essential_ch6b_verbs_part2_zar_particle, datasets_serbian_croatian_bosnian_established_057_serbian_essential_ch15_17_quantifiers_determiners_particles_bas_particle, datasets_serbian_croatian_bosnian_established_057_serbian_essential_ch15_17_quantifiers_determiners_particles_evo_eto_deictic_pair [INFERRED 0.80]
+- **BCS Oblique-Case System Buildup (Genitive → Locative/Dative → Instrumental)** — established_006_lesson04, established_008_lesson06, established_009_lesson07, concept_bcs_genitive_case_usage, concept_bcs_locative_dative_case, concept_bcs_instrumental_case [INFERRED 0.85]
+- **BCS Compound-Tense System (Future and Past, both built on biti + non-finite form)** — established_011_lesson09, established_012_lesson10, concept_bcs_future_tense_formation, concept_bcs_past_tense_l_participle, concept_bcs_clitic_word_order [INFERRED 0.85]
+- **This Project's Earliest Source-Labeled Slang/Colloquial Findings** — established_009_lesson07, established_011_lesson09, concept_bcs_amusing_slang_ma_moj, concept_bcs_teen_slang_family_terms, vocab_bcs_stara_stari_starci [EXTRACTED 1.00]
+- **B/C/S Dialect-Tagging Convention Across the Corpus** — established_014_lesson12_bcs_dialect_tagging, established_019_lesson17_historija_povijest_istorija, established_023_appendices1-6_personal_names_tagging, established_026_glossary_part1_bcs_english_glossary, established_028_glossary_part3_smejati_smijati_se [INFERRED 0.80]
+- **Ekavian/Ijekavian Jat-Reflex System** — established_014_lesson12_ekavian_ijekavian_alternation, established_021_lesson19_montenegrin_dialect, established_022_lesson20_jat_reflex_dual_presentation, established_024_appendix9_verb_type_system [INFERRED 0.85]
+- **Syllable-Switching Slang Mechanism and Its Textual Evidence** — established_025_appendices7-8_syllable_switching_slang, established_025_appendices7-8_vozdra, established_014_lesson12_bcs_dialect_tagging [INFERRED 0.75]
+- **BCS jat-reflex dialect system, treated across sociolinguistic and grammar chapters** — concept_jat_reflex_ekavian_ijekavian_ikavian, established_032_socioling_ch22_dete_dijete_dite_triad, established_037_grammar_ch1_3_jat_term, established_045_grammar_ch20_phonology_chapter [INFERRED 0.80]
+- **B/C/S national-standard naming and identity politics across sociolinguistic chapters** — concept_bosnian_bosniak_naming_dispute, concept_novi_sad_agreement_1954, concept_s_language_c_language_distinction, concept_croatian_declaration_1967, concept_montenegrin_language_movement_nikcevic [INFERRED 0.85]
+- **XYZ/rhythmic-constituent clitic-placement model built progressively across grammar chapters 1-3, 7-9, and 19** — concept_xyz_clitic_rhythmic_constituent_model, established_037_grammar_ch1_3_supplementary_chapter, established_039_grammar_ch7_9_supplementary_chapter, established_044_grammar_ch19_clitic_accent_chapter [INFERRED 0.90]
+- **Serbian dialect classification and alphabet-reform history** — established_046_serbian_essential_ch1_2_cultural_dialects_kajkavski_cakavski_stokavski_split, established_046_serbian_essential_ch1_2_cultural_dialects_jat_reflex_subdialects, established_046_serbian_essential_ch1_2_cultural_dialects_vuk_karadzic_alphabet_reform [INFERRED 0.85]
+- **Extended case-usage system beyond the flagship textbook (genitive/dative/vocative)** — established_050_serbian_essential_ch7a_nouns_part1_genitive_case_usage_extended, established_050_serbian_essential_ch7a_nouns_part1_dative_case_verb_classes, established_050_serbian_essential_ch7a_nouns_part1_vocative_case_formation_rules [INFERRED 0.85]
+- **Enclitic-mechanics threads spanning pronoun, enclitic-order, and future-tense chapters** — established_052_serbian_essential_ch8_pronouns_enclitic_pronoun_ordering, established_055_serbian_essential_ch12_13_conjunctions_enclitics_enclitic_ordering_procedural_rules, established_048_serbian_essential_ch6a_verbs_part1_future_tense_formation_mechanics [INFERRED 0.75]
+- **The book's escalating toolkit of Cr./S. dialect-contrast devices: slash-pair tags, jat reflex, regional lexical-choice pairs, a genuine syntactic (future-tense) divergence, and full parallel-narrative substitution** — established_059_magner_lesson02_06_cr_s_dual_presentation_convention, established_059_magner_lesson02_06_jat_reflex_pattern, established_059_magner_lesson02_06_regional_lexical_choice_pairs, established_059_magner_lesson02_06_future_tense_syntactic_divergence, established_064_magner_lesson27_30_parallel_narrative_lexical_substitution [INFERRED 0.85]
+- **Regional/sub-dialect axes the book documents that are orthogonal to its usual standard-Croatian/standard-Serbian binary: kajkavian (Zagorje), Dalmatian ikavian/coastal, and neighboring South Slavic languages given for comparison** — established_063_magner_lesson22_26_kajkavian_song_po_lojtrici, established_061_magner_lesson12_16_oj_violo_song, established_064_magner_lesson27_30_south_slavic_comparison_text [INFERRED 0.85]
+- **The book's recurring pedagogical pattern of compact stand-alone domain-vocabulary reference boxes (occupations, months, countries, body parts, clothing, foods, weights/measures, nationality designations) presented separately from the running dialogues** — established_060_magner_lesson07_11_occupations_glossary, established_061_magner_lesson12_16_dual_month_name_systems, established_061_magner_lesson12_16_countries_continents_glossary, established_061_magner_lesson12_16_body_parts_glossary, established_062_magner_lesson17_21_clothing_vocabulary, established_063_magner_lesson22_26_common_foods_glossary, established_062_magner_lesson17_21_weights_measures_glossary, established_064_magner_lesson27_30_nationality_designations_list [INFERRED 0.75]
 
-## Communities (12 total, 1 thin omitted)
+## Communities (29 total, 8 thin omitted)
 
-### Community 0 - "Verbal Grammar: Aspect, Mood & Case Constructions"
-Cohesion: 0.06
-Nodes (52): Infinitive-to-Present Accent-Shift Rule (Verb Types), Verbal Aspect (Imperfective/Perfective) and Narrative Structure, Whole-System B/C/S Dialect Showcase (Script + Jat Reflex + Lexicon Simultaneously), B/C/S Bracket-Tagging Convention (Bosnian/Croatian/Serbian Standard-Variant Marking), BCS Collective Nouns (Singular Neuter/Feminine Group Nouns), BCS Conditional Mood (Formation and Uses), Infinitive vs. da + Present Syntax Split (Croatian/Bosnian Infinitive-Favoring vs. Serbian da-Favoring), Dative Logical-Subject / Experiencer Constructions (nedòstajati, pòći za rùkom, stalo je) (+44 more)
+### Community 0 - "Magner: Cr./S. Comparative Convention & Syntactic Divergence"
+Cohesion: 0.08
+Nodes (37): abeceda (Cr.) / azbuka (S.) — "alphabet", illustrative Lesson 2 Cr./S. tagged lexical pair, Cr./S. slash-pair and dual-column dialect presentation convention (single-word diffs slashed, multi-word diffs given as separate tagged sentences), Lesson 6 future-tense Cr./S. syntactic divergence: Cr. infinitive + cliticized htjeti vs S. da + present as alternative construction — first genuine syntactic (not phonological/lexical) Cr./S. axis found, Ijekavian/ekavian jat-reflex (ije/je vs e) pattern, incl. the jekavski/ijekavski synonym label and dialect-choice guidance, "Krivi broj" (Wrong Number) anecdote — the book's first deliberately unaccented running text, showcasing real-world printed Cr&S orthography, Magner, Introduction to the Croatian and Serbian Language (source book; continues established/002's Lesson 1 coverage via the same [Cr.]/[S.] comparative-dialect convention), Regional lexical-choice pairs beyond the jat split (ploca/tabla, obitelj/porodica, glazba/muzika, kazaliste/pozoriste, ured/kancelarija, kravata/masna, zlica/kasika), Vocative case address forms (Lesson 6): masc. titles -e/-u, fem. titles -o, surname stays unchanged (+29 more)
 
-### Community 1 - "Flagship Textbook: Tense, Comparison & Early Slang"
-Cohesion: 0.10
-Nodes (43): Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010), Introduction to the Croatian and Serbian Language (Magner), 'Ma moj!' — Source-Flagged Slang Retort, [B]/[C]/[S] Dialect-Tag Convention, Clitic Word-Order Rule, Comparative/Superlative Adjective Formation, Ekavian/Ijekavian (E/J) Pronunciation Reflex, Future Tense (ću/ćeš Clitic Construction) (+35 more)
+### Community 1 - "Flagship Textbook: B/C/S Tagging & Verb System"
+Cohesion: 0.08
+Nodes (36): B/C/S Regional Lexical Tagging Convention, Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010), da li vs. clitic -li Question Formation, Ekavian/Ijekavian (Jat Reflex) Alternation, odoh ja (colloquial aorist idiom, "I'm out of here"), BCS Conditional Mood (formation, politeness, conditionals), Indirect Discourse Tense Preservation (no backshift), Relative Pronoun koji (gender/number vs. case agreement) (+28 more)
 
-### Community 2 - "Essential Grammar: Alphabet, Phonology & Aorist"
-Cohesion: 0.07
-Nodes (40): Lila Hammond — Serbian: An Essential Grammar (Routledge, 2005) — third, Serbian-specific reference book distinct from the flagship comparative B/C/S textbook and the companion Alexander Grammar with Sociolinguistic Commentary, Ekavian/Ijekavian/Ikavian jat-reflex dialect split (mliko/mlijeko/mleko, vrime/vrijeme/vreme) — likely relates to the ekavian-Serbian vs. ijekavian-Croatian/Bosnian [B]/[C]/[S] dialect-tagging convention used elsewhere in this project, Kajkavian/Čakavian/Štokavian three-way top-level dialect classification, organized around the interrogative 'what' word (kaj/ča/što), Consonant classification framework and /j/-mutation / palatalization-before-e-and-i alternation system (obstruent/resonant, labial/dental/palatal/velar, hard/soft consonant bases), Full 30-letter Cyrillic↔Latin alphabet correspondence table — likely relates to the [B]/[C]/[S] dialect-tagging convention's Cyrillic-vs-Latin script associations used elsewhere in this project, /r/ functioning as a syllabic sixth vowel between two consonants (hrt, trg) — not documented elsewhere in this project's Serbian/Croatian/Bosnian datasets, Aorist tense: full worked paradigms across three stem-shape classes (vowel-stem, consonant-stem, dual-form verbs), its three discourse uses, and its own negative/interrogative system, PDF Cyrillic glyph font-encoding corruption in Hammond's book (Cyrillic renders as scrambled Latin-lookalike glyphs via pdftotext; parallel Latin transliteration column used as primary text throughout the extraction) (+32 more)
+### Community 2 - "Core Grammar Mechanisms (Aspect, Clitics, Softening)"
+Cohesion: 0.16
+Nodes (33): Adjective Comparison (-ij- suffix / consonant softening), Verbal Aspect (Perfective/Imperfective), B/C/S Dialect-Tag Convention ([B]/[C]/[S]), Clitic Second-Position / Ordering Rule, Consonant Softening (Palatalization Set), Ekavian/Ijekavian Jat-Reflex Split ([E]/[J]), Future Tense (clitic ću/ćeš/će auxiliary), Genitive Case (formation and uses) (+25 more)
 
-### Community 3 - "Glossary Entries & Source Erratum Flags"
-Cohesion: 0.06
-Nodes (37): Bosnian, Croatian, Serbian, a Textbook (Alexander & Elias-Bursać, 2010), pòsvojan / pòsvojna — possessive adjective, E/J zamenica-zamjenica idiom, pozdrav (greeting) — flagged gender-marker inconsistency in source, pravoslàvac / pravoslavan — Orthodox Christian noun/adjective, prèstonica / prijèstolnica — glossed "throne", conventionally means "capital city", prijatelj — sense 1 ("pal, schoolmate") marked [B,C only], profesor — printed gender marker "f" though glossed "m., general" (flagged typesetting slip), stan — apartment, flat (+29 more)
+### Community 3 - "Hammond: Alphabet, Stress & Interrogative Inventory"
+Cohesion: 0.15
+Nodes (15): Hammond, Serbian: An Essential Grammar (2005), Serbo-Croatian unification and its late-20th-century breakup, South Slavic language classification, Cyrillic ↔ Latin alphabet correspondence table, Beginner stress-placement heuristic and vowel-length register note, Nine-way inventory of interrogative-formation strategies, The 'true double negative' (two negatives cancel to affirmative), Accusative singular animate/inanimate split for masculine nouns (+7 more)
 
-### Community 4 - "Standardization History & the Vocabulary-Only-Diagnostic Thesis"
-Cohesion: 0.12
-Nodes (24): The Illyrian Movement (Ljudevit Gaj), Jat' — the historical Slavic vowel underlying the E/J/I split, 1954 Novi Sad Agreement, Mirror-image official naming (srpskohrvatski / hrvatskosrpski), Vuk Karadžić's Language Reform, "Differential" dictionaries (Croatian purism, Bosniak characteristic lexicon), "Vocabulary is the only real diagnostic" thesis for B/C/S differentiation, Bosnian vs. Bosniak language-naming dispute (+16 more)
+### Community 4 - "Naming Disputes & Standardization Agreements"
+Cohesion: 0.21
+Nodes (14): 1967 Croatian "Declaration on the Name and Position of the Croatian Literary Language", Montenegrin-language movement (Vojislav Nikčević, 1994-1997), 1954 Novi Sad Agreement (Serbo-Croatian / Croato-Serbian naming, varijanta framework), Štokavian / čakavian / kajkavian primary dialect split, "Varijanta" (variant) east/west descriptive framework for Serbo-Croatian, ćirilica (Cyrillic alphabet, BCS term), gajica (modern Croatian name for the Latin alphabet, honoring Ljudevit Gaj), glagoljica (Glagolitic alphabet) (+6 more)
 
-### Community 5 - "Sarajevo/Zagreb Syllable-Switching Slang"
+### Community 5 - "Consonant Softening, Jat Reflex & the XYZ Model"
+Cohesion: 0.21
+Nodes (13): Three-way consonant softening system (Types A, B, C), Jat reflex: ekavian / ijekavian / ikavian dialect split, XYZ / rhythmic constituent model of BCS clitic placement, Bosnian, Croatian, Serbian, a Grammar with Sociolinguistic Commentary (Alexander, 2006), jat (name of the historical Slavic sound underlying the ekavian/ijekavian split), Grammar Chapters 1-3: Accent Notation, Jat, XYZ Clitic Model, Case System Overview, Aorist and imperfect tense — condensed paradigm reference (§122a), "Body-ache" construction: prefixed variants of boleti/boljeti (+5 more)
+
+### Community 6 - "Flagship Textbook: B/C/S Lexical-Choice Pairs"
+Cohesion: 0.18
+Nodes (11): Bosnian, Croatian, Serbian, a Textbook (Alexander & Elias-Bursać, 2010), posvetiti se / posvećujem se (mid-entry glossary continuation), pozdrav (printed gender marker inconsistency), projekat [B,S] / projekt [B,C] "project", šta [B,S] / što [C] "what", sto [B,S] / stol [C] "table", svest [E] / svijest [J] "consciousness", Possessive pronominal adjective formation (five-step stem-shift process) (+3 more)
+
+### Community 7 - "Early Source-Labeled Slang & Project Index Docs"
 Cohesion: 0.31
-Nodes (11): Sarajevo/Zagreb Syllable-Switching Slang — a genuine, historically attested colloquial word-game mechanism in Bosnian/Croatian speech, structurally comparable to English pig-Latin-style play, in which a word's syllables are switched to produce a new slang form. Two attested historical layers: (1) a Sarajevo colloquial layer (vozdra < zdravo 'hi', zemka < kazem 'I say', dido < dodji 'come!', zibje < bjezi 'run!'); (2) an older Zagreb layer, most widespread in the 1960s, of which a handful of terms remain in occasional use today (lima < mali 'kid', cobra < braco 'bro', Somi < the name 'Miso', Njofra < the name 'Franjo' — this last surviving longer than the rest specifically because a Croatian cartoon dub popularized it as a catchphrase form of address). The source explicitly contrasts this with Belgrade's own extensive slang system, which does NOT use syllable-switching — making it a geographically-bounded (Sarajevo/Zagreb, not Belgrade) mechanism rather than a pan-BCS slang strategy. This is a productive, rule-governed word-formation process distinct from ordinary lexical borrowing or dialectal variation, and is the strongest direct evidence in this corpus of an actual slang-generating MECHANISM (as opposed to a slang vocabulary item) — directly relevant to this project's goal of deriving conlang slang mechanics from real-language precedent., cobra — syllable-switched "braco" (bro), older Zagreb 1960s layer, đido — syllable-switched "dođi" (come!), Sarajevo, kum/kuma — wedding-sponsor/witness terminology, broader than English "best man"/"maid of honor", lima — syllable-switched "mali" (kid), older Zagreb 1960s layer, "Ljubav na španjolski način" (Muharem Bazdulj) — Appendix 8 advanced reading, Njofra — syllable-switched nickname for "Franjo", Zagreb; survived longer via a popularizing cartoon-dub catchphrase, Šomi — syllable-switched nickname for "Mišo", Zagreb (+3 more)
+Nodes (9): "Ma moj!" Slang Retort (source-labeled slang), Teen/Regional Slang Family-Address Terms (kèva, stara/stari/starci), Book Triage Catalog, Serbian/Croatian/Bosnian Slang Mechanics Extraction Checklist, Magner Lesson 1 (vision-reading test), Bosnian, Croatian, Serbian, a Grammar: With Sociolinguistic Commentary (Alexander, 2006), Introduction to the Croatian and Serbian Language (Magner, rev. 1991/1998), Serbian: An Essential Grammar (Hammond, 2005) (+1 more)
 
-### Community 6 - "East/West Lexical Model & Native-vs-International Principle"
+### Community 8 - "Bosnian/Bosniak Identity & Turkish Loanword Layer"
+Cohesion: 0.28
+Nodes (9): Bosnian vs. Bosniak language-naming dispute, Proposed /h/-restoration in Bosnian/Bosniak orthography (kahva, sahat, lahak, mehak), S-language (symbolic) vs. C-language (communicative) distinction, Turcizmi — Turkish-derived loanwords characteristic of Bosnian speech, bosanski jezik ("Bosnian language", contested official school-language name), Chapter 23: Bosnia (language and identity politics), ćuprija (Turkish-derived) / most (native) "bridge" doublet, naš jezik / naški ("our language", situationally-scoped self-referential term) (+1 more)
+
+### Community 9 - "Verb Tense Paradigms (Aorist, Future, Present)"
+Cohesion: 0.22
+Nodes (9): Aorist tense: uses and full worked paradigms, Future tense formation mechanics (enclitic ću/infinitive fusion), Present-tense negative/interrogative/negative-interrogative paradigm, zagrepsti, zagrebem ('to scratch'), Ići derivatives — additional prefixed forms (proći, prići, naći...), kišobran ('umbrella', stacked word-formation example), krvav ('bloody', augmentative suffix -av), Noun-forming suffix categories (agent/event/trait/place/demonym/diminutive) (+1 more)
+
+### Community 10 - "Numeral System & Irregular Noun Declension"
+Cohesion: 0.22
+Nodes (9): čovek ↔ ljudi suppletive counting rule, Declension of irregular nouns — seven irregularity types, nebo/čudo -es- infix class (nebo→nebesa), Collective numerals (dvoje/troje/četvoro... mixed-gender groups), dvojica (a group of two male human beings), Four numeral-form system (cardinal/ordinal/collective/number-noun), jedanaesterac ('a penalty kick', from jedanaest 'eleven'), Number nouns (dvojica/trojica... male-human-only groups) (+1 more)
+
+### Community 11 - "Imperative, Instrumental Case & Se-Verb Taxonomy"
+Cohesion: 0.29
+Nodes (8): Aspect-pair formation typology (simplex, prefixal, derived-imperfective), Se-verb functional taxonomy (reflexive, reciprocal, inclinational, passive, intransitivizing, impersonal), Full productive imperative-mood system (stem derivation, hajde, neka, nemoj), Bare (prepositionless) instrumental case functions, Grammar Chapters 7-9: Imperative, Instrumental, Vocative, Se-verbs, Future Tense, Conditional sentence taxonomy: real / potential / unreal (§132), BCS conjunction system (a-k): compound conjunctions, da vs. što, kako, doubled comparatives (§143), Grammar Chapters 13-16: Conditional Mood, Relative Clauses, Conjunctions, Full Verb Paradigms
+
+### Community 12 - "Pronoun Declension & Enclitic Ordering"
 Cohesion: 0.25
-Nodes (8): šta / što — "what", [B,S] vs [C] pronoun split, East/West binary sociolinguistic model and its limits, Loss of the infinitive (da + present) as a live east-to-west change, Native-vs-international vocabulary as the one systematic E/W principle, siječanj / januar (January) — strongest native-vs-international pair, suh / suv (dry) — h-loss sound-change pair, tko / ko (who) — Western/Eastern word-list pair, advokat / odvjetnik (lawyer) — international vs. native-root pair
+Nodes (8): Order of unstressed personal pronouns (dative→genitive→accusative), Declension of personal pronouns (stressed/unstressed forms), Reflexive possessive svoj vs. njegov/njen, sebe / se (reflexive pronoun), svoj / svoje / svoja ('one's own'), Order and importance of enclitics — procedural rules, Indefinite and negative determiners (neki/bilo koji/ničiji...), Quantifier classification (countable/uncountable/collective)
 
-### Community 7 - "Jat Reflex & Serb Identity/Standardization"
+### Community 13 - "National Lexical Variants & the East-West Syntax Shift"
 Cohesion: 0.29
-Nodes (7): svest / svijest — consciousness/conscience, E/J pair with dual sense, dete / dijete / dite (child) — E/J/I illustrative triad, Ekavian / Ijekavian / Ikavian jat' reflex, Committee for the Standardization of Serbian (1997), Ekavian as the Belgrade-centered Serbian national norm, Srbin / Srbijanac / prečanin — Serb-identity migration vocabulary set, Ekavian/ijekavian jat-reflex correspondence table (grammar-chapter version)
+Nodes (7): Genuine B/C/S national lexical-variant pairs (not just phonological E/J splits), Loss of the infinitive, replaced by da + present (live east-to-west syntactic change), dete/dijete/dite "child" (ekavian/ijekavian/ikavian jat-reflex triad), Chapter 22: Dialect Differences, kava [C] / kafa [S] / kahva [B] "coffee", Grammar Chapter 17: Cases of Nouns, Review, Full case-governing preposition inventory (Acc/Gen/Dat/Loc/Instr)
 
-### Community 8 - "Case Usage Review & Regional Coffee-Word Triplet"
-Cohesion: 0.29
-Nodes (7): svideti se / svidjeti se — "be pleasing to" (like) construction, E/J, h-restoration orthography proposal (kahva/sahat/lahak/mehak), kahva / kafa (coffee) — h-restoration example pair, Instrumental case without prepositions — four bare-case functions, Ch.7-9 review paradigm charts (§89-93, consolidated declension reference), Full case-usage review system (§154-160), kafa / kava / kahva (coffee) — three-way B/C/S regional lexical split
+### Community 14 - "Word Formation & the Syllable-Switching Slang Connection"
+Cohesion: 0.40
+Nodes (5): BCS derivational word formation (verbal prefixation, nominal suffixation, compounding), zrakomlat (purist coinage) vs. helikopter (loanword) "helicopter", Agentive and diminutive nominal suffixes (slang-formation-relevant productive morphology), Grammar Chapter 18: Word Formation, Phonotactic connection to BCS syllable-switching slang (vozdra, đido, žibje)
 
-### Community 9 - "Accent System & Bosniak Identity"
-Cohesion: 0.29
-Nodes (7): Bošnjak / bošnjaštvo — Bosniak ethnonym and Bosnian-ness ideal, Book's length/tone accent notation system, Backgrounding/foregrounding: aspect as narrative-structuring device, Full verb-paradigm reference for all 16 conjugation types (§152-153), Bosnian "skakanje" — accent retraction onto prepositions/conjunctions, Four-accent system, PLACE vs. FORM notation, Neo-štokavian accent retraction (historical shift ~6 centuries ago)
+### Community 15 - "Jat-Reflex Sub-Dialects & Vuk Karadžić Reform"
+Cohesion: 0.40
+Nodes (5): Jat-reflex sub-dialects (Ikavian/Ijekavian/Ekavian), Kajkavian/Čakavian/Štokavian three-way dialect split, mleko/mlijeko/mliko jat-reflex triad ('milk'), štokavski (Štokavian dialect), Vuk Karadžić's phonetic alphabet reform
 
-### Community 10 - "Se-Verb Passive/Reflexive Classification"
-Cohesion: 1.00
-Nodes (3): se-verb mechanism: intransitivization and passivization (introduction), Four-way se-verb functional classification, PP-passive vs. se-passive semantic and agent-marking distinction
+### Community 16 - "Case-Governing Verb/Adjective Inventories"
+Cohesion: 0.40
+Nodes (5): Consonant classification framework (obstruent/resonant, place), /j/-mutation table (consonant + j merges), Dative case — closed-class verb inventories by semantic type, Genitive case usage — closed-class governing adjectives/verbs, partitive nouns, Vocative case formation rules (consonant alternations, -a→-o shift)
+
+### Community 17 - "Noun Types & Slang-Adjacent Derogatory Vocabulary"
+Cohesion: 0.40
+Nodes (5): kravetina ('cow', derogatory of a woman), narkoman ('drug addict'), Types of nouns (proper/common/mass/collective/abstract), siledžija ('bully, rapist'), Possessive-adjective capitalization rule
+
+### Community 18 - "Modal Verbs (trebati, moći, potreban)"
+Cohesion: 0.50
+Nodes (4): moći (can/be able to) full present paradigm, potreban, potrebna (necessary; impersonal alternative to trebati), trebati (to need to/have to/should), Trebati's five da-clause modal constructions
+
+### Community 19 - "Adverb Classification & Lexicalized Verbal Adverbs"
+Cohesion: 0.50
+Nodes (4): Four-way adverb morphological classification, bivši ('former', lexicalized past verbal adverb), budući ('future', lexicalized present verbal adverb), Pronominal-adverb indefinite/negative/universal branch (iko-/neko-/niko-/svako-)
+
+### Community 20 - "Discourse Particles & Register-Marked Interjections"
+Cohesion: 0.50
+Nodes (4): baš (emphatic particle, 'exactly/really'), evo / eto (paired presentational-deictic particles), li / ne bi li (interrogative particle; sarcastic-hope construction), Particles, conjunctions and exclamations inventory (Ch.17)
+
+## Ambiguous Edges - Review These
+- `pozdrav (printed gender marker inconsistency)` → `Grammar Chapters 4-6: Possessive Adjectives, Genitive Plural, Aspect Derivation`  [AMBIGUOUS]
+  established/029_glossary_bcs_english_part4.md · relation: conceptually_related_to
+- `Regional lexical-choice pairs beyond the jat split (ploca/tabla, obitelj/porodica, glazba/muzika, kazaliste/pozoriste, ured/kancelarija, kravata/masna, zlica/kasika)` → `mangup — colloquial/slang term for a rascal or scamp, Turkish-derived, term of affectionate reproach`  [AMBIGUOUS]
+  established/063_magner_lesson22-26.md · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **75 isolated node(s):** `Future Tense (ću/ćeš Clitic Construction)`, `Passive Participle Formation (-n/-t/-en)`, `Comparative/Superlative Adjective Formation`, `Gendered Profession Nouns with B/C/S Regional Variants`, `16 Verb Conjugation Types` (+70 more)
+- **97 isolated node(s):** `Lesson 1 Basics (superseded manual test-run)`, `stara/stari/starci (teen slang for parents)`, `BCS Collective Nouns`, `Present and Past Verbal Adverbs`, `odoh ja (colloquial aorist idiom, "I'm out of here")` (+92 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Bosnian, Croatian, Serbian, a Grammar with Sociolinguistic Commentary (Alexander, 2006)` connect `Glossary Entries & Source Erratum Flags` to `Case Usage Review & Regional Coffee-Word Triplet`, `Accent System & Bosniak Identity`?**
-  _High betweenness centrality (0.087) - this node is a cross-community bridge._
-- **Why does `Bosnian, Croatian, Serbian: A Textbook (Alexander & Elias-Bursać, 2010)` connect `Verbal Grammar: Aspect, Mood & Case Constructions` to `Sarajevo/Zagreb Syllable-Switching Slang`?**
-  _High betweenness centrality (0.059) - this node is a cross-community bridge._
-- **Why does `Vuk Karadžić's Language Reform` connect `Standardization History & the Vocabulary-Only-Diagnostic Thesis` to `Glossary Entries & Source Erratum Flags`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
-- **Are the 2 inferred relationships involving `B/C/S Bracket-Tagging Convention (Bosnian/Croatian/Serbian Standard-Variant Marking)` (e.g. with `Infinitive vs. da + Present Syntax Split (Croatian/Bosnian Infinitive-Favoring vs. Serbian da-Favoring)` and `[E]/[J] jat-reflex tagging convention — independent of, and cross-cutting, the [B]/[C]/[S] standard-lexicon axis`) actually correct?**
-  _`B/C/S Bracket-Tagging Convention (Bosnian/Croatian/Serbian Standard-Variant Marking)` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Future Tense (ću/ćeš Clitic Construction)`, `Passive Participle Formation (-n/-t/-en)`, `Comparative/Superlative Adjective Formation` to the rest of the system?**
-  _75 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Verbal Grammar: Aspect, Mood & Case Constructions` be split into smaller, more focused modules?**
-  _Cohesion score 0.06334841628959276 - nodes in this community are weakly interconnected._
-- **Should `Flagship Textbook: Tense, Comparison & Early Slang` be split into smaller, more focused modules?**
-  _Cohesion score 0.09966777408637874 - nodes in this community are weakly interconnected._
+- **What is the exact relationship between `pozdrav (printed gender marker inconsistency)` and `Grammar Chapters 4-6: Possessive Adjectives, Genitive Plural, Aspect Derivation`?**
+  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
+- **What is the exact relationship between `Regional lexical-choice pairs beyond the jat split (ploca/tabla, obitelj/porodica, glazba/muzika, kazaliste/pozoriste, ured/kancelarija, kravata/masna, zlica/kasika)` and `mangup — colloquial/slang term for a rascal or scamp, Turkish-derived, term of affectionate reproach`?**
+  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
+- **Why does `Hammond, Serbian: An Essential Grammar (2005)` connect `Hammond: Alphabet, Stress & Interrogative Inventory` to `Verb Tense Paradigms (Aorist, Future, Present)`, `Numeral System & Irregular Noun Declension`, `Pronoun Declension & Enclitic Ordering`, `Jat-Reflex Sub-Dialects & Vuk Karadžić Reform`, `Case-Governing Verb/Adjective Inventories`, `Noun Types & Slang-Adjacent Derogatory Vocabulary`, `Modal Verbs (trebati, moći, potreban)`, `Adverb Classification & Lexicalized Verbal Adverbs`, `Discourse Particles & Register-Marked Interjections`, `Community 23`, `Community 24`, `Community 25`, `Community 26`?**
+  _High betweenness centrality (0.077) - this node is a cross-community bridge._
+- **Why does `Bosnian, Croatian, Serbian, a Grammar with Sociolinguistic Commentary (Alexander, 2006)` connect `Consonant Softening, Jat Reflex & the XYZ Model` to `Naming Disputes & Standardization Agreements`, `Flagship Textbook: B/C/S Lexical-Choice Pairs`, `Bosnian/Bosniak Identity & Turkish Loanword Layer`, `Imperative, Instrumental Case & Se-Verb Taxonomy`, `National Lexical Variants & the East-West Syntax Shift`, `Word Formation & the Syllable-Switching Slang Connection`?**
+  _High betweenness centrality (0.050) - this node is a cross-community bridge._
+- **What connects `Lesson 1 Basics (superseded manual test-run)`, `stara/stari/starci (teen slang for parents)`, `BCS Collective Nouns` to the rest of the system?**
+  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Magner: Cr./S. Comparative Convention & Syntactic Divergence` be split into smaller, more focused modules?**
+  _Cohesion score 0.07657657657657657 - nodes in this community are weakly interconnected._
+- **Should `Flagship Textbook: B/C/S Tagging & Verb System` be split into smaller, more focused modules?**
+  _Cohesion score 0.0761904761904762 - nodes in this community are weakly interconnected._

@@ -39,8 +39,12 @@ books now done.** The flagship Alexander & Elias-Bursać textbook (32 files, ~8,
 words), Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
 ~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words)
 are all complete. Combined: 60 `established/` files, ~10,220 rows, ~457,000 words for this language
-so far. Only the 5 remaining vision-only/garbled-OCR books (plus the trivial audio-recordings key)
-are left.
+so far. Magner's *Introduction to the Croatian and Serbian Language* is also now fully vision-read
+(30 lessons, `established/002` + `059`-`064`, ~1,190 rows). Only 4 remaining vision-only/garbled-OCR
+books (plus the trivial audio-recordings key) are left: the two "Colloquial"-titled books, *Serbian
+Folk Tales*, and *Teach Yourself Serbian*. A bonus 12-reading "Čitanka" section inside Magner's own
+book (starting PDF p. 95, past the 30 lessons) was found but deliberately deferred — see the
+deferred-content note in Reference extraction progress below.
 
 | Directory | File | Contents |
 |---|---|---|
@@ -102,6 +106,12 @@ are left.
 | `established/` | `056_serbian_essential_ch14_numerals.md` | Hammond, Ch. 14 (numerals), extracted fully (little prior overlap) — 131 rows: cardinal/ordinal declension, fractions, collectives, multiplicatives, approximatives, distributives, frequentatives, weights/measures, age, calendar/time vocabulary. |
 | `established/` | `057_serbian_essential_ch15-17_quantifiers_determiners_particles.md` | Hammond, Ch. 15-17 (quantifiers, determiners, particles/conjunctions/exclamations), extracted fully — 116 rows. Ch. 17's `li`/`ne bi li` entry carries the source's own explicit "sarcastic/humorous overtones" annotation — the strongest informal-register signal in this book. |
 | `established/` | `058_serbian_essential_ch18-20_sentences_word_formation.md` | Hammond, Ch. 18-20 (sentences, sentence structure, word formation), Ch.18-19 extracted fully, Ch.20 checked against `043_grammar_ch18_word_formation.md` (found only 1 genuine duplicate) — ~148 rows, including a 14-prefix verb-formation inventory. |
+| `established/` | `059_magner_lesson02-06.md` | Magner Lessons 2-6, vision-read — ~345 rows. A genuine syntactic (not just phonological) Cr./S. divergence found: Croatian favors infinitive+`će` future, Serbian leans on `da`+present. |
+| `established/` | `060_magner_lesson07-11.md` | Magner Lessons 7-11, vision-read — 216 rows, book pp. 36-66. 9 rows flagged `low_confidence` near a binding-gutter shadow. |
+| `established/` | `061_magner_lesson12-16.md` | Magner Lessons 12-16, vision-read — ~172 rows, book pp. 67-95. A Dalmatian folk song gave ikavian dialect glosses distinct from the book's usual Cr./S. binary. |
+| `established/` | `062_magner_lesson17-21.md` | Magner Lessons 17-21, vision-read — ~130 rows, PDF pp. 55-69. Correctly excluded ~9 ambiguous entries from a misaligned phonology word list rather than guess. |
+| `established/` | `063_magner_lesson22-26.md` | Magner Lessons 22-26, vision-read — ~90 rows, PDF pp. 69-82. A kajkavian-dialect song (Zagorje sub-dialect) gave a source-provided kajkavian→standard glossary, a regional axis orthogonal to the book's usual comparison. |
+| `established/` | `064_magner_lesson27-30.md` | Magner Lessons 27-30 (final lessons), vision-read — ~114 rows, PDF pp. 83-94. Confirmed Lesson 30 is genuinely the book's final lesson; found a bonus 12-reading "Čitanka" (Reader) section starting at PDF p. 95, **not extracted, flagged as deferred** (see below). |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -129,13 +139,14 @@ register, so it does so far more explicitly and frequently than a teaching gramm
 [`../../language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
 Not yet relevant here since no corpus collection has begun.
 
-**Vision-reading risk.** `established/002_lesson01_magner_vision_test.md` remains this project's
-vision-reading test (a scanned, no-text-layer book), medium-high confidence, retrofitted `Vision
-Reading Confidence` column. All 59 other files in this language have a real text layer, so `Vision
-Reading Confidence` is `n/a` throughout them. See `../00_Reference_Extraction_Spec.md`'s
-Vision-reading guard section. This will change once the vision-only books (`03.Colloquial Serbian
-and Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, the rest of Magner, `29.Serbian Folk
-Tales.pdf`, `Teach Yourself Serbian.pdf`) are extracted.
+**Vision-reading risk.** 7 files are now vision-read (no text layer): `established/002` (the
+project's original vision-reading test) plus `059`-`064` (Magner's Lessons 2-30, extracted this
+session across 6 subagent chunks with zero marginalia found in any of them — unlike `002`'s copy,
+which had a previous owner's pencil marks). All 59 other files in this language have a real text
+layer, so `Vision Reading Confidence` is `n/a` throughout them. See
+`../00_Reference_Extraction_Spec.md`'s Vision-reading guard section. This will change further once
+the remaining vision-only books (`03.Colloquial Serbian and Croatian.pdf`, `Colloquial Serbian/
+Colloquial Serbian.pdf`, `29.Serbian Folk Tales.pdf`, `Teach Yourself Serbian.pdf`) are extracted.
 
 **Historical & geographic context.** `Attested Era`/`Attested Region`/`Geographic Scope` columns —
 see [`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).
@@ -209,10 +220,17 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       book's PDF has a decodable font-substitution cipher on Cyrillic and diacritic characters
       (š→e, č→a, ć→z, ž→f, đ→]) — confirmed independently by 4 different subagents; see the
       PDF gotchas note below.
-- [x] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lesson 1 only (86 entries
-      in `established/002_lesson01_magner_vision_test.md`), vision-reading test. Not extended to the
-      rest of this book — deferred behind the now-complete flagship textbook.
-- [ ] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — Lessons 2-30 not yet done
+- [x] `12.Introduction to the Croatian and Serbian language.pdf` (Magner) — **all 30 lessons complete**
+      (Lesson 1 in `established/002`, Lessons 2-30 in `established/059`-`064`, vision-read across 6
+      subagent chunks, ~1,190 rows total). Page ranges chained with zero gaps or overlaps (PDF pp.
+      7-9, 10-24, 25-40, 40-54, 55-69, 69-82, 83-94), independently cross-validated by each chunk's
+      own boundary-finding. **A bonus 12-reading "Čitanka" (Reader) section was found starting at PDF
+      p. 95, beyond the 30 lessons — not extracted, deliberately deferred** (see the deferred-content
+      note below) rather than opening a new dispatch wave for it in the same pass.
+- [ ] **Deferred:** Magner's own "Čitanka" (Reader) section, PDF pp. 95+ — 12 numbered readings (e.g.
+      "Šestinska svadba," "Iskustva mladog liječnika") past the 30 lessons, found but not extracted
+      during the lessons pass. Worth returning to for literary/archaic-tier vocabulary, same rationale
+      as the deferred *Serbian Folk Tales* below.
 - [ ] `03.Colloquial Serbian and Croatian.pdf` (318p) and `Colloquial Serbian/Colloquial Serbian.pdf`
       (194p) — both vision-only (no text layer), both flagged high-value by their "colloquial"
       framing per `00_Book_Triage_Catalog.md`; not yet started.
@@ -247,12 +265,13 @@ extraction across all 40+ languages.
 `methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
 methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
 
-1. **All 3 clean-text-layer books are now done.** What remains is entirely vision-reading work:
-   decide an approach for the 5 remaining vision-only/garbled-OCR books (`03.Colloquial Serbian and
-   Croatian.pdf`, `Colloquial Serbian/Colloquial Serbian.pdf`, Magner's remaining ~29 lessons,
-   `29.Serbian Folk Tales.pdf`, `Teach Yourself Serbian.pdf`) — the two "Colloquial"-titled books are
-   flagged high-value by their register framing despite the vision-reading cost. `01.Key to audio
-   recordings.PDF` (trivial, 2 pages) can be picked up cheaply alongside any of the above.
+1. **All 3 clean-text-layer books, plus Magner's full 30 lessons (vision-read), are now done.** What
+   remains: the 4 other vision-only/garbled-OCR books (`03.Colloquial Serbian and Croatian.pdf`,
+   `Colloquial Serbian/Colloquial Serbian.pdf`, `29.Serbian Folk Tales.pdf`, `Teach Yourself
+   Serbian.pdf`) — the two "Colloquial"-titled books are flagged high-value by their register
+   framing despite the vision-reading cost. `01.Key to audio recordings.PDF` (trivial, 2 pages) and
+   Magner's deferred "Čitanka" reader section (PDF pp. 95+) can be picked up cheaply alongside any of
+   the above.
 2. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
    language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
    that milestone explicitly, since it would be the first language to reach it.
