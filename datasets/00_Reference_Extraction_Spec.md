@@ -125,6 +125,15 @@ test, worth checking for on any future language's sources rather than rediscover
   parallel-script column if the source provides one (e.g. a book presenting both Cyrillic and Latin
   transliteration side by side). Worth checking for on any future source whose Cyrillic renders as
   unrelated glyph soup despite `pdftotext` reporting a real text layer.
+- **A vision-only source can be scanned as two-printed-pages-per-image spreads, not one page per
+  image.** Found on Serbian/Croatian/Bosnian's *Colloquial Serbian* (194 physical PDF pages for a
+  book with printed page numbers running to ~375) — a naive `printed_page ≈ PDF_page + fixed_offset`
+  estimate for locating a vision-reading dispatch's assigned range was wrong by roughly half. This
+  isn't detectable from `pdfinfo`'s page count alone. **Before committing to any page-range estimate
+  for a vision-reading dispatch, verify the offset empirically** by rendering and reading a page or
+  two first, rather than trusting a fixed-offset formula — every subagent in the run that hit this
+  correctly self-corrected once instructed to locate boundaries by direct inspection rather than
+  arithmetic alone.
 
 ### Morphological composition
 

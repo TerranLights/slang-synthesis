@@ -34,19 +34,19 @@ breakdowns were needed in any of the 32 output files. See
 
 ## Output files — Markdown, sharded by numbered file
 
-**Status: 5 of this language's 9 real reference documents fully extracted.** All 3 clean-text-layer
+**Status: 6 of this language's 9 real reference documents fully extracted.** All 3 clean-text-layer
 books are done — the flagship Alexander & Elias-Bursać textbook (32 files, ~8,450 rows, ~338,000
 words), Alexander's companion *Grammar: With Sociolinguistic Commentary* (15 files, ~990 rows,
 ~67,000 words), and Hammond's *Serbian: An Essential Grammar* (13 files, ~780 rows, ~52,000 words).
-Two vision-only books are also now done — Magner's *Introduction to the Croatian and Serbian
-Language* (30 lessons, `established/002`+`059`-`064`, ~1,190 rows) and Hawkesworth's *Colloquial
-Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868 rows, ~96,000 words). Combined:
-82 `established/` files, ~13,275 rows, ~605,000 words for this language so far. Only 3 remaining
-vision-only/garbled-OCR books (plus the trivial audio-recordings key) are left: `Colloquial Serbian`
-(a distinct title/edition from the book just completed — do not conflate), *Serbian Folk Tales*, and
-*Teach Yourself Serbian*. A bonus 12-reading "Čitanka" section inside Magner's own
-book (starting PDF p. 95, past the 30 lessons) was found but deliberately deferred — see the
-deferred-content note in Reference extraction progress below.
+Three vision-only books are also now done — Magner's *Introduction to the Croatian and Serbian
+Language* (30 lessons, `established/002`+`059`-`064`, ~1,190 rows), Hawkesworth's *Colloquial
+Croatian and Serbian* (16 files, `established/065`-`073`+parts, ~1,868 rows, ~96,000 words), and
+Hawkesworth & Ćalić's *Colloquial Serbian* (13 files, `established/074`-`083`+parts, ~1,563 rows,
+~95,500 words). Combined: 95 `established/` files, ~14,838 rows, ~700,000 words for this language so
+far. Only 2 remaining vision-only/garbled-OCR books (plus the trivial audio-recordings key) are
+left: *Serbian Folk Tales* and *Teach Yourself Serbian*. A bonus 12-reading "Čitanka" section inside
+Magner's own book (starting PDF p. 95, past the 30 lessons) was found but deliberately deferred — see
+the deferred-content note in Reference extraction progress below.
 
 | Directory | File | Contents |
 |---|---|---|
@@ -123,6 +123,16 @@ deferred-content note in Reference extraction progress below.
 | `established/` | `071_colloquial_hr_sr_units19-20.md` | Units 19-20 (final units), vision-read — ~155 rows. |
 | `established/` | `072_colloquial_hr_sr_grammar_summary.md` | Grammar summary, non-redundant supplement to 3 prior books — 2 rows kept (mobile-a epenthesis, distributive-numeral paradigms), correctly identified near-total overlap with existing content. Distinguished the book's own pedagogical handwritten-Cyrillic facsimile from real marginalia. |
 | `established/` | `073_colloquial_hr_sr_glossary.md` + `_part2` through `_part8` | Croatian/Serbian-English glossary, vision-read exhaustively — ~827 entries across 8 files. All `core` tier (no taboo/slang/archaic diversity), but real value: ~1/3 of entries carry Ijekavian/Ekavian or B/C/S national-variant tagging. One flagged print erratum (`grad` glossed "own" instead of "town"). |
+| `established/` | `074_colloquial_sr_units01-03.md` | Hawkesworth & Ćalić, *Colloquial Serbian* (2006), Units 1-3, non-redundant supplement to `065` — 61 rows, only genuinely new items kept. First Ekavian-only, Cyrillic-primary source in this project. |
+| `established/` | `075_colloquial_sr_units04-06.md` | Units 4-6, mixed new/supplement — ~110 rows. A directly-observed dialect contrast in one scene: hosts toast "живели!" (Ekavian), a Bosnian-heritage guest replies "живјели!" (Ijekavian). |
+| `established/` | `076_colloquial_sr_units07-09.md` | Units 7-9, mixed new/supplement (unit topics don't align 1:1 with the sister book) — ~140 rows. Source-marked colloquial tag on `escajg` ("coll. alternative to pribor za jelo"). |
+| `established/` | `077_colloquial_sr_units10-12.md` | Units 10-12 (Bus journey, Family, **Village life** — the last with no analog in the sister book) — ~185 rows. Colloquial animal-simile idiom set (`gladan kao vuk`, etc.); another embedded Ekavian/Ijekavian dialogue contrast. |
+| `established/` | `078_colloquial_sr_units13-15.md` | Units 13-15 (**Music** — no analog in the sister book — through Packing/Departure) — ~185 rows. Strong cultural content: Guča trumpet festival, EXIT Festival, gusle epic-song tradition. |
+| `established/` | `079_colloquial_sr_units16-17.md` | Units 16-17, mixed new/supplement — ~110 rows. `гепек` (car boot/trunk, < German *Gepäck*) as an unmarked colloquial term; flagged a source's own mislabeled gender tag rather than silently correcting it. |
+| `established/` | `080_colloquial_sr_units18-19_kotor.md` | Units 18-19, **Montenegro-specific (Kotor/Cetinje/Budva), no analog in the sister book** — 76 rows. Honestly reported the dialogue uses standard Ekavian, not the distinctive Montenegrin dialect markers documented elsewhere in this project — did not force a false connection. |
+| `established/` | `081_colloquial_sr_unit20.md` | Unit 20 (final unit, "Kraj") — 46 rows. Register content: reversed-order vocative exclamations (`Budalo jedna!`), a Belgrade cultural term (`сплав`, river barge/floating club). |
+| `established/` | `082_colloquial_sr_grammar_summary.md` | Grammar summary, non-redundant supplement — **0 rows kept**, a near-total duplicate of `072` (same author's sister-book grammar summary), verified via targeted greps before concluding nothing new survived the bar. Honest empty-result reporting rather than padding. |
+| `established/` | `083_colloquial_sr_glossary.md` + `_part2`-`_part4` | Serbian-English glossary, vision-read exhaustively — **~1,337 entries** across 4 files. Several source-tagged `(informal)` colloquial items (`čika`, `drugar`) plus common colloquialisms (`kako da ne`, `nema veze`, `žurka`); no taboo-tier vocabulary (expected for a beginner course glossary). |
 | `analysis/` | *(none yet)* | Phase 3 not started — gated on `language_corpus/Serbian_Croatian_Bosnian/` reaching `in progress`. |
 | `synthesized/` | *(none yet)* | Phase 5 not started. |
 
@@ -154,8 +164,10 @@ Not yet relevant here since no corpus collection has begun.
 project's original vision-reading test) plus `059`-`064` (Magner's Lessons 2-30, extracted this
 session across 6 subagent chunks with zero marginalia found in any of them — unlike `002`'s copy,
 which had a previous owner's pencil marks). This session also added `065`-`073`+parts (Hawkesworth's
-*Colloquial Croatian and Serbian*, 16 files, vision-read, no marginalia found anywhere). 23 files in
-this language are now vision-read in total; the other 59 have a real text
+*Colloquial Croatian and Serbian*, 16 files, vision-read, no marginalia found anywhere). This session
+also added `074`-`083`+parts (Hawkesworth & Ćalić's *Colloquial Serbian*, 13 files, vision-read, no
+marginalia found anywhere). 36 files in this language are now vision-read in total; the other 59 have
+a real text
 layer, so `Vision Reading Confidence` is `n/a` throughout them. See
 `../00_Reference_Extraction_Spec.md`'s Vision-reading guard section. This will change further once
 the remaining vision-only books (`03.Colloquial Serbian and Croatian.pdf`, `Colloquial Serbian/
@@ -182,20 +194,32 @@ identified the pattern and either cross-referenced known vocabulary to decode it
 book's own parallel Latin-script column when unsure. Worth checking for on any future PDF whose
 Cyrillic renders as unrelated glyph soup despite having a real text layer — it may be this same kind
 of fixed-but-undocumented font remapping rather than unusable garbage.
+- **(5) A scanned book's page images can be two-printed-pages-per-scan spreads, not one-page-per-scan.**
+  Found on `Colloquial Serbian/Colloquial Serbian.pdf` (194 physical PDF pages for a book with
+  printed page numbers up to ~375) — a naive `printed_page ≈ PDF_page + fixed_offset` estimate is
+  wrong by roughly half. **Every one of 10 subagents dispatched against this file independently
+  self-corrected** by directly inspecting a few rendered pages before committing to a range, rather
+  than trusting the dispatch's estimate — worth explicitly telling future vision-reading dispatches
+  to verify their assumed offset empirically on the first page or two before assuming any fixed
+  formula, since spread-scanning isn't detectable from `pdfinfo`'s page count alone.
 
 ## Graphify
 
 This language gets its own graph, scoped to `datasets/Serbian_Croatian_Bosnian/` (separate from
-`language_corpus/Serbian_Croatian_Bosnian/`'s own graph). **Rebuilt after the second book's
-completion** (49 files, ~409,000 words) — 219 nodes, 330 edges, 11 communities, clean health (one
-benign collapsed edge). See `graphify-out/` in this folder. Semantic extraction was split into 3
-subagent chunks this time (up from 2 for the first rebuild); the cache-based incremental-update path
-wasn't available since the original bridge-test merge bypassed the cache-save step, so this was a
-full re-extraction rather than an incremental one — worth using the cache path properly on the next
-rebuild if it matters at larger scale. **One known minor graph-quality issue**: the flagship textbook
-appears as two separate god nodes under different node IDs (23 edges and 13 edges) rather than one
-merged entity — a benign duplicate, not corruption, left unfixed for now (would need manual node-ID
-reconciliation across chunks).
+`language_corpus/Serbian_Croatian_Bosnian/`'s own graph). **Rebuilt after Colloquial Serbian's
+completion** (97 files, ~708,000 words) — 339 nodes, 438 edges, 37 communities. See `graphify-out/`
+in this folder. Semantic extraction was split into 7 subagent chunks this time; the cache-based
+incremental-update path still isn't available since the original bridge-test merge bypassed the
+cache-save step, so every rebuild has been a full re-extraction — worth using the cache path properly
+if a future rebuild needs it at larger scale. **Known minor graph-quality issues, left unfixed** (both
+benign, not corruption, both would need manual node-ID reconciliation across chunks to fix):
+(1) the flagship textbook still appears as two separate god nodes under different node IDs; (2) this
+rebuild's chunk 4 (Hammond's book) guessed 20 cross-chunk node IDs pointing at chunk 3's files instead
+of just noting the relationship in a label — none of the guessed IDs matched chunk 3's actual node
+IDs, so all 20 edges were silently dropped as dangling at build time (438 valid out of 458 raw edges).
+The lesson for future dispatches: **instruct subagents to note likely cross-chunk connections in a
+node's label/description, not to fabricate a specific cross-chunk edge/ID** — worth adding to the
+graphify dispatch instructions template if this recurs.
 
 **Before re-running: `cd` into `datasets/Serbian_Croatian_Bosnian/` first, don't run graphify's own
 Python calls from the repo root with only a `root=` argument.** Confirmed real bug (Hungarian test
@@ -249,8 +273,14 @@ run): `save_manifest()` and likely other graphify internals resolve output paths
       summary, and the full glossary. Confirms the register-prioritization finding once more — the
       "colloquial" framing genuinely delivered register-tagged content (e.g. `halo` flagged
       telephone-only, informal/formal parting-word pairs) that formal grammar chapters don't.
-- [ ] `Colloquial Serbian/Colloquial Serbian.pdf` (194p) — vision-only, flagged high-value by its
-      "colloquial" framing per `00_Book_Triage_Catalog.md`; not yet started.
+- [x] `Colloquial Serbian/Colloquial Serbian.pdf` (194p, vision-only) — **full book complete** (13
+      files, `established/074`-`083`+parts, ~1,563 rows, ~95,500 words). Distinct edition/title from
+      the book above (same author, "grew out of" it per its own acknowledgements) — Serbian-only,
+      Cyrillic-primary, Ekavian. Non-redundant-supplement pattern applied to overlapping units;
+      genuinely new content extracted fully (Village life, Music, Kotor/Montenegro — no analog in the
+      sister book). Confirmed a fixed PDF page-spread-scan gotcha: this file packs 2 printed pages
+      per PDF image, so simple offset-based page estimates were wrong by roughly half — every
+      subagent correctly self-corrected by direct inspection; see the PDF gotchas note below.
 - [ ] `29.Serbian Folk Tales.pdf` (240p, vision-only) — literary/archaic-tier corpus, deferred per the
       triage catalog until the `literary`/`archaic` usage tiers need more real examples (they now
       have some — see Ch. 23-25 above and `025_appendices7-8_literary_readings.md` — worth
@@ -282,12 +312,10 @@ extraction across all 40+ languages.
 `methodology-observations/serbian_croatian_bosnian_test_run.md`'s bridge-scale-test verdict —
 methodology validated for this, budgeting wave-based dispatch per `00_Reference_Extraction_Spec.md`).
 
-1. **All 3 clean-text-layer books, Magner's full 30 lessons, and `03.Colloquial Serbian and
-   Croatian.pdf` are now done.** What remains: `Colloquial Serbian/Colloquial Serbian.pdf` (194p,
-   vision-only, a distinct title/edition — do not conflate with the book just completed), `29.Serbian
-   Folk Tales.pdf`, and `Teach Yourself Serbian.pdf`. `01.Key to audio recordings.PDF` (trivial, 2
-   pages) and Magner's deferred "Čitanka" reader section (PDF pp. 95+) can be picked up cheaply
-   alongside any of the above.
+1. **6 of 9 books done: all 3 clean-text-layer books, Magner's full 30 lessons, and both
+   "Colloquial"-titled books.** What remains: `29.Serbian Folk Tales.pdf` (240p) and `Teach Yourself
+   Serbian.pdf` (177p, garbled OCR). `01.Key to audio recordings.PDF` (trivial, 2 pages) and Magner's
+   deferred "Čitanka" reader section (PDF pp. 95+) can be picked up cheaply alongside either.
 2. Once all 9 real reference documents are extracted (or explicitly deferred with reason), this
    language's Phase 1 is genuinely complete — update `ROADMAP.md`/`00_Analysis_Index.md` to reflect
    that milestone explicitly, since it would be the first language to reach it.
