@@ -115,6 +115,15 @@ reference material, actively look for and prioritize these chapters/sections ove
 of purely foundational grammar — they're disproportionately valuable for this project's specific
 purposes.
 
+**Budget wave-based dispatch for any full-book/full-language extraction.** Confirmed during the
+Serbian/Croatian/Bosnian bridge-scale test (one full 531-page book, 28 extraction chunks): there is a
+**hard platform ceiling of 20 concurrent subagents**. A dispatch plan involving more than ~15-18
+concurrent chunks gets excess `Agent` calls flatly rejected, not queued — plan waves (with headroom
+below 20) up front rather than discovering the cap mid-run. See
+`datasets/00_Reference_Extraction_Spec.md`'s "Dispatch scale and concurrency limits" section for the
+full guidance, including the check-first duplicate-prevention instruction this makes necessary and
+the serialized-checklist-update rule for parallelism above n=3.
+
 ## Phase 2 — Web research / slang corpus collection
 
 **Status: not started.** See `language_corpus/00_Corpus_Collection_Index.md` for live status.

@@ -68,6 +68,30 @@ and must never be extracted as if it were.
   Missing a genuinely-printed word is a smaller loss than silently extracting a stranger's
   handwritten error as if it were the book's own content.
 
+### PDF extraction gotchas — watch for these on every source, not just this one
+
+Confirmed real, self-corrected-in-production bugs from the Serbian/Croatian/Bosnian bridge-scale
+test, worth checking for on any future language's sources rather than rediscovering per-book:
+
+- **Multi-column vocabulary boxes can get scrambled by `pdftotext -layout`.** A single-column-style
+  extraction pass on a page that actually has side-by-side vocabulary columns can silently swap or
+  misalign entries (e.g. a numeral and its ordinal form ending up cross-matched to the wrong gloss).
+  **Cross-check any extracted vocabulary box against other context on the same page** (a related
+  chart, a repeated form elsewhere) when something looks off, rather than trusting the raw extraction
+  order.
+- **Two-column dictionary/glossary pages get interleaved by `pdftotext -layout`.** Unlike an
+  occasional scrambled box, a genuinely two-column glossary page has `pdftotext -layout` merge
+  left-column and right-column text onto shared lines, corrupting alphabetical order across the whole
+  page. **If a source's glossary/dictionary section is laid out in two columns, extract each column
+  separately via bounding-box/coordinate extraction (e.g. `pdftotext -x/-W`, or left/right page
+  crops) instead of a single `-layout` pass.**
+- **Third-party PDF-repair tools can introduce their own artifacts on top of the above.** If a source
+  file shows signs of having been processed by an "Advanced PDF Repair"-style tool before reaching
+  this project, its own reconstruction can displace a few lines between columns independently of the
+  two issues above. **Cross-check raw (non-`-layout`) extraction against `-layout` extraction** when
+  something in a processed-looking file seems misaligned — the two extraction modes tend to fail in
+  different, non-overlapping ways, so agreement between them is a good confidence signal.
+
 ### Morphological composition
 
 Before extracting, check this language's own "Morphological typology" note in its
@@ -120,6 +144,29 @@ clean chapter structure) and writes its own numbered output file
 content is large, split it into multiple numbered files rather than one sprawling one, same
 discipline used throughout this project's other sharded content.
 
+## Dispatch scale and concurrency limits
+
+**Hard platform ceiling: 20 concurrent subagents.** Confirmed during the Serbian/Croatian/Bosnian
+bridge-scale test (28 chunks dispatched against one full book): dispatching a wave of 8 additional
+chunks on top of already-running ones got 6-7 of the 8 `Agent` calls flatly rejected with
+"Concurrent subagent limit reached. You can run 20 subagents at once. Do not retry." This is a real
+platform cap, not a soft best-practice concern — **any single-language extraction plan involving more
+than ~15-18 concurrent chunks needs an explicit wave-based dispatch strategy from the start**, not a
+single flat burst of `Agent` calls. Plan waves of a safe size (leave headroom below 20 for whatever
+else may be running), wait for a wave to complete (freeing slots) before dispatching the next, and
+pace retries with `ScheduleWakeup`/disk-state checks rather than busy-polling.
+
+**Check-first duplicate-prevention — standing instruction, not optional.** Because wave-based
+retries can end up re-dispatching a chunk that actually succeeded in the background after a rejected
+call was assumed to have failed, **every extraction subagent must be instructed to check whether its
+target output file already exists with substantive content, and stop immediately without writing if
+so.** This is not hypothetical: during the bridge-scale test, two different glossary chunks were each
+accidentally dispatched twice because of exactly this race, and the check-first instruction correctly
+prevented data loss/corruption both times (one duplicate detected the existing file and stopped
+cleanly; the other wrote content that was manually verified as coherent and non-corrupted). Include
+this instruction in every dispatch, not just ones expected to run at high parallelism — a race can
+happen any time retries are involved.
+
 ## After extraction: no manual JSON manifest needed
 
 Unlike earlier drafts of this pipeline, there is **no `_index.json` to hand-maintain**. The
@@ -127,17 +174,16 @@ checklist's own `## Output files` table is the human-readable index — update i
 after each dispatch. **Have the extraction subagent update it directly as part of its own task**
 (the Output files table row and the relevant progress checkbox) — confirmed during the Hungarian
 test run that subagents will do this reliably when explicitly instructed to, removing a manual
-coordination step.
+coordination step, **at low parallelism (n=3 or fewer concurrent subagents) only.**
 
-**Caution on multiple subagents writing to the same shared checklist file.** Confirmed safe with 3
-parallel subagents during the Hungarian and Dutch test runs — when a subagent's own Read-then-Edit
-found the file already changed by a sibling subagent, it re-read and merged rather than overwriting,
-unprompted, on both occasions it was tested. **This has only been confirmed at n=3 parallel
-subagents, not at higher counts.** If a future dispatch parallelizes many more chunks against one
-book (e.g. a full 20+ chapter book in one pass), don't assume this self-protective behavior scales
-indefinitely — consider having subagents skip the checklist update entirely and doing it as a single
-serialized follow-up pass once all chunks land, rather than risking a real collision at higher
-parallelism.
+**Above n=3 concurrent subagents, serialize the checklist update instead — this is now a confirmed
+rule, not a hedge.** Read-then-Edit self-protection (a subagent detecting a sibling's concurrent
+change and re-reading before applying its own edit) was observed working at n=3 during the Hungarian
+and Dutch test runs, but was explicitly flagged as unconfirmed at higher counts. The bridge-scale
+test deliberately tested this by instructing **zero** of its 28 chunks to touch the shared checklist,
+doing a single manual serialized pass after all chunks landed instead — zero corruption, zero lost
+updates. **Do not rely on per-subagent checklist self-protection above n=3** — instruct subagents to
+skip the checklist entirely and do one serialized follow-up pass once all chunks land.
 
 The machine-queryable summary/pointer layer comes from running `/graphify datasets/<Language>` once
 there's enough content to be worth graphing — its `source_file`/`source_location` fields are the
@@ -174,6 +220,8 @@ went wrong.
 
 ```
 You are a reference-extraction subagent for the slang-synthesis project.
+Before doing anything else, check whether [EXACT OUTPUT PATH] already exists with substantive
+content — if so, stop immediately and report that it's already done. Do not overwrite it.
 Read [SOURCE FILE, PAGE RANGE] of [BOOK TITLE, AUTHOR(S), EDITION/YEAR].
 Follow datasets/00_Reference_Extraction_Spec.md exactly (coverage rule, copyright discipline,
 output format, column rules).
