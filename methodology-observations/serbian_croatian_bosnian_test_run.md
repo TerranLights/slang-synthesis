@@ -488,3 +488,123 @@ node-collapsing discipline continues to hold at nearly double the bridge-test's 
 entirely vision-reading work (5 books) — a genuinely different cost/effort profile than what's been
 tested so far. Everything above remains tentative pending developer review, same as every prior
 entry in this log.
+
+---
+
+### 2026-08-31 — Vision-reading-at-scale phase: 5 books, Phase 1 completion
+
+**This entry covers the entire vision-reading-at-scale push that followed clean-text completion:**
+Magner's *Introduction to the Croatian and Serbian Language* (30 lessons), Hawkesworth's *Colloquial
+Croatian and Serbian* (1998), Hawkesworth & Ćalić's *Colloquial Serbian* (2006), *Srpske narodne
+bajke* (Serbian Folk Fairy Tales), and Norris & Ribnikar's *Teach Yourself Serbian* (2003) — the
+last of the 9 real reference documents, bringing this language to **full Phase 1 completion, the
+first language in the whole 40+-language project to reach it.** Final scale: 115 `established/`
+files, ~850,000 words, `graphify-out/` at 453 nodes / 561 edges / 29 communities with zero
+dangling/missing edges.
+
+**Vision-reading at this scale worked with zero data loss**, but three genuinely new gotchas
+surfaced that weren't visible at clean-text scale, all now promoted into
+`datasets/00_Reference_Extraction_Spec.md`:
+
+1. **Two printed pages per scanned image ("page-spread scan").** Confirmed independently in *both*
+   Colloquial books — 10+ different subagents hit this in Colloquial Serbian alone, and it recurred
+   in Teach Yourself Serbian. A naive `printed_page ≈ PDF_page + fixed_offset` estimate derived from
+   the front-matter title page is wrong by roughly half once the book gets past its first few
+   chapters, because each scanned image actually contains two facing printed pages, not one. Not
+   detectable from `pdfinfo`'s page count alone — it only shows up on direct page inspection. No data
+   was lost because every dispatch was instructed to verify the offset empirically rather than trust
+   the estimate, and every subagent that hit the mismatch self-corrected by locating the real
+   boundaries before extracting. **Now spec gotcha #5.**
+
+2. **Fixed font-substitution cipher**, found in Hammond's *Serbian: An Essential Grammar* (clean-text
+   book, but the finding is vision/OCR-adjacent enough to log here): Cyrillic/diacritic characters
+   remapped consistently (š→e, č→a, ć→z, ž→f, đ→]) — decodable once spotted, and distinguishable from
+   random OCR garbling because it's a fixed 1:1 substitution, not noise. **Spec gotcha #4.**
+
+3. **Incomplete table-of-contents snapshots.** Both Serbian Folk Tales (4 additional tales found
+   beyond the visible TOC crop) and Teach Yourself Serbian (the book has 20 units, not the 18 shown
+   in the captured TOC screenshot) undercounted their own content based on a partial TOC read.
+   Fixed by dispatching targeted gap-filler chunks once the true boundary was found — Folk Tales'
+   remaining tales fit inside its existing part-7/8 dispatch, but Teach Yourself Serbian needed a
+   dedicated 9th file (`established/101_tys_units19plus.md`) to cover units 19-20. **Lesson: treat a
+   vision-captured TOC as a lower bound, not a ceiling — a subagent finding content past the last
+   TOC-listed chapter should keep going and flag it, not stop.**
+
+**Non-redundant-supplement pattern confirmed to generalize to vision-read books, not just
+clean-text ones.** Applied successfully to Colloquial Serbian (2006) against its own predecessor,
+Colloquial Croatian and Serbian (1998) — same author (Hawkesworth), and the later book's own
+acknowledgements describe it as having "grown out of" the earlier volume. Subagents correctly
+identified and skipped already-covered grammar/vocabulary territory while extracting genuinely new
+material (its own `082_colloquial_sr_grammar_summary.md` file, for instance, was found to add zero
+new content beyond prior extractions and was represented with a single rationale node rather than
+skipped silently).
+
+**Vision-reading marginalia guard held up under real-world pressure.** Serbian Folk Tales had
+genuine physical marginalia — a library accession stamp plus a handwritten pencil underline — that
+subagents correctly identified and excluded, distinct from the book's own printed teaching apparatus
+(inline glosses, facsimiles of cursive script). This is the first real marginalia encountered since
+the original Magner Lesson-1 vision-reading pilot test; the guard instruction continues to do its
+job rather than being dead weight from a one-off test case.
+
+**Two genuine slang-mechanics content findings, both directly relevant to future Phase 3 mechanics
+analysis:**
+
+- **Taboo-avoidance naming** (Serbian Folk Tales, `established/084` and `established/088`):
+  confirmed independently for three different feared animals — snake, wolf, and bear — each with its
+  own euphemism set (e.g. snake: баук, баурина, баја, "она из траве," непоменица) rather than the
+  animal's "true" name. This is the second major content finding of the whole project, alongside the
+  syllable-switching slang mechanism found earlier in `established/025` (Sarajevo/Zagreb youth slang
+  — vozdra, žemka, đido, etc.), and it's directly relevant to the `taboo_inversion` category already
+  defined in `00_Usage_Tier_Taxonomy.md`.
+- **Clipping as an informal word-formation mechanism**, confirmed in Teach Yourself Serbian:
+  *ćevapi* explicitly flagged by the source as a colloquial clipped form of *ćevapčići*, structurally
+  parallel to the syllable-switching and taboo-avoidance mechanisms above — a third independent
+  instance of "the source names its own informal derivation process," which is turning out to be a
+  reliable place to find genuine slang-mechanics data inside grammar-reference books, not just
+  dedicated slang dictionaries.
+
+**Register-tiering data kept surfacing exactly where the register-prioritization principle predicts
+it would.** Teach Yourself Serbian alone yielded: `@` glossed colloquially as мајмун ("monkey"); the
+drug/drugarica Communist-era "comrade" register note; a clean three-tier kinship register
+(тата/мама colloquial < отац/мајка "somewhat more formal" < супруг/супруга "formal, official
+documents"); and бакалница flagged by the source itself as "heard often but rarely seen written" — a
+spoken/written register asymmetry distinct from the formal/informal axis already well-documented
+elsewhere in this corpus.
+
+**Multiple independent Ekavian/Ijekavian dialect-contrast findings continued accumulating** across
+Magner's lessons, both Colloquial books, and Teach Yourself Serbian — by this point a thoroughly
+over-determined finding for this language, no longer novel but worth noting as a sanity check that
+the extraction process reliably surfaces it regardless of which book or author is doing the
+teaching.
+
+**Graphify cross-chunk-edge-fabrication bug: found, diagnosed, and confirmed fixed.** Mid-session,
+a rebuild after Colloquial Serbian showed 20 dangling edges, traced to a chunk covering Hammond's
+book fabricating cross-chunk edge target IDs guessed to point at a sibling chunk's files, using an
+ID-naming convention that didn't actually match that chunk's real output IDs. Not manually
+patched — the edges were already gracefully dropped at build time — instead fixed at the process
+level: every subsequent dispatch prompt (starting with the Folk Tales rebuild) explicitly instructs
+subagents to only target node IDs created within their own chunk's output, and to note likely
+cross-chunk connections in labels/descriptions instead of fabricating edges. This fully resolved the
+issue: the Folk Tales rebuild (8 chunks) achieved zero dangling edges, and the same discipline held
+through the final 9-chunk rebuild for this entry (453 nodes, 561 edges, zero dangling/missing,
+one benign collapsed edge from the undirected merge — same harmless pattern seen throughout this
+whole test run).
+
+**Graph scaling remained clean at full-language scale.** Final rebuild covered all 117 files
+(115 established + 2 meta docs) in 9 parallel chunks, producing 453 nodes / 561 edges / 29
+communities with the `to_json` shrink-guard (`#479`) correctly firing once — the previous graph
+(468 nodes, built before this final book was added) was larger than this from-scratch rebuild
+purely because node-count is not deterministic across independent extraction runs (different
+subagents make different judgment calls about how many concept nodes a chapter warrants); this was
+verified as a legitimate full rebuild covering *more* source content, not a real data loss, before
+overriding the guard with `force=True`. **Lesson: the shrink-guard is a good safety net for
+`--update` runs, but a genuine full rebuild of already-covered content can legitimately produce fewer
+nodes than a prior run — verify chunk coverage and content scope before treating a shrink warning as
+a red flag.**
+
+**Status: Phase 1 for Serbian/Croatian/Bosnian is complete.** All 9 real reference documents
+extracted (the trivial `01.Key to audio recordings.PDF` intentionally left unextracted, not blocking
+completion). This is the first language in the project to reach this milestone — see `ROADMAP.md`
+and `00_Analysis_Index.md` for the corresponding status updates. Next steps for this language are
+Phase 2 (web-collected slang corpus) or Phase 3 (mechanics analysis), not further Phase 1 extraction.
+Everything above remains tentative pending developer review, same as every prior entry in this log.

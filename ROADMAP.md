@@ -62,10 +62,18 @@ it incrementally (tier the next language right before starting it, rather than a
 
 ## Phase 1 — Reference extraction (grammar/vocab)
 
-**Status: in progress — Serbian/Croatian/Bosnian (test-run language) only, tentative.** A first
-`established/` shard (20 entries, one lesson of one book) is populated — see
-`datasets/Serbian_Croatian_Bosnian/established/` and the methodology-observations log. **Two open
-questions surfaced by this pass, not yet resolved, flagged for explicit developer input:**
+**Status: Phase 1 complete for Serbian/Croatian/Bosnian — the first language in the entire
+40+-language project to reach this milestone.** All 9 real reference documents have been fully
+extracted: 115 `established/` files, ~850,000 words, covering the flagship BCS textbook, its
+sociolinguistic-commentary and grammar companion volumes, Hammond's essential grammar, Magner's
+full 30-lesson course, both Hawkesworth "Colloquial" volumes, the Serbian Folk Tales anthology, and
+Norris & Ribnikar's Teach Yourself Serbian — see `datasets/Serbian_Croatian_Bosnian/established/`,
+`00_Extraction_Checklist.md`, and the methodology-observations log for full detail. The `/graphify`
+knowledge graph over the full corpus stands at 453 nodes / 561 edges / 29 communities with zero
+dangling or missing edges. **The two open questions below, raised early in this pass, are now
+effectively answered by the completed run: exhaustive per-book extraction plus subagent-parallelized
+dispatch (with wave-based chunking under the 20-concurrent-agent cap) proved tractable across an
+entire language's reference corpus, not just a single lesson.**
 
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
