@@ -47,7 +47,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Greek (Modern) | yes | not started | — |
 | Greek (Ancient/TTC) | yes | not started | — |
 | Hebrew | yes | not started | — |
-| Hungarian | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 2 corpus collection not yet started; see `methodology-observations/hungarian_test_run.md`)* | `language_corpus/Hungarian/` |
+| Hungarian | yes | in progress *(Phase 2 corpus collection started: `Magyar Szlengszótár` dictionary vision-read and sampled across PDF pages 1–90 of 170 into `01_`/`02_` — see `language_corpus/Hungarian/00_Extraction_Checklist.md`; Phase 1 reference extraction also ongoing in `datasets/`, see `methodology-observations/hungarian_test_run.md`)* | `language_corpus/Hungarian/` |
 | Icelandic | yes | not started | — |
 | Irish | yes | not started | — |
 | Italian | yes | not started | — |
