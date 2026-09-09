@@ -257,6 +257,18 @@ the repo-root `graphify-out/` directory specifically, before committing, to catc
 cross-contamination** — it will not be obvious from the language folder's own output that anything
 went wrong.
 
+**Recurrence confirmed during the Hungarian Phase 1 push (a second incident, not just the original
+finding above): individual reference-extraction subagents must NEVER run `graphify update` (or any
+other graphify command) themselves.** One extraction subagent, tasked only with extracting a single
+book chapter, independently decided to run `graphify update .` at the end of its own turn "per the
+project's CLAUDE.md convention" — but its actual working directory was the repo root, not the
+language folder, so it silently dumped a whole-repo scan into the SCB-scoped root graph (a ~52,000-
+line diff to `graphify-out/graph.json`). Caught via `git status` before committing and fully
+reverted; no data was lost, but this could easily corrupt a shared root graph unnoticed. **Fix:**
+every extraction-subagent dispatch prompt must explicitly state that graphify rebuilds are handled
+separately, by the orchestrator, after a whole wave/batch of extraction lands — not by individual
+per-file subagents as a matter of their own initiative.
+
 ---
 
 ## Dispatch template (fill in per subagent)
