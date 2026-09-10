@@ -143,3 +143,112 @@ Following a later audit of what had been *confirmed* across all test runs but ne
 just this historical log entry; (2) the "check for corpus-type material hiding in a reference
 folder" principle (the slang-dictionary discovery) is now a standing Phase 0 triage instruction in
 `ROADMAP.md`, not just a one-off note in this language's own triage catalog.
+
+---
+
+### 2026-09-09 — Full Phase 1 push: complete triage, three extraction waves, graphify rebuild
+
+**This entry covers the entire push that brought Hungarian to full Phase 1 completion** — the
+second language in the project to reach this milestone, following the methodology validated
+end-to-end on Serbian/Croatian/Bosnian. Final scale: 53 `established/` files (~475,000 words, up
+from the 3-file/~273-entry test-run start), plus 4 files in `language_corpus/Hungarian/` for the
+slang dictionary. `graphify-out/` rebuilt clean over the full corpus: 229 nodes, 332 edges, 10
+communities, zero dangling/missing/collapsed edges (`language_corpus/Hungarian/` got its own
+separate graph: 60 nodes, 109 edges, 8 communities, also clean).
+
+**A full triage pass came first, and it had to handle a genuinely messier corpus than SCB's.**
+Hungarian's `source_reference/` folder is 131 files/2.6GB — an order of magnitude larger than SCB's
+9 files — split into 37 top-level loose files and 6 subfolders. Two of those subfolders
+(`Hungarian Language Learning Pack (Updated)`, `Hungarian language resources`) turned out to be
+large grab-bags mixing a handful of real reference titles among travel guides, comics (Donald
+Duck), genre fiction (an R.A. Salvatore fantasy trilogy in Hungarian translation, the Twilight
+saga), folk tales in *Ukrainian* (not Hungarian), and children's picture books — none of that
+non-reference material was extracted, and the dedup-and-filter pass to separate real titles from
+noise is now itself a reusable technique (documented in `datasets/Hungarian/
+00_Book_Triage_Catalog.md`) for any other language's messy subfolders. ~50% of individually-sampled
+files had no usable text layer, consistent with both prior test runs' rates — this is now
+unambiguously the norm across languages, not a Hungarian-specific quirk.
+
+**Extraction proceeded in three priority waves** (Wave 1: clean-text highest-value — finishing
+Rounds' grammar, both proverb dictionaries, the morphology paper, the FSI course; Wave 2: remaining
+clean-text supplements — the Phonology reference, the 1,324-page Magyaróra coursebook, the
+phrasebook, the 1853 grammar, the diaspora-Hungarian volume; Wave 3: vision-reading — the slang
+dictionary, Teach Yourself Hungarian, Colloquial Hungarian, Hungarian in Words and Pictures,
+Hungarian with Ease, Hungarian Verbs, Practical Hungarian Grammar). This wave structure, proposed
+and approved before dispatch began, made the "should we scope small or go for everything" decision
+explicit rather than ad hoc, and meant later triage information (the true 1,324-page size of
+Magyaróra, for instance) could be absorbed into the existing plan rather than blowing up scope
+unpredictably.
+
+**New gotchas found and promoted into `00_Reference_Extraction_Spec.md`:**
+
+1. **Extraction subagents must never run graphify themselves.** One subagent, tasked only with
+   extracting a single book chapter, independently ran `graphify update .` at the end of its own
+   turn "per the project's CLAUDE.md convention" — but its actual working directory was the repo
+   root, not `datasets/Hungarian/`, so it silently dumped a whole-repo scan into the SCB-scoped
+   root graph (a ~52,000-line diff to the root `graphify-out/graph.json`). Caught via `git status`
+   before committing and fully reverted; no data was lost, but this is the second confirmed
+   incident of the CWD-relative-path bug, this time triggered by a subagent's own initiative rather
+   than an orchestrator mistake. **Fix:** every extraction dispatch prompt must now explicitly
+   state that graph rebuilds happen separately, after a whole wave lands, not by individual
+   per-file subagents.
+2. **A book can be genuinely, drastically larger than its triage-time page-count estimate.**
+   Magyaróra was catalogued as a coursebook during triage; on actual inspection it turned out to be
+   a 1,324-page compiled volume bundling a grammar reference with a large, separately-authored set
+   of magyarora.com website worksheets across multiple proficiency levels plus an answer key. Same
+   fix as the oversized proverb dictionary earlier in this project: representative sampling across
+   early/mid/late ranges, explicitly documented as non-exhaustive, rather than either skipping the
+   source or attempting full coverage of an unexpectedly huge book.
+3. **Two-printed-pages-per-scan confirmed again, on yet more books** — the slang dictionary and
+   Hungarian with Ease both scan two printed pages per PDF image, while Teach Yourself Hungarian and
+   Colloquial Hungarian (both vision-read in the same wave) turned out to be flat single-page scans.
+   The lesson holds: verify per-book, every time, never assume from one confirmed instance that a
+   whole wave shares the same scan convention.
+4. **A "completed" subagent status does not guarantee its output file was actually written.**
+   Across two separate session-limit interruptions during Wave 3, several subagents reported
+   `status: completed` with a result that read as mid-task ("I'll wait for the render-completion
+   notification before continuing") rather than a real summary — and in every one of these cases,
+   the target file was genuinely missing from disk. **Always verify the output file exists on disk
+   before trusting a "completed" status**, not just for `status: failed` notifications.
+
+**Standout content findings, directly relevant to future Phase 3 mechanics analysis:**
+
+- **A whole inflectional class carrying an explicit colloquial/"uneducated" register contrast**
+  (the `-ik`-verb 1st-person-singular ending, Teach Yourself Hungarian) — a register split on a
+  grammatical *paradigm slot*, not just a lexical item pair, a category of finding this project
+  hadn't seen clearly before in any language.
+- **A courtesy third address register** (`tetszik`+infinitive, alongside the already-known
+  `te`/`maga`/`ön` three-way system) with asymmetric response rules and a gender-conditioned
+  exception — Hungarian's politeness system turns out to be at least four-way, not three.
+- **A five-step vulgarity ladder on a single question frame** (`ki a fene?/franc?/picsa?/szar?/
+  túró?`, the slang dictionary) and a **three-tier "drunk" ladder** (`ittas`/`részeg`/`piás`,
+  Magyaróra) — two independent, cleanly graded register scales on different semantic domains.
+- **Productive derivational-suffix stacking on verb stems** (potential, causative, and frequentative
+  endings each redefining the stem so a further suffix stacks onto the *new* stem — Rounds' grammar,
+  Kornai's dissertation) recurring across at least four independently-authored sources (Kornai's
+  dissertation, Rounds' grammar, Hungarian Verbs, Hungarian with Ease) as the single most productive
+  slang-adjacent morphological mechanism this language's grammar-reference material keeps surfacing.
+- **Convergent sound change across unrelated contact situations**: the `gyerek`→`dzserek`
+  consonant-affrication pattern is independently attested in Vojvodina Hungarian (Serbian contact),
+  Oberwart Hungarian (German contact), and American Hungarian (English contact) — three genuinely
+  unrelated language-contact situations converging on the same phonological outcome, a strong
+  natural-language precedent for how contact-induced sound change might be modeled in the
+  conlang-derivation work later in this project.
+- **A single typological-synthesis chapter reframing three "separate" findings as one mechanism**:
+  de Groot's Ch.11 in the Fenyvesi volume shows that overt-pronoun preference, possessive-suffix
+  loss, and definite/indefinite-conjugation collapse — reported independently in three earlier
+  chapters about three different countries — are all instances of one underlying
+  Appositional→Free-Pronoun person-marking cycle, accelerated by contact with already-Free-Pronoun
+  languages. A model for how this project's own eventual mechanics-analysis phase might unify
+  scattered per-source findings into a smaller number of real generative mechanisms.
+- **A cross-source register disagreement, left unresolved rather than silently picked one side**:
+  Hungarian in Words and Pictures marks `szia` as "very familiar, young people" but gives
+  `szervusz(tok)` with no age qualifier; Teach Yourself Hungarian explicitly calls `szervusz`
+  "now old-fashioned." Flagged for a future cross-source register-reconciliation pass rather than
+  resolved by picking whichever source extracted first — a good example of the project's own
+  discipline of recording disagreement as data, not noise.
+
+**Status: Hungarian Phase 1 is complete.** Next steps for this language are Phase 2 (continuing
+web-collected slang corpus work, building on the `language_corpus/Hungarian/` slang-dictionary
+sample already in place) or Phase 3 (mechanics analysis), not further Phase 1 extraction. Everything
+above remains tentative pending developer review, same as every prior entry in this log.

@@ -75,6 +75,24 @@ effectively answered by the completed run: exhaustive per-book extraction plus s
 dispatch (with wave-based chunking under the 20-concurrent-agent cap) proved tractable across an
 entire language's reference corpus, not just a single lesson.**
 
+**Hungarian reached the same milestone next — the second language in the project to complete
+Phase 1.** Its reference folder was an order of magnitude larger and messier than SCB's (131 files/
+2.6GB with two grab-bag subfolders mixing real reference material into travel guides, fiction, and
+comics), so a full triage-and-dedup pass was run first (see `datasets/Hungarian/
+00_Book_Triage_Catalog.md`) before extraction proceeded in three priority waves. Result: 53
+`established/` files, ~475,000 words, covering 16 real reference sources including two proverb/
+idiom dictionaries, the two-volume FSI Basic Hungarian course, a 19th-century grammar (attested-era
+contrast against the modern one), an 1,324-page compiled coursebook (handled via representative
+sampling, the same discipline used on oversized dictionaries), and the dedicated Hungarian slang
+dictionary (*Magyar Szlengszótár*, fully sampled A-Z and routed to `language_corpus/Hungarian/`
+rather than `established/`, per the Phase 1/Phase 2 content-type boundary this language's earlier
+triage pass first surfaced). The `/graphify` graph over the full corpus stands at 229 nodes / 332
+edges / 10 communities with zero dangling/missing edges. **This run reconfirmed the exhaustive-
+extraction-plus-subagent-dispatch approach at a genuinely messier, larger scale than SCB, and
+surfaced a new gotcha: an extraction subagent independently running `graphify update` from the
+wrong working directory can corrupt the repo-root graph — now an explicit prohibition in
+`datasets/00_Reference_Extraction_Spec.md`.**
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in
