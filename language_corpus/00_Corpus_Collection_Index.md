@@ -38,7 +38,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Avestan | yes (unsorted) | not started | — |
 | Cantonese | yes | not started | — |
 | Danish | yes | not started | — |
-| Dutch | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 2 corpus collection not yet started; see `methodology-observations/dutch_test_run.md`)* | `language_corpus/Dutch/` |
+| Dutch | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 3 corpus collection not yet started; see `methodology-observations/dutch_test_run.md`)* | `language_corpus/Dutch/` |
 | English (Old English) | yes | not started | — |
 | Esperanto | yes | not started | — |
 | Estonian | yes | not started | — |
@@ -47,7 +47,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Greek (Modern) | yes | not started | — |
 | Greek (Ancient/TTC) | yes | not started | — |
 | Hebrew | yes | not started | — |
-| Hungarian | yes | in progress *(Phase 2 corpus collection started: `Magyar Szlengszótár` dictionary fully sampled A-Z across all 170 PDF pages into `01_`-`04_` — see `language_corpus/Hungarian/00_Extraction_Checklist.md`; own `graphify-out/` built, 60 nodes/109 edges/8 communities; Phase 1 reference extraction in `datasets/Hungarian/` is now fully complete — see `methodology-observations/hungarian_test_run.md`)* | `language_corpus/Hungarian/` |
+| Hungarian | yes | in progress *(Phase 3 corpus collection started: `Magyar Szlengszótár` dictionary fully sampled A-Z across all 170 PDF pages into `01_`-`04_` — see `language_corpus/Hungarian/00_Extraction_Checklist.md`; own `graphify-out/` built, 60 nodes/109 edges/8 communities; Phase 1 reference extraction in `datasets/Hungarian/` is now fully complete — see `methodology-observations/hungarian_test_run.md`)* | `language_corpus/Hungarian/` |
 | Icelandic | yes | not started | — |
 | Irish | yes | not started | — |
 | Italian | yes | not started | — |
@@ -66,7 +66,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Romanian | yes | not started | — |
 | Russian | yes | not started | — |
 | Sanskrit | yes | not started | — |
-| Serbian/Croatian/Bosnian | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 2 corpus collection not yet started; see `methodology-observations/serbian_croatian_bosnian_test_run.md`)* | `language_corpus/Serbian_Croatian_Bosnian/` |
+| Serbian/Croatian/Bosnian | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 3 corpus collection not yet started; see `methodology-observations/serbian_croatian_bosnian_test_run.md`)* | `language_corpus/Serbian_Croatian_Bosnian/` |
 | Slovene | yes | not started | — |
 | Spanish | yes | not started | — |
 | Sumerian | yes | not started | — |

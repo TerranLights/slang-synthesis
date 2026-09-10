@@ -164,7 +164,7 @@ atomic gloss would hide real compositional structure the mechanics-analysis phas
   `../language_corpus/00_Source_Reliability_Guide.md`. Reference books extracted here are virtually
   always `grammar_reference` or `dictionary`, never a subtitle/transcript type.
 - **Transcription Confidence** — `n/a` for reference-book extraction (this field only matters for
-  subtitle/transcript-sourced entries during Phase 2 corpus collection).
+  subtitle/transcript-sourced entries during Phase 3 corpus collection).
 - **Vision Reading Confidence** — the analog of Transcription Confidence, but for entries read from
   a scanned/image-only source instead of a clean text layer. `n/a` when the source had a real text
   layer (`pdftotext` or equivalent produced usable text — no vision-reading was needed for this
