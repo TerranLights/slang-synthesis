@@ -1,0 +1,158 @@
+# Korean Slang Mechanics — Extraction Checklist
+
+**Korean is a Gini-index high-priority language** (South Korea, ~26M effective population per the
+Inner Tepenia GDD census — see `../../LANGUAGE_INDEX.md`). Everything below follows the methodology
+validated end-to-end on Serbian/Croatian/Bosnian and Hungarian.
+
+**Purpose:** analyze the actual mechanics of how Korean slang forms and works, using the corpus
+collected in `language_corpus/Korean/` and, where useful, the grammar/vocabulary reference in
+`source_reference/languages/Korean/`. Findings here are what eventual synthesis work (deriving
+invented slang for the sci-fi setting) will be grounded in.
+
+**This is research only — nothing here is canon** until worked into actual setting material by
+explicit decision.
+
+**Status legend:** `[x]` analyzed and written into its output file · `[ ]` not yet done.
+
+---
+
+## Morphological typology
+
+**Korean: agglutinative.** Grammatical relationships (case, topic-marking, tense, mood,
+connectives, and — distinctively — a speech-level/honorific system woven directly into verb
+endings) are marked by stacking particles/suffixes onto a stem, broadly comparable to
+Hungarian/Japanese/Turkish. See `00_Book_Triage_Catalog.md` for the preliminary note; will be
+refined with a real morpheme breakdown once the first grammar extraction lands.
+
+---
+
+## Output files — Markdown, sharded by numbered file, not JSON
+
+**Storage model.** All extracted content — raw reference data, mechanics analysis, synthesized
+results — lives as **Markdown** (occasionally `.txt`), not hand-authored JSON. This matches how the
+rest of this project's own methodology documentation works, and lets `/graphify` serve as the
+organized-summary/pointer layer instead of a manually-maintained manifest (see Graphify section
+below).
+
+| Directory | Contents | Numbering |
+|---|---|---|
+| `established/` | The real Korean baseline — vocabulary/grammar tables extracted per lesson/chapter/section, per `00_Reference_Extraction_Spec.md` | `001_<label>.md`, `002_<label>.md`, ... |
+| `analysis/` | Mechanics findings, one file per mechanism (or closely related group), narrative writeup + examples table | `001_<mechanism>.md`, ... |
+| `synthesized/` | Derived in-universe slang output, one file per batch. **Explicitly provisional** — revise via each term's own Revision History subsection, never silent overwrite | `001_<batch>.md`, ... |
+
+Copy `_TEMPLATE/established/001_TEMPLATE.md`, `_TEMPLATE/analysis/001_TEMPLATE.md`,
+`_TEMPLATE/synthesized/001_TEMPLATE.md` as starting points. **Don't let a single file grow
+unbounded** — split into a new numbered file once one gets unwieldy to read/diff, same discipline
+used in `language_corpus/`. **No `_index.json` manifest to maintain** — this checklist's own
+`## Output files` table (below) is the human-readable index; `/graphify` (see below) is the
+machine-queryable one.
+
+Fill this table in as files are created:
+
+| File | Contents |
+|---|---|
+| `established/001_basic_korean_part1.md` | Byon, *Basic Korean: A Grammar and Workbook* (2009), PDF pages 1–130 (Units 1–15, into Unit 15's exercises). Vocabulary tables per unit (~230 entries total) + full grammar-point writeups covering Hangul, SOV/context-oriented/general-to-specific typology, the honorific/6-speech-level system (deferential/polite/blunt/familiar/intimate/plain), pronoun/kinship stratification, both number systems, case and special particles 이/가·은/는·을/를·의·에·와/과·(이)랑·하고·에서·한테/에게/께·한테서/에게서·도·만. Flags a PDF text-layer gotcha (Korean font not embedded — content vision-read from rendered page images, not `pdftotext`). |
+| `established/005_continuing_korean_part1.md` | *Continuing Korean*, PDF pp. 1-150 of 451 (first third), clean text layer. Lesson Sixteen (finishing out, from its -고 form/infinitive+서 material), Lesson Seventeen (17.1-17.9: sensory-verb -어해요, directional/resultant-state compound verbs, exploratory -어 보-, benefactive -어 주-/드려요, -기 nominalizer and its nounlike uses, -기 때문에/-기 전에/-기 시작하-), Lesson Eighteen (18.1-18.8: obligation -어야, concessive -어도 family incl. permission-asking/denial, idiomatic max-min -어도, inchoative -어져요, -(으)ᄅ 수 있-/없-, literary -(으)며, 통해(서), -기로 하-), Lesson Nineteen (19.1-19.8: the -(으)ᄂ vs. -는 modifier split, modifier clauses, postmodifier 길/일·적 있-/없- patterns, retrospective -던, comparative 보다, the young/old lexical-register system, 것-modifier clauses), and Lesson Twenty-one (21.1-21.9: the full -(으)면 conditional system incl. hopes/wishes, polite requests, obligation and permission-denial variants, summarized in the source's own paradigm table; intentive -(으)려(고) and its fusion -(으)려면; adverb 좀; first-realization -(는)군요) fully extracted, vocabulary + grammar. Lesson Twenty (a pure "Pattern Review" chapter recapping 16-19's grammar with fresh examples only) is summarized, not re-extracted, per the coverage rule. Lesson Twenty-two's dialogues, reading passage, and vocabulary list are captured up to the page-150 cutoff (its own grammar notes fall past this range — left for the pp. 151-300 chunk). No sibling Basic/Intermediate Korean `established/` files existed yet at time of writing, so the usual cross-book overlap check could not be performed directly; internal forward/backward cross-references within this book itself were used instead to judge this content as new relative to earlier volumes. Register findings: explicit "too fancy for everyday use" flag on maximal double-honorific stacking of sensory-verb compounds; the sensory-verb first/non-first-person grammatical asymmetry (§17.1); humble suppletive verbs 뵈-/말씀 드리-; -거든요 and -고요/-서요 explicitly framed by the source as politeness/conversation-management devices rather than purely semantic connectives; an explicit respectful-vs.-disrespectful lexical pair for "old person" (나이 드신 분 vs. 늙은이); a denominational (Catholic/Protestant) lexical split for "God" (하느님/하나님); and a gendered-register flag on the interjection 세상에! ("used by women"). |
+| `established/010_korean_language_structure_use_context.md` | Full extraction of Jae Jung Song, *The Korean Language: Structure, Use and Context* (2005), all 7 chapters. Deep treatment of the honorific/speech-level system (six speech levels × sentence types, subject honorification, lexical honorific/humble doublets), the native/Sino-Korean/loanword register stratification, pronoun system, word formation (incl. slang-relevant `-cil`/`-kkwun` suffixes), discourse-level formality (omission/contraction), and explicit North/South Korean (Phyocwune/Munhwae) lexical and grammatical divergence. Small illustrative vocabulary table (academic/analytical source, prose-prioritized per the coverage rule). |
+| `established/006_continuing_korean_part2.md` | *Continuing Korean* (Ross King & Jae-Hoon Yeon, Tuttle), PDF pp. 151-300 of 451 (middle third), verified by direct inspection to pick up mid-vocabulary-list from a sibling's pp. 1-150 chunk. Lesson Twenty-two (back half: vocab + grammar 22.1-22.8, incl. the ㅎ-dropping manner/color verb class and transferentive -다(가)), Lesson Twenty-three (23.1-23.9: circumstantial -는데(요) "imminent elaboration," postnoun -네/diminutive -이, prospective modifier -(으)ᄅ and its clauses, -(으)ᄅ 때 family), Lesson Twenty-four (24.1-24.9: -(으)ᄂ 후에/동안, -(으)ᄂ/는 바람에, adverbative -게, causatives in -게 해요/-시키-, -게 돼요, -는 게 좋겠어요, intention patterns, -(으)ᄂ/는 대로), and Lesson Twenty-six/-seven fully extracted, all with vocabulary. Lesson Twenty-five ("Review 4") is a pure pattern-review lesson recapping 22-24's grammar with new examples only — summarized, not re-extracted, per the coverage rule. **Register findings (this chunk's main value):** Lesson Twenty-six is a systematic treatment of the **Plain Style** (반말체 statement/question/command/suggestion endings — written-neutral, intimate-spoken, or superior-to-inferior register) and the **Intimate Style** (반말, formed by stripping polite 요 from Polite Style forms, with a documented list of irregular exceptions), plus the adjunctive -느라(고) and copula-transferentive compound-verb patterns; Lesson Twenty-seven builds the full direct/indirect quotation system on top of the Plain Style, including an expanded/simple/contracted reduction continuum (간다고 해요 → 간다 해요 → 간대요) that recurs identically across statements, questions, suggestions, and commands, and a suppletive-verb quotation rule (달라(고) 하- for quoting "give me"). Flags a source-quality issue distinct from vision-reading: this PDF has a genuine text layer, but the underlying OCR is badly corrupted for a large fraction of Hangul in vocabulary boxes (worst in Lesson 27's opening vocabulary set); affected entries are marked in-file with an explicit "OCR severely corrupted; Korean reconstructed from gloss" note rather than silently presented as directly read, and a few unreconstructable entries were omitted rather than guessed. |
+| `established/007_continuing_korean_part3.md` | *Continuing Korean*, PDF pp. 301-451 of 451 (final third, through the end of the book). Lesson Twenty-eight (Retrospective Aspect -더-/-습디다/-데요/-더라 family, errand reporting, -(으)ᄅ 정도로, -고 나서, 위해서) and Lesson Twenty-nine (-기도/-기는/-기만 하-, -는/(으)ᄂ 편이-, [TIME]-since -(으)ᄂ지, oblique questions in -지, polite questions in -(으)ᄂ/는가요·-나요; reading passage retells the Tale of Ch'unhyang) fully extracted, vocabulary + grammar. Lesson Thirty is the book's cumulative "REVIEW 5" chapter — no lesson-specific new vocabulary, but its §30.2-30.4 book-wide structural summary (verb base/ending classification incl. full irregular-verb sound-change rules, particle inventory, auxiliary-verb inventory) is captured as grammar points. Register findings: explicit note that Formal-style retrospective -습디다/-습디까 is now a 50s-60s-generation-only form (learners told not to use it productively); 반말/존댓말 terminology for the speech-level system itself; 여보 restricted to spouse-to-spouse address; a 주의-box on honorific -(으)시- being inappropriate in written Plain Style even for honorific-worthy referents. Back matter (pp. 381-451: "English Equivalents to the Korean Dialogues," "Answer Key") sampled only, not exhaustively transcribed — pure translation/answer-key material with no new content. Lessons 16-26 and the 151-300 page range are a sibling subagent's scope, not independently verified as complete by this file. |
+| `established/002_basic_korean_part2.md` | Andrew Sangpil Byon, *Basic Korean: A Grammar and Workbook* (Routledge, 2009), PDF pages 134-226 of 257 (Units 16-25, the back half of `001_basic_korean_part1.md`'s book). Per-unit vocabulary tables (474 rows: each unit's own "key vocabulary for exercises" list, deduplicated against reuse across units, plus Unit 19's seven irregular-verb paradigm tables in full, Unit 22's closed prenoun class, and Unit 23's four adverb-type word lists) + full grammar-point writeups for all 10 units: special particles 이나/부터/까지, past and double-past tense 았/었 and 았었/었었, short/long-form negation (안/못, -지 않다/-지 못하다, auxiliary 말다), the seven irregular-predicate classes (ㄷ/ㅂ/ㅅ/ㅎ/르/ㄹ/으-irregular, each with its regular contrast set), desire -고 싶다 and progressive -고 있다, probable-future -(으)ㄹ 거예요 and -(으)ㄹ까요?, prenouns, adverbs vs. derived adverbials (-게), intention -(으)ㄹ래요 vs. promise -(으)ㄹ게요, and the suffixes -겠 (inference/intention) and the subject-honorific -(으)시. **Boundary note:** the nominal split point (PDF p. 131) fell mid-drill inside Unit 15's exercises, so this file actually starts at the next clean unit boundary (PDF p. 134, Unit 16) — see the file's own header for the full reasoning. The book's "Key to Exercises" answer key and Index (PDF p. 227-257) are intentionally not extracted (pure answer/locator material). **Important PDF-decoding discrepancy with the sibling `001_basic_korean_part1.md` entry above:** that entry states this book's Korean font is "not embedded" and was vision-read from page images — but this chunk found and fully verified a **decodable text layer** for the same book: `pdftotext` extracts real (if cipher-scrambled) text, and every scrambled character in `[U+0080, U+FFFF]` decodes to its correct Hangul via a fixed offset, `real = (extracted + 0x8DAA) mod 0x10000` (verified against dozens of words cross-checked against the book's own English glosses on the same page — see this file's header for the full writeup). This is the same general phenomenon as the previously-documented Cyrillic and `Intermediate Korean` font-substitution ciphers (see the `003_intermediate_korean_part1.md` entry below), just a different concrete offset. Whether Units 1-15 use the *same* offset was not verified by this chunk (out of its assigned page range) — but if they do, `001_basic_korean_part1.md` may have been produced by slower/riskier vision-reading when a fast, verifiable text-decode was actually available. Worth a follow-up check before treating any future *Basic Korean* dispatch as vision-read-only by default. |
+| `established/003_intermediate_korean_part1.md` | Andrew Sangpil Byon, *Intermediate Korean: A Grammar and Workbook* (Routledge, 2010), PDF pages 1-145 of 289 (front matter + Units 1-15 of 24, the sequel to `001_basic_korean_part1.md`). Per-unit vocabulary tables (788 entries total, one table per unit from the book's own bounded "Key vocabulary for Unit N exercises" lists) + full grammar-point writeups for all 15 units: intimate/plain speech levels, sentence-final ~지요/~군요/~네요, comparison/exclusive particles (보다·처럼·같이·만큼·마다·마저·조차·밖에), the auxiliary-verb system (~어/아 보다/오다/가다/주다/드리다/내다/버리다/놓다/두다/있다, ~어/아하다, ~어/아지다, ~고 말다), the full clausal-conjunctive battery (purpose/intention, reason/cause, condition, listing/choice, time, background, although), permission/prohibition/obligation (~어/아도 되다, ~(으)면 안 되다, ~어/아야 되다), and passives/causatives (~이/히/리/기 suffixes, ~우/구/추 causative suffixes, ~게 하다). **Decode finding:** this PDF's embedded Korean font (`Batang-KSCms-UHC-H-Identity-H`) decodes through `pdftotext`/PyMuPDF's default text layer into the *wrong* CJK ideographs — a fixed, consistent substitution cipher (every corrupted codepoint offset by exactly +36266 from its correct Hangul value), not OCR garbling; decoded and verified against known grammar forms, then applied via a font-scoped PyMuPDF fix across all 145 pages. Also flags a distinct, narrow source-PDF defect: 3 vocabulary entries are missing their initial 비 glyph in the PDF's own content stream (비키다, 비자, 비 "rain") — corrected from context, flagged per row. Register findings: Unit 1's speech-level-to-social-context mapping; Unit 5's obligatory (not stylistic) ~어/아 드리다-vs-~어/아 주다 addressee-honorific substitution; Units 9 and 12's ~거든(요)/~는데(요) "graduating" from clausal conjunctive to a colloquial spoken-register indirection device. No dialectal/regional annotation anywhere in this range (Standard/Seoul Korean throughout). Unit 16 onward (PDF page 146+) is left for a part-2 dispatch. |
+| `established/004_intermediate_korean_part2.md` | Andrew Sangpil Byon, *Intermediate Korean: A Grammar and Workbook* (Routledge, 2010), PDF pages 146-289 of 289 (Units 16-24, through the end of the book — the part-2 continuation of `003_intermediate_korean_part1.md`). Verified boundary: printed p. 137 (Unit 16's start) = PDF p. 146, a clean unit boundary; offset `PDF_page = printed_page + 9` confirmed at four points across the range. Per-unit vocabulary tables (649 entries total, one table per unit from the book's own bounded "Key vocabulary for Unit N exercises" lists) + full grammar-point writeups for all 9 units: the noun-modifying endings ~는/~(으)ㄴ/~(으)ㄹ and their conjectural-past nuance; the appearance/conjecture family (~는 것 같다, ~는 모양이다, ~는 듯하다, ~나/(으)ㄴ가 보다, ~어/아 보이다); post modifiers I and II (길, 적/일 있다/없다, 동안, 도중, 중이다, 편이다, 대로, 후에, 척/체하다, 바람에, 것이다, 뻔했다, 때); ability/possibility (~(으)ㄹ 수 있다/없다, ~(으)ㄹ 줄 알다/모르다, ~(으)ㄹ 리가 없다); the indirect-question/speculative ending ~는/(으)ㄴ/(으)ㄹ지; the retrospective suffix ~더 family (~더라구요, ~던, ~더니, ~었/았더라면, ~더라도); the nominalizing endings ~기 (and its dozen derived expressions) and ~(으)ㅁ; and the full direct/indirect quotation system (plain-speech-level downgrade of quoted utterances, colloquial ~대요/~래요/~(으)래요/~재요 contractions). **Independently re-confirms the sibling `003` file's decode finding:** the same `Batang-KSCms-UHC-H-Identity-H` font-substitution cipher (fixed +36266 codepoint offset onto the wrong Hangul block) affects this half of the book too, verified against 15+ known word/gloss pairs at four widely separated pages before being applied across all 144 pages via PyMuPDF. Also flags a separate, narrow font artifact (a stray literal "G" character standing in for a lost space between a Hangul word and its English gloss in vocabulary lists) and a recurring PDF line-wrap defect that occasionally splits one Hangul word across two extracted lines (비싸다, 비행기, 정비소, 준비하다) — both corrected during parsing. "Key to Exercises" (pp. 228-278, inside this chunk's page range but covering all 24 units' answer keys) and the Index (pp. 279-280) were deliberately not extracted as redundant/pointer-only content, per the coverage rule — noted explicitly rather than silently skipped. Register findings: ~더라구요 explicitly flagged by the source as a spoken-register form; ~기는요 as a humility/mild-contention politeness marker; ~(으)ㅁ's use as a terse notice/memo-style sentence-final register; 것/거 colloquial variation across several constructions; and indirect quotation's structural downgrade of any quoted utterance to the plain speech level (introduced in Unit 1, connecting this chunk's Unit 24 back to the sibling `003` file's speech-level material) plus its colloquial ~대요/~래요/~(으)래요/~재요 contractions. No dialectal/regional annotation anywhere in this range (standard contemporary Korean throughout). |
+| `established/009_using_korean_part2.md` | Miho Choo and Hye-Young Kwak, *Using Korean: A Guide to Contemporary Usage* (Cambridge, 2008), PDF pages 171-337 of 337 (printed pages 159-325, through the end of the book). Covers the remainder of Chapter 13 (Sound symbolism), Chapter 14 (Numbers), and all of Part II: Grammar — Chapters 15-22 (Verb types, Tense and aspect, Modality, Negation, Particles, Comparison, Conjunctives, Complex sentences). English/Korean indices (pp. 330-337) are reference apparatus, not extracted. **New PDF gotcha found:** PDF pages 171-192 (Chapters 13-14) use a CID font (`Batang-Identity-H`) with no usable ToUnicode mapping — unlike the sibling files' decodable +36266 cipher, this corruption could not be algorithmically decoded, so those pages were rendered to 200dpi PNGs and read via Tesseract OCR (`kor` trained model) instead, cross-checked against the already-reliable English glosses. From PDF page ~195 (Chapter 15) onward, the text layer is clean and directly usable. Every explicit `[familiar/casual]`/`[formal/written]`-style register annotation the source marks is preserved verbatim, per the coverage rule. |
+| `established/008_using_korean_part1.md` | Miho Choo and Hye-Young Kwak, *Using Korean: A Guide to Contemporary Usage* (Cambridge University Press, 2008), PDF pages 1-170 of 337 (first half — the entire "Style and usage" part, chs. 1-8, plus most of the "Vocabulary" part, chs. 9-13.3, stopping mid-ch.13 at printed p. 158; chs. 13.4 and 14-22 reserved for a part-2 dispatch). This is the strongest register/contemporary-usage source in Wave 1 so far, exactly matching its own title framing: full grammar-point treatment of the 존댓말/반말 four-way speech-level system and subject/object honorification (chs. 1-2), address terms and the pronoun-avoidance system (ch. 3), a large catalogue of graded-formality daily-situation formulas (ch. 4), discourse fillers/transition expressions/interjections (ch. 5, several interjections explicitly marked [feminine] or taboo), a systematic cross-cutting softening-strategy grammar (ch. 6: question-for-command substitution, softening auxiliary verbs 주다/보다/되다/하다/그렇다, softening endings -데요/-지요/-구요/-나요, and lexical softeners 어떻게/좀/-고 해서/-는 편이다), six explicitly-tagged regional dialects with worked examples (ch. 7: Ch'ungch'ŏng, Chŏlla, Kyŏngsang, Cheju, Hamgyŏng, P'yŏng'an — Kyŏngsang and Hamgyŏng flagged as Korea's only tonal dialects), a systematic written-vs-spoken register grammar (ch. 8: particle retention, honorific suppression, quoting-verb morphology, contraction tolerability gradient, spelling/pronunciation gaps), the native-Korean/Sino-Korean/loanword three-tier register-stratification system (ch. 9, the single richest register-generating mechanism found), Korean's full productive word-formation inventory (ch. 10: compounding, reduplication, prefixation, an extensive suffixation catalogue, abbreviation, and the book's own explicit youth-slang showcase in §10.6 — 공주병, -딩, 짱/얼짱, 당근이지, 안습이다, 갑툭튀, etc.), English-vs-Korean verb-choice contrast sets for wearing/taking-off/playing/cleaning (ch. 11), a representative sample of proverbs/idioms/sound-symbolism (chs. 12-13.3, with the productive proverb-quoting grammatical frames -다는데/-다더니/-다잖아/-는 격이다/-는 법이다/-게 마련이다 captured as grammar, body-part idioms as the largest idiom subsection, and the vowel-symbolism bright/dark and consonant-symbolism plain/tense/aspirated phonaesthetic system for sound-symbolic vocabulary). **Decode finding (independent discovery, same cipher as siblings `003`/`004`):** this PDF's Hangul from p. 32 onward is also corrupted by the same fixed +36266-codepoint-offset font-substitution cipher (confirmed against 20+ known words via `pdftotext` dump + Python decode script, not PyMuPDF this time); a small excluded set of genuine smart-quote/punctuation code points was carved out to avoid false-positive decoding. One residual, narrower font artifact was found and left undecoded rather than guessed: the §13.1 plain/tense/aspirated-consonant illustration table uses a second, different substitution scheme (target lands in a CJK-ideograph "ghost/demon" radical range, not the Hangul syllable block) — omitted from the vocabulary table, with the surrounding prose (which decoded cleanly) kept. Six morpheme-breakdown examples of stacked stem+honorific+tense+ending agglutination are included per the project's typology-guide convention. Proverbs (~60 in-book) and idioms (~100+ in-book) and sound-symbolic forms (~50+ in-book) are represented by a curated sample rather than reproduced in full, per the copyright-discipline coverage rule; each subsection states this explicitly. |
+
+---
+
+## Field/column conventions
+
+**Usage-tier / slang-type categorization.** `established/` vocabulary tables carry a `Usage Tier`
+column (e.g. `core`, `technical`, `taboo`, `slang`, ...) — see `../00_Usage_Tier_Taxonomy.md` for
+the shared vocabulary, kept consistent across languages so findings are comparable. `analysis/` and
+`synthesized/` entries carry `Slang Type` and `Derived From Tiers` tags, capturing which
+standard-language tier(s) a given slang-formation mechanism actually draws from. **Every tier/type
+is extensible with dot-notation subcategories** (`technical.medical`) — use them freely as real
+data surfaces distinctions worth keeping, and promote a subcategory into the shared taxonomy doc
+once it recurs across 2+ languages.
+
+**Transcription risk carries through.** Any `analysis/` example drawn from a corpus entry that was
+itself sourced from a subtitle/transcript keeps that entry's `Source Type` and `Transcription
+Confidence` — see
+[`../../language_corpus/00_Source_Reliability_Guide.md`](../../language_corpus/00_Source_Reliability_Guide.md).
+Don't build a mechanism finding on a `low_confidence` example without saying so.
+
+**Vision-reading risk carries through the same way.** `established/` entries extracted from a
+scanned (no-text-layer) source carry a `Vision Reading Confidence` column (`n/a` if the source had a
+real text layer; otherwise `verified`/`plausible_unverified`/`low_confidence`) — see
+`../00_Reference_Extraction_Spec.md`. **Any vision-read source must also be checked for handwritten
+marginalia** before extraction — never treat handwritten content as source material. 6 of Korean's
+17 real files have no text layer and will need this discipline (see `00_Book_Triage_Catalog.md`).
+
+**Historical & geographic context — optional, fill in only when the source supports it.** Entries
+carry `Attested Era`/`Attested Region`/`Geographic Scope` columns — see
+[`../00_Historical_and_Geographic_Context_Guide.md`](../00_Historical_and_Geographic_Context_Guide.md).
+`—` is a legitimate value, not a gap to guess-fill; false precision here is worse than an honest
+unknown.
+
+**Morphological composition.** For agglutinative/polysynthetic (or complex fusional) word-forms,
+`established/` entries include a morpheme breakdown rather than treating the surface form as
+atomic — see `../00_Word_Concept_and_Morphological_Typology_Guide.md`.
+
+## Graphify
+
+This language gets its own graph, scoped to `datasets/Korean/` (separate from
+`language_corpus/Korean/`'s own graph, should that come to exist). Run `/graphify` once there's
+enough written here to be worth graphing — no need to do this before any content exists.
+
+**Before running: `cd` into `datasets/Korean/` first, don't run graphify's own Python calls from
+the repo root with only a `root=` argument.** Confirmed real, repeat-risk bug (Hungarian test run,
+twice): `save_manifest()` and other graphify internals resolve output paths relative to the
+*working directory*, not `root=` — running from the repo root can silently corrupt the repo-root
+`graphify-out/manifest.json`. **After running, always check `git status`/`git diff` on the
+repo-root `graphify-out/` before committing.** **Extraction subagents must never run graphify
+themselves** — a second confirmed incident of this exact bug came from an extraction subagent
+independently running `graphify update` on its own initiative; graph rebuilds happen separately,
+after a wave lands, dispatched by the orchestrating session only. See
+`../00_Reference_Extraction_Spec.md` for the full writeup.
+
+## Mechanisms examined
+
+- [ ] *(not started — Phase 1 reference extraction has not begun)*
+
+## Reference extraction progress (Phase 1)
+
+See `00_Book_Triage_Catalog.md` for the full triage and the 3-wave priority order.
+
+- [x] Wave 1 complete — all 5 books fully extracted: `04.Basic Korean` (`established/001-002`),
+      `05.Intermediate Korean` (`established/003-004`), `07.Continuing Korean`
+      (`established/005-007`), `11.Using Korean a guide to contemporary use`
+      (`established/008-009`), `12.The Korean language structure use and context`
+      (`established/010`). 10 files, ~171,000 words total.
+- [ ] Wave 2 (`10.Intermediate college Korean`, `The Sounds of Korean - A Pronunciation Guide`,
+      `Teach Yourself Korean` + 2-page patch scan, `Korean Through English 1`, `Active Korean 1`,
+      `In Flight Korean`) — not started
+- [ ] Wave 3 — vision-reading (`Korean grammar for international learners`, both `Colloquial
+      Korean` editions, `Living Language Korean Course`, `Elementary Korean` djvu, `A
+      Korean-English dictionary` sampled) — not started
+
+**Wave 1 PDF-extraction gotcha, worth flagging for Wave 2/3 dispatches:** four of the five Wave 1
+books (`Basic Korean` pt.2, both `Intermediate Korean` halves, `Using Korean` pt.1) share the exact
+same fixed font-substitution cipher (`real_codepoint = (extracted_codepoint + 36266) mod 65536`,
+i.e. `+0x8DAA`), independently discovered and cross-confirmed 4 times across at least 2 publishers
+(Routledge, Cambridge). `Basic Korean` pt.1 and `Using Korean` pt.2's Chapters 13-14 instead hit
+undecodable CID-font corruption and needed real vision-reading/Tesseract OCR. **Before defaulting
+to vision-reading on any future Korean PDF, try the `+36266` decode first** — it may turn a
+vision-reading job into a much faster verified-text-decode job. See individual file entries above
+for the full technical writeups.
+
+## Suggested next-session order
+
+1. ~~Dispatch Wave 1 (5 clean-text, highest-value sources).~~ **Done.**
+2. Dispatch Wave 2 (6 remaining clean-text sources) — try the `+36266` cipher decode before
+   assuming vision-reading is required on any of them.
+3. Dispatch Wave 3 (vision-reading, 6 sources including the large sampled dictionary).
+4. Rebuild `datasets/Korean/graphify-out/` once all waves land, `cd`'d into `datasets/Korean/`
+   first, with the cross-chunk-edge-fabrication-avoidance discipline and the
+   subagents-never-run-graphify rule both enforced in every dispatch prompt.
+5. Update `ROADMAP.md`, `datasets/00_Analysis_Index.md`, and `LANGUAGE_INDEX.md` once Phase 1
+   completes for this language.
