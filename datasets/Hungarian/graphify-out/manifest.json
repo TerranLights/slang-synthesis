@@ -1,32 +1,332 @@
 {
   "00_Book_Triage_Catalog.md": {
-    "mtime": 1788125578.891989,
-    "seen": 1788126556.4647222,
-    "ast_hash": "5319d88ca74017ea767717737c28ee52",
-    "semantic_hash": "5319d88ca74017ea767717737c28ee52"
+    "mtime": 1788976980.3283997,
+    "seen": 1789008859.9923258,
+    "ast_hash": "e35f0ca0a2994ea5639492cf36f719b9",
+    "semantic_hash": "e35f0ca0a2994ea5639492cf36f719b9"
   },
   "00_Extraction_Checklist.md": {
-    "mtime": 1788126051.2552068,
-    "seen": 1788126556.464725,
-    "ast_hash": "33d805baa592d55577aeedd6f1d8ac9e",
-    "semantic_hash": "33d805baa592d55577aeedd6f1d8ac9e"
+    "mtime": 1789008370.2538056,
+    "seen": 1789008859.9923286,
+    "ast_hash": "9f64c4323412174846cc6747c5077a48",
+    "semantic_hash": "9f64c4323412174846cc6747c5077a48"
   },
   "established/001_chapters1-3_phonology_vowel_harmony.md": {
-    "mtime": 1788125915.392822,
-    "seen": 1788126556.4647262,
-    "ast_hash": "ac300ed0569019226a16e7b9a742e90a",
-    "semantic_hash": "ac300ed0569019226a16e7b9a742e90a"
+    "mtime": 1788127897.3513503,
+    "seen": 1789008859.9923306,
+    "ast_hash": "6cea4da67da79f56adf1c334b9af7ef2",
+    "semantic_hash": "6cea4da67da79f56adf1c334b9af7ef2"
   },
   "established/002_chapter5_nouns.md": {
-    "mtime": 1788125929.1969786,
-    "seen": 1788126556.464727,
-    "ast_hash": "f385c1de6fbb562a68472162cc2cc118",
-    "semantic_hash": "f385c1de6fbb562a68472162cc2cc118"
+    "mtime": 1788127897.3496404,
+    "seen": 1789008859.9923315,
+    "ast_hash": "08f4d89542a7864823aa04a9c403f52e",
+    "semantic_hash": "08f4d89542a7864823aa04a9c403f52e"
   },
   "established/003_chapter6_case_system.md": {
-    "mtime": 1788126012.0474112,
-    "seen": 1788126556.4647276,
-    "ast_hash": "f68ffd60f2bf9e8eaf95a456df2945c2",
-    "semantic_hash": "f68ffd60f2bf9e8eaf95a456df2945c2"
+    "mtime": 1788127897.3507152,
+    "seen": 1789008859.992332,
+    "ast_hash": "e93e0084fe2f0b42dc9ee6305300e765",
+    "semantic_hash": "e93e0084fe2f0b42dc9ee6305300e765"
+  },
+  "established/004_chapter4_verbs_part1.md": {
+    "mtime": 1788974631.8293579,
+    "seen": 1789008859.9923327,
+    "ast_hash": "1c564812e714a26016dda1d78c92b66f",
+    "semantic_hash": "1c564812e714a26016dda1d78c92b66f"
+  },
+  "established/005_chapter4_verbs_part2.md": {
+    "mtime": 1788974768.6186497,
+    "seen": 1789008859.9923337,
+    "ast_hash": "a2a57ca4567d77a6f965cec6dbd93ef8",
+    "semantic_hash": "a2a57ca4567d77a6f965cec6dbd93ef8"
+  },
+  "established/006_750_hungarian_proverbs.md": {
+    "mtime": 1788974590.7839773,
+    "seen": 1789008859.9923341,
+    "ast_hash": "dd3edf4e589e50dc9d1a3d35011d71b2",
+    "semantic_hash": "dd3edf4e589e50dc9d1a3d35011d71b2"
+  },
+  "established/007_on_hungarian_morphology_part1.md": {
+    "mtime": 1788974408.0483332,
+    "seen": 1789008859.9923348,
+    "ast_hash": "522191d9512e973a7fade23a1160182c",
+    "semantic_hash": "522191d9512e973a7fade23a1160182c"
+  },
+  "established/008_on_hungarian_morphology_part2.md": {
+    "mtime": 1788974446.7586737,
+    "seen": 1789008859.9923353,
+    "ast_hash": "86f58248a70c569075b7d74d6480be1c",
+    "semantic_hash": "86f58248a70c569075b7d74d6480be1c"
+  },
+  "established/009_szolasok_kozmondasok_part1.md": {
+    "mtime": 1788974439.55561,
+    "seen": 1789008859.9923358,
+    "ast_hash": "96cc27487851b65e267e1be17a9e6c9c",
+    "semantic_hash": "96cc27487851b65e267e1be17a9e6c9c"
+  },
+  "established/010_szolasok_kozmondasok_part2.md": {
+    "mtime": 1788974481.8519864,
+    "seen": 1789008859.9923368,
+    "ast_hash": "332753a87c1a3b9f6f039722185cfb82",
+    "semantic_hash": "332753a87c1a3b9f6f039722185cfb82"
+  },
+  "established/011_szolasok_kozmondasok_part3.md": {
+    "mtime": 1788974462.5018134,
+    "seen": 1789008859.9923375,
+    "ast_hash": "57cf40ce47cfb3ab31add4bba7805bc4",
+    "semantic_hash": "57cf40ce47cfb3ab31add4bba7805bc4"
+  },
+  "established/012_szolasok_kozmondasok_part4.md": {
+    "mtime": 1788974456.700762,
+    "seen": 1789008859.992338,
+    "ast_hash": "4f932da9965b65fe163ee57f45e23f60",
+    "semantic_hash": "4f932da9965b65fe163ee57f45e23f60"
+  },
+  "established/013_fsi_vol1_units01-04.md": {
+    "mtime": 1788974604.9011078,
+    "seen": 1789008859.9923384,
+    "ast_hash": "b400ceb4a04db4abeab640fffe0bed42",
+    "semantic_hash": "b400ceb4a04db4abeab640fffe0bed42"
+  },
+  "established/014_fsi_vol1_units05-08.md": {
+    "mtime": 1788974694.5509462,
+    "seen": 1789008859.9923391,
+    "ast_hash": "d3ea73613f52b20264e2ecf610d8985d",
+    "semantic_hash": "d3ea73613f52b20264e2ecf610d8985d"
+  },
+  "established/015_fsi_vol1_units09-12.md": {
+    "mtime": 1788974626.2373059,
+    "seen": 1789008859.9923396,
+    "ast_hash": "782fd35c4102af1fd836894cc7b17109",
+    "semantic_hash": "782fd35c4102af1fd836894cc7b17109"
+  },
+  "established/016_fsi_vol2_units13-16.md": {
+    "mtime": 1788974924.238155,
+    "seen": 1789008859.9923403,
+    "ast_hash": "714ad6d6e8a739f0d8d38ab8210e64dc",
+    "semantic_hash": "714ad6d6e8a739f0d8d38ab8210e64dc"
+  },
+  "established/017_fsi_vol2_units17-20.md": {
+    "mtime": 1788974736.5043435,
+    "seen": 1789008859.9923408,
+    "ast_hash": "460a0cb76339e6d905312012102e9a7d",
+    "semantic_hash": "460a0cb76339e6d905312012102e9a7d"
+  },
+  "established/018_fsi_vol2_units21-24.md": {
+    "mtime": 1788974746.5924397,
+    "seen": 1789008859.9923413,
+    "ast_hash": "650a268431b9b31c882d1be7205c9d99",
+    "semantic_hash": "650a268431b9b31c882d1be7205c9d99"
+  },
+  "established/019_phonology_of_hungarian_part1.md": {
+    "mtime": 1788975352.7004237,
+    "seen": 1789008859.9923418,
+    "ast_hash": "2d0a25a1a1f1c6d322046935b0b2b637",
+    "semantic_hash": "2d0a25a1a1f1c6d322046935b0b2b637"
+  },
+  "established/020_phonology_of_hungarian_part2.md": {
+    "mtime": 1788975440.6553144,
+    "seen": 1789008859.9923425,
+    "ast_hash": "f5fea21f13852578a20e164e893d5b37",
+    "semantic_hash": "f5fea21f13852578a20e164e893d5b37"
+  },
+  "established/021_magyarora_sample_early.md": {
+    "mtime": 1788975385.565756,
+    "seen": 1789008859.9923432,
+    "ast_hash": "73d0bd482fd28923e198bf6030ebf176",
+    "semantic_hash": "73d0bd482fd28923e198bf6030ebf176"
+  },
+  "established/022_magyarora_sample_mid.md": {
+    "mtime": 1788975510.7160265,
+    "seen": 1789008859.992344,
+    "ast_hash": "7e594287b506e57f6fff74c70df05c7c",
+    "semantic_hash": "7e594287b506e57f6fff74c70df05c7c"
+  },
+  "established/023_magyarora_sample_late.md": {
+    "mtime": 1788975425.3331592,
+    "seen": 1789008859.9923444,
+    "ast_hash": "703e4c1d620bd39a4b5305973d44c58d",
+    "semantic_hash": "703e4c1d620bd39a4b5305973d44c58d"
+  },
+  "established/024_hungarian_english_phrase_book.md": {
+    "mtime": 1788975487.0487857,
+    "seen": 1789008859.992345,
+    "ast_hash": "4e881fc543b045253cf0736fc8ffa6cc",
+    "semantic_hash": "4e881fc543b045253cf0736fc8ffa6cc"
+  },
+  "established/025_complete_practical_grammar_part1.md": {
+    "mtime": 1788975680.5457594,
+    "seen": 1789008859.9923456,
+    "ast_hash": "4b7a4a50a2b734e8908b764da21f3fa2",
+    "semantic_hash": "4b7a4a50a2b734e8908b764da21f3fa2"
+  },
+  "established/026_complete_practical_grammar_part2.md": {
+    "mtime": 1788975539.8023226,
+    "seen": 1789008859.992346,
+    "ast_hash": "e9ebaf1af100555dd44fe4f090ba770b",
+    "semantic_hash": "e9ebaf1af100555dd44fe4f090ba770b"
+  },
+  "established/027_hungarian_language_contact_part1.md": {
+    "mtime": 1788975467.6385884,
+    "seen": 1789008859.9923468,
+    "ast_hash": "8f2b2139c72ee8722abc08aa61d46fbb",
+    "semantic_hash": "8f2b2139c72ee8722abc08aa61d46fbb"
+  },
+  "established/028_hungarian_language_contact_part2.md": {
+    "mtime": 1788975421.7911232,
+    "seen": 1789008859.9923475,
+    "ast_hash": "9a696d1b94876ace1f04668526aadd0f",
+    "semantic_hash": "9a696d1b94876ace1f04668526aadd0f"
+  },
+  "established/029_hungarian_language_contact_ch8_austria.md": {
+    "mtime": 1788975547.2663987,
+    "seen": 1789008859.992348,
+    "ast_hash": "51d6af45415c4f0c93c73b593eabe7ad",
+    "semantic_hash": "51d6af45415c4f0c93c73b593eabe7ad"
+  },
+  "established/030_hungarian_language_contact_ch9_usa_part1.md": {
+    "mtime": 1788975684.417799,
+    "seen": 1789008859.9923484,
+    "ast_hash": "c86283a8992ebf2a2d51e138e1fae978",
+    "semantic_hash": "c86283a8992ebf2a2d51e138e1fae978"
+  },
+  "established/031_hungarian_language_contact_ch9_usa_part2.md": {
+    "mtime": 1788975809.551081,
+    "seen": 1789008859.992349,
+    "ast_hash": "3902312452f10f4fb6d209ffa0d3debf",
+    "semantic_hash": "3902312452f10f4fb6d209ffa0d3debf"
+  },
+  "established/032_hungarian_language_contact_ch10_australia.md": {
+    "mtime": 1788975944.1254632,
+    "seen": 1789008859.9923496,
+    "ast_hash": "2828ea9911252992cf5a8f1311b74e7c",
+    "semantic_hash": "2828ea9911252992cf5a8f1311b74e7c"
+  },
+  "established/033_hungarian_language_contact_ch11_grammars.md": {
+    "mtime": 1788976053.505632,
+    "seen": 1789008859.99235,
+    "ast_hash": "29795c45b6e8397dab355624da2fcd17",
+    "semantic_hash": "29795c45b6e8397dab355624da2fcd17"
+  },
+  "established/034_tyh_units01-05.md": {
+    "mtime": 1788976856.7691073,
+    "seen": 1789008859.9923508,
+    "ast_hash": "24c145f4c34263c1bc2287577904ba12",
+    "semantic_hash": "24c145f4c34263c1bc2287577904ba12"
+  },
+  "established/035_tyh_units06-11.md": {
+    "mtime": 1788990972.1237395,
+    "seen": 1789008859.9923513,
+    "ast_hash": "12b947a704cf44e5e763d38ef4e33adf",
+    "semantic_hash": "12b947a704cf44e5e763d38ef4e33adf"
+  },
+  "established/036_tyh_units12-17.md": {
+    "mtime": 1788989581.3014793,
+    "seen": 1789008859.992352,
+    "ast_hash": "10287000a5566c5ada50041424e56eea",
+    "semantic_hash": "10287000a5566c5ada50041424e56eea"
+  },
+  "established/037_tyh_units17-21head.md": {
+    "mtime": 1788989407.8034425,
+    "seen": 1789008859.9923525,
+    "ast_hash": "6d68f957125f1752fa00f86b27daadea",
+    "semantic_hash": "6d68f957125f1752fa00f86b27daadea"
+  },
+  "established/038_tyh_unit21_appendix_backmatter.md": {
+    "mtime": 1788976954.2241268,
+    "seen": 1789008859.992353,
+    "ast_hash": "24a4c25f8b85c22ee2233d84e82aa4af",
+    "semantic_hash": "24a4c25f8b85c22ee2233d84e82aa4af"
+  },
+  "established/039_colloquial_hu_intro_units01-02.md": {
+    "mtime": 1788991634.5541885,
+    "seen": 1789008859.9923534,
+    "ast_hash": "f781b5c4e3a6178180d11ae058df2104",
+    "semantic_hash": "f781b5c4e3a6178180d11ae058df2104"
+  },
+  "established/040_colloquial_hu_units03tail-06.md": {
+    "mtime": 1789007470.250507,
+    "seen": 1789008859.9923544,
+    "ast_hash": "f6b077a29b49719a981d630e1b657036",
+    "semantic_hash": "f6b077a29b49719a981d630e1b657036"
+  },
+  "established/041_colloquial_hu_units07-10.md": {
+    "mtime": 1789007501.2547364,
+    "seen": 1789008859.9923549,
+    "ast_hash": "79867f62d80b3ceeea3c98c4867d7c50",
+    "semantic_hash": "79867f62d80b3ceeea3c98c4867d7c50"
+  },
+  "established/042_colloquial_hu_units_d.md": {
+    "mtime": 1788991768.4335537,
+    "seen": 1789008859.9923563,
+    "ast_hash": "ecfa2da9b828f64869a408b47f4f9489",
+    "semantic_hash": "ecfa2da9b828f64869a408b47f4f9489"
+  },
+  "established/043_colloquial_hu_units_e.md": {
+    "mtime": 1788991639.2632363,
+    "seen": 1789008859.992357,
+    "ast_hash": "3358a892834ab1ecd568f97bc5376e21",
+    "semantic_hash": "3358a892834ab1ecd568f97bc5376e21"
+  },
+  "established/044_colloquial_hu_units_f_backmatter.md": {
+    "mtime": 1788991510.623937,
+    "seen": 1789008859.9923577,
+    "ast_hash": "0c505a3b0f43ba08a457d4c3446ef882",
+    "semantic_hash": "0c505a3b0f43ba08a457d4c3446ef882"
+  },
+  "established/045_hiwap_sample_early.md": {
+    "mtime": 1788991743.3692973,
+    "seen": 1789008859.9923582,
+    "ast_hash": "8a0b76e95f62bfe0add0716caf97d82d",
+    "semantic_hash": "8a0b76e95f62bfe0add0716caf97d82d"
+  },
+  "established/046_hiwap_sample_mid.md": {
+    "mtime": 1788991596.9948077,
+    "seen": 1789008859.9923587,
+    "ast_hash": "c1b4d12ef6347bc6760d45e220385edc",
+    "semantic_hash": "c1b4d12ef6347bc6760d45e220385edc"
+  },
+  "established/047_hiwap_sample_late.md": {
+    "mtime": 1788991578.8606243,
+    "seen": 1789008859.9923592,
+    "ast_hash": "8d0b9a05ae87cc0cf5bbfa5bfe1fc7e2",
+    "semantic_hash": "8d0b9a05ae87cc0cf5bbfa5bfe1fc7e2"
+  },
+  "established/048_hungarian_with_ease_part1.md": {
+    "mtime": 1789007388.567917,
+    "seen": 1789008859.9923596,
+    "ast_hash": "6b1ce218fe17b96da846037549b68822",
+    "semantic_hash": "6b1ce218fe17b96da846037549b68822"
+  },
+  "established/049_hungarian_with_ease_part2.md": {
+    "mtime": 1789008206.4954145,
+    "seen": 1789008859.99236,
+    "ast_hash": "5a307d4754b857a917d3def00418d604",
+    "semantic_hash": "5a307d4754b857a917d3def00418d604"
+  },
+  "established/050_hungarian_with_ease_part3.md": {
+    "mtime": 1789007409.4940662,
+    "seen": 1789008859.9923606,
+    "ast_hash": "bdc09149346c9db18fe0b00366d025ad",
+    "semantic_hash": "bdc09149346c9db18fe0b00366d025ad"
+  },
+  "established/051_hungarian_verbs_part1.md": {
+    "mtime": 1788991836.2342496,
+    "seen": 1789008859.9923615,
+    "ast_hash": "28ecefd05dc7fea47d41808e47756ff9",
+    "semantic_hash": "28ecefd05dc7fea47d41808e47756ff9"
+  },
+  "established/052_hungarian_verbs_part2.md": {
+    "mtime": 1789007475.2225437,
+    "seen": 1789008859.992362,
+    "ast_hash": "3b1d9e9a46ebed9ae7ff8cfa3de9f451",
+    "semantic_hash": "3b1d9e9a46ebed9ae7ff8cfa3de9f451"
+  },
+  "established/053_practical_hungarian_grammar.md": {
+    "mtime": 1788991692.2807755,
+    "seen": 1789008859.9923625,
+    "ast_hash": "1caec98f2f6994dccfee131a4ab3940d",
+    "semantic_hash": "1caec98f2f6994dccfee131a4ab3940d"
   }
 }
