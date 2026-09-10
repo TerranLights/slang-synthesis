@@ -1,0 +1,32 @@
+{
+  "00_Extraction_Checklist.md": {
+    "mtime": 1788989412.6144993,
+    "seen": 1789009407.0816095,
+    "ast_hash": "c6a333b1fa01778ed534fc52834d16b3",
+    "semantic_hash": "c6a333b1fa01778ed534fc52834d16b3"
+  },
+  "01_szlengszotar_dictionary_pp90-179.md": {
+    "mtime": 1788976755.345045,
+    "seen": 1789009407.0816126,
+    "ast_hash": "c10162642a0f224134f93e146daa51b0",
+    "semantic_hash": "c10162642a0f224134f93e146daa51b0"
+  },
+  "02_szlengszotar_kovecses_A-E_sample.md": {
+    "mtime": 1788976946.6410475,
+    "seen": 1789009407.0816138,
+    "ast_hash": "763c6b0b6111f307bbc6c565f0fc14da",
+    "semantic_hash": "763c6b0b6111f307bbc6c565f0fc14da"
+  },
+  "03_szlengszotar_dictionary_pp270-336.md": {
+    "mtime": 1788977429.4320877,
+    "seen": 1789009407.0816145,
+    "ast_hash": "11a39a5c1ae4b7811e5844c8b949ca48",
+    "semantic_hash": "11a39a5c1ae4b7811e5844c8b949ca48"
+  },
+  "04_szlengszotar_dictionary_pp180-269.md": {
+    "mtime": 1788989382.355141,
+    "seen": 1789009407.0816154,
+    "ast_hash": "d07ccbaf246bb5c3d013f897de37f3d5",
+    "semantic_hash": "d07ccbaf246bb5c3d013f897de37f3d5"
+  }
+}
