@@ -125,6 +125,23 @@ test, worth checking for on any future language's sources rather than rediscover
   parallel-script column if the source provides one (e.g. a book presenting both Cyrillic and Latin
   transliteration side by side). Worth checking for on any future source whose Cyrillic renders as
   unrelated glyph soup despite `pdftotext` reporting a real text layer.
+- **The same fixed-substitution-cipher pattern recurs on CJK/Hangul PDFs, and is sometimes a clean
+  numeric offset rather than an arbitrary 1:1 map.** Confirmed 4 times independently across Korean's
+  Wave 1 extraction pass (2 different publishers, 3 different books): `pdftotext`/PyMuPDF decode
+  Hangul into wrong-but-internally-consistent CJK codepoints, and every case decoded to the correct
+  character via the *same* fixed additive offset (`real_codepoint = (extracted_codepoint + 36266)
+  mod 65536`) — verify any such cipher against 15-20+ known word/gloss pairs across widely-separated
+  pages before trusting it, the same discipline used for the Cyrillic case above. **Try this kind of
+  offset-decode before defaulting to vision-reading** on a source with a real text layer that renders
+  as wrong-script glyph soup — it can turn a slow vision-reading job into a fast, verifiable
+  text-decode job.
+- **Not every case of this is decodable — some CID-embedded fonts have no usable ToUnicode mapping
+  at all**, and no consistent offset exists to recover from (confirmed on 2 of 5 Korean Wave 1
+  books, at least one of them only in certain page ranges of an otherwise-decodable book — check
+  per page-range, not just once per file). When a font substitution can't be decoded after a
+  reasonable attempt, fall back to real vision-reading (render pages to images) or OCR
+  (Tesseract with the correct language model, e.g. `kor` for Korean) rather than forcing a
+  non-existent decode.
 - **A vision-only source can be scanned as two-printed-pages-per-image spreads, not one page per
   image.** Found on Serbian/Croatian/Bosnian's *Colloquial Serbian* (194 physical PDF pages for a
   book with printed page numbers running to ~375) — a naive `printed_page ≈ PDF_page + fixed_offset`
