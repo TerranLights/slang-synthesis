@@ -778,6 +778,492 @@ themselves genuinely literary/heightened register — worth flagging alongside 1
 negative-form-positive-meaning patterns as another place where Korean negation morphology does
 pragmatic work well beyond simple truth-negation.
 
+### 19.1 Omission of particles (p. 240)
+
+Particles may be dropped when their information is inferable from context, most freely on -이/가,
+-을/를, and -의. **This is explicitly a colloquial-speech phenomenon** — the source states particles
+"should be retained in any kind of writing" since they carry the work pauses/intonation do in
+speech, and demonstrates with a side-by-side sentence (마이클과 동규는... 대사관에 갔다, written,
+full particles vs. 마이클하고 동규, ... 대사관 갔다, spoken, particles dropped) — a clean, explicit
+register contrast baked directly into a "basic" grammar point. Even in speech, particle omission
+degrades for long/multi-clause sentences, where the particles are needed for "rhythmic balance."
+
+### 19.2 -이/가 (p. 241-244)
+
+Primarily the subject marker, split into two uses: (a) a **neutral, unfocused** subject (commonly
+omissible, especially when the referent is a person inferable from context) vs. (b) a
+**focused/exclusive** subject ("this and only this," carrying high pitch, never omissible: 제가
+죄송하죠 "*I'm* the one who's sorry"). -이/가 also marks several non-subject roles: the noun before
+되다/아니다 (X가 Y가 되다/아니다); the direct object of 있다/없다/필요하다; the direct object of
+certain psychological descriptive verbs (무서워요, 부러워요, 좋더라 taking -이/가 rather than
+-을/를 — switching to an action-verb form like 무서워하다 switches the particle back to -을/를,
+directly echoing 15.1.2's descriptive/action-verb contrast); focused possessors (동생이 집이 더
+크다 "the YOUNGER BROTHER's house is bigger"); and emphatic negation (신경쓰고 싶지가 않아 "I
+really don't want to worry about it"). A distinct **name particle -이** attaches to a Korean given
+name ending in a consonant when addressing a child, close friend, or younger sibling (미선이,
+석훈이) — explicitly noted as never used with foreign names.
+
+### 19.3 -은/는 (p. 243-247)
+
+Flagged by the source as **notoriously difficult for English speakers**. Two basic functions:
+marking a **topic** (what the sentence is about) or marking **contrast**. Off the front of the
+sentence, -은/는 is *always* contrastive; at the front, it's ambiguous between topic and contrast
+depending on context and pitch (worked example: 공부는 성아가 잘한다 can mean either "as for
+studying [topic], Sung-ah is good at it" or "STUDYING [contrastive, not other things] is what
+Sung-ah is good at" — and if the noun is *not* sentence-initial, only the contrastive reading
+survives). Topic-uses include stage-setting, presenting old/given information, making generic
+statements, and topic-shifting. The book's summary table crisply cross-tabulates focus against both
+-이/가 and -은/는: unfocused -이/가 = neutral subject, focused -이/가 = exclusive; unfocused -은/는
+= topic, focused -은/는 = contrast. Contrastive -은/는 can attach (often contracted) to almost any
+sentence position, not just the subject (좋긴 좋다 "it IS good [but...]," 도와는 줄게 "I WILL help
+[but...]").
+
+### 19.4 -을/를 (p. 245-249)
+
+Primarily the direct object marker, notably including several Korean transitive-verb objects that
+correspond to a prepositional phrase in English (대학을 졸업하다 "graduate FROM college," 친구를
+기다리다 "wait FOR a friend"). Non-direct-object uses: destination (in place of -에); purpose of
+movement; a property-describing noun (차를 외제를 사다 "bought a car, a FOREIGN one" — in place of
+-로); indirect object for added exclusiveness (in place of -에게/한테); duration; quantity; and
+**emphatic negation**, where -를 contracts to **-질** (다리가 움직이질 않아 "my legs won't move at
+all") — the source flags this contraction as reserved for casual speech, "typically very
+colloquial," even though contraction is normally a writing-avoided phenomenon (cross-referenced to
+Ch. 8). A closed set of **formal/written fixed expressions** built on -을/를 is given (오늘 자정을
+기해서... "as of tonight at midnight...").
+
+### 19.5 -도 (p. 247-249)
+
+Expresses "also/even/indeed," incompatible with -이/가 or -을/를 but stackable with most other
+particles. Senses: "also" (그 영화도 봤다); "even" (밥은 커녕 물도 못 먹었어요 "I didn't even have
+water" — combining with the 은/는커녕 pattern from 19.17); "indeed" (사람도 많더라 "there really
+were a lot of people"); and "not only X but also Y / neither X nor Y" (놀기도 잘 놀고 공부도
+열심히 해요). Several idiomatic -도 collocations shade into fixed-expression territory (벼룩이도
+낯이 있지 "even a flea has shame," i.e. "have you no shame").
+
+### 19.6 -의 (p. 249-250)
+
+The genitive/possessive linking particle (남편의 직장동료 "husband's colleague"), also usable for
+non-possessive association (연상의 여인 "an older woman [as romantic partner]"). **-의 is regularly
+dropped inside compound nouns**, even in formal writing (한국문화, not *한국의문화). It must be
+retained in a set of fixed formal expressions (천고마비의 계절 "the season of high sky and fat
+horses [autumn]," 표현의 자유 "freedom of speech"), after another particle (자식으로서의 도리
+"one's duty as a child"), and before -와/과 coordination (너와 나의 차이점 "the difference between
+you and me").
+
+### 19.7 -에 (p. 250-253)
+
+One of the most frequent particles, centered on location in space/time. Spatial uses: static
+location (학교 근처에 살아요); destination (학교에 갔다— note 뛰다/걷다 "run/walk" instead require
+-까지, not -에, for a destination); inanimate recipient (화초에 물을 주다 "water the plant" — for
+an *animate* recipient, -에게/한테 is required instead, cross-referenced to 19.9); abstract point
+(성공은 노력에 달려있다 "success depends on effort"); and addition/enumeration. A colloquial
+variant **-에다(가)** intensifies/emphasizes the recipient (차에다 갖다 놓자). Temporal/causal/
+distributive uses: time/age (칠십에 돌아가셨어요 "died at 70"); cause/means (더위에 지쳤어 "worn
+out BY the heat," 술에 취했다 "drunk FROM alcohol"); and per/for ratios (하루에 일 분씩 "one
+minute PER day," 세 마리에 만원 "10,000 for three [fish]"). A set of fixed
+preposition-like collocations follows: 에 대해서, 에 관해, 에 관한 한, 에 따라, 에 따르면, 에
+비하면, 에 의하면, 에 불과하다, 에 지나지 않다, 에 있어서 — several explicitly marked
+[written/formal].
+
+### 19.8 -에서 (p. 253-254)
+
+Marks a starting point (concrete or abstract) or the **location where an activity takes place**
+(as opposed to -에's location of mere existence/arrival). The key contrast: -에 = static
+existence/endpoint of motion (자리에 앉으세요 "be seated"), -에서 = the site *inside which an
+activity happens* (자리에서 떠들지 마세요 "don't make noise while seated [i.e. don't DO the noise
+here]"). For a handful of verbs (살다 "live," 묵다 "stay," 모이다 "gather"), -에 and -에서 are
+interchangeable with negligible difference.
+
+### 19.9 -에게(서)/한테(서) (p. 254-256)
+
+Marks "to/from someone," contrasting with -에's "to/at a place." **-에게(서) is written/formal;
+-한테(서) is colloquial** — an explicit, clean register pair, paralleling -와/과 (formal) vs.
+-하고 (colloquial) in 19.11. The honorific animate-recipient form is **-께** (used, notably, only
+alongside -에게 in letter-opening address lines: 김교수님께 "Dear Professor Kim"). A distinct
+"telling"-verb-only particle **-더러/보고** marks an intended message recipient in colloquial
+quoted speech (엄마더러 직접 오시라고 해 "tell Mom to come herself"). Adding -서 to -에게/한테
+flips "to someone" into "from someone," with the direction usually resolved by context rather than
+the (optional) -서 itself.
+
+### 19.10 -(으)로 (p. 256-260)
+
+A highly polyfunctional particle. Core senses: direction (오른쪽으로 가세요 — note -로 is required
+over -에 whenever the destination isn't a precise point: 아파트로 이사갔다 is fine, *아파트에
+이사갔다 is not); change/transformation (영어로 번역하다 "translate INTO English"); choice among
+options (일회용으로 사자 "let's buy the disposable one"); "as (a role)" (선교사로 5년간 있었다 "was
+[there] AS a missionary" — echoing X를 좋아하다-style role/identity framing); means/instrument
+(젓가락으로 먹다 "eat WITH chopsticks," 카드로 지불하다 "pay BY card"); cause/source (과로로
+쓰러지다 "collapse FROM overwork," 도박으로 망하다 "ruined BY gambling"); time ("변화 시시각각으로"
+"minute by minute"); and manner (정식으로 인사드리다 "formally introduce"). A cluster of
+**written/formal fixed collocations** is explicitly flagged: 언니로서 (in the role of), 태풍으로
+인해 [written/formal], 사고로 말미암아 [written/formal], X로 하여금 Y [written/formal].
+
+### 19.11 -와/과, -하고, -(이)랑 (p. 257-260)
+
+Three near-synonymous coordination/accompaniment particles differing sharply in **register**:
+**-와/과 is written/formal**, **-하고 is colloquial** (the pairing directly parallels -에게 vs.
+-한테 in 19.9), and **-(이)랑 has an even more spoken/casual flavor** than -하고. Coordinates nouns
+("and": 갈비와 빈대떡) and expresses accompaniment ("with," but also translatable as "to," "from,"
+"into," or nothing at all depending on the verb: 남편하고 이혼하다 "divorce FROM one's husband,"
+남자친구하고 헤어지다 "break up WITH a boyfriend"). A crucial semantic contrast is drawn between
+-에게/한테 (**one-way** relationship: 남편한테 전화했어요 "I called my husband [one-directional]")
+and -와/과/하고/랑 (**reciprocal** relationship: 남편하고 전화했어요 "my husband and I talked [both
+ways]") — a genuinely useful grammatical diagnostic for relationship symmetry. A set of
+formal-register fixed collocations built specifically on -와/과 (not the colloquial variants) is
+given: -와 더불어, -와 다름이 없다, -와 마찬가지로, -와 반대로, -와 같이, -와 동시에.
+
+### 19.12 -만, -뿐, -밖에 (p. 260-262)
+
+Three "only/just" particles with different distributions. **-만**: general "only/just," and
+separately (with time expressions) "after an interval of" (오랜만이에요, 십 년 만에 왔어요), and
+sentence-finally as a conjunctive "but" (주제넘습니다만... "I may be out of line, but..."). **-뿐**:
+"only," typically in the patterns X뿐이다, X뿐(만) 아니다 "not only X," X뿐더러 "not only X but
+also." **-밖에**: "(nothing) but," **obligatorily paired with a negative verb**, and carrying an
+implication that some expectation is unmet (맥주 한 잔밖에 못 마셔요 "I can only drink one beer [and
+that's disappointing/limiting]"). The -만 vs. -밖에 contrast is pragmatic, not just syntactic:
+-만 suits a *willing* limited choice, -밖에 (+ negative) suits an *unwilling/reluctant* one (건강
+생각해서 한 잔만 마셨어 "I had only one, mindfully" vs. 술이 모자라서 한 잔밖에 못 마셨어 "I could
+only have one because there wasn't enough"). -밖에 is required (not -만) for "all I have/all
+that's left" readings; -만 is required (not -밖에) in commands/proposals, since -밖에 cannot occur
+without a negative main verb.
+
+### 19.13 -부터 (p. 262-263)
+
+"Starting from/beginning with" — for both abstract sequence-starting-points (기초부터 확실히
+다지세요 "get a firm grasp of basics FIRST") and combined with -(에)서 or -(으)로 for a starting
+location (도서관에서부터, 집을 처음서부터). Contrasted with -에서, which also means "from" but
+cannot express "first/since" senses that -부터 can, and is not interchangeable with -부터 except
+when an endpoint is separately marked by -까지.
+
+### 19.14 -까지 (p. 263-265)
+
+"To/until" (endpoint in time or space: 오전 8시부터 오후 5시까지); "and even" (listing something
+additional/surprising: 세탁기, 냉장고, 그리고 침대까지 새로 샀다); "even/as far as" (in a
+concessive/rhetorical sense: 대학까지 졸업하고 어떻게 그렇게 무식할 수가 있어요? "how can you be
+so ignorant, even after graduating college"). Unlike -조차/-마저 (19.15), -까지 is usable for both
+desirable and undesirable situations.
+
+### 19.15 -조차, -마저 (p. 264-265)
+
+Both mean "even," similar to -까지, but **restricted to undesirable/negative situations** (unlike
+-까지, which has no such restriction). Distinguished from each other: **-조차** = "even the most
+basic/expected thing" (이름조차도 기억이 안 나요 "I can't even remember her NAME [the most basic
+fact]"); **-마저** (like -까지) = "even the last [thing remaining]" (심지어 그는 양심마저
+팔아버렸다 "he sold out even his CONSCIENCE [the last thing left]"). All three (-조차/-마저/-까지)
+are interchangeable for a general undesirable situation (운동은커녕 밥 먹을 시간조차/마저/까지
+없어요).
+
+### 19.16 -(이)나 (p. 265-267)
+
+A richly polyfunctional particle: "the best of the remaining choices" / "might as well" (빵이나
+먹지 뭘 밥을 해요? "why don't we just eat bread instead" — a resigned/settling-for-less nuance);
+emphasis on a quantity *more than expected* (일곱 병이나 마셨어요 "drank as many as SEVEN
+bottles!"), intensified further by **-씩이나** (천 불씩이나 해요? "that expensive, a whole
+$1,000?!"), which can also be used sarcastically for something surprisingly excessive regardless of
+quantity (선물씩이나... "[you didn't need] a whole GIFT..."); approximation in questions (몇
+명이나 돼요? "about how many are there?"); the indefinite-pronoun-forming suffix (누구나, 언제나,
+아무나, 아무거나"anyone/anytime/anything at all"); and "(either) X or Y" (태권도나 합기도를
+배워봐라), cross-referenced to the conjunctive -으나 in 21.1.3, with the more formal register
+equivalent 또는 noted for written language.
+
+### 19.17 Miscellaneous other particles (p. 266-268)
+
+A closed-list roundup: **-씩** "each/apiece" (날마다 8시간씩 일합니다); **-마다** "each/every"
+(다섯 시간마다 한 알씩 "one pill every five hours"); **-들** the (semantically often optional)
+plural marker, obligatory alongside a demonstrative (그 사람들) unless a plural numeral is present
+(그 두 학생), and — notably — attachable even to adverbs, connectives, or a sentence-final verb to
+mark plurality of the subject rather than the noun itself (왜들 안 와요? "why don't you all come?,"
+literally the plurality marked on "why"); **-끼리** "among/by themselves [exclusively, within a
+group]" (우리끼리 얘긴데 "just between us," 가족끼리만 모이다 "just family members getting
+together"); **-(이)야** "if it be [X specifically]" (닭 한 마리쯤이야 혼자 먹을 수 있지 "if it's
+just one chicken, sure, I can finish it myself"); its intensified form **-(이)야말로** "indeed;
+be THE one" (그 사람이야말로 우리 부서에 꼭 필요한 인물이지 "he really is indispensable"); **-은/
+는커녕** "far from; let alone" (반에서 일등은커녕 10등 안에도 못 들겠다 "far from being top of the
+class, I doubt I'll even be top ten" — interchangeable with 말할 것도 없고/고사하고); **-따라** "of
+all times/occasions" (그날따라 사람이 너무 많았어요 "of all days, it was crowded THAT day"); and
+**-깨나**, explicitly marked **[spoken/colloquial]**, "quite a bit of" often with a mildly
+disapproving edge (고집깨나 세다 "quite stubborn," 돈깨나 있는 사람 "someone with a fair bit of
+money [said slightly begrudgingly]").
+
+### 20.1 Chapter 20 vocabulary — register-tagged comparison idioms (p. 269-274)
+
+Chapter 20 is unusually rich in **explicit inline register tags** the source itself marks — exactly
+the kind of annotation the coverage rule says must never be skipped. Captured here as vocabulary
+rather than folded into prose, since each is a distinct fixed idiom.
+
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 코딱지만하다 | be tiny, like a booger | descriptive verb (idiom) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 269; explicitly marked **[familiar/casual]** by the source. |
+| 비까비까하다 | be neck-and-neck, evenly matched | descriptive verb | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 272; explicitly listed under "Spoken/colloquial expressions." |
+| 그게 그거다 / 거기서 거기다 | be about the same, six of one half dozen of the other | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 272. |
+| 그만그만하다 | be about the same (of ability/quality) | descriptive verb | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 272. |
+| 아버지를 쏙 빼다 / 빼다 박다 | be a carbon copy of (one's father) | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 274; explicitly marked **[spoken/colloquial]**. |
+| 훨 | way (more), much more (contracted 훨씬) | adverb | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 273; explicitly marked **[spoken/colloquial]**. |
+| 백배 (더) | 100 times more, way more | adverb (idiom) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 273; explicitly marked **[spoken/colloquial]**. |
+| 한층 (더) | a level more, considerably more | adverb | formal | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 273; explicitly marked **[written/formal]** — direct register-pair with 훨/백배 above. |
+| 게임이 안 되다 | be no match for, not even in the same league | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 286; explicitly marked **[spoken/colloquial]**. |
+| 쨉도 안 되다 | be nowhere close (in a matchup) | idiom | slang | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 286; explicitly marked **[familiar/casual]** — from English loanword "jab" (boxing), a genuine slang coinage worth flagging for loanword-based slang mechanics. |
+| 꿀리다 | have to yield/concede (to someone) | verb (idiom) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 286; explicitly marked **[male speech]** — a real gendered-register tag, rare and valuable to capture. |
+| 왔다 | (something is) the best, "it's arrived" [i.e. peaked] | interjection/idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 287, 스트레스 푸는 데는 노래방이 왔다지 "nothing beats karaoke for stress relief"; explicitly marked **[spoken/colloquial]**. |
+| 짱이다 | be the best, be awesome | descriptive verb (idiom) | slang | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 287; explicitly marked **[slangy]** by the source itself — one of only a small number of items in this whole book the source calls slang outright, making it a high-confidence anchor term for later slang mechanics work. |
+
+### 20.1 How to express equality and similarity (p. 269-274)
+
+A rich inventory of figurative/exaggerated comparison patterns: **-만하다** "be as big/small as"
+(콩알만하다 "tiny as a bean"); **-만큼** "as much as" (노력한 만큼 성적을 받다 "get credit in
+proportion to effort"); **-정도** "to the extent that" (인사불성이 될 정도로 마셨다 "drank to the
+point of unconsciousness"); **-같다/-같이/-같은** "be/like X," productively combined with vivid
+similes many of which are effectively fixed idioms (물에 빠진 생쥐 같다 "like a drenched mouse,"
+살얼음판을 걷는 것 같다 "like walking on thin ice," 감쪽같다 "as good as new," 꿀 먹은 벙어리같이
+"like a mute who ate honey [i.e. won't say a word]," 잠꼬대 같은 소리 "nonsense talk [lit.
+sleep-talk-like]"); **-듯 하다/-듯(이)** "as if/as often as" with several proverb-like fixed forms
+(거짓말을 밥 먹듯 한다 "lies as often as he eats," 돈을 물 쓰듯 쓰다 "spends money like water,"
+가물에 콩 나듯 "as rare as beans sprouting in a drought," 다람쥐 쳇바퀴 돌듯 "like a squirrel on a
+wheel [stuck in a rut]"); **-처럼** "like/as" (벌떼처럼 몰려들다 "swarm in like bees"). Same-ness is
+expressed with 같다/똑같다/진배없다/다름없다; similarity has a genuine **register split** the
+source lays out explicitly: written/formal similarity vocabulary (유사하다, 방불케 하다, 쌍벽을
+이루다, 견줄 만하다, 어깨를 겨루다/나란히 하다) vs. spoken/colloquial equivalents (흡사하다,
+비슷하다, 비까비까하다, 그게 그거다, 그만그만하다, 맞먹다) vs. a further set of purely idiomatic
+near-synonym expressions (막상막하, 피장파장, 대동소이하다, 오십보백보, 도토리 키재기 "acorns
+comparing height [i.e. a contest among equally-mediocre options]"). Resemblance in appearance gets
+its own idiom set (꼭 닮다; 쏙 빼다/빼다 박다, explicitly [spoken/colloquial]). "No less than": 못지
+않다, 한 치도 기울지 않다.
+
+### 20.2 How to express differences (p. 273-276)
+
+Basic comparatives: 더/덜 "more/less," 훨씬 (더) "much more" — with the **contracted colloquial
+form 훨** and the **hyperbolic colloquial 백배 (더)** "100 times more" explicitly contrasted against
+the **formal 한층 (더)** register equivalent (a clean three-way register ladder worth flagging: 더
+< 훨씬(더)/훨[colloq.]/백배[colloq., hyperbolic] vs. 한층[formal]). Comparative particle -보다
+"than"; the "rather X than Y" pattern -느니 (차라리)... (자유 없이 사느니 차라리 죽는 게 낫다 "I'd
+rather die than live without freedom" — hyperbolic register again); 낫다 "be better" vs. 못하다 "be
+not as good as" (사람이 짐승만도 못하다 "worse than a beast"); -에 비해/비하면 "compared to."
+A large idiom cluster for **"can't compare/beyond comparison/no match"**: 비교가 안 되다, X에 댈
+게 아니다, 상대/게임/쨉이 안 되다 (register-graded as shown in the vocabulary table above),
+어림도 없다, 이상형 근처도 못 가다, 저리가라다/아무것도 아니다, 뺨치다 "put to shame [lit. slap
+the cheek of]." "Be inferior to": 아직 멀었다, 한참 밀리다, 기울다/빠지다, 딸리다, and the
+male-speech-tagged 꿀리다 (see vocabulary table).
+
+### 20.3 How to express superlatives (p. 274-275)
+
+The -est: 제일/가장 + adjective (가장 아름다운 산 "the most beautiful mountain," 가장 explicitly
+tagged [written/formal] in the source's own example). Two superlative-forming prefixes: **최-** 最
+(Sino-Korean, productive with many Sino-Korean roots: 최신유행, 최대의 효과, 최악의 경우) and
+**맨-** (native Korean, combining with a few location/sequence nouns: 맨 처음, 맨 나중, 맨 아래, 맨
+오른쪽) — a clean native-vs-Sino-Korean superlative-affix contrast structurally parallel to the
+particle-choice contrasts seen elsewhere in the book. A rich set of **indirect superlative idioms**
+follows, escalating toward outright slang by the chapter's end: 누구보다도 성실하다, 타의 추종을
+불허하다 "brook no rival," 둘째가라면 서럽다 "would be offended to be called second," 따라올
+자가 없다, 독보적인 존재, 꽃중의 꽃, 둘도 없는 친구, 그만이다 "is simply the best," and finally
+왔다/짱이다 (see vocabulary table) — the chapter's own progression from formal written idiom
+through spoken idiom down to explicit slang is itself a small worked example of a register
+gradient, useful groundwork for later slang-mechanics analysis.
+
+### 20.4 How to express proportions and gradation (p. 275)
+
+**-에 따라** "in proportion to/accordingly" (능력에 따라 대우를 받는다 "treated according to
+ability"). **(-면) -을수록 (더)** "the more..., the more..." (생각하면 생각할수록 약이 올라요 "the
+more I think about it, the more exasperated I get") — a fully productive correlative-comparative
+construction, structurally parallel to English "the X-er, the Y-er."
+
+### 21.0 Chapter 21 vocabulary — idiom/register highlights (p. 276-310)
+
+Chapter 21 is almost entirely conjunctive-suffix morphology (dozens of connectives, each a
+grammatical morpheme rather than a lexical item), so most of the chapter's genuine "vocabulary" is
+the large stock of **body/hyperbole idioms** it uses as worked examples — several are distinctly
+colloquial/slangy fixed forms worth capturing directly.
+
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| -(이)고 나발이고 | "and whatever [dismissively]" | conjunctive idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 288; explicitly marked **[familiar/casual]**. |
+| -(이)랄지 | "or whatever, say" | conjunctive idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 290; explicitly marked **[spoken/colloquial]**. |
+| 손이 발이 되도록 (빌다) | beg abjectly ("until hands become feet") | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 292; one of a cluster of body-part hyperbole idioms built on the -게/-도록 "to the point that" pattern (also 코가 비뚤어지게 마셨다 "drank till the nose twisted," 눈이 빠지게 기다렸다 "waited till eyes popped out," 뼈 빠지게 일했다 "worked to the bone," 귀에 못이 박히다 "said till a nail's driven into the ear," 혀가 닳도록 "till the tongue wore out"). |
+| -어 봤자 | "even if [X], no use" | conjunctive idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 308; explicitly marked **[spoken/colloquial]**; source's own idiom-in-idiom example: 뛰어봤자 벼룩이죠 "no matter how far he jumps, he's still just a flea." |
+| -거늘 | "when even X... [rhetorical]" | conjunctive | literary | — | contemporary (source published 2008) | — | archaic/literary register | grammar_reference | n/a | n/a | p. 309; explicitly marked **[literary/old-fashioned]** — a genuinely archaic-register connective still functional in rhetorical/moralizing speech. |
+| 손에 장을 지지다 | "I'd be a monkey's uncle [if that were true]" | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 305, a vivid self-deprecating wager idiom (literally "I'd fry soy sauce in my hand"). |
+
+### 21.1 Combination of equal-status clauses (p. 276-280)
+
+Register is a running theme throughout this coordination-conjunctive section: **-고** (descriptive
+verbs, neutral "and") vs. **-(으)며** [explicitly formal/written]. A family of "and whatever
+else"/enumeration patterns escalates in casualness: -(이)고...-(이)고 (neutral), -(이)고
+나발이고 [familiar/casual, dismissive], -(이)고 뭐고 / -(이)다 뭐다 / -(이)며...-(이)며 (roughly
+neutral-colloquial), -(이)니...-(이)니, -느니...-느니 (attaches to the quoted-report ending
+-다/냐/라/자, cross-referencing Ch. 22.1), -(으)락...-(으)락. "Or"-coordination: -거나; -(으)나
+(자나 깨나 "whether asleep or awake"); -든가; -든(지); -다든지; **-(이)랄지** [spoken/colloquial];
+-(이)니; -(이)랑. "Not only...but also": -도...-고...-도; -을 뿐더러/뿐(만) 아니라; -거니와/
+(으)려니와; -만...-게 아니라; and the fixed pair (-이)자/(-이)요 ("both X and Y," 시인이요
+학자다 "she's both a poet and a scholar").
+
+### 21.2 Combination of unequal-status clauses (p. 291-310)
+
+A long catalog of subordinating conjunctive suffixes, organized by semantic function — the sheer
+number of distinct forms per function (often 3-5 near-synonyms differing mainly in register or a
+fine shade of meaning) is itself the chapter's key takeaway, directly relevant to any slang-register
+modeling that wants a comparably dense connective system:
+
+- **21.2.1 Background:** -는데/은데 (draw listener interest / set up an inference, extremely
+  common in speech); -니까/-었더니 (discovery, first-person-oriented, -었더니 for states not
+  self-caused); -은 즉, -건대 (formal reporting/asserting).
+- **21.2.2 Simultaneity:** -(으)면서 (shared-subject "while," -으며 as the less common/less
+  colloquial variant); -을 때/-을 적에 "when"; -동안(에)/-사이(에) "during" (동안 = any duration,
+  사이 = typically brief); -중에/-도중에 "in the middle of" (도중에 emphasizes interruption); -어서
+  (age/time-point framing, e.g. 젊어서는... "back when [I/she] was young"); **-시** [explicitly
+  written/formal, attaches to Sino-Korean nouns — safety-signage register: 도난 사고 발생 시 "in
+  the event of theft"].
+- **21.2.3 Sequentiality:** -고 (simple sequence) vs. **-어(서)** (overlapping sequence sharing an
+  object/location/participant — a genuinely non-trivial grammatical distinction the book works
+  through with minimal pairs: 도서관에 가고 친구 만났어 "went to the library AND [separately] met a
+  friend" vs. 도서관에 가서 친구 만났어 "went to the library AND MET the friend THERE"; -어서 can
+  colloquially expand to -어 가지고/갖고); -어다(가) (object carried from one place to another);
+  -자마자/-기가 무섭게 "as soon as" (the latter more vivid: "before the fear even settled"); -는
+  즉시/-는 대로 "immediately upon"; -는 순간 "the moment that"; -다(가) (shift/change mid-action);
+  -었다(가) (shift after completing an action); -다...-다 하다 (repeated alternation, e.g. 왔다
+  갔다 하다 "go back and forth").
+- **21.2.4 Before/after/until:** -기 (직)전 "just before"; -은 다음/-은 후/-은 뒤 "after," with an
+  explicit **three-way register note**: 다음 is the most common in speech, 후 sounds formal, 뒤 is
+  typically used in weather forecasts/recipes; -을 때까지 "until"; -기까지 "up to the point of
+  [achieving something, implying great effort]."
+- **21.2.5 Cause/reason:** -어서 and -니까, contrasted at length — both interchangeable for a
+  straightforward causal link, but only -니까 is usable when the reason justifies a
+  command/proposal or is discovered spontaneously by the speaker, while only -어서 suits a
+  completely established/expected causal relation and appears in fixed courtesy expressions (늦어서
+  죄송합니다 "sorry for being late"). Also -기 때문에 (strong focus on the reason, cannot precede a
+  command); -기에/-길래 (-길래 more colloquial); -어 가지고/갖고 and -는 바람에 (an unexpected
+  negative event as the cause); **-(으)므로** [explicitly formal/written, seen on award
+  certificates]; -느라(고) ("busy doing X [as the reason for a side effect]"); -다고 (quoted-reason
+  framing); -을까봐 "for fear that."
+- **21.2.6 Intention/purpose:** -(으)려고 (with casual contracted variants -을려고/-을라고,
+  cross-referenced to Ch. 8.3); -(으)러 (must be followed by a verb of coming/going, except with
+  뭐 하러); **-기 위하여/위해** [formal/written]; **-고자** [formal/written]; **-차** [formal/
+  written, attaches to Sino-Korean nouns]; -을까 한다 "thinking about doing"; -을까 보다 (similar);
+  -을 겸 "for the dual purpose of"; -을 생각/-을 작정/-을 셈 "planning to."
+- **21.2.7 Purpose/result:** -게 vs. -도록 (near-interchangeable, -도록 slightly more formal;
+  cross-referenced to 10.4.3 and 17.1.2) — the "result" use is illustrated entirely with **fixed
+  hyperbolic body-idiom expressions** (see vocabulary table above), a genuinely productive
+  "verb-until-body-part-does-something-extreme" intensification template worth flagging for
+  hyperbole-based slang mechanics.
+- **21.2.8 Condition:** -(으)면 "if"; -(으)면...-을텐데/(으)련만 "would have, if only"; -었더라면/
+  -었던들 "if [X] had happened" (counterfactual); -다면 "if [it were the case that]"; -거든 (used
+  with a command/proposal); -어야(만) "only if"; -는 한 "as long as"; -을 경우 "in case."
+- **21.2.9 Concession ("even if/though"):** -어도 (-이라도 for the copula); -더라도/-을지라도; -고도;
+  -어서라도 "even if it means [doing something extra]"; -는데도/은데도, -음에도 (불구하고) "in
+  spite of"; -어야(rhetorical "even if X, how much could it really be?" — 멀어야 얼마나 멀겠어요?);
+  **-어 봤자** [spoken/colloquial, see vocabulary table]; -은들 (rhetorical, similar force);
+  -기로서니; -을망정/-을지언정 "even if it means [doing something drastic]"; -(으)나마 "though only
+  [a little]"; -(으)면...-었지 (defiant "even if X, so be it" pattern); **-거늘** [literary/
+  old-fashioned, see vocabulary table].
+- **21.2.10 Contrast:** -지만 "but"; **-(으)나** [formal/written variant of -지만]; -는데/은데
+  (mild implicit contrast); -건만 (similar, more literary-leaning per its examples); -(으)면서
+  "while, at the same time [contrastively]"; -되 "may X, but..."; -는 게 (regret/excuse framing:
+  "meant to X, but..."); **-는/은 반면에** [formal/written]; **-것과는 달리, -것과는 대조적으로**
+  [formal/written].
+
+### 22.0 Chapter 22 vocabulary — idioms and special bound nouns (p. 311-329)
+
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 뭐니 뭐니해도 | "whatever anyone says," "say what you will" | idiom (fixed direct quote) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 299. |
+| 이래라 저래라 (하다) | be bossy, order people around ("do this, do that") | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 299. |
+| 나 몰라라 하다 | act like it's none of one's business | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 299. |
+| 이왕 온 김에 | "now that we're here / while we're at it" | fixed pattern (bound noun 김) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 322; 김 is one of several semantically-vague bound nouns (에 that combine with adnominal clauses to form idiom-adjacent grammatical patterns. |
+| 굶어 죽으란 법은 없다 | "we won't starve" (things will work out) | idiom (bound noun 법) | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 322. |
+| 난다 긴다 하는 사람 | an extremely competent/high-flying person | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 324, literally "a person who flies and crawls [does everything impressively]." |
+| 내노라하는 집안 | an influential/prominent family | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 324. |
+| 하늘에 별따기 | (be as hard as) "picking a star from the sky," i.e. impossible | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 328. |
+| 땅짚고 헤엄치기 | "a piece of cake" (lit. swimming while touching the ground) | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 328. |
+| 옆구리 찔러 절받기 | fishing for compliments (forcing someone to flatter you) | idiom | colloquial | — | contemporary (source published 2008) | — | — | grammar_reference | n/a | n/a | p. 328, synonym 엎드려 절받기 also given. |
+
+### 22.1 Quoted/reported clauses (p. 299-307)
+
+**Direct quotes** use -하고 (onomatopoeia, or speech/thought generally) or -라고 (speech/thought),
+with several quoted fixed expressions given (뭐니 뭐니해도, 이래라 저래라 하다, 나 몰라라 하다 —
+see vocabulary table). **Indirect quotes** use a dedicated **report style** distinct from both plain
+written style and casual speech style — its own paradigm, differing from casual speech in two
+systematic ways: questions allow only -냐 (not -니), and commands use -(으)라 (not -어/아라). The
+book gives a full conjugation table for how every original-sentence style (합니다/해요/해/한다,
+statement/question/command/proposal) collapses into this single report style, with -었 always
+preserved but -겠/-을 freely alternating. **-고 했다** marks written/formal/neutral reported speech;
+**(-고) 그랬다** marks spoken/colloquial reported speech — a direct register pair. A special
+sub-rule governs quoting the verb **주다** "give/do for": when the requester is also the beneficiary,
+주다-commands are quoted as **주십사(고)** (honorific) or **달라고** (plain) rather than the expected
+주라고; when the beneficiary is a third party, ordinary 주라(고) is used — a genuine
+benefactive-alignment distinction hiding inside quotation grammar. **22.1.4** notes indirect quotes
+can be followed by any saying/thinking verb (우기다 "insist," 맹세하다 "vow," 신신당부하다
+"repeatedly implore," 재촉하다 "press/rush") or even directly by another clause. **22.1.5** covers
+the highly productive **colloquial quotative contraction** (-ㄴ다고 하- / -ㄴ다고 그러- collapsing
+into a single suffix per speech style: 간다ㅂ니다→간답니다, 간다ㄴ다→간단다, etc.) — this reduced
+form conveys hearsay without needing to name the source, and the emphatic variant **-단다/(이)란다**
+means "I'm telling you / you know" (어제는... 잠만 잤단다). This reduced quotative form only works
+for the speaker's own report — relaying someone else's request to a third party still requires an
+explicit quoting verb. **22.1.6** notes a quote can be truncated to bare -고 for confirmation
+questions (언제 오신다고(요)? "sorry, when did you say you're coming?") and that quotes commonly
+feed directly into a conjunctive suffix, e.g. **-다면서/(이)라면서** "I heard that...,right?" for
+confirming secondhand information.
+
+### 22.2 Adnominal clauses (p. 308-312)
+
+Adnominal (noun-modifying) clauses always precede the noun they describe, however long, and a
+single noun can carry more than one adnominal clause. **22.2.1** classifies adnominal-clause-taking
+nouns by type: ordinary nouns (no English-preposition equivalent survives in the Korean structure:
+비밀을 털어 놓을 친구 "a friend [to whom] one can confide secrets"); general-class nouns (거/것 for
+a concrete thing, 일 for an abstract thing, 데/곳 for a place — 곳 noted as more formal than 데; 거/것
+itself is genuinely ambiguous between "a concrete thing" and "the fact that," per the book's own
+minimal-pair example); summarizing/classifying nouns (게 "the fact/habit of," 확률 "probability,"
+경향 "tendency," 점 "point/aspect"); result nouns (소리 "sound of," 냄새 "smell of," 자국 "mark/scar
+from"); and a rich set of **special (mostly bound) nouns** whose meaning the book itself flags as
+"often difficult to identify," each locking into its own idiom-adjacent construction: 김 ("while
+[doing something] anyway"), 대로 ("just as/according to"), 대신 ("instead of"), 따름 ("nothing but,
+merely"), 마당 ("given the situation that..."), 무렵 ("around the time of"), 바 ("that which; the
+matter of," in formal 들리는 바에 의하면/말씀드린 바와 같이), 법 ("the rule/reason that," 굶어
+죽으란 법은 없다, see vocabulary table), 족족 ("every single time"), 지 ("since [an event]"), 지경
+("to the point of"), 참 ("just about to / right when"), 채 ("with X still in a state, e.g. clothed"),
+척/체 ("pretending to"), 턱 ("[no] reason to"), 통 ("amid the commotion of"). **22.2.2** covers
+adnominal clauses built on a preceding quote (사실, 소문, 말, 소리 + quoted content + adnominal
+suffix) — used to frame something as fact, rumor, unfulfilled promise, advice, or shocking news, and
+also to quote a proverb (cross-referenced to 12.1.4) or add rhetorical emphasis (그 사람 만나기
+싫단 말야 "I'm telling you I don't want to meet him"). A closed set of quote-derived fixed
+expressions closes the section: 이렇다 할 직업이 없다, 하면 된다는 신념, 난다 긴다 하는 사람, 내노라
+하는 집안 (see vocabulary table).
+
+### 22.3 -지 clauses (p. 312-315)
+
+**-지 clauses** (adnominal suffix + -지) express embedded questions/uncertainty, typically followed
+by 알다/모르다/물어보다. **22.3.1** works through the full paradigm across action verbs, descriptive
+verbs, and the copula, across every tense/aspect combination (-는지/-았는지/-았었는지/-을지/
+-았을지, plus the more literary -(었)던지 for a strong "so...that" reading — 어찌나/얼마나...-던지
+"so much that..." — and -지도 모른다 "might be possible," cross-referenced to 17.2.3). **22.3.2**
+shows -지 clauses feeding into verbs beyond just know/not-know (맞추다 "guess," 기억나다
+"remember," 조사하다 "investigate," 망설이다 "hesitate"), sometimes with the following verb dropped
+entirely to form a gentle indirect question (요즘 어떻게 지내시는지요? "how are you these days?"),
+and combining with particle phrases like -에 대해(서)/관해(서). -지 can alternate with **-줄** when
+the following verb is specifically 알다/모르다 (몇 살인지/몇 살인줄 알아요?) — and critically, 알다
+after a -지 clause is genuinely **ambiguous between "know" and "think"** (여행간지 알고 있었어 "I
+knew you'd gone on a trip" vs. 여행간지 알았는데 집에 있었네 "I THOUGHT you'd gone, but you were
+home" — the same surface form supporting both a factive and a non-factive reading, cross-referenced
+back to 16.1.2's note on this same ambiguity).
+
+### 22.4 Nominalization (p. 315-317)
+
+Two competing nominalizing suffixes, split by **register**: **-음/-ㅁ** (formal/written flavor,
+used for abstract propositions or completed actions/states: 소중함, 무죄임이 판명됐다) is the
+default for **abbreviated notice-board/brochure/formal-letter-closing style** (연령제한 없음 "no
+age restriction," 가정교사 구함 "tutor wanted," 서하늘 올림 "respectfully, [name]" as a letter
+closing) — several -음 constructions can alternate with a more colloquial -거/것-based adnominal
+paraphrase (그 사람이 무죄임이 판명됐다 → 그 사람이 무죄인 것이 판명됐다). **-기** (more common in
+colloquial Korean) nominalizes an act/fact while retaining its actional/stative feel, and anchors a
+large stock of fixed collocations and idioms, several proverb-like (하늘에 별따기, 땅짚고 헤엄치기,
+옆구리 찔러 절받기 — see vocabulary table; 지각하기 일쑤다 "is always tardy," 생각하기 나름이다 "it
+depends how you think about it"). Like -음, some -기 nominalizations can be replaced by a -거/것
+adnominal paraphrase with no meaning change (놀기가 어렵다 ↔ 노는 게 어렵다), but **not all** — the
+book closes the entire grammar section with a minimal-pair set showing -기 and -는 것 diverging in
+subtle but real ways (고기가 먹기(가) 좋다 "this meat is easy to eat" vs. 고기 먹는 게 좋다 "I like
+eating meat [as an activity]" — a different claim entirely) and cases where only one of the two
+forms is grammatical at all (비오기(가) 쉬워 "it's likely to rain" has no -는 것 counterpart; 걸어
+가는 게 낫겠다 "better to walk" has no -기 counterpart) — underscoring, as a fitting close to the
+whole grammar half of the book, that Korean's two nominalization strategies are genuinely
+non-interchangeable general-purpose tools, not free stylistic variants.
+
 ---
 
 ## Copyright discipline reminder
@@ -789,7 +1275,7 @@ dialogue blocks, or explanatory prose. See `00_Reference_Extraction_Spec.md`.
 
 ## Coverage status of this file
 
-This file currently covers PDF pages 171-251 (Chapter 13.3.1 cont. through Chapter 18 in full).
-**Continuation of Chapters 19-22 (PDF pages 252-329) is in progress in this same extraction pass**
-— see the checklist for whether a follow-on file has since been added, or whether this file's tail
-has been replaced by further content.
+**Complete.** This file covers the entire assigned range: PDF pages 171-329 (Chapter 13.3.1
+continued through the end of Chapter 22, the book's final grammar chapter). PDF pages 330-337
+(English index, Korean index) are reference apparatus only and were not extracted, per the coverage
+rule — an index entry is a pointer into the book's own text, not itself grammar/vocabulary content.
