@@ -26,6 +26,7 @@ without that explicit review.
 | [`serbian_croatian_bosnian_test_run.md`](serbian_croatian_bosnian_test_run.md) | First pipeline test run — Phase 0 triage through initial Phase 1 extraction; also where the Markdown-first storage model and morphological typology guide were decided | tentative |
 | [`hungarian_test_run.md`](hungarian_test_run.md) | Second pipeline test run — first real test of subagent-parallelized extraction and the morpheme-breakdown convention (agglutinative language) | tentative |
 | [`dutch_test_run.md`](dutch_test_run.md) | Third pipeline test run — third typological data point (analytic/mildly fusional), first direct test of whether a "colloquial register" chapter surfaces non-core usage tiers | tentative |
+| [`korean_test_run.md`](korean_test_run.md) | Fourth pipeline test run, third language to reach full Phase 1 completion — first non-Indo-European, non-Latin-script language; found and documented four distinct CJK/Hangul PDF font-corruption mechanisms | tentative |
 
 ---
 

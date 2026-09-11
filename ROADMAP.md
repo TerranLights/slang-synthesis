@@ -103,6 +103,28 @@ surfaced a new gotcha: an extraction subagent independently running `graphify up
 wrong working directory can corrupt the repo-root graph — now an explicit prohibition in
 `datasets/00_Reference_Extraction_Spec.md`.**
 
+**Korean reached the same milestone third — the third language in the project to complete Phase 1,
+and the first from a non-Indo-European, non-Latin-script family.** Its reference folder held 17
+files (~532MB) nested across 3 subfolders, with 6 of 17 (~35%) lacking a usable text layer —
+consistent with the OCR/vision-reading burden now expected as the norm rather than the exception.
+Result: 29 `established/` files, ~400,000+ words, covering the Basic/Intermediate/Continuing Korean
+graded grammar series, Choo & Kwak's *Using Korean: A Guide to Contemporary Usage* (the strongest
+register/slang-showcase source), Jae Jung Song's *The Korean Language* (the six-level speech-system
+flagship source), a dedicated pronunciation/phonology reference, five vision-read course books, and
+four representative samples from Martin/Lee/Chang's 962-page *A Korean-English Dictionary* (whose
+lexicographic register-tag apparatus — `[VULGAR]/[SLANG]/[JOCULAR]/[DEROGATORY]/[DIAL.]/[ARCHAIC]`
+— and isotope/para-intensive sound-symbolism notation turned out to be a standout structural find).
+The `/graphify` graph over the full corpus stands at 200 nodes / 277 edges / 13 communities with
+zero dangling/missing/collapsed edges. Two known, explicitly-documented non-blocking gaps remain:
+*Intermediate College Korean* pp.225-376 and *Elementary Korean* pp.51-195, both left open after
+honest partial-completion reporting flagged them mid-run rather than silently under-covering. **This
+run surfaced four distinct CJK/Hangul-specific PDF font-corruption mechanisms** (a decodable
+`+36266` fixed-offset codepoint cipher confirmed across multiple publishers, undecodable CID-font
+corruption with no ToUnicode mapping, per-glyph bogus-CMap corruption across ~20 font subsets in one
+title, and a legitimately Hangul-free romanization-only source that is a design choice rather than a
+corruption) — all four promoted into `datasets/00_Reference_Extraction_Spec.md` as a standing
+gotcha for future non-Latin-script languages.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

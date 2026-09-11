@@ -133,7 +133,7 @@ provisional if you ever need to cite one.
 
 | Language | Nations | `source_reference/` status | Priority |
 |---|---|---|---|
-| **Korean** | South Korea (~26M eff.) | Present (`Korean`) | 🔴 **HIGH PRIORITY** |
+| **Korean** | South Korea (~26M eff.) | Present, **Phase 1 complete** (`Korean`; see `datasets/Korean/`) | 🔴 **HIGH PRIORITY — third-furthest along of any GINI language** |
 
 ## Sino-Tibetan
 
@@ -263,8 +263,9 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Two languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian and
-Hungarian — see `datasets/00_Analysis_Index.md` for current status of every language in progress.
+**Three languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
+Hungarian, and Korean — see `datasets/00_Analysis_Index.md` for current status of every language in
+progress.
 
 ---
 
