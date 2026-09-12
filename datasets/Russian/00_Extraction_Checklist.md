@@ -61,6 +61,29 @@ layer) after dedup.** This alone already exceeds Hungarian's and Korean's full P
 | `028_russkie_glagoly_dvizheniya_s_pristavkami.md` | *Русские глаголы движения с приставками* — full 162p, prefixed motion-verb specialist reference |
 | `029_kogda_ne_pomogayut_slovari_part1.md` | *Когда не помогают словари*, Part I — full 206p lexical/collocation practicum |
 
+**Wave 2 complete (2026-09-12): 16 more files, ~131,000 more words (63 files total, ~772,000 words
+overall) — 16 distinct Group B clean-text sources, heavy application of the non-redundant-supplement
+pattern since most of these overlap Wave 1's core grammars.**
+
+| File(s) | Contents |
+|---|---|
+| `030_uchebnik_russkogo_yazyka.md` | Russian-medium foreign-student textbook — non-redundant supplement, 1970s Soviet institutional/political vocabulary its own distinctive content |
+| `031_prakticheskaya_grammatika_dlya_inostrannyh_studentov.md` | Practical grammar for foreign students — near-synonym verb-pair discriminations, motion-verb rection table |
+| `032_russian_translation_theory_and_practice.md` | Translation theory/practice — rich slang find: internet/computer slang, mafia argot, discourse-particle inventory |
+| `033_sinyaya_zvezda_blue_star_stories.md` | Reader/pedagogical apparatus (not narrative text) — idioms, discourse particles, register/politeness formulas |
+| `034_russkiy_yazyk_kak_inostranniy_rabochaya_tetrad.md` | TORFL-1 workbook — thematic vocabulary, no native glossary (extractor-supplied glosses flagged) |
+| `035_chekhov_humorous_short_stories_reader.md` | Reader with English notes — ~350+ entries, register phenomena (-с particle, honorific clipping, dialectal markers) |
+| `036_chelovek_v_sovremennom_mire.md` | Thematic conversation course — **major slang find**: criminal argot (лох, понты, дать стрекача), youth slang, conscript-army slang (дедовщина), Soviet-era slang (фарцовка) |
+| `037_anglo_russkiy_i_russko_angliyskiy_slovar_tehn_terminov.md` | English-Russian technical (HVAC/engineering) dictionary — representative sample |
+| `038_orfoepicheskiy_slovar_russkogo_yazyka.md` | Pronunciation/stress dictionary — representative sample, vision-read for stress marks |
+| `039_izuchaem_vidy_glagola.md` | Aspect-focused workbook — closed "unintentional action" negated-imperative verb list |
+| `040_moi_druzya_padezhi.md` | Cases via dialogues — preposition-by-case spatial map, non-redundant supplement |
+| `041_nachinaem_izuchat_russkiy.md` | Conversation course — 5-tier address-form register scale, source-flagged Anglicism glossary |
+| `042_domashnee_chtenie.md` | Home-reading manual (literary excerpts' apparatus only) — register/dialect tags incl. one vulgar-word flag |
+| `043_chitaem_rossiyskie_gazety.md` | Newspaper-reading practicum — journalistic-register construction banks, pairs with 014 |
+| `044_ya_chitayu_i_govoryu_po_russki.md` | Reading/speaking course — 1,038-row trilingual glossary (English extracted only) |
+| `045_kogda_ne_pomogayut_slovari_part2.md` | *Когда не помогают словари*, Part II — vision-read, third distinct РАЗ- prefix sense found |
+
 ---
 
 ## Field/column conventions
@@ -83,9 +106,8 @@ the repo root. Verify `git status` on the repo-root `graphify-out/` after every 
 
 ## Suggested next-session order
 
-1. Complete Wave 1 (Group A clean-text sources, 15 distinct sources after dedup).
-2. Wave 2 (Group B clean-text supplements) — apply non-redundant-supplement pattern heavily, several
-   titles likely overlap Wave 1's core grammars.
+1. ~~Complete Wave 1 (Group A clean-text sources, 15 distinct sources after dedup).~~ **Done.**
+2. ~~Wave 2 (Group B clean-text supplements).~~ **Done.**
 3. Wave 3 (Group C vision-reading, ~45 prioritized sources) — start with *Streetwise Russian* and
-   *Dermo!* given direct slang relevance; expect this wave to span multiple sessions.
+   *Dermo!* given direct slang relevance; expect this wave to span multiple sessions given its scale.
 4. Graphify rebuild once Wave 3 substantially lands.
