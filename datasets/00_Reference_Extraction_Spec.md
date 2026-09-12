@@ -135,6 +135,39 @@ test, worth checking for on any future language's sources rather than rediscover
   offset-decode before defaulting to vision-reading** on a source with a real text layer that renders
   as wrong-script glyph soup — it can turn a slow vision-reading job into a fast, verifiable
   text-decode job.
+- **Russian's Wave 1 extraction pass (2026-09-12) turned up at least five distinct Cyrillic
+  font-substitution/corruption variants across a single 204-file corpus** — far more than any prior
+  language, and worth checking for *per source*, since the same corpus can mix multiple variants:
+  1. **ЙЦУКЕН-keyboard-layout substitution**: each Cyrillic glyph decodes to the Latin letter
+     occupying the same physical key on a standard Russian keyboard layout (e.g. "р" → "h", "а" →
+     "f"). Confirmed independently on two different books (Timberlake's *A Reference Grammar of
+     Russian*, both halves) and cross-verified against 15+ known word/gloss pairs each time.
+  2. **cp1251-decoded-as-latin1**: the underlying bytes are Windows-1251 but get decoded as
+     Latin-1/Windows-1252, producing readable-looking Latin/symbol mojibake (fixed by
+     `text.encode('latin-1').decode('cp1251')`). Found on *A Basic Modern Russian Grammar* and
+     *Newspaper Russian*.
+  3. **Stress-mark-only corruption**: the base Cyrillic letters are fine, but the pedagogical
+     acute-accent stress marks some Russian textbooks use are rendered as stray digits, punctuation,
+     control characters, or dropped entirely — the word itself is still readable once the stress
+     mark is stripped/ignored. Found on at least 4 separate sources; not a cipher to decode, just an
+     artifact to strip.
+  4. **Full 1:1 arbitrary substitution cipher** (not keyboard-layout-based): e.g. `h`→ч, `w`→ш,
+     `]`→щ on *Colloquial Russian 2* — confirmed **non-uniform within a single file** (some page
+     ranges already had correct Cyrillic, others needed the cipher decode), so verify per page range,
+     not just once per file.
+  5. **Narrow single-letter-pair homoglyph substitution**: only а↔a and е↔e (the two Cyrillic
+     letters with exact Latin lookalikes) silently swap to their Latin codepoints while every other
+     Cyrillic letter renders correctly — found on *Using Russian Vocabulary* and *Using Russian: A
+     Guide to Contemporary Usage*. Correct only tokens that already contain a native Cyrillic
+     character, to avoid mangling genuine English text in the same document.
+  6. **Non-decodable, context-dependent many-to-one OCR garbling** (DJVU): unlike all the above fixed
+     ciphers, one DJVU source's baked-in text layer maps a single glyph to *multiple* different
+     Cyrillic letters depending on context (verified: "H" decoded to both и and н) — this is not
+     recoverable via any fixed substitution and correctly triggered a fall-back to real vision-reading
+     of that source.
+  **The practical lesson: always verify 15-20+ known word/gloss pairs before trusting any decode, and
+  never assume one source's cipher (or lack of one) predicts another source's — even different
+  chapters of the same file can differ (see #4).**
 - **Not every case of this is decodable — some CID-embedded fonts have no usable ToUnicode mapping
   at all**, and no consistent offset exists to recover from (confirmed on 2 of 5 Korean Wave 1
   books, at least one of them only in certain page ranges of an otherwise-decodable book — check
