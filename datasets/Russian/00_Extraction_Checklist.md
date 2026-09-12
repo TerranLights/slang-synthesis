@@ -84,6 +84,42 @@ pattern since most of these overlap Wave 1's core grammars.**
 | `044_ya_chitayu_i_govoryu_po_russki.md` | Reading/speaking course — 1,038-row trilingual glossary (English extracted only) |
 | `045_kogda_ne_pomogayut_slovari_part2.md` | *Когда не помогают словари*, Part II — vision-read, third distinct РАЗ- prefix sense found |
 
+**Wave 3 in progress (2026-09-12): 10 of ~45 prioritized vision-read sources complete, 1 more
+partial (125 established/ files total, ~949,000 words — already the largest single-language Phase 1
+extraction in this project, exceeding SCB's ~850,000). Wave 3 is by far the largest remaining group
+and is expected to span multiple future sessions.**
+
+| File(s) | Contents |
+|---|---|
+| `046/046b/046c_streetwise_russian.md` | **Slang flagship** — Jack E. Franke, *Streetwise Russian*, full 210p, ~340 slang entries; criminal/prison argot (блатной) throughline flagged for `analysis/` |
+| `048/048b_living_russian_grammar.md` | Vision-read, confirmed near-total redundancy with Wave 1 (0 new vocab rows, explicitly documented) — answer key confirmed skippable (pure drill answers) |
+| `049_..._049p_colloquial_russian_complete_course.md` (16 files) | Full 317p, all 20 lessons + grammar-summary supplement — largest single Wave 3 source completed |
+| `050_..._050l_teach_yourself_russian.md` (12 files) | **Partial — Units 1-13 of 20 only** (pp. 1-162 of ~303). Units 14-20 + back matter (Appendices, Key to Exercises, vocabularies) left as a known, flagged gap; rendered page images cached at session scratchpad for a cheap continuation |
+| `051_russian_in_exercises.md` | Full 172p |
+| `052_linguaphone_russian_course.md` | Full 85p, one genuine regional-dialect note found (ферма/мыза/хутор/заимка) |
+| `053_..._053i_lets_talk_about_life.md` (9 files) | Full 286p, all 9 lessons — richest dated-slang chapter (стиляга/штатник/чувиха/клёво, 1950s-60s youth register) in Урок 9; back-matter Russian-English glossary flagged as a future high-value target (has its own `(sl.)` tags) |
+| `054_..._054q_how_to_say_about_it.md` (17 files) | Full 264p — dedicated colloquial-expressions guide, one genuine handwritten-marginalia exclusion documented |
+| `055_essential_russian_grammar.md` | Vision-read, non-redundant supplement (23 rows kept, most content skipped as redundant) |
+
+**Also routed to Phase 3 (`language_corpus/Russian/`), not Phase 1:** *Dermo! The Real Russian
+Tolstoi Never Used* (Topol) — a dedicated slang/profanity dictionary with no grammar apparatus,
+matching the Hungarian *Magyar Szlengszótár* precedent. See `language_corpus/Russian/` (new
+folder, 2 files, ~22,000 words) — flagship finding: an explicit author-demonstrated multi-root
+"triple-decker profanity" combinatorial mechanism (хуй+пизда+ебать stacked).
+
+**Known gaps, both explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter (see above); `language_corpus/00_Corpus_Collection_Index.md`
+still needs its Russian row flipped from "not started" to "in progress."
+
+**Remaining Wave 3 backlog (~34 sources not yet started):** New Penguin Russian Course, Survival
+Russian, Ultimate Russian Beginner-Intermediate, Ultimate Russian Advanced, Oxford Russian Grammar
+and Verbs, Russian Grammar Workbook, Russian Grammar in Literary Contexts, Modern Russian Grammar,
+Russian Grammar in Exercises and Comments (Parts 1-2), The Case Book for Russian, Russian Verbs of
+Motion, Vozvratnye Glagoly, Verb use in Russian, Walking on Russian Vocabulary, Учебно-справочное
+пособие по лексике, Everything in its Time, Russian Punctuation, Russian Grammar in Illustrations,
+10 уроков русского речевого этикета, remaining Vol 2 course/vocabulary books (~13 files), Troika,
+and the 20-volume Сказочник folk-tale series (representative sampling only, per triage).
+
 ---
 
 ## Field/column conventions

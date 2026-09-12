@@ -64,7 +64,7 @@ era/source and start new numbered files as existing ones get unwieldy (see the p
 | Persian | yes | not started | — |
 | Quechua | yes | not started | — |
 | Romanian | yes | not started | — |
-| Russian | yes | not started | — |
+| Russian | yes | in progress *(Phase 3 corpus collection started: `Dermo! The Real Russian Tolstoi Never Used` (Topol) fully vision-read into `01_`-`02_` — flagship finding: an explicit author-demonstrated multi-root "triple-decker profanity" combinatorial mechanism; Phase 1 reference extraction in `datasets/Russian/` is the largest in this project so far (125 files, ~949,000 words), still in progress — see `datasets/Russian/00_Extraction_Checklist.md`)* | `language_corpus/Russian/` |
 | Sanskrit | yes | not started | — |
 | Serbian/Croatian/Bosnian | yes | not started *(test-run language — Phase 1 reference extraction in progress in `datasets/`, Phase 3 corpus collection not yet started; see `methodology-observations/serbian_croatian_bosnian_test_run.md`)* | `language_corpus/Serbian_Croatian_Bosnian/` |
 | Slovene | yes | not started | — |
