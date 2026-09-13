@@ -27,6 +27,7 @@ without that explicit review.
 | [`hungarian_test_run.md`](hungarian_test_run.md) | Second pipeline test run — first real test of subagent-parallelized extraction and the morpheme-breakdown convention (agglutinative language) | tentative |
 | [`dutch_test_run.md`](dutch_test_run.md) | Third pipeline test run — third typological data point (analytic/mildly fusional), first direct test of whether a "colloquial register" chapter surfaces non-core usage tiers | tentative |
 | [`korean_test_run.md`](korean_test_run.md) | Fourth pipeline test run, third language to reach full Phase 1 completion — first non-Indo-European, non-Latin-script language; found and documented four distinct CJK/Hangul PDF font-corruption mechanisms | tentative |
+| [`russian_test_run.md`](russian_test_run.md) | Fifth pipeline test run, fourth language to reach full Phase 1 completion — by far the largest single-language corpus (281 files, ~1.36M words); found 8 distinct Cyrillic PDF-corruption variants; graphify health check caught its first real fabricated edge in four language-scale rebuilds; recovered from three separate usage-limit disruptions | tentative |
 
 ---
 
