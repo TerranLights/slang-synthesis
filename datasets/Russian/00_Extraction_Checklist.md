@@ -151,14 +151,27 @@ images inside an otherwise-real text layer, not a font cipher at all), now promo
 | `073_..._073c_new_penguin_russian_course.md` (3 files) | Full 528p, all 30 lessons — Soviet abbreviation typology (initialism/acronym/"stump compound"), cursive letterform table, 19th-c. intellectual vocabulary (западник/славянофил/нигилист) |
 | `074_..._074d_russian_grammar_in_literary_contexts.md` (4 files) | **Partial — Units 1-6 of 25** (pp.1-72 of ~339). Genuine slang/euphemism find: Akhmatova's "чёрные маруси" (Black Marias, secret-police vans). Units 7-25 + appendices left as a known, flagged gap |
 
+**Wave 3 batch 5 complete (2026-09-13): 5 more sources (227 established/ files total, ~1,249,300
+words).**
+
+| File(s) | Contents |
+|---|---|
+| `074e/074f_russian_grammar_in_literary_contexts.md` (2 files) | Units 7-8 of 25 added (still partial — see gaps below); Kharms's 1937 absurdist "Голубая тетрадь №10" and a 1990s AIDS-advocacy press excerpt among the register finds |
+| `075_ultimate_russian_beginner_intermediate.md` | Representative-sampling approach (confirmed massive redundancy) — targeted colloquial/register TOC sections only; found an explicit taboo-avoidance euphemism (ёлки-палки) and Soviet slogans surviving only as sarcastic quotation |
+| `076_..._076g_ultimate_russian_advanced.md` (7 files) | Full 20 lessons — **flagship find**: a Soviet-bureaucratic-to-slang semantic drift (кадры "personnel" → кадрить "to pick someone up" / кадр "a hunk"); rich single-root idiom clusters; a new OCR-specific gotcha (stress-accent marks misread as б/ё) |
+| `077_..._077f_russian_grammar_in_exercises_part1_morphology.md` (6 files) | Uneven-depth non-redundant supplement — three-way epistemic split for -то/-нибудь/кое- particles; quotative particles мол/дескать |
+| `078_..._078c_russian_grammar_in_exercises_part2_syntax.md` (3 files) | Full coverage — genuine register/argot tags found (жаргонизм = camp argot on блатарь; просторечное on взаправду) |
+
 **Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
 Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward; Russian
-Grammar in Literary Contexts Units 7-25 + appendices.
+Grammar in Literary Contexts Units 9-25 + appendices (a slow, literary-content-dense book — 8 of 25
+units done across two extraction sessions).
 
-**Remaining Wave 3 backlog (~16 sources not yet started):** Ultimate Russian Beginner-Intermediate,
-Ultimate Russian Advanced, Russian Grammar in Exercises and Comments (Parts 1-2), remaining Vol 2
-course/vocabulary books (~13 files), Troika, and the 20-volume Сказочник folk-tale series
-(representative sampling only, per triage).
+**Remaining Wave 3 backlog (~12 sources not yet started):** remaining Vol 2 course/vocabulary books
+(~12 files: Русский язык для начинающих, Средний этап, Поговорим, Слушайте Спрашивайте Отвечайте,
+Будем знакомы, VocabuLearn Levels 1-3, Читая сказки, Знаю и люблю русские глаголы, Spravochnik po
+russkoy grammatike), Troika, and the 20-volume Сказочник folk-tale series (representative sampling
+only, per triage).
 
 ---
 
