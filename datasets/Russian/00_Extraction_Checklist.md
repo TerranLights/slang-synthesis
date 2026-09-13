@@ -107,18 +107,33 @@ matching the Hungarian *Magyar Szlengszótár* precedent. See `language_corpus/R
 folder, 2 files, ~22,000 words) — flagship finding: an explicit author-demonstrated multi-root
 "triple-decker profanity" combinatorial mechanism (хуй+пизда+ебать stacked).
 
-**Known gaps, both explicitly flagged (non-blocking, honest partial-completion reporting):**
-Teach Yourself Russian Units 14-20 + back matter (see above); `language_corpus/00_Corpus_Collection_Index.md`
-still needs its Russian row flipped from "not started" to "in progress."
+**Wave 3 batch 2 complete (2026-09-12): 9 more sources (153 established/ files total, ~1,049,000
+words — now over 1 million words for this language alone) — recovered cleanly from a second,
+larger disruption (a weekly usage-limit event affecting 6 of 8 dispatched chunks) using the same
+disk-state-verification-before-redispatch discipline.**
 
-**Remaining Wave 3 backlog (~34 sources not yet started):** New Penguin Russian Course, Survival
+| File(s) | Contents |
+|---|---|
+| `056_russian_grammar_workbook.md` | DJVU, vision-read, confirmed complete |
+| `057_russian_verbs_of_motion.md` | Stilman's English-medium overview — genuine handwritten marginalia found and excluded (a used workbook copy) |
+| `058_vozvratnye_glagoly_v_russkom_yazyke.md` | Reflexive -ся verb specialist reference — 11-class synonymy/register taxonomy |
+| `059_verb_use_in_russian.md` | Aspect-usage reference, non-redundant supplement |
+| `060_..._060h_walking_on_russian_vocabulary.md` (8 files) | Full 224p — **major slang find**: Часть "Просторечная лексика" (прикол, облом, бабки, шпора, выпендриваться, отморозок), explicitly framed by the source itself as slang/jargon excluded from certification tests; also a Soviet-era secret-police color-idiom (чёрный ворон/воронок) |
+| `061_..._061d_everything_in_its_time.md` (4 files) | **Partial** — covers through Section 11 of an unknown-total-section book; Section 12 onward (simultaneity of actions) and a comparative-folklore reading text left as a known, flagged gap |
+| `062_..._062k_russian_punctuation_and_related_symbols.md` (11 files) | Full 266p, all 17 chapters — register-marked colloquial particles (-то/-ка) and hyphenated-compound categories captured in unusual depth given direct slang-mechanics relevance |
+| `063_10_urokov_russkogo_rechevogo_etiketa.md` | Full 106p speech-etiquette phrasebook — reusable two-axis formality×intensity register template found |
+
+**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward;
+`language_corpus/00_Corpus_Collection_Index.md` still needs its Russian row flipped from "not
+started" to "in progress" (done, see below).
+
+**Remaining Wave 3 backlog (~26 sources not yet started):** New Penguin Russian Course, Survival
 Russian, Ultimate Russian Beginner-Intermediate, Ultimate Russian Advanced, Oxford Russian Grammar
-and Verbs, Russian Grammar Workbook, Russian Grammar in Literary Contexts, Modern Russian Grammar,
-Russian Grammar in Exercises and Comments (Parts 1-2), The Case Book for Russian, Russian Verbs of
-Motion, Vozvratnye Glagoly, Verb use in Russian, Walking on Russian Vocabulary, Учебно-справочное
-пособие по лексике, Everything in its Time, Russian Punctuation, Russian Grammar in Illustrations,
-10 уроков русского речевого этикета, remaining Vol 2 course/vocabulary books (~13 files), Troika,
-and the 20-volume Сказочник folk-tale series (representative sampling only, per triage).
+and Verbs, Russian Grammar in Literary Contexts, Modern Russian Grammar, Russian Grammar in
+Exercises and Comments (Parts 1-2), The Case Book for Russian, Учебно-справочное пособие по
+лексике, Russian Grammar in Illustrations, remaining Vol 2 course/vocabulary books (~13 files),
+Troika, and the 20-volume Сказочник folk-tale series (representative sampling only, per triage).
 
 ---
 
