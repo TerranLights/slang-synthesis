@@ -1,0 +1,1364 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1789197881.5556479,
+    "seen": 1789305326.9940352,
+    "ast_hash": "13c5ea698da8f34f1212b5ac5538f6ca",
+    "semantic_hash": "13c5ea698da8f34f1212b5ac5538f6ca"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1789303481.151559,
+    "seen": 1789305326.9940383,
+    "ast_hash": "924d7df1b23a5f12751a497834eff744",
+    "semantic_hash": "924d7df1b23a5f12751a497834eff744"
+  },
+  "established/001_basic_modern_russian_grammar.md": {
+    "mtime": 1789198319.3141124,
+    "seen": 1789305326.9940395,
+    "ast_hash": "673c7202d82f9dbda2ab735d71bbc8cb",
+    "semantic_hash": "673c7202d82f9dbda2ab735d71bbc8cb"
+  },
+  "established/001d_basic_modern_russian_grammar.md": {
+    "mtime": 1789198644.257179,
+    "seen": 1789305326.9940403,
+    "ast_hash": "46f6fecddb37072629e2e675b294fda2",
+    "semantic_hash": "46f6fecddb37072629e2e675b294fda2"
+  },
+  "established/001e_basic_modern_russian_grammar.md": {
+    "mtime": 1789198713.4958172,
+    "seen": 1789305326.9940407,
+    "ast_hash": "21c8d1b8236d19435358454bcf52a59b",
+    "semantic_hash": "21c8d1b8236d19435358454bcf52a59b"
+  },
+  "established/001l_basic_modern_russian_grammar.md": {
+    "mtime": 1789199410.3143785,
+    "seen": 1789305326.9940417,
+    "ast_hash": "073eebd783a1d7ae9d41a26c3aeb0791",
+    "semantic_hash": "073eebd783a1d7ae9d41a26c3aeb0791"
+  },
+  "established/002_comprehensive_russian_grammar_part1.md": {
+    "mtime": 1789198475.5666044,
+    "seen": 1789305326.9940422,
+    "ast_hash": "849f04e6b818fc87d51c664f32fa1773",
+    "semantic_hash": "849f04e6b818fc87d51c664f32fa1773"
+  },
+  "established/003_comprehensive_russian_grammar_part2.md": {
+    "mtime": 1789199504.1726916,
+    "seen": 1789305326.9940429,
+    "ast_hash": "cf684b09436216da9b225b18e06df47b",
+    "semantic_hash": "cf684b09436216da9b225b18e06df47b"
+  },
+  "established/004_seelrc_russian_reference_grammar.md": {
+    "mtime": 1789199078.831129,
+    "seen": 1789305326.9940434,
+    "ast_hash": "64a91e5d0dd49ef8c1eac96c2ea378e4",
+    "semantic_hash": "64a91e5d0dd49ef8c1eac96c2ea378e4"
+  },
+  "established/005_intermediate_russian_grammar_workbook.md": {
+    "mtime": 1789198217.71712,
+    "seen": 1789305326.9940438,
+    "ast_hash": "a9e8afe72f6e683d5586fe6d2d06304e",
+    "semantic_hash": "a9e8afe72f6e683d5586fe6d2d06304e"
+  },
+  "established/005b_intermediate_russian_grammar_workbook.md": {
+    "mtime": 1789198334.8322625,
+    "seen": 1789305326.9940443,
+    "ast_hash": "f755f5b72bdf4e3bb48b479398412c88",
+    "semantic_hash": "f755f5b72bdf4e3bb48b479398412c88"
+  },
+  "established/006_reference_grammar_of_russian_cambridge_part1.md": {
+    "mtime": 1789198493.7744665,
+    "seen": 1789305326.9940453,
+    "ast_hash": "561d1fbe0b33fc6ddf5c77b18a31588c",
+    "semantic_hash": "561d1fbe0b33fc6ddf5c77b18a31588c"
+  },
+  "established/007_reference_grammar_of_russian_cambridge_part2.md": {
+    "mtime": 1789198217.124114,
+    "seen": 1789305326.9940457,
+    "ast_hash": "c9e63a83170928ee203b02abc963e3d2",
+    "semantic_hash": "c9e63a83170928ee203b02abc963e3d2"
+  },
+  "established/008_russian_self_teaching_guide_part1.md": {
+    "mtime": 1789198504.1668735,
+    "seen": 1789305326.9940462,
+    "ast_hash": "99b99366afe0ca3bdb29c00e7a110884",
+    "semantic_hash": "99b99366afe0ca3bdb29c00e7a110884"
+  },
+  "established/009_russian_self_teaching_guide_part2.md": {
+    "mtime": 1789198400.047888,
+    "seen": 1789305326.9940467,
+    "ast_hash": "8d4652d8ca8c53d0480213d8d15a0652",
+    "semantic_hash": "8d4652d8ca8c53d0480213d8d15a0652"
+  },
+  "established/010_colloquial_russian_2_part1.md": {
+    "mtime": 1789198977.5650976,
+    "seen": 1789305326.9940472,
+    "ast_hash": "160dba9c61086febdf80c51ef49067f4",
+    "semantic_hash": "160dba9c61086febdf80c51ef49067f4"
+  },
+  "established/011_colloquial_russian_2_part2.md": {
+    "mtime": 1789198484.5266888,
+    "seen": 1789305326.9940476,
+    "ast_hash": "7299ae77b9db9b8f4024794ad52ffdba",
+    "semantic_hash": "7299ae77b9db9b8f4024794ad52ffdba"
+  },
+  "established/012_russian_grammar_schaums_outlines_part1.md": {
+    "mtime": 1789199017.127575,
+    "seen": 1789305326.9940484,
+    "ast_hash": "c218002a002848ee88c78cd48eb024d4",
+    "semantic_hash": "c218002a002848ee88c78cd48eb024d4"
+  },
+  "established/013_russian_grammar_schaums_outlines_part2.md": {
+    "mtime": 1789198531.0641258,
+    "seen": 1789305326.994049,
+    "ast_hash": "5b9d8273e80047567526647c259c8506",
+    "semantic_hash": "5b9d8273e80047567526647c259c8506"
+  },
+  "established/014_newspaper_russian_vocabulary.md": {
+    "mtime": 1789198646.2472727,
+    "seen": 1789305326.9940495,
+    "ast_hash": "cbc8661e1c1831b4969ed37f0d0720f2",
+    "semantic_hash": "cbc8661e1c1831b4969ed37f0d0720f2"
+  },
+  "established/015_russkiy_bez_granits_grammar.md": {
+    "mtime": 1789198369.726598,
+    "seen": 1789305326.99405,
+    "ast_hash": "f51bdc9add4b25f6ab4c248ad931b820",
+    "semantic_hash": "f51bdc9add4b25f6ab4c248ad931b820"
+  },
+  "established/016_big_silver_book_of_russian_verbs_part1.md": {
+    "mtime": 1789200005.8707952,
+    "seen": 1789305326.9940505,
+    "ast_hash": "e577278fda561672b9ba5e0d9c9f7bef",
+    "semantic_hash": "e577278fda561672b9ba5e0d9c9f7bef"
+  },
+  "established/017_big_silver_book_of_russian_verbs_part2.md": {
+    "mtime": 1789200084.3086596,
+    "seen": 1789305326.9940512,
+    "ast_hash": "a094285349154b44e32cb2022952e658",
+    "semantic_hash": "a094285349154b44e32cb2022952e658"
+  },
+  "established/018_big_silver_book_of_russian_verbs_part3.md": {
+    "mtime": 1789200029.8340611,
+    "seen": 1789305326.994052,
+    "ast_hash": "900b08a55600496c809ec749596cef4f",
+    "semantic_hash": "900b08a55600496c809ec749596cef4f"
+  },
+  "established/019_using_russian_vocabulary_part1.md": {
+    "mtime": 1789200856.0806081,
+    "seen": 1789305326.9940524,
+    "ast_hash": "353c131a7a3875b1bde0c6bf1dda8864",
+    "semantic_hash": "353c131a7a3875b1bde0c6bf1dda8864"
+  },
+  "established/021b_using_russian_vocabulary_part3.md": {
+    "mtime": 1789200189.9197993,
+    "seen": 1789305326.994053,
+    "ast_hash": "15d3a06af311e132767c29c65e147ef1",
+    "semantic_hash": "15d3a06af311e132767c29c65e147ef1"
+  },
+  "established/021c_using_russian_vocabulary_part3.md": {
+    "mtime": 1789200385.3188517,
+    "seen": 1789305326.9940536,
+    "ast_hash": "9795cc95c64288acc5fe0e9b4a90b090",
+    "semantic_hash": "9795cc95c64288acc5fe0e9b4a90b090"
+  },
+  "established/021d_using_russian_vocabulary_part3.md": {
+    "mtime": 1789200543.789476,
+    "seen": 1789305326.994054,
+    "ast_hash": "ea33ec6e397b5b87372337a8ff35da52",
+    "semantic_hash": "ea33ec6e397b5b87372337a8ff35da52"
+  },
+  "established/021e_using_russian_vocabulary_part3.md": {
+    "mtime": 1789200741.8344705,
+    "seen": 1789305326.9940546,
+    "ast_hash": "8409d8e841097c79017f19beec769e6a",
+    "semantic_hash": "8409d8e841097c79017f19beec769e6a"
+  },
+  "established/022_using_russian_contemporary_usage_part1.md": {
+    "mtime": 1789218185.5955234,
+    "seen": 1789305326.9940553,
+    "ast_hash": "3dbe9427f98db042d2f7eb0ffc62f76c",
+    "semantic_hash": "3dbe9427f98db042d2f7eb0ffc62f76c"
+  },
+  "established/023_using_russian_contemporary_usage_part2.md": {
+    "mtime": 1789200144.1443083,
+    "seen": 1789305326.9940557,
+    "ast_hash": "effec5f39296d59e8be63195a3ba90ad",
+    "semantic_hash": "effec5f39296d59e8be63195a3ba90ad"
+  },
+  "established/024_using_russian_contemporary_usage_part3.md": {
+    "mtime": 1789200130.1861577,
+    "seen": 1789305326.9940562,
+    "ast_hash": "301b0254b556160fab815de4bd1b0f7f",
+    "semantic_hash": "301b0254b556160fab815de4bd1b0f7f"
+  },
+  "established/046b_streetwise_russian.md": {
+    "mtime": 1789220552.501925,
+    "seen": 1789305326.9940567,
+    "ast_hash": "b77a70df09f258bf58ad2201b21cb3e5",
+    "semantic_hash": "b77a70df09f258bf58ad2201b21cb3e5"
+  },
+  "established/046c_streetwise_russian.md": {
+    "mtime": 1789221000.8945675,
+    "seen": 1789305326.9940572,
+    "ast_hash": "f4a863b152d2954baff4e2543456e580",
+    "semantic_hash": "f4a863b152d2954baff4e2543456e580"
+  },
+  "established/048_living_russian_grammar.md": {
+    "mtime": 1789233515.4021554,
+    "seen": 1789305326.9940577,
+    "ast_hash": "fd90098ac2e4a651ca63ffbf1814de5c",
+    "semantic_hash": "fd90098ac2e4a651ca63ffbf1814de5c"
+  },
+  "established/048b_living_russian_grammar.md": {
+    "mtime": 1789233464.578741,
+    "seen": 1789305326.9940581,
+    "ast_hash": "f95572979fc00f2f34a71f160118f2e2",
+    "semantic_hash": "f95572979fc00f2f34a71f160118f2e2"
+  },
+  "established/049_colloquial_russian_complete_course.md": {
+    "mtime": 1789220354.2203014,
+    "seen": 1789305326.9940588,
+    "ast_hash": "cc1b36b6477697496ddb41d0a41ec157",
+    "semantic_hash": "cc1b36b6477697496ddb41d0a41ec157"
+  },
+  "established/049b_colloquial_russian_complete_course.md": {
+    "mtime": 1789220507.2345552,
+    "seen": 1789305326.9940596,
+    "ast_hash": "6643b5791bb1465c1ff91df1a7ed511a",
+    "semantic_hash": "6643b5791bb1465c1ff91df1a7ed511a"
+  },
+  "established/049c_colloquial_russian_complete_course.md": {
+    "mtime": 1789220664.8458407,
+    "seen": 1789305326.99406,
+    "ast_hash": "50d3a7c07e5eb393a0680908221a0e99",
+    "semantic_hash": "50d3a7c07e5eb393a0680908221a0e99"
+  },
+  "established/049d_colloquial_russian_complete_course.md": {
+    "mtime": 1789220973.7633476,
+    "seen": 1789305326.9940605,
+    "ast_hash": "037409054d9b99bc1889bfd177a51723",
+    "semantic_hash": "037409054d9b99bc1889bfd177a51723"
+  },
+  "established/049e_colloquial_russian_complete_course.md": {
+    "mtime": 1789233268.306138,
+    "seen": 1789305326.994061,
+    "ast_hash": "260aaf62065ea9fbd960745cb25003ed",
+    "semantic_hash": "260aaf62065ea9fbd960745cb25003ed"
+  },
+  "established/049f_colloquial_russian_complete_course.md": {
+    "mtime": 1789233390.5961373,
+    "seen": 1789305326.9940615,
+    "ast_hash": "dbde53603f148dbb540d5663cf793e2b",
+    "semantic_hash": "dbde53603f148dbb540d5663cf793e2b"
+  },
+  "established/049g_colloquial_russian_complete_course.md": {
+    "mtime": 1789233536.0313237,
+    "seen": 1789305326.9940624,
+    "ast_hash": "dbb54aab5597bb2dd51fa692a13e4c93",
+    "semantic_hash": "dbb54aab5597bb2dd51fa692a13e4c93"
+  },
+  "established/049h_colloquial_russian_complete_course.md": {
+    "mtime": 1789233658.2173185,
+    "seen": 1789305326.9940648,
+    "ast_hash": "5377f7c5de4d868d7c1a16f5ec8a9c53",
+    "semantic_hash": "5377f7c5de4d868d7c1a16f5ec8a9c53"
+  },
+  "established/049i_colloquial_russian_complete_course.md": {
+    "mtime": 1789233797.8524544,
+    "seen": 1789305326.9940655,
+    "ast_hash": "3486816ff2b1af04a120ca9a071bdf77",
+    "semantic_hash": "3486816ff2b1af04a120ca9a071bdf77"
+  },
+  "established/049j_colloquial_russian_complete_course.md": {
+    "mtime": 1789233968.4608407,
+    "seen": 1789305326.994066,
+    "ast_hash": "9ad87d75efce70f9eacc52baa4b9550f",
+    "semantic_hash": "9ad87d75efce70f9eacc52baa4b9550f"
+  },
+  "established/049k_colloquial_russian_complete_course.md": {
+    "mtime": 1789234099.098489,
+    "seen": 1789305326.9940665,
+    "ast_hash": "2cadf8c3dbc59e1f01f781e27898e111",
+    "semantic_hash": "2cadf8c3dbc59e1f01f781e27898e111"
+  },
+  "established/049l_colloquial_russian_complete_course.md": {
+    "mtime": 1789234243.351761,
+    "seen": 1789305326.9940672,
+    "ast_hash": "56cd0afd27292373ff5d70d472cfb41f",
+    "semantic_hash": "56cd0afd27292373ff5d70d472cfb41f"
+  },
+  "established/049m_colloquial_russian_complete_course.md": {
+    "mtime": 1789234382.474745,
+    "seen": 1789305326.9940677,
+    "ast_hash": "43f2905a8ea38a804c55a6ea620b2115",
+    "semantic_hash": "43f2905a8ea38a804c55a6ea620b2115"
+  },
+  "established/049n_colloquial_russian_complete_course.md": {
+    "mtime": 1789234511.1064413,
+    "seen": 1789305326.9940681,
+    "ast_hash": "bf56a572a2a627bf0243c0aac312afd5",
+    "semantic_hash": "bf56a572a2a627bf0243c0aac312afd5"
+  },
+  "established/049o_colloquial_russian_complete_course.md": {
+    "mtime": 1789234687.142601,
+    "seen": 1789305326.9940686,
+    "ast_hash": "74980676487173768c0134da27368a3d",
+    "semantic_hash": "74980676487173768c0134da27368a3d"
+  },
+  "established/049p_colloquial_russian_complete_course.md": {
+    "mtime": 1789234839.0953538,
+    "seen": 1789305326.9940693,
+    "ast_hash": "6128319a4544c72e52a69c73d0cf1282",
+    "semantic_hash": "6128319a4544c72e52a69c73d0cf1282"
+  },
+  "established/050_teach_yourself_russian.md": {
+    "mtime": 1789233321.3955722,
+    "seen": 1789305326.9940698,
+    "ast_hash": "5bdf2ed86390e800e9d68ae4239c87bb",
+    "semantic_hash": "5bdf2ed86390e800e9d68ae4239c87bb"
+  },
+  "established/050b_teach_yourself_russian.md": {
+    "mtime": 1789233376.326021,
+    "seen": 1789305326.9940703,
+    "ast_hash": "8e44321960769f3ff69b68c9d574e3f5",
+    "semantic_hash": "8e44321960769f3ff69b68c9d574e3f5"
+  },
+  "established/050c_teach_yourself_russian.md": {
+    "mtime": 1789233439.456536,
+    "seen": 1789305326.9940708,
+    "ast_hash": "a21f108416652318a1bdc7e6bd60f2f4",
+    "semantic_hash": "a21f108416652318a1bdc7e6bd60f2f4"
+  },
+  "established/050d_teach_yourself_russian.md": {
+    "mtime": 1789233507.613092,
+    "seen": 1789305326.9940712,
+    "ast_hash": "f2c53a0b69a452aabe26b78a6e087407",
+    "semantic_hash": "f2c53a0b69a452aabe26b78a6e087407"
+  },
+  "established/050e_teach_yourself_russian.md": {
+    "mtime": 1789233567.8605828,
+    "seen": 1789305326.9940717,
+    "ast_hash": "3476e37ebe1fd9c5fb5ee3b2c7bf0fd5",
+    "semantic_hash": "3476e37ebe1fd9c5fb5ee3b2c7bf0fd5"
+  },
+  "established/050f_teach_yourself_russian.md": {
+    "mtime": 1789233623.0610325,
+    "seen": 1789305326.9940724,
+    "ast_hash": "c953f3c855c5eb885d0655f2e569ac91",
+    "semantic_hash": "c953f3c855c5eb885d0655f2e569ac91"
+  },
+  "established/050g_teach_yourself_russian.md": {
+    "mtime": 1789233694.780616,
+    "seen": 1789305326.994073,
+    "ast_hash": "ab45d33f184553a5358f6af6b01fb607",
+    "semantic_hash": "ab45d33f184553a5358f6af6b01fb607"
+  },
+  "established/050h_teach_yourself_russian.md": {
+    "mtime": 1789233764.3161817,
+    "seen": 1789305326.9940734,
+    "ast_hash": "9de5438b4cc0856ebcb77a083d8fbd52",
+    "semantic_hash": "9de5438b4cc0856ebcb77a083d8fbd52"
+  },
+  "established/050i_teach_yourself_russian.md": {
+    "mtime": 1789233826.8216898,
+    "seen": 1789305326.994074,
+    "ast_hash": "b0eb17214f832229d2f58fc9e380e34d",
+    "semantic_hash": "b0eb17214f832229d2f58fc9e380e34d"
+  },
+  "established/050j_teach_yourself_russian.md": {
+    "mtime": 1789233894.8212423,
+    "seen": 1789305326.9940746,
+    "ast_hash": "5a8fbaab5b15ebd4b87e5d52ee167913",
+    "semantic_hash": "5a8fbaab5b15ebd4b87e5d52ee167913"
+  },
+  "established/050k_teach_yourself_russian.md": {
+    "mtime": 1789233946.955666,
+    "seen": 1789305326.994075,
+    "ast_hash": "70e0537a0eba1e9947b48c501a0c792c",
+    "semantic_hash": "70e0537a0eba1e9947b48c501a0c792c"
+  },
+  "established/050l_teach_yourself_russian.md": {
+    "mtime": 1789234021.7752736,
+    "seen": 1789305326.994076,
+    "ast_hash": "a9f9a8348c5e44586c653926e99106e9",
+    "semantic_hash": "a9f9a8348c5e44586c653926e99106e9"
+  },
+  "established/051_russian_in_exercises.md": {
+    "mtime": 1789220835.2682254,
+    "seen": 1789305326.9940763,
+    "ast_hash": "7a917b14b1d94a70742c3aa158b79bc9",
+    "semantic_hash": "7a917b14b1d94a70742c3aa158b79bc9"
+  },
+  "established/052_linguaphone_russian_course.md": {
+    "mtime": 1789220406.0327268,
+    "seen": 1789305326.9940767,
+    "ast_hash": "786e6b252d7299f03ad5dfceaac593f5",
+    "semantic_hash": "786e6b252d7299f03ad5dfceaac593f5"
+  },
+  "established/053_lets_talk_about_life.md": {
+    "mtime": 1789220236.9793355,
+    "seen": 1789305326.9940772,
+    "ast_hash": "17fac5baaef1c697f6bbe36226e26936",
+    "semantic_hash": "17fac5baaef1c697f6bbe36226e26936"
+  },
+  "established/053b_lets_talk_about_life.md": {
+    "mtime": 1789220312.5289586,
+    "seen": 1789305326.994078,
+    "ast_hash": "0616bb085dbe9c2ae3b14b61896c38c9",
+    "semantic_hash": "0616bb085dbe9c2ae3b14b61896c38c9"
+  },
+  "established/053c_lets_talk_about_life.md": {
+    "mtime": 1789220387.8845778,
+    "seen": 1789305326.9940784,
+    "ast_hash": "cf3127fdf3ae067fe640a996bac0e7ce",
+    "semantic_hash": "cf3127fdf3ae067fe640a996bac0e7ce"
+  },
+  "established/053d_lets_talk_about_life.md": {
+    "mtime": 1789220482.4303524,
+    "seen": 1789305326.9940789,
+    "ast_hash": "00d9d1c60a49bab1509be4ff79748715",
+    "semantic_hash": "00d9d1c60a49bab1509be4ff79748715"
+  },
+  "established/053e_lets_talk_about_life.md": {
+    "mtime": 1789220600.8383193,
+    "seen": 1789305326.9940796,
+    "ast_hash": "82e79a1e67905839e5479b0d085c340c",
+    "semantic_hash": "82e79a1e67905839e5479b0d085c340c"
+  },
+  "established/053f_lets_talk_about_life.md": {
+    "mtime": 1789220733.3183975,
+    "seen": 1789305326.99408,
+    "ast_hash": "3716dc8f207f492b1c37fc0e1f8c5aa4",
+    "semantic_hash": "3716dc8f207f492b1c37fc0e1f8c5aa4"
+  },
+  "established/053g_lets_talk_about_life.md": {
+    "mtime": 1789220791.6788716,
+    "seen": 1789305326.9940805,
+    "ast_hash": "06df7bc65cfb88095fcc7b92024aeb98",
+    "semantic_hash": "06df7bc65cfb88095fcc7b92024aeb98"
+  },
+  "established/053h_lets_talk_about_life.md": {
+    "mtime": 1789220937.6550553,
+    "seen": 1789305326.994081,
+    "ast_hash": "9cbc8216def4a8525eb3b316262adddf",
+    "semantic_hash": "9cbc8216def4a8525eb3b316262adddf"
+  },
+  "established/053i_lets_talk_about_life.md": {
+    "mtime": 1789233540.4683597,
+    "seen": 1789305326.9940815,
+    "ast_hash": "b7e55995b2bdab4ba158c7a2353c7df9",
+    "semantic_hash": "b7e55995b2bdab4ba158c7a2353c7df9"
+  },
+  "established/054_how_to_say_about_it.md": {
+    "mtime": 1789220345.0072258,
+    "seen": 1789305326.9940822,
+    "ast_hash": "fcf041bfb234dff2794824262dee46c5",
+    "semantic_hash": "fcf041bfb234dff2794824262dee46c5"
+  },
+  "established/054b_how_to_say_about_it.md": {
+    "mtime": 1789220421.2228513,
+    "seen": 1789305326.994083,
+    "ast_hash": "31051927e680baa1cce8656af85b2969",
+    "semantic_hash": "31051927e680baa1cce8656af85b2969"
+  },
+  "established/054d_how_to_say_about_it.md": {
+    "mtime": 1789220638.600627,
+    "seen": 1789305326.9940834,
+    "ast_hash": "d688dc2aba3243a1c54dd1868729917c",
+    "semantic_hash": "d688dc2aba3243a1c54dd1868729917c"
+  },
+  "established/054e_how_to_say_about_it.md": {
+    "mtime": 1789233312.0924962,
+    "seen": 1789305326.9940841,
+    "ast_hash": "be5f8b780cdb60a837f02ddc3e6546f5",
+    "semantic_hash": "be5f8b780cdb60a837f02ddc3e6546f5"
+  },
+  "established/054f_how_to_say_about_it.md": {
+    "mtime": 1789233384.78909,
+    "seen": 1789305326.9940846,
+    "ast_hash": "848dba5775892e928f8a2dd67ee952da",
+    "semantic_hash": "848dba5775892e928f8a2dd67ee952da"
+  },
+  "established/054h_how_to_say_about_it.md": {
+    "mtime": 1789233554.359473,
+    "seen": 1789305326.994085,
+    "ast_hash": "a6c1085034eabb578dbc143e3e38d6da",
+    "semantic_hash": "a6c1085034eabb578dbc143e3e38d6da"
+  },
+  "established/054k_how_to_say_about_it.md": {
+    "mtime": 1789233717.5548015,
+    "seen": 1789305326.9940858,
+    "ast_hash": "88f826a63efc082030c07b8c920e3417",
+    "semantic_hash": "88f826a63efc082030c07b8c920e3417"
+  },
+  "established/054l_how_to_say_about_it.md": {
+    "mtime": 1789233801.2164817,
+    "seen": 1789305326.9940865,
+    "ast_hash": "c3e5cbe7ae73c74028c2d90c527ff224",
+    "semantic_hash": "c3e5cbe7ae73c74028c2d90c527ff224"
+  },
+  "established/054m_how_to_say_about_it.md": {
+    "mtime": 1789233893.7322335,
+    "seen": 1789305326.994087,
+    "ast_hash": "37fb8a0a2dcd71c6f3b8462be985f3bd",
+    "semantic_hash": "37fb8a0a2dcd71c6f3b8462be985f3bd"
+  },
+  "established/054n_how_to_say_about_it.md": {
+    "mtime": 1789233965.6228175,
+    "seen": 1789305326.9940872,
+    "ast_hash": "396ba1f9546187776e30a727f9a0f3d2",
+    "semantic_hash": "396ba1f9546187776e30a727f9a0f3d2"
+  },
+  "established/054o_how_to_say_about_it.md": {
+    "mtime": 1789234045.5985775,
+    "seen": 1789305326.994088,
+    "ast_hash": "205ff57e134b9372d2b643ac77ad762a",
+    "semantic_hash": "205ff57e134b9372d2b643ac77ad762a"
+  },
+  "established/054p_how_to_say_about_it.md": {
+    "mtime": 1789234096.320443,
+    "seen": 1789305326.994089,
+    "ast_hash": "027b45cdf39e528e77235434c1d1743a",
+    "semantic_hash": "027b45cdf39e528e77235434c1d1743a"
+  },
+  "established/055_essential_russian_grammar.md": {
+    "mtime": 1789220252.2314615,
+    "seen": 1789305326.9940898,
+    "ast_hash": "d73601be572ef01f9c5751045a0e53b2",
+    "semantic_hash": "d73601be572ef01f9c5751045a0e53b2"
+  },
+  "established/056_russian_grammar_workbook.md": {
+    "mtime": 1789235476.198076,
+    "seen": 1789305326.9940903,
+    "ast_hash": "16e6ed16288fe6680c88197fb34a266d",
+    "semantic_hash": "16e6ed16288fe6680c88197fb34a266d"
+  },
+  "established/057_russian_verbs_of_motion.md": {
+    "mtime": 1789235382.78113,
+    "seen": 1789305326.9940908,
+    "ast_hash": "d6c6c82b9e4e595bd2d45ac276b5f731",
+    "semantic_hash": "d6c6c82b9e4e595bd2d45ac276b5f731"
+  },
+  "established/058_vozvratnye_glagoly_v_russkom_yazyke.md": {
+    "mtime": 1789235581.0021274,
+    "seen": 1789305326.9940913,
+    "ast_hash": "a47ddb8999923ae54acac0d1343388b0",
+    "semantic_hash": "a47ddb8999923ae54acac0d1343388b0"
+  },
+  "established/059_verb_use_in_russian.md": {
+    "mtime": 1789235416.6254737,
+    "seen": 1789305326.9940917,
+    "ast_hash": "d25adcb405ab97a1a40fff3df0059af8",
+    "semantic_hash": "d25adcb405ab97a1a40fff3df0059af8"
+  },
+  "established/060_walking_on_russian_vocabulary.md": {
+    "mtime": 1789235239.8046625,
+    "seen": 1789305326.9940922,
+    "ast_hash": "0c32cf57d442dcc22bc5d812be54337b",
+    "semantic_hash": "0c32cf57d442dcc22bc5d812be54337b"
+  },
+  "established/060b_walking_on_russian_vocabulary.md": {
+    "mtime": 1789235317.5444636,
+    "seen": 1789305326.9940927,
+    "ast_hash": "a36dcdbfaa5a95cbdfe4c1edf795b90a",
+    "semantic_hash": "a36dcdbfaa5a95cbdfe4c1edf795b90a"
+  },
+  "established/060c_walking_on_russian_vocabulary.md": {
+    "mtime": 1789235472.7930417,
+    "seen": 1789305326.9940934,
+    "ast_hash": "3b322bfad0630af5fd296b5cca98926e",
+    "semantic_hash": "3b322bfad0630af5fd296b5cca98926e"
+  },
+  "established/060d_walking_on_russian_vocabulary.md": {
+    "mtime": 1789279807.9969034,
+    "seen": 1789305326.994094,
+    "ast_hash": "3c772608bf032ada4e0771c2ea3b8c27",
+    "semantic_hash": "3c772608bf032ada4e0771c2ea3b8c27"
+  },
+  "established/060e_walking_on_russian_vocabulary.md": {
+    "mtime": 1789279917.3220458,
+    "seen": 1789305326.9940946,
+    "ast_hash": "f215ed8ab38971dfd82d731ffb30693c",
+    "semantic_hash": "f215ed8ab38971dfd82d731ffb30693c"
+  },
+  "established/060f_walking_on_russian_vocabulary.md": {
+    "mtime": 1789280082.326762,
+    "seen": 1789305326.994095,
+    "ast_hash": "dd6f816eaa94649dad8cc11e20acfb26",
+    "semantic_hash": "dd6f816eaa94649dad8cc11e20acfb26"
+  },
+  "established/060g_walking_on_russian_vocabulary.md": {
+    "mtime": 1789280266.9346733,
+    "seen": 1789305326.9940956,
+    "ast_hash": "1c16e60818a686eaf1a464517ec91db8",
+    "semantic_hash": "1c16e60818a686eaf1a464517ec91db8"
+  },
+  "established/060h_walking_on_russian_vocabulary.md": {
+    "mtime": 1789280344.2304714,
+    "seen": 1789305326.994096,
+    "ast_hash": "075af0daf7f99d26d6e9cda20d0e3e6d",
+    "semantic_hash": "075af0daf7f99d26d6e9cda20d0e3e6d"
+  },
+  "established/061_everything_in_its_time.md": {
+    "mtime": 1789235221.425472,
+    "seen": 1789305326.9940968,
+    "ast_hash": "ff0b331e679861eabd28d90a2939af84",
+    "semantic_hash": "ff0b331e679861eabd28d90a2939af84"
+  },
+  "established/061b_everything_in_its_time.md": {
+    "mtime": 1789235338.5526788,
+    "seen": 1789305326.9940975,
+    "ast_hash": "bcd0ae588daa2ef95f860e3aa02a2d97",
+    "semantic_hash": "bcd0ae588daa2ef95f860e3aa02a2d97"
+  },
+  "established/061c_everything_in_its_time.md": {
+    "mtime": 1789235406.1503675,
+    "seen": 1789305326.994098,
+    "ast_hash": "6b3409450949003cdf0684d3aa331205",
+    "semantic_hash": "6b3409450949003cdf0684d3aa331205"
+  },
+  "established/061d_everything_in_its_time.md": {
+    "mtime": 1789279628.289013,
+    "seen": 1789305326.9940984,
+    "ast_hash": "c129baef188205138a3f5c714f010213",
+    "semantic_hash": "c129baef188205138a3f5c714f010213"
+  },
+  "established/062_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789235125.5464685,
+    "seen": 1789305326.994099,
+    "ast_hash": "a78a115c97f34b1ba91e8144329418b2",
+    "semantic_hash": "a78a115c97f34b1ba91e8144329418b2"
+  },
+  "established/062b_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789235256.466835,
+    "seen": 1789305326.9940994,
+    "ast_hash": "06bb3747f7116d7974baea4f073bd554",
+    "semantic_hash": "06bb3747f7116d7974baea4f073bd554"
+  },
+  "established/062c_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789235351.187808,
+    "seen": 1789305326.9940999,
+    "ast_hash": "0464ee1ee958eac7b636a301731a7166",
+    "semantic_hash": "0464ee1ee958eac7b636a301731a7166"
+  },
+  "established/062d_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789235468.0289936,
+    "seen": 1789305326.9941006,
+    "ast_hash": "c246845421600543047913b00943ab02",
+    "semantic_hash": "c246845421600543047913b00943ab02"
+  },
+  "established/062e_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789279640.6371434,
+    "seen": 1789305326.994101,
+    "ast_hash": "5475f11778630a7325b150db72420bff",
+    "semantic_hash": "5475f11778630a7325b150db72420bff"
+  },
+  "established/062f_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789279850.489348,
+    "seen": 1789305326.9941015,
+    "ast_hash": "bbba4992e30e1d16565669df7cccf3b3",
+    "semantic_hash": "bbba4992e30e1d16565669df7cccf3b3"
+  },
+  "established/062g_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789280037.5642972,
+    "seen": 1789305326.994102,
+    "ast_hash": "4649a36c50f8984af360d4167df99561",
+    "semantic_hash": "4649a36c50f8984af360d4167df99561"
+  },
+  "established/062h_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789280236.928363,
+    "seen": 1789305326.9941027,
+    "ast_hash": "c59174873c874c4345987e8caf8a4321",
+    "semantic_hash": "c59174873c874c4345987e8caf8a4321"
+  },
+  "established/062i_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789280443.0494907,
+    "seen": 1789305326.9941032,
+    "ast_hash": "9638b793d17feb4b129f1ef01e62f0c9",
+    "semantic_hash": "9638b793d17feb4b129f1ef01e62f0c9"
+  },
+  "established/062j_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789280618.7502997,
+    "seen": 1789305326.994104,
+    "ast_hash": "bb32688b8e0d163f46df1f72cdea9df2",
+    "semantic_hash": "bb32688b8e0d163f46df1f72cdea9df2"
+  },
+  "established/062k_russian_punctuation_and_related_symbols.md": {
+    "mtime": 1789280777.8019347,
+    "seen": 1789305326.9941044,
+    "ast_hash": "c0e7d559b3e48d636b2f4899a816b489",
+    "semantic_hash": "c0e7d559b3e48d636b2f4899a816b489"
+  },
+  "established/063_10_urokov_russkogo_rechevogo_etiketa.md": {
+    "mtime": 1789235412.5294323,
+    "seen": 1789305326.9941049,
+    "ast_hash": "042cb1d2cd7fa758962e8be1c384e9ed",
+    "semantic_hash": "042cb1d2cd7fa758962e8be1c384e9ed"
+  },
+  "established/064_oxford_russian_grammar_and_verbs.md": {
+    "mtime": 1789281216.456126,
+    "seen": 1789305326.9941053,
+    "ast_hash": "15dff898adab2231fac2d3b2bc733ef3",
+    "semantic_hash": "15dff898adab2231fac2d3b2bc733ef3"
+  },
+  "established/065_the_case_book_for_russian.md": {
+    "mtime": 1789281197.162006,
+    "seen": 1789305326.9941058,
+    "ast_hash": "41cbc9ac20af8deed144d770ccc14086",
+    "semantic_hash": "41cbc9ac20af8deed144d770ccc14086"
+  },
+  "established/065b_the_case_book_for_russian.md": {
+    "mtime": 1789281311.9477558,
+    "seen": 1789305326.9941063,
+    "ast_hash": "3d538b932fa8e5e4868920225a89c991",
+    "semantic_hash": "3d538b932fa8e5e4868920225a89c991"
+  },
+  "established/065c_the_case_book_for_russian.md": {
+    "mtime": 1789281431.7536173,
+    "seen": 1789305326.9941068,
+    "ast_hash": "88fd5a9d23147163b9bff03df0a73b89",
+    "semantic_hash": "88fd5a9d23147163b9bff03df0a73b89"
+  },
+  "established/065d_the_case_book_for_russian.md": {
+    "mtime": 1789281556.111579,
+    "seen": 1789305326.9941075,
+    "ast_hash": "5724353a343951835c4c03091d27938c",
+    "semantic_hash": "5724353a343951835c4c03091d27938c"
+  },
+  "established/065e_the_case_book_for_russian.md": {
+    "mtime": 1789281640.8692658,
+    "seen": 1789305326.994108,
+    "ast_hash": "f0834c2a9ee54c8840e04b48ab6de0cf",
+    "semantic_hash": "f0834c2a9ee54c8840e04b48ab6de0cf"
+  },
+  "established/066_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789281203.466045,
+    "seen": 1789305326.9941084,
+    "ast_hash": "2a80c3fbf0fddf89aa21c6cd57121bfd",
+    "semantic_hash": "2a80c3fbf0fddf89aa21c6cd57121bfd"
+  },
+  "established/066b_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789281335.5459197,
+    "seen": 1789305326.994109,
+    "ast_hash": "7d7b926a1d5d4fd2dce1e56a31766937",
+    "semantic_hash": "7d7b926a1d5d4fd2dce1e56a31766937"
+  },
+  "established/066c_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789281447.6207366,
+    "seen": 1789305326.9941094,
+    "ast_hash": "1650113e2feded173e1b267cce7b31d8",
+    "semantic_hash": "1650113e2feded173e1b267cce7b31d8"
+  },
+  "established/066g_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789281842.0899758,
+    "seen": 1789305326.9941099,
+    "ast_hash": "51434019cabf974f47cc8da51974c021",
+    "semantic_hash": "51434019cabf974f47cc8da51974c021"
+  },
+  "established/066j_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789282074.46805,
+    "seen": 1789305326.9941103,
+    "ast_hash": "07fcca2c25d4c2d3bbc5110a2993de85",
+    "semantic_hash": "07fcca2c25d4c2d3bbc5110a2993de85"
+  },
+  "established/066o_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789282539.1933804,
+    "seen": 1789305326.994111,
+    "ast_hash": "96380225020c2245ee86a1bd793c86d0",
+    "semantic_hash": "96380225020c2245ee86a1bd793c86d0"
+  },
+  "established/066p_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789282706.1939702,
+    "seen": 1789305326.9941115,
+    "ast_hash": "189c0c55d5d213521e36f8636e718cf7",
+    "semantic_hash": "189c0c55d5d213521e36f8636e718cf7"
+  },
+  "established/066q_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789282802.519892,
+    "seen": 1789305326.994112,
+    "ast_hash": "00db6a583faad49be2cdcbd515fb985c",
+    "semantic_hash": "00db6a583faad49be2cdcbd515fb985c"
+  },
+  "established/066r_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789282925.4720728,
+    "seen": 1789305326.9941125,
+    "ast_hash": "9976ad67986f86b8f3ff0220756d272c",
+    "semantic_hash": "9976ad67986f86b8f3ff0220756d272c"
+  },
+  "established/066s_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789297533.4933372,
+    "seen": 1789305326.994113,
+    "ast_hash": "27fe087ccfe861861c77511fe4a75cdc",
+    "semantic_hash": "27fe087ccfe861861c77511fe4a75cdc"
+  },
+  "established/066t_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789297659.0939732,
+    "seen": 1789305326.9941134,
+    "ast_hash": "364439c80534637af15cd19e73706a8e",
+    "semantic_hash": "364439c80534637af15cd19e73706a8e"
+  },
+  "established/066u_uchebno_spravochnoe_posobie_po_leksike.md": {
+    "mtime": 1789297786.35032,
+    "seen": 1789305326.9941142,
+    "ast_hash": "e801da99eb51fcd77212b33211000a4b",
+    "semantic_hash": "e801da99eb51fcd77212b33211000a4b"
+  },
+  "established/067_russian_grammar_in_illustrations.md": {
+    "mtime": 1789281327.582864,
+    "seen": 1789305326.9941146,
+    "ast_hash": "5cb33c06d6061cba79d84cf76de168c0",
+    "semantic_hash": "5cb33c06d6061cba79d84cf76de168c0"
+  },
+  "established/068_survival_russian.md": {
+    "mtime": 1789281251.6503515,
+    "seen": 1789305326.9941154,
+    "ast_hash": "ad21e2eb31ad9ca297b8d86bea5698a0",
+    "semantic_hash": "ad21e2eb31ad9ca297b8d86bea5698a0"
+  },
+  "established/068b_survival_russian.md": {
+    "mtime": 1789281368.5831542,
+    "seen": 1789305326.9941158,
+    "ast_hash": "ab379c4ff49bc619ab1cd3273ed40f19",
+    "semantic_hash": "ab379c4ff49bc619ab1cd3273ed40f19"
+  },
+  "established/068c_survival_russian.md": {
+    "mtime": 1789281442.1706955,
+    "seen": 1789305326.9941163,
+    "ast_hash": "e8905251cd58477efd429eb1e8d99aab",
+    "semantic_hash": "e8905251cd58477efd429eb1e8d99aab"
+  },
+  "established/068d_survival_russian.md": {
+    "mtime": 1789281484.0440142,
+    "seen": 1789305326.9941168,
+    "ast_hash": "edf57433249c0c8ad13315ae8a8a614d",
+    "semantic_hash": "edf57433249c0c8ad13315ae8a8a614d"
+  },
+  "established/068e_survival_russian.md": {
+    "mtime": 1789281544.7244883,
+    "seen": 1789305326.9941173,
+    "ast_hash": "eca08e3034a8d5992f868c22cf7f0908",
+    "semantic_hash": "eca08e3034a8d5992f868c22cf7f0908"
+  },
+  "established/068f_survival_russian.md": {
+    "mtime": 1789281668.4964945,
+    "seen": 1789305326.994118,
+    "ast_hash": "5c23b96dcc2782e8fa213231ae1dde14",
+    "semantic_hash": "5c23b96dcc2782e8fa213231ae1dde14"
+  },
+  "established/068g_survival_russian.md": {
+    "mtime": 1789281777.5284166,
+    "seen": 1789305326.9941185,
+    "ast_hash": "b099588ed56e1d382d3c71602112388a",
+    "semantic_hash": "b099588ed56e1d382d3c71602112388a"
+  },
+  "established/068h_survival_russian.md": {
+    "mtime": 1789281907.0315466,
+    "seen": 1789305326.994119,
+    "ast_hash": "d3d5a8488abbf4583fb13fa94376375c",
+    "semantic_hash": "d3d5a8488abbf4583fb13fa94376375c"
+  },
+  "established/068i_survival_russian.md": {
+    "mtime": 1789282065.0679646,
+    "seen": 1789305326.9941196,
+    "ast_hash": "9e657c6ac27cb9d77cedf1f0151a7008",
+    "semantic_hash": "9e657c6ac27cb9d77cedf1f0151a7008"
+  },
+  "established/068j_survival_russian.md": {
+    "mtime": 1789282150.1927423,
+    "seen": 1789305326.9941201,
+    "ast_hash": "0870d9addec3be4fa54bdc18a90ebf7d",
+    "semantic_hash": "0870d9addec3be4fa54bdc18a90ebf7d"
+  },
+  "established/068k_survival_russian.md": {
+    "mtime": 1789282281.5209572,
+    "seen": 1789305326.9941206,
+    "ast_hash": "494fa33db33fdff278da81e980a409e7",
+    "semantic_hash": "494fa33db33fdff278da81e980a409e7"
+  },
+  "established/068l_survival_russian.md": {
+    "mtime": 1789282371.5137985,
+    "seen": 1789305326.9941213,
+    "ast_hash": "013990eb45c52bde6bef3ef163531542",
+    "semantic_hash": "013990eb45c52bde6bef3ef163531542"
+  },
+  "established/068m_survival_russian.md": {
+    "mtime": 1789282461.156642,
+    "seen": 1789305326.9941218,
+    "ast_hash": "0873f40f11fa215e5344dd4acdc4a830",
+    "semantic_hash": "0873f40f11fa215e5344dd4acdc4a830"
+  },
+  "established/068n_survival_russian.md": {
+    "mtime": 1789282555.9785395,
+    "seen": 1789305326.9941223,
+    "ast_hash": "626f93711803480956f376a1911f0bf4",
+    "semantic_hash": "626f93711803480956f376a1911f0bf4"
+  },
+  "established/068o_survival_russian.md": {
+    "mtime": 1789282709.7570043,
+    "seen": 1789305326.9941227,
+    "ast_hash": "a27152e9300a3a9c3676d6edef7d36be",
+    "semantic_hash": "a27152e9300a3a9c3676d6edef7d36be"
+  },
+  "established/068p_survival_russian.md": {
+    "mtime": 1789297518.1521578,
+    "seen": 1789305326.9941232,
+    "ast_hash": "df60422f786e008d33218c7fa8769fcb",
+    "semantic_hash": "df60422f786e008d33218c7fa8769fcb"
+  },
+  "established/069_modern_russian_grammar_part1.md": {
+    "mtime": 1789299425.7006078,
+    "seen": 1789305326.9941237,
+    "ast_hash": "19ec2b21aec583c833d3730da6e3a12b",
+    "semantic_hash": "19ec2b21aec583c833d3730da6e3a12b"
+  },
+  "established/070_modern_russian_grammar_part2.md": {
+    "mtime": 1789299465.2219906,
+    "seen": 1789305326.9941247,
+    "ast_hash": "05bf1fe7f3cb1b145dfcd9223d5d362a",
+    "semantic_hash": "05bf1fe7f3cb1b145dfcd9223d5d362a"
+  },
+  "established/071_modern_russian_grammar_part3.md": {
+    "mtime": 1789300473.7111828,
+    "seen": 1789305326.994129,
+    "ast_hash": "3a5c09232363838a158eccaafddc6d4a",
+    "semantic_hash": "3a5c09232363838a158eccaafddc6d4a"
+  },
+  "established/072_modern_russian_grammar_part4.md": {
+    "mtime": 1789299897.2459238,
+    "seen": 1789305326.9941294,
+    "ast_hash": "13fc9723988a3dabc92854d2ae82efac",
+    "semantic_hash": "13fc9723988a3dabc92854d2ae82efac"
+  },
+  "established/073_new_penguin_russian_course.md": {
+    "mtime": 1789299285.186238,
+    "seen": 1789305326.99413,
+    "ast_hash": "c515596d47227f000bb79a3512df65fb",
+    "semantic_hash": "c515596d47227f000bb79a3512df65fb"
+  },
+  "established/073b_new_penguin_russian_course.md": {
+    "mtime": 1789299413.2144866,
+    "seen": 1789305326.9941304,
+    "ast_hash": "4eafeb5a808a059339e271a1110272e3",
+    "semantic_hash": "4eafeb5a808a059339e271a1110272e3"
+  },
+  "established/073c_new_penguin_russian_course.md": {
+    "mtime": 1789299643.7906582,
+    "seen": 1789305326.9941308,
+    "ast_hash": "690eeec631c36baf4d9951cdbef09814",
+    "semantic_hash": "690eeec631c36baf4d9951cdbef09814"
+  },
+  "established/074_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789299315.7465372,
+    "seen": 1789305326.9941316,
+    "ast_hash": "c89e153e728909113ad8acb492446274",
+    "semantic_hash": "c89e153e728909113ad8acb492446274"
+  },
+  "established/074b_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789299446.988814,
+    "seen": 1789305326.994132,
+    "ast_hash": "c698b33c7ad438ad3a7c6840bc8f1376",
+    "semantic_hash": "c698b33c7ad438ad3a7c6840bc8f1376"
+  },
+  "established/074c_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789299553.4228415,
+    "seen": 1789305326.9941325,
+    "ast_hash": "e624f52bbccc08cc6c87ca57a7539d60",
+    "semantic_hash": "e624f52bbccc08cc6c87ca57a7539d60"
+  },
+  "established/074d_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789299615.022404,
+    "seen": 1789305326.994133,
+    "ast_hash": "e3e614e46835805c2624f3f5b8058e43",
+    "semantic_hash": "e3e614e46835805c2624f3f5b8058e43"
+  },
+  "established/074e_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789300713.7293942,
+    "seen": 1789305326.9941337,
+    "ast_hash": "ada2d0b68c25744e6c9f5553020c7c6c",
+    "semantic_hash": "ada2d0b68c25744e6c9f5553020c7c6c"
+  },
+  "established/074f_russian_grammar_in_literary_contexts.md": {
+    "mtime": 1789300838.2495441,
+    "seen": 1789305326.9941342,
+    "ast_hash": "c3abbaee474773442ad22d0f559add0e",
+    "semantic_hash": "c3abbaee474773442ad22d0f559add0e"
+  },
+  "established/075_ultimate_russian_beginner_intermediate.md": {
+    "mtime": 1789300903.6401484,
+    "seen": 1789305326.994135,
+    "ast_hash": "ea61b2fa40f3683810a102afa589d41a",
+    "semantic_hash": "ea61b2fa40f3683810a102afa589d41a"
+  },
+  "established/076_ultimate_russian_advanced.md": {
+    "mtime": 1789300939.7994828,
+    "seen": 1789305326.9941354,
+    "ast_hash": "3d6ab0a9a56cef23029df6c0628aac5a",
+    "semantic_hash": "3d6ab0a9a56cef23029df6c0628aac5a"
+  },
+  "established/076b_ultimate_russian_advanced.md": {
+    "mtime": 1789301019.1532168,
+    "seen": 1789305326.9941359,
+    "ast_hash": "ea2937453b81007f38c669b33d6a62aa",
+    "semantic_hash": "ea2937453b81007f38c669b33d6a62aa"
+  },
+  "established/076c_ultimate_russian_advanced.md": {
+    "mtime": 1789301093.0059001,
+    "seen": 1789305326.9941366,
+    "ast_hash": "37751dda301dd264e2e318610a055e23",
+    "semantic_hash": "37751dda301dd264e2e318610a055e23"
+  },
+  "established/076d_ultimate_russian_advanced.md": {
+    "mtime": 1789301175.2496617,
+    "seen": 1789305326.994137,
+    "ast_hash": "2f2934e3264a602185241207f9cfeefc",
+    "semantic_hash": "2f2934e3264a602185241207f9cfeefc"
+  },
+  "established/076e_ultimate_russian_advanced.md": {
+    "mtime": 1789301245.25731,
+    "seen": 1789305326.9941375,
+    "ast_hash": "2685da8a41014ba2a61b5cbecaa73436",
+    "semantic_hash": "2685da8a41014ba2a61b5cbecaa73436"
+  },
+  "established/076f_ultimate_russian_advanced.md": {
+    "mtime": 1789301300.0138173,
+    "seen": 1789305326.994138,
+    "ast_hash": "6a85aa431b879b959bfe48b82832b47e",
+    "semantic_hash": "6a85aa431b879b959bfe48b82832b47e"
+  },
+  "established/076g_ultimate_russian_advanced.md": {
+    "mtime": 1789301379.751556,
+    "seen": 1789305326.9941397,
+    "ast_hash": "05d4e98bb3de7ee11148d1b35fb475c8",
+    "semantic_hash": "05d4e98bb3de7ee11148d1b35fb475c8"
+  },
+  "established/077_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301237.2622359,
+    "seen": 1789305326.9941401,
+    "ast_hash": "cd6cbc5c840e4fbec824fb355e2dad7b",
+    "semantic_hash": "cd6cbc5c840e4fbec824fb355e2dad7b"
+  },
+  "established/077b_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301287.3186996,
+    "seen": 1789305326.9941406,
+    "ast_hash": "baf9bdba02f08cc83d7fbfd70b07e949",
+    "semantic_hash": "baf9bdba02f08cc83d7fbfd70b07e949"
+  },
+  "established/077c_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301345.0342343,
+    "seen": 1789305326.994141,
+    "ast_hash": "cd9eb6dcce87fb9998e9b7838b4478e7",
+    "semantic_hash": "cd9eb6dcce87fb9998e9b7838b4478e7"
+  },
+  "established/077d_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301387.4616275,
+    "seen": 1789305326.9941416,
+    "ast_hash": "0b64d2011aff3c87d45abbdc27743a36",
+    "semantic_hash": "0b64d2011aff3c87d45abbdc27743a36"
+  },
+  "established/077e_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301418.5539157,
+    "seen": 1789305326.9941423,
+    "ast_hash": "b0a806da378d343d5028a08f6d6e7e63",
+    "semantic_hash": "b0a806da378d343d5028a08f6d6e7e63"
+  },
+  "established/077f_russian_grammar_in_exercises_part1_morphology.md": {
+    "mtime": 1789301454.9912534,
+    "seen": 1789305326.994143,
+    "ast_hash": "8fae08b127404922bc2d4d611d5d4272",
+    "semantic_hash": "8fae08b127404922bc2d4d611d5d4272"
+  },
+  "established/078_russian_grammar_in_exercises_part2_syntax.md": {
+    "mtime": 1789300867.9808187,
+    "seen": 1789305326.9941435,
+    "ast_hash": "087eadced98c98a81aa1dc352d7b75ef",
+    "semantic_hash": "087eadced98c98a81aa1dc352d7b75ef"
+  },
+  "established/078b_russian_grammar_in_exercises_part2_syntax.md": {
+    "mtime": 1789301059.058586,
+    "seen": 1789305326.994144,
+    "ast_hash": "8573986f76f167353b93568c83292a58",
+    "semantic_hash": "8573986f76f167353b93568c83292a58"
+  },
+  "established/078c_russian_grammar_in_exercises_part2_syntax.md": {
+    "mtime": 1789301204.0619285,
+    "seen": 1789305326.9941444,
+    "ast_hash": "6d1610b48af20a5c9b76d46856114f1c",
+    "semantic_hash": "6d1610b48af20a5c9b76d46856114f1c"
+  },
+  "established/079_troika.md": {
+    "mtime": 1789301755.9277756,
+    "seen": 1789305326.994145,
+    "ast_hash": "897f1d3bf01254f3cd95c0727f71b5e3",
+    "semantic_hash": "897f1d3bf01254f3cd95c0727f71b5e3"
+  },
+  "established/080_spravochnik_po_russkoy_grammatike.md": {
+    "mtime": 1789301816.9672348,
+    "seen": 1789305326.9941456,
+    "ast_hash": "82110a4f9b15637c853e77d713fc7c02",
+    "semantic_hash": "82110a4f9b15637c853e77d713fc7c02"
+  },
+  "established/081_znayu_i_lyublyu_russkie_glagoly.md": {
+    "mtime": 1789301821.6012702,
+    "seen": 1789305326.994146,
+    "ast_hash": "ca45ab843ced7e0ebd06fbd44555291b",
+    "semantic_hash": "ca45ab843ced7e0ebd06fbd44555291b"
+  },
+  "established/082_pogovorim.md": {
+    "mtime": 1789301690.605297,
+    "seen": 1789305326.9941466,
+    "ast_hash": "dbecc8032b29be1755ee73962c683275",
+    "semantic_hash": "dbecc8032b29be1755ee73962c683275"
+  },
+  "established/082b_pogovorim.md": {
+    "mtime": 1789301755.0937696,
+    "seen": 1789305326.994147,
+    "ast_hash": "66ba3b265af299c2dc215c4c62763822",
+    "semantic_hash": "66ba3b265af299c2dc215c4c62763822"
+  },
+  "established/082c_pogovorim.md": {
+    "mtime": 1789301832.0863504,
+    "seen": 1789305326.9941475,
+    "ast_hash": "12f74915c9d9fe18921623eb35aaab70",
+    "semantic_hash": "12f74915c9d9fe18921623eb35aaab70"
+  },
+  "established/082d_pogovorim.md": {
+    "mtime": 1789301886.8547733,
+    "seen": 1789305326.994148,
+    "ast_hash": "e85fb8c90400ec8a603345fe69929e4d",
+    "semantic_hash": "e85fb8c90400ec8a603345fe69929e4d"
+  },
+  "established/082e_pogovorim.md": {
+    "mtime": 1789301940.6201956,
+    "seen": 1789305326.9941485,
+    "ast_hash": "26dfb13c37df0a175d2ab77565a487cc",
+    "semantic_hash": "26dfb13c37df0a175d2ab77565a487cc"
+  },
+  "established/082f_pogovorim.md": {
+    "mtime": 1789302021.924846,
+    "seen": 1789305326.9941494,
+    "ast_hash": "97ddf2ef39cd1b6269d794bcc81ee925",
+    "semantic_hash": "97ddf2ef39cd1b6269d794bcc81ee925"
+  },
+  "established/082g_pogovorim.md": {
+    "mtime": 1789302105.613528,
+    "seen": 1789305326.99415,
+    "ast_hash": "4037f9ed7bb39f35e7aea86e25cf6f9b",
+    "semantic_hash": "4037f9ed7bb39f35e7aea86e25cf6f9b"
+  },
+  "established/082h_pogovorim.md": {
+    "mtime": 1789302155.4359396,
+    "seen": 1789305326.9941504,
+    "ast_hash": "152d8afe9a0ec01bf9664e91eea8fea2",
+    "semantic_hash": "152d8afe9a0ec01bf9664e91eea8fea2"
+  },
+  "established/082i_pogovorim.md": {
+    "mtime": 1789302202.439331,
+    "seen": 1789305326.9941509,
+    "ast_hash": "9d3e66a86397dc60d5f98a56451613b2",
+    "semantic_hash": "9d3e66a86397dc60d5f98a56451613b2"
+  },
+  "established/082j_pogovorim.md": {
+    "mtime": 1789302257.0717895,
+    "seen": 1789305326.9941514,
+    "ast_hash": "398a5d091156617ce799d31d287056de",
+    "semantic_hash": "398a5d091156617ce799d31d287056de"
+  },
+  "established/082k_pogovorim.md": {
+    "mtime": 1789302352.2375965,
+    "seen": 1789305326.9941518,
+    "ast_hash": "2cde8ff5fa5f9bc8042e4d8d212e2010",
+    "semantic_hash": "2cde8ff5fa5f9bc8042e4d8d212e2010"
+  },
+  "established/083_shag_za_shagom.md": {
+    "mtime": 1789301818.568247,
+    "seen": 1789305326.9941525,
+    "ast_hash": "4280a40d253765e89a763a1d02dff9d2",
+    "semantic_hash": "4280a40d253765e89a763a1d02dff9d2"
+  },
+  "established/084_slushayte_sprashivayte_otvechayte.md": {
+    "mtime": 1789301989.3075833,
+    "seen": 1789305326.994153,
+    "ast_hash": "b4f8261d9b763e270a280df17cb7e6de",
+    "semantic_hash": "b4f8261d9b763e270a280df17cb7e6de"
+  },
+  "established/085_budem_znakomy.md": {
+    "mtime": 1789301756.901783,
+    "seen": 1789305326.9941535,
+    "ast_hash": "acebb7d1d198d38a745d6007c70ba2f7",
+    "semantic_hash": "acebb7d1d198d38a745d6007c70ba2f7"
+  },
+  "established/086_chitaya_skazki.md": {
+    "mtime": 1789301841.6164234,
+    "seen": 1789305326.994154,
+    "ast_hash": "d17ff0effc9a841f824166780a41ca23",
+    "semantic_hash": "d17ff0effc9a841f824166780a41ca23"
+  },
+  "established/086b_chitaya_skazki.md": {
+    "mtime": 1789302009.9957497,
+    "seen": 1789305326.9941545,
+    "ast_hash": "44df5dc0febf3a3c9f80c296ca3e884f",
+    "semantic_hash": "44df5dc0febf3a3c9f80c296ca3e884f"
+  },
+  "established/086c_chitaya_skazki.md": {
+    "mtime": 1789302117.4846258,
+    "seen": 1789305326.994155,
+    "ast_hash": "8d158c2c548285de59db0640e4ad4ad1",
+    "semantic_hash": "8d158c2c548285de59db0640e4ad4ad1"
+  },
+  "established/086d_chitaya_skazki.md": {
+    "mtime": 1789302275.8569481,
+    "seen": 1789305326.9941554,
+    "ast_hash": "0aa563eb8ac57c14c4862cfcdf2b92e6",
+    "semantic_hash": "0aa563eb8ac57c14c4862cfcdf2b92e6"
+  },
+  "established/087_russkiy_yazyk_dlya_nachinayushchikh.md": {
+    "mtime": 1789302591.3776598,
+    "seen": 1789305326.9941561,
+    "ast_hash": "46271be870ec13c7f5890a53a8405267",
+    "semantic_hash": "46271be870ec13c7f5890a53a8405267"
+  },
+  "established/088_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789302552.0223174,
+    "seen": 1789305326.9941566,
+    "ast_hash": "ebb279040c6fab9d9a8342bacf721a55",
+    "semantic_hash": "ebb279040c6fab9d9a8342bacf721a55"
+  },
+  "established/088b_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789302620.7739162,
+    "seen": 1789305326.994157,
+    "ast_hash": "b6029bf3b047bd869d8dda6673ffd56f",
+    "semantic_hash": "b6029bf3b047bd869d8dda6673ffd56f"
+  },
+  "established/088d_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789302737.7279413,
+    "seen": 1789305326.9941578,
+    "ast_hash": "17f40869c306924a8933b6ff65b9a4f6",
+    "semantic_hash": "17f40869c306924a8933b6ff65b9a4f6"
+  },
+  "established/088e_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789302796.9144623,
+    "seen": 1789305326.9941583,
+    "ast_hash": "58bad4965b6f80c46f3d4d6f06f5badb",
+    "semantic_hash": "58bad4965b6f80c46f3d4d6f06f5badb"
+  },
+  "established/088h_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789302953.1408443,
+    "seen": 1789305326.9941587,
+    "ast_hash": "965c398f0165a3cc7d6053e0f085fed0",
+    "semantic_hash": "965c398f0165a3cc7d6053e0f085fed0"
+  },
+  "established/088k_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789303113.7172725,
+    "seen": 1789305326.9941595,
+    "ast_hash": "592a09eb92a5ed4ab7ea47b374226fe6",
+    "semantic_hash": "592a09eb92a5ed4ab7ea47b374226fe6"
+  },
+  "established/088l_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789303200.2850447,
+    "seen": 1789305326.99416,
+    "ast_hash": "b0413b5ea21bc5c562b8358bcc00135d",
+    "semantic_hash": "b0413b5ea21bc5c562b8358bcc00135d"
+  },
+  "established/088n_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789303322.5971384,
+    "seen": 1789305326.9941604,
+    "ast_hash": "d7a3a3fbf454aad18be74cd0e0481fca",
+    "semantic_hash": "d7a3a3fbf454aad18be74cd0e0481fca"
+  },
+  "established/088o_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789303383.6256847,
+    "seen": 1789305326.994161,
+    "ast_hash": "63b27ffd4ea1cd9886f4a368f03a5f65",
+    "semantic_hash": "63b27ffd4ea1cd9886f4a368f03a5f65"
+  },
+  "established/088p_russkiy_yazyk_sredniy_etap.md": {
+    "mtime": 1789303434.7191427,
+    "seen": 1789305326.9941614,
+    "ast_hash": "27a41f3782b472738ab0c9a87d44b054",
+    "semantic_hash": "27a41f3782b472738ab0c9a87d44b054"
+  },
+  "established/089_russkiy_yazyk_kak_inostranniy_nachalniy_kurs.md": {
+    "mtime": 1789302661.6332736,
+    "seen": 1789305326.9941618,
+    "ast_hash": "1186c9b1aa4022020901795073b19c47",
+    "semantic_hash": "1186c9b1aa4022020901795073b19c47"
+  },
+  "established/090_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302581.3565726,
+    "seen": 1789305326.9941628,
+    "ast_hash": "b7ae6eaed701666b57ab9679ef09aa7c",
+    "semantic_hash": "b7ae6eaed701666b57ab9679ef09aa7c"
+  },
+  "established/090b_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302617.2478855,
+    "seen": 1789305326.9941633,
+    "ast_hash": "9428d364e90f1f045e79eb21080d133b",
+    "semantic_hash": "9428d364e90f1f045e79eb21080d133b"
+  },
+  "established/090c_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302700.720616,
+    "seen": 1789305326.9941638,
+    "ast_hash": "735a071e0fe41bdee55c6a1ddd539452",
+    "semantic_hash": "735a071e0fe41bdee55c6a1ddd539452"
+  },
+  "established/090d_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302765.5901864,
+    "seen": 1789305326.9941642,
+    "ast_hash": "1471d30053a40c6fc302ef0d58d88bd6",
+    "semantic_hash": "1471d30053a40c6fc302ef0d58d88bd6"
+  },
+  "established/090e_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302822.6466894,
+    "seen": 1789305326.9941647,
+    "ast_hash": "09dbb16dca9292b49abb7ceea2d92db5",
+    "semantic_hash": "09dbb16dca9292b49abb7ceea2d92db5"
+  },
+  "established/090f_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302875.8141592,
+    "seen": 1789305326.9941652,
+    "ast_hash": "763c26197164326497048bdbfe568bce",
+    "semantic_hash": "763c26197164326497048bdbfe568bce"
+  },
+  "established/090g_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789302944.6127687,
+    "seen": 1789305326.9941657,
+    "ast_hash": "fe785fbbbb43803e8d98d2c319cb014a",
+    "semantic_hash": "fe785fbbbb43803e8d98d2c319cb014a"
+  },
+  "established/090h_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789303010.421353,
+    "seen": 1789305326.9941664,
+    "ast_hash": "3392178f51728ee4afaed7ad6b80d2b6",
+    "semantic_hash": "3392178f51728ee4afaed7ad6b80d2b6"
+  },
+  "established/090i_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789303107.6452184,
+    "seen": 1789305326.994167,
+    "ast_hash": "90e177dc25586daf098cdc3fe2ce8609",
+    "semantic_hash": "90e177dc25586daf098cdc3fe2ce8609"
+  },
+  "established/090j_rossiya_den_segodnyashniy.md": {
+    "mtime": 1789303161.3486972,
+    "seen": 1789305326.9941676,
+    "ast_hash": "a2a12944129a33fee5a6b23eec5b94e0",
+    "semantic_hash": "a2a12944129a33fee5a6b23eec5b94e0"
+  },
+  "established/091_rossiya_ekonomika_i_obshchestvo.md": {
+    "mtime": 1789302866.5360773,
+    "seen": 1789305326.994168,
+    "ast_hash": "d172d6d0ebb960379c4961af4c534385",
+    "semantic_hash": "d172d6d0ebb960379c4961af4c534385"
+  },
+  "established/092_vocabulearn_russian.md": {
+    "mtime": 1789302499.759864,
+    "seen": 1789305326.9941685,
+    "ast_hash": "007437783d526d1a980013273bb011e9",
+    "semantic_hash": "007437783d526d1a980013273bb011e9"
+  },
+  "established/093_skazochnik_folk_tale_sample.md": {
+    "mtime": 1789303755.6871438,
+    "seen": 1789305326.994169,
+    "ast_hash": "096b2533d1b4d4bd94be0b601dde8b96",
+    "semantic_hash": "096b2533d1b4d4bd94be0b601dde8b96"
+  }
+}
