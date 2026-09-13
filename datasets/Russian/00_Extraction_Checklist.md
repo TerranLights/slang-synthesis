@@ -140,12 +140,23 @@ dispatched chunks) using the same disk-state-verification discipline.**
 | `067_russian_grammar_in_illustrations.md` | DJVU, non-redundant supplement — found a genuinely new Словообразование (word-formation) suffix-table section |
 | `068_..._068p_survival_russian.md` (17 files) | Full 308p, all 16 lessons + back matter (confirmed near-totally redundant) |
 
-**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
-Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward.
+**Wave 3 batch 4 complete (2026-09-13): 6 more sources (208 established/ files total, ~1,208,000
+words) — found a 7th distinct Russian PDF gotcha (Cyrillic embedded as per-word/per-page raster
+images inside an otherwise-real text layer, not a font cipher at all), now promoted into
+`../00_Reference_Extraction_Spec.md`.**
 
-**Remaining Wave 3 backlog (~20 sources not yet started):** New Penguin Russian Course, Ultimate
-Russian Beginner-Intermediate, Ultimate Russian Advanced, Russian Grammar in Literary Contexts,
-Modern Russian Grammar, Russian Grammar in Exercises and Comments (Parts 1-2), remaining Vol 2
+| File(s) | Contents |
+|---|---|
+| `069_..._072_modern_russian_grammar_part1-4.md` (4 files) | Dunn & Khairov, full 962p — discovered the "Cyrillic-as-raster-images" gotcha; §23.3 explicitly flags как бы/типа/блин as youth-speech markers with a sociolinguistic "health warning," a rare direct slang-register callout in a mainstream grammar |
+| `073_..._073c_new_penguin_russian_course.md` (3 files) | Full 528p, all 30 lessons — Soviet abbreviation typology (initialism/acronym/"stump compound"), cursive letterform table, 19th-c. intellectual vocabulary (западник/славянофил/нигилист) |
+| `074_..._074d_russian_grammar_in_literary_contexts.md` (4 files) | **Partial — Units 1-6 of 25** (pp.1-72 of ~339). Genuine slang/euphemism find: Akhmatova's "чёрные маруси" (Black Marias, secret-police vans). Units 7-25 + appendices left as a known, flagged gap |
+
+**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward; Russian
+Grammar in Literary Contexts Units 7-25 + appendices.
+
+**Remaining Wave 3 backlog (~16 sources not yet started):** Ultimate Russian Beginner-Intermediate,
+Ultimate Russian Advanced, Russian Grammar in Exercises and Comments (Parts 1-2), remaining Vol 2
 course/vocabulary books (~13 files), Troika, and the 20-volume Сказочник folk-tale series
 (representative sampling only, per triage).
 

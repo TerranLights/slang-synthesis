@@ -175,6 +175,20 @@ test, worth checking for on any future language's sources rather than rediscover
   reasonable attempt, fall back to real vision-reading (render pages to images) or OCR
   (Tesseract with the correct language model, e.g. `kor` for Korean) rather than forcing a
   non-existent decode.
+- **A PDF can have a genuine, working text layer for its metalanguage prose while embedding the
+  target-language content itself as per-word or per-page raster images — not text at all, and not
+  a font-substitution cipher of any kind.** Confirmed on *Modern Russian Grammar: A Practical
+  Guide* and *Russian Grammar in Exercises and Comments* (2026-09-13): `pdftotext`/PyMuPDF extract
+  the book's English exposition perfectly, but every embedded Russian example, word, or paradigm
+  cell returns as silently empty — `pdfimages`/`page.get_text('rawdict')` reveal these are small
+  embedded PNG/raster images, one per word or per block, with no ToUnicode mapping to even attempt
+  decoding (distinct from the CID-font case above, which at least has font glyphs to inspect).
+  **Symptom to watch for:** a source reports a real text layer via `pdfinfo`, and English content
+  extracts fine, but scanning the extracted text for any codepoint above U+007F (excluding normal
+  punctuation) returns zero hits. When this happens, the English/prose content is still fully
+  usable via normal text extraction — only the target-language examples need a fallback (vision-
+  reading via rendered page images, or Tesseract OCR with the correct language model if available)
+  to recover.
 - **A vision-only source can be scanned as two-printed-pages-per-image spreads, not one page per
   image.** Found on Serbian/Croatian/Bosnian's *Colloquial Serbian* (194 physical PDF pages for a
   book with printed page numbers running to ~375) — a naive `printed_page ≈ PDF_page + fixed_offset`
