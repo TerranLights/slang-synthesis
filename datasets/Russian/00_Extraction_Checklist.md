@@ -128,12 +128,26 @@ Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section
 `language_corpus/00_Corpus_Collection_Index.md` still needs its Russian row flipped from "not
 started" to "in progress" (done, see below).
 
-**Remaining Wave 3 backlog (~26 sources not yet started):** New Penguin Russian Course, Survival
-Russian, Ultimate Russian Beginner-Intermediate, Ultimate Russian Advanced, Oxford Russian Grammar
-and Verbs, Russian Grammar in Literary Contexts, Modern Russian Grammar, Russian Grammar in
-Exercises and Comments (Parts 1-2), The Case Book for Russian, Учебно-справочное пособие по
-лексике, Russian Grammar in Illustrations, remaining Vol 2 course/vocabulary books (~13 files),
-Troika, and the 20-volume Сказочник folk-tale series (representative sampling only, per triage).
+**Wave 3 batch 3 complete (2026-09-13): 6 more sources (197 established/ files total, ~1,161,500
+words) — recovered cleanly from a third disruption (a session-limit event affecting 2 of 5
+dispatched chunks) using the same disk-state-verification discipline.**
+
+| File(s) | Contents |
+|---|---|
+| `064_oxford_russian_grammar_and_verbs.md` | Wade's own condensed restatement of `002`/`003` — confirmed heavily redundant (14 rows kept of a 257p book) |
+| `065_..._065e_the_case_book_for_russian.md` (5 files) | Janda & Clancy's case-*semantics* reference (not paradigms) — found a systematic destination/source preposition symmetry across acc./dat./gen. chapters not documented elsewhere in the corpus |
+| `066_..._066u_uchebno_spravochnoe_posobie_po_leksike.md` (22 files) | Full 330p near-synonym discrimination guide — two productive derivational-morphology chapters found (-е-/-и- and -ну-/-и- inchoative/causative suffixes, incl. a "deceptive appearance" causative sense) |
+| `067_russian_grammar_in_illustrations.md` | DJVU, non-redundant supplement — found a genuinely new Словообразование (word-formation) suffix-table section |
+| `068_..._068p_survival_russian.md` (17 files) | Full 308p, all 16 lessons + back matter (confirmed near-totally redundant) |
+
+**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward.
+
+**Remaining Wave 3 backlog (~20 sources not yet started):** New Penguin Russian Course, Ultimate
+Russian Beginner-Intermediate, Ultimate Russian Advanced, Russian Grammar in Literary Contexts,
+Modern Russian Grammar, Russian Grammar in Exercises and Comments (Parts 1-2), remaining Vol 2
+course/vocabulary books (~13 files), Troika, and the 20-volume Сказочник folk-tale series
+(representative sampling only, per triage).
 
 ---
 
