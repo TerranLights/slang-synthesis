@@ -167,11 +167,28 @@ Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section
 Grammar in Literary Contexts Units 9-25 + appendices (a slow, literary-content-dense book — 8 of 25
 units done across two extraction sessions).
 
-**Remaining Wave 3 backlog (~12 sources not yet started):** remaining Vol 2 course/vocabulary books
-(~12 files: Русский язык для начинающих, Средний этап, Поговорим, Слушайте Спрашивайте Отвечайте,
-Будем знакомы, VocabuLearn Levels 1-3, Читая сказки, Знаю и люблю русские глаголы, Spravochnik po
-russkoy grammatike), Troika, and the 20-volume Сказочник folk-tale series (representative sampling
-only, per triage).
+**Wave 3 batch 6 complete (2026-09-13): 7 more sources (247 established/ files total, ~1,288,100
+words).**
+
+| File(s) | Contents |
+|---|---|
+| `079_troika.md` | Full 628p — clean text layer via pdftotext, confirmed near-total redundancy (3 rows kept); found a possible 8th/9th Cyrillic gotcha candidate (stressed vowels rendered as uppercase mid-word) |
+| `080_spravochnik_po_russkoy_grammatike.md` | DJVU, non-redundant supplement — flagship find: a named "sentence models" typology for dative/genitive/infinitive-subject impersonal constructions |
+| `081_znayu_i_lyublyu_russkie_glagoly.md` | Motion-verb course — a reusable "prefix→idiom" bundling pattern; one incidental drug-slang reference (марихуану) in a Dovlatov joke |
+| `082_..._pogovorim.md` | Advanced conversational-practice manual |
+| `083_shag_za_shagom.md` | Confirmed 100% redundant except a full name→hypocoristic/diminutive table |
+| `084_slushayte_sprashivayte_otvechayte.md` | Register finds: source-flagged colloquial internet-era «сидеть»/«скачать» (2004 attestation), a «новый русский» sociolect-labeling joke |
+| `085_budem_znakomy.md` | Confirmed 0 new vocabulary rows (workbook has no vocabulary content of its own) |
+| `086_..._086d_chitaya_skazki.md` (4 files) | Full 201p fairy-tale reader — complete glossary with register tags, four fixed folklore formulas cross-confirmed internally |
+
+**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward; Russian
+Grammar in Literary Contexts Units 9-25 + appendices (8 of 25 units done across two sessions).
+
+**Remaining Wave 3 backlog (~5 sources not yet started):** Русский язык для начинающих, Средний
+этап (Intermediate Russian Course), Русский язык как иностранный (начальный курс), Россия день
+сегодняшний, Россия экономика и общество, VocabuLearn Levels 1-3, and the 20-volume Сказочник
+folk-tale series (representative sampling only, per triage) — this is now the tail end of Wave 3.
 
 ---
 
