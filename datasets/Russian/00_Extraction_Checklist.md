@@ -185,10 +185,28 @@ words).**
 Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward; Russian
 Grammar in Literary Contexts Units 9-25 + appendices (8 of 25 units done across two sessions).
 
-**Remaining Wave 3 backlog (~5 sources not yet started):** Русский язык для начинающих, Средний
-этап (Intermediate Russian Course), Русский язык как иностранный (начальный курс), Россия день
-сегодняшний, Россия экономика и общество, VocabuLearn Levels 1-3, and the 20-volume Сказочник
-folk-tale series (representative sampling only, per triage) — this is now the tail end of Wave 3.
+**Wave 3 batch 7 complete (2026-09-13): 6 more sources (278 established/ files total, ~1,353,800
+words) — every named Wave 3 source has now been at least touched; only the 20-volume Сказочник
+folk-tale series remains fully untouched.**
+
+| File(s) | Contents |
+|---|---|
+| `087_russkiy_yazyk_dlya_nachinayushchikh.md` | Pure zero-font raster scan, no OCR fallback available — non-redundant supplement via representative sampling; kept the "Russian Conventional Speech Clichés" appendix (formal/informal paired formulas) |
+| `088_..._088p_russkiy_yazyk_sredniy_etap.md` (16 files) | Full 248p, all 14 lessons + etiquette chapter — pejorative vocabulary (урод/уродина, хромоножка), a hypocoristic-name clipping table directly relevant to slang-clipping mechanics |
+| `089_russkiy_yazyk_kak_inostranniy_nachalniy_kurs.md` | Confirmed 0 new vocabulary rows (3rd beginner course in a row to land at total redundancy) |
+| `090_..._090j_rossiya_den_segodnyashniy.md` (10 files) | **Partial — Chapters 1-10 of 25.** Genuine finds: a 2004-dated youth-subculture-label taxonomy (неформалы/славянофилы/эстетки), the slang loanword кайф, institutional-metaphor slang (офисная каторга, фейс-контроль) |
+| `091_rossiya_ekonomika_i_obshchestvo.md` | Full 160p, all 16 chapters — genuine currency slang («зелёный»/«деревянный» for dollar/ruble), business slang (заначка, раскрутка), student slang (сдать «хвосты»), a source-explained taboo-avoidance ad ellipsis |
+| `092_vocabulearn_russian.md` | Representative sampling across all 3 levels — confirmed near-total redundancy, Level III's idiom-dense Expressions sections kept more fully |
+
+**Known gaps, all explicitly flagged (non-blocking, honest partial-completion reporting):**
+Teach Yourself Russian Units 14-20 + back matter; Everything in its Time Section 12 onward; Russian
+Grammar in Literary Contexts Units 9-25 + appendices (8 of 25 done); Rossiya den segodnyashniy
+Chapters 11-25 (10 of 25 done, rendered page images cached at session scratchpad for cheap
+continuation).
+
+**Remaining Wave 3 backlog:** only the 20-volume Сказочник folk-tale series (representative
+sampling only, per triage) has not been touched at all. Everything else above is either fully
+complete or has an explicitly flagged, honestly-documented partial-coverage gap.
 
 ---
 
