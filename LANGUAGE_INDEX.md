@@ -82,7 +82,7 @@ provisional if you ever need to cite one.
 
 | Language | Nations | `source_reference/` status | Priority |
 |---|---|---|---|
-| **Russian** | Russia (~25M eff., or absent at some cities per the Davis/Zhongshan tier-inconsistency flagged above) | Present, **Phase 1 in progress — largest corpus in the project** (`Russian`; ~1,161,500 words extracted across 197 `established/` files so far, 204-file/3.6GB source corpus, ~24 of ~45 prioritized Wave 3 vision-read sources done; see `datasets/Russian/`) | 🔴 **HIGH PRIORITY** |
+| **Russian** | Russia (~25M eff., or absent at some cities per the Davis/Zhongshan tier-inconsistency flagged above) | Present, **Phase 1 complete — largest corpus in the project** (`Russian`; ~1,360,000 words across 281 `established/` files, from a 204-file/3.6GB source corpus; see `datasets/Russian/`) | 🔴 **HIGH PRIORITY — fourth-furthest along of any GINI language** |
 | **Polish** | Poland (~12M eff.; also political center of the Intermarium/Intermaria meta-nation bloc) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | **Czech** | Czech Republic (~5M eff.; among the highest per-capita robot-access rates of any nation per the source doc) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | **Ukrainian** | Ukraine (~5M eff.) | **Not present — gap** (only Russian exists; do not substitute one for the other). | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
@@ -263,9 +263,9 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Three languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
-Hungarian, and Korean — see `datasets/00_Analysis_Index.md` for current status of every language in
-progress.
+**Four languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
+Hungarian, Korean, and Russian (by far the largest corpus of the four) — see
+`datasets/00_Analysis_Index.md` for current status of every language in progress.
 
 ---
 

@@ -125,6 +125,34 @@ title, and a legitimately Hangul-free romanization-only source that is a design 
 corruption) — all four promoted into `datasets/00_Reference_Extraction_Spec.md` as a standing
 gotcha for future non-Latin-script languages.
 
+**Russian reached the same milestone fourth — the fourth language to complete Phase 1, and by a
+wide margin the largest single-language corpus this project has processed.** Its reference folder
+held 204 files (~3.6GB) with ~75% scanned image-only (the highest proportion of any language
+triaged so far, well above SCB/Hungarian/Korean's 35-56%). Result: 281 `established/` files,
+~1,360,000 words — more than the next three completed languages combined — covering the full core
+grammar-reference set (Wade, Timberlake, Schaum's, Dunn & Khairov, and a dozen more), the register
+flagship (*Using Russian: A Guide to Contemporary Usage*), the slang flagship (*Streetwise
+Russian*, ~340 entries with a documented criminal/prison-argot throughline), a dedicated slang
+dictionary (*Dermo! The Real Russian Tolstoi Never Used*, correctly routed to
+`language_corpus/Russian/` rather than `established/` per the Hungarian slang-dictionary precedent),
+and dozens of course books, specialist grammars, and thematic readers. The `/graphify` graph over
+the full corpus stands at 769 nodes / 894 edges / 42 communities with zero dangling/missing/
+collapsed edges after one fabricated cross-chunk edge (out of 895, found via the standard health
+check) was identified and removed before commit. **This run recovered cleanly from three separate
+usage-limit disruptions** (two session-limit events, one larger weekly-limit event affecting up to
+6 of 8 chunks in a single batch) using the same disk-state-verification-before-redispatch discipline
+established in Korean's Wave 2 — in every case, actual file contents on disk were checked before
+assuming a "failed" chunk needed full redispatch, and several turned out to be genuinely complete
+despite the failure tag. **A record eight distinct Cyrillic PDF-corruption gotchas were found and
+promoted into `datasets/00_Reference_Extraction_Spec.md`** — keyboard-layout ciphers, cp1251-as-
+latin1 mojibake, stress-mark-only corruption, single-letter-pair homoglyph swaps, non-decodable
+many-to-one OCR garbling, and (new to Russian) target-language content embedded as per-word/per-page
+raster images inside an otherwise-genuine text layer. Known, explicitly-flagged non-blocking gaps:
+*Teach Yourself Russian* (Units 14-20 of 20), *Everything in its Time* (Section 12 onward),
+*Russian Grammar in Literary Contexts* (Units 9-25 of 25), *Rossiya den segodnyashniy* (Chapters
+11-25 of 25), and the 20-volume Сказочник folk-tale series (deliberately sampled at 3 of 20 volumes
+per the triage decision, not a gap).
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in
