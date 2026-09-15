@@ -37,9 +37,24 @@ once extraction lands.
 
 ### Output files table
 
-| File | Contents |
+**Wave 1 complete (2026-09-14): 45 files, ~313,600 words, 11 distinct sources.**
+
+| File(s) | Contents |
 |---|---|
-| *(none yet — Wave 1 in progress)* | |
+| `001_colloquial_spanish_latin_america.md` | Full 168p — rich LatAm-vs-Iberian register/dialect splits (chico/pequeño, coger's regional taboo flag, vosotros vs. ustedes) |
+| `002_colloquial_spanish_latin_america_2.md` | Full 190p — **flagship find**: a full voseo paradigm (Unit 8, vos/sos present indicative/imperative/subjunctive); country-tagged slang (chévere, ¡Híjole!, ¡Qué vaina!) |
+| `003/004/004b_madrigals_magic_key_part1/2/glossary.md` (3 files) | Full 740p mnemonic-based grammar — representative sampling of formulaic cognate-suffix categories (documented scope decision); explicit Mexican-slang appendix (güero, plata) |
+| `005_practice_makes_perfect_basic_spanish_grammar.md` | Full 273p, 50 lessons, 872 vocabulary rows |
+| `006_practice_makes_perfect_advanced_spanish_grammar.md` | Full 210p — ~90-idiom catalog (Unit 12), diminutive regional split (-ico/-illo/-ito), Argentine recién+preterit |
+| `007_practice_makes_perfect_spanish_irregular_verbs.md` | Full 127p, 97-verb principal-parts glossary |
+| `008/008b/008c_practice_makes_perfect_spanish_verb_tenses.md` (3 files) | Full 354p, ~640 vocabulary rows |
+| `009/009b/009c_practice_makes_perfect_spanish_vocabulary.md` (3 files) | **Partial — Preliminary Matters + Units 1-2 of 10 only** (pp.1-69 of 450). Units 3-10 left as a known, flagged gap — this is an unusually vocabulary-dense book (~10,000 words per its own preface) |
+| `010_..._010d_learning_spanish_like_crazy_level1.md` (4 files) | Full 35 files (32 lessons + Insultos_01 + insultosvulgares + readme) — insult lessons tagged `slang`/`taboo` |
+| `011_..._011t_learning_spanish_like_crazy_level2.md` (20 files) | Full 42 files including both Bonus Slang Lessons — clipping/apocope patterns (mano/mana), semantic-repurposing slang (naranjas→"no") |
+| `012_..._012g_learning_spanish_like_crazy_level3.md` (7 files) | Full 42 files — confirmed the two overlapping-numbered lesson series (Leccion##-final vs Spanish_Lesson_##) are genuinely DIFFERENT content, not duplicates, both extracted; full por/para grammar system; -ón/-ona augmentative pattern |
+
+**Known gap, explicitly flagged (non-blocking, honest partial-completion reporting):** Practice
+Makes Perfect Spanish Vocabulary, Units 3-10 of 10 (see above).
 
 ---
 
