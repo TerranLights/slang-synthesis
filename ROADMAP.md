@@ -153,6 +153,25 @@ raster images inside an otherwise-genuine text layer. Known, explicitly-flagged 
 11-25 of 25), and the 20-volume Сказочник folk-tale series (deliberately sampled at 3 of 20 volumes
 per the triage decision, not a gap).
 
+**Spanish reached the same milestone fifth — the fifth language to complete Phase 1, and the first
+one of the 5 GINI-represented Spanish-speaking nations (Spain, Mexico, Argentina, Chile, Uruguay,
+no dominance hierarchy among them) to have its reference material extracted.** Its reference folder
+was by far the smallest and cleanest of any language yet (189MB, 133 PDF files + 1 EPUB, only 3 of
+~15 distinct sources lacking a text layer) — a useful contrast point after Russian's unusually messy
+3.6GB corpus. Result: 59 `established/` files, ~350,000 words, covering two Colloquial Spanish of
+Latin America course books (one with a fully worked voseo paradigm), Madrigal's Magic Key to
+Spanish (a 740-page mnemonic-based grammar with an explicit Mexican-slang appendix), five Practice
+Makes Perfect references, Easy Spanish Step-by-Step, Schaum's Outline of Spanish Grammar, and all
+three levels of *Learning Spanish Like Crazy* — a course with dedicated built-in insult/vulgar-
+language lessons and two dedicated slang lessons, the register flagship for this language. The
+`/graphify` graph over the full corpus stands at 132 nodes / 156 edges / 31 communities with zero
+dangling/missing/collapsed edges on the first pass. **A genuine cross-source convergence emerged**:
+the Spanish subjunctive mood — missing from every early-extracted source — turned out to be
+independently taught as a major structural feature by three unrelated pedagogical lineages within
+the same corpus, exactly the kind of structural confirmation later synthesis work should weight
+heavily. One known, explicitly-flagged non-blocking gap remains: *Practice Makes Perfect Spanish
+Vocabulary* (Units 4-10 of 10, an unusually vocabulary-dense ~10,000-word book).
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

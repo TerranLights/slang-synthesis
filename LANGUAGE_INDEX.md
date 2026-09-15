@@ -74,7 +74,7 @@ provisional if you ever need to cite one.
 |---|---|---|---|
 | **French** | France (~35M eff.), Canada (partial), Belgium (partial, trilingual) | Present (`French Learning Books`) | 🔴 **HIGH PRIORITY** |
 | **Italian** | Italy (~27M eff.) | Present (`Italian`) | 🔴 **HIGH PRIORITY** |
-| **Spanish** | Spain (~20M eff.), Mexico (~18M eff.), Argentina (~6M eff.), Chile (~2.3M eff.), Uruguay (~0.6M eff.) | Present (`Spanish`) | 🔴 **HIGH PRIORITY** — five nations; strong candidate for per-nation slang subdivision (Iberian vs. Mexican vs. Rioplatense vs. Chilean Spanish are famously divergent registers) |
+| **Spanish** | Spain (~20M eff.), Mexico (~18M eff.), Argentina (~6M eff.), Chile (~2.3M eff.), Uruguay (~0.6M eff.) | Present, **Phase 1 complete** (`Spanish`; ~350,000 words across 59 `established/` files; see `datasets/Spanish/`) | 🔴 **HIGH PRIORITY — fifth-furthest along of any GINI language** — five nations; strong candidate for per-nation slang subdivision (Iberian vs. Mexican vs. Rioplatense vs. Chilean Spanish are famously divergent registers) |
 | **Portuguese** | Brazil (~17M eff.) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | **Romanian** | Romania (~4.5M eff.) | Present (`Romanian`, plus `Romanian collection.zip.gz` — likely redundant, flagged in `language_corpus/00_Corpus_Collection_Index.md`) | 🔴 **HIGH PRIORITY** |
 
@@ -263,8 +263,8 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Four languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
-Hungarian, Korean, and Russian (by far the largest corpus of the four) — see
+**Five languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
+Hungarian, Korean, Russian (by far the largest corpus of the five), and Spanish — see
 `datasets/00_Analysis_Index.md` for current status of every language in progress.
 
 ---
