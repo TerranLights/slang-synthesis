@@ -1,0 +1,326 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1789441776.3041327,
+    "seen": 1789444261.2106752,
+    "ast_hash": "fcf75fa5acd5d2c2cd610a8434dd12d8",
+    "semantic_hash": "fcf75fa5acd5d2c2cd610a8434dd12d8"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1789443821.81023,
+    "seen": 1789444261.2106786,
+    "ast_hash": "148ab6778c3156286c2091fc91b3548c",
+    "semantic_hash": "148ab6778c3156286c2091fc91b3548c"
+  },
+  "established/001_colloquial_spanish_latin_america.md": {
+    "mtime": 1789442118.7959838,
+    "seen": 1789444261.2106798,
+    "ast_hash": "bd25cd712a35049d8fdb647866ebd1cd",
+    "semantic_hash": "bd25cd712a35049d8fdb647866ebd1cd"
+  },
+  "established/002_colloquial_spanish_latin_america_2.md": {
+    "mtime": 1789442285.3994188,
+    "seen": 1789444261.2106805,
+    "ast_hash": "1b8b96933fe11a0f1cd9998c7084cc9c",
+    "semantic_hash": "1b8b96933fe11a0f1cd9998c7084cc9c"
+  },
+  "established/003_madrigals_magic_key_part1.md": {
+    "mtime": 1789442192.757618,
+    "seen": 1789444261.2106814,
+    "ast_hash": "fd6f6ce13511ba7717ffe4782ab9b8e7",
+    "semantic_hash": "fd6f6ce13511ba7717ffe4782ab9b8e7"
+  },
+  "established/004_madrigals_magic_key_part2.md": {
+    "mtime": 1789442324.7757611,
+    "seen": 1789444261.210682,
+    "ast_hash": "97639ba20c4f880c2e071c661eb6270e",
+    "semantic_hash": "97639ba20c4f880c2e071c661eb6270e"
+  },
+  "established/004b_madrigals_magic_key_part2_glossary.md": {
+    "mtime": 1789442143.6801965,
+    "seen": 1789444261.2106826,
+    "ast_hash": "f594a6184a741fb3d6f9885bad5c6de5",
+    "semantic_hash": "f594a6184a741fb3d6f9885bad5c6de5"
+  },
+  "established/005_practice_makes_perfect_basic_spanish_grammar.md": {
+    "mtime": 1789442450.0308568,
+    "seen": 1789444261.210683,
+    "ast_hash": "6d05f1113ffa56efab0a23994212eb3f",
+    "semantic_hash": "6d05f1113ffa56efab0a23994212eb3f"
+  },
+  "established/006_practice_makes_perfect_advanced_spanish_grammar.md": {
+    "mtime": 1789442141.8261807,
+    "seen": 1789444261.2106836,
+    "ast_hash": "a444051f44fd47ac09a0b3f0bc0e61af",
+    "semantic_hash": "a444051f44fd47ac09a0b3f0bc0e61af"
+  },
+  "established/007_practice_makes_perfect_spanish_irregular_verbs.md": {
+    "mtime": 1789442062.8085072,
+    "seen": 1789444261.210684,
+    "ast_hash": "ff624a5d51a31c456cc6a3873aecc3f1",
+    "semantic_hash": "ff624a5d51a31c456cc6a3873aecc3f1"
+  },
+  "established/008_practice_makes_perfect_spanish_verb_tenses.md": {
+    "mtime": 1789442086.821711,
+    "seen": 1789444261.210685,
+    "ast_hash": "06fa98d861c309c2b12719e257b85c9a",
+    "semantic_hash": "06fa98d861c309c2b12719e257b85c9a"
+  },
+  "established/008b_practice_makes_perfect_spanish_verb_tenses.md": {
+    "mtime": 1789442208.0737498,
+    "seen": 1789444261.2106855,
+    "ast_hash": "78a2679b6e0ab0080dc5d5f482cb2d61",
+    "semantic_hash": "78a2679b6e0ab0080dc5d5f482cb2d61"
+  },
+  "established/008c_practice_makes_perfect_spanish_verb_tenses.md": {
+    "mtime": 1789442426.9326541,
+    "seen": 1789444261.2106862,
+    "ast_hash": "3ddee10fcd6a45a5ce63ff5e69fd6b24",
+    "semantic_hash": "3ddee10fcd6a45a5ce63ff5e69fd6b24"
+  },
+  "established/009_practice_makes_perfect_spanish_vocabulary.md": {
+    "mtime": 1789442087.2357147,
+    "seen": 1789444261.2106867,
+    "ast_hash": "20c9e5fe9d6e4b64ea8d15ca6289adbd",
+    "semantic_hash": "20c9e5fe9d6e4b64ea8d15ca6289adbd"
+  },
+  "established/009b_practice_makes_perfect_spanish_vocabulary.md": {
+    "mtime": 1789442237.177001,
+    "seen": 1789444261.2106872,
+    "ast_hash": "2c0aa82a3e0d5f82d1f9330d8cf42165",
+    "semantic_hash": "2c0aa82a3e0d5f82d1f9330d8cf42165"
+  },
+  "established/009c_practice_makes_perfect_spanish_vocabulary.md": {
+    "mtime": 1789442430.6296866,
+    "seen": 1789444261.2106876,
+    "ast_hash": "8b41de8bdc73ab4fe862de685639cf77",
+    "semantic_hash": "8b41de8bdc73ab4fe862de685639cf77"
+  },
+  "established/009d_practice_makes_perfect_spanish_vocabulary.md": {
+    "mtime": 1789442878.7286582,
+    "seen": 1789444261.2106886,
+    "ast_hash": "8b77a9fa12a54a85488b03f938f7490e",
+    "semantic_hash": "8b77a9fa12a54a85488b03f938f7490e"
+  },
+  "established/010_learning_spanish_like_crazy_level1.md": {
+    "mtime": 1789442099.1858165,
+    "seen": 1789444261.210689,
+    "ast_hash": "bf3812e44ba80dfac2fcad79cc9eba59",
+    "semantic_hash": "bf3812e44ba80dfac2fcad79cc9eba59"
+  },
+  "established/010b_learning_spanish_like_crazy_level1.md": {
+    "mtime": 1789442205.4607272,
+    "seen": 1789444261.2106895,
+    "ast_hash": "7a72aee6ff81ecf25aa1d91bd24eef9f",
+    "semantic_hash": "7a72aee6ff81ecf25aa1d91bd24eef9f"
+  },
+  "established/010c_learning_spanish_like_crazy_level1.md": {
+    "mtime": 1789442312.5346546,
+    "seen": 1789444261.21069,
+    "ast_hash": "e47c00950d4ba0a15af9f5cd4f3a31ae",
+    "semantic_hash": "e47c00950d4ba0a15af9f5cd4f3a31ae"
+  },
+  "established/010d_learning_spanish_like_crazy_level1.md": {
+    "mtime": 1789442413.2245338,
+    "seen": 1789444261.2106905,
+    "ast_hash": "995620c0ac4d5b70a74a99709366f2ff",
+    "semantic_hash": "995620c0ac4d5b70a74a99709366f2ff"
+  },
+  "established/011_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789441980.593814,
+    "seen": 1789444261.210691,
+    "ast_hash": "ce023d4f805d38244e415b46965d9216",
+    "semantic_hash": "ce023d4f805d38244e415b46965d9216"
+  },
+  "established/011b_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442051.7854137,
+    "seen": 1789444261.210692,
+    "ast_hash": "9f4945e7523c94f4ba4ca76f87dc9ca0",
+    "semantic_hash": "9f4945e7523c94f4ba4ca76f87dc9ca0"
+  },
+  "established/011c_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442080.0116532,
+    "seen": 1789444261.2106924,
+    "ast_hash": "761da0b91a920dbec5be34611cc63f07",
+    "semantic_hash": "761da0b91a920dbec5be34611cc63f07"
+  },
+  "established/011d_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442111.0219173,
+    "seen": 1789444261.210693,
+    "ast_hash": "11208b118347a5abc54cafdc33225a56",
+    "semantic_hash": "11208b118347a5abc54cafdc33225a56"
+  },
+  "established/011e_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442138.0501482,
+    "seen": 1789444261.2106934,
+    "ast_hash": "59ac05a85bb6b591b4cfd0f2ad6f551a",
+    "semantic_hash": "59ac05a85bb6b591b4cfd0f2ad6f551a"
+  },
+  "established/011f_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442180.1525095,
+    "seen": 1789444261.210694,
+    "ast_hash": "dfe2f04a4dcac8ba443d0a8c8713db87",
+    "semantic_hash": "dfe2f04a4dcac8ba443d0a8c8713db87"
+  },
+  "established/011g_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442216.435822,
+    "seen": 1789444261.2106946,
+    "ast_hash": "638d3944cca86ca21ed602a404980df5",
+    "semantic_hash": "638d3944cca86ca21ed602a404980df5"
+  },
+  "established/011h_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442247.347089,
+    "seen": 1789444261.2106953,
+    "ast_hash": "d0c5f7903c3dd3d51944f38c1cd37164",
+    "semantic_hash": "d0c5f7903c3dd3d51944f38c1cd37164"
+  },
+  "established/011i_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442285.9644237,
+    "seen": 1789444261.2106957,
+    "ast_hash": "5c178f44599920f6925703ce1ef46dde",
+    "semantic_hash": "5c178f44599920f6925703ce1ef46dde"
+  },
+  "established/011k_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442331.9208233,
+    "seen": 1789444261.2106962,
+    "ast_hash": "c77a5f06064d7b493a103ea8c1c14b08",
+    "semantic_hash": "c77a5f06064d7b493a103ea8c1c14b08"
+  },
+  "established/011l_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442354.228018,
+    "seen": 1789444261.2106967,
+    "ast_hash": "743ecd9d78fee6d7f5e36a9b176e05ed",
+    "semantic_hash": "743ecd9d78fee6d7f5e36a9b176e05ed"
+  },
+  "established/011m_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442377.576222,
+    "seen": 1789444261.2106972,
+    "ast_hash": "26863473c521a5968fbbd566b35b82e5",
+    "semantic_hash": "26863473c521a5968fbbd566b35b82e5"
+  },
+  "established/011n_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442402.5014398,
+    "seen": 1789444261.210698,
+    "ast_hash": "3b86baba919074e41d8319ebed941714",
+    "semantic_hash": "3b86baba919074e41d8319ebed941714"
+  },
+  "established/011o_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442428.7326698,
+    "seen": 1789444261.2106986,
+    "ast_hash": "a640e29ed87fd8fead79517ea6ec09bc",
+    "semantic_hash": "a640e29ed87fd8fead79517ea6ec09bc"
+  },
+  "established/011p_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442452.4218779,
+    "seen": 1789444261.210699,
+    "ast_hash": "0b9a624b0803bc4a52d4273deff70efa",
+    "semantic_hash": "0b9a624b0803bc4a52d4273deff70efa"
+  },
+  "established/011r_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442504.2013333,
+    "seen": 1789444261.2106996,
+    "ast_hash": "d07bedeb400c31c335ea68f2b1e505c9",
+    "semantic_hash": "d07bedeb400c31c335ea68f2b1e505c9"
+  },
+  "established/011t_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442556.2547922,
+    "seen": 1789444261.2107,
+    "ast_hash": "d7d7661fc0dde21ea491b9eff3dec128",
+    "semantic_hash": "d7d7661fc0dde21ea491b9eff3dec128"
+  },
+  "established/012_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789441992.9249175,
+    "seen": 1789444261.2107005,
+    "ast_hash": "bd1f185a87626b02029c1c4e224f55c6",
+    "semantic_hash": "bd1f185a87626b02029c1c4e224f55c6"
+  },
+  "established/012b_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442082.566675,
+    "seen": 1789444261.210701,
+    "ast_hash": "cf0cde4471d3ff6538bd81bbbc47e96a",
+    "semantic_hash": "cf0cde4471d3ff6538bd81bbbc47e96a"
+  },
+  "established/012c_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442154.248287,
+    "seen": 1789444261.2107015,
+    "ast_hash": "d0b46c224910a91b01285638e1f686fd",
+    "semantic_hash": "d0b46c224910a91b01285638e1f686fd"
+  },
+  "established/012d_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442296.3485138,
+    "seen": 1789444261.2107022,
+    "ast_hash": "3932aaee436cdb05cf2ced64ab4cd32f",
+    "semantic_hash": "3932aaee436cdb05cf2ced64ab4cd32f"
+  },
+  "established/012f_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442441.3097801,
+    "seen": 1789444261.210703,
+    "ast_hash": "0bf5c011296903f73178de8139ec0a23",
+    "semantic_hash": "0bf5c011296903f73178de8139ec0a23"
+  },
+  "established/012g_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442490.4142118,
+    "seen": 1789444261.210704,
+    "ast_hash": "4dfe20dbf3bd5a4e678f7d8157b9c500",
+    "semantic_hash": "4dfe20dbf3bd5a4e678f7d8157b9c500"
+  },
+  "established/013_easy_spanish_step_by_step.md": {
+    "mtime": 1789442855.2364485,
+    "seen": 1789444261.2107046,
+    "ast_hash": "03554a0d1418b7aa73ac8578c0b8340b",
+    "semantic_hash": "03554a0d1418b7aa73ac8578c0b8340b"
+  },
+  "established/013e_easy_spanish_step_by_step.md": {
+    "mtime": 1789443212.9269278,
+    "seen": 1789444261.210705,
+    "ast_hash": "b3d17e007eba50ef80d788f4c8f947c1",
+    "semantic_hash": "b3d17e007eba50ef80d788f4c8f947c1"
+  },
+  "established/013f_easy_spanish_step_by_step.md": {
+    "mtime": 1789443301.2033024,
+    "seen": 1789444261.2107058,
+    "ast_hash": "33071ce2c8da26a9fad8900d2fa1b03b",
+    "semantic_hash": "33071ce2c8da26a9fad8900d2fa1b03b"
+  },
+  "established/013g_easy_spanish_step_by_step.md": {
+    "mtime": 1789443349.6850247,
+    "seen": 1789444261.2107062,
+    "ast_hash": "de12d6753be0a7def8df3ecdedbd22f7",
+    "semantic_hash": "de12d6753be0a7def8df3ecdedbd22f7"
+  },
+  "established/013h_easy_spanish_step_by_step.md": {
+    "mtime": 1789443434.515241,
+    "seen": 1789444261.210707,
+    "ast_hash": "a00bb591c67fc57b67e77ab4574fa8d2",
+    "semantic_hash": "a00bb591c67fc57b67e77ab4574fa8d2"
+  },
+  "established/013i_easy_spanish_step_by_step.md": {
+    "mtime": 1789443537.6246483,
+    "seen": 1789444261.2107074,
+    "ast_hash": "cef0ccc0da13d4fc771aeb3e7b67f31d",
+    "semantic_hash": "cef0ccc0da13d4fc771aeb3e7b67f31d"
+  },
+  "established/013j_easy_spanish_step_by_step.md": {
+    "mtime": 1789443694.4116697,
+    "seen": 1789444261.210708,
+    "ast_hash": "6311f1f1a66cf7b28feeea96393ebb07",
+    "semantic_hash": "6311f1f1a66cf7b28feeea96393ebb07"
+  },
+  "established/013k_easy_spanish_step_by_step.md": {
+    "mtime": 1789443741.9402592,
+    "seen": 1789444261.2107084,
+    "ast_hash": "d3a6e937d7d7f21d556cfc0835e5ce87",
+    "semantic_hash": "d3a6e937d7d7f21d556cfc0835e5ce87"
+  },
+  "established/014_practice_makes_perfect_complete_spanish_grammar.md": {
+    "mtime": 1789443219.9500403,
+    "seen": 1789444261.210709,
+    "ast_hash": "bea735c4806bdea1cfb0ec80e19927a4",
+    "semantic_hash": "bea735c4806bdea1cfb0ec80e19927a4"
+  },
+  "established/015_schaums_outline_of_spanish_grammar.md": {
+    "mtime": 1789443137.7066875,
+    "seen": 1789444261.2107096,
+    "ast_hash": "e17f2a3ed2da239d085e1e368cc85000",
+    "semantic_hash": "e17f2a3ed2da239d085e1e368cc85000"
+  }
+}
