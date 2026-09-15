@@ -1,10 +1,10 @@
 # Dutch Slang Mechanics — Extraction Checklist
 
-**This is the pipeline's third test-run language — everything below is tentative until the
-developer reviews it.** See `../../methodology-observations/dutch_test_run.md` for process findings
-(comparing against the Serbian/Croatian/Bosnian and Hungarian runs) and `00_Book_Triage_Catalog.md`
-(this folder) for the source-material survey. (`Dutch` is its own folder-safe name — no
-display-name-vs-path-name split needed here.)
+**Full Phase 1 push started 2026-09-14, continuing from the earlier partial test run.** See
+`../../methodology-observations/dutch_test_run.md` for the original test-run process findings and
+`00_Book_Triage_Catalog.md` (this folder, now fully triaged — 84-file corpus, superseding the
+earlier "top candidates only" pass) for the source-material survey. (`Dutch` is its own
+folder-safe name — no display-name-vs-path-name split needed here.)
 
 **Purpose:** analyze the actual mechanics of how Dutch slang forms and works, using the
 corpus collected in `language_corpus/Dutch/` and, where useful, the grammar/vocabulary
@@ -160,14 +160,20 @@ chapters:
       suffix" attitude/stance use (22.3) are both source-marked/discussed as informal and tagged
       `colloquial`, while the plain form-class diminutives (22.1) and the semantic-drift/lexicalized
       diminutives (22.3.1) stayed `core`.
-- [ ] Everything else in this book, and `83 The Phonology of Dutch.pdf` / `10 Colloquial Dutch.pdf`
-      (both vision-read candidates) — not started, see `00_Book_Triage_Catalog.md`
+- [ ] Everything else in `25` (Chapters 4-15, 17-21, 23-27) — not started, deferred behind the
+      full-corpus Wave 1/2 push below (the diminutive/colloquial-register findings that motivated
+      the original test run are already captured; the remaining chapters are standard grammar
+      likely to overlap with `22`/`23`/`27`'s content once those are extracted).
+
+**Full-corpus triage now complete — see `00_Book_Triage_Catalog.md` for the wave plan: Wave 1 (13
+clean-text sources), Wave 2 (16 vision-read sources, prioritizing `10`/`17` Colloquial Dutch and
+`32` Beyond the Dictionary in Dutch), Wave 3 optional (deferred workbook cluster + fairy-tale
+sampling).**
 
 ## Suggested next-session order
 
-1. Once the 3 parallel-subagent chunks land, compare against the Serbian/Croatian/Bosnian and
-   Hungarian runs — see `../../methodology-observations/dutch_test_run.md`.
-2. If Chapter 16 did surface non-`core` usage tiers, that's a real methodology finding worth
-   promoting into the shared taxonomy discussion.
-3. Decide a vision-reading approach for `83 The Phonology of Dutch.pdf` and `10 Colloquial
-   Dutch.pdf` before attempting to extract from them.
+1. Dispatch Wave 1 (Group A clean-text sources) — prioritize `27` (companion to the already-started
+   `25`) and the clean Routledge `22`/`23` pair.
+2. Dispatch Wave 2 (Group B vision-read sources) — prioritize `10`/`17` (Colloquial Dutch 1 & 2)
+   and `32` (usage/near-synonym guide) first, given their direct register relevance.
+3. Graphify rebuild once both waves substantially land.
