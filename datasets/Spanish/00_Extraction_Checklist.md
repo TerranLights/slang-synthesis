@@ -53,8 +53,20 @@ once extraction lands.
 | `011_..._011t_learning_spanish_like_crazy_level2.md` (20 files) | Full 42 files including both Bonus Slang Lessons — clipping/apocope patterns (mano/mana), semantic-repurposing slang (naranjas→"no") |
 | `012_..._012g_learning_spanish_like_crazy_level3.md` (7 files) | Full 42 files — confirmed the two overlapping-numbered lesson series (Leccion##-final vs Spanish_Lesson_##) are genuinely DIFFERENT content, not duplicates, both extracted; full por/para grammar system; -ón/-ona augmentative pattern |
 
+**Wave 2 complete (2026-09-14): 14 more files, ~34,900 more words (59 files total, ~348,600 words)
+— all 3 Group B vision-read sources plus one more unit of the Vocabulary gap-fill.**
+
+| File(s) | Contents |
+|---|---|
+| `009d_practice_makes_perfect_spanish_vocabulary.md` | Unit 3 added (still partial — see gap below) |
+| `013_..._013k_easy_spanish_step_by_step.md` (11 files) | Non-redundant supplement — **3 flagship finds**: four-way reflexive-verb semantic taxonomy, comprehensive subjunctive-trigger catalog, se+indirect-object "unplanned occurrence" (accident/blame-shifting) construction |
+| `014_practice_makes_perfect_complete_spanish_grammar.md` | Non-redundant supplement (~60% confirmed overlap with 005/006, skipped) — **major find**: the entire subjunctive mood (formation + noun/adverb/relative-clause triggers + sequence-of-tenses + si-clauses) was absent from every prior source until this book |
+| `015_schaums_outline_of_spanish_grammar.md` | Non-redundant supplement — a systematic per-tense/per-mood voseo paradigm broader than any prior source's; la radio/el radio regional gender split; leísmo note |
+
 **Known gap, explicitly flagged (non-blocking, honest partial-completion reporting):** Practice
-Makes Perfect Spanish Vocabulary, Units 3-10 of 10 (see above).
+Makes Perfect Spanish Vocabulary, Units 4-10 of 10 (Unit 3 now done) — an unusually
+vocabulary-dense book (~10,000 words per its own preface), left open rather than exhaustively
+chased across many redispatches.
 
 ---
 
