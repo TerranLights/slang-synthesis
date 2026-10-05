@@ -1,10 +1,13 @@
 # Dutch Slang Mechanics — Extraction Checklist
 
-**Full Phase 1 push started 2026-09-14, continuing from the earlier partial test run.** See
-`../../methodology-observations/dutch_test_run.md` for the original test-run process findings and
-`00_Book_Triage_Catalog.md` (this folder, now fully triaged — 84-file corpus, superseding the
-earlier "top candidates only" pass) for the source-material survey. (`Dutch` is its own
-folder-safe name — no display-name-vs-path-name split needed here.)
+**Phase 1 (reference extraction) complete as of 2026-10-04.** Sixth language in the project to
+reach this milestone, after Serbian/Croatian/Bosnian, Hungarian, Korean, Russian, and Spanish. 167
+`established/` files, ~813,000 words, from all 29 in-scope sources identified in
+`00_Book_Triage_Catalog.md` (13 Wave 1 clean-text + 16 Wave 2 vision-read). See
+`../../methodology-observations/dutch_test_run.md` for the full process log, including two
+session-limit interruptions during Wave 2 that were fully recovered via disk-state-verification and
+targeted continuation dispatches rather than re-extraction. (`Dutch` is its own folder-safe name —
+no display-name-vs-path-name split needed here.)
 
 **Purpose:** analyze the actual mechanics of how Dutch slang forms and works, using the
 corpus collected in `language_corpus/Dutch/` and, where useful, the grammar/vocabulary
@@ -72,6 +75,41 @@ Fill this table in as files are created:
 | `established/001_chapters1-3_pronunciation_spelling_plural.md` | Chapters 1-3 (Pronunciation, Spelling, The Plural), pp. 6-27 — full vowel/consonant/diphthong inventory with regional-pronunciation notes, assimilation rules, stress placement, closed/open-syllable spelling logic, f/v & s/z alternation, all three plural strategies (`-en` incl. irregular vowel-lengthening and meaning-differentiated `-eren` doublets, `-s`, Latin/`-or`/`-heid` plurals) — ~190 distinct glossed vocabulary items, all `core` register except `engerd` "creep" (tagged `colloquial` on lexical-meaning grounds) |
 | `established/002_chapter16_colloquial_speech.md` | Chapter 16 "Colloquial speech and writing" (pp.125–134): discourse particles (*eens, even, maar, toch, wel, hoor*), particle combinations, secondary discourse adverbs (*al, dan, dus, nou, nu, ook, soms, zeker*), particle placement/combination rules, and the §16.3 written-vs-spoken register lexical/syntax pairs (formal *echter/aangezien/ofschoon/opdat/dienen/desalniettemin/de mijne/wie* vs. colloquial/neutral spoken counterparts). Confirms Usage Tier diversity beyond `core` — see the file's own "Usage Tier findings" section. |
 | `established/003_chapter22_diminutives.md` | Chapter 22 "Diminutives" (pp. 181–186 / PDF pp. 196–201) — all four diminutive-suffix allomorphs (`-je`/`-tje`/`-etje`/`-pje`) and their phonological conditioning, the vowel-length-alternation, t-drop-in-pronunciation, and vowel-doubling sub-rules, the diminutive-as-adverb construction (source-marked `colloquial`), the "personalizing suffix" pragmatic/attitude use (tagged `colloquial`), semantic-drift lexicalizations, and diminutive-only lexemes — ~65 vocabulary rows, each with a full morpheme breakdown per `00_Word_Concept_and_Morphological_Typology_Guide.md`. |
+
+**Wave 1/2 sources (004–033k, 164 files) — summarized by source book rather than itemized per file,
+given the scale. Full detail lives in each file's own header/coverage note.**
+
+| Files | Source | Contents |
+|---|---|---|
+| `004` | Teach Yourself Dutch Conversation | Phrasebook dialogues + merged bilingual glossary, ~230 rows |
+| `005`–`005b` | Dutch for Dummies | Core course chapters 1-5 |
+| `006` | Dutch Foundation Course | Michel Thomas–style track-by-track course, ~180 rows |
+| `007`–`007p` (16 files) | Routledge Intensive Dutch Course | All 11 units + appendices + full end-of-book glossary (~2,950 rows) — turned out to be an 11-unit book, not 8-9 as originally estimated; surfaced real slang/taboo content (*oprotten*, *poen*, *yups*) and explicit Flemish/Netherlands regional splits |
+| `008`–`008b` | Levend Nederlands | Dutch-medium course for foreigners |
+| `009` | Dutch Advanced Course | Michel Thomas–style advanced track listing |
+| `010` | Basic Dutch: A Grammar and Workbook | |
+| `011` | Intermediate Dutch: A Grammar and Workbook | |
+| `012`–`013b` | Dutch: A Comprehensive Grammar (Donaldson) | Full book, Ch.1-13, companion to `25` |
+| `014` | Beter Nederlands | Dutch-medium grammar aid |
+| `015` | A Dutch Vocabulary | |
+| `016` | Kosmos mini woordenboek (Nederlands-Engels) | Representative dictionary sample, 96 rows; no register annotation in source |
+| `017`–`017c` | The Phonetics of English and Dutch | Comparative phonetics reference |
+| `018` | Teach Yourself Beginner's Dutch | Full book, vision-read |
+| `019` | Dutch in 3 Months | Non-redundant-supplement pass; reading practice + strong-verb appendix + curated mini-dictionary |
+| `020` | Speak Dutch Today | Full book; stages the u→jij register-switch pragmatic trigger, not just the paradigm |
+| `021` | Learn Dutch! | Curated pass; `'t kofschip` mnemonic, strong-verb ablaut subclasses |
+| `022`–`022m` (13 files) | Teach Yourself Dutch | Full book, all 16 units + irregular-verb appendix + curated glossary |
+| `023`–`023r` (18 files) | Colloquial Dutch (Donaldson) | Full book, all 17 lessons + irregular-verb list + both glossaries |
+| `024`–`024d` | Linguaphone Cursus Nederlands | Woordenlijst lessons 1-33 + scope-checked extraction from the dialogue/exercise booklets (found real content: quotations/proverbs collection, 16 grammar points visible only in the drill structure) — Woordenlijst lessons 34-50 + phonology appendix + closing dictionaries remain unextracted, flagged for a future pass |
+| `025`–`025m` (13 files) | Colloquial Dutch 2 | Full book, all 12 units + grammar summary. **Flagship slang/register source**: explicit youth-slang list (Unit 5: vet/cool/strak/wreed vs. cono/bout/gaar) and a four-tier toilet-terminology formality ladder from a newspaper article (Unit 12) |
+| `026`–`026k` (11 files) | Hugo Advanced Dutch (Taking Dutch Further) | Full book, all 10 lessons (TOC-undercounting caught — book has 10 lessons, not 7 as initially estimated) |
+| `027`–`027i` (9 files) | Teach Yourself Dutch Grammar | Full book, all 100 numbered units + abbreviations + irregular verbs |
+| `028` | Dutch Reference Grammar (Donaldson, 1981) | Non-redundant-supplement pass against `010`-`013b`; colloquial money-slang (*piek/ton/mille*), Belgium's surviving masc/fem pronoun split |
+| `029`–`029za` (27 files) | Beyond the Dictionary in Dutch | Full book, entire alphabetical usage/near-synonym guide, A through "the youth" |
+| `030` | Reading Dutch: Fifteen annotated stories | Annotated-reader glosses |
+| `031`–`031h` (8 files) | The Phonology of Dutch (Booij) | Full book, Ch.1-9 — first systematic Dutch pronoun/clitic paradigm and spelling-correspondence tables in this corpus |
+| `032`–`032j` (10 files) | Goed zo! (Dutch-via-Russian course) | Full book except printed pp.155-174 ("Les 9"), confirmed physically missing from the source DJVU scan itself |
+| `033`–`033k` (11 files) | Klare Taal! Uitgebreide basisgrammatica NT2 | Full book, all 78 lessons (Deel 1-2) + Deel 3 + appendices |
 
 ---
 
@@ -160,20 +198,28 @@ chapters:
       suffix" attitude/stance use (22.3) are both source-marked/discussed as informal and tagged
       `colloquial`, while the plain form-class diminutives (22.1) and the semantic-drift/lexicalized
       diminutives (22.3.1) stayed `core`.
-- [ ] Everything else in `25` (Chapters 4-15, 17-21, 23-27) — not started, deferred behind the
-      full-corpus Wave 1/2 push below (the diminutive/colloquial-register findings that motivated
-      the original test run are already captured; the remaining chapters are standard grammar
-      likely to overlap with `22`/`23`/`27`'s content once those are extracted).
+- [x] Everything else in `25` — superseded by `27` (Dutch: A Comprehensive Grammar, the companion
+      volume covering the same and deeper territory) and the rest of the Wave 1/2 corpus below;
+      `25` itself was not re-visited beyond Chapters 1-3/16/22.
 
-**Full-corpus triage now complete — see `00_Book_Triage_Catalog.md` for the wave plan: Wave 1 (13
-clean-text sources), Wave 2 (16 vision-read sources, prioritizing `10`/`17` Colloquial Dutch and
-`32` Beyond the Dictionary in Dutch), Wave 3 optional (deferred workbook cluster + fairy-tale
-sampling).**
+**Wave 1 (13 clean-text sources) and Wave 2 (16 vision-read sources) are both fully extracted** —
+see the summary table above and `00_Book_Triage_Catalog.md` for the original wave plan. Two
+session-limit interruptions during Wave 2 left partial files with explicit continuation notes; all
+were closed via targeted follow-up dispatches rather than re-extraction (see
+`../../methodology-observations/dutch_test_run.md`).
 
-## Suggested next-session order
+**Known non-blocking gap:** `024` (Linguaphone Cursus Nederlands) — the Woordenlijst (vocabulary)
+booklet's lessons 34-50, its phonology appendix, and its closing alphabetical dictionaries remain
+unextracted (lessons 1-33 and the dialogue/exercise booklets are done). Flagged honestly rather than
+silently dropped; a candidate for a future supplementary pass.
 
-1. Dispatch Wave 1 (Group A clean-text sources) — prioritize `27` (companion to the already-started
-   `25`) and the clean Routledge `22`/`23` pair.
-2. Dispatch Wave 2 (Group B vision-read sources) — prioritize `10`/`17` (Colloquial Dutch 1 & 2)
-   and `32` (usage/near-synonym guide) first, given their direct register relevance.
-3. Graphify rebuild once both waves substantially land.
+**Wave 3 (deferred, not pursued in this push):** the untriaged workbook/reading-booklet cluster
+(`07`, `11`, `14`, `20`, `21`), *The UnDutchables* (cultural commentary), *Anne Frank — Het
+Achterhuis*, and the 27-volume Dutch fairy-tale series (flagged for representative sampling only,
+per the Russian Skazochnik precedent, not exhaustive coverage) — all remain genuinely out of scope
+for Phase 1, per `00_Book_Triage_Catalog.md`'s original priority call.
+
+## Next steps
+
+Phase 1 is done for this language. Future work starts at Phase 2 (web scraping) or Phase 3 (slang
+mechanics analysis) — see `ROADMAP.md`.
