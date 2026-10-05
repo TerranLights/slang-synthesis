@@ -189,6 +189,21 @@ separable-verb stress-shift) found independently across multiple unrelated sourc
 explicitly-flagged non-blocking gap remains: *Linguaphone Cursus Nederlands*'s own vocabulary
 booklet, lessons 34-50 plus its phonology appendix and closing dictionaries.
 
+**Romanian reached Phase 1 completion seventh — the smallest corpus the project has triaged yet**
+(5 real files, 54MB). Completed in a single continuous push with zero usage-limit disruptions, the
+second language (after Spanish) to do so. Result: 78 `established/` files, ~251,000 words,
+covering all 5 in-scope sources: *Colloquial Romanian* (flagship case-system coverage — the full
+nominative/accusative and genitive/dative syncretism, postposed definite article, `pe`-marked
+differential object marking), *Romanian: An Essential Grammar*, an academic grammar reference
+(numerals as its signature strength), *Teach Yourself Romanian*, and *Introduction to Romanian*
+(vision-read from a DJVU scan that turned out to have 24 lessons, not the 21 initially estimated).
+The `/graphify` graph stands at 290 nodes / 416 edges / 11 communities with zero dangling/missing/
+collapsed edges on the first pass. Register/slang highlights: explicit "(very coll.)"/"(slang)"
+source tags on *cică* (hearsay marker), *nasol*/*mișto*, and *șmecher*; numeral clipping
+(`-sprezece`→`-șpe`); taboo-avoidance naming (*cel cu coarne* for "devil"); a living dialectal
+simple-perfect tense in Oltenia/Banat; and a three-way register-stratified future-tense system (`o
+să` / `am să` / `voi`).
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in
