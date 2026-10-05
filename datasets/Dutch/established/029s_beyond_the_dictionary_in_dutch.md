@@ -1,0 +1,71 @@
+# Dutch — Established Vocabulary: "Beyond the Dictionary in Dutch" (Donaldson), Part 19
+
+**Source:** Donaldson, B.C., *Beyond the Dictionary in Dutch* (Coutinho, Muiderberg, 1990). Printed
+pages 237–241 (PDF pages 144–149 of `32 Beyond the Dictionary in Dutch A Guide to Correct Word
+Usage.pdf`), completing "to run," and continuing through the "S" section head, "sad," "satisfied,
+pleased," "to satisfy," "to save," and into "the school, university, college" (partial). Continues
+`029r_beyond_the_dictionary_in_dutch.md`; see `029_beyond_the_dictionary_in_dutch.md` for the
+source's overall scope and vision-reading gotchas, not repeated here.
+
+Two more duplicate-spread scans found and skipped (PDF pages 146, a repeat of pp.236–237, and 149,
+a repeat of pp.240–241). **No handwritten marginalia found** in this range.
+
+---
+
+## Vocabulary
+
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| treurig / verdrietig | "sad" (the most common words in spoken Dutch, largely synonymous)" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "sad." |
+| bedroefd | "sad" (more literary; implies 'sad' as the result of a specific cause — a temporary, not permanent, condition)" | adjective | literary | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "sad." |
+| droevig | "sad" (more literary, normally synonymous with *treurig*)" | adjective | literary | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "sad." |
+| triest | "sad, pathetic" (least common of the options here; normally applied to situations rather than directly to people; also renders 'pathetic' as in English, figuratively)" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "sad"; e.g. *Je kennis van het Nederlands is wel treurig, jongen* "Your knowledge of Dutch is pathetic, my boy." *verdriet hebben* "to be sad, troubled, grieved." |
+| blij | "glad, pleased" (literally 'glad'; overlaps heavily with *tevreden* 'satisfied' in practice, even more so than English 'pleased'/'satisfied' overlap)" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased," cross-referenced with 'to satisfy' and 'happy'; requires *met* before a following noun (never *om*), but *om* possible before a subordinate clause; e.g. *Ik ben erg blij met je vooruitgang*, *Ik ben er erg blij om dat je zo vooruitgegaan bent*. |
+| tevreden | "satisfied" (overlaps heavily with *blij*; 'to be pleased with s.t.' requires *met*/*over* — safe to stick to *met* in both cases)" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased"; e.g. *Ik ben erg tevreden met je vooruitgang* "I am very satisfied/pleased with your progress," *Ik ben er erg tevreden over/blij om* "I'm very pleased/happy about it." |
+| voldaan | "satisfied (from having accomplished s.t.)" (past participle of *voldoen*, cf. 'to satisfy'; specifically the satisfaction of having achieved something oneself)" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased"; e.g. *Ik heb dit kippenhok helemaal in mijn eentje gemaakt. Ik voel me erg voldaan* "I made this chicken pen entirely on my own. I feel very satisfied." 'Self satisfied' is either *(te) zelfvoldaan* or *tevreden met zichzelf*. |
+| (geen) genoegen nemen met | "to be (un)satisfied with s.t." (somewhat elevated but not uncommon way of expressing this)" | verb phrase | formal | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased"; e.g. *Daar neem ik geen genoegen mee* "I'm not satisfied with that/That won't do." |
+| genoegen doen | "to be pleased (to do s.t.)" (idiom)" | idiom | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased"; e.g. *Het doet mij veel genoegen u te mogen feliciteren met uw succes* "I am very pleased to congratulate you on your success." |
+| overtuigd | "convinced" (used when 'satisfied' actually means 'convinced')" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "satisfied, pleased"; e.g. *De jury was overtuigd dat hij schuldig was* "The jury was satisfied/convinced he was guilty." |
+| bevredigen | "to satisfy" (a question/answer/requirement — often carries a sexual connotation, but not necessarily); reflexive *zichzelf bevredigen* "to masturbate," noun *de zelfbevrediging* "masturbation"" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy"; e.g. *Dat antwoord kan mij niet bevredigen (een bevredigend antwoord)* "That answer doesn't satisfy me (a satisfactory answer)," *Zij is erg veeleisend en moeilijk te bevredigen/tevreden te stellen* "She's very demanding and difficult to satisfy (sexual/non-sexual)." |
+| iemand tevreden stellen | "to satisfy s.o." (used when performing a task/job for s.o. else, hoping to satisfy that person — the usual expression)" | verb phrase | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy"; e.g. *Sommige mensen zijn moeilijk tevreden te stellen* "Some people are difficult to satisfy." |
+| voldoening geven/krijgen | "to give/get satisfaction" (used when a task or accomplishment 'satisfies' one, i.e. gives a feeling of satisfaction)" | verb phrase | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy," cross-referenced with the overlap discussion in "satisfied, pleased." |
+| voldoen aan | "to satisfy, meet, comply with (requirements)" (= to measure up to certain demands); compare *beantwoorden aan* under 'to answer'" | verb phrase | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy"; e.g. *U voldoet niet aan de eisen van deze baan* "You do not satisfy the requirements of this job." |
+| stillen | "to satisfy, quench" (hunger)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy"; e.g. *Pas na drie hamburgers was zijn honger gestild* "Only after eating three hamburgers was his hunger/appetite satisfied." |
+| lessen | "to satisfy, quench" (thirst — distinct verb from *stillen* used for hunger)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy." |
+| (on)bevredigend | "(un)satisfactory" (the normal way of expressing 'satisfactory/unsatisfactory')" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy." |
+| (on)voldoende (2nd listing) | "(in)sufficient, (un)satisfactory" (used specifically with reference to school marks, cf. 'to fail'); lit. "(in)sufficient"" | adjective | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to satisfy"; e.g. *Je werk is onbevredigend* "Your work is unsatisfactory." |
+| redden (2nd listing) | "to save (s.o.'s life)" (the required verb specifically for saving a person's life)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Zij heeft ons leven gered* "She saved our lives." |
+| verlossen | "to save, redeem" (religious 'salvation' sense); noun *de verlosser* "the saviour"" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save." |
+| sparen | "to save (money, up)" (intransitive, with reference to money)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Ik ben voor de vakantie aan het sparen* "I'm saving (up) for the holidays"; *Ik spaar postzegels* "I save (= collect) stamps," cf. 'to collect.' |
+| opsparen | "to save up" (unlike English, MUST have an object, unlike bare *sparen* which can be used with or without one)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Je zult je geld moeten opsparen als je ook met vakantie wilt* "You'll have to save your money if you want to go on holidays too," *De boerin spaart potten op om er eigengemaakte jam in te doen*. |
+| besparen | "to save, be careful with" (petrol, energy, etc. — 'to conserve'); adjective *energiebesparend* "energy-saving"; *besparen op* = "to save (money) on"" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Men rijdt tegenwoordig niet meer zo veel als vroeger om benzine te besparen* "People don't drive as much now as previously in order to save petrol," synonym *bezuinigen op* "to economise on." |
+| besparen (2nd sense) | "to save, spare, preserve s.o. from s.t." | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Mijn oom heeft al mijn schulden voor me afbetaald en heeft mij een heleboel problemen bespaard* "My uncle paid off all my debts and spared/saved me (from) a lot of problems," *Je had me al die moeite kunnen besparen* "You could have saved me all that trouble." |
+| uitsparen | "to save, economise on" (least common of the *sparen*-family; most usual meaning is 'to leave open/blank', but can also be synonymous with *besparen*)" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Door het zo te doen zullen we papier uitsparen/besparen* "In that way we will save paper (= use less)." |
+| bewaren (2nd listing) | "to keep, preserve" (used in the fixed phrase for 'to save s.o. from s.t.', lit. 'to keep, preserve')" | verb | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *iemand bewaren voor iets* "to save s.o. from s.t." (lit. to keep/preserve), synonym *iemand beschermen tegen iets* (lit. to protect). |
+| behoeden (2nd listing) | "to keep, preserve, save" (used in *God spaar/redde/beware/behoede mij* "May God save/protect me")" | verb | formal | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save," footnoted. |
+| gespaard blijven | "to be spared, saved" (idiom, passive-flavoured)" | verb phrase | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; e.g. *Bij dat vliegtuigongeluk zijn maar twee mensen gespaard gebleven* "In that aeroplane accident only two people were spared." |
+| saven | "to save" (computing term, pronounced as if spelled *seven/seefde/geseefd* — *savede, gesaved*)" | verb | technical | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "to save"; the term used these days in the computer world. |
+| de kleuterschool | "kindergarten" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college." |
+| de lagere school | "primary school" (formerly distinct from kindergarten, but under the most recent reforms in Dutch education the two have been amalgamated into *de basisschool*)" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college." |
+| de middelbare school | "high school, secondary school" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college." |
+| de hogeschool | "the (technical) college" (tertiary institution; formerly distinct from *universiteit*, but lately *hogescholen* have been becoming universities); *technische hogeschool* "technical college, i.e. post-secondary"" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college." |
+| de universiteit | "the university" (Americans' 'at school' meaning university-attendance is usually *aan de universiteit* in Dutch, whereas *op school* covers both primary/secondary school AND is colloquially used for university too)" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college," cross-referenced with 'on' for *op/aan*. |
+| de akademie | "the academy" (post-secondary institutions of learning not qualifying for the label *universiteit* — frequently called *akademies*); e.g. *de pedagogische akademie (basisonderwijs)* "(primary) teacher training college" (also *de PA* or *PABO*, formerly *de kweekschool*)" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college"; the world of education in the Netherlands "abounds with acronyms." |
+| het internaat / de kostschool | "boarding school" (synonymous — the Dutch renderings of English 'college' when it means this, since university colleges as in Britain don't exist in Holland)" | noun | core | — | contemporary (source published 1990) | — | — | dictionary | n/a | verified | Under "the school, university, college." |
+
+## Grammar points
+
+*(No standalone grammar sections. Grammar-adjacent notes embedded in this range — the *blij
+met/om* vs. *tevreden met/over* preposition-choice rule (with *met* as the always-safe default)
+under "satisfied, pleased," and the *opsparen*'s-mandatory-object exception to normal English "to
+save up" behavior under "to save" — are captured inline in their rows' Notes above.)*
+
+---
+
+## Copyright discipline reminder
+
+Selective quotes + paraphrase + analysis only — never bulk reproduction. See
+`../../00_Reference_Extraction_Spec.md`.
+
+**Continues in `029t_beyond_the_dictionary_in_dutch.md`** (printed pages 241 onward, continuing
+after "het internaat / de kostschool" in "the school, university, college").
