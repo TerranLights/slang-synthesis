@@ -61,7 +61,7 @@ provisional if you ever need to cite one.
 |---|---|---|---|
 | **English** | USA (~155M eff.), UK (~32M eff.), Canada (~20M eff.), Australia (~13M eff.), New Zealand (~2.6M eff.) | Present (`English Grammar Ebook collection`; `Old English Language Learning Pack` covers the historical stage only — modern reference exists separately) | 🔴 **HIGH PRIORITY** — five separate nations; expect real dialectal slang divergence (American/British/Canadian/Australian/NZ) worth tracking per-nation once corpus work begins |
 | **German** | Germany (~46M eff.), Belgium (partial, ~6.4M eff., trilingual) | **Not present — gap.** No German-language reference material found in `source_reference/languages/`. | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
-| **Dutch** | Netherlands (~10M eff.), Belgium (partial, trilingual) | Present (`Dutch`; Phase 1 test-run in progress, see `methodology-observations/dutch_test_run.md`) | 🔴 **HIGH PRIORITY** |
+| **Dutch** | Netherlands (~10M eff.), Belgium (partial, trilingual) | Present, **Phase 1 complete** (`Dutch`; ~813,000 words across 167 `established/` files; see `datasets/Dutch/`) | 🔴 **HIGH PRIORITY — sixth-furthest along of any GINI language** |
 | **Swedish** | Sweden (~6M eff.) | Present (`Swedish`) | 🔴 **HIGH PRIORITY** |
 | **Norwegian** | Norway (~3.3M eff.) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | Danish | — | Present (`Danish`) | cataloged, not GINI-tagged |
@@ -263,8 +263,8 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Five languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
-Hungarian, Korean, Russian (by far the largest corpus of the five), and Spanish — see
+**Six languages have already reached full Phase 1 completion**: Serbian/Croatian/Bosnian,
+Hungarian, Korean, Russian (by far the largest corpus of the six), Spanish, and Dutch — see
 `datasets/00_Analysis_Index.md` for current status of every language in progress.
 
 ---

@@ -1,11 +1,13 @@
 # Test Run: Dutch — Methodology Observations
 
-**Status: tentative throughout.** The pipeline's third test-run language, chosen to add a third
-typological data point — Dutch is predominantly analytic/mildly fusional (West Germanic, closer to
-English), distinct from Serbian/Croatian/Bosnian's fusional case system and Hungarian's
-agglutinative case-stacking — and to specifically test whether a grammar reference's own
-"colloquial register" content can surface `Usage Tier` diversity beyond `core`, a gap both prior
-runs flagged but neither tested directly.
+**Status: tentative throughout the original test-run entries below; the full Phase 1 push entries
+(2026-09-14 onward) are confirmed — Dutch reached full Phase 1 completion, the sixth language in
+the project to do so.** The pipeline's third test-run language, chosen to add a third typological
+data point — Dutch is predominantly analytic/mildly fusional (West Germanic, closer to English),
+distinct from Serbian/Croatian/Bosnian's fusional case system and Hungarian's agglutinative
+case-stacking — and to specifically test whether a grammar reference's own "colloquial register"
+content can surface `Usage Tier` diversity beyond `core`, a gap both prior runs flagged but neither
+tested directly.
 
 See `../datasets/Dutch/00_Book_Triage_Catalog.md` for the source-material survey.
 
@@ -150,3 +152,111 @@ subagents safely handled a checklist race condition, unprompted, but only confir
 now has a standing caution in `00_Reference_Extraction_Spec.md`'s "no manual JSON manifest" section
 — explicitly noting this isn't confirmed to scale past 3 parallel subagents, and recommending a
 serialized follow-up pass instead of per-subagent updates for larger future dispatches.
+
+---
+
+## Full Phase 1 push (2026-09-14 onward) — confirmed findings
+
+### 2026-09-14 — Full re-triage superseded the "top candidates only" pilot
+
+The original test run only spot-checked a handful of "top candidate" files out of the 84-file
+corpus. Bringing Dutch to full Phase 1 required a from-scratch exhaustive triage
+(`00_Book_Triage_Catalog.md`, completely rewritten), which surfaced material the pilot never
+touched: two non-English-metalanguage courses (Indonesian-medium, German-medium), a non-English
+bilingual dictionary, two incomplete `.rar.part` downloads, 9 travel guides, and a 27-volume
+fairy-tale series flagged for representative sampling (per the Russian Skazochnik precedent) rather
+than exhaustive coverage. The already-extracted `established/001-003` were explicitly preserved,
+not re-extracted — the triage catalog states this up front so no subagent wastes a dispatch
+re-covering ground already done.
+
+### 2026-09-14/15 — Two session-limit interruptions recovered via disk-state verification, not re-extraction
+
+Wave 1 (13 clean-text sources) landed cleanly except for one source — the Routledge Intensive Dutch
+Course turned out to be an 11-unit book (not 8-9 as originally estimated from a coarse page-count
+guess), and several of its unit-extraction subagents hit a session-limit reset mid-dispatch. Rather
+than re-running the whole book, the exact units already covered were identified from disk and only
+the missing units (3, 5, 6, 7, 9-11 + back matter + glossary) were redispatched — the same
+disk-state-verification-before-redispatch discipline proven in Korean/Russian/Spanish's runs, now
+confirmed again at the Wave-1 (clean-text, non-vision) stage, not just Wave 2.
+
+Wave 2 (16 vision-read sources) hit the same usage-limit pattern twice, but at much larger scale —
+10 of 16 sources ended up needing a continuation dispatch. **Every single continuation subagent was
+pointed at the exact page/lesson boundary the interrupted subagent's own partial file had already
+recorded in its closing note** (page-offset formula, scan gotchas, exact next page to resume from)
+— zero pages were re-vision-read, zero tokens wasted on redundant extraction. This is the clearest
+large-scale confirmation yet that disciplined "work incrementally, write progressively, leave a
+continuation note" instructions let a session-limit interruption cost only *time*, not *work*, even
+when nearly two-thirds of a wave needs follow-up.
+
+### 2026-09-14 — TOC-undercounting caught twice at real scale, not just once
+
+Two separate sources turned out to have more content than their initial page-count-derived estimate
+assumed: the Routledge Intensive Dutch Course (11 units, not 8-9) and Hugo Advanced Dutch (10
+lessons, not 7 — confirmed by directly vision-reading the book's own table of contents rather than
+assuming the dispatch's lesson-count guess was final). In both cases the fix was the same: **always
+verify a book's actual structure by reading its own TOC/back matter directly before declaring it
+"fully covered,"** never trust an initial page-count-derived unit/lesson estimate as authoritative.
+This is the same lesson SCB's run first surfaced, now confirmed at a scale (two independent
+undercounts in one language's single push) that argues for promoting it from "known gotcha" to
+"standing verification step" in `00_Reference_Extraction_Spec.md`.
+
+### 2026-09-14 — A genuine file-numbering collision, caught and fixed before it shipped
+
+One Wave-1 subagent (extracting *Dutch: A Comprehensive Grammar*'s second half) used its own
+internal chapter-based numbering scheme (`014_dutch_comprehensive_grammar_ch12-13.md`) instead of
+the orchestrator-assigned `013b` continuation slot, colliding with a different book entirely
+(*Beter Nederlands*, correctly assigned `014`). Caught during a routine pre-commit disk audit (`ls
+established/ | sort` plus a header-content spot-check) before either commit happened, and fixed by
+a simple rename. **Worth a standing instruction**: when a subagent chunk-splits a single large
+source into multiple output files, it should be told explicitly to stay within its assigned numeric
+prefix (`013b`, `013c`, ...) rather than inventing its own numbering scheme, even when its own
+internal organizing principle (chapter numbers) suggests a different number would be more
+"natural."
+
+### 2026-09-14/15 — Scope-check-then-extract correctly found real content where a lazy skip would have missed it
+
+The Linguaphone Cursus Nederlands dispatch for its untouched dialogue and written-exercise booklets
+was framed as a scope check first, extraction second — rather than assuming "probably redundant
+with the vocabulary booklet already extracted" or blindly extracting everything. The check found
+genuine asymmetry: the dialogue booklet *was* substantially redundant (confirmed by the source's own
+preface statement), but the written-exercise booklet was not — its drill structure revealed 16
+grammar paradigms (auxiliary selection, passive-voice agent marking, two competing durative-aspect
+constructions, etc.) that appear nowhere else in the source, since the vocabulary booklet is a bare
+word list with no conjugation tables. A blanket "skip if it looks redundant" heuristic would have
+missed this; a blanket "extract everything regardless" heuristic would have wasted a large dispatch
+on the genuinely redundant dialogue booklet. The scope-check-first pattern correctly discriminated
+between the two.
+
+### 2026-09-14 — Graphify rebuild at full-corpus scale (678 nodes, 837 edges, 50 communities): clean on the first pass
+
+The full rebuild over all 167 `established/` files (166 new/changed since the original 3-file test
+run) split into 8 semantic-extraction chunks, merged via `build_merge()` with zero health-check
+warnings (no dangling/missing/collapsed edges) on the first pass — the third language-scale rebuild
+in the project's history to be clean on the first try (after Spanish and, partially, Korean),
+reinforcing the working hypothesis that chunk count (not corpus size per se) is the main driver of
+first-pass health-check cleanliness. One cosmetic node-ID collision occurred during merge (two
+different chunk subagents independently minted a stub cross-reference node for `established/003`
+with slightly different labels) and resolved itself via the merge's own keep-first/drop-duplicate
+behavior — a real but harmless instance of the stub-node-ID collision risk flagged in earlier
+graphify runs, worth continued monitoring at larger corpus scales rather than a new action item.
+The 50-community label set skews heavily toward one-source-per-community (reflecting how distinct
+most of this corpus's 29 source books are from each other), but several communities span multiple
+books around a shared mechanism — `er`-particle multifunctionality, the diminutive allomorph
+system, and the NL/Flanders register-and-purism axis each pulled together findings from 3+
+independently-written sources, mirroring the kind of cross-source convergence Spanish's subjunctive
+finding first demonstrated has real analytical value.
+
+---
+
+## Summary verdict for the full Phase 1 push
+
+Dutch is the first language in this project to combine three stress tests in one push: a from-
+scratch re-triage superseding an earlier partial pilot, a 29-source corpus with two separate
+large-scale usage-limit interruptions (one in Wave 1, one spanning 10 of 16 Wave 2 sources), and two
+independent TOC-undercounting discoveries. Every disruption was recovered without re-doing finished
+work, confirming the disk-state-verification-before-redispatch and continuation-note disciplines
+scale well beyond the single-chunk recoveries seen in earlier languages. The one process bug found
+(a subagent's self-invented file numbering colliding with another book) was caught by routine
+pre-commit auditing, not luck — worth keeping that audit step standard for every future language's
+Wave 1/2 closeout. Phase 1 is complete: 167 `established/` files, ~813,000 words, graphify clean on
+the first pass.

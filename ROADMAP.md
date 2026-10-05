@@ -172,6 +172,23 @@ the same corpus, exactly the kind of structural confirmation later synthesis wor
 heavily. One known, explicitly-flagged non-blocking gap remains: *Practice Makes Perfect Spanish
 Vocabulary* (Units 4-10 of 10, an unusually vocabulary-dense ~10,000-word book).
 
+**Dutch reached Phase 1 completion sixth**, continuing from an earlier partial test run (3
+`established/` files from one book) rather than starting from scratch — the full 84-file/2.1GB
+corpus was re-triaged from scratch first, since the original pass had only spot-checked "top
+candidates." Result: 167 `established/` files, ~813,000 words, covering all 13 Wave 1 clean-text
+sources and all 16 Wave 2 vision-read sources identified in the full triage. Two session-limit
+interruptions during Wave 2 left partial files with explicit continuation notes rather than lost
+work — both were fully closed via targeted follow-up dispatches, continuing from the exact page/
+lesson boundary each partial file's own closing note recorded, rather than re-extracting from
+scratch. The `/graphify` graph over the full corpus stands at 678 nodes / 837 edges / 50
+communities with zero dangling/missing/collapsed edges on the first pass. Register/slang
+highlights: an explicit youth-slang register list and a four-tier toilet-terminology formality
+ladder (both from *Colloquial Dutch 2*), a Belgenmop/Hollandermop regional joke tradition, and a
+graph-surfaced "unstressed material erosion" pattern (apostrophe elision, z'n/d'r contractions,
+separable-verb stress-shift) found independently across multiple unrelated sources. One known,
+explicitly-flagged non-blocking gap remains: *Linguaphone Cursus Nederlands*'s own vocabulary
+booklet, lessons 34-50 plus its phonology appendix and closing dictionaries.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in
