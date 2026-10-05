@@ -29,6 +29,7 @@ without that explicit review.
 | [`korean_test_run.md`](korean_test_run.md) | Fourth pipeline test run, third language to reach full Phase 1 completion — first non-Indo-European, non-Latin-script language; found and documented four distinct CJK/Hangul PDF font-corruption mechanisms | tentative |
 | [`russian_test_run.md`](russian_test_run.md) | Fifth pipeline test run, fourth language to reach full Phase 1 completion — by far the largest single-language corpus (281 files, ~1.36M words); found 8 distinct Cyrillic PDF-corruption variants; graphify health check caught its first real fabricated edge in four language-scale rebuilds; recovered from three separate usage-limit disruptions | tentative |
 | [`spanish_test_run.md`](spanish_test_run.md) | Sixth pipeline test run, fifth language to reach full Phase 1 completion — smallest/cleanest corpus yet, zero usage-limit disruptions; a two-lesson-series "duplicate" check correctly found genuinely distinct content instead; the subjunctive mood independently rediscovered as a major gap by 3 unrelated sources | tentative |
+| [`romanian_test_run.md`](romanian_test_run.md) | Seventh language to reach full Phase 1 completion — smallest corpus yet (5 files), zero usage-limit disruptions, completed in a single continuous push; a new silent-diacritic-dropping text-layer failure mode found; third independent TOC-undercounting discovery | confirmed |
 
 ---
 
