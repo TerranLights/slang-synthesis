@@ -1,7 +1,10 @@
 # Romanian Slang Mechanics — Extraction Checklist
 
-**Full Phase 1 push started 2026-10-04.** See `00_Book_Triage_Catalog.md` for the source-material
-survey (5 real files, 54MB — the smallest corpus triaged so far).
+**Phase 1 (reference extraction) complete as of 2026-10-04.** Seventh language in the project to
+reach this milestone, after Serbian/Croatian/Bosnian, Hungarian, Korean, Russian, Spanish, and
+Dutch. 78 `established/` files, ~251,000 words, from all 5 in-scope sources identified in
+`00_Book_Triage_Catalog.md` — the smallest corpus triaged so far, completed in a single continuous
+push with zero usage-limit disruptions.
 
 **Purpose:** analyze the actual mechanics of how Romanian slang forms and works, using the
 corpus collected in `language_corpus/Romanian/` and, where useful, the grammar/vocabulary
@@ -37,9 +40,13 @@ definite article, the three-gender system with its unusual neuter class).
 
 Fill this table in as files are created:
 
-| File | Contents |
-|---|---|
-| *(pending Wave 1/2 dispatch)* | |
+| Files | Source | Contents |
+|---|---|---|
+| `001`–`001q` (18 files) | Colloquial Romanian (Gönczöl-Davies & Deletant, Routledge) | Full book, Introduction + all 19 units — flagship case-system coverage (nominative/accusative, genitive/dative, vocative, postposed article, `pe`-marked DOM); real slang (`cică`, `nasol`, `șmecher`, `gaiță`) |
+| `002`–`002h` (8 files) | Romanian: An Essential Grammar (Gönczöl-Davies, Routledge) | Full book, 16 chapters + glossary + sampled verb appendix; explicit "(very coll.)"/"(slang)" tags, regional/taboo-avoidance annotations |
+| `003`–`003n` (14 files) | Romanian grammar (academic reference) | Full book, intro through Interjection chapter; numerals as signature strength; living dialectal simple-perfect tense note |
+| `004`–`004m` (13 files) | Teach Yourself Romanian | Full book, all 20 units + appendix notes; register-stratified future-tense system, colloquial numeral/demonstrative clipping |
+| `005`–`005z` (26 files) | Introduction to Romanian (vision-read, DJVU) | Full book, 24 lessons (book turned out to have 24, not the 21 initially estimated) + appendices + curated glossary sample |
 
 ## Field/column conventions
 
@@ -60,8 +67,13 @@ calls from the repo root.**
 
 ## Reference extraction progress (Phase 1)
 
-- [ ] `01.Colloquial Romanian.pdf` (172pp, clean text)
-- [ ] `10.Romanian An Essential Grammar.pdf` (232pp, clean text)
-- [ ] `11.Romanian grammar.pdf` (183pp, clean text)
-- [ ] `02.Teach Yourself Romanian.pdf` (140pp, vision-read)
-- [ ] `03.Introduction to Romanian.djvu` (257pp, vision-read)
+- [x] `01.Colloquial Romanian.pdf` (172pp, clean text) — see `established/001`–`001q`
+- [x] `10.Romanian An Essential Grammar.pdf` (232pp, clean text) — see `established/002`–`002h`
+- [x] `11.Romanian grammar.pdf` (183pp, clean text) — see `established/003`–`003n`
+- [x] `02.Teach Yourself Romanian.pdf` (140pp, vision-read) — see `established/004`–`004m`
+- [x] `03.Introduction to Romanian.djvu` (257pp, vision-read) — see `established/005`–`005z`
+
+## Next steps
+
+Phase 1 is done for this language. Future work starts at Phase 2 (web scraping) or Phase 3 (slang
+mechanics analysis) — see `ROADMAP.md`.
