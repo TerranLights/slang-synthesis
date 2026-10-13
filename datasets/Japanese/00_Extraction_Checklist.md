@@ -70,7 +70,10 @@ size-warning threshold could plausibly be approached by this language alone). **
 
 ## Reference extraction progress (Phase 1)
 
-- [ ] Wave 1 — Writing System foundation (~25 files)
+- [x] Wave 1 — Writing System foundation (27 source files → 61 `established/` files,
+      ~277,000 words). Full extraction for compact/lesson-structured sources; representative
+      sampling for oversized kanji-dictionary-style references, per this project's standing
+      practice. See commit history for the full per-source breakdown.
 - [ ] Wave 2 — Grammar, Workbooks, Usage (42 files)
 - [ ] Wave 3 — Audio Courses, Textbooks (~65 files)
 - [ ] Wave 4 — Vocabulary/Dictionaries (~25 files, incl. 2 oversized-dictionary samples)
