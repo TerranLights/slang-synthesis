@@ -1,0 +1,39 @@
+# Japanese — Established Vocabulary/Grammar: A Dictionary of Japanese Particles (particle dictionary, part 8: NI, NI-MO, NI-MO-KAKAWARAZU)
+
+**Source:** Sue A. Kawashima, *A Dictionary of Japanese Particles* (Kodansha International, 1999),
+dictionary entries NI (and the tail of NE/NEE), NI-MO, NI-MO-KAKAWARA-ZU, pp. 116–137 (printed
+pagination).
+
+**Coverage note / vision-reading note:** see part 1 for methodology. No marginalia found in this
+range. "NI (に)" is one of the dictionary's largest entries (pp.118–136) — all numbered senses are
+captured below; the many (15+) lettered example sentences per sense in the source were sampled
+rather than exhaustively reproduced, per the coverage rule.
+
+---
+
+## Vocabulary
+
+| Term | Gloss | Part of Speech | Usage Tier | Weight/Frequency | Attested Era | Attested Region | Geographic Scope | Source Type | Transcription Confidence | Vision Reading Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| ne / nee (ね/ねえ) [continued] | sentence-final particle: rhythmic filler; catch-all for set phrases | particle | core | — | contemporary (source published 1999) | — | — | dictionary | n/a | verified | Conclusion of the entry begun in part 7: (5) rhythm-setting meaningless filler, not translatable; (6) "same as 5, but in set phrases" such as "ano ne" and "da ne/desu ne", with varying translations depending on context. |
+| ni (に) | particle: locative "at/in/on", directional "to/into", change-of-state "into/become", temporal "at/in", rate/frequency "per", agentive "by/from", indirect-object "to", purpose "in order to", passive-agent marker, benefactive-source marker ("...te morau" pattern), mimetic-adverbializer, concessive "...ni wa...keredo", gerund-forming, and sympathetic/regretful sentence-final particle | particle | core | — | contemporary (source published 1999) | — | — | dictionary | n/a | verified | The dictionary's single largest entry (pp.118-136), interchangeable with "e" (p.30) in directional senses. **1. After a noun/nominal**: 1) location of existence ("at/in/on" — with the animate "iru" vs inanimate "aru" verb distinction, listing nine example verbs: aru, iru, kurasu, nezasu, nokoru, ochitsuku, sumu, tomaru, tsutomeru, ukabu, yokotawaru); 2) direction/destination of an action ("to/in/on/into"); 3) action proceeding toward an abstract condition/state ("to" or untranslatable, e.g. falling in love, joining a political circle); 4) "...ni naru/kawaru" pattern, change of condition/state ("turn into"); 5) time an action takes place ("on/in/at"); 6) rate/proportion/frequency/interval ("at/to/in/for/per"); 7) someone involved in/influenced by an action/condition ("from/with"); 8) intention/purpose of an action ("as a token of/for/by way of"); 9) lists a number of things, interchangeable with "to" but with an additive sense ("and/with"); 10) speaker's respect toward the addressed party, not translatable; 11) something done by/through a measure described by the preceding noun, in patterns "ni yotte/ni yori/ni yoreba/ni yorazu de" ("by/at/according to/from/due to"); 12) placed between two nouns, creates a pair ("and/in addition"). **2. After a verb**: 1) purpose of an action, esp. before "iku/kuru/mukau/shuppatsu-suru/kaeru/modoru" ("to do.../in order to do..."); 2) same-verb-repeated-with-ni-between pattern, intensifies degree ("...and..."); 3) passive-verb agent marker ("by"); 3-alt) indirect-object marker, placed before the direct object ("to"); 4) in the "...te morau" pattern, identifies the agent/source of a requested favor; 5) after mimesis, creates an untranslatable adverb modifying the predicate verb; 6) "...ni wa...keredo(ga)" pattern, admits something with reservation ("it is certain that..., but"); 7) after a short introductory remark, makes the verb into a present-participle "-ing" form; 8) in patterns "...deshoo ni/de aroo ni/deshita deshoo ni/datta deshoo ni/datta roo ni", expresses sympathy or regret, often sentence-final ("I suppose.../I regret.../I sympathize..."). |
+| ni-mo (にも) [C.P.] | combination particle (ni + mo): "even/also", honorific-following "not translatable", "(verb) ni mo (verb) zu/nai" impossibility pattern | particle | core | — | contemporary (source published 1999) | — | — | dictionary | n/a | verified | pp.136-137: combination of "ni" and "mo". (1) indicates something additional/surpassing the norm ("even/also" — "she works even during her lunch break"); (2) in honorific usage, follows the subject, not translatable ("I presume you are well"); (3) "(verb) ni mo (verb) zu/nai" pattern, repeated verb + negation, indicates the action is impossible/difficult ("couldn't swim even if I tried"). |
+| ni-mo-kakawara-zu (にもかかわらず) [C.P.] | combination particle (ni + mo + kakawaru "to relate" + zu): "even though/despite", sentence-initial "despite that fact" | particle | core | — | contemporary (source published 1999) | — | — | dictionary | n/a | verified | pp.137-138: combination of "ni", "mo", "zu", and the verb "kakawaru" (to relate). (1) shows an actual situation is the opposite of what's expected ("even though" — "even though it's a clear day, the sky is gray because of smog"); (2) a shortened form of "sore ni mo kakawara zu", placed sentence-initially as a conjunction ("despite that fact" — "despite that fact, his grades are always at the top"). |
+
+## Grammar points
+
+### ne / nee (ね/ねえ) — filler/set-phrase conclusion
+Paraphrased from the tail of the entry (part of p.116-117, concluding here). Beyond the confirmation/agreement/question-softening senses already covered in part 7, "ne/nee" also serves a purely rhythmic, meaningless function, and recurs inside set phrases like "ano ne" (an attention-getting "listen...") and "da ne/desu ne" (agreement tags), whose English rendering varies by context.
+
+### ni (に) — the core multi-function particle
+Paraphrased from pp.118–136, by far the largest entry in the dictionary. After a noun, "ni" marks static existence-location (distinguishing animate "iru" from inanimate "aru"), the destination/direction of movement (interchangeable with "e"), an abstract goal ("fall in love", "join a political circle"), a resulting state after change ("the light turned green"), the time of an event, rate/frequency ("twice a day"), an influencing/afflicting condition ("suffered from a high fever"), the purpose behind giving something ("as a token of appreciation"), additive listing of items ("fried chicken and a hamburger"), an honorific politeness marker, the "by/according to" evidential pattern (ni yotte/yori/yoreba), and a noun-pairing function. After a verb, "ni" marks purpose before motion verbs ("go to eat sushi"), intensification via verb reduplication ("cried and cried"), the agent of a passive verb ("robbed by a pickpocket"), the indirect object of a double-object verb, the source of a favor in the "...te morau" construction, an adverb formed from mimesis, a reservation-admitting concessive pattern, a present-participle-forming use after a short intro clause, and finally a sentence-final sympathy/regret expression ("what a pity he died so young").
+
+### ni-mo (にも) and ni-mo-kakawara-zu (にもかかわらず) — combination particles built on "ni" + "mo"
+Paraphrased from pp.136–138. "Ni-mo" layers "even/also" onto an existing situation, serves as an untranslatable honorific-following marker, and — doubled with a negated repeated verb — expresses functional impossibility ("I couldn't swim even if I tried"). "Ni-mo-kakawara-zu" (literally "not relating to [the expectation]") is the dictionary's standard "even though/despite" connective, usable mid-sentence or, in its shortened sentence-initial form, as a standalone "despite that fact" conjunction.
+
+---
+
+## Copyright discipline reminder
+
+Selective quotes + paraphrase + analysis only — never bulk reproduction of vocabulary boxes,
+dialogue blocks, or explanatory prose. See `../../00_Reference_Extraction_Spec.md`.
