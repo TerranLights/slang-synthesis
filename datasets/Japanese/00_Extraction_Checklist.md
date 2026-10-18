@@ -81,7 +81,18 @@ size-warning threshold could plausibly be approached by this language alone). **
       left several Nihongo Notes volumes untouched despite one file's inaccurate self-reported
       completion claim — caught via disk audit, not assumed. See commit history for the full
       per-source breakdown.
-- [ ] Wave 3 — Audio Courses, Textbooks (~65 files)
+- [x] Wave 3 — Audio Courses, Textbooks (~65 source files → established/070-089, ~64
+      established files, recovering cleanly from two separate session-limit interruptions mid-
+      wave via disk-state verification rather than re-extraction). Full extraction for
+      compact/lesson-structured sources; representative sampling for oversized courses (Nakama,
+      Ultimate Japanese Advanced, Teach Yourself Japanese Complete Course, etc.). Notable finds:
+      Japanese in Mangaland's register-tagged vocabulary index surfaced a yakuza/underworld slang
+      cluster; Nakama Ch.8 consolidated a 6-way evidentiality register table; Ultimate Japanese
+      Advanced documented an in-progress generational slang shift (やったぞ); Teach Yourself
+      Japanese's Unit 22 is a dedicated informal-speech/dialect/insult unit. Two new extraction
+      gotchas catalogued: undecodable CID-font corruption with no stable cipher (Teach Yourself
+      Phone Japanese), and a fully text-layer-less 446-page scan with zero embedded fonts
+      (Ultimate Japanese Advanced). See commit history for the full per-source breakdown.
 - [ ] Wave 4 — Vocabulary/Dictionaries (~25 files, incl. 2 oversized-dictionary samples)
 - [ ] Wave 5 — Children's Books, Readers (tiered: 4 full readers + ~4 sampled picture books)
 - [ ] Wave 6 — Society/Culture gems + remaining course material (~10 files)
