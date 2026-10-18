@@ -93,6 +93,24 @@ size-warning threshold could plausibly be approached by this language alone). **
       gotchas catalogued: undecodable CID-font corruption with no stable cipher (Teach Yourself
       Phone Japanese), and a fully text-layer-less 446-page scan with zero embedded fonts
       (Ultimate Japanese Advanced). See commit history for the full per-source breakdown.
-- [ ] Wave 4 — Vocabulary/Dictionaries (~25 files, incl. 2 oversized-dictionary samples)
+- [x] Wave 4 — Vocabulary/Dictionaries (full `05.Vocabulary, Expressions, Idioms/` +
+      `07.Dictionaries, Phrasebooks/` folders → established/090-102, ~85 established files).
+      Full extraction for compact/lesson-structured and dictionary-style sources where feasible;
+      representative sampling for the 2 flagged oversized dictionaries (NTC's New Japanese-English
+      Character Dictionary, 2217pp; The Kodansha Kanji Learner's Dictionary, 1054pp) and other
+      large flat-list references (VocabuLearn series, Nihongo Hyogen Bunkei Jiten). **Two flagship
+      slang-dictionary pairs fully extracted**: Dirty Japanese/Zakennayo! (~1,218 rows) and Making
+      Out In Japanese/More Making Out In Japanese (~1,677 rows), with explicit gendered-register
+      tagging and a documented Kantō/Kansai regional split on vulgar vocabulary (omanko/omeko,
+      baka/aho). Other notable finds: a regular sound-symbolism/mimetic-derivation system
+      (korokoro/gorogoro voicing alternation, 5 verb-suffix + 3 na-adjective-suffix patterns)
+      directly reusable for slang synthesis; the Rough Guide phrasebook's self-labeled 28-term
+      slang/colloquialism section; a productive 100-word→1,000-idea combinatorial template
+      (Instant Japanese); a genuine byte-identical duplicate-file pair caught before double
+      extraction (Nihongo Hyogen Bunkei Jiten). One new extraction gotcha catalogued: genuinely
+      non-monotonic page ordering within a single scanned PDF (Zakennayo!), distinct from the
+      prior two-pages-per-spread gotcha. One live numbering collision (`098` claimed by two
+      concurrent dispatches) resolved cleanly by routing the later source to the next free slot
+      (`102`). See commit history for the full per-source breakdown.
 - [ ] Wave 5 — Children's Books, Readers (tiered: 4 full readers + ~4 sampled picture books)
 - [ ] Wave 6 — Society/Culture gems + remaining course material (~10 files)

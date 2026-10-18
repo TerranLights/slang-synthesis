@@ -198,6 +198,13 @@ test, worth checking for on any future language's sources rather than rediscover
   two first, rather than trusting a fixed-offset formula — every subagent in the run that hit this
   correctly self-corrected once instructed to locate boundaries by direct inspection rather than
   arithmetic alone.
+- **A scanned PDF can have genuinely non-monotonic page ordering** — distinct from the spread
+  gotcha above, this is a single physical page inserted out of sequence relative to the rest of
+  the file. Found on Japanese's *Zakennayo!* (PDF page 10, corresponding to printed pages 112-113,
+  was physically bound out of order — its true position was between PDF pages 59 and 60). Caught
+  only by reading the printed page numbers themselves rather than assuming PDF page order tracks
+  printed order; worth a quick sanity check (do the visible page numbers increase monotonically as
+  you step through?) on any vision-read source before trusting sequential dispatch.
 
 ### Morphological composition
 
