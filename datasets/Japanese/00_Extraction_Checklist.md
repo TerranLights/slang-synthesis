@@ -74,7 +74,13 @@ size-warning threshold could plausibly be approached by this language alone). **
       ~277,000 words). Full extraction for compact/lesson-structured sources; representative
       sampling for oversized kanji-dictionary-style references, per this project's standing
       practice. See commit history for the full per-source breakdown.
-- [ ] Wave 2 — Grammar, Workbooks, Usage (42 files)
+- [x] Wave 2 — Grammar, Workbooks, Usage (42 source files → 145 `established/` files,
+      ~390,000 words). Full extraction for compact/lesson-structured sources (including the
+      complete 10-volume Nihongo Notes series, ~740 essays); representative sampling for oversized
+      grammar/sentence-pattern dictionaries. Recovered from a weekly usage-limit interruption that
+      left several Nihongo Notes volumes untouched despite one file's inaccurate self-reported
+      completion claim — caught via disk audit, not assumed. See commit history for the full
+      per-source breakdown.
 - [ ] Wave 3 — Audio Courses, Textbooks (~65 files)
 - [ ] Wave 4 — Vocabulary/Dictionaries (~25 files, incl. 2 oversized-dictionary samples)
 - [ ] Wave 5 — Children's Books, Readers (tiered: 4 full readers + ~4 sampled picture books)
