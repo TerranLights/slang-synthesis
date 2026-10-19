@@ -112,5 +112,23 @@ size-warning threshold could plausibly be approached by this language alone). **
       prior two-pages-per-spread gotcha. One live numbering collision (`098` claimed by two
       concurrent dispatches) resolved cleanly by routing the later source to the next free slot
       (`102`). See commit history for the full per-source breakdown.
-- [ ] Wave 5 — Children's Books, Readers (tiered: 4 full readers + ~4 sampled picture books)
+- [x] Wave 5 — Children's Books, Readers (tiered: 6 Tier-1 literary readers extracted in full/
+      deep-sampled, Tier-2 picture books representatively sampled, Tier-3 "Light Novels" folder
+      confirmed empty and skipped → established/103-107, 11 established files). **Tier 1** (6
+      books, the triage catalog's original "~4" estimate undercounted the subfolder — 2 more
+      genuine literary readers turned up on disk): Breaking into Japanese Literature + Exploring
+      Japanese Literature (~315 rows, 10 Sōseki/Akutagawa/Kawabata/Mishima/Tanizaki stories
+      sampled; the "Read Real Japanese" family resolved into 3 genuinely distinct books despite
+      overlapping titles via direct colophon comparison (~146 rows, 32 grammar subsections, 23
+      stories/chapters); Moons, Months and Seasons extracted in full (~780 rows, complete 12-month
+      back-glossary). **Tier 2** (representative sample per standing Russian Сказочник/Dutch
+      fairy-tale precedent): graded readers sampled across all 3 difficulty levels (surfaced the
+      series' own publisher-stated difficulty/register-shift table — furigana density and
+      です/ます→である/のだ register both tighten level-by-level); one Favorite Stories title
+      (Kaguyahime, 62 rows) — also resolved a suspected duplicate-edition question (the two
+      standalone top-level PDFs turned out to be genuinely distinct hand-drawn-vs-commercial
+      editions of the same folk tales, not duplicates). **Tier 3**: confirmed zero actual content
+      (cover thumbnails only), skipped entirely as planned. New gotcha: block-scale non-monotonic
+      PDF page ordering (Reading Japanese with a Smile), a second instance of the pattern first
+      seen on *Zakennayo!* in Wave 4. See commit history for the full per-source breakdown.
 - [ ] Wave 6 — Society/Culture gems + remaining course material (~10 files)
