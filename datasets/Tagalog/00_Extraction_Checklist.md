@@ -22,11 +22,21 @@ explicit decision.
 
 ## Morphological typology
 
-**Tagalog: Austronesian, with a non-concatenative verb-centered affix-and-trigger (voice/focus)
-system** — see `00_Book_Triage_Catalog.md`'s morphological typology note for the preliminary
-profile (the trigger system, productive reduplication, heavy Spanish + growing English loanword
-strata). This is the first Austronesian-family language in this project — refine here once Wave 1
-extraction lands with real worked examples.
+**Tagalog: Austronesian, non-concatenative and verb-centered rather than agglutinative in the
+Finnish/Korean/Japanese sense this project has seen before.** A single root takes a *different*
+affix per trigger category rather than stacking affixes linearly — the same root (e.g. *luto*
+"cook") surfaces as 5+ distinct lexical forms depending purely on which argument (actor, object,
+locative, instrumental/conveyance, beneficiary, causative) is grammatically focused. Confirmed with
+real worked examples across all 14 sources. Productive reduplication does at least four distinct
+grammatical jobs (verbal aspect, adjectival intensification/plurality, habitual-adverb derivation,
+a formally distinct "moderative" function), and recurs independently on non-verbal items too
+(sari-sari, halo-halo, turo-turo). Spanish/English loanword strata are pervasive, sometimes
+coexisting in triplicate for a single domain (three parallel numeral systems for counting vs.
+telling time, generationally stratified). A genuine sociolinguistic distinction between "Filipino"
+and "Tagalog" as structurally distinct varieties, tied concretely to divergent -um-/mag- and
+i-/-an trigger choices, was found in a closing essay (established/010f). The *ka-* morpheme
+surfaces with at least four unrelated grammatical functions — flagged as an open question for
+later mechanics work.
 
 ---
 
@@ -44,7 +54,16 @@ Fill this table in as files are created:
 
 | File | Contents |
 |---|---|
-| *(pending Wave 1/2 dispatch — triage only so far)* | |
+| `001-005` | Tagalog Grammar (phonology/nouns/markers, pronouns/adjectives/sentences, verbal focus/trigger system, time/particles/conjunctions) + The World's Major Languages academic typology chapter |
+| `006-006c` | Ngumiti ka naman! Tagalog with Humor (all 140 lessons) |
+| `007-007l` | Basic Tagalog for Foreigners and Non-Tagalogs (all 44 lessons + 6 appendices) |
+| `008-008d` | Teach Yourself Tagalog (18 units) + Living Language Tagalog Complete Course (15 lessons) |
+| `009-009c` | VocabuLearn Tagalog Level 1 (full) + Filipino Basic Course (sampled) + Advanced Tagalog Reader (sampled) |
+| `010-010f` | Headstart for the Philippines (5 modules + glossary supplement) |
+| `011-011c` | Diccionario Ingles-Español-Tagalog (sampled across all 3 volumes) |
+| `012-012c` | Making Out in Tagalog (flagship slang source, full extraction) |
+| `013` | The Philippines (Language and National Identity in Asia) |
+| `014` | Headstart for the Philippines Cultural Notes |
 
 ## Field/column conventions
 
@@ -67,14 +86,49 @@ root.**
 
 ## Reference extraction progress (Phase 1)
 
-- [ ] Wave 1 — Clean-text sources (5 files: Headstart for the Philippines, Tagalog Grammar,
-      Tagalog [World's Major Languages], Diccionario Ingles-Español-Tagalog [sampled], The
-      Philippines [Language and National Identity])
-- [ ] Wave 2 — Vision-read sources (9 files: Basic Tagalog for Foreigners, Teach Yourself Tagalog,
-      Living Language Tagalog, Headstart Cultural Notes, Filipino Basic Course [sampled], Ngumiti
-      ka naman!, Making Out in Tagalog [flagship slang], VocabuLearn Tagalog, Advanced Tagalog
-      Reader [sampled])
+- [x] Wave 1 — Clean-text sources (5 sources → established/001-005, 011, 013; ~15 files).
+      Tagalog Grammar + The World's Major Languages fully extracted (001-005, ~257 rows,
+      flagship chapter 003 covers the full trigger/focus affix system with real worked
+      examples). Headstart for the Philippines extracted in full (010/010b-f, 307 rows, all
+      5 modules + glossary supplement). Diccionario Ingles-Español-Tagalog representatively
+      sampled across all 3 volumes (011/011b/011c, 406 rows — a pre-1940 Spanish-influenced
+      orthography, with an emergent trigger/focus overview compiled from real dictionary
+      entries). The Philippines (Language and National Identity) extracted in full (013) —
+      found an explicit note on Taglish code-mixing as a growing mechanism among younger
+      speakers.
+- [x] Wave 2 — Vision-read sources (9 sources → established/006-010, 012, 014; ~26 files).
+      **Flagship slang source Making Out in Tagalog fully extracted** (012/012b/012c, 382
+      rows) — genuinely vulgar/intimate register preserved and tagged, not sanitized; caught
+      a mid-extraction silent image-read failure and re-verified the entire book page-by-page
+      before finalizing. Ngumiti ka naman! (006-006c, 466 rows, all 140 lessons) and Basic
+      Tagalog for Foreigners (007-007l, 953 rows, all 44 lessons + appendices) both extracted
+      in full. Teach Yourself Tagalog + Living Language Tagalog + Headstart Cultural Notes
+      (008-008d, 014) all extracted in full — recovered cleanly from a session-limit
+      interruption via disk-state verification (both courses had actually completed before
+      the interrupt, contrary to the failure notification). VocabuLearn Tagalog extracted in
+      full (009, 1,323 rows); Filipino Basic Course and Advanced Tagalog Reader
+      representatively sampled (009b/009c) given their real scale (745pp/471pp — both turned
+      out to be far larger multi-lesson corpora than their triage-stage titles suggested).
+      **New gotcha**: a genuine duplicate-scan page pair (Headstart Cultural Notes) — caught
+      by reading printed page numbers directly rather than trusting PDF page order.
 
-**Before Wave 1/2 dispatch**: copy the source corpus from
-`/media/kuroskalacs/Home-Theater/w-lang/Tagalog (Filipino)/` into this project's standard
-`source_reference/languages/Tagalog/` location.
+**Notable cross-source findings**: a productive English-loanword-plus-native-affixation slang
+mechanism cross-confirmed across three independent sources (nag-eenjoy, nagsuicide,
+mag-aapologize); a linked face/politeness concept cluster (utang na loob/pakikisama/amor
+propio/hiya) flagged as a strong Phase 3 mechanics candidate; a documented two-era polysemy
+case ("abuso") from a native-speaker essay on English-root Filipinization in tabloid
+headlines; a living generational word-clipping process (older ikamo/ikako vs. younger sabi
+ko). See commit history for the full per-source breakdown.
+
+**File-numbering collision resolved**: two independent dispatches collided at `003`/`004`/`005`
+(Tagalog Grammar's own 5-file sequence vs. Headstart/Diccionario/Making Out In Tagalog). Kept
+the Tagalog Grammar series as `001`-`005` and renumbered Headstart → `010`/`010b-f`, Diccionario
+→ `011`/`011b/c`, Making Out In Tagalog → `012`/`012b/c`, and The Philippines (Language and
+National Identity) → `013`, fixing all internal cross-references.
+
+Corpus was copied from `/media/kuroskalacs/Home-Theater/w-lang/Tagalog (Filipino)/` into this
+project's standard `source_reference/languages/Tagalog/` location before extraction began.
+
+**Full Phase 1 reference extraction for Tagalog is now complete** — 41 established files,
+~256,000 words, the 9th language in this project to reach Phase 1 completion. Graphify rebuild,
+status-doc updates, methodology log, and project memory still pending.
