@@ -204,6 +204,52 @@ source tags on *cică* (hearsay marker), *nasol*/*mișto*, and *șmecher*; numer
 simple-perfect tense in Oltenia/Banat; and a three-way register-stratified future-tense system (`o
 să` / `am să` / `voi`).
 
+**Japanese reached Phase 1 completion eighth — by far the largest corpus this project has
+processed** (619 source files, 8.9GB), and the first language where the large majority of in-scope
+material had no usable text layer at all (CJK OCR defeats text extraction far more consistently
+than any Latin/Cyrillic-script language handled so far), so the 6 extraction waves were organized
+by content category rather than by text-layer status. Result: 420 `established/` files, ~1,840,000
+words, covering Writing System foundations, Grammar/Workbooks/Usage, Audio Courses/Textbooks,
+Vocabulary/Dictionaries, tiered Children's Books/Readers, and Society/Culture gems + remaining
+course material. Recovered cleanly from multiple session-limit interruptions via disk-state
+verification, including one case where a subagent's own self-reported "fully complete" claim was
+false (a Nihongo Notes volume genuinely incomplete despite its own closing note claiming full
+coverage) — caught only by cross-checking volume/page citation tags, not by trusting the
+self-report. Flagship slang sources fully extracted: Dirty Japanese/Zakennayo! (~1,218 rows) and
+Making Out In Japanese/sequel (~1,677 rows), both with explicit gendered-register tagging and a
+documented Kantō/Kansai regional split on vulgar vocabulary (omanko/omeko, baka/aho); the Kinki
+region dialect dictionary (~265 rows) found the Kyoto -haru honorific losing its gender-skew
+through overuse and a systematic Wakayama z→d sound shift; Womansword documented a repeatable
+euphemism-treadmill mechanism (BG→OL, torukojo→sopu redi). The `/graphify` graph stands at 2,302
+nodes / 2,303 edges / 792 communities (80 substantively labeled) — one semantic-extraction chunk
+initially over-extracted at vocabulary-row granularity (3,297 nodes for 22 files) and was redone to
+match the project's node-density convention; a minor health-check note (18 dangling cross-document
+edges, ~31 collapsed duplicates out of 2,352) was surfaced honestly rather than hidden, as expected
+noise from 20 independently-dispatched extraction chunks.
+
+**Tagalog reached Phase 1 completion ninth — the first Austronesian-family language this project
+has extracted.** Corpus (25 files, 303MB) was staged on an external drive and copied into this
+project's standard `source_reference/` tree before extraction began. Result: 41 `established/`
+files, ~256,000 words, covering all 5 Wave 1 clean-text and 9 Wave 2 vision-read sources identified
+in Phase 0 triage. Every verbal-affix vocabulary entry carries an explicit trigger/focus (voice)
+tag — actor/object/locative/instrumental/beneficiary/causative — the core grammatical mechanism
+distinguishing Tagalog's non-concatenative, verb-centered morphosyntax from every agglutinative
+language this project has handled before (a single root like *luto* "cook" surfaces as 5+ distinct
+lexical forms depending purely on which argument is grammatically focused). Flagship slang source
+*Making Out in Tagalog* fully extracted (382 rows, genuinely vulgar/intimate register preserved and
+tagged, not sanitized — a mid-extraction silent image-read failure was caught and the entire book
+re-verified page-by-page before finalizing). Notable cross-source findings: a productive
+English-loanword-plus-native-affixation slang mechanism cross-confirmed across three independent
+sources (nag-eenjoy, nagsuicide, mag-aapologize); a linked face/politeness concept cluster (utang
+na loob/pakikisama/amor propio/hiya); a genuine sociolinguistic argument distinguishing "Filipino"
+from "Tagalog" as structurally distinct varieties tied to trigger-affix choice; a documented
+two-era polysemy case ("abuso") from a native-speaker essay on English-root Filipinization. The
+`/graphify` graph stands at 179 nodes / 309 edges / 11 communities with zero dangling/missing/
+collapsed edges on the first pass. Recovered cleanly from a session-limit interruption via
+disk-state verification (two courses had actually completed in full before the interrupt, contrary
+to the failure notification); resolved a three-way file-numbering collision between two
+independent dispatch groups by renumbering to free slots.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

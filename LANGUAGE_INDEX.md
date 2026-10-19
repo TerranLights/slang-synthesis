@@ -149,7 +149,7 @@ provisional if you ever need to cite one.
 |---|---|---|---|
 | **Indonesian** | Indonesia (~16M eff.) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | **Malay** | Malaysia (~5M eff.) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
-| **Filipino/Tagalog** | Philippines (~5M eff.; "massive population base (110M) saves the effective number despite severe inequality" per source) | **Not present — gap.** | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
+| **Filipino/Tagalog** | Philippines (~5M eff.; "massive population base (110M) saves the effective number despite severe inequality" per source) | Present (`Tagalog`) — Phase 1 complete, 2026-10-19 | 🔴 **HIGH PRIORITY** — acquisition gap closed |
 
 ## Kra-Dai — gap
 
