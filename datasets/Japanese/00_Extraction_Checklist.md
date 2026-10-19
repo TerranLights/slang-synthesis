@@ -131,4 +131,26 @@ size-warning threshold could plausibly be approached by this language alone). **
       (cover thumbnails only), skipped entirely as planned. New gotcha: block-scale non-monotonic
       PDF page ordering (Reading Japanese with a Smile), a second instance of the pattern first
       seen on *Zakennayo!* in Wave 4. See commit history for the full per-source breakdown.
-- [ ] Wave 6 — Society/Culture gems + remaining course material (~10 files)
+- [x] Wave 6 — Society/Culture gems + remaining course material (→ established/108-113, 29
+      established files). Flagship dialect find: the Kinki region dialect dictionary extracted
+      in full (~265 rows) — the Kyoto -haru honorific losing its gender-skew through overuse, a
+      systematic Wakayama/rural-Nara z→d sound substitution, and a new per-character-splitting
+      OCR gotcha (English split near-letter-by-letter while intact Japanese on the same page
+      served as a cross-check). Sociolinguistics cluster (~203 rows) found a multi-generation
+      discriminatory-language euphemism chain (eta→shinheimin→burakumin→buraku jūmin) plus slur
+      reclamation patterns. Languages of Japan + Womansword (~281 rows) documented a repeatable
+      euphemism-treadmill mechanism (BG→OL, torukojo→sopu redi) and two reusable root-metaphor
+      vocabulary families for later synthesis work. Caught and resolved a genuine duplicate: the
+      Routledge-folder "Colloquial Japanese" turned out byte-identical to the already-extracted
+      Clarke/Hamamura 2nd edition (established/061, Wave 3) — redirected to the real gap, Ogawa/
+      Enokida's distinct 3rd edition (~830 rows, all 16 units). Also: an email-politeness 3-tier
+      register framework, pronunciation minimal pairs plus a productive 2-mora clipping mechanism
+      (リモコン, セクハラ, キムタク) directly relevant to slang formation, and a full *601 Basic
+      Japanese Verbs* reference (566 rows, all 306 main verbs + 260 noun+suru compounds).
+      **TY Books and the two Heisig/particle-dictionary top-level sources originally listed in
+      this wave's triage note were confirmed already covered in Waves 1-3 and correctly skipped
+      rather than re-extracted.** See commit history for the full per-source breakdown.
+
+**All 6 Japanese Phase 1 reference-extraction waves are now complete.** 420 established files,
+~1.84M words — by far the largest corpus this project has reached Phase 1 completion on. Graphify
+rebuild, status-doc updates, methodology log, and project memory still pending.
