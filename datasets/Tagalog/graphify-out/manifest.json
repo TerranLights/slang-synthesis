@@ -1,0 +1,260 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1792307471.3628805,
+    "seen": 1792428185.476965,
+    "ast_hash": "2c4512f5d1b2c2a60369b0869c6f8611",
+    "semantic_hash": "2c4512f5d1b2c2a60369b0869c6f8611"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1792427470.8120072,
+    "seen": 1792428185.4769685,
+    "ast_hash": "d007bafbdad883af07165f9897b92eea",
+    "semantic_hash": "d007bafbdad883af07165f9897b92eea"
+  },
+  "established/001_tagalog_grammar_phonology_nouns_markers.md": {
+    "mtime": 1792398392.259044,
+    "seen": 1792428185.4769695,
+    "ast_hash": "e7b6de130bddbbdef06e413ed1497cef",
+    "semantic_hash": "e7b6de130bddbbdef06e413ed1497cef"
+  },
+  "established/002_tagalog_grammar_pronouns_adjectives_sentences.md": {
+    "mtime": 1792398479.7238398,
+    "seen": 1792428185.4769702,
+    "ast_hash": "afb4a39b29f25f7c129fc3ded2c2101d",
+    "semantic_hash": "afb4a39b29f25f7c129fc3ded2c2101d"
+  },
+  "established/003_tagalog_grammar_verbal_focus_aspect.md": {
+    "mtime": 1792398624.4921541,
+    "seen": 1792428185.476971,
+    "ast_hash": "3a9e636ee2ea42d00ef2f5e0b3a6b21f",
+    "semantic_hash": "3a9e636ee2ea42d00ef2f5e0b3a6b21f"
+  },
+  "established/004_tagalog_grammar_time_particles_conjunctions.md": {
+    "mtime": 1792398707.9130836,
+    "seen": 1792428185.4769716,
+    "ast_hash": "8655236a490fcb9e36bf84b57f71b3a7",
+    "semantic_hash": "8655236a490fcb9e36bf84b57f71b3a7"
+  },
+  "established/005_tagalog_wml_typology_academic.md": {
+    "mtime": 1792398821.2479467,
+    "seen": 1792428185.476972,
+    "ast_hash": "e19c4e33047952bddbc09bd3466108ff",
+    "semantic_hash": "e19c4e33047952bddbc09bd3466108ff"
+  },
+  "established/006_ngumiti_ka_naman.md": {
+    "mtime": 1792398818.804908,
+    "seen": 1792428185.4769728,
+    "ast_hash": "4541a2d7505edf0056efc6ffa67e81af",
+    "semantic_hash": "4541a2d7505edf0056efc6ffa67e81af"
+  },
+  "established/006b_ngumiti_ka_naman.md": {
+    "mtime": 1792399266.9691765,
+    "seen": 1792428185.4769733,
+    "ast_hash": "93229d2b544e4b411fb9e554b2375615",
+    "semantic_hash": "93229d2b544e4b411fb9e554b2375615"
+  },
+  "established/006c_ngumiti_ka_naman.md": {
+    "mtime": 1792399676.4570532,
+    "seen": 1792428185.4769738,
+    "ast_hash": "9a3722d3bb42533ada93ed56c84f3fae",
+    "semantic_hash": "9a3722d3bb42533ada93ed56c84f3fae"
+  },
+  "established/007_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792398455.8636227,
+    "seen": 1792428185.4769745,
+    "ast_hash": "894ceb5fb6fa14b681629652c05367d7",
+    "semantic_hash": "894ceb5fb6fa14b681629652c05367d7"
+  },
+  "established/007b_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792398682.3186786,
+    "seen": 1792428185.4769752,
+    "ast_hash": "5e2f6c52ebd2da77dfe7ce83c45424cf",
+    "semantic_hash": "5e2f6c52ebd2da77dfe7ce83c45424cf"
+  },
+  "established/007c_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399028.5210183,
+    "seen": 1792428185.4769757,
+    "ast_hash": "16dd67f1f8759c75a0848732ce8da73d",
+    "semantic_hash": "16dd67f1f8759c75a0848732ce8da73d"
+  },
+  "established/007d_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399278.7503247,
+    "seen": 1792428185.4769764,
+    "ast_hash": "048a34b1ca87d4c19453dce49fa97b6c",
+    "semantic_hash": "048a34b1ca87d4c19453dce49fa97b6c"
+  },
+  "established/007e_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399471.9606812,
+    "seen": 1792428185.4769769,
+    "ast_hash": "87565ca8f19a77de8d31c626f2ee7535",
+    "semantic_hash": "87565ca8f19a77de8d31c626f2ee7535"
+  },
+  "established/007f_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399716.4575064,
+    "seen": 1792428185.4769773,
+    "ast_hash": "818635d39aa880b1ae7368cccbf222f5",
+    "semantic_hash": "818635d39aa880b1ae7368cccbf222f5"
+  },
+  "established/007g_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399858.978098,
+    "seen": 1792428185.4769778,
+    "ast_hash": "8f2ecd30b6054e71e3536559d3952717",
+    "semantic_hash": "8f2ecd30b6054e71e3536559d3952717"
+  },
+  "established/007h_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792399996.0186012,
+    "seen": 1792428185.4769788,
+    "ast_hash": "86ff8c899348f224427e717ddb33c487",
+    "semantic_hash": "86ff8c899348f224427e717ddb33c487"
+  },
+  "established/007i_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792400154.5553153,
+    "seen": 1792428185.4769793,
+    "ast_hash": "01e404893e818d328253725b11a11fd8",
+    "semantic_hash": "01e404893e818d328253725b11a11fd8"
+  },
+  "established/007j_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792400259.1974356,
+    "seen": 1792428185.4769797,
+    "ast_hash": "c85a803332b98a281d28dc3748c5aaaa",
+    "semantic_hash": "c85a803332b98a281d28dc3748c5aaaa"
+  },
+  "established/007k_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792400386.5687897,
+    "seen": 1792428185.4769802,
+    "ast_hash": "605c82c9354f7c35a2621c0a7cd40b96",
+    "semantic_hash": "605c82c9354f7c35a2621c0a7cd40b96"
+  },
+  "established/007l_basic_tagalog_for_foreigners.md": {
+    "mtime": 1792400524.4272463,
+    "seen": 1792428185.476981,
+    "ast_hash": "baabd1e59f79f57aac228a7cdabd9cac",
+    "semantic_hash": "baabd1e59f79f57aac228a7cdabd9cac"
+  },
+  "established/008_teach_yourself_tagalog.md": {
+    "mtime": 1792399223.295621,
+    "seen": 1792428185.4769814,
+    "ast_hash": "8d39d023fcca955217f4cd1b233aa932",
+    "semantic_hash": "8d39d023fcca955217f4cd1b233aa932"
+  },
+  "established/008b_teach_yourself_tagalog_units_11-18.md": {
+    "mtime": 1792399857.4860814,
+    "seen": 1792428185.4769824,
+    "ast_hash": "b598a92c4e0cff6e228590ea5e1bed6b",
+    "semantic_hash": "b598a92c4e0cff6e228590ea5e1bed6b"
+  },
+  "established/008c_living_language_tagalog.md": {
+    "mtime": 1792400443.4383917,
+    "seen": 1792428185.4769828,
+    "ast_hash": "ad19f6af361bfcce7d3a6195d16c76bf",
+    "semantic_hash": "ad19f6af361bfcce7d3a6195d16c76bf"
+  },
+  "established/008d_living_language_tagalog_lessons_9-15.md": {
+    "mtime": 1792400935.05929,
+    "seen": 1792428185.4769833,
+    "ast_hash": "e7712c944fe641e4d4207df43c813d3c",
+    "semantic_hash": "e7712c944fe641e4d4207df43c813d3c"
+  },
+  "established/009_vocabulearn_tagalog.md": {
+    "mtime": 1792400299.8278685,
+    "seen": 1792428185.4769838,
+    "ast_hash": "247d403906c42051b01cfb8a54feaeed",
+    "semantic_hash": "247d403906c42051b01cfb8a54feaeed"
+  },
+  "established/009b_filipino_basic_course_sample.md": {
+    "mtime": 1792400604.230086,
+    "seen": 1792428185.4769843,
+    "ast_hash": "138786149f842684d9e91ea89d922a65",
+    "semantic_hash": "138786149f842684d9e91ea89d922a65"
+  },
+  "established/009c_advanced_tagalog_reader_sample.md": {
+    "mtime": 1792400860.840597,
+    "seen": 1792428185.4769847,
+    "ast_hash": "52cf038aa708b50857889dd8ec150919",
+    "semantic_hash": "52cf038aa708b50857889dd8ec150919"
+  },
+  "established/010_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.7700717,
+    "seen": 1792428185.4769857,
+    "ast_hash": "feafdcf661bfc581013e45eaf0e99acf",
+    "semantic_hash": "feafdcf661bfc581013e45eaf0e99acf"
+  },
+  "established/010b_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.7687745,
+    "seen": 1792428185.4769862,
+    "ast_hash": "ef851533f5a22fab1fc0365f296c325c",
+    "semantic_hash": "ef851533f5a22fab1fc0365f296c325c"
+  },
+  "established/010c_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.769118,
+    "seen": 1792428185.4769866,
+    "ast_hash": "bfad17a8fdd69bbce7f085ad30d0bfa9",
+    "semantic_hash": "bfad17a8fdd69bbce7f085ad30d0bfa9"
+  },
+  "established/010d_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.7693522,
+    "seen": 1792428185.4769871,
+    "ast_hash": "8c6de92bce26189621c6c867e3610b83",
+    "semantic_hash": "8c6de92bce26189621c6c867e3610b83"
+  },
+  "established/010e_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.7696993,
+    "seen": 1792428185.4769876,
+    "ast_hash": "ccfc0941606d03390b8404e7cbcbbbc7",
+    "semantic_hash": "ccfc0941606d03390b8404e7cbcbbbc7"
+  },
+  "established/010f_headstart_for_the_philippines.md": {
+    "mtime": 1792426965.769933,
+    "seen": 1792428185.4769883,
+    "ast_hash": "d529f3eb78028d1cf68356193764ccab",
+    "semantic_hash": "d529f3eb78028d1cf68356193764ccab"
+  },
+  "established/011_diccionario_sampled.md": {
+    "mtime": 1792426965.7721,
+    "seen": 1792428185.476989,
+    "ast_hash": "5969d6cb431e1379c33dc6468e5a8484",
+    "semantic_hash": "5969d6cb431e1379c33dc6468e5a8484"
+  },
+  "established/011b_diccionario_sampled.md": {
+    "mtime": 1792426965.7717047,
+    "seen": 1792428185.4769895,
+    "ast_hash": "b5e0382128c571663d78a01b30823abb",
+    "semantic_hash": "b5e0382128c571663d78a01b30823abb"
+  },
+  "established/011c_diccionario_sampled.md": {
+    "mtime": 1792426965.7719116,
+    "seen": 1792428185.47699,
+    "ast_hash": "73409c3cb2f80667e2f3fabdfc856630",
+    "semantic_hash": "73409c3cb2f80667e2f3fabdfc856630"
+  },
+  "established/012_making_out_in_tagalog.md": {
+    "mtime": 1792426965.7739289,
+    "seen": 1792428185.4769905,
+    "ast_hash": "c733bb16cfed9d81938b20ad69eb56c1",
+    "semantic_hash": "c733bb16cfed9d81938b20ad69eb56c1"
+  },
+  "established/012b_making_out_in_tagalog.md": {
+    "mtime": 1792426965.7732217,
+    "seen": 1792428185.4769912,
+    "ast_hash": "f0ddf956431e362ff2e669aae92b6094",
+    "semantic_hash": "f0ddf956431e362ff2e669aae92b6094"
+  },
+  "established/012c_making_out_in_tagalog.md": {
+    "mtime": 1792426965.7736387,
+    "seen": 1792428185.4769917,
+    "ast_hash": "c524132924025122b156dfa13a871748",
+    "semantic_hash": "c524132924025122b156dfa13a871748"
+  },
+  "established/013_philippines_language_national_identity.md": {
+    "mtime": 1792398823.8549879,
+    "seen": 1792428185.4769926,
+    "ast_hash": "8f32026d54987659b8b53240c73b202c",
+    "semantic_hash": "8f32026d54987659b8b53240c73b202c"
+  },
+  "established/014_headstart_cultural_notes.md": {
+    "mtime": 1792427385.1496484,
+    "seen": 1792428185.4769967,
+    "ast_hash": "b79ef4e76f10017894ea9de83038a0c2",
+    "semantic_hash": "b79ef4e76f10017894ea9de83038a0c2"
+  }
+}
