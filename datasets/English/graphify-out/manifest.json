@@ -1,0 +1,1580 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793122028.0130286,
+    "seen": 1793155465.6550603,
+    "ast_hash": "e85bc65a89b8c5f1ee0d7362546a0ad3",
+    "semantic_hash": "e85bc65a89b8c5f1ee0d7362546a0ad3"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793138783.4672492,
+    "seen": 1793155465.6550639,
+    "ast_hash": "af3d325675f9757ba4d0288ae2cc35f4",
+    "semantic_hash": "af3d325675f9757ba4d0288ae2cc35f4"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793154852.1032572,
+    "seen": 1793155465.655065,
+    "ast_hash": "b9bbe4ceadb494565b6781aef0e898a3",
+    "semantic_hash": "b9bbe4ceadb494565b6781aef0e898a3"
+  },
+  "established/001_cmos_ch05_grammar_and_usage_pt01.md": {
+    "mtime": 1793122440.7394893,
+    "seen": 1793155465.6550658,
+    "ast_hash": "d6dd818c08ded1ecdd6829eeb89b8b86",
+    "semantic_hash": "d6dd818c08ded1ecdd6829eeb89b8b86"
+  },
+  "established/002_cmos_ch05_grammar_and_usage_pt02.md": {
+    "mtime": 1793122370.4378881,
+    "seen": 1793155465.6550667,
+    "ast_hash": "0d3d4ddcdb093ce3c0d923e6603e3888",
+    "semantic_hash": "0d3d4ddcdb093ce3c0d923e6603e3888"
+  },
+  "established/003_cmos_ch05_grammar_and_usage_pt03.md": {
+    "mtime": 1793122399.5381365,
+    "seen": 1793155465.6550672,
+    "ast_hash": "c5c4e5c9f7d43434c62f1312686d3b9d",
+    "semantic_hash": "c5c4e5c9f7d43434c62f1312686d3b9d"
+  },
+  "established/004_cmos_ch05_grammar_and_usage_pt04.md": {
+    "mtime": 1793122391.291066,
+    "seen": 1793155465.655068,
+    "ast_hash": "0015ecc6ae30d8fedb9fd6f708cb26af",
+    "semantic_hash": "0015ecc6ae30d8fedb9fd6f708cb26af"
+  },
+  "established/005_cmos_ch05_grammar_and_usage_pt05.md": {
+    "mtime": 1793122424.5203502,
+    "seen": 1793155465.6550686,
+    "ast_hash": "36edc5ddc88d710122837b6e102a4b2b",
+    "semantic_hash": "36edc5ddc88d710122837b6e102a4b2b"
+  },
+  "established/006_cmos_ch05_grammar_and_usage_pt06.md": {
+    "mtime": 1793122386.5830257,
+    "seen": 1793155465.655069,
+    "ast_hash": "2ce7e92f01b5ffb17747937e3f95bef7",
+    "semantic_hash": "2ce7e92f01b5ffb17747937e3f95bef7"
+  },
+  "established/007_cmos_ch05_grammar_and_usage_pt07.md": {
+    "mtime": 1793122390.244057,
+    "seen": 1793155465.6550696,
+    "ast_hash": "b5cf09afdb9dedc5161d45d6d110ff41",
+    "semantic_hash": "b5cf09afdb9dedc5161d45d6d110ff41"
+  },
+  "established/008_cmos_ch05_grammar_and_usage_pt08.md": {
+    "mtime": 1793122421.3153229,
+    "seen": 1793155465.6550703,
+    "ast_hash": "8a2918f031c40f00915e3449b82ad833",
+    "semantic_hash": "8a2918f031c40f00915e3449b82ad833"
+  },
+  "established/009_cmos_ch05_grammar_and_usage_pt09.md": {
+    "mtime": 1793122439.3754776,
+    "seen": 1793155465.655071,
+    "ast_hash": "0a7e417d2aafb64e2c190351f33540c1",
+    "semantic_hash": "0a7e417d2aafb64e2c190351f33540c1"
+  },
+  "established/010_cmos_ch05_grammar_and_usage_pt10.md": {
+    "mtime": 1793123090.1271605,
+    "seen": 1793155465.6550715,
+    "ast_hash": "01ecab538195b89653aa6eef67e0da15",
+    "semantic_hash": "01ecab538195b89653aa6eef67e0da15"
+  },
+  "established/011_cmos_ch05_grammar_and_usage_pt11.md": {
+    "mtime": 1793122848.2450302,
+    "seen": 1793155465.655072,
+    "ast_hash": "bbc57699c71ba58fc93b487a4215cd46",
+    "semantic_hash": "bbc57699c71ba58fc93b487a4215cd46"
+  },
+  "established/012_cmos_ch06_punctuation_pt01.md": {
+    "mtime": 1793122469.487736,
+    "seen": 1793155465.6550725,
+    "ast_hash": "8a78169a4ca23c4253e7302b03f12c14",
+    "semantic_hash": "8a78169a4ca23c4253e7302b03f12c14"
+  },
+  "established/013_cmos_ch06_punctuation_pt02.md": {
+    "mtime": 1793122414.5042644,
+    "seen": 1793155465.655073,
+    "ast_hash": "cc43343ba11259d0e474b759e4089f9f",
+    "semantic_hash": "cc43343ba11259d0e474b759e4089f9f"
+  },
+  "established/014_cmos_ch06_punctuation_pt03.md": {
+    "mtime": 1793122435.5544448,
+    "seen": 1793155465.6550736,
+    "ast_hash": "9e95f1de0be49de6595337fa58900a3f",
+    "semantic_hash": "9e95f1de0be49de6595337fa58900a3f"
+  },
+  "established/015_cmos_ch06_punctuation_pt04.md": {
+    "mtime": 1793122446.3265371,
+    "seen": 1793155465.6550741,
+    "ast_hash": "9ca07700e99dd22810121644918a7a4b",
+    "semantic_hash": "9ca07700e99dd22810121644918a7a4b"
+  },
+  "established/016_cmos_ch06_punctuation_pt05.md": {
+    "mtime": 1793122442.113501,
+    "seen": 1793155465.6550746,
+    "ast_hash": "baefc984e727a8287cb8dddcc0c27b57",
+    "semantic_hash": "baefc984e727a8287cb8dddcc0c27b57"
+  },
+  "established/017_cmos_ch07_spelling_compounds_pt01.md": {
+    "mtime": 1793122492.953938,
+    "seen": 1793155465.655075,
+    "ast_hash": "88a60695ee21f8730d33848631da211d",
+    "semantic_hash": "88a60695ee21f8730d33848631da211d"
+  },
+  "established/018_cmos_ch07_spelling_compounds_pt02.md": {
+    "mtime": 1793122439.3864777,
+    "seen": 1793155465.6550756,
+    "ast_hash": "e39f5b8b9601ed6327838d42cca0594c",
+    "semantic_hash": "e39f5b8b9601ed6327838d42cca0594c"
+  },
+  "established/019_cmos_ch07_spelling_compounds_pt03.md": {
+    "mtime": 1793123430.2411752,
+    "seen": 1793155465.6550763,
+    "ast_hash": "2839a30c741625d5be450b0744caf81c",
+    "semantic_hash": "2839a30c741625d5be450b0744caf81c"
+  },
+  "established/020_cmos_ch07_spelling_compounds_pt04.md": {
+    "mtime": 1793123535.9250612,
+    "seen": 1793155465.6550772,
+    "ast_hash": "c72b2209cb24d1962a2487aa86d0578d",
+    "semantic_hash": "c72b2209cb24d1962a2487aa86d0578d"
+  },
+  "established/021_cmos_ch08_names_terms_pt01.md": {
+    "mtime": 1793123372.5946631,
+    "seen": 1793155465.6550775,
+    "ast_hash": "648836a17fc471cef90a08d8a155ad5e",
+    "semantic_hash": "648836a17fc471cef90a08d8a155ad5e"
+  },
+  "established/022_cmos_ch08_names_terms_pt02.md": {
+    "mtime": 1793123511.1498942,
+    "seen": 1793155465.655078,
+    "ast_hash": "313e3df2c113a69850c97f6a1ba37050",
+    "semantic_hash": "313e3df2c113a69850c97f6a1ba37050"
+  },
+  "established/023_cmos_ch08_names_terms_pt03.md": {
+    "mtime": 1793123433.3762028,
+    "seen": 1793155465.6550784,
+    "ast_hash": "80575066543da0feb57fe6061ab37689",
+    "semantic_hash": "80575066543da0feb57fe6061ab37689"
+  },
+  "established/024_cmos_ch08_names_terms_pt04.md": {
+    "mtime": 1793123570.833425,
+    "seen": 1793155465.6550791,
+    "ast_hash": "3bea2a17aba5c2bb515c2eda2ec59ccc",
+    "semantic_hash": "3bea2a17aba5c2bb515c2eda2ec59ccc"
+  },
+  "established/025_cmos_ch08_names_terms_pt05.md": {
+    "mtime": 1793123405.5499558,
+    "seen": 1793155465.6550796,
+    "ast_hash": "f72746b7923e7fdbaf7d0a4f67438a0f",
+    "semantic_hash": "f72746b7923e7fdbaf7d0a4f67438a0f"
+  },
+  "established/026_cmos_ch08_names_terms_pt06.md": {
+    "mtime": 1793123366.3026073,
+    "seen": 1793155465.65508,
+    "ast_hash": "82b8ee6303d678ba5f15528a5ff62ba7",
+    "semantic_hash": "82b8ee6303d678ba5f15528a5ff62ba7"
+  },
+  "established/027_cmos_ch08_names_terms_pt07.md": {
+    "mtime": 1793123383.7387621,
+    "seen": 1793155465.6550808,
+    "ast_hash": "914d489fff4fc163b5d8b0fc095bfafb",
+    "semantic_hash": "914d489fff4fc163b5d8b0fc095bfafb"
+  },
+  "established/028_cmos_ch08_names_terms_pt08.md": {
+    "mtime": 1793123422.799109,
+    "seen": 1793155465.6550813,
+    "ast_hash": "29cb451fb048afd3a2f84dcaa48521ca",
+    "semantic_hash": "29cb451fb048afd3a2f84dcaa48521ca"
+  },
+  "established/029_cmos_ch09_numbers_pt01.md": {
+    "mtime": 1793123462.3224602,
+    "seen": 1793155465.6550817,
+    "ast_hash": "e4e7243e1db4af1680ab85345d26f1e6",
+    "semantic_hash": "e4e7243e1db4af1680ab85345d26f1e6"
+  },
+  "established/030_cmos_ch09_numbers_pt02.md": {
+    "mtime": 1793123304.2650566,
+    "seen": 1793155465.6550822,
+    "ast_hash": "f9419f60da182227322d145d86e54143",
+    "semantic_hash": "f9419f60da182227322d145d86e54143"
+  },
+  "established/031_cmos_ch09_numbers_pt03.md": {
+    "mtime": 1793123376.8007004,
+    "seen": 1793155465.6550827,
+    "ast_hash": "5c21291029e05605eae828e3cd069c15",
+    "semantic_hash": "5c21291029e05605eae828e3cd069c15"
+  },
+  "established/032_cmos_ch10_abbreviations_pt01.md": {
+    "mtime": 1793123467.6155071,
+    "seen": 1793155465.6550832,
+    "ast_hash": "c613b1d332ea8028ee1be1c079718917",
+    "semantic_hash": "c613b1d332ea8028ee1be1c079718917"
+  },
+  "established/033_cmos_ch10_abbreviations_pt02.md": {
+    "mtime": 1793123514.6809256,
+    "seen": 1793155465.655084,
+    "ast_hash": "7b52ad098b9d449bbb813876861bc9f2",
+    "semantic_hash": "7b52ad098b9d449bbb813876861bc9f2"
+  },
+  "established/034_cmos_ch10_abbreviations_pt03.md": {
+    "mtime": 1793123519.0469644,
+    "seen": 1793155465.6550844,
+    "ast_hash": "06781b30781374b72a1212be9074b54e",
+    "semantic_hash": "06781b30781374b72a1212be9074b54e"
+  },
+  "established/035_cmos_ch10_abbreviations_pt04.md": {
+    "mtime": 1793123545.6202009,
+    "seen": 1793155465.6550848,
+    "ast_hash": "f5597b206dab57f4b08fbc20ebd0c10c",
+    "semantic_hash": "f5597b206dab57f4b08fbc20ebd0c10c"
+  },
+  "established/036_cmos_ch11_foreign_languages_pt01.md": {
+    "mtime": 1793123461.2644508,
+    "seen": 1793155465.6550856,
+    "ast_hash": "824c0b4166143dbdf901c23546e5ddac",
+    "semantic_hash": "824c0b4166143dbdf901c23546e5ddac"
+  },
+  "established/037_cmos_ch11_foreign_languages_pt02.md": {
+    "mtime": 1793123880.2654233,
+    "seen": 1793155465.655086,
+    "ast_hash": "064b446eb8af482970e34a28db6f4e57",
+    "semantic_hash": "064b446eb8af482970e34a28db6f4e57"
+  },
+  "established/038_cmos_ch11_foreign_languages_pt03.md": {
+    "mtime": 1793123822.4593382,
+    "seen": 1793155465.6550865,
+    "ast_hash": "39e1d5f4ae448a5f41d7b7458295e74d",
+    "semantic_hash": "39e1d5f4ae448a5f41d7b7458295e74d"
+  },
+  "established/039_cmos_ch11_foreign_languages_pt04.md": {
+    "mtime": 1793123894.1174498,
+    "seen": 1793155465.655087,
+    "ast_hash": "74790f39df4d0d9b4c6f2f34070dd2d6",
+    "semantic_hash": "74790f39df4d0d9b4c6f2f34070dd2d6"
+  },
+  "established/040_cmos_ch11_foreign_languages_pt05.md": {
+    "mtime": 1793124038.1408489,
+    "seen": 1793155465.6550877,
+    "ast_hash": "56a516ff9ef59a9e82684eae5e946134",
+    "semantic_hash": "56a516ff9ef59a9e82684eae5e946134"
+  },
+  "established/041_cmos_ch11_foreign_languages_pt06.md": {
+    "mtime": 1793123998.3157177,
+    "seen": 1793155465.6550903,
+    "ast_hash": "122cb45872e1dc5524959158c033dc71",
+    "semantic_hash": "122cb45872e1dc5524959158c033dc71"
+  },
+  "established/042_cmos_ch11_foreign_languages_pt07.md": {
+    "mtime": 1793123993.3127024,
+    "seen": 1793155465.655091,
+    "ast_hash": "a4c437e26cb3ce0e26f4c671341019a3",
+    "semantic_hash": "a4c437e26cb3ce0e26f4c671341019a3"
+  },
+  "established/043_cmos_ch13_quotations_dialogue_pt01.md": {
+    "mtime": 1793123880.709424,
+    "seen": 1793155465.6550915,
+    "ast_hash": "4970d4109db08ee5e0120df5e626b4f3",
+    "semantic_hash": "4970d4109db08ee5e0120df5e626b4f3"
+  },
+  "established/044_cmos_ch13_quotations_dialogue_pt02.md": {
+    "mtime": 1793123899.2434602,
+    "seen": 1793155465.655092,
+    "ast_hash": "eee3b14fce90bfce7c8f2101318ea658",
+    "semantic_hash": "eee3b14fce90bfce7c8f2101318ea658"
+  },
+  "established/045_cmos_ch13_quotations_dialogue_pt03.md": {
+    "mtime": 1793123845.9573677,
+    "seen": 1793155465.6550925,
+    "ast_hash": "fce17d8b9511fca2b24ea20465a5dfc2",
+    "semantic_hash": "fce17d8b9511fca2b24ea20465a5dfc2"
+  },
+  "established/046_oxford_ch21_us_british_english.md": {
+    "mtime": 1793124067.8209558,
+    "seen": 1793155465.655093,
+    "ast_hash": "55f6959ed9f552d3939863a8efd845b2",
+    "semantic_hash": "55f6959ed9f552d3939863a8efd845b2"
+  },
+  "established/047_oxford_ch03_spelling_hyphenation.md": {
+    "mtime": 1793124184.5204437,
+    "seen": 1793155465.6550934,
+    "ast_hash": "7ef72a5dec7068ec3d88b929f626ce09",
+    "semantic_hash": "7ef72a5dec7068ec3d88b929f626ce09"
+  },
+  "established/048_oxford_ch04_punctuation.md": {
+    "mtime": 1793124012.3627622,
+    "seen": 1793155465.655094,
+    "ast_hash": "86b54db3f9126650d6b516f7a8969dfa",
+    "semantic_hash": "86b54db3f9126650d6b516f7a8969dfa"
+  },
+  "established/049_oxford_ch05_capitalization.md": {
+    "mtime": 1793123948.033574,
+    "seen": 1793155465.6550946,
+    "ast_hash": "1925f14131e6ed1076bed0648acec554",
+    "semantic_hash": "1925f14131e6ed1076bed0648acec554"
+  },
+  "established/050_oxford_ch06_names.md": {
+    "mtime": 1793124024.6488028,
+    "seen": 1793155465.655095,
+    "ast_hash": "2f4c8fa7bdd79ebaa8bfd3673c24481f",
+    "semantic_hash": "2f4c8fa7bdd79ebaa8bfd3673c24481f"
+  },
+  "established/051_oxford_ch09_quotations_direct_speech.md": {
+    "mtime": 1793123911.8484871,
+    "seen": 1793155465.6550956,
+    "ast_hash": "a4e3c9b391e440ea0f9b3f4ec0dff780",
+    "semantic_hash": "a4e3c9b391e440ea0f9b3f4ec0dff780"
+  },
+  "established/052_oxford_ch10_abbreviations_symbols.md": {
+    "mtime": 1793123990.7066944,
+    "seen": 1793155465.655096,
+    "ast_hash": "3a333f46956e5c8513dc6ad9d805d95d",
+    "semantic_hash": "3a333f46956e5c8513dc6ad9d805d95d"
+  },
+  "established/053_oxford_ch11_numbers_dates.md": {
+    "mtime": 1793124268.449852,
+    "seen": 1793155465.6550965,
+    "ast_hash": "cf73816cda335360b304d954000bc2e0",
+    "semantic_hash": "cf73816cda335360b304d954000bc2e0"
+  },
+  "established/054_oxford_ch12_languages_pt01.md": {
+    "mtime": 1793124231.5816672,
+    "seen": 1793155465.655097,
+    "ast_hash": "423846d9de9e5e40de0750607d2fc526",
+    "semantic_hash": "423846d9de9e5e40de0750607d2fc526"
+  },
+  "established/055_oxford_ch12_languages_pt02.md": {
+    "mtime": 1793124350.2742884,
+    "seen": 1793155465.6550975,
+    "ast_hash": "6e5e69d0203889937a994fb0746742d3",
+    "semantic_hash": "6e5e69d0203889937a994fb0746742d3"
+  },
+  "established/056_cambridge_grammar_in_use_pt01.md": {
+    "mtime": 1793129930.6497815,
+    "seen": 1793155465.6550982,
+    "ast_hash": "2f7932b99e5adc1fa2f30129f547d7b1",
+    "semantic_hash": "2f7932b99e5adc1fa2f30129f547d7b1"
+  },
+  "established/056_cambridge_grammar_in_use_pt02.md": {
+    "mtime": 1793129982.3064933,
+    "seen": 1793155465.6550987,
+    "ast_hash": "8f23265087c3a4a283d3fbcbe913042e",
+    "semantic_hash": "8f23265087c3a4a283d3fbcbe913042e"
+  },
+  "established/056_cambridge_grammar_in_use_pt03.md": {
+    "mtime": 1793130034.7751904,
+    "seen": 1793155465.6550994,
+    "ast_hash": "39f28062d846f5586a1d31d78e0b6ee2",
+    "semantic_hash": "39f28062d846f5586a1d31d78e0b6ee2"
+  },
+  "established/056_cambridge_grammar_in_use_pt04.md": {
+    "mtime": 1793130123.6423178,
+    "seen": 1793155465.6550999,
+    "ast_hash": "abe277eb054e055f87cd051b5b0a4299",
+    "semantic_hash": "abe277eb054e055f87cd051b5b0a4299"
+  },
+  "established/056_cambridge_grammar_in_use_pt05.md": {
+    "mtime": 1793130156.0457141,
+    "seen": 1793155465.6551003,
+    "ast_hash": "57d50a14427ade4b4a5230c920a74cfd",
+    "semantic_hash": "57d50a14427ade4b4a5230c920a74cfd"
+  },
+  "established/056_cambridge_grammar_in_use_pt06.md": {
+    "mtime": 1793130202.1052656,
+    "seen": 1793155465.6551008,
+    "ast_hash": "98c55ebf9b1dc7c50f6c370d18ec9ff5",
+    "semantic_hash": "98c55ebf9b1dc7c50f6c370d18ec9ff5"
+  },
+  "established/056_cambridge_grammar_in_use_pt07.md": {
+    "mtime": 1793130222.818509,
+    "seen": 1793155465.6551015,
+    "ast_hash": "68255708f3196385e88403ad54bb2a8a",
+    "semantic_hash": "68255708f3196385e88403ad54bb2a8a"
+  },
+  "established/056_cambridge_grammar_in_use_pt08.md": {
+    "mtime": 1793130265.3570013,
+    "seen": 1793155465.6551023,
+    "ast_hash": "68910a6e7438486db24f988d9b3b53fd",
+    "semantic_hash": "68910a6e7438486db24f988d9b3b53fd"
+  },
+  "established/056_cambridge_grammar_in_use_pt09.md": {
+    "mtime": 1793130322.1116428,
+    "seen": 1793155465.6551027,
+    "ast_hash": "df6c5c8e23e85b7bde2ba050ade5bc4d",
+    "semantic_hash": "df6c5c8e23e85b7bde2ba050ade5bc4d"
+  },
+  "established/056_cambridge_grammar_in_use_pt10.md": {
+    "mtime": 1793130372.0781944,
+    "seen": 1793155465.655103,
+    "ast_hash": "1280f04db103728a21829313822cd131",
+    "semantic_hash": "1280f04db103728a21829313822cd131"
+  },
+  "established/056_cambridge_grammar_in_use_pt11.md": {
+    "mtime": 1793130427.6317945,
+    "seen": 1793155465.6551037,
+    "ast_hash": "94938e529959ed4cd0f29ee846dfcaca",
+    "semantic_hash": "94938e529959ed4cd0f29ee846dfcaca"
+  },
+  "established/056_cambridge_grammar_in_use_pt12.md": {
+    "mtime": 1793130502.008579,
+    "seen": 1793155465.6551042,
+    "ast_hash": "e23c951d89e65d550b4110ee4858ce12",
+    "semantic_hash": "e23c951d89e65d550b4110ee4858ce12"
+  },
+  "established/056_cambridge_grammar_in_use_pt13.md": {
+    "mtime": 1793130573.5963159,
+    "seen": 1793155465.6551049,
+    "ast_hash": "959d23b7cd4066a916aa1ec0c51471c7",
+    "semantic_hash": "959d23b7cd4066a916aa1ec0c51471c7"
+  },
+  "established/056_cambridge_grammar_in_use_pt14.md": {
+    "mtime": 1793130632.7719135,
+    "seen": 1793155465.6551054,
+    "ast_hash": "4d25d1f481df42529da3682e042c6061",
+    "semantic_hash": "4d25d1f481df42529da3682e042c6061"
+  },
+  "established/056_cambridge_grammar_in_use_pt15.md": {
+    "mtime": 1793130686.9244518,
+    "seen": 1793155465.6551058,
+    "ast_hash": "c4017d66702fc82951ce9bd8050d352c",
+    "semantic_hash": "c4017d66702fc82951ce9bd8050d352c"
+  },
+  "established/056_cambridge_grammar_in_use_pt16.md": {
+    "mtime": 1793130724.252819,
+    "seen": 1793155465.6551063,
+    "ast_hash": "e254ccad68f2ec5686de64a35bb0fe56",
+    "semantic_hash": "e254ccad68f2ec5686de64a35bb0fe56"
+  },
+  "established/056_cambridge_grammar_in_use_pt17.md": {
+    "mtime": 1793130752.2040918,
+    "seen": 1793155465.6551068,
+    "ast_hash": "7211a465a7885e1db4c8083592db523f",
+    "semantic_hash": "7211a465a7885e1db4c8083592db523f"
+  },
+  "established/056_cambridge_grammar_in_use_pt18.md": {
+    "mtime": 1793130810.1146517,
+    "seen": 1793155465.6551073,
+    "ast_hash": "08331740a180050f6b54ac39473c7400",
+    "semantic_hash": "08331740a180050f6b54ac39473c7400"
+  },
+  "established/056_cambridge_grammar_in_use_pt19.md": {
+    "mtime": 1793130860.631135,
+    "seen": 1793155465.6551077,
+    "ast_hash": "fc21e96ac6e95fffae2e0e849e84f781",
+    "semantic_hash": "fc21e96ac6e95fffae2e0e849e84f781"
+  },
+  "established/056_cambridge_grammar_in_use_pt20.md": {
+    "mtime": 1793130906.8985739,
+    "seen": 1793155465.6551085,
+    "ast_hash": "f24ae32e6b005e0a184a09a91343b2c7",
+    "semantic_hash": "f24ae32e6b005e0a184a09a91343b2c7"
+  },
+  "established/056_cambridge_grammar_in_use_pt21.md": {
+    "mtime": 1793130957.2150474,
+    "seen": 1793155465.655109,
+    "ast_hash": "2107db05ac124f6294be64d7505bb27a",
+    "semantic_hash": "2107db05ac124f6294be64d7505bb27a"
+  },
+  "established/056_cambridge_grammar_in_use_pt22.md": {
+    "mtime": 1793130999.155858,
+    "seen": 1793155465.6551094,
+    "ast_hash": "c740209cda15960a82a9731dd76c0c05",
+    "semantic_hash": "c740209cda15960a82a9731dd76c0c05"
+  },
+  "established/056_cambridge_grammar_in_use_pt23.md": {
+    "mtime": 1793131060.0930045,
+    "seen": 1793155465.65511,
+    "ast_hash": "97de25e18a23ba57401302f04a8dfbdd",
+    "semantic_hash": "97de25e18a23ba57401302f04a8dfbdd"
+  },
+  "established/056_cambridge_grammar_in_use_pt24.md": {
+    "mtime": 1793131117.5365334,
+    "seen": 1793155465.6551106,
+    "ast_hash": "e4d706e1e1a0803c7cfa115db345d123",
+    "semantic_hash": "e4d706e1e1a0803c7cfa115db345d123"
+  },
+  "established/056_cambridge_grammar_in_use_pt25.md": {
+    "mtime": 1793131201.7563026,
+    "seen": 1793155465.655111,
+    "ast_hash": "335832cb2ca6f4f298cae2537ec1abdc",
+    "semantic_hash": "335832cb2ca6f4f298cae2537ec1abdc"
+  },
+  "established/056_cambridge_grammar_in_use_pt26.md": {
+    "mtime": 1793131253.6957738,
+    "seen": 1793155465.6551118,
+    "ast_hash": "6a0d6a653c1ce3e385259a535d8db12d",
+    "semantic_hash": "6a0d6a653c1ce3e385259a535d8db12d"
+  },
+  "established/056_cambridge_grammar_in_use_pt27.md": {
+    "mtime": 1793131287.4510791,
+    "seen": 1793155465.6551123,
+    "ast_hash": "05133a89e6aad08c183154b240805f01",
+    "semantic_hash": "05133a89e6aad08c183154b240805f01"
+  },
+  "established/056_cambridge_grammar_in_use_pt28.md": {
+    "mtime": 1793131326.7674334,
+    "seen": 1793155465.6551127,
+    "ast_hash": "267e565c9627e74e97b759721b32064d",
+    "semantic_hash": "267e565c9627e74e97b759721b32064d"
+  },
+  "established/056_cambridge_grammar_in_use_pt29.md": {
+    "mtime": 1793131372.6508455,
+    "seen": 1793155465.655114,
+    "ast_hash": "9b0ac6e9fc76db5a9d579d51e05dfd1b",
+    "semantic_hash": "9b0ac6e9fc76db5a9d579d51e05dfd1b"
+  },
+  "established/058_function_based_grammar_vol1_pt01.md": {
+    "mtime": 1793130178.4309838,
+    "seen": 1793155465.6551144,
+    "ast_hash": "2dd9691cfb2d94054912a4e90aa7461d",
+    "semantic_hash": "2dd9691cfb2d94054912a4e90aa7461d"
+  },
+  "established/058_function_based_grammar_vol1_pt02.md": {
+    "mtime": 1793130409.5186002,
+    "seen": 1793155465.655115,
+    "ast_hash": "91e7610ac62093d9455061a8a4a3322a",
+    "semantic_hash": "91e7610ac62093d9455061a8a4a3322a"
+  },
+  "established/058_function_based_grammar_vol1_pt03.md": {
+    "mtime": 1793130605.5486398,
+    "seen": 1793155465.6551156,
+    "ast_hash": "060b0aebe2647f1889c16dd77546f006",
+    "semantic_hash": "060b0aebe2647f1889c16dd77546f006"
+  },
+  "established/059_function_based_grammar_vol2_pt01.md": {
+    "mtime": 1793131065.04905,
+    "seen": 1793155465.6551163,
+    "ast_hash": "0b31f626aa7d9f7ac48fee29fd297836",
+    "semantic_hash": "0b31f626aa7d9f7ac48fee29fd297836"
+  },
+  "established/059_function_based_grammar_vol2_pt02.md": {
+    "mtime": 1793131234.1545968,
+    "seen": 1793155465.6551168,
+    "ast_hash": "c2e2c98620fdbd7568d63b6cd93bf42f",
+    "semantic_hash": "c2e2c98620fdbd7568d63b6cd93bf42f"
+  },
+  "established/059_function_based_grammar_vol2_pt03.md": {
+    "mtime": 1793131426.0793238,
+    "seen": 1793155465.6551173,
+    "ast_hash": "5d973857cfa790b010289c1c5cd0519b",
+    "semantic_hash": "5d973857cfa790b010289c1c5cd0519b"
+  },
+  "established/060_when_bad_grammar_pt01.md": {
+    "mtime": 1793129970.8603377,
+    "seen": 1793155465.6551175,
+    "ast_hash": "647286741aa18c1f65a4075017cdb2dc",
+    "semantic_hash": "647286741aa18c1f65a4075017cdb2dc"
+  },
+  "established/060_when_bad_grammar_pt02.md": {
+    "mtime": 1793130047.3973544,
+    "seen": 1793155465.655118,
+    "ast_hash": "7a351b9007d3f1ab775f463b8482aeaa",
+    "semantic_hash": "7a351b9007d3f1ab775f463b8482aeaa"
+  },
+  "established/060_when_bad_grammar_pt03.md": {
+    "mtime": 1793130125.3093386,
+    "seen": 1793155465.655119,
+    "ast_hash": "93efc93bebd9efa2c29a53320c24ab91",
+    "semantic_hash": "93efc93bebd9efa2c29a53320c24ab91"
+  },
+  "established/060_when_bad_grammar_pt04.md": {
+    "mtime": 1793130170.9918947,
+    "seen": 1793155465.6551194,
+    "ast_hash": "64925897c129d2e54057a5f187d3b54d",
+    "semantic_hash": "64925897c129d2e54057a5f187d3b54d"
+  },
+  "established/060_when_bad_grammar_pt05.md": {
+    "mtime": 1793130243.996717,
+    "seen": 1793155465.65512,
+    "ast_hash": "8c43c91e5e5d77d17a13ebaf17b6f80b",
+    "semantic_hash": "8c43c91e5e5d77d17a13ebaf17b6f80b"
+  },
+  "established/060_when_bad_grammar_pt06.md": {
+    "mtime": 1793130272.408082,
+    "seen": 1793155465.6551204,
+    "ast_hash": "c3e7671689bdf3d697a8e7b909be70c3",
+    "semantic_hash": "c3e7671689bdf3d697a8e7b909be70c3"
+  },
+  "established/060_when_bad_grammar_pt07.md": {
+    "mtime": 1793130317.0845866,
+    "seen": 1793155465.6551206,
+    "ast_hash": "e66c9a24488c5add1d0fdf34b7746953",
+    "semantic_hash": "e66c9a24488c5add1d0fdf34b7746953"
+  },
+  "established/060_when_bad_grammar_pt08.md": {
+    "mtime": 1793130361.4990785,
+    "seen": 1793155465.655121,
+    "ast_hash": "6b7df64df3be53a0935e4b85bcad04cd",
+    "semantic_hash": "6b7df64df3be53a0935e4b85bcad04cd"
+  },
+  "established/060_when_bad_grammar_pt09.md": {
+    "mtime": 1793130400.2805007,
+    "seen": 1793155465.6551216,
+    "ast_hash": "77645cfcfa65dbc30eef527841f2636e",
+    "semantic_hash": "77645cfcfa65dbc30eef527841f2636e"
+  },
+  "established/060_when_bad_grammar_pt10.md": {
+    "mtime": 1793130457.6771138,
+    "seen": 1793155465.6551223,
+    "ast_hash": "b41f76a962ea30703baa2e0c864cc464",
+    "semantic_hash": "b41f76a962ea30703baa2e0c864cc464"
+  },
+  "established/060_when_bad_grammar_pt11.md": {
+    "mtime": 1793130520.2617686,
+    "seen": 1793155465.6551228,
+    "ast_hash": "90962fbfb6c32892632fdb54fc9bbc5d",
+    "semantic_hash": "90962fbfb6c32892632fdb54fc9bbc5d"
+  },
+  "established/060_when_bad_grammar_pt12.md": {
+    "mtime": 1793130564.1092193,
+    "seen": 1793155465.6551232,
+    "ast_hash": "c72d93a6918b0674634fc1ecf2db59e4",
+    "semantic_hash": "c72d93a6918b0674634fc1ecf2db59e4"
+  },
+  "established/060_when_bad_grammar_pt13.md": {
+    "mtime": 1793130588.5064673,
+    "seen": 1793155465.655124,
+    "ast_hash": "c2ada06171fb2a4c786647d3ad5436b6",
+    "semantic_hash": "c2ada06171fb2a4c786647d3ad5436b6"
+  },
+  "established/060_when_bad_grammar_pt14.md": {
+    "mtime": 1793130634.1889277,
+    "seen": 1793155465.6551247,
+    "ast_hash": "4577a71b38993c61eae823f3079613dd",
+    "semantic_hash": "4577a71b38993c61eae823f3079613dd"
+  },
+  "established/061_beyond_snobbery.md": {
+    "mtime": 1793129869.5492752,
+    "seen": 1793155465.6551251,
+    "ast_hash": "1bfcbaa415d95081c34b74ac45d3f4f7",
+    "semantic_hash": "1bfcbaa415d95081c34b74ac45d3f4f7"
+  },
+  "established/062_grammar_utterly_confused_pt01.md": {
+    "mtime": 1793131261.7268467,
+    "seen": 1793155465.6551259,
+    "ast_hash": "46d170cbe3e4de75c2370ae79e6e17d5",
+    "semantic_hash": "46d170cbe3e4de75c2370ae79e6e17d5"
+  },
+  "established/063_grammar_workbook_dummies_pt01.md": {
+    "mtime": 1793130124.138324,
+    "seen": 1793155465.6551263,
+    "ast_hash": "b873478395ffccea02476c7f0322d3fb",
+    "semantic_hash": "b873478395ffccea02476c7f0322d3fb"
+  },
+  "established/063_grammar_workbook_dummies_pt02.md": {
+    "mtime": 1793130179.105992,
+    "seen": 1793155465.655127,
+    "ast_hash": "068563f9a04079d3ed99a86f5d13c9cc",
+    "semantic_hash": "068563f9a04079d3ed99a86f5d13c9cc"
+  },
+  "established/063_grammar_workbook_dummies_pt03.md": {
+    "mtime": 1793130224.696531,
+    "seen": 1793155465.6551275,
+    "ast_hash": "cdcfee7a933539b533cfb148230cf2bc",
+    "semantic_hash": "cdcfee7a933539b533cfb148230cf2bc"
+  },
+  "established/063_grammar_workbook_dummies_pt04.md": {
+    "mtime": 1793130263.144976,
+    "seen": 1793155465.655128,
+    "ast_hash": "a5e8d90eeecd61abfefed8e99a980b07",
+    "semantic_hash": "a5e8d90eeecd61abfefed8e99a980b07"
+  },
+  "established/063_grammar_workbook_dummies_pt05.md": {
+    "mtime": 1793130308.716493,
+    "seen": 1793155465.6551285,
+    "ast_hash": "45b819f29b4de66a76ec6af8f2dcaa05",
+    "semantic_hash": "45b819f29b4de66a76ec6af8f2dcaa05"
+  },
+  "established/063_grammar_workbook_dummies_pt06.md": {
+    "mtime": 1793130351.4209676,
+    "seen": 1793155465.6551292,
+    "ast_hash": "587060c8990f88b93722ae986233dfde",
+    "semantic_hash": "587060c8990f88b93722ae986233dfde"
+  },
+  "established/064_complete_idiots_guide_grammar_pt01.md": {
+    "mtime": 1793130225.7805436,
+    "seen": 1793155465.6551297,
+    "ast_hash": "2d42bff57de31695897b02c815a3fbbe",
+    "semantic_hash": "2d42bff57de31695897b02c815a3fbbe"
+  },
+  "established/064_complete_idiots_guide_grammar_pt02.md": {
+    "mtime": 1793130324.5806704,
+    "seen": 1793155465.6551301,
+    "ast_hash": "0ab3a8ba14fab381c2e1e4a71ec90ef3",
+    "semantic_hash": "0ab3a8ba14fab381c2e1e4a71ec90ef3"
+  },
+  "established/065_grammar_usage_better_writing_pt01.md": {
+    "mtime": 1793130093.390941,
+    "seen": 1793155465.6551306,
+    "ast_hash": "b3d02a470733fedc8c3a16a42578c55a",
+    "semantic_hash": "b3d02a470733fedc8c3a16a42578c55a"
+  },
+  "established/065_grammar_usage_better_writing_pt02.md": {
+    "mtime": 1793130133.0364335,
+    "seen": 1793155465.655135,
+    "ast_hash": "01a41f411d4b0ed5b8431c4655ea36f1",
+    "semantic_hash": "01a41f411d4b0ed5b8431c4655ea36f1"
+  },
+  "established/066_new_grammar_practice_pt01.md": {
+    "mtime": 1793130006.5848188,
+    "seen": 1793155465.6551354,
+    "ast_hash": "9b08a3520bb5dc53335a27cb5af8819e",
+    "semantic_hash": "9b08a3520bb5dc53335a27cb5af8819e"
+  },
+  "established/066_new_grammar_practice_pt02.md": {
+    "mtime": 1793130065.562588,
+    "seen": 1793155465.655136,
+    "ast_hash": "d51c7dd200f94ab9daa3866559ee1d99",
+    "semantic_hash": "d51c7dd200f94ab9daa3866559ee1d99"
+  },
+  "established/066_new_grammar_practice_pt03.md": {
+    "mtime": 1793130112.6811821,
+    "seen": 1793155465.6551366,
+    "ast_hash": "55a7eec93c23dc8729835dfa746d1bec",
+    "semantic_hash": "55a7eec93c23dc8729835dfa746d1bec"
+  },
+  "established/066_new_grammar_practice_pt04.md": {
+    "mtime": 1793130158.9997501,
+    "seen": 1793155465.655137,
+    "ast_hash": "42143174f7d39a47e91dcf5cd9a92694",
+    "semantic_hash": "42143174f7d39a47e91dcf5cd9a92694"
+  },
+  "established/066_new_grammar_practice_pt05.md": {
+    "mtime": 1793130204.416293,
+    "seen": 1793155465.6551375,
+    "ast_hash": "a86e95f0c8c973ff7b13f0800e0b2df6",
+    "semantic_hash": "a86e95f0c8c973ff7b13f0800e0b2df6"
+  },
+  "established/066_new_grammar_practice_pt06.md": {
+    "mtime": 1793130250.190827,
+    "seen": 1793155465.655138,
+    "ast_hash": "e6c66143388e6085e133556cceb08c03",
+    "semantic_hash": "e6c66143388e6085e133556cceb08c03"
+  },
+  "established/066_new_grammar_practice_pt07.md": {
+    "mtime": 1793130312.4035342,
+    "seen": 1793155465.6551385,
+    "ast_hash": "63467e39df9753e638a35b1921258a50",
+    "semantic_hash": "63467e39df9753e638a35b1921258a50"
+  },
+  "established/067_basic_english_grammar_pt01.md": {
+    "mtime": 1793130102.8570597,
+    "seen": 1793155465.655139,
+    "ast_hash": "18412bd514130ace478f5cd0e84d6085",
+    "semantic_hash": "18412bd514130ace478f5cd0e84d6085"
+  },
+  "established/067_basic_english_grammar_pt02.md": {
+    "mtime": 1793130326.623693,
+    "seen": 1793155465.6551397,
+    "ast_hash": "5608d942215de4773974567fa3bf4e35",
+    "semantic_hash": "5608d942215de4773974567fa3bf4e35"
+  },
+  "established/068_grammar_in_use_us_pt01.md": {
+    "mtime": 1793130034.149182,
+    "seen": 1793155465.6551402,
+    "ast_hash": "77dc4033cbbab25e2690ddbed7a7ec61",
+    "semantic_hash": "77dc4033cbbab25e2690ddbed7a7ec61"
+  },
+  "established/068_grammar_in_use_us_pt02.md": {
+    "mtime": 1793130111.616169,
+    "seen": 1793155465.6551406,
+    "ast_hash": "a0cb48dd476a489fe2a699a81f5cdde9",
+    "semantic_hash": "a0cb48dd476a489fe2a699a81f5cdde9"
+  },
+  "established/068_grammar_in_use_us_pt03.md": {
+    "mtime": 1793130174.5809376,
+    "seen": 1793155465.655141,
+    "ast_hash": "d3594163cdde002a11976a0ac8b288de",
+    "semantic_hash": "d3594163cdde002a11976a0ac8b288de"
+  },
+  "established/068_grammar_in_use_us_pt04.md": {
+    "mtime": 1793130258.2469196,
+    "seen": 1793155465.6551416,
+    "ast_hash": "303da6d59dc723341d6688712f4f0ee4",
+    "semantic_hash": "303da6d59dc723341d6688712f4f0ee4"
+  },
+  "established/068_grammar_in_use_us_pt05.md": {
+    "mtime": 1793130385.6093416,
+    "seen": 1793155465.655142,
+    "ast_hash": "cb1113a0fd4ee094cb21c05748a41cb0",
+    "semantic_hash": "cb1113a0fd4ee094cb21c05748a41cb0"
+  },
+  "established/068_grammar_in_use_us_pt06.md": {
+    "mtime": 1793130466.210204,
+    "seen": 1793155465.6551425,
+    "ast_hash": "f4920d0d1f59b2906333a696305ed7bd",
+    "semantic_hash": "f4920d0d1f59b2906333a696305ed7bd"
+  },
+  "established/068_grammar_in_use_us_pt07.md": {
+    "mtime": 1793130530.2748718,
+    "seen": 1793155465.6551433,
+    "ast_hash": "eb0e677edb986b6aa6befdcc74adc980",
+    "semantic_hash": "eb0e677edb986b6aa6befdcc74adc980"
+  },
+  "established/068_grammar_in_use_us_pt08.md": {
+    "mtime": 1793130627.0648563,
+    "seen": 1793155465.6551437,
+    "ast_hash": "d62d6869aa6aad4c9ebda0fdd3c801f7",
+    "semantic_hash": "d62d6869aa6aad4c9ebda0fdd3c801f7"
+  },
+  "established/068_grammar_in_use_us_pt09.md": {
+    "mtime": 1793130769.4752595,
+    "seen": 1793155465.6551442,
+    "ast_hash": "ad1ea9a6456e8a561e69eac45a2c1521",
+    "semantic_hash": "ad1ea9a6456e8a561e69eac45a2c1521"
+  },
+  "established/069_grammar_practice_upper_int_pt01.md": {
+    "mtime": 1793130045.752333,
+    "seen": 1793155465.6551447,
+    "ast_hash": "a77f7a3b9b26eab03c076174f856907a",
+    "semantic_hash": "a77f7a3b9b26eab03c076174f856907a"
+  },
+  "established/069_grammar_practice_upper_int_pt02.md": {
+    "mtime": 1793130118.3322523,
+    "seen": 1793155465.6551452,
+    "ast_hash": "68cb9e24021f911c6603e5beff84856d",
+    "semantic_hash": "68cb9e24021f911c6603e5beff84856d"
+  },
+  "established/069_grammar_practice_upper_int_pt03.md": {
+    "mtime": 1793130161.4437795,
+    "seen": 1793155465.655146,
+    "ast_hash": "4bbdb83abff994b7db58c5458ac70765",
+    "semantic_hash": "4bbdb83abff994b7db58c5458ac70765"
+  },
+  "established/069_grammar_practice_upper_int_pt04.md": {
+    "mtime": 1793130213.0423944,
+    "seen": 1793155465.6551466,
+    "ast_hash": "04d6e2e78a606e01777a85018524b903",
+    "semantic_hash": "04d6e2e78a606e01777a85018524b903"
+  },
+  "established/069_grammar_practice_upper_int_pt05.md": {
+    "mtime": 1793130269.9330537,
+    "seen": 1793155465.655147,
+    "ast_hash": "00f94440faec7edaa2d3995eab8f7e4a",
+    "semantic_hash": "00f94440faec7edaa2d3995eab8f7e4a"
+  },
+  "established/069_grammar_practice_upper_int_pt06.md": {
+    "mtime": 1793130306.6284695,
+    "seen": 1793155465.6551476,
+    "ast_hash": "569eda5b33f05a40d8bec064d3fa9515",
+    "semantic_hash": "569eda5b33f05a40d8bec064d3fa9515"
+  },
+  "established/069_grammar_practice_upper_int_pt07.md": {
+    "mtime": 1793130352.980985,
+    "seen": 1793155465.655148,
+    "ast_hash": "b855ffd0de237b155f17948cf8027d5c",
+    "semantic_hash": "b855ffd0de237b155f17948cf8027d5c"
+  },
+  "established/069_grammar_practice_upper_int_pt08.md": {
+    "mtime": 1793130412.0436273,
+    "seen": 1793155465.6551485,
+    "ast_hash": "edbd316037db02497607b205bfbbfd3b",
+    "semantic_hash": "edbd316037db02497607b205bfbbfd3b"
+  },
+  "established/069_grammar_practice_upper_int_pt09.md": {
+    "mtime": 1793130463.3001733,
+    "seen": 1793155465.655149,
+    "ast_hash": "95a26fc69c9fb3dc5a5a6e25f0673fe6",
+    "semantic_hash": "95a26fc69c9fb3dc5a5a6e25f0673fe6"
+  },
+  "established/069_grammar_practice_upper_int_pt10.md": {
+    "mtime": 1793130535.2779236,
+    "seen": 1793155465.6551495,
+    "ast_hash": "c284a5aef9e4390483ca5c7c78622e1f",
+    "semantic_hash": "c284a5aef9e4390483ca5c7c78622e1f"
+  },
+  "established/069_grammar_practice_upper_int_pt11.md": {
+    "mtime": 1793130587.9404616,
+    "seen": 1793155465.6551502,
+    "ast_hash": "75b88acd085eac0bc1dd0af80042e43e",
+    "semantic_hash": "75b88acd085eac0bc1dd0af80042e43e"
+  },
+  "established/070_essential_grammar_supplementary.md": {
+    "mtime": 1793130000.2567346,
+    "seen": 1793155465.6551507,
+    "ast_hash": "80ab7b54c637715d4593ac1970ca4d32",
+    "semantic_hash": "80ab7b54c637715d4593ac1970ca4d32"
+  },
+  "established/071_longman_grammar_practice_pt01.md": {
+    "mtime": 1793131021.2406445,
+    "seen": 1793155465.6551511,
+    "ast_hash": "f084f2c488f78eb934c7063d2e9e5f0d",
+    "semantic_hash": "f084f2c488f78eb934c7063d2e9e5f0d"
+  },
+  "established/071_longman_grammar_practice_pt02.md": {
+    "mtime": 1793131128.4686337,
+    "seen": 1793155465.6551516,
+    "ast_hash": "29a568cb2ae92cb7b883b80aa0efa166",
+    "semantic_hash": "29a568cb2ae92cb7b883b80aa0efa166"
+  },
+  "established/071_longman_grammar_practice_pt03.md": {
+    "mtime": 1793131212.7364025,
+    "seen": 1793155465.655152,
+    "ast_hash": "d92c0768bf6c3ed313d6067ca523ee35",
+    "semantic_hash": "d92c0768bf6c3ed313d6067ca523ee35"
+  },
+  "established/071_longman_grammar_practice_pt04.md": {
+    "mtime": 1793131295.6841533,
+    "seen": 1793155465.6551526,
+    "ast_hash": "0c24385c59333119521dbe89b9d2c066",
+    "semantic_hash": "0c24385c59333119521dbe89b9d2c066"
+  },
+  "established/071_longman_grammar_practice_pt05.md": {
+    "mtime": 1793131393.8770356,
+    "seen": 1793155465.655153,
+    "ast_hash": "6aafa76a36e6467f9fd97c2ca16a144f",
+    "semantic_hash": "6aafa76a36e6467f9fd97c2ca16a144f"
+  },
+  "established/071_longman_grammar_practice_pt06.md": {
+    "mtime": 1793131464.309665,
+    "seen": 1793155465.6551538,
+    "ast_hash": "82bac58f537e2688f394049bde93edea",
+    "semantic_hash": "82bac58f537e2688f394049bde93edea"
+  },
+  "established/071_longman_grammar_practice_pt07.md": {
+    "mtime": 1793131571.3576167,
+    "seen": 1793155465.6551542,
+    "ast_hash": "8827850d7de8fbd07fcd8a489bf59dcf",
+    "semantic_hash": "8827850d7de8fbd07fcd8a489bf59dcf"
+  },
+  "established/071_longman_grammar_practice_pt08.md": {
+    "mtime": 1793131716.7749016,
+    "seen": 1793155465.6551547,
+    "ast_hash": "282189572a7725e6ceef16c9c63b0b1b",
+    "semantic_hash": "282189572a7725e6ceef16c9c63b0b1b"
+  },
+  "established/071_longman_grammar_practice_pt09.md": {
+    "mtime": 1793131806.1806881,
+    "seen": 1793155465.6551552,
+    "ast_hash": "41679c75b69aa1057a129859b9584614",
+    "semantic_hash": "41679c75b69aa1057a129859b9584614"
+  },
+  "established/071_longman_grammar_practice_pt10.md": {
+    "mtime": 1793131879.2653294,
+    "seen": 1793155465.6551557,
+    "ast_hash": "eb5bb5fc3c42c8d5236041759fee0302",
+    "semantic_hash": "eb5bb5fc3c42c8d5236041759fee0302"
+  },
+  "established/071_longman_grammar_practice_pt11.md": {
+    "mtime": 1793136918.3779044,
+    "seen": 1793155465.6551561,
+    "ast_hash": "4bf6bcfab59ee8ad30d51e2ebbd6a27c",
+    "semantic_hash": "4bf6bcfab59ee8ad30d51e2ebbd6a27c"
+  },
+  "established/071_longman_grammar_practice_pt12.md": {
+    "mtime": 1793137056.7584565,
+    "seen": 1793155465.6551569,
+    "ast_hash": "9bc8a501d2dce4a319b1bd3b8b820f5c",
+    "semantic_hash": "9bc8a501d2dce4a319b1bd3b8b820f5c"
+  },
+  "established/071_longman_grammar_practice_pt13.md": {
+    "mtime": 1793137113.0110805,
+    "seen": 1793155465.6551573,
+    "ast_hash": "3837e93b57d73a24e556841ff991a0d6",
+    "semantic_hash": "3837e93b57d73a24e556841ff991a0d6"
+  },
+  "established/071_longman_grammar_practice_pt14.md": {
+    "mtime": 1793137242.7075071,
+    "seen": 1793155465.6551578,
+    "ast_hash": "6ae6ee2b6c76f963c0b0add47855e2e4",
+    "semantic_hash": "6ae6ee2b6c76f963c0b0add47855e2e4"
+  },
+  "established/071_longman_grammar_practice_pt15.md": {
+    "mtime": 1793137290.7260315,
+    "seen": 1793155465.6551583,
+    "ast_hash": "cbea34f570d3686de405ccdb4b1421b2",
+    "semantic_hash": "cbea34f570d3686de405ccdb4b1421b2"
+  },
+  "established/071_longman_grammar_practice_pt16.md": {
+    "mtime": 1793137439.046641,
+    "seen": 1793155465.6551588,
+    "ast_hash": "c4e54e271a787f74311329c3f9e162a1",
+    "semantic_hash": "c4e54e271a787f74311329c3f9e162a1"
+  },
+  "established/071_longman_grammar_practice_pt17.md": {
+    "mtime": 1793137577.904137,
+    "seen": 1793155465.6551592,
+    "ast_hash": "d6736df445f1afcb6262d7040579fbc6",
+    "semantic_hash": "d6736df445f1afcb6262d7040579fbc6"
+  },
+  "established/071_longman_grammar_practice_pt18.md": {
+    "mtime": 1793137719.3066514,
+    "seen": 1793155465.6551597,
+    "ast_hash": "c291d4ebe7db081c1b4592f2365c66aa",
+    "semantic_hash": "c291d4ebe7db081c1b4592f2365c66aa"
+  },
+  "established/071_longman_grammar_practice_pt19.md": {
+    "mtime": 1793137788.2403872,
+    "seen": 1793155465.6551604,
+    "ast_hash": "c0c48c06f6936134c6c7eaddd1a440e0",
+    "semantic_hash": "c0c48c06f6936134c6c7eaddd1a440e0"
+  },
+  "established/072_history_of_english_students_guide_pt01.md": {
+    "mtime": 1793130156.5647206,
+    "seen": 1793155465.655161,
+    "ast_hash": "f6a29623a99456778a6094251ad8d27c",
+    "semantic_hash": "f6a29623a99456778a6094251ad8d27c"
+  },
+  "established/072_history_of_english_students_guide_pt02.md": {
+    "mtime": 1793130303.3354323,
+    "seen": 1793155465.6551616,
+    "ast_hash": "9848c0697806262b2088251a67a214af",
+    "semantic_hash": "9848c0697806262b2088251a67a214af"
+  },
+  "established/072_history_of_english_students_guide_pt03.md": {
+    "mtime": 1793130508.7696493,
+    "seen": 1793155465.6551619,
+    "ast_hash": "190a72c8eb1dc77f20ffdebca254d8a3",
+    "semantic_hash": "190a72c8eb1dc77f20ffdebca254d8a3"
+  },
+  "established/072_history_of_english_students_guide_pt04.md": {
+    "mtime": 1793130665.607241,
+    "seen": 1793155465.6551638,
+    "ast_hash": "e97899c8ed6b524befffa681b74b94c4",
+    "semantic_hash": "e97899c8ed6b524befffa681b74b94c4"
+  },
+  "established/072_history_of_english_students_guide_pt05.md": {
+    "mtime": 1793130789.6064541,
+    "seen": 1793155465.6551642,
+    "ast_hash": "67c871d4e902dc6b390cd72fae45fd9c",
+    "semantic_hash": "67c871d4e902dc6b390cd72fae45fd9c"
+  },
+  "established/073_english_language_historical_intro_pt01.md": {
+    "mtime": 1793130090.7739081,
+    "seen": 1793155465.6551647,
+    "ast_hash": "246b3f77e9bc4941732c2a44442c797e",
+    "semantic_hash": "246b3f77e9bc4941732c2a44442c797e"
+  },
+  "established/073_english_language_historical_intro_pt02.md": {
+    "mtime": 1793130225.218537,
+    "seen": 1793155465.6551652,
+    "ast_hash": "97e465d148c6448b9fc56ede62cfba58",
+    "semantic_hash": "97e465d148c6448b9fc56ede62cfba58"
+  },
+  "established/073_english_language_historical_intro_pt03.md": {
+    "mtime": 1793130403.9945407,
+    "seen": 1793155465.6551657,
+    "ast_hash": "e32b9178ef455242a73c0ee2a4571e9c",
+    "semantic_hash": "e32b9178ef455242a73c0ee2a4571e9c"
+  },
+  "established/073_english_language_historical_intro_pt04.md": {
+    "mtime": 1793130573.6393163,
+    "seen": 1793155465.6551661,
+    "ast_hash": "54a019f62e2ae2a1384085d1f2a8c2ab",
+    "semantic_hash": "54a019f62e2ae2a1384085d1f2a8c2ab"
+  },
+  "established/073_english_language_historical_intro_pt05.md": {
+    "mtime": 1793130755.308122,
+    "seen": 1793155465.6551666,
+    "ast_hash": "415220092d508abcc6fec61a0172219d",
+    "semantic_hash": "415220092d508abcc6fec61a0172219d"
+  },
+  "established/073_english_language_historical_intro_pt06.md": {
+    "mtime": 1793130993.2773843,
+    "seen": 1793155465.6551673,
+    "ast_hash": "f34e7412ea17c416eeeba91855f390ab",
+    "semantic_hash": "f34e7412ea17c416eeeba91855f390ab"
+  },
+  "established/073_english_language_historical_intro_pt07.md": {
+    "mtime": 1793131277.241987,
+    "seen": 1793155465.6551678,
+    "ast_hash": "f7c03b2b4bc3916a54cdf7aa644fb01e",
+    "semantic_hash": "f7c03b2b4bc3916a54cdf7aa644fb01e"
+  },
+  "established/073_english_language_historical_intro_pt08.md": {
+    "mtime": 1793131568.0615873,
+    "seen": 1793155465.6551683,
+    "ast_hash": "cf97608859d0e317248ce030adbd4198",
+    "semantic_hash": "cf97608859d0e317248ce030adbd4198"
+  },
+  "established/073_english_language_historical_intro_pt09.md": {
+    "mtime": 1793131848.8480628,
+    "seen": 1793155465.6551688,
+    "ast_hash": "cd13491b82368734df26a912953fa386",
+    "semantic_hash": "cd13491b82368734df26a912953fa386"
+  },
+  "established/074_germanic_languages_pt01.md": {
+    "mtime": 1793137273.8788476,
+    "seen": 1793155465.6551692,
+    "ast_hash": "51e68014e7a3b7938520f204c123b43f",
+    "semantic_hash": "51e68014e7a3b7938520f204c123b43f"
+  },
+  "established/074_germanic_languages_pt02.md": {
+    "mtime": 1793137521.7725334,
+    "seen": 1793155465.6551697,
+    "ast_hash": "26b8320fff20e9b1ece10f963c72bdb6",
+    "semantic_hash": "26b8320fff20e9b1ece10f963c72bdb6"
+  },
+  "established/074_germanic_languages_pt03.md": {
+    "mtime": 1793137743.889914,
+    "seen": 1793155465.6551702,
+    "ast_hash": "0e1317a65e76919ae2b2f8920a79f95d",
+    "semantic_hash": "0e1317a65e76919ae2b2f8920a79f95d"
+  },
+  "established/075_syntax_early_english_pt01.md": {
+    "mtime": 1793137049.00737,
+    "seen": 1793155465.6551712,
+    "ast_hash": "8447c22865a42420e57350ac4f605b1c",
+    "semantic_hash": "8447c22865a42420e57350ac4f605b1c"
+  },
+  "established/075_syntax_early_english_pt02.md": {
+    "mtime": 1793137169.0226984,
+    "seen": 1793155465.6551716,
+    "ast_hash": "67c6eeb36778b81b634459d09460b3fa",
+    "semantic_hash": "67c6eeb36778b81b634459d09460b3fa"
+  },
+  "established/075_syntax_early_english_pt03.md": {
+    "mtime": 1793137473.5910141,
+    "seen": 1793155465.655172,
+    "ast_hash": "4bd8c4c8ff476e16d48cf23671f27448",
+    "semantic_hash": "4bd8c4c8ff476e16d48cf23671f27448"
+  },
+  "established/076_beginning_old_english_pt01.md": {
+    "mtime": 1793137127.9532456,
+    "seen": 1793155465.6551726,
+    "ast_hash": "752340d2a853fa8512587bcdc1afb10e",
+    "semantic_hash": "752340d2a853fa8512587bcdc1afb10e"
+  },
+  "established/076_beginning_old_english_pt02.md": {
+    "mtime": 1793137242.233502,
+    "seen": 1793155465.655173,
+    "ast_hash": "78b176b3a7669661886e349235abd6c7",
+    "semantic_hash": "78b176b3a7669661886e349235abd6c7"
+  },
+  "established/076_beginning_old_english_pt03.md": {
+    "mtime": 1793137368.6918795,
+    "seen": 1793155465.6551738,
+    "ast_hash": "571c1e2f2271a69d614bdc07f90c0485",
+    "semantic_hash": "571c1e2f2271a69d614bdc07f90c0485"
+  },
+  "established/076_beginning_old_english_pt04.md": {
+    "mtime": 1793137489.8151891,
+    "seen": 1793155465.6551745,
+    "ast_hash": "f3b189bf3d65c79a94e68c47bc434907",
+    "semantic_hash": "f3b189bf3d65c79a94e68c47bc434907"
+  },
+  "established/076_beginning_old_english_pt05.md": {
+    "mtime": 1793137618.1845691,
+    "seen": 1793155465.655175,
+    "ast_hash": "6c073f3ad2869f90f0c80460430d667e",
+    "semantic_hash": "6c073f3ad2869f90f0c80460430d667e"
+  },
+  "established/076_beginning_old_english_pt06.md": {
+    "mtime": 1793137704.9114976,
+    "seen": 1793155465.6551754,
+    "ast_hash": "b0ae020c4a75c379110d080e6a326f2c",
+    "semantic_hash": "b0ae020c4a75c379110d080e6a326f2c"
+  },
+  "established/076_beginning_old_english_pt07.md": {
+    "mtime": 1793137814.2826648,
+    "seen": 1793155465.655176,
+    "ast_hash": "ddf049770f4a808409c949c983f5665d",
+    "semantic_hash": "ddf049770f4a808409c949c983f5665d"
+  },
+  "established/076_beginning_old_english_pt08.md": {
+    "mtime": 1793138004.415687,
+    "seen": 1793155465.6551764,
+    "ast_hash": "3172889f99847c24d580bc125f0840a4",
+    "semantic_hash": "3172889f99847c24d580bc125f0840a4"
+  },
+  "established/076_beginning_old_english_pt09.md": {
+    "mtime": 1793138176.39882,
+    "seen": 1793155465.6551769,
+    "ast_hash": "59348b3687080a1370a4e4493194961e",
+    "semantic_hash": "59348b3687080a1370a4e4493194961e"
+  },
+  "established/076_beginning_old_english_pt10.md": {
+    "mtime": 1793138366.1816754,
+    "seen": 1793155465.6551774,
+    "ast_hash": "bedfd66add9d113dd009eb4e7b7256ff",
+    "semantic_hash": "bedfd66add9d113dd009eb4e7b7256ff"
+  },
+  "established/076_beginning_old_english_pt11.md": {
+    "mtime": 1793138507.3106465,
+    "seen": 1793155465.655178,
+    "ast_hash": "b9ad52f00c6c93c6e77f678a73f7f012",
+    "semantic_hash": "b9ad52f00c6c93c6e77f678a73f7f012"
+  },
+  "established/076_beginning_old_english_pt12.md": {
+    "mtime": 1793138644.8194752,
+    "seen": 1793155465.6551785,
+    "ast_hash": "c8023066e5077016d45eb5cb265373e4",
+    "semantic_hash": "c8023066e5077016d45eb5cb265373e4"
+  },
+  "established/076_beginning_old_english_pt13.md": {
+    "mtime": 1793138724.479502,
+    "seen": 1793155465.655179,
+    "ast_hash": "2928a334a69b34f191dee8a439967f79",
+    "semantic_hash": "2928a334a69b34f191dee8a439967f79"
+  },
+  "established/077_old_english_linguistic_intro_pt01.md": {
+    "mtime": 1793137143.8934216,
+    "seen": 1793155465.6551795,
+    "ast_hash": "16ffe7c6b1a56685294a24fb1b361556",
+    "semantic_hash": "16ffe7c6b1a56685294a24fb1b361556"
+  },
+  "established/077_old_english_linguistic_intro_pt02.md": {
+    "mtime": 1793137375.2809508,
+    "seen": 1793155465.65518,
+    "ast_hash": "852abee73cf905909b0e3a29e2293816",
+    "semantic_hash": "852abee73cf905909b0e3a29e2293816"
+  },
+  "established/077_old_english_linguistic_intro_pt03.md": {
+    "mtime": 1793137604.669424,
+    "seen": 1793155465.6551805,
+    "ast_hash": "ac695a64871b7eee4acb72f5cc179a5b",
+    "semantic_hash": "ac695a64871b7eee4acb72f5cc179a5b"
+  },
+  "established/077_old_english_linguistic_intro_pt04.md": {
+    "mtime": 1793137800.4745176,
+    "seen": 1793155465.6551814,
+    "ast_hash": "1f32ac48fdd22f1d5c4d4929d96065a3",
+    "semantic_hash": "1f32ac48fdd22f1d5c4d4929d96065a3"
+  },
+  "established/078_reading_old_english_texts_pt01.md": {
+    "mtime": 1793136953.0252955,
+    "seen": 1793155465.655182,
+    "ast_hash": "c0f3ee06c69845d249dc7390bd4c00a0",
+    "semantic_hash": "c0f3ee06c69845d249dc7390bd4c00a0"
+  },
+  "established/078_reading_old_english_texts_pt02.md": {
+    "mtime": 1793137013.5429745,
+    "seen": 1793155465.6551824,
+    "ast_hash": "3bcf0d5590b856d1684e9bc47b028b17",
+    "semantic_hash": "3bcf0d5590b856d1684e9bc47b028b17"
+  },
+  "established/079_intro_to_old_english_pt01.md": {
+    "mtime": 1793137272.806836,
+    "seen": 1793155465.6551828,
+    "ast_hash": "25f65a6938a2638ab71429af058e8b87",
+    "semantic_hash": "25f65a6938a2638ab71429af058e8b87"
+  },
+  "established/079_intro_to_old_english_pt02.md": {
+    "mtime": 1793137363.5488236,
+    "seen": 1793155465.6551833,
+    "ast_hash": "a6c1c0a5e2ea654444911226e54ab6e8",
+    "semantic_hash": "a6c1c0a5e2ea654444911226e54ab6e8"
+  },
+  "established/079_intro_to_old_english_pt03.md": {
+    "mtime": 1793137423.482473,
+    "seen": 1793155465.6551838,
+    "ast_hash": "b4ec61d83624e0be0f7240a9474fa7bd",
+    "semantic_hash": "b4ec61d83624e0be0f7240a9474fa7bd"
+  },
+  "established/079_intro_to_old_english_pt04.md": {
+    "mtime": 1793137477.557057,
+    "seen": 1793155465.6551843,
+    "ast_hash": "a731072ebf5e441cd54c510bdd0a1816",
+    "semantic_hash": "a731072ebf5e441cd54c510bdd0a1816"
+  },
+  "established/079_intro_to_old_english_pt05.md": {
+    "mtime": 1793137598.0053525,
+    "seen": 1793155465.655185,
+    "ast_hash": "3b0b34b6c39f2ed3482fcf8addc263e3",
+    "semantic_hash": "3b0b34b6c39f2ed3482fcf8addc263e3"
+  },
+  "established/079_intro_to_old_english_pt06.md": {
+    "mtime": 1793137670.9161339,
+    "seen": 1793155465.6551855,
+    "ast_hash": "55a365e804fbeb36230ab96df6f065bc",
+    "semantic_hash": "55a365e804fbeb36230ab96df6f065bc"
+  },
+  "established/079_intro_to_old_english_pt07.md": {
+    "mtime": 1793137733.2628005,
+    "seen": 1793155465.655186,
+    "ast_hash": "8e84776c187994fa9f1d85c00be234b6",
+    "semantic_hash": "8e84776c187994fa9f1d85c00be234b6"
+  },
+  "established/080_critical_companion_beowulf_pt01.md": {
+    "mtime": 1793137190.5829356,
+    "seen": 1793155465.6551864,
+    "ast_hash": "b45e056dc166e84977b86d942a1cd486",
+    "semantic_hash": "b45e056dc166e84977b86d942a1cd486"
+  },
+  "established/080_critical_companion_beowulf_pt02.md": {
+    "mtime": 1793137263.3337326,
+    "seen": 1793155465.655187,
+    "ast_hash": "af24d5a77a34bbf4756167341accd357",
+    "semantic_hash": "af24d5a77a34bbf4756167341accd357"
+  },
+  "established/080_critical_companion_beowulf_pt03.md": {
+    "mtime": 1793137338.905556,
+    "seen": 1793155465.6551874,
+    "ast_hash": "ff1f17da568801f0b406da6e81ce99fe",
+    "semantic_hash": "ff1f17da568801f0b406da6e81ce99fe"
+  },
+  "established/081_old_english_literature_short_intro_pt01.md": {
+    "mtime": 1793137105.993003,
+    "seen": 1793155465.655188,
+    "ast_hash": "b5b22aed4e757b4f02c4e168d9da20d9",
+    "semantic_hash": "b5b22aed4e757b4f02c4e168d9da20d9"
+  },
+  "established/081_old_english_literature_short_intro_pt02.md": {
+    "mtime": 1793137240.7714858,
+    "seen": 1793155465.6551886,
+    "ast_hash": "5c48a617a9a2b1b831a1fe7cb76877ef",
+    "semantic_hash": "5c48a617a9a2b1b831a1fe7cb76877ef"
+  },
+  "established/082_poetics_of_old_english.md": {
+    "mtime": 1793137101.140949,
+    "seen": 1793155465.655189,
+    "ast_hash": "6603e1a6d5dec9ab5ed524fcf037ca2e",
+    "semantic_hash": "6603e1a6d5dec9ab5ed524fcf037ca2e"
+  },
+  "established/083_old_english_to_standard_pt01.md": {
+    "mtime": 1793137074.0906491,
+    "seen": 1793155465.6551895,
+    "ast_hash": "1331f46f49df996af2988065a7dbadae",
+    "semantic_hash": "1331f46f49df996af2988065a7dbadae"
+  },
+  "established/083_old_english_to_standard_pt02.md": {
+    "mtime": 1793137170.8447185,
+    "seen": 1793155465.65519,
+    "ast_hash": "7e9bb6a6fd2e14ce2169a72aad1a65b2",
+    "semantic_hash": "7e9bb6a6fd2e14ce2169a72aad1a65b2"
+  },
+  "established/083_old_english_to_standard_pt03.md": {
+    "mtime": 1793137244.251524,
+    "seen": 1793155465.6551905,
+    "ast_hash": "c0ff0d051ea369bb3e15d18ec15f353c",
+    "semantic_hash": "c0ff0d051ea369bb3e15d18ec15f353c"
+  },
+  "established/083_old_english_to_standard_pt04.md": {
+    "mtime": 1793137317.6303246,
+    "seen": 1793155465.655191,
+    "ast_hash": "97500a8d6012e4d8ae2814206008698f",
+    "semantic_hash": "97500a8d6012e4d8ae2814206008698f"
+  },
+  "established/083_old_english_to_standard_pt05.md": {
+    "mtime": 1793137403.7862597,
+    "seen": 1793155465.655192,
+    "ast_hash": "4e15c4c518b532e005e831c3ac7aec37",
+    "semantic_hash": "4e15c4c518b532e005e831c3ac7aec37"
+  },
+  "established/083_old_english_to_standard_pt06.md": {
+    "mtime": 1793137471.3409898,
+    "seen": 1793155465.6551924,
+    "ast_hash": "f2e388a6b4ef8d5ef29c32f9536e38a1",
+    "semantic_hash": "f2e388a6b4ef8d5ef29c32f9536e38a1"
+  },
+  "established/083_old_english_to_standard_pt07.md": {
+    "mtime": 1793137518.6484997,
+    "seen": 1793155465.6551929,
+    "ast_hash": "188a4b5572e3f0f15577e87695ed7abb",
+    "semantic_hash": "188a4b5572e3f0f15577e87695ed7abb"
+  },
+  "established/083_old_english_to_standard_pt08.md": {
+    "mtime": 1793137646.8148758,
+    "seen": 1793155465.6551933,
+    "ast_hash": "2576f6a64590b6b6e4917d1d04e43947",
+    "semantic_hash": "2576f6a64590b6b6e4917d1d04e43947"
+  },
+  "established/083_old_english_to_standard_pt09.md": {
+    "mtime": 1793137744.3999195,
+    "seen": 1793155465.6551938,
+    "ast_hash": "3aa4f650863f79f6b0268b75fd07d8de",
+    "semantic_hash": "3aa4f650863f79f6b0268b75fd07d8de"
+  },
+  "established/083_old_english_to_standard_pt10.md": {
+    "mtime": 1793137823.5467637,
+    "seen": 1793155465.6551943,
+    "ast_hash": "4b482acaf310b139ef4152a14eeb5a32",
+    "semantic_hash": "4b482acaf310b139ef4152a14eeb5a32"
+  },
+  "established/083_old_english_to_standard_pt11.md": {
+    "mtime": 1793137908.0906637,
+    "seen": 1793155465.655195,
+    "ast_hash": "465c3fbb9fadc82dc5874b23c0922e4a",
+    "semantic_hash": "465c3fbb9fadc82dc5874b23c0922e4a"
+  },
+  "established/084_an_old_english_grammar_pt01.md": {
+    "mtime": 1793137137.4423504,
+    "seen": 1793155465.6551955,
+    "ast_hash": "be2df05cc5a11f5999612583ad9cf549",
+    "semantic_hash": "be2df05cc5a11f5999612583ad9cf549"
+  },
+  "established/084_an_old_english_grammar_pt02.md": {
+    "mtime": 1793137370.9789042,
+    "seen": 1793155465.655196,
+    "ast_hash": "3392cfcef087ea1c06bb8773aefbd768",
+    "semantic_hash": "3392cfcef087ea1c06bb8773aefbd768"
+  },
+  "established/084_an_old_english_grammar_pt03.md": {
+    "mtime": 1793137560.2049468,
+    "seen": 1793155465.6551964,
+    "ast_hash": "1d60932d9907a46a2a4e9dc851e7084f",
+    "semantic_hash": "1d60932d9907a46a2a4e9dc851e7084f"
+  },
+  "established/084_an_old_english_grammar_pt04.md": {
+    "mtime": 1793137699.6974418,
+    "seen": 1793155465.655197,
+    "ast_hash": "81acf84e40ae2b39d73bc4bd82c7fa2d",
+    "semantic_hash": "81acf84e40ae2b39d73bc4bd82c7fa2d"
+  },
+  "established/084_an_old_english_grammar_pt05.md": {
+    "mtime": 1793137839.0399287,
+    "seen": 1793155465.6551974,
+    "ast_hash": "ce47ac6c29341d016d872219d5b8c973",
+    "semantic_hash": "ce47ac6c29341d016d872219d5b8c973"
+  },
+  "established/084_an_old_english_grammar_pt06.md": {
+    "mtime": 1793138024.1488965,
+    "seen": 1793155465.6551979,
+    "ast_hash": "b74e319ebacb9e4c9bc6e4c8f4f1946c",
+    "semantic_hash": "b74e319ebacb9e4c9bc6e4c8f4f1946c"
+  },
+  "established/084_an_old_english_grammar_pt07.md": {
+    "mtime": 1793138479.2812634,
+    "seen": 1793155465.6551986,
+    "ast_hash": "0771d53c9a142bd8712762db24d157d0",
+    "semantic_hash": "0771d53c9a142bd8712762db24d157d0"
+  },
+  "established/085_oe_closest_relatives_pt01.md": {
+    "mtime": 1793137529.5236168,
+    "seen": 1793155465.655199,
+    "ast_hash": "76ee9b09d8273a661e12b2bd5e21f074",
+    "semantic_hash": "76ee9b09d8273a661e12b2bd5e21f074"
+  },
+  "established/085_oe_closest_relatives_pt02.md": {
+    "mtime": 1793137837.934917,
+    "seen": 1793155465.6551995,
+    "ast_hash": "c6fd6035279fe3ca003a133d329757b7",
+    "semantic_hash": "c6fd6035279fe3ca003a133d329757b7"
+  },
+  "established/085_oe_closest_relatives_pt03.md": {
+    "mtime": 1793138024.2838979,
+    "seen": 1793155465.6552,
+    "ast_hash": "48dea90b7c68a72a9b5fd6274da6cc22",
+    "semantic_hash": "48dea90b7c68a72a9b5fd6274da6cc22"
+  },
+  "established/085_oe_closest_relatives_pt04.md": {
+    "mtime": 1793138150.1324015,
+    "seen": 1793155465.6552005,
+    "ast_hash": "b71647f63efece1dde10e14447fdacae",
+    "semantic_hash": "b71647f63efece1dde10e14447fdacae"
+  },
+  "established/086_teach_yourself_old_english_pt01.md": {
+    "mtime": 1793137199.3130314,
+    "seen": 1793155465.655201,
+    "ast_hash": "271940e311a598ba95492f3c277af180",
+    "semantic_hash": "271940e311a598ba95492f3c277af180"
+  },
+  "established/086_teach_yourself_old_english_pt02.md": {
+    "mtime": 1793137376.8929684,
+    "seen": 1793155465.6552017,
+    "ast_hash": "4bfd213856770547824bc4286e62ca30",
+    "semantic_hash": "4bfd213856770547824bc4286e62ca30"
+  },
+  "established/086_teach_yourself_old_english_pt03.md": {
+    "mtime": 1793137521.3275285,
+    "seen": 1793155465.6552024,
+    "ast_hash": "9f813c63852489c1b66f2dd64dac4d9c",
+    "semantic_hash": "9f813c63852489c1b66f2dd64dac4d9c"
+  },
+  "established/086_teach_yourself_old_english_pt04.md": {
+    "mtime": 1793137664.7880683,
+    "seen": 1793155465.6552029,
+    "ast_hash": "ddd8efcf6ef733751ff1f69cb41c0f4a",
+    "semantic_hash": "ddd8efcf6ef733751ff1f69cb41c0f4a"
+  },
+  "established/086_teach_yourself_old_english_pt05.md": {
+    "mtime": 1793137786.9593735,
+    "seen": 1793155465.6552055,
+    "ast_hash": "5ec0c59e562b8a28c3b4594b3d2781e7",
+    "semantic_hash": "5ec0c59e562b8a28c3b4594b3d2781e7"
+  },
+  "established/086_teach_yourself_old_english_pt06.md": {
+    "mtime": 1793137925.6178498,
+    "seen": 1793155465.655206,
+    "ast_hash": "63fcb7b7ec11dac1e638dc4d93e6a1bf",
+    "semantic_hash": "63fcb7b7ec11dac1e638dc4d93e6a1bf"
+  },
+  "established/086_teach_yourself_old_english_pt07.md": {
+    "mtime": 1793138048.8291583,
+    "seen": 1793155465.6552064,
+    "ast_hash": "abb8e1ecfd2b448d01a1bd868bc9a855",
+    "semantic_hash": "abb8e1ecfd2b448d01a1bd868bc9a855"
+  },
+  "established/086_teach_yourself_old_english_pt08.md": {
+    "mtime": 1793138131.0210927,
+    "seen": 1793155465.655207,
+    "ast_hash": "28fe049c999aa621e7b6728b31896a3b",
+    "semantic_hash": "28fe049c999aa621e7b6728b31896a3b"
+  },
+  "established/087_beowulf_black_cat.md": {
+    "mtime": 1793137306.3272016,
+    "seen": 1793155465.6552074,
+    "ast_hash": "a151fae9b3182b0706a924307afcd7ac",
+    "semantic_hash": "a151fae9b3182b0706a924307afcd7ac"
+  },
+  "established/088_grammar_of_english_grammars_pt01.md": {
+    "mtime": 1793137316.2553096,
+    "seen": 1793155465.655208,
+    "ast_hash": "955c9ece00657b1a6108a07ae2254fa4",
+    "semantic_hash": "955c9ece00657b1a6108a07ae2254fa4"
+  },
+  "established/088_grammar_of_english_grammars_pt02.md": {
+    "mtime": 1793137477.5890572,
+    "seen": 1793155465.6552086,
+    "ast_hash": "171231b16a1f89288c50ed0d21517a22",
+    "semantic_hash": "171231b16a1f89288c50ed0d21517a22"
+  },
+  "established/088_grammar_of_english_grammars_pt03.md": {
+    "mtime": 1793137712.7415812,
+    "seen": 1793155465.6552093,
+    "ast_hash": "6ce3fb0973b3ac489ca9848b5be9950b",
+    "semantic_hash": "6ce3fb0973b3ac489ca9848b5be9950b"
+  },
+  "established/088_grammar_of_english_grammars_pt04.md": {
+    "mtime": 1793137868.2162392,
+    "seen": 1793155465.6552098,
+    "ast_hash": "83dd56d3ac5b129bdb33ca35525628b4",
+    "semantic_hash": "83dd56d3ac5b129bdb33ca35525628b4"
+  },
+  "established/088_grammar_of_english_grammars_pt05.md": {
+    "mtime": 1793137972.6293495,
+    "seen": 1793155465.6552105,
+    "ast_hash": "e53a0e907ae0b6fe48e8b36cc194beed",
+    "semantic_hash": "e53a0e907ae0b6fe48e8b36cc194beed"
+  },
+  "established/088_grammar_of_english_grammars_pt06.md": {
+    "mtime": 1793138140.1832411,
+    "seen": 1793155465.655211,
+    "ast_hash": "f91f1a646f4532c7ec540239ae39ccc1",
+    "semantic_hash": "f91f1a646f4532c7ec540239ae39ccc1"
+  },
+  "established/088_grammar_of_english_grammars_pt07.md": {
+    "mtime": 1793138230.7626665,
+    "seen": 1793155465.6552114,
+    "ast_hash": "426b0ab62452ca018f415efc2886c615",
+    "semantic_hash": "426b0ab62452ca018f415efc2886c615"
+  },
+  "established/088_grammar_of_english_grammars_pt08.md": {
+    "mtime": 1793138330.185154,
+    "seen": 1793155465.655212,
+    "ast_hash": "c8294ee0f1d2e4311734533ef3f02c28",
+    "semantic_hash": "c8294ee0f1d2e4311734533ef3f02c28"
+  },
+  "established/088_grammar_of_english_grammars_pt09.md": {
+    "mtime": 1793138497.4545124,
+    "seen": 1793155465.6552126,
+    "ast_hash": "1333c18041df5a697f55ec5d90c204aa",
+    "semantic_hash": "1333c18041df5a697f55ec5d90c204aa"
+  },
+  "established/088_grammar_of_english_grammars_pt10.md": {
+    "mtime": 1793138649.1035311,
+    "seen": 1793155465.655213,
+    "ast_hash": "f1a4aec8ed29405d52864fab9063d2e5",
+    "semantic_hash": "f1a4aec8ed29405d52864fab9063d2e5"
+  },
+  "established/089_concise_anglo_saxon_dictionary_pt01.md": {
+    "mtime": 1793137441.2166646,
+    "seen": 1793155465.6552136,
+    "ast_hash": "a1be3c97f5c3ab5c7e7b3e785091ec5c",
+    "semantic_hash": "a1be3c97f5c3ab5c7e7b3e785091ec5c"
+  },
+  "established/090_guide_to_old_english.md": {
+    "mtime": 1793137407.584301,
+    "seen": 1793155465.655214,
+    "ast_hash": "8e06d840019c45a72e86461c66cc2ada",
+    "semantic_hash": "8e06d840019c45a72e86461c66cc2ada"
+  }
+}
