@@ -175,6 +175,20 @@ test, worth checking for on any future language's sources rather than rediscover
   reasonable attempt, fall back to real vision-reading (render pages to images) or OCR
   (Tesseract with the correct language model, e.g. `kor` for Korean) rather than forcing a
   non-existent decode.
+- **UTF-8-encoded text read back as a single-byte charset (Latin-1/cp1252) produces a distinct,
+  very recognizable mojibake pattern on non-ASCII characters — confirmed repeatedly across English's
+  *Chicago Manual of Style* extraction (2026-10-27), independently on at least 15 of 36 chunks.**
+  Symptoms: a two-byte UTF-8 character becomes two garbled Latin-1 characters sharing a `Ã`/`Â`/`â€`
+  prefix — e.g. "MahÃbhÄrata" for "Mahābhārata", "Ã—" for "×" (multiplication sign), "Â£"/"â‚¬"/"Â°"
+  for "£"/"€"/"°", "fÃ¼hrer" for "führer". This is the same underlying mechanism as the already-
+  documented cp1251-as-latin1 Cyrillic case, just on UTF-8 source bytes instead of Windows-1251
+  ones. **Always recoverable by cross-referencing the source's own surrounding context** (a
+  spelled-out form in the same sentence, a known proper name, a visible numeral/unit) rather than a
+  fixed decode table — confirmed recoverable in every case across this extraction except a literal
+  handful of individual characters, which were correctly flagged `low_confidence` rather than
+  guessed. Worth checking for on any future source, not just Cyrillic ones — this pattern hit a mainstream
+  American style manual with no non-English-script content at all, just ordinary accented
+  loanwords and symbols.
 - **A PDF can have a genuine, working text layer for its metalanguage prose while embedding the
   target-language content itself as per-word or per-page raster images — not text at all, and not
   a font-substitution cipher of any kind.** Confirmed on *Modern Russian Grammar: A Practical
