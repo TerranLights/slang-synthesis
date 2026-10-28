@@ -52,6 +52,19 @@ scan-vs-text-layer status, and a rough priority call — *before* any checklist 
 `datasets/<Language>/` or `language_corpus/<Language>/` begins. This is cheap and prevents burning
 hours deep-extracting a book that turns out low-value.
 
+**New sub-concern, discovered 2026-10-26: check removable/external media, not just
+`source_reference/`, before calling a language's material inventory complete.** A full sweep of
+the external drive at `/media/kuroskalacs/Home-Theater/w-lang/` (27 language folders, ~70GB) found
+undocumented supplementary stashes for languages already in `source_reference/` (Serbian/Croatian/
+Bosnian, Hungarian, Swedish, Slovenian, Cantonese, Danish, Icelandic, Kazakh, Mongolian, Tibetan,
+Irish, Swahili), closed or softened 9 of the 14 GINI-priority acquisition gaps (Portuguese,
+Norwegian, Polish, Ukrainian, Bulgarian, Indonesian, Malay, Thai, Vietnamese all have real material
+there, just not yet staged), and surfaced 6 languages never before in the project's roster at all
+(Arabic, Hindi-Urdu, Catalan, Nepali, Cambodian/Khmer, Basque). Full detail in `LANGUAGE_INDEX.md`'s
+"External-drive sweep, 2026-10-26" section. This was only caught because Korean's "complete" status
+got questioned directly — **before trusting any language's status as final, check whether its
+external-drive folder has been triaged, not just its in-repo one.**
+
 ## Phase 0.5 — Language priority tiering
 
 **Status: partially resolved as of 2026-09-09 — see `LANGUAGE_INDEX.md`.** The real-world

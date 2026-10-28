@@ -1,9 +1,15 @@
 # Language Acquisition To-Do
 
-**Purpose.** The 14 languages below are tied to one of the 43 Inner Tepenia GDD Gini-index
+**Purpose.** The languages below are tied to one of the 43 Inner Tepenia GDD Gini-index
 high-priority nations (see `LANGUAGE_INDEX.md`) but currently have **zero material** in
 `source_reference/languages/` — no grammar, no dictionary, nothing to extract. Phase 1 cannot start
 on any of them until real reference material is acquired.
+
+**Updated 2026-10-26 after the external-drive sweep.** Filipino/Tagalog was already removed
+earlier (its gap closed 2026-10-19). This pass found real material for 9 more languages on the
+external drive at `/media/kuroskalacs/Home-Theater/w-lang/` — they're no longer true acquisition
+gaps, just unstaged. See the new "Found externally, needs staging" section below instead of the
+acquire list. Only **4 languages now remain genuine zero-material gaps.**
 
 **Listed alphabetically — no dominance hierarchy.** All 43 GINI nations, and the languages tied to
 them, are equally valid subjects of study regardless of population. The effective-population
@@ -22,24 +28,33 @@ until triage.
 
 ---
 
-## To acquire
+## To acquire — genuine zero-material gaps (4 remain)
 
 | Language | Nation(s) (Gini-adj. effective pop., context only) | Notes |
 |---|---|---|
-| **Belarusian** | Belarus (~1.5M) | Intermarium bloc member. |
-| **Bulgarian** | Bulgaria (~1.2M) | Intermarium bloc member. |
-| **Czech** | Czech Republic (~5M) | Source doc flags Czech as having "among the highest per-capita robot-access rates of any nation" — a narrative note, not a priority signal. |
-| **Filipino / Tagalog** | Philippines (~5M) | |
-| **German** | Germany (~46M), Belgium (partial, trilingual) | |
-| **Indonesian** | Indonesia (~16M) | Bahasa Indonesia. |
-| **Malay** | Malaysia (~5M) | |
-| **Norwegian** | Norway (~3.3M) | |
-| **Polish** | Poland (~12M) | Also the political center of the setting's Intermarium/Intermaria meta-nation bloc — check `LANGUAGE_INDEX.md`'s Slavic section for that context. |
-| **Portuguese** | Brazil (~17M) | Brazilian Portuguese specifically matters most here, not European Portuguese — the effective-population figure is Brazil's, and Brazilian/European Portuguese slang diverges significantly. |
-| **Slovak** | Slovakia (~2.2M) | Intermarium bloc member. |
-| **Thai** | Thailand (~8M) | |
-| **Ukrainian** | Ukraine (~5M) | Do not substitute Russian material for this — they are different languages and the project already has Russian covered separately. |
-| **Vietnamese** | Vietnam (~5M) | |
+| **Belarusian** | Belarus (~1.5M) | Intermarium bloc member. Confirmed still absent from the external drive in the 2026-10-26 sweep. |
+| **Czech** | Czech Republic (~5M) | Source doc flags Czech as having "among the highest per-capita robot-access rates of any nation" — a narrative note, not a priority signal. Confirmed still absent from the external drive in the 2026-10-26 sweep. |
+| **German** | Germany (~46M), Belgium (partial, trilingual) | Confirmed still absent from the external drive in the 2026-10-26 sweep. |
+| **Slovak** | Slovakia (~2.2M) | Intermarium bloc member. Confirmed still absent from the external drive in the 2026-10-26 sweep. |
+
+## Found externally, needs staging — not acquisition, just triage (9)
+
+**Already possessed, just sitting on `/media/kuroskalacs/Home-Theater/w-lang/`, unstaged and
+untriaged** — found in the 2026-10-26 sweep. Nothing to buy or download; these need a Phase 0
+triage pass (dedup, metalanguage check, text-layer check) and copying into `source_reference/`,
+same as any other triage target.
+
+| Language | Nation(s) | External stash |
+|---|---|---|
+| **Bulgarian** | Bulgaria (~1.2M) | 1.6G / 53 files |
+| **Indonesian** | Indonesia (~16M) | 1.8G / 60 files, combined with Malay in one "Malay-Indonesian" folder — needs splitting |
+| **Malay** | Malaysia (~5M) | Same combined "Malay-Indonesian" folder as Indonesian above |
+| **Norwegian** | Norway (~3.3M) | 3.0G / 109 files |
+| **Polish** | Poland (~12M) | 13G / 1,015 files, combined with Ukrainian in one "Polish and Ukrainian" folder — needs splitting |
+| **Portuguese** | Brazil (~17M) | 3.5G / 167 files. Brazilian Portuguese specifically matters most here, not European Portuguese — check which variety the stash actually contains during triage. |
+| **Thai** | Thailand (~8M) | 4.4G / 103 files, combined with Lao (not a GINI language) in one "Thai and Lao" folder — needs splitting |
+| **Ukrainian** | Ukraine (~5M) | Same combined "Polish and Ukrainian" folder as Polish above. Do not substitute Russian material for this — they are different languages. |
+| **Vietnamese** | Vietnam (~5M) | 1.3G / 53 files |
 
 ## Separately unresolved — not on the ranked list above
 
