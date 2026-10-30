@@ -1,15 +1,15 @@
 {
   "00_Book_Triage_Catalog.md": {
-    "mtime": 1789014231.40502,
-    "seen": 1789116145.2463439,
-    "ast_hash": "dacc45c26ab16cadb0d88e028a13bc03",
-    "semantic_hash": "dacc45c26ab16cadb0d88e028a13bc03"
+    "mtime": 1793284835.299096,
+    "seen": 1793321991.8281825,
+    "ast_hash": "9e0bdbbbaf8a55c08d290b1ac98299bc",
+    "semantic_hash": "9e0bdbbbaf8a55c08d290b1ac98299bc"
   },
   "00_Extraction_Checklist.md": {
-    "mtime": 1789115527.4483962,
-    "seen": 1789116145.246347,
-    "ast_hash": "1ac22d09bd2f46b4c9c255e6366305d8",
-    "semantic_hash": "1ac22d09bd2f46b4c9c255e6366305d8"
+    "mtime": 1793320958.5550375,
+    "seen": 1793321991.8281858,
+    "ast_hash": "0790bd0a02dbebd82728e31596f15c95",
+    "semantic_hash": "0790bd0a02dbebd82728e31596f15c95"
   },
   "established/001_basic_korean_part1.md": {
     "mtime": 1789015024.0581875,
@@ -184,5 +184,257 @@
     "seen": 1789116145.2463644,
     "ast_hash": "b7e65e5198db0b2adae8843cd6f7c90b",
     "semantic_hash": "b7e65e5198db0b2adae8843cd6f7c90b"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793320893.0376742,
+    "seen": 1793321991.8281877,
+    "ast_hash": "2230250029a1048ce6e835a2de9f344b",
+    "semantic_hash": "2230250029a1048ce6e835a2de9f344b"
+  },
+  "established/030_dirty_korean_everyday_slang.md": {
+    "mtime": 1793286346.703598,
+    "seen": 1793321991.8281887,
+    "ast_hash": "fe79e281fff61f8bc9c9fee4ac593813",
+    "semantic_hash": "fe79e281fff61f8bc9c9fee4ac593813"
+  },
+  "established/031_korean_honorifics_and_politeness.md": {
+    "mtime": 1793285414.0713391,
+    "seen": 1793321991.8281896,
+    "ast_hash": "59afbf4f64c36dc861e423e22bd00f27",
+    "semantic_hash": "59afbf4f64c36dc861e423e22bd00f27"
+  },
+  "established/032_making_out_in_korean.md": {
+    "mtime": 1793286652.3672802,
+    "seen": 1793321991.8281903,
+    "ast_hash": "2f55ed5705c75d62e17906420350990d",
+    "semantic_hash": "2f55ed5705c75d62e17906420350990d"
+  },
+  "established/033_lets_learn_korean_northern_dialect.md": {
+    "mtime": 1793288948.3625226,
+    "seen": 1793321991.8281913,
+    "ast_hash": "a0ac06d19afecc0505bb17856592906d",
+    "semantic_hash": "a0ac06d19afecc0505bb17856592906d"
+  },
+  "established/034_korean_5_to_12_irp_appendices.md": {
+    "mtime": 1793285913.8863862,
+    "seen": 1793321991.8281922,
+    "ast_hash": "8779805fc2dfa0caf46da41a1660e29a",
+    "semantic_hash": "8779805fc2dfa0caf46da41a1660e29a"
+  },
+  "established/035_integrated_korean_beginning_1.md": {
+    "mtime": 1793288126.7478704,
+    "seen": 1793321991.8281934,
+    "ast_hash": "103612dbbc748cd1eb517957712a9848",
+    "semantic_hash": "103612dbbc748cd1eb517957712a9848"
+  },
+  "established/036_integrated_korean_beginning_2.md": {
+    "mtime": 1793288762.870877,
+    "seen": 1793321991.8281946,
+    "ast_hash": "580e62696dcf38f4d219036088eb47c8",
+    "semantic_hash": "580e62696dcf38f4d219036088eb47c8"
+  },
+  "established/037_korean_level_1_snu.md": {
+    "mtime": 1793290168.3862274,
+    "seen": 1793321991.8281958,
+    "ast_hash": "7a991290060568ce890a99bc016edb31",
+    "semantic_hash": "7a991290060568ce890a99bc016edb31"
+  },
+  "established/038_korean_level_2_snu.md": {
+    "mtime": 1793288636.80174,
+    "seen": 1793321991.828197,
+    "ast_hash": "fcff67cf0d3643b65009719608505c8b",
+    "semantic_hash": "fcff67cf0d3643b65009719608505c8b"
+  },
+  "established/039_korean_course_snu_vol2.md": {
+    "mtime": 1793289129.7023702,
+    "seen": 1793321991.828198,
+    "ast_hash": "2ff92723286a3c66a6efab9201b9e8bb",
+    "semantic_hash": "2ff92723286a3c66a6efab9201b9e8bb"
+  },
+  "established/040_korean_course_snu_vol3.md": {
+    "mtime": 1793289410.864538,
+    "seen": 1793321991.828199,
+    "ast_hash": "66db64589ed5dc0f553b209d0a81d9a6",
+    "semantic_hash": "66db64589ed5dc0f553b209d0a81d9a6"
+  },
+  "established/041_korean_course_snu_vol4.md": {
+    "mtime": 1793293282.3666158,
+    "seen": 1793321991.8282018,
+    "ast_hash": "25b26b4ee64e075e9b69091167fa3a1b",
+    "semantic_hash": "25b26b4ee64e075e9b69091167fa3a1b"
+  },
+  "established/042_my_korean_1.md": {
+    "mtime": 1793292630.5488796,
+    "seen": 1793321991.8282025,
+    "ast_hash": "a6fe3fce4d75b180174abd7e38a0ec76",
+    "semantic_hash": "a6fe3fce4d75b180174abd7e38a0ec76"
+  },
+  "established/043_my_korean_2.md": {
+    "mtime": 1793291286.9654768,
+    "seen": 1793321991.8282032,
+    "ast_hash": "bfc1046ca10b8c8fe5a3e4c1df077704",
+    "semantic_hash": "bfc1046ca10b8c8fe5a3e4c1df077704"
+  },
+  "established/044_college_korean_part1.md": {
+    "mtime": 1793292167.342701,
+    "seen": 1793321991.828204,
+    "ast_hash": "a0259e77d80a34e32277776464ed9aeb",
+    "semantic_hash": "a0259e77d80a34e32277776464ed9aeb"
+  },
+  "established/045_korean_for_dummies.md": {
+    "mtime": 1793291485.85344,
+    "seen": 1793321991.8282049,
+    "ast_hash": "982171b8ed0ac79998f23b7d8f68bd63",
+    "semantic_hash": "982171b8ed0ac79998f23b7d8f68bd63"
+  },
+  "established/046_college_korean_part2.md": {
+    "mtime": 1793292167.3440294,
+    "seen": 1793321991.8282056,
+    "ast_hash": "e65dcf643dc57bb9977d2698256b6a7e",
+    "semantic_hash": "e65dcf643dc57bb9977d2698256b6a7e"
+  },
+  "established/047_korean_loas_library.md": {
+    "mtime": 1793314433.15533,
+    "seen": 1793321991.8282065,
+    "ast_hash": "3335750172a3a8e0fe75bafbdfe8995f",
+    "semantic_hash": "3335750172a3a8e0fe75bafbdfe8995f"
+  },
+  "established/048_korean_cambridge_surveys.md": {
+    "mtime": 1793314848.5837245,
+    "seen": 1793321991.8282073,
+    "ast_hash": "afdf04915adec994751c2859447afcd2",
+    "semantic_hash": "afdf04915adec994751c2859447afcd2"
+  },
+  "established/049_history_of_korean_language.md": {
+    "mtime": 1793313400.2272704,
+    "seen": 1793321991.8282087,
+    "ast_hash": "301e301dcaa95ffbb6886344d459ece0",
+    "semantic_hash": "301e301dcaa95ffbb6886344d459ece0"
+  },
+  "established/050_modern_conversational_korean.md": {
+    "mtime": 1793312423.5183456,
+    "seen": 1793321991.8282094,
+    "ast_hash": "b0009fb7cbbee752f9236cc25f831bbf",
+    "semantic_hash": "b0009fb7cbbee752f9236cc25f831bbf"
+  },
+  "established/051_tense_and_aspect_in_korean.md": {
+    "mtime": 1793313408.514609,
+    "seen": 1793321991.8282104,
+    "ast_hash": "e246ff9a57f8f0a319220a34e0591c40",
+    "semantic_hash": "e246ff9a57f8f0a319220a34e0591c40"
+  },
+  "established/052_korean_semantic_pragmatic_grammar.md": {
+    "mtime": 1793313558.2288952,
+    "seen": 1793321991.8282113,
+    "ast_hash": "c2c5c4ca119ed5fd4621990b5bf306b7",
+    "semantic_hash": "c2c5c4ca119ed5fd4621990b5bf306b7"
+  },
+  "established/053_history_of_korean_language_part2.md": {
+    "mtime": 1793313400.229248,
+    "seen": 1793321991.8282123,
+    "ast_hash": "1a20c9bf4d417f66f75d989fc1fd66bc",
+    "semantic_hash": "1a20c9bf4d417f66f75d989fc1fd66bc"
+  },
+  "established/054_lonely_planet_korean_phrasebook.md": {
+    "mtime": 1793315291.649436,
+    "seen": 1793321991.8282132,
+    "ast_hash": "20834e22e60e73144363958b54207402",
+    "semantic_hash": "20834e22e60e73144363958b54207402"
+  },
+  "established/055_collins_korean_phrasebook.md": {
+    "mtime": 1793315730.5901525,
+    "seen": 1793321991.828214,
+    "ast_hash": "adc18dfab8f9d87dd6d14fcf2d9f6009",
+    "semantic_hash": "adc18dfab8f9d87dd6d14fcf2d9f6009"
+  },
+  "established/056_hanyang_korean_1.md": {
+    "mtime": 1793316407.2544427,
+    "seen": 1793321991.828215,
+    "ast_hash": "c7f5b10e934499f9609ae79a86aebba1",
+    "semantic_hash": "c7f5b10e934499f9609ae79a86aebba1"
+  },
+  "established/057_essential_korean.md": {
+    "mtime": 1793316643.9283726,
+    "seen": 1793321991.8282156,
+    "ast_hash": "c43fea3a3579cdc5774437573bfeb1bc",
+    "semantic_hash": "c43fea3a3579cdc5774437573bfeb1bc"
+  },
+  "established/058_beginners_korean.md": {
+    "mtime": 1793317315.3505423,
+    "seen": 1793321991.8282163,
+    "ast_hash": "9046d9ac336da5f80b6fb3a7892929b1",
+    "semantic_hash": "9046d9ac336da5f80b6fb3a7892929b1"
+  },
+  "established/059_easy_to_learn_korean.md": {
+    "mtime": 1793316472.6977096,
+    "seen": 1793321991.828217,
+    "ast_hash": "e4671403e7f6e885fdd4fc226998155c",
+    "semantic_hash": "e4671403e7f6e885fdd4fc226998155c"
+  },
+  "established/060_hb_lee_korean_grammar.md": {
+    "mtime": 1793320818.0367517,
+    "seen": 1793321991.8282182,
+    "ast_hash": "86580a9fdbc2b8476edee34147bf2d76",
+    "semantic_hash": "86580a9fdbc2b8476edee34147bf2d76"
+  },
+  "established/061_korean_advanced_course_dli_vol1.md": {
+    "mtime": 1793318552.4372418,
+    "seen": 1793321991.828219,
+    "ast_hash": "4d00713ac267bada7225d4daf47c9238",
+    "semantic_hash": "4d00713ac267bada7225d4daf47c9238"
+  },
+  "established/062_korean_advanced_course_dli_vol2.md": {
+    "mtime": 1793317698.6649485,
+    "seen": 1793321991.8282197,
+    "ast_hash": "f6b14fdaa90dd5a4ba0c775bdadec2e7",
+    "semantic_hash": "f6b14fdaa90dd5a4ba0c775bdadec2e7"
+  },
+  "established/063_dli_korean_headstart.md": {
+    "mtime": 1793319255.5267181,
+    "seen": 1793321991.8282204,
+    "ast_hash": "8f13f99cca9dbbdc7cb5a11ffaac268e",
+    "semantic_hash": "8f13f99cca9dbbdc7cb5a11ffaac268e"
+  },
+  "established/064_dli_korean_headstart_cultural_notes.md": {
+    "mtime": 1793317075.740383,
+    "seen": 1793321991.828221,
+    "ast_hash": "5559dfb5143751f45586523063c1626e",
+    "semantic_hash": "5559dfb5143751f45586523063c1626e"
+  },
+  "established/065_pathfinder_korean_beginning.md": {
+    "mtime": 1793319074.7834778,
+    "seen": 1793321991.828222,
+    "ast_hash": "a68dac82d3964a6808925d9332d55a19",
+    "semantic_hash": "a68dac82d3964a6808925d9332d55a19"
+  },
+  "established/066_pathfinder_korean_low_intermediate.md": {
+    "mtime": 1793318305.8792863,
+    "seen": 1793321991.8282232,
+    "ast_hash": "e2619b51f4a5f2090e14b8bd779de268",
+    "semantic_hash": "e2619b51f4a5f2090e14b8bd779de268"
+  },
+  "established/067_korean_loas_library_part2.md": {
+    "mtime": 1793314213.0742457,
+    "seen": 1793321991.8282242,
+    "ast_hash": "dbadd745d4874b322acd3f5190fea83c",
+    "semantic_hash": "dbadd745d4874b322acd3f5190fea83c"
+  },
+  "established/068_korean_loas_library_part3.md": {
+    "mtime": 1793314213.0762064,
+    "seen": 1793321991.8282254,
+    "ast_hash": "4144aa04f339abfee9c1b1b5395bf871",
+    "semantic_hash": "4144aa04f339abfee9c1b1b5395bf871"
+  },
+  "established/069_korean_loas_library_part4.md": {
+    "mtime": 1793314213.0778902,
+    "seen": 1793321991.8282263,
+    "ast_hash": "aeaf0bed661a83ac05ac31a91e276989",
+    "semantic_hash": "aeaf0bed661a83ac05ac31a91e276989"
+  },
+  "grammar_logic/native_speaker_queries/README.md": {
+    "mtime": 1792469828.504794,
+    "seen": 1793321991.8282275,
+    "ast_hash": "2f2ba5962eaed4d70eb21de718448e1b",
+    "semantic_hash": "2f2ba5962eaed4d70eb21de718448e1b"
   }
 }
