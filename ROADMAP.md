@@ -263,6 +263,57 @@ disk-state verification (two courses had actually completed in full before the i
 to the failure notification); resolved a three-way file-numbering collision between two
 independent dispatch groups by renumbering to free slots.
 
+**English reached Phase 1 completion tenth — driven by the sibling `TepenianHawaiian` project's
+need for English as a required structural donor to its English/Japanese/Tagalog pidgin-origin
+conlang, and the only one of those three not already done.** Never triaged before this pass. Two
+major style authorities (*The Chicago Manual of Style*, 16th ed.; *New Oxford Style Manual*) were
+added to the source folder mid-triage by the developer and became the highest-priority sources —
+CMOS's chapter 5 "Grammar and Usage" is written by Bryan A. Garner, directly resolving an open
+"favor American English" request, and Oxford's chapter 21 "US and British English" turned out to
+be the project's single richest explicit American/British register-contrast source (every one of
+its ~228 entries individually tagged by variety rather than one blanket region tag). Result: 259
+`established/` files across three waves — Wave 0 (CMOS's and Oxford's language-content chapters,
+55 chunks), the original 21-file ESL collection plus the 1,446-page *Grammar of English Grammars*
+(1851) and the Concise Anglo-Saxon Dictionary, and the full 18-file Old English pack (76 more
+chunks). One source, `Comprehensive Grammar[A4].pdf`, turned out on inspection to be a misfiled
+Yip & Rimmington *Chinese: A Comprehensive Grammar* despite its English-sounding filename and
+chapter titles — excluded, not extracted, the same metalanguage-contamination discipline every
+other language's triage has needed at least once. A new PDF-encoding gotcha recurred across 15+ of
+the 55 Wave 0 chunks and was promoted to the shared extraction spec: CMOS's PDF renders non-ASCII
+characters as UTF-8-read-as-Latin-1 mojibake, always recoverable from surrounding context. The
+`/graphify` graph (first ever for this language) stands at 3,517 nodes / 4,187 edges / 252
+communities, built from 24 independently-dispatched extraction chunks — the densest Old English
+material needed splitting down to 5-6 files per chunk after repeatedly hitting the model's
+64,000-output-token response cap at larger sizes, a new scaling gotcha for any future
+oversized/dense-content language. One collapsed (undirected) edge out of 4,188 raw edges, the
+usual negligible noise from many independently-dispatched chunks. Flagship register/slang finds:
+a dedicated 2006 primary-source chapter deliberately mixing period American slang with authorial
+glosses (*ain't*, *rad*, *phat*, *the bee's knees*, *411*); Goold Brown's own 1851 list of terms he
+flagged as improper/slang, the project's earliest dated English slang data point; and — directly
+relevant to the sibling Hawaiian project — a 9-way parallel comparison of the same biblical passage
+tracked from Old English through to Bislama, a real English-lexifier pidgin, inside *From Old
+English to Standard English*.
+
+**Korean's known external-drive stash (triaged 2026-10-19, third language to reach Phase 1 — see
+above) was fully extracted 2026-10-29, closing out Korean's last open expansion.** 35 originally-
+planned items grew to 40 new `established/` files (`030`-`069`) after several books split into
+multiple parts — either because a source was too large for one file, or because a dispatched
+agent's own internal sub-forking went out of scope and the orchestrator had to resolve a numbering
+collision (this happened four separate times across the six dispatch waves, K1-K6, plus one agent
+that died silently with no completion/failure notification at all and had to be resumed from its
+surviving partial output — the full incident-by-incident account lives in
+`datasets/Korean/00_RESUME_HERE.md`). Korean's `established/` corpus now stands at 69 files total,
+~1,217,000 words. Flagship/register finds: a genuine North Korean (DPRK) government-published
+textbook with the 두음법칙 (initial-sound-law) non-application as its standout systematic North/
+South contrast; a 1984 Defense Language Institute course carrying the project's first full
+US-military register (rank ladder, named installations); a complete 24-entry body-part idiom
+curriculum cross-verified against its own source index; and a first systematic hanja (Sino-Korean
+character) curriculum for this language. The `/graphify` graph grew from Phase 1's 200 nodes/277
+edges/13 communities to 845 nodes/957 edges/80 communities, zero dangling/missing/collapsed edges
+on the health check, built from 7 independently-dispatched chunks under the same node-density
+discipline (concepts/mechanisms, never one node per vocabulary-table row) used on every other
+language's graph.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

@@ -59,7 +59,7 @@ provisional if you ever need to cite one.
 
 | Language | Nations | `source_reference/` status | Priority |
 |---|---|---|---|
-| **English** | USA (~155M eff.), UK (~32M eff.), Canada (~20M eff.), Australia (~13M eff.), New Zealand (~2.6M eff.) | Present, **triaged 2026-10-26** (`datasets/English/00_Book_Triage_Catalog.md`) — the first triage pass this language has ever had, driven by the sibling `TepenianHawaiian` project's need for English as a required structural donor (English/Japanese/Tagalog pidgin origin). `English Grammar Ebook collection` (21 files, 14 with real text, ≈1.32M extractable words est.) and `Old English Language Learning Pack` (18 files, 13 with real text, ≈918k words est., historical stage only) both triaged; a 6-wave extraction plan recommended. Not yet extracted. | 🔴 **HIGH PRIORITY** — five separate nations; expect real dialectal slang divergence (American/British/Canadian/Australian/NZ) worth tracking per-nation once corpus work begins |
+| **English** | USA (~155M eff.), UK (~32M eff.), Canada (~20M eff.), Australia (~13M eff.), New Zealand (~2.6M eff.) | Present, **Phase 1 complete** (`datasets/English/`; 259 `established/` files) — driven by the sibling `TepenianHawaiian` project's need for English as a required structural donor (English/Japanese/Tagalog pidgin origin), this closes out all three required-core languages. Covers the Chicago Manual of Style (incl. Garner's Grammar and Usage chapter), New Oxford Style Manual (incl. the flagship US/British contrast chapter), the full original ESL collection, and the full Old English pack. First `/graphify` run complete: 3,517 nodes, 4,187 edges, 252 communities. One source (`Comprehensive Grammar[A4].pdf`) turned out to be a misfiled Chinese grammar and was excluded. | 🔴 **HIGH PRIORITY — tenth language to reach full Phase 1 completion** — five separate nations; expect real dialectal slang divergence (American/British/Canadian/Australian/NZ) worth tracking per-nation once corpus work begins |
 | **German** | Germany (~46M eff.), Belgium (partial, ~6.4M eff., trilingual) | **Not present — gap.** No German-language reference material found in `source_reference/languages/`. | 🔴 **HIGH PRIORITY, ACQUISITION GAP** |
 | **Dutch** | Netherlands (~10M eff.), Belgium (partial, trilingual) | Present, **Phase 1 complete** (`Dutch`; ~813,000 words across 167 `established/` files; see `datasets/Dutch/`) | 🔴 **HIGH PRIORITY — sixth-furthest along of any GINI language** |
 | **Swedish** | Sweden (~6M eff.) | Present (`Swedish`; +3.1G/126-file external-drive stash found 2026-10-26, untriaged — 5x the existing 620M corpus) | 🔴 **HIGH PRIORITY** |
@@ -141,7 +141,7 @@ provisional if you ever need to cite one.
 
 | Language | Nations | `source_reference/` status | Priority |
 |---|---|---|---|
-| **Korean** | South Korea (~26M eff.) | Present, **Phase 1 complete for the original 532MB corpus — now expanding** (`Korean`; see `datasets/Korean/`). A 3.0G/109-file external-drive stash was triaged 2026-10-19 (flagship finds: *Dirty Korean Everyday Slang*, *Making Out in Korean*, a North-Korean-dialect source) but extraction not yet dispatched — see `datasets/Korean/00_Book_Triage_Catalog.md`. | 🔴 **HIGH PRIORITY — third-furthest along of any GINI language** |
+| **Korean** | South Korea (~26M eff.) | **Phase 1 complete, including the external-drive stash** (`Korean`; see `datasets/Korean/`). The 3.0G/109-file external-drive stash triaged 2026-10-19 was fully extracted 2026-10-29 across 6 dispatch waves (K1-K6): 69 `established/` files total, ~1,217,000 words (flagship finds: *Dirty Korean Everyday Slang*, *Making Out in Korean*, a North-Korean-dialect source with the 두음법칙 flagship contrast, a 1984 US-military-register DLI course). No known expansion pending. | ✅ **Phase 1 complete — no longer the open item** |
 
 ## Sino-Tibetan
 
@@ -272,12 +272,13 @@ one folder: "Polish and Ukrainian" 13G/1,015 files, "Malay-Indonesian" 1.8G/60 f
 zero material found anywhere, plus the still-unresolved South Africa language-assignment question.
 
 **Already-tracked languages with newly-found, undocumented supplementary stashes** (none yet
-triaged against what's already in `source_reference/`): Serbian/Croatian/Bosnian (2.1G/82 files —
-8x the extracted 264M corpus), Hungarian (1.3G/68 files), Korean (3.0G/109 files — triaged
-2026-10-19, extraction still not dispatched), Spanish (16G, triaged 2026-10-25, extraction not
-dispatched), Swedish (3.1G/126 files), Slovenian (1.1G/29 files, a different edition, not a
-duplicate), Cantonese, Danish, Icelandic, Kazakh, Mongolian, Tibetan, Irish, and Swahili (whose
-381M/33-file external stash would be its *first* real corpus — the in-repo folder is only 684K).
+triaged against what's already in `source_reference/`, except Korean — see below): Serbian/
+Croatian/Bosnian (2.1G/82 files — 8x the extracted 264M corpus), Hungarian (1.3G/68 files),
+**Korean (3.0G/109 files — triaged 2026-10-19, fully extracted 2026-10-29 across Waves K1-K6; no
+longer an open item)**, Spanish (16G, triaged 2026-10-25, extraction not dispatched), Swedish
+(3.1G/126 files), Slovenian (1.1G/29 files, a different edition, not a duplicate), Cantonese,
+Danish, Icelandic, Kazakh, Mongolian, Tibetan, Irish, and Swahili (whose 381M/33-file external
+stash would be its *first* real corpus — the in-repo folder is only 684K).
 
 **Six languages never before in this project's roster**, found only on the external drive: Arabic
 (4.6G/189 files — the single largest), Hindi-Urdu (2.1G/76 files), Catalan (955M/41 files), Nepali
@@ -307,12 +308,17 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Nine languages have already reached full Phase 1 completion** (in completion order): Serbian/
-Croatian/Bosnian, Hungarian, Korean, Russian (by far the largest corpus of the nine), Spanish,
-Dutch, Romanian (the smallest of the nine), Japanese, and Tagalog — see `datasets/00_Analysis_Index.md`
-for current status of every language in progress. **Korean and Spanish are both now expanding**:
-each has a real external-drive stash that's triaged but not yet extracted, so "complete" describes
-their original corpus only, not the language's full available material.
+**Ten languages have already reached full Phase 1 completion** (in completion order): Serbian/
+Croatian/Bosnian, Hungarian, Korean, Russian (by far the largest corpus of the ten), Spanish,
+Dutch, Romanian (the smallest of the ten), Japanese, Tagalog, and English (2026-10-27/29) — see
+`datasets/00_Analysis_Index.md` for current status of every language in progress. **Spanish is
+still expanding**: it has a real external-drive stash that's triaged but not yet extracted, so its
+"complete" describes its original corpus only, not its full available material. **Korean's known
+external-drive stash was fully extracted 2026-10-29** (6 dispatch waves, K1-K6 — see
+`datasets/Korean/00_RESUME_HERE.md` for the full account) — its "Expanding" tag has been dropped;
+no known expansion pending for Korean specifically. English's own two foremost sources (Chicago
+Manual of Style, New Oxford Style Manual) were extracted in full; the original ESL collection and
+Old English pack are also fully done — no known expansion pending for English specifically.
 
 ---
 
