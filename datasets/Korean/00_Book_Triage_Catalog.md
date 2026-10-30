@@ -102,11 +102,11 @@ and Workbook, Intermediate Korean A Grammar and Workbook, Korean Grammar for Int
 Learners, Using Korean A Guide to Contemporary Usage, The Korean Language Structure Use and
 Context, A Korean-English dictionary, In-Flight Korean, Continuing Korean.
 
-**Possible duplicate, needs direct comparison before dispatch**: `Intermediate College Korean.pdf`
-(this copy) — the already-extracted copy has a known non-blocking gap (pp.225-376 never covered,
-per the Korean Phase 1 completion note) and the same font-cipher-corrupted text layer as before.
-Worth checking whether this copy is identical or a cleaner scan before deciding whether it can
-close that gap.
+**Resolved 2026-10-29**: `Intermediate College Korean.pdf` (this copy) — MD5-byte-identical
+(`928673c9b878b5e70686b0638a73d08f`, both 376 pages) to the already-extracted
+`source_reference/languages/Korean/10.Intermediate college Korean.pdf`. Not a cleaner scan, not a
+different edition — the exact same file. The known pp.225-376 gap stays open; this stash does not
+close it. Confirmed duplicate, no extraction dispatched.
 
 ### Excluded — wrong metalanguage
 
@@ -175,13 +175,19 @@ typology-grounding value), Collins Korean Phrasebook (129pp), Easy to Learn Kore
 Lonely Planet Korean Phrasebook (308pp, clean text — check for a slang/colloquialism callout
 section the way Japanese's Rough Guide phrasebook had one).
 
-**Possible real content, unverified**: `Korean 5 to 12 Integrated Resource Package.pdf` (277pp,
-clean text) — a Canadian (British Columbia) K-12 curriculum document; may be administrative/
-pedagogy-planning prose rather than a language reference itself, needs a direct look before
-committing to extract.
+**Resolved 2026-10-29**: `Korean 5 to 12 Integrated Resource Package.pdf` (277pp, clean text) — a
+2006 British Columbia Ministry of Education K-12 curriculum document. Confirmed mostly
+administrative/pedagogy-planning prose (prescribed learning outcomes, assessment strategy,
+split-class guidance) — **excluded**. But two appendices are genuine extractable language
+reference, not administrative: **Appendix E, "Common Words as Graded by Semantic Categories"**
+(pp. E-3 onward, 1,396 graded Korean-English vocabulary items across 27 semantic categories) and
+**Appendix F, "Basic Structural Patterns Graded by Complexity"** (pp. F-3 onward, 145 basic
+sentence patterns). Dispatch only these two appendices as a subset extraction; skip the rest of
+the document.
 
 ### Recommended next step
 
-This is a substantial new batch (~25 genuinely new sources, two of them flagship slang finds) —
-large enough to warrant its own dispatch wave(s) once the user confirms whether to proceed into
-extraction now or hold here. Not yet dispatched as of this triage pass.
+This is a substantial new batch (35 genuinely new extraction units once companion
+booklets/workbooks are grouped with their parent course, two of them flagship slang finds) — large
+enough to warrant its own multi-wave dispatch, mirroring English's Wave 0/A/B approach. **Dispatch
+started 2026-10-29** — see `00_RESUME_HERE.md` for the wave plan and live status.
