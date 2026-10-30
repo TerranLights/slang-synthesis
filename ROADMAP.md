@@ -314,6 +314,56 @@ on the health check, built from 7 independently-dispatched chunks under the same
 discipline (concepts/mechanisms, never one node per vocabulary-table row) used on every other
 language's graph.
 
+**Hawaiian (ʻŌlelo Hawaiʻi) reached Phase 1 completion 2026-10-30 — the first non-GINI-census
+language this project has extracted, done entirely to close a long-open acquisition gap for the
+sibling `TepenianHawaiian` project's foundation-vocabulary needs.** The user sourced the exact two
+titles that gap had been waiting on — Pukui & Elbert's *Hawaiian Dictionary* (Revised and Enlarged
+Edition, 1986, 3,695pp, clean text layer) and their *Hawaiian Grammar* (1979/2001, 214pp,
+vision-read) — and triage-to-extraction ran in a single session the same day. `established/` has
+11 files (~96,000 words): the Grammar's full 12 chapters across 4 files, plus a deliberate
+representative sample of the Dictionary across 6 files (Hawaiian-English and English-Hawaiian
+directions, plus the front-matter abbreviation key) — at 3,695 pages this is by far the largest
+dictionary this project has sampled, roughly 4x the previous largest. Flagship finds: *kake*, a
+genuine chiefly secret/play-language cryptolect cognate with Marquesan "stammer"; the dictionary's
+own canonical 11-item "slang" example list, independently cross-confirmed by re-tags elsewhere in
+the text; named island/district-specific insult epithets, one tied to a legendary sorcerer; the
+full Polynesian a/o possessive-class system worked through with 13 minimal pairs and a genuine
+cross-chapter syntactic override (fronting via the particle *ai* forces a-class regardless of a
+noun's normal lexical class); and the sole explicit "(vulgar)" tag in the whole Grammar landing on
+*ʻŌkole maluna*. A clean negative finding, documented rather than silently skipped: the
+dictionary's own table of contents lists two appendices (a gods/demigods glossary, a given-names
+list) that an exhaustive multi-angle search confirmed are genuinely absent from this particular
+digitized edition. The `/graphify` graph (first ever for this language) stands at 232 nodes, 271
+edges, 31 communities, zero dangling/missing/collapsed edges.
+
+**Ilocano reached Phase 1 completion 2026-10-30 — the twelfth language in the project, extracted
+to serve the sibling `TepenianHawaiian` project's documented interest in real-world Ilocano-Hawaiʻi
+plantation-era contact history.** Triage was already complete from an earlier session; the two
+needed source files (Carl Rubino's 1997 UCSB dissertation *A Reference Grammar of Ilocano*, 549pp,
+no text layer, and his 2000 UH Press *Ilocano Dictionary and Grammar*, 868pp, real OCR text layer)
+were staged and extracted the same day. `established/` has 19 files (~275,700 words): the
+dissertation's all 18 chapters plus front/back matter vision-read in full across 12 files, and the
+dictionary's pedagogical Grammar Outline vision-read in full across 2 files plus a representative
+sample of its Ilocano-English/English-Ilocano dictionary body across 5 files. A genuine full-corpus
+seam audit — prompted by several dispatched agents independently discovering the true PDF-to-printed
+page offset (+25, not the dispatch's assumed +26) — caught 8 one-page content gaps that had fallen
+into the cracks between consecutive extraction files at exactly the chapters' own opening pages
+(each neighboring file recognized the next chapter's first page and excluded it as out of scope,
+leaving nobody responsible for it); all 8 were individually re-verified against the source PDF and
+patched directly, documented in full in `datasets/Ilocano/00_RESUME_HERE.md`'s seam-audit table.
+Flagship finds: the *maki-* comitative verb cluster (seven named sub-derivations with no
+counterpart yet found in this project's Tagalog trigger-system material); reduplication
+multiplexing five distinct grammatical jobs, richer than Tagalog's three-way system; an 8×8 table
+of historically fused ergative×absolutive pronoun portmanteaus; a dual native/Spanish numeral
+system where Spanish-loan ordinals retain Spanish grammatical gender agreement despite Ilocano
+having no native gender system; and explicit Hawaiʻi-contact data — both narrative (the
+dissertation's statement that one-fifth of Hawaiʻi's population is Ilocano-descended) and lexical
+(dictionary entries *Aloha*, *Haway*/*Hawayano*, and *kanaka* tagged "Hawaiian use only"). The
+dictionary samples also surfaced substantial slang/taboo register material, including an explicit
+ethnic slur the dictionary itself flags as derogatory (*panggalatot*, toward Pangasinan speakers).
+The `/graphify` graph (first ever for this language) was built from 3 independently-dispatched
+chunks under the same node-density discipline used on every other language's graph.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

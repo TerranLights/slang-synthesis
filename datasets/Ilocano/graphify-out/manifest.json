@@ -1,0 +1,134 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793082992.5263476,
+    "seen": 1793385892.676267,
+    "ast_hash": "df7a71a93769fae4343a583eaf6c1c31",
+    "semantic_hash": "df7a71a93769fae4343a583eaf6c1c31"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793385043.6153407,
+    "seen": 1793385892.6762705,
+    "ast_hash": "8505f1b02d71bd1bd45a8c7b45afb8ba",
+    "semantic_hash": "8505f1b02d71bd1bd45a8c7b45afb8ba"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793385011.0910773,
+    "seen": 1793385892.6762717,
+    "ast_hash": "3bae08cca7de2c826c11002570d39cc2",
+    "semantic_hash": "3bae08cca7de2c826c11002570d39cc2"
+  },
+  "established/001_reference_grammar_ch1-2_intro_phonology.md": {
+    "mtime": 1793383524.1262002,
+    "seen": 1793385892.6762724,
+    "ast_hash": "cfd3252d1397892be62d66312eecb208",
+    "semantic_hash": "cfd3252d1397892be62d66312eecb208"
+  },
+  "established/002_reference_grammar_ch3-4_articles_pronouns.md": {
+    "mtime": 1793383354.144812,
+    "seen": 1793385892.6762729,
+    "ast_hash": "5a7301a956f0425d602de84a1ce7360b",
+    "semantic_hash": "5a7301a956f0425d602de84a1ce7360b"
+  },
+  "established/003_reference_grammar_ch5_nouns.md": {
+    "mtime": 1793384832.0466297,
+    "seen": 1793385892.6762733,
+    "ast_hash": "66575fd87d6710439b3df2bddf089ef8",
+    "semantic_hash": "66575fd87d6710439b3df2bddf089ef8"
+  },
+  "established/004_reference_grammar_ch6_adjectives.md": {
+    "mtime": 1793384846.7357483,
+    "seen": 1793385892.676274,
+    "ast_hash": "8b09b21b6b7bbf2321fecd38d3a89fe9",
+    "semantic_hash": "8b09b21b6b7bbf2321fecd38d3a89fe9"
+  },
+  "established/005_reference_grammar_ch7_numbers.md": {
+    "mtime": 1793383486.5988934,
+    "seen": 1793385892.6762748,
+    "ast_hash": "a7839dac2b1bf300551bc401557f9d1f",
+    "semantic_hash": "a7839dac2b1bf300551bc401557f9d1f"
+  },
+  "established/006_reference_grammar_ch8a_verbs_focus_affixes.md": {
+    "mtime": 1793384868.4359236,
+    "seen": 1793385892.6762753,
+    "ast_hash": "402f0816915c8d6a8d2483d414f65e8e",
+    "semantic_hash": "402f0816915c8d6a8d2483d414f65e8e"
+  },
+  "established/007_reference_grammar_ch8b_verbs_aspect_irregulars.md": {
+    "mtime": 1793384946.5195546,
+    "seen": 1793385892.6762757,
+    "ast_hash": "2ece503e3c41b0de5e364ee6c9c7e068",
+    "semantic_hash": "2ece503e3c41b0de5e364ee6c9c7e068"
+  },
+  "established/008_reference_grammar_ch9_adverbs.md": {
+    "mtime": 1793384890.5061018,
+    "seen": 1793385892.6762764,
+    "ast_hash": "618fec83ac0bd6311d776b572a2e0914",
+    "semantic_hash": "618fec83ac0bd6311d776b572a2e0914"
+  },
+  "established/009_reference_grammar_ch10-11_existentials_sentence_types.md": {
+    "mtime": 1793384985.6508713,
+    "seen": 1793385892.676277,
+    "ast_hash": "e28a635e9e2ac620e4cd5b6beb79289c",
+    "semantic_hash": "e28a635e9e2ac620e4cd5b6beb79289c"
+  },
+  "established/010_reference_grammar_ch12-14_imperatives_negation_interrogativity.md": {
+    "mtime": 1793384906.0912278,
+    "seen": 1793385892.6762779,
+    "ast_hash": "bde798e5699d708d19df315ee03615f9",
+    "semantic_hash": "bde798e5699d708d19df315ee03615f9"
+  },
+  "established/011_reference_grammar_ch15-18_transitivity_reciprocals_reflexives_clauses.md": {
+    "mtime": 1793384921.8163548,
+    "seen": 1793385892.6762784,
+    "ast_hash": "4a20a7ef438f6f482ea81c1c7c394e53",
+    "semantic_hash": "4a20a7ef438f6f482ea81c1c7c394e53"
+  },
+  "established/012_reference_grammar_glossary_references_map_index.md": {
+    "mtime": 1793383694.7045972,
+    "seen": 1793385892.6762788,
+    "ast_hash": "e915e5e628e837aaedcbe7dcac32de59",
+    "semantic_hash": "e915e5e628e837aaedcbe7dcac32de59"
+  },
+  "established/013_dict_grammar_outline_pt1_intro_phonology.md": {
+    "mtime": 1793384590.8266904,
+    "seen": 1793385892.6762793,
+    "ast_hash": "841b8e73054a93fd97aa33387daf1b37",
+    "semantic_hash": "841b8e73054a93fd97aa33387daf1b37"
+  },
+  "established/014_dict_grammar_outline_pt2_outline_abbreviations.md": {
+    "mtime": 1793384052.4994504,
+    "seen": 1793385892.67628,
+    "ast_hash": "396d889c6b41456cf90f474cb7f06c9e",
+    "semantic_hash": "396d889c6b41456cf90f474cb7f06c9e"
+  },
+  "established/015_dict_ie_sample_1.md": {
+    "mtime": 1793383742.3139877,
+    "seen": 1793385892.6762805,
+    "ast_hash": "994cad2225577d34f2e518a788b21135",
+    "semantic_hash": "994cad2225577d34f2e518a788b21135"
+  },
+  "established/016_dict_ie_sample_2.md": {
+    "mtime": 1793383838.8847804,
+    "seen": 1793385892.676281,
+    "ast_hash": "26269c5a6cf09aaef0ea59cc15f591b6",
+    "semantic_hash": "26269c5a6cf09aaef0ea59cc15f591b6"
+  },
+  "established/017_dict_ie_sample_3.md": {
+    "mtime": 1793383908.4833522,
+    "seen": 1793385892.6762817,
+    "ast_hash": "e3c039a406062e3dfe9c91d2a07b90ff",
+    "semantic_hash": "e3c039a406062e3dfe9c91d2a07b90ff"
+  },
+  "established/018_dict_ei_sample.md": {
+    "mtime": 1793383942.8136127,
+    "seen": 1793385892.6762822,
+    "ast_hash": "7ee8f36a039566f624b42050cf086c4b",
+    "semantic_hash": "7ee8f36a039566f624b42050cf086c4b"
+  },
+  "established/019_dict_back_matter_songs_appendix.md": {
+    "mtime": 1793383811.8475585,
+    "seen": 1793385892.676283,
+    "ast_hash": "bdefb84ff2b2fe0d2a8b1250f4e1077f",
+    "semantic_hash": "bdefb84ff2b2fe0d2a8b1250f4e1077f"
+  }
+}
