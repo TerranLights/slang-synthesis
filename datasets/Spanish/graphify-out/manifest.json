@@ -1,326 +1,1088 @@
 {
   "00_Book_Triage_Catalog.md": {
     "mtime": 1789441776.3041327,
-    "seen": 1789444261.2106752,
+    "seen": 1793406017.0758958,
     "ast_hash": "fcf75fa5acd5d2c2cd610a8434dd12d8",
     "semantic_hash": "fcf75fa5acd5d2c2cd610a8434dd12d8"
   },
   "00_Extraction_Checklist.md": {
-    "mtime": 1789443821.81023,
-    "seen": 1789444261.2106786,
-    "ast_hash": "148ab6778c3156286c2091fc91b3548c",
-    "semantic_hash": "148ab6778c3156286c2091fc91b3548c"
+    "mtime": 1793404497.8710928,
+    "seen": 1793406017.0759003,
+    "ast_hash": "1c034fb275a4aff703fc56fd2f868a05",
+    "semantic_hash": "1c034fb275a4aff703fc56fd2f868a05"
   },
   "established/001_colloquial_spanish_latin_america.md": {
     "mtime": 1789442118.7959838,
-    "seen": 1789444261.2106798,
+    "seen": 1793406017.0759032,
     "ast_hash": "bd25cd712a35049d8fdb647866ebd1cd",
     "semantic_hash": "bd25cd712a35049d8fdb647866ebd1cd"
   },
   "established/002_colloquial_spanish_latin_america_2.md": {
     "mtime": 1789442285.3994188,
-    "seen": 1789444261.2106805,
+    "seen": 1793406017.075904,
     "ast_hash": "1b8b96933fe11a0f1cd9998c7084cc9c",
     "semantic_hash": "1b8b96933fe11a0f1cd9998c7084cc9c"
   },
   "established/003_madrigals_magic_key_part1.md": {
     "mtime": 1789442192.757618,
-    "seen": 1789444261.2106814,
+    "seen": 1793406017.0759048,
     "ast_hash": "fd6f6ce13511ba7717ffe4782ab9b8e7",
     "semantic_hash": "fd6f6ce13511ba7717ffe4782ab9b8e7"
   },
   "established/004_madrigals_magic_key_part2.md": {
     "mtime": 1789442324.7757611,
-    "seen": 1789444261.210682,
+    "seen": 1793406017.0759056,
     "ast_hash": "97639ba20c4f880c2e071c661eb6270e",
     "semantic_hash": "97639ba20c4f880c2e071c661eb6270e"
   },
   "established/004b_madrigals_magic_key_part2_glossary.md": {
     "mtime": 1789442143.6801965,
-    "seen": 1789444261.2106826,
+    "seen": 1793406017.0759063,
     "ast_hash": "f594a6184a741fb3d6f9885bad5c6de5",
     "semantic_hash": "f594a6184a741fb3d6f9885bad5c6de5"
   },
   "established/005_practice_makes_perfect_basic_spanish_grammar.md": {
     "mtime": 1789442450.0308568,
-    "seen": 1789444261.210683,
+    "seen": 1793406017.075907,
     "ast_hash": "6d05f1113ffa56efab0a23994212eb3f",
     "semantic_hash": "6d05f1113ffa56efab0a23994212eb3f"
   },
   "established/006_practice_makes_perfect_advanced_spanish_grammar.md": {
     "mtime": 1789442141.8261807,
-    "seen": 1789444261.2106836,
+    "seen": 1793406017.075908,
     "ast_hash": "a444051f44fd47ac09a0b3f0bc0e61af",
     "semantic_hash": "a444051f44fd47ac09a0b3f0bc0e61af"
   },
   "established/007_practice_makes_perfect_spanish_irregular_verbs.md": {
     "mtime": 1789442062.8085072,
-    "seen": 1789444261.210684,
+    "seen": 1793406017.0759087,
     "ast_hash": "ff624a5d51a31c456cc6a3873aecc3f1",
     "semantic_hash": "ff624a5d51a31c456cc6a3873aecc3f1"
   },
   "established/008_practice_makes_perfect_spanish_verb_tenses.md": {
     "mtime": 1789442086.821711,
-    "seen": 1789444261.210685,
+    "seen": 1793406017.0759091,
     "ast_hash": "06fa98d861c309c2b12719e257b85c9a",
     "semantic_hash": "06fa98d861c309c2b12719e257b85c9a"
   },
   "established/008b_practice_makes_perfect_spanish_verb_tenses.md": {
     "mtime": 1789442208.0737498,
-    "seen": 1789444261.2106855,
+    "seen": 1793406017.0759103,
     "ast_hash": "78a2679b6e0ab0080dc5d5f482cb2d61",
     "semantic_hash": "78a2679b6e0ab0080dc5d5f482cb2d61"
   },
   "established/008c_practice_makes_perfect_spanish_verb_tenses.md": {
     "mtime": 1789442426.9326541,
-    "seen": 1789444261.2106862,
+    "seen": 1793406017.0759113,
     "ast_hash": "3ddee10fcd6a45a5ce63ff5e69fd6b24",
     "semantic_hash": "3ddee10fcd6a45a5ce63ff5e69fd6b24"
   },
   "established/009_practice_makes_perfect_spanish_vocabulary.md": {
     "mtime": 1789442087.2357147,
-    "seen": 1789444261.2106867,
+    "seen": 1793406017.075912,
     "ast_hash": "20c9e5fe9d6e4b64ea8d15ca6289adbd",
     "semantic_hash": "20c9e5fe9d6e4b64ea8d15ca6289adbd"
   },
   "established/009b_practice_makes_perfect_spanish_vocabulary.md": {
     "mtime": 1789442237.177001,
-    "seen": 1789444261.2106872,
+    "seen": 1793406017.0759125,
     "ast_hash": "2c0aa82a3e0d5f82d1f9330d8cf42165",
     "semantic_hash": "2c0aa82a3e0d5f82d1f9330d8cf42165"
   },
   "established/009c_practice_makes_perfect_spanish_vocabulary.md": {
     "mtime": 1789442430.6296866,
-    "seen": 1789444261.2106876,
+    "seen": 1793406017.0759132,
     "ast_hash": "8b41de8bdc73ab4fe862de685639cf77",
     "semantic_hash": "8b41de8bdc73ab4fe862de685639cf77"
   },
   "established/009d_practice_makes_perfect_spanish_vocabulary.md": {
     "mtime": 1789442878.7286582,
-    "seen": 1789444261.2106886,
+    "seen": 1793406017.0759141,
     "ast_hash": "8b77a9fa12a54a85488b03f938f7490e",
     "semantic_hash": "8b77a9fa12a54a85488b03f938f7490e"
   },
   "established/010_learning_spanish_like_crazy_level1.md": {
     "mtime": 1789442099.1858165,
-    "seen": 1789444261.210689,
+    "seen": 1793406017.0759149,
     "ast_hash": "bf3812e44ba80dfac2fcad79cc9eba59",
     "semantic_hash": "bf3812e44ba80dfac2fcad79cc9eba59"
   },
   "established/010b_learning_spanish_like_crazy_level1.md": {
     "mtime": 1789442205.4607272,
-    "seen": 1789444261.2106895,
+    "seen": 1793406017.0759156,
     "ast_hash": "7a72aee6ff81ecf25aa1d91bd24eef9f",
     "semantic_hash": "7a72aee6ff81ecf25aa1d91bd24eef9f"
   },
   "established/010c_learning_spanish_like_crazy_level1.md": {
     "mtime": 1789442312.5346546,
-    "seen": 1789444261.21069,
+    "seen": 1793406017.0759163,
     "ast_hash": "e47c00950d4ba0a15af9f5cd4f3a31ae",
     "semantic_hash": "e47c00950d4ba0a15af9f5cd4f3a31ae"
   },
   "established/010d_learning_spanish_like_crazy_level1.md": {
     "mtime": 1789442413.2245338,
-    "seen": 1789444261.2106905,
+    "seen": 1793406017.0759172,
     "ast_hash": "995620c0ac4d5b70a74a99709366f2ff",
     "semantic_hash": "995620c0ac4d5b70a74a99709366f2ff"
   },
   "established/011_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789441980.593814,
-    "seen": 1789444261.210691,
+    "seen": 1793406017.0759182,
     "ast_hash": "ce023d4f805d38244e415b46965d9216",
     "semantic_hash": "ce023d4f805d38244e415b46965d9216"
   },
   "established/011b_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442051.7854137,
-    "seen": 1789444261.210692,
+    "seen": 1793406017.0759192,
     "ast_hash": "9f4945e7523c94f4ba4ca76f87dc9ca0",
     "semantic_hash": "9f4945e7523c94f4ba4ca76f87dc9ca0"
   },
   "established/011c_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442080.0116532,
-    "seen": 1789444261.2106924,
+    "seen": 1793406017.0759199,
     "ast_hash": "761da0b91a920dbec5be34611cc63f07",
     "semantic_hash": "761da0b91a920dbec5be34611cc63f07"
   },
   "established/011d_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442111.0219173,
-    "seen": 1789444261.210693,
+    "seen": 1793406017.0759206,
     "ast_hash": "11208b118347a5abc54cafdc33225a56",
     "semantic_hash": "11208b118347a5abc54cafdc33225a56"
   },
   "established/011e_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442138.0501482,
-    "seen": 1789444261.2106934,
+    "seen": 1793406017.0759213,
     "ast_hash": "59ac05a85bb6b591b4cfd0f2ad6f551a",
     "semantic_hash": "59ac05a85bb6b591b4cfd0f2ad6f551a"
   },
   "established/011f_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442180.1525095,
-    "seen": 1789444261.210694,
+    "seen": 1793406017.0759223,
     "ast_hash": "dfe2f04a4dcac8ba443d0a8c8713db87",
     "semantic_hash": "dfe2f04a4dcac8ba443d0a8c8713db87"
   },
   "established/011g_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442216.435822,
-    "seen": 1789444261.2106946,
+    "seen": 1793406017.0759232,
     "ast_hash": "638d3944cca86ca21ed602a404980df5",
     "semantic_hash": "638d3944cca86ca21ed602a404980df5"
   },
   "established/011h_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442247.347089,
-    "seen": 1789444261.2106953,
+    "seen": 1793406017.075924,
     "ast_hash": "d0c5f7903c3dd3d51944f38c1cd37164",
     "semantic_hash": "d0c5f7903c3dd3d51944f38c1cd37164"
   },
   "established/011i_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442285.9644237,
-    "seen": 1789444261.2106957,
+    "seen": 1793406017.0759249,
     "ast_hash": "5c178f44599920f6925703ce1ef46dde",
     "semantic_hash": "5c178f44599920f6925703ce1ef46dde"
   },
   "established/011k_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442331.9208233,
-    "seen": 1789444261.2106962,
+    "seen": 1793406017.0759265,
     "ast_hash": "c77a5f06064d7b493a103ea8c1c14b08",
     "semantic_hash": "c77a5f06064d7b493a103ea8c1c14b08"
   },
   "established/011l_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442354.228018,
-    "seen": 1789444261.2106967,
+    "seen": 1793406017.0759273,
     "ast_hash": "743ecd9d78fee6d7f5e36a9b176e05ed",
     "semantic_hash": "743ecd9d78fee6d7f5e36a9b176e05ed"
   },
   "established/011m_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442377.576222,
-    "seen": 1789444261.2106972,
+    "seen": 1793406017.0759277,
     "ast_hash": "26863473c521a5968fbbd566b35b82e5",
     "semantic_hash": "26863473c521a5968fbbd566b35b82e5"
   },
   "established/011n_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442402.5014398,
-    "seen": 1789444261.210698,
+    "seen": 1793406017.0759287,
     "ast_hash": "3b86baba919074e41d8319ebed941714",
     "semantic_hash": "3b86baba919074e41d8319ebed941714"
   },
   "established/011o_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442428.7326698,
-    "seen": 1789444261.2106986,
+    "seen": 1793406017.0759294,
     "ast_hash": "a640e29ed87fd8fead79517ea6ec09bc",
     "semantic_hash": "a640e29ed87fd8fead79517ea6ec09bc"
   },
   "established/011p_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442452.4218779,
-    "seen": 1789444261.210699,
+    "seen": 1793406017.0759299,
     "ast_hash": "0b9a624b0803bc4a52d4273deff70efa",
     "semantic_hash": "0b9a624b0803bc4a52d4273deff70efa"
   },
   "established/011r_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442504.2013333,
-    "seen": 1789444261.2106996,
+    "seen": 1793406017.0759313,
     "ast_hash": "d07bedeb400c31c335ea68f2b1e505c9",
     "semantic_hash": "d07bedeb400c31c335ea68f2b1e505c9"
   },
   "established/011t_learning_spanish_like_crazy_level2.md": {
     "mtime": 1789442556.2547922,
-    "seen": 1789444261.2107,
+    "seen": 1793406017.0759327,
     "ast_hash": "d7d7661fc0dde21ea491b9eff3dec128",
     "semantic_hash": "d7d7661fc0dde21ea491b9eff3dec128"
   },
   "established/012_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789441992.9249175,
-    "seen": 1789444261.2107005,
+    "seen": 1793406017.0759335,
     "ast_hash": "bd1f185a87626b02029c1c4e224f55c6",
     "semantic_hash": "bd1f185a87626b02029c1c4e224f55c6"
   },
   "established/012b_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789442082.566675,
-    "seen": 1789444261.210701,
+    "seen": 1793406017.075934,
     "ast_hash": "cf0cde4471d3ff6538bd81bbbc47e96a",
     "semantic_hash": "cf0cde4471d3ff6538bd81bbbc47e96a"
   },
   "established/012c_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789442154.248287,
-    "seen": 1789444261.2107015,
+    "seen": 1793406017.0759346,
     "ast_hash": "d0b46c224910a91b01285638e1f686fd",
     "semantic_hash": "d0b46c224910a91b01285638e1f686fd"
   },
   "established/012d_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789442296.3485138,
-    "seen": 1789444261.2107022,
+    "seen": 1793406017.0759356,
     "ast_hash": "3932aaee436cdb05cf2ced64ab4cd32f",
     "semantic_hash": "3932aaee436cdb05cf2ced64ab4cd32f"
   },
   "established/012f_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789442441.3097801,
-    "seen": 1789444261.210703,
+    "seen": 1793406017.0759373,
     "ast_hash": "0bf5c011296903f73178de8139ec0a23",
     "semantic_hash": "0bf5c011296903f73178de8139ec0a23"
   },
   "established/012g_learning_spanish_like_crazy_level3.md": {
     "mtime": 1789442490.4142118,
-    "seen": 1789444261.210704,
+    "seen": 1793406017.0759377,
     "ast_hash": "4dfe20dbf3bd5a4e678f7d8157b9c500",
     "semantic_hash": "4dfe20dbf3bd5a4e678f7d8157b9c500"
   },
   "established/013_easy_spanish_step_by_step.md": {
     "mtime": 1789442855.2364485,
-    "seen": 1789444261.2107046,
+    "seen": 1793406017.0759387,
     "ast_hash": "03554a0d1418b7aa73ac8578c0b8340b",
     "semantic_hash": "03554a0d1418b7aa73ac8578c0b8340b"
   },
   "established/013e_easy_spanish_step_by_step.md": {
     "mtime": 1789443212.9269278,
-    "seen": 1789444261.210705,
+    "seen": 1793406017.0759413,
     "ast_hash": "b3d17e007eba50ef80d788f4c8f947c1",
     "semantic_hash": "b3d17e007eba50ef80d788f4c8f947c1"
   },
   "established/013f_easy_spanish_step_by_step.md": {
     "mtime": 1789443301.2033024,
-    "seen": 1789444261.2107058,
+    "seen": 1793406017.075942,
     "ast_hash": "33071ce2c8da26a9fad8900d2fa1b03b",
     "semantic_hash": "33071ce2c8da26a9fad8900d2fa1b03b"
   },
   "established/013g_easy_spanish_step_by_step.md": {
     "mtime": 1789443349.6850247,
-    "seen": 1789444261.2107062,
+    "seen": 1793406017.075943,
     "ast_hash": "de12d6753be0a7def8df3ecdedbd22f7",
     "semantic_hash": "de12d6753be0a7def8df3ecdedbd22f7"
   },
   "established/013h_easy_spanish_step_by_step.md": {
     "mtime": 1789443434.515241,
-    "seen": 1789444261.210707,
+    "seen": 1793406017.0759435,
     "ast_hash": "a00bb591c67fc57b67e77ab4574fa8d2",
     "semantic_hash": "a00bb591c67fc57b67e77ab4574fa8d2"
   },
   "established/013i_easy_spanish_step_by_step.md": {
     "mtime": 1789443537.6246483,
-    "seen": 1789444261.2107074,
+    "seen": 1793406017.0759442,
     "ast_hash": "cef0ccc0da13d4fc771aeb3e7b67f31d",
     "semantic_hash": "cef0ccc0da13d4fc771aeb3e7b67f31d"
   },
   "established/013j_easy_spanish_step_by_step.md": {
     "mtime": 1789443694.4116697,
-    "seen": 1789444261.210708,
+    "seen": 1793406017.0759447,
     "ast_hash": "6311f1f1a66cf7b28feeea96393ebb07",
     "semantic_hash": "6311f1f1a66cf7b28feeea96393ebb07"
   },
   "established/013k_easy_spanish_step_by_step.md": {
     "mtime": 1789443741.9402592,
-    "seen": 1789444261.2107084,
+    "seen": 1793406017.0759454,
     "ast_hash": "d3a6e937d7d7f21d556cfc0835e5ce87",
     "semantic_hash": "d3a6e937d7d7f21d556cfc0835e5ce87"
   },
   "established/014_practice_makes_perfect_complete_spanish_grammar.md": {
     "mtime": 1789443219.9500403,
-    "seen": 1789444261.210709,
+    "seen": 1793406017.075946,
     "ast_hash": "bea735c4806bdea1cfb0ec80e19927a4",
     "semantic_hash": "bea735c4806bdea1cfb0ec80e19927a4"
   },
   "established/015_schaums_outline_of_spanish_grammar.md": {
     "mtime": 1789443137.7066875,
-    "seen": 1789444261.2107096,
+    "seen": 1793406017.0759468,
     "ast_hash": "e17f2a3ed2da239d085e1e368cc85000",
     "semantic_hash": "e17f2a3ed2da239d085e1e368cc85000"
+  },
+  "00_Book_Triage_Catalog_NEW_STASH.md": {
+    "mtime": 1792912568.884056,
+    "seen": 1793406017.0758991,
+    "ast_hash": "8c6d5ea1bf70938de505eaf88085548f",
+    "semantic_hash": "8c6d5ea1bf70938de505eaf88085548f"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793404407.9046323,
+    "seen": 1793406017.0759013,
+    "ast_hash": "a956c5c5027e393e37fab2199de2d21e",
+    "semantic_hash": "a956c5c5027e393e37fab2199de2d21e"
+  },
+  "00_Usage_Corpus_Catalog.md": {
+    "mtime": 1792550221.7231028,
+    "seen": 1793406017.0759025,
+    "ast_hash": "0928f5dd03489be132db92d032e177e1",
+    "semantic_hash": "0928f5dd03489be132db92d032e177e1"
+  },
+  "established/011j_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442310.1466339,
+    "seen": 1793406017.0759258,
+    "ast_hash": "2051b31cec26bc5199edf0959c00eac9",
+    "semantic_hash": "2051b31cec26bc5199edf0959c00eac9"
+  },
+  "established/011q_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442478.5691075,
+    "seen": 1793406017.0759306,
+    "ast_hash": "edb5baba1db4e27c38ef64e5ed28dab1",
+    "semantic_hash": "edb5baba1db4e27c38ef64e5ed28dab1"
+  },
+  "established/011s_learning_spanish_like_crazy_level2.md": {
+    "mtime": 1789442526.7125316,
+    "seen": 1793406017.0759318,
+    "ast_hash": "8489e4cff35c0d52a5665319124b74e2",
+    "semantic_hash": "8489e4cff35c0d52a5665319124b74e2"
+  },
+  "established/012e_learning_spanish_like_crazy_level3.md": {
+    "mtime": 1789442350.9759896,
+    "seen": 1793406017.075936,
+    "ast_hash": "3f99d142af90706fb201d28e4844990b",
+    "semantic_hash": "3f99d142af90706fb201d28e4844990b"
+  },
+  "established/013b_easy_spanish_step_by_step.md": {
+    "mtime": 1789442935.5881665,
+    "seen": 1793406017.0759394,
+    "ast_hash": "10f1004d11ba56ba77d082f66c3f5cd3",
+    "semantic_hash": "10f1004d11ba56ba77d082f66c3f5cd3"
+  },
+  "established/013c_easy_spanish_step_by_step.md": {
+    "mtime": 1789443041.020982,
+    "seen": 1793406017.0759401,
+    "ast_hash": "c6e33bea6b9275be6b0de986c93fdf6b",
+    "semantic_hash": "c6e33bea6b9275be6b0de986c93fdf6b"
+  },
+  "established/013d_easy_spanish_step_by_step.md": {
+    "mtime": 1789443115.764312,
+    "seen": 1793406017.0759406,
+    "ast_hash": "ccbd45e9e35222680c8bc8c4bf9f51c8",
+    "semantic_hash": "ccbd45e9e35222680c8bc8c4bf9f51c8"
+  },
+  "established/016_student_grammar_of_spanish.md": {
+    "mtime": 1793376843.8614135,
+    "seen": 1793406017.0759473,
+    "ast_hash": "296e7bec5e68946a87cafdff236b3242",
+    "semantic_hash": "296e7bec5e68946a87cafdff236b3242"
+  },
+  "established/017_modern_spanish_grammar_practical_guide.md": {
+    "mtime": 1793377485.3395166,
+    "seen": 1793406017.0759482,
+    "ast_hash": "a58214ee0dd16df1a3f015a0e3b899dc",
+    "semantic_hash": "a58214ee0dd16df1a3f015a0e3b899dc"
+  },
+  "established/018_big_red_book_of_spanish_grammar.md": {
+    "mtime": 1793377005.293909,
+    "seen": 1793406017.0759487,
+    "ast_hash": "fd986de64779199f74d733c9d2f02ace",
+    "semantic_hash": "fd986de64779199f74d733c9d2f02ace"
+  },
+  "established/019_spanish_essential_grammar.md": {
+    "mtime": 1793378235.2025526,
+    "seen": 1793406017.0759497,
+    "ast_hash": "c99f40fd392bd3d82a446863c6c97430",
+    "semantic_hash": "c99f40fd392bd3d82a446863c6c97430"
+  },
+  "established/020_gramatica_didactica_del_espanol.md": {
+    "mtime": 1793378523.4282064,
+    "seen": 1793406017.0759501,
+    "ast_hash": "870af14d86521ec507a33101de276fb8",
+    "semantic_hash": "870af14d86521ec507a33101de276fb8"
+  },
+  "established/021_collins_easy_learning_spanish_grammar.md": {
+    "mtime": 1793378397.6370876,
+    "seen": 1793406017.0759506,
+    "ast_hash": "a5484c3906d08ad237f5acf3fbac03af",
+    "semantic_hash": "a5484c3906d08ad237f5acf3fbac03af"
+  },
+  "established/022_websters_spanish_grammar_handbook.md": {
+    "mtime": 1793378515.0233252,
+    "seen": 1793406017.0759513,
+    "ast_hash": "88f46bc87bf4e501832b57aeca4d135e",
+    "semantic_hash": "88f46bc87bf4e501832b57aeca4d135e"
+  },
+  "established/023_syntax_of_spanish.md": {
+    "mtime": 1793376918.5309286,
+    "seen": 1793406017.0759518,
+    "ast_hash": "f9bb67e7b2fbfe53dce8753367e89c83",
+    "semantic_hash": "f9bb67e7b2fbfe53dce8753367e89c83"
+  },
+  "established/024_introduccion_linguistica_hispanica.md": {
+    "mtime": 1793377528.842102,
+    "seen": 1793406017.0759525,
+    "ast_hash": "fa42eacc64e5554b80062894ce28122a",
+    "semantic_hash": "fa42eacc64e5554b80062894ce28122a"
+  },
+  "established/025_history_of_spanish_language.md": {
+    "mtime": 1793377184.0539525,
+    "seen": 1793406017.0759532,
+    "ast_hash": "6539554f709980e105b3ee781681981f",
+    "semantic_hash": "6539554f709980e105b3ee781681981f"
+  },
+  "established/027_politics_of_language_spanish_speaking_world.md": {
+    "mtime": 1793377889.9918249,
+    "seen": 1793406017.075954,
+    "ast_hash": "0f87c9d7fb34d1d1d3a29d3cb6219ff6",
+    "semantic_hash": "0f87c9d7fb34d1d1d3a29d3cb6219ff6"
+  },
+  "established/028_spanish_language_today.md": {
+    "mtime": 1793377627.6175983,
+    "seen": 1793406017.0759544,
+    "ast_hash": "87bd74a75baca60691e864fe466709f0",
+    "semantic_hash": "87bd74a75baca60691e864fe466709f0"
+  },
+  "established/028b_spanish_language_today.md": {
+    "mtime": 1793377782.7508516,
+    "seen": 1793406017.075955,
+    "ast_hash": "52222aead435dafdc1f67e1f23ab16ca",
+    "semantic_hash": "52222aead435dafdc1f67e1f23ab16ca"
+  },
+  "established/028c_spanish_language_today.md": {
+    "mtime": 1793377888.1480324,
+    "seen": 1793406017.0759556,
+    "ast_hash": "e9125f56592e51f966100fc034c15329",
+    "semantic_hash": "e9125f56592e51f966100fc034c15329"
+  },
+  "established/028d_spanish_language_today.md": {
+    "mtime": 1793377978.7799993,
+    "seen": 1793406017.0759566,
+    "ast_hash": "9fdc7868d670cfcb7afd04c76f28bcf0",
+    "semantic_hash": "9fdc7868d670cfcb7afd04c76f28bcf0"
+  },
+  "established/029_using_spanish_contemporary_usage.md": {
+    "mtime": 1793377420.006432,
+    "seen": 1793406017.075957,
+    "ast_hash": "a2a535a745fcd17a3da69eb3f00e8386",
+    "semantic_hash": "a2a535a745fcd17a3da69eb3f00e8386"
+  },
+  "established/030_cambridge_companion_spanish_culture.md": {
+    "mtime": 1793377452.8582704,
+    "seen": 1793406017.0759578,
+    "ast_hash": "52d28a9a7dee0bc2af7e2d1efff35d30",
+    "semantic_hash": "52d28a9a7dee0bc2af7e2d1efff35d30"
+  },
+  "established/031_cambridge_companion_latin_american_culture.md": {
+    "mtime": 1793377697.667132,
+    "seen": 1793406017.0759583,
+    "ast_hash": "928bb0ec7592fff4a85a3fca71b423d0",
+    "semantic_hash": "928bb0ec7592fff4a85a3fca71b423d0"
+  },
+  "established/032_spanish_speaking_world.md": {
+    "mtime": 1793377576.2842076,
+    "seen": 1793406017.075959,
+    "ast_hash": "0a4dedf429203b5aa014be3d55d451a3",
+    "semantic_hash": "0a4dedf429203b5aa014be3d55d451a3"
+  },
+  "established/032b_spanish_speaking_world.md": {
+    "mtime": 1793377678.0089822,
+    "seen": 1793406017.0759647,
+    "ast_hash": "6b2b64e8ec0ceccd94a087d24579a0bb",
+    "semantic_hash": "6b2b64e8ec0ceccd94a087d24579a0bb"
+  },
+  "established/032c_spanish_speaking_world.md": {
+    "mtime": 1793377748.245518,
+    "seen": 1793406017.0759654,
+    "ast_hash": "89cac1d9241ad226dd310d73a2e8b8cb",
+    "semantic_hash": "89cac1d9241ad226dd310d73a2e8b8cb"
+  },
+  "established/033_correct_your_spanish_blunders.md": {
+    "mtime": 1793376624.9861412,
+    "seen": 1793406017.075966,
+    "ast_hash": "cd6833c6f63ed9f7962f6fd479c922cc",
+    "semantic_hash": "cd6833c6f63ed9f7962f6fd479c922cc"
+  },
+  "established/034_espanol_comercial.md": {
+    "mtime": 1793376511.0153399,
+    "seen": 1793406017.0759678,
+    "ast_hash": "4dfefa169d159fcf48b5af872387b788",
+    "semantic_hash": "4dfefa169d159fcf48b5af872387b788"
+  },
+  "established/035_manual_of_business_spanish.md": {
+    "mtime": 1793377666.3418932,
+    "seen": 1793406017.0759685,
+    "ast_hash": "bc4cc53d906952e1612211a30cdbd9f6",
+    "semantic_hash": "bc4cc53d906952e1612211a30cdbd9f6"
+  },
+  "established/035b_manual_of_business_spanish_glossary_spanish_english_1.md": {
+    "mtime": 1793377650.9496114,
+    "seen": 1793406017.075969,
+    "ast_hash": "117f8f3623949b73d8add445a2e847b3",
+    "semantic_hash": "117f8f3623949b73d8add445a2e847b3"
+  },
+  "established/035c_manual_of_business_spanish_glossary_spanish_english_2.md": {
+    "mtime": 1793377650.9508016,
+    "seen": 1793406017.0759697,
+    "ast_hash": "32e529d00f16a02ff6173599732b2c63",
+    "semantic_hash": "32e529d00f16a02ff6173599732b2c63"
+  },
+  "established/035d_manual_of_business_spanish_glossary_spanish_english_3.md": {
+    "mtime": 1793377650.9519906,
+    "seen": 1793406017.0759704,
+    "ast_hash": "145773cdf5ee861578c87e8a0f10eb95",
+    "semantic_hash": "145773cdf5ee861578c87e8a0f10eb95"
+  },
+  "established/035e_manual_of_business_spanish_glossary_spanish_english_4.md": {
+    "mtime": 1793377650.9531307,
+    "seen": 1793406017.0759711,
+    "ast_hash": "8f7c8e89c98b079d7fad263b75653b45",
+    "semantic_hash": "8f7c8e89c98b079d7fad263b75653b45"
+  },
+  "established/035f_manual_of_business_spanish_glossary_english_spanish_1.md": {
+    "mtime": 1793377650.9543958,
+    "seen": 1793406017.0759716,
+    "ast_hash": "100482bd4744e711ec038d55f48df6fa",
+    "semantic_hash": "100482bd4744e711ec038d55f48df6fa"
+  },
+  "established/035g_manual_of_business_spanish_glossary_english_spanish_2.md": {
+    "mtime": 1793377650.954776,
+    "seen": 1793406017.0759723,
+    "ast_hash": "f7dc325964d8e81452447363d5f48244",
+    "semantic_hash": "f7dc325964d8e81452447363d5f48244"
+  },
+  "established/035h_manual_of_business_spanish_glossary_english_spanish_3.md": {
+    "mtime": 1793377650.9565382,
+    "seen": 1793406017.0759728,
+    "ast_hash": "23e1b90b882509d207e9443e6b7f94ae",
+    "semantic_hash": "23e1b90b882509d207e9443e6b7f94ae"
+  },
+  "established/035i_manual_of_business_spanish_glossary_english_spanish_4.md": {
+    "mtime": 1793377650.9577072,
+    "seen": 1793406017.0759733,
+    "ast_hash": "f5fc32ebe54ff454b9222f331bd0c681",
+    "semantic_hash": "f5fc32ebe54ff454b9222f331bd0c681"
+  },
+  "established/036_spanish_business_correspondence.md": {
+    "mtime": 1793376752.0410523,
+    "seen": 1793406017.0759742,
+    "ast_hash": "c9e5d9b9c972bde5199129fb4fda295e",
+    "semantic_hash": "c9e5d9b9c972bde5199129fb4fda295e"
+  },
+  "established/037_spanish_business_situations.md": {
+    "mtime": 1793376519.2943974,
+    "seen": 1793406017.0759747,
+    "ast_hash": "61c70edabbefd17d970c5b9a3aa3d95f",
+    "semantic_hash": "61c70edabbefd17d970c5b9a3aa3d95f"
+  },
+  "established/038_speak_the_culture_spain.md": {
+    "mtime": 1793377460.1433256,
+    "seen": 1793406017.0759754,
+    "ast_hash": "8b1635fc62695c7494a185a3fcd36f8d",
+    "semantic_hash": "8b1635fc62695c7494a185a3fcd36f8d"
+  },
+  "established/039_rough_guide_spanish_phrasebook.md": {
+    "mtime": 1793398560.015427,
+    "seen": 1793406017.075976,
+    "ast_hash": "c906c89ed3aa4f3797e46a15f184c30d",
+    "semantic_hash": "c906c89ed3aa4f3797e46a15f184c30d"
+  },
+  "established/040_rough_guide_mexican_spanish_phrasebook.md": {
+    "mtime": 1793398614.0165484,
+    "seen": 1793406017.0759766,
+    "ast_hash": "68a30d813f5b791e85c6a9b230be42d0",
+    "semantic_hash": "68a30d813f5b791e85c6a9b230be42d0"
+  },
+  "established/041_rough_guide_latin_american_spanish_phrasebook.md": {
+    "mtime": 1793398675.0982826,
+    "seen": 1793406017.0759773,
+    "ast_hash": "5be1eae72a9e3f5ec34a66aef662add5",
+    "semantic_hash": "5be1eae72a9e3f5ec34a66aef662add5"
+  },
+  "established/042_spanish_among_amigos.md": {
+    "mtime": 1793398539.9596295,
+    "seen": 1793406017.075978,
+    "ast_hash": "162760ad772fe8b330dd6facbaa3d6a3",
+    "semantic_hash": "162760ad772fe8b330dd6facbaa3d6a3"
+  },
+  "established/043_spanish_in_your_face.md": {
+    "mtime": 1793398843.7072182,
+    "seen": 1793406017.0759785,
+    "ast_hash": "349a54bfdb7a1874517b4fcdb119e1a9",
+    "semantic_hash": "349a54bfdb7a1874517b4fcdb119e1a9"
+  },
+  "established/044_berlitz_hide_this_spanish.md": {
+    "mtime": 1793399016.7233992,
+    "seen": 1793406017.0759792,
+    "ast_hash": "4e7e12da924aba3c721427a8d287658b",
+    "semantic_hash": "4e7e12da924aba3c721427a8d287658b"
+  },
+  "established/045_big_red_book_spanish_idioms.md": {
+    "mtime": 1793399263.2196445,
+    "seen": 1793406017.0759797,
+    "ast_hash": "ed2f960a4591932010571f337f4c31b4",
+    "semantic_hash": "ed2f960a4591932010571f337f4c31b4"
+  },
+  "established/046_hablar_por_los_codos.md": {
+    "mtime": 1793399616.9854472,
+    "seen": 1793406017.0759804,
+    "ast_hash": "9f4e4c8f2a7a674f70cdc8eb6930bccf",
+    "semantic_hash": "9f4e4c8f2a7a674f70cdc8eb6930bccf"
+  },
+  "established/047_mcgraw_hill_diccionario_enciclopedico.md": {
+    "mtime": 1793398613.988548,
+    "seen": 1793406017.0759811,
+    "ast_hash": "db9040bf32cf1ebcc46181565a998b97",
+    "semantic_hash": "db9040bf32cf1ebcc46181565a998b97"
+  },
+  "established/048_diccionario_sinonimos_antonimos_paronimos.md": {
+    "mtime": 1793398877.088588,
+    "seen": 1793406017.0759819,
+    "ast_hash": "626a3dca8d5bd1a1d8048eafd80de2c2",
+    "semantic_hash": "626a3dca8d5bd1a1d8048eafd80de2c2"
+  },
+  "established/049_spanish_english_visual_dictionary.md": {
+    "mtime": 1793399250.2845137,
+    "seen": 1793406017.0759823,
+    "ast_hash": "5f4259264d163902bb3bd9544bf93624",
+    "semantic_hash": "5f4259264d163902bb3bd9544bf93624"
+  },
+  "established/050_spanish_student_dictionary.md": {
+    "mtime": 1793399417.5934653,
+    "seen": 1793406017.0759828,
+    "ast_hash": "9f1e9b8ebc345e426f42a2d6701d8de1",
+    "semantic_hash": "9f1e9b8ebc345e426f42a2d6701d8de1"
+  },
+  "established/051_ultimate_spanish_phrase_finder.md": {
+    "mtime": 1793398653.4300244,
+    "seen": 1793406017.0759835,
+    "ast_hash": "8079f9757c05c4856b7b591821098acd",
+    "semantic_hash": "8079f9757c05c4856b7b591821098acd"
+  },
+  "established/052_beginners_spanish_dictionary.md": {
+    "mtime": 1793398946.7103474,
+    "seen": 1793406017.0759845,
+    "ast_hash": "66906d814193cfa540d2b8076fc5ed03",
+    "semantic_hash": "66906d814193cfa540d2b8076fc5ed03"
+  },
+  "established/053_get_by_latin_american_spanish.md": {
+    "mtime": 1793399167.2743154,
+    "seen": 1793406017.075985,
+    "ast_hash": "191ba3d4cef5a9ec9e38c945d1eb14d9",
+    "semantic_hash": "191ba3d4cef5a9ec9e38c945d1eb14d9"
+  },
+  "established/054_spanish_around_the_house.md": {
+    "mtime": 1793399458.8225942,
+    "seen": 1793406017.0759854,
+    "ast_hash": "b7f117499b0bab9578a034fc94293c86",
+    "semantic_hash": "b7f117499b0bab9578a034fc94293c86"
+  },
+  "established/055_working_spanish_for_teachers.md": {
+    "mtime": 1793399671.9174542,
+    "seen": 1793406017.0759888,
+    "ast_hash": "a99dee4065a9d37fe1aa1c65d1418289",
+    "semantic_hash": "a99dee4065a9d37fe1aa1c65d1418289"
+  },
+  "established/056_perfect_phrases_travel_mexico.md": {
+    "mtime": 1793398924.422106,
+    "seen": 1793406017.0759892,
+    "ast_hash": "f787f3554bd328e0aebf52858077d5f1",
+    "semantic_hash": "f787f3554bd328e0aebf52858077d5f1"
+  },
+  "established/057_perfect_phrases_household_childcare.md": {
+    "mtime": 1793399307.3080885,
+    "seen": 1793406017.07599,
+    "ast_hash": "1c2e48c5f9b67b19e2e31324eb6fdc50",
+    "semantic_hash": "1c2e48c5f9b67b19e2e31324eb6fdc50"
+  },
+  "established/058_perfect_phrases_hotel_restaurant.md": {
+    "mtime": 1793399690.0708458,
+    "seen": 1793406017.0759904,
+    "ast_hash": "94fb7071b22a5f6b7c3f46cbddd6f69e",
+    "semantic_hash": "94fb7071b22a5f6b7c3f46cbddd6f69e"
+  },
+  "established/059_spanish_english_business_glossary.md": {
+    "mtime": 1793399734.650275,
+    "seen": 1793406017.0759914,
+    "ast_hash": "8aa867dd9d9f232f3a8b4e7dd8720959",
+    "semantic_hash": "8aa867dd9d9f232f3a8b4e7dd8720959"
+  },
+  "established/060_spanish_grammar_workbook_blackwell.md": {
+    "mtime": 1793400134.0883124,
+    "seen": 1793406017.0759919,
+    "ast_hash": "dc80c7cae4a039d2ce43ccfb3b85c77c",
+    "semantic_hash": "dc80c7cae4a039d2ce43ccfb3b85c77c"
+  },
+  "established/061_basic_spanish_grammar_workbook.md": {
+    "mtime": 1793400214.8708372,
+    "seen": 1793406017.0759926,
+    "ast_hash": "5d200c855f1d22b377863e446aefd7c5",
+    "semantic_hash": "5d200c855f1d22b377863e446aefd7c5"
+  },
+  "established/062_intermediate_spanish_grammar_workbook.md": {
+    "mtime": 1793400521.331713,
+    "seen": 1793406017.075993,
+    "ast_hash": "c79e1a03135ab7572692978969c88ede",
+    "semantic_hash": "c79e1a03135ab7572692978969c88ede"
+  },
+  "established/063_modern_spanish_grammar_workbook.md": {
+    "mtime": 1793400609.7549384,
+    "seen": 1793406017.0759935,
+    "ast_hash": "3c7ea2acfd3511407b064626d92b280f",
+    "semantic_hash": "3c7ea2acfd3511407b064626d92b280f"
+  },
+  "established/064_pmp_spanish_sentence_builder.md": {
+    "mtime": 1793400823.421782,
+    "seen": 1793406017.0759943,
+    "ast_hash": "e3c9eb2f40b249e2d4c2937272925664",
+    "semantic_hash": "e3c9eb2f40b249e2d4c2937272925664"
+  },
+  "established/065_uso_gramatica_espanola_elemental.md": {
+    "mtime": 1793400224.0719237,
+    "seen": 1793406017.0759952,
+    "ast_hash": "b9a75003b1efa948d2f578bc90da801f",
+    "semantic_hash": "b9a75003b1efa948d2f578bc90da801f"
+  },
+  "established/066_uso_gramatica_espanola_intermedio.md": {
+    "mtime": 1793400515.9427018,
+    "seen": 1793406017.0759957,
+    "ast_hash": "149d022c6b34354555d010ed62f9f39a",
+    "semantic_hash": "149d022c6b34354555d010ed62f9f39a"
+  },
+  "established/067_uso_gramatica_espanola_avanzado.md": {
+    "mtime": 1793400778.6605759,
+    "seen": 1793406017.0759964,
+    "ast_hash": "bfc8da5bc4d2eef8ac7845625d23924d",
+    "semantic_hash": "bfc8da5bc4d2eef8ac7845625d23924d"
+  },
+  "established/068_uso_gramatica_espanola_intermedio_key.md": {
+    "mtime": 1793400819.8517652,
+    "seen": 1793406017.075997,
+    "ast_hash": "45c933c957b9a5651d96a00df630db2f",
+    "semantic_hash": "45c933c957b9a5651d96a00df630db2f"
+  },
+  "established/069_gramatica_practica_nivel_elemental.md": {
+    "mtime": 1793400303.311591,
+    "seen": 1793406017.0759976,
+    "ast_hash": "a282eef6f5f730d23dd05b3521d3d092",
+    "semantic_hash": "a282eef6f5f730d23dd05b3521d3d092"
+  },
+  "established/070_gramatica_nivel_b2.md": {
+    "mtime": 1793400531.405734,
+    "seen": 1793406017.0759983,
+    "ast_hash": "e604da52db737e1e33fdfdd8c665f598",
+    "semantic_hash": "e604da52db737e1e33fdfdd8c665f598"
+  },
+  "established/071_gramatica_de_uso_a1_b2.md": {
+    "mtime": 1793400701.1592536,
+    "seen": 1793406017.075999,
+    "ast_hash": "d09bbb44ce5a56aede9fd1a1dbb49765",
+    "semantic_hash": "d09bbb44ce5a56aede9fd1a1dbb49765"
+  },
+  "established/072_practicas_lengua_espanola.md": {
+    "mtime": 1793400867.1889963,
+    "seen": 1793406017.0759995,
+    "ast_hash": "c408a88c7c6d95096f1d680a42c6634a",
+    "semantic_hash": "c408a88c7c6d95096f1d680a42c6634a"
+  },
+  "established/073_temas_gramatica_nivel_superior.md": {
+    "mtime": 1793401035.1319182,
+    "seen": 1793406017.0760002,
+    "ast_hash": "ff7d3ca7cf60fa5b722fcc0f81e2ad10",
+    "semantic_hash": "ff7d3ca7cf60fa5b722fcc0f81e2ad10"
+  },
+  "established/074_practica_tu_espanol_subjuntivo.md": {
+    "mtime": 1793400173.4854472,
+    "seen": 1793406017.0760007,
+    "ast_hash": "d2f33d5a7a9aea411b9941839931226b",
+    "semantic_hash": "d2f33d5a7a9aea411b9941839931226b"
+  },
+  "established/075_spanish_verbs_made_simpler.md": {
+    "mtime": 1793400346.133557,
+    "seen": 1793406017.0760012,
+    "ast_hash": "db0e2d0d696b957e78f186c23b50481a",
+    "semantic_hash": "db0e2d0d696b957e78f186c23b50481a"
+  },
+  "established/076_ultimate_spanish_verb_review.md": {
+    "mtime": 1793400923.4888687,
+    "seen": 1793406017.0760021,
+    "ast_hash": "7c290d5eeed370d3d635e5718266ceaf",
+    "semantic_hash": "7c290d5eeed370d3d635e5718266ceaf"
+  },
+  "established/077_tiempo_indicativo_subjuntivo.md": {
+    "mtime": 1793400923.489289,
+    "seen": 1793406017.0760026,
+    "ast_hash": "9e68ed6d3316a4a44d49c21d3c2787ac",
+    "semantic_hash": "9e68ed6d3316a4a44d49c21d3c2787ac"
+  },
+  "established/078_websters_575_spanish_verbs.md": {
+    "mtime": 1793400923.4898725,
+    "seen": 1793406017.0760033,
+    "ast_hash": "51e74dcd9b8a9d78df4400d25d4cc63a",
+    "semantic_hash": "51e74dcd9b8a9d78df4400d25d4cc63a"
+  },
+  "established/079_must_know_spanish_4000_words.md": {
+    "mtime": 1793401569.121516,
+    "seen": 1793406017.0760038,
+    "ast_hash": "a428b1dd1dee3af29fd450d037e0bb72",
+    "semantic_hash": "a428b1dd1dee3af29fd450d037e0bb72"
+  },
+  "established/080_spanish_vocabulary_etymological_approach.md": {
+    "mtime": 1793401834.5865083,
+    "seen": 1793406017.0760045,
+    "ast_hash": "dd3e8e956d9f8a9f527050c4460004fd",
+    "semantic_hash": "dd3e8e956d9f8a9f527050c4460004fd"
+  },
+  "established/081_using_spanish_synonyms.md": {
+    "mtime": 1793401993.0807312,
+    "seen": 1793406017.0760052,
+    "ast_hash": "9eccc6a67ced5bd80f65fe1f9bd381f7",
+    "semantic_hash": "9eccc6a67ced5bd80f65fe1f9bd381f7"
+  },
+  "established/082_using_spanish_vocabulary.md": {
+    "mtime": 1793402203.8903828,
+    "seen": 1793406017.0760057,
+    "ast_hash": "9654d82bcc7ab8376b688b0c70adaf2e",
+    "semantic_hash": "9654d82bcc7ab8376b688b0c70adaf2e"
+  },
+  "established/083_uso_interactivo_vocabulario.md": {
+    "mtime": 1793402471.3422987,
+    "seen": 1793406017.0760064,
+    "ast_hash": "324e173561b83420aec4ceae08584d2f",
+    "semantic_hash": "324e173561b83420aec4ceae08584d2f"
+  },
+  "established/084_vocabulario_activo_1_elemental.md": {
+    "mtime": 1793402822.857488,
+    "seen": 1793406017.076007,
+    "ast_hash": "4d203909bcafc527af6ca7871de6a405",
+    "semantic_hash": "4d203909bcafc527af6ca7871de6a405"
+  },
+  "established/085_vocabulario_activo_2_intermedio_avanzado.md": {
+    "mtime": 1793403223.5209303,
+    "seen": 1793406017.0760076,
+    "ast_hash": "847d359c5449838fc1a101632eb76a52",
+    "semantic_hash": "847d359c5449838fc1a101632eb76a52"
+  },
+  "established/086_aula_4_curso_espanol_b1.md": {
+    "mtime": 1793402209.2364252,
+    "seen": 1793406017.076008,
+    "ast_hash": "6f229c11bd53659b1cecf07552f8f63a",
+    "semantic_hash": "6f229c11bd53659b1cecf07552f8f63a"
+  },
+  "established/087_colloquial_spanish_2_peninsular.md": {
+    "mtime": 1793401560.2924511,
+    "seen": 1793406017.076011,
+    "ast_hash": "13ad627ebcc5ecc240284c3dd4feab69",
+    "semantic_hash": "13ad627ebcc5ecc240284c3dd4feab69"
+  },
+  "established/088_comunicacion_intermediate_spanish_course.md": {
+    "mtime": 1793402380.1343288,
+    "seen": 1793406017.0760114,
+    "ast_hash": "ee561be0fdcdc7790858d85e1bfb1bc5",
+    "semantic_hash": "ee561be0fdcdc7790858d85e1bfb1bc5"
+  },
+  "established/089_el_punto_en_cuestion.md": {
+    "mtime": 1793401859.0486958,
+    "seen": 1793406017.0760124,
+    "ast_hash": "16600dcfb23f2e876ae160277d4d9f0e",
+    "semantic_hash": "16600dcfb23f2e876ae160277d4d9f0e"
+  },
+  "established/090_en_activo_practical_business_spanish.md": {
+    "mtime": 1793401610.41682,
+    "seen": 1793406017.0760128,
+    "ast_hash": "123261f28218c912db30780c6d5eb0e5",
+    "semantic_hash": "123261f28218c912db30780c6d5eb0e5"
+  },
+  "established/091_espanol_2000_nivel_medio.md": {
+    "mtime": 1793402212.5744514,
+    "seen": 1793406017.0760133,
+    "ast_hash": "c42dfcd8be566cbae5c83c6519be3270",
+    "semantic_hash": "c42dfcd8be566cbae5c83c6519be3270"
+  },
+  "established/092_espanol_curso_practico_avanzado.md": {
+    "mtime": 1793402441.6686788,
+    "seen": 1793406017.076014,
+    "ast_hash": "229538217d6b16c044ea8c4ac3d5fbc0",
+    "semantic_hash": "229538217d6b16c044ea8c4ac3d5fbc0"
+  },
+  "established/093_lecciones_conversacion_espanol.md": {
+    "mtime": 1793402662.736897,
+    "seen": 1793406017.0760145,
+    "ast_hash": "b18044a01bd2dde98c4ff070b5a50d97",
+    "semantic_hash": "b18044a01bd2dde98c4ff070b5a50d97"
+  },
+  "established/094_prisma_progresa_b1.md": {
+    "mtime": 1793402003.4773352,
+    "seen": 1793406017.076015,
+    "ast_hash": "a2a518af97c00d249f0ada57538a2c27",
+    "semantic_hash": "a2a518af97c00d249f0ada57538a2c27"
+  },
+  "established/095_punto_final_curso_superior_c1.md": {
+    "mtime": 1793402047.3604481,
+    "seen": 1793406017.076016,
+    "ast_hash": "0a85a9bda328149c9c908c18851f7306",
+    "semantic_hash": "0a85a9bda328149c9c908c18851f7306"
+  },
+  "established/096_spanish_beyond_the_basics.md": {
+    "mtime": 1793402069.2733252,
+    "seen": 1793406017.0760164,
+    "ast_hash": "bd68bd06ded368d90478a01fc9d4fe71",
+    "semantic_hash": "bd68bd06ded368d90478a01fc9d4fe71"
+  },
+  "established/097_teach_yourself_improve_your_spanish.md": {
+    "mtime": 1793402177.5441751,
+    "seen": 1793406017.0760171,
+    "ast_hash": "850fbc4bf9331e7a8bd2c78eea7de059",
+    "semantic_hash": "850fbc4bf9331e7a8bd2c78eea7de059"
+  },
+  "established/098_spanish_for_reading.md": {
+    "mtime": 1793403518.1972928,
+    "seen": 1793406017.0760176,
+    "ast_hash": "68a0c1fa0f034102d3618a52c53e5faf",
+    "semantic_hash": "68a0c1fa0f034102d3618a52c53e5faf"
+  },
+  "established/099_spanish_demystified.md": {
+    "mtime": 1793403626.462582,
+    "seen": 1793406017.0760183,
+    "ast_hash": "dd750e809dc698b244ee7e73015ec894",
+    "semantic_hash": "dd750e809dc698b244ee7e73015ec894"
+  },
+  "established/100_camino_al_espanol.md": {
+    "mtime": 1793403705.4304411,
+    "seen": 1793406017.076019,
+    "ast_hash": "aca252d466addfc9b21c5db3cd41dfc3",
+    "semantic_hash": "aca252d466addfc9b21c5db3cd41dfc3"
+  },
+  "established/101_avance_curso_nivel_elemental.md": {
+    "mtime": 1793403869.2271872,
+    "seen": 1793406017.0760195,
+    "ast_hash": "87b71ac4bf62448de77c10534d01ec01",
+    "semantic_hash": "87b71ac4bf62448de77c10534d01ec01"
+  },
+  "established/102_espanol_a_la_vista_aqa.md": {
+    "mtime": 1793404013.032689,
+    "seen": 1793406017.0760202,
+    "ast_hash": "5b48b49a30af2f1fce54fa93a533a7c6",
+    "semantic_hash": "5b48b49a30af2f1fce54fa93a533a7c6"
+  },
+  "established/103_berlitz_rush_hour_spanish.md": {
+    "mtime": 1793404104.7376356,
+    "seen": 1793406017.0760207,
+    "ast_hash": "c12652ec44606bc8bd83a5c023329819",
+    "semantic_hash": "c12652ec44606bc8bd83a5c023329819"
+  },
+  "established/104_countdown_to_spanish.md": {
+    "mtime": 1793404160.684209,
+    "seen": 1793406017.0760214,
+    "ast_hash": "ae550814c381ee21a92364778971dbc4",
+    "semantic_hash": "ae550814c381ee21a92364778971dbc4"
+  },
+  "established/105_teach_yourself_beginners_spanish.md": {
+    "mtime": 1793404225.2938688,
+    "seen": 1793406017.076022,
+    "ast_hash": "933b1568d46275640e867be05ec7a2d3",
+    "semantic_hash": "933b1568d46275640e867be05ec7a2d3"
+  },
+  "established/106_nuevo_espanol_2000_elemental.md": {
+    "mtime": 1793404279.2384171,
+    "seen": 1793406017.0760229,
+    "ast_hash": "56579bd160cc777b92da19414090c902",
+    "semantic_hash": "56579bd160cc777b92da19414090c902"
+  },
+  "established/107_prisma_comienza_a1.md": {
+    "mtime": 1793404350.3411374,
+    "seen": 1793406017.0760233,
+    "ast_hash": "9ebea42fa81672ecc339e4bef7716190",
+    "semantic_hash": "9ebea42fa81672ecc339e4bef7716190"
+  },
+  "established/108_75_temas_de_espanol.md": {
+    "mtime": 1793403749.297913,
+    "seen": 1793406017.076024,
+    "ast_hash": "d35baf5a20f84c0adb3490343e409d3d",
+    "semantic_hash": "d35baf5a20f84c0adb3490343e409d3d"
+  },
+  "established/109_el_principito.md": {
+    "mtime": 1793403803.4773862,
+    "seen": 1793406017.0760245,
+    "ast_hash": "ae42f10366f0a184e1abb723150b344f",
+    "semantic_hash": "ae42f10366f0a184e1abb723150b344f"
+  },
+  "established/110_amnesia_nivel1.md": {
+    "mtime": 1793403869.9474452,
+    "seen": 1793406017.0760252,
+    "ast_hash": "3677107c36d3ae8c144d7d795234dc50",
+    "semantic_hash": "3677107c36d3ae8c144d7d795234dc50"
+  },
+  "established/111_carnaval_nivel1.md": {
+    "mtime": 1793404019.0737517,
+    "seen": 1793406017.0760272,
+    "ast_hash": "bd981f64bbc384b6a458869a2f356c54",
+    "semantic_hash": "bd981f64bbc384b6a458869a2f356c54"
+  },
+  "established/112_muerte_entre_munecos_nivel1.md": {
+    "mtime": 1793404165.8352618,
+    "seen": 1793406017.0760279,
+    "ast_hash": "c637e3e58bbc35c95cf3de5ffdcff1d3",
+    "semantic_hash": "c637e3e58bbc35c95cf3de5ffdcff1d3"
+  },
+  "established/113_taxi_a_coyoacan_nivel3.md": {
+    "mtime": 1793404315.423406,
+    "seen": 1793406017.0760283,
+    "ast_hash": "9525793c27f7b408d17d794c13a699b2",
+    "semantic_hash": "9525793c27f7b408d17d794c13a699b2"
+  },
+  "established/114_la_celestina.md": {
+    "mtime": 1793403700.0953834,
+    "seen": 1793406017.0760293,
+    "ast_hash": "5d193a6fc6265637df0d5acac86901c2",
+    "semantic_hash": "5d193a6fc6265637df0d5acac86901c2"
+  },
+  "established/115_poderoso_caballero.md": {
+    "mtime": 1793403785.8613038,
+    "seen": 1793406017.0760298,
+    "ast_hash": "a6a1ca0d7f97e8b731c4440026ca25e0",
+    "semantic_hash": "a6a1ca0d7f97e8b731c4440026ca25e0"
+  },
+  "established/116_la_suegra_de_julia.md": {
+    "mtime": 1793403862.3491147,
+    "seen": 1793406017.0760303,
+    "ast_hash": "133395ce8c2e3f752e52ad82b85dfd8d",
+    "semantic_hash": "133395ce8c2e3f752e52ad82b85dfd8d"
+  },
+  "established/117_read_and_think_spanish.md": {
+    "mtime": 1793403981.9193664,
+    "seen": 1793406017.076031,
+    "ast_hash": "0ad3ab5a4e39ae35af4292b276d7533f",
+    "semantic_hash": "0ad3ab5a4e39ae35af4292b276d7533f"
+  },
+  "established/118_por_amor_al_arte_nivel1.md": {
+    "mtime": 1793404066.696244,
+    "seen": 1793406017.0760314,
+    "ast_hash": "68bcbb5846a16f2b60b82e04f15dfda6",
+    "semantic_hash": "68bcbb5846a16f2b60b82e04f15dfda6"
+  },
+  "established/119_doce_a_las_doce.md": {
+    "mtime": 1793404115.2513697,
+    "seen": 1793406017.076032,
+    "ast_hash": "e594ccc7807c9af57493fe5b3900bc05",
+    "semantic_hash": "e594ccc7807c9af57493fe5b3900bc05"
+  },
+  "grammar_logic/native_speaker_queries/README.md": {
+    "mtime": 1792469828.5091074,
+    "seen": 1793406017.0760329,
+    "ast_hash": "2f2ba5962eaed4d70eb21de718448e1b",
+    "semantic_hash": "2f2ba5962eaed4d70eb21de718448e1b"
   }
 }

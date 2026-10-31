@@ -185,6 +185,36 @@ the same corpus, exactly the kind of structural confirmation later synthesis wor
 heavily. One known, explicitly-flagged non-blocking gap remains: *Practice Makes Perfect Spanish
 Vocabulary* (Units 4-10 of 10, an unusually vocabulary-dense ~10,000-word book).
 
+**Spanish's full 16GB external-drive stash was extracted 2026-10-30 — nearly tripling the corpus
+in a single continuous run of 5 waves (S1 + 2-5), ~104 net-new files across 19 parallel dispatch
+groups total, all individually structurally verified by the orchestrating session rather than
+trusted on self-report alone.** Wave S1 finished the Tier 1 reference-grammar/linguistics cluster;
+Wave 2 covered phrasebooks, idiom dictionaries, and two large dictionary samples (McGraw-Hill's
+1,831pp encyclopedic dictionary, a synonym/antonym/paronym dictionary); Wave 3 covered grammar
+workbooks and verb references, including a 3-level Spanish-medium graded series (*Uso de la
+Gramática Española*) whose subjunctive-mastery progression was tracked explicitly across levels;
+Wave 4 covered vocabulary dictionaries and intermediate/advanced courses; Wave 5 took a
+deliberately selective (not exhaustive) pass over beginner courses and graded fiction readers,
+using a different extraction methodology for the readers — pedagogical-apparatus-first, with thin
+honest writeups for the one reader (a plain, unannotated *El Principito* translation) that had none.
+Flagship finds from the expansion: three independent sources converging on *concha*'s
+Southern-Cone-specific taboo status; the *coger*/*chingar* regional taboo-inversion pattern
+confirmed repeatedly across phrasebooks, dictionaries, and course books; the full *vosotros*
+paradigm corroborated across three sources as the standout Peninsular-vs-Latin-America grammatical
+marker; a 16th-century *La Celestina* student edition confirmed as genuine annotated
+archaic-register content, distinct from the modern-Spanish material everywhere else in the corpus;
+an explicit reggaetón jerga glossary (pichaera, guerlas, guillao, perrear, rankeao) found inside a
+graded reader; and a confirmed 100%-duplicate finding (a standalone business glossary re-published
+word-for-word inside a later textbook) honestly documented with zero new content extracted, rather
+than silently padded. Several dispatched agents self-caught and fixed real bugs before reporting
+(an abandoned 6-column table header reverting to an old convention, uppercase node IDs during the
+later graphify rebuild, a misattributed cross-reference) — each independently re-verified by the
+orchestrating session, not just trusted. The `/graphify` graph was fully rebuilt over the new
+175-file, ~1,360,000-word corpus: 2,326 nodes, 2,596 edges, 255 communities (92 individually
+labeled), with only 4 dangling and 2 collapsed edges out of 2,602 raw — honestly-flagged
+low-confidence cross-chunk references from the 30-chunk extraction dispatch, negligible and
+consistent with every other language's graph in this project.
+
 **Dutch reached Phase 1 completion sixth**, continuing from an earlier partial test run (3
 `established/` files from one book) rather than starting from scratch — the full 84-file/2.1GB
 corpus was re-triaged from scratch first, since the original pass had only spot-checked "top
