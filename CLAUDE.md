@@ -9,6 +9,18 @@ killed, but no new wave/batch should be dispatched past the boundary; resume onc
 reopens. This is a durable rule, not a one-off preference — it applies across all future sessions
 on this project.
 
+### Exemption: grammar-logic analysis and testing (granted 2026-10-19)
+
+**Grammar-logic analysis work — the five-stage procedure in
+`supplementary_diagrams/grammar_logic_diagrams/00_Diagram_Notation_and_Methodology.md`, and in
+particular the stage-3 adversarial testing — is NOT bound by the operating-hours window.** It may run
+at any hour, any day. Granted directly by the user: *"run whatever tests you need to, and this can
+occur at any hour of the day, so it's not bound by the operating-hours rule."*
+
+This exemption is **scoped to that work only.** Other autonomous/background activity in this repo —
+Phase 1 extraction waves, graphify rebuilds, scheduled wakeups, Auto Mode pushes — remains under the
+3:00pm–4:59am rule above unless separately exempted.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.

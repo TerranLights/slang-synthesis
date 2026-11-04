@@ -1,0 +1,380 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793748433.7827687,
+    "seen": 1793752823.8394876,
+    "ast_hash": "56058d0d4554e916253dbe1be9cbdf3a",
+    "semantic_hash": "56058d0d4554e916253dbe1be9cbdf3a"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793751191.5797932,
+    "seen": 1793752823.8394918,
+    "ast_hash": "745ef50834ec24ffa60ef8fd7f4d2431",
+    "semantic_hash": "745ef50834ec24ffa60ef8fd7f4d2431"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793751162.1915107,
+    "seen": 1793752823.8394935,
+    "ast_hash": "ad492637a6c970c3bc507735689ca3ba",
+    "semantic_hash": "ad492637a6c970c3bc507735689ca3ba"
+  },
+  "established/001_dictionary_of_cantonese_slang_pp1-25.md": {
+    "mtime": 1793669235.560295,
+    "seen": 1793752823.839495,
+    "ast_hash": "e65a3031d90bc691689cde1d0f33a01e",
+    "semantic_hash": "e65a3031d90bc691689cde1d0f33a01e"
+  },
+  "established/002_dictionary_of_cantonese_slang_pp110-130.md": {
+    "mtime": 1793668975.263538,
+    "seen": 1793752823.839496,
+    "ast_hash": "fb9a3e55d4bb125e843960fcf620d165",
+    "semantic_hash": "fb9a3e55d4bb125e843960fcf620d165"
+  },
+  "established/003_dictionary_of_cantonese_slang_pp220-240.md": {
+    "mtime": 1793669117.057258,
+    "seen": 1793752823.8394969,
+    "ast_hash": "2d8c72643c52762d4e815c0677d9a4dd",
+    "semantic_hash": "2d8c72643c52762d4e815c0677d9a4dd"
+  },
+  "established/004_dictionary_of_cantonese_slang_pp330-350.md": {
+    "mtime": 1793669254.4588232,
+    "seen": 1793752823.8394983,
+    "ast_hash": "21b80d0dee38f9887ca912a597ec471b",
+    "semantic_hash": "21b80d0dee38f9887ca912a597ec471b"
+  },
+  "established/005_dictionary_of_cantonese_slang_pp480-509.md": {
+    "mtime": 1793668544.4872696,
+    "seen": 1793752823.8394992,
+    "ast_hash": "f5a1da76e589302a22912e148171dfc8",
+    "semantic_hash": "f5a1da76e589302a22912e148171dfc8"
+  },
+  "established/006_cantonese_comprehensive_grammar_units1-10.md": {
+    "mtime": 1793668097.1354196,
+    "seen": 1793752823.8394997,
+    "ast_hash": "66b6ea1c49907eae77e8780be223ed1f",
+    "semantic_hash": "66b6ea1c49907eae77e8780be223ed1f"
+  },
+  "established/007_cantonese_comprehensive_grammar_units11-20.md": {
+    "mtime": 1793668234.7073264,
+    "seen": 1793752823.8395004,
+    "ast_hash": "da5312a5926a6af6e60118bb79f22e4f",
+    "semantic_hash": "da5312a5926a6af6e60118bb79f22e4f"
+  },
+  "established/008_cantonese_comprehensive_grammar_units21-30.md": {
+    "mtime": 1793668184.9270737,
+    "seen": 1793752823.8395011,
+    "ast_hash": "d3a955421b8a020fe9e68510a35fe4dc",
+    "semantic_hash": "d3a955421b8a020fe9e68510a35fe4dc"
+  },
+  "established/009_cantonese_comprehensive_grammar_units31-40.md": {
+    "mtime": 1793668273.489886,
+    "seen": 1793752823.8395019,
+    "ast_hash": "2e233eafd78a8b074cca324523b90903",
+    "semantic_hash": "2e233eafd78a8b074cca324523b90903"
+  },
+  "established/010_cantonese_comprehensive_grammar_units41-50.md": {
+    "mtime": 1793668217.0084178,
+    "seen": 1793752823.8395023,
+    "ast_hash": "afb33ae1661d9c16fa0d84f0f8ac930d",
+    "semantic_hash": "afb33ae1661d9c16fa0d84f0f8ac930d"
+  },
+  "established/011_cantonese_comprehensive_grammar_units51-60.md": {
+    "mtime": 1793668249.211685,
+    "seen": 1793752823.839503,
+    "ast_hash": "a0e943495e86cef791987abf56d605f2",
+    "semantic_hash": "a0e943495e86cef791987abf56d605f2"
+  },
+  "established/012_cantonese_comprehensive_grammar_units61-70.md": {
+    "mtime": 1793668178.525383,
+    "seen": 1793752823.8395035,
+    "ast_hash": "34473307f2c5c5b5458e4269e5546bf2",
+    "semantic_hash": "34473307f2c5c5b5458e4269e5546bf2"
+  },
+  "established/013_cantonese_comprehensive_grammar_units71-80.md": {
+    "mtime": 1793668208.372346,
+    "seen": 1793752823.8395042,
+    "ast_hash": "af7e0d3541f88d29761c45d4a877eee3",
+    "semantic_hash": "af7e0d3541f88d29761c45d4a877eee3"
+  },
+  "established/014_cantonese_comprehensive_grammar_units81-90.md": {
+    "mtime": 1793668192.6602154,
+    "seen": 1793752823.839505,
+    "ast_hash": "baaa124b83c5aa341ff9e7474f06fe40",
+    "semantic_hash": "baaa124b83c5aa341ff9e7474f06fe40"
+  },
+  "established/015_cantonese_comprehensive_grammar_units91-100.md": {
+    "mtime": 1793668233.1435516,
+    "seen": 1793752823.8395054,
+    "ast_hash": "5a0645e87c8fabeb32f8593db2a5fd16",
+    "semantic_hash": "5a0645e87c8fabeb32f8593db2a5fd16"
+  },
+  "established/016_cantonese_comprehensive_grammar_units101-110.md": {
+    "mtime": 1793668259.6101437,
+    "seen": 1793752823.839506,
+    "ast_hash": "08fc34bdf8de86b2431b4a41f28d914e",
+    "semantic_hash": "08fc34bdf8de86b2431b4a41f28d914e"
+  },
+  "established/017_cantonese_comprehensive_grammar_units111-120.md": {
+    "mtime": 1793668246.2666605,
+    "seen": 1793752823.8395064,
+    "ast_hash": "743fb714995167faa08b2b897ecbecd4",
+    "semantic_hash": "743fb714995167faa08b2b897ecbecd4"
+  },
+  "established/018_cantonese_comprehensive_grammar_units121-130.md": {
+    "mtime": 1793668265.7628222,
+    "seen": 1793752823.8395069,
+    "ast_hash": "df6f974778b06098f926a90e173d1e35",
+    "semantic_hash": "df6f974778b06098f926a90e173d1e35"
+  },
+  "established/019_cantonese_comprehensive_grammar_units131-140.md": {
+    "mtime": 1793668257.7487557,
+    "seen": 1793752823.8395078,
+    "ast_hash": "2d2bfd85a509be0559fbb4aa97f4b448",
+    "semantic_hash": "2d2bfd85a509be0559fbb4aa97f4b448"
+  },
+  "established/020_cantonese_comprehensive_grammar_units141-150.md": {
+    "mtime": 1793668279.7489378,
+    "seen": 1793752823.8395085,
+    "ast_hash": "015485e49bb51dae0a560640855a1048",
+    "semantic_hash": "015485e49bb51dae0a560640855a1048"
+  },
+  "established/021_cantonese_comprehensive_grammar_units151-160.md": {
+    "mtime": 1793669545.1139061,
+    "seen": 1793752823.839509,
+    "ast_hash": "385548c4daac12626e616190792b28f5",
+    "semantic_hash": "385548c4daac12626e616190792b28f5"
+  },
+  "established/022_cantonese_comprehensive_grammar_units161-170.md": {
+    "mtime": 1793669537.0338235,
+    "seen": 1793752823.8395095,
+    "ast_hash": "51b34165441642db1115ae8f29394d9e",
+    "semantic_hash": "51b34165441642db1115ae8f29394d9e"
+  },
+  "established/023_cantonese_comprehensive_grammar_units171-180.md": {
+    "mtime": 1793669497.7094197,
+    "seen": 1793752823.8395102,
+    "ast_hash": "be79b63fb34645c843e6b9f54fffaf0d",
+    "semantic_hash": "be79b63fb34645c843e6b9f54fffaf0d"
+  },
+  "established/024_cantonese_comprehensive_grammar_units181-190.md": {
+    "mtime": 1793669511.2545593,
+    "seen": 1793752823.8395107,
+    "ast_hash": "e677eef12f1def0f85735f6e01a4518a",
+    "semantic_hash": "e677eef12f1def0f85735f6e01a4518a"
+  },
+  "established/025_cantonese_comprehensive_grammar_imperatives_and_speech_conventions.md": {
+    "mtime": 1793669655.54002,
+    "seen": 1793752823.8395116,
+    "ast_hash": "1202284fd5f49df3dadbd63059d4fa44",
+    "semantic_hash": "1202284fd5f49df3dadbd63059d4fa44"
+  },
+  "established/026_cantonese_comprehensive_grammar_units201-210.md": {
+    "mtime": 1793669657.5230398,
+    "seen": 1793752823.839512,
+    "ast_hash": "9b407a8083ffd96d37b8aa6d0f66a4d6",
+    "semantic_hash": "9b407a8083ffd96d37b8aa6d0f66a4d6"
+  },
+  "established/027_cantonese_comprehensive_grammar_units211-220.md": {
+    "mtime": 1793669676.0802248,
+    "seen": 1793752823.8395128,
+    "ast_hash": "4db2c8a481c4708eeff60bf0b16e765c",
+    "semantic_hash": "4db2c8a481c4708eeff60bf0b16e765c"
+  },
+  "established/028_cantonese_comprehensive_grammar_units221-226.md": {
+    "mtime": 1793669649.2222178,
+    "seen": 1793752823.8395133,
+    "ast_hash": "d6fb3168ad434f35c9d0df01ccb4c2ee",
+    "semantic_hash": "d6fb3168ad434f35c9d0df01ccb4c2ee"
+  },
+  "established/029a_basic_cantonese_grammar_and_workbook_part1.md": {
+    "mtime": 1793748084.7567165,
+    "seen": 1793752823.8395138,
+    "ast_hash": "ff07f8c2d0f789f9a41d466331e09c33",
+    "semantic_hash": "ff07f8c2d0f789f9a41d466331e09c33"
+  },
+  "established/029b_basic_cantonese_grammar_and_workbook_part2.md": {
+    "mtime": 1793748212.968839,
+    "seen": 1793752823.8395143,
+    "ast_hash": "afce9c447f4f49faac7b9164caa5db8e",
+    "semantic_hash": "afce9c447f4f49faac7b9164caa5db8e"
+  },
+  "established/029c_basic_cantonese_grammar_and_workbook_part3.md": {
+    "mtime": 1793748356.0430896,
+    "seen": 1793752823.8395152,
+    "ast_hash": "6e61a4093259b18b4a9de236855d2f0d",
+    "semantic_hash": "6e61a4093259b18b4a9de236855d2f0d"
+  },
+  "established/030a_colloquial_cantonese_2010_part1.md": {
+    "mtime": 1793748039.403319,
+    "seen": 1793752823.8395157,
+    "ast_hash": "a9cc1c7e11b302561ba3aee22f968eaa",
+    "semantic_hash": "a9cc1c7e11b302561ba3aee22f968eaa"
+  },
+  "established/030b_colloquial_cantonese_2010_part2.md": {
+    "mtime": 1793748148.7453227,
+    "seen": 1793752823.8395162,
+    "ast_hash": "470910ee25ba98492ab88eb52b13fde9",
+    "semantic_hash": "470910ee25ba98492ab88eb52b13fde9"
+  },
+  "established/030c_colloquial_cantonese_2010_part3.md": {
+    "mtime": 1793748313.9893239,
+    "seen": 1793752823.8395169,
+    "ast_hash": "8ec7fc7f8f2b98261e2ca5a8fd3512e1",
+    "semantic_hash": "8ec7fc7f8f2b98261e2ca5a8fd3512e1"
+  },
+  "established/031_cantonese_languages_of_the_world.md": {
+    "mtime": 1793748131.066122,
+    "seen": 1793752823.8395174,
+    "ast_hash": "5904d32e9ed05c3e1e6f29056b9dd632",
+    "semantic_hash": "5904d32e9ed05c3e1e6f29056b9dd632"
+  },
+  "established/032_intermediate_cantonese_grammar_pp1-36.md": {
+    "mtime": 1793748772.0357382,
+    "seen": 1793752823.8395183,
+    "ast_hash": "4af3f33abdc5b1827040391db32f551f",
+    "semantic_hash": "4af3f33abdc5b1827040391db32f551f"
+  },
+  "established/033_intermediate_cantonese_grammar_pp37-72.md": {
+    "mtime": 1793748767.6966913,
+    "seen": 1793752823.8395188,
+    "ast_hash": "a0f626da596afecfde0b085c2982165e",
+    "semantic_hash": "a0f626da596afecfde0b085c2982165e"
+  },
+  "established/034_intermediate_cantonese_grammar_pp73-108.md": {
+    "mtime": 1793748691.5844655,
+    "seen": 1793752823.8395193,
+    "ast_hash": "c9e5c5171a09057c590825f5b3f08a40",
+    "semantic_hash": "c9e5c5171a09057c590825f5b3f08a40"
+  },
+  "established/035_intermediate_cantonese_grammar_pp109-144.md": {
+    "mtime": 1793748787.7230878,
+    "seen": 1793752823.8395197,
+    "ast_hash": "0ae950ccf85b36cd6d7235a87e546ce1",
+    "semantic_hash": "0ae950ccf85b36cd6d7235a87e546ce1"
+  },
+  "established/036_intermediate_cantonese_grammar_pp145-180.md": {
+    "mtime": 1793748843.5935037,
+    "seen": 1793752823.8395205,
+    "ast_hash": "f69288897d8bb9aa5dc4361fb1d0f18c",
+    "semantic_hash": "f69288897d8bb9aa5dc4361fb1d0f18c"
+  },
+  "established/037_intermediate_cantonese_grammar_pp181-217.md": {
+    "mtime": 1793748787.5439057,
+    "seen": 1793752823.8395228,
+    "ast_hash": "5ee7eb01c1248fa37b06c4f63a98853f",
+    "semantic_hash": "5ee7eb01c1248fa37b06c4f63a98853f"
+  },
+  "established/038_teach_yourself_cantonese_pp1-35.md": {
+    "mtime": 1793748736.253407,
+    "seen": 1793752823.8395233,
+    "ast_hash": "44e893b1a1edc684dca1e96d2355e454",
+    "semantic_hash": "44e893b1a1edc684dca1e96d2355e454"
+  },
+  "established/039_teach_yourself_cantonese_pp36-70.md": {
+    "mtime": 1793748995.1192098,
+    "seen": 1793752823.8395238,
+    "ast_hash": "1039799d2d3287bcf65637c85f166e4a",
+    "semantic_hash": "1039799d2d3287bcf65637c85f166e4a"
+  },
+  "established/040_teach_yourself_cantonese_pp71-105.md": {
+    "mtime": 1793748784.0038676,
+    "seen": 1793752823.8395243,
+    "ast_hash": "17ce7bcf713820aee24b5985e2a29ff2",
+    "semantic_hash": "17ce7bcf713820aee24b5985e2a29ff2"
+  },
+  "established/041_teach_yourself_cantonese_pp106-140.md": {
+    "mtime": 1793748760.3036168,
+    "seen": 1793752823.8395252,
+    "ast_hash": "8a5d2b590e57e67560f8c33cfbada2e5",
+    "semantic_hash": "8a5d2b590e57e67560f8c33cfbada2e5"
+  },
+  "established/042_teach_yourself_cantonese_pp141-175.md": {
+    "mtime": 1793748884.8219376,
+    "seen": 1793752823.8395257,
+    "ast_hash": "455c6dae83fc7bffef9cee7822520c93",
+    "semantic_hash": "455c6dae83fc7bffef9cee7822520c93"
+  },
+  "established/043_teach_yourself_cantonese_pp176-210.md": {
+    "mtime": 1793748772.1292841,
+    "seen": 1793752823.8395264,
+    "ast_hash": "6175d0efcbef5ba73e1b9cb321f66ab5",
+    "semantic_hash": "6175d0efcbef5ba73e1b9cb321f66ab5"
+  },
+  "established/044_teach_yourself_cantonese_pp211-245.md": {
+    "mtime": 1793748941.587377,
+    "seen": 1793752823.839527,
+    "ast_hash": "abd001a63d4516e04817f80fd008d612",
+    "semantic_hash": "abd001a63d4516e04817f80fd008d612"
+  },
+  "established/045_teach_yourself_cantonese_pp246-280.md": {
+    "mtime": 1793748902.1271183,
+    "seen": 1793752823.8395274,
+    "ast_hash": "9661b5d06424a8f80e6126d407b42fae",
+    "semantic_hash": "9661b5d06424a8f80e6126d407b42fae"
+  },
+  "established/046_teach_yourself_cantonese_pp281-315.md": {
+    "mtime": 1793749043.5085664,
+    "seen": 1793752823.839528,
+    "ast_hash": "619434d0de1fc24faae6d478a6d0ae69",
+    "semantic_hash": "619434d0de1fc24faae6d478a6d0ae69"
+  },
+  "established/047_teach_yourself_cantonese_pp316-346.md": {
+    "mtime": 1793748819.5862489,
+    "seen": 1793752823.8395288,
+    "ast_hash": "6a0f9bdafd047f0a13f32d8c38be8eae",
+    "semantic_hash": "6a0f9bdafd047f0a13f32d8c38be8eae"
+  },
+  "established/048_language_relations_in_guangzhou.md": {
+    "mtime": 1793749416.9812186,
+    "seen": 1793752823.8395293,
+    "ast_hash": "67921ed6ec2cb659004a7cd868f04f2b",
+    "semantic_hash": "67921ed6ec2cb659004a7cd868f04f2b"
+  },
+  "established/049_hong_kong_language_and_national_identity.md": {
+    "mtime": 1793749221.3713307,
+    "seen": 1793752823.8395298,
+    "ast_hash": "69ea5ee47444c1c43c651c179e4ba522",
+    "semantic_hash": "69ea5ee47444c1c43c651c179e4ba522"
+  },
+  "established/050_lonely_planet_cantonese_phrasebook_pp1-40.md": {
+    "mtime": 1793749769.0774336,
+    "seen": 1793752823.8395345,
+    "ast_hash": "0f6e3b266212a2ab1847ea2ddc541586",
+    "semantic_hash": "0f6e3b266212a2ab1847ea2ddc541586"
+  },
+  "established/051_lonely_planet_cantonese_phrasebook_pp41-80.md": {
+    "mtime": 1793749736.0232213,
+    "seen": 1793752823.8395355,
+    "ast_hash": "4b19f9b885eac68dfbac106a7be829b8",
+    "semantic_hash": "4b19f9b885eac68dfbac106a7be829b8"
+  },
+  "established/052_lonely_planet_cantonese_phrasebook_pp81-120.md": {
+    "mtime": 1793751047.610401,
+    "seen": 1793752823.8395362,
+    "ast_hash": "61d126d37f9f3afd7481ac7ac45909b2",
+    "semantic_hash": "61d126d37f9f3afd7481ac7ac45909b2"
+  },
+  "established/053_lonely_planet_cantonese_phrasebook_pp121-160.md": {
+    "mtime": 1793749824.610044,
+    "seen": 1793752823.8395367,
+    "ast_hash": "21969e0ba07337e74d8e75cae195a860",
+    "semantic_hash": "21969e0ba07337e74d8e75cae195a860"
+  },
+  "established/054_pimsleur_cantonese_i_reading_booklet.md": {
+    "mtime": 1793749919.1419177,
+    "seen": 1793752823.8395371,
+    "ast_hash": "33e9549b55820eb136bd84b22e093775",
+    "semantic_hash": "33e9549b55820eb136bd84b22e093775"
+  },
+  "established/055_colloquial_cantonese_1994_supplement.md": {
+    "mtime": 1793749884.3565967,
+    "seen": 1793752823.8395376,
+    "ast_hash": "156c5a95cec1350a69ca68f2f7e3fa1a",
+    "semantic_hash": "156c5a95cec1350a69ca68f2f7e3fa1a"
+  },
+  "grammar_logic/native_speaker_queries/README.md": {
+    "mtime": 1793667728.2841077,
+    "seen": 1793752823.8395383,
+    "ast_hash": "2f2ba5962eaed4d70eb21de718448e1b",
+    "semantic_hash": "2f2ba5962eaed4d70eb21de718448e1b"
+  }
+}

@@ -394,6 +394,36 @@ ethnic slur the dictionary itself flags as derogatory (*panggalatot*, toward Pan
 The `/graphify` graph (first ever for this language) was built from 3 independently-dispatched
 chunks under the same node-density discipline used on every other language's graph.
 
+**Cantonese reached Phase 1 completion 2026-11-03 — the thirteenth language in the project,
+extracted in a single session at the user's explicit direction, overriding the standing
+one-wave-per-day pacing set for this language on 2026-10-30.** Triage was already complete
+(`datasets/Cantonese/00_Book_Triage_Catalog.md`); Wave 1 had already run in an earlier session,
+and this session ran Waves 2-5 back-to-back. `established/` has 60 files (incl. lettered sub-parts,
+`001`-`055`), ~323,000 words, covering *A Dictionary of Cantonese Slang*, *Cantonese: A
+Comprehensive Grammar*, *Basic Cantonese*, *Colloquial Cantonese* (2010 and a 1994-edition
+non-redundant-supplement check), Killingley's *Cantonese* grammar sketch, *Intermediate Cantonese*,
+*Teach Yourself Cantonese*, two academic sociolinguistic sources on Guangzhou/Hong Kong
+code-separation and prestige, the *Lonely Planet Cantonese Phrasebook*, and the Pimsleur
+"Cantonese I" Reading Booklet. Every file across all 5 waves was independently structurally
+verified (12-column + placeholder-residue checks) by the orchestrating session. Two genuine
+triage-verdict corrections were caught by direct verification rather than trusting prior notes:
+`11.Gateway to Cantonese.djvu` turned out to be Chinese-medium (廣州話入門), not the English-medium
+course its filename implied, and was excluded mid-wave; and the Pimsleur booklet's "mostly
+blank/no text layer" triage verdict was overturned when vision-reading revealed substantial genuine
+content — both documented as incidents in `00_RESUME_HERE.md`, reaffirming the project's
+render/read-before-trusting-triage discipline even against a source already marked "confirmed."
+Flagship finds: the High/Low Cantonese diglossia; the *-lóu/-pó/-jái/-léui/-mūi* pejorative-suffix
+family (incl. a *gwái-* foreigner-naming set) and *gwái*-infixation ("magic of gwái"); the
+*haih*/*mhaih* premise-agreement answer logic (flagged for grammar-logic diagram work); a
+rule-governed English/Japanese loanword-nativization system; *tùhng-ji* ("comrade") as a reclaimed
+gay-address term; a dense *dóu-* gambling-register compound family; the book-named "Shortcuts"
+phrase-clipping mechanism documented independently in two separate course books; and a "Gay
+Travellers" colloquialism section in the Lonely Planet phrasebook paralleling this project's
+Japanese Rough Guide precedent. The `/graphify` graph (first ever for this language) was built from
+11 independently-dispatched chunks: 1,110 nodes, 1,168 edges, 33 hyperedges, 142 communities, with a
+perfectly clean health-check result — zero dangling/missing/self-loop/collapsed edges, the cleanest
+of any language graphify rebuild in this project to date.
+
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive
    coverage of every book, for every language, at this granularity does not appear tractable in

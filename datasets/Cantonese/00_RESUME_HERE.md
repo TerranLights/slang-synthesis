@@ -1,6 +1,8 @@
 # Cantonese Phase 1 Extraction — Resume Point
 
-**Status, 2026-11-02: Wave 1 COMPLETE (dispatched manually, not via cron — see incident log). Waves 2-5 not started.**
+**Status, 2026-11-03: ALL 5 WAVES COMPLETE. Cantonese has reached full Phase 1.** Waves 2-5 were
+run back-to-back in a single day at the user's explicit direction, overriding the standing
+one-wave-per-day pacing for this specific session ("just data-extract all the way through Chinese").
 
 **Pacing constraint (explicit, user-set 2026-10-30):** ONE WAVE PER DAY, no exceptions, due to
 token-burn concerns — see memory `cantonese_extraction_plan`. **Do not dispatch more than one wave
@@ -24,10 +26,10 @@ sibling numbering starts at `001`.
 | Wave | Tier | Files | Status |
 |---|---|---|---|
 | **1** | Tier 1 — flagship | `09.A Dictionary of Cantonese Slang.pdf` (sampled), `07.Cantonese A Comprehensive Grammar.djvu` (full) | **DONE (2026-11-02) — 28 files, 001-028, ~123,229 words** |
-| 2 | Tier 2 — high priority, clean text | `04.Basic Cantonese A Grammar and Workbook.pdf`, `03.Colloquial Cantonese 2010.pdf`, `06.Cantonese - Languages of the World.pdf` | NOT STARTED |
-| 3 | Tier 3 — medium-high, vision course/grammar supplements | `05.Intermediate Cantonese A Grammar and Workbook.pdf`, `01.Teach Yourself Cantonese.pdf`, `11.Gateway to Cantonese.djvu` | NOT STARTED |
-| 4 | Tier 4 — medium, academic/sociolinguistic | `13.Language Relations in Guangzhou.pdf`, `12.Hong Kong (Language and National Identity in Asia).pdf` | NOT STARTED |
-| 5 | Tier 5 — low priority | `08.Lonely Planet Cantonese Phrasebook.pdf`, `00.Cantonese I Reading Booklet.pdf`/`.doc`, 1994 Colloquial Cantonese (non-redundant supplement only) | NOT STARTED |
+| 2 | Tier 2 — high priority, clean text | `04.Basic Cantonese A Grammar and Workbook.pdf`, `03.Colloquial Cantonese 2010.pdf`, `06.Cantonese - Languages of the World.pdf` | **DONE (2026-11-03) — 7 files, 029a-c/030a-c/031, ~30,728 words** |
+| 3 | Tier 3 — medium-high, vision course/grammar supplements | `05.Intermediate Cantonese A Grammar and Workbook.pdf`, `01.Teach Yourself Cantonese.pdf` (`11.Gateway to Cantonese.djvu` EXCLUDED 2026-11-03 — confirmed Chinese-medium on render, see triage catalog) | **DONE (2026-11-03) — 16 files, 032-047, ~62,086 words (1 connection-error retry on 036, recovered cleanly)** |
+| 4 | Tier 4 — medium, academic/sociolinguistic | `13.Language Relations in Guangzhou.pdf`, `12.Hong Kong (Language and National Identity in Asia).pdf` | **DONE (2026-11-03) — 2 files, 048/049, ~5,828 words** |
+| 5 | Tier 5 — low priority | `08.Lonely Planet Cantonese Phrasebook.pdf`, `00.Cantonese I Reading Booklet.pdf`/`.doc`, 1994 Colloquial Cantonese (non-redundant supplement only) | **DONE (2026-11-03) — 6 files, 050-055, ~49,490 words** |
 
 ---
 
@@ -129,3 +131,83 @@ empty — no actual query sheets written yet. The grammar's tone-sandhi/register
 throughout Wave 1 (e.g. the particle-tone pragmatic-force mapping in units 171-180, the *jēk*
 age/gender-register note in 181-190) are good candidates for the first real query sheets once the
 `analysis/` layer starts.
+
+5. **One Wave 3 subagent (Intermediate Grammar pp145-180) was killed mid-response by a connection
+   error** ("API Error: Connection lost mid-response") before writing any file. Caught by checking
+   disk state (file absent) rather than trusting the terminated status alone; resumed via
+   `SendMessage` with an explicit "redo from scratch" instruction, which completed cleanly on retry.
+   **No different from the standard subagent-failure recovery discipline already used in this
+   project — logged mainly because it's the first connection-level (not logic-level) failure seen
+   in this dataset's extraction history.**
+6. **`11.Gateway to Cantonese.djvu` was excluded mid-Wave-3**, not during the original triage. The
+   triage catalog had flagged it as an open item ("not yet sampled for content quality"); a direct
+   render of the title page before dispatching its chunk revealed it's actually **廣州話入門**
+   ("Introduction to Cantonese"), a **Chinese-medium** textbook by Chén Huìyīng & Mǎ Wényì (Beijing
+   Language and Culture University Press) — not the English-medium course its filename suggested.
+   Corrected in both the triage catalog and this file before dispatch continued; Wave 3 proceeded
+   with its two remaining Tier 3 titles only. **Validates the project's standing discipline of
+   rendering/sampling a title before dispatching a full chunked wave against it, even when triage
+   already flagged the file as "confirmed real content" — confirming existence isn't the same as
+   confirming medium.**
+7. **The Pimsleur "Cantonese I" Reading Booklet's triage verdict ("mostly blank/image, effectively
+   zero real text") was wrong**, caught during its Wave 5 dispatch. The triage's `pdftotext`-based
+   text-layer check correctly found no extractable text layer, but the file is actually a fully
+   legible 38-page scanned-image booklet with substantial cultural-linguistic essay content — the
+   triage tooling conflated "no text layer" with "no content," the same CJK/font-cipher-adjacent
+   trap this project has hit before with other image-only sources. **Reinforces that a `NONE(vision)`
+   triage verdict means "needs vision reading," never "low content" — the two are independent axes,
+   and this project's own triage notes have occasionally blurred them for short files.**
+
+**Wave 2 outcome (2026-11-03):** 7 files (`029a-c`/`030a-c`/`031`), ~30,728 words — the two
+clean-text-layer Tier 2 course books (*Basic Cantonese: A Grammar and Workbook*, *Colloquial
+Cantonese* 2010) extracted via `pdftotext -layout` with no vision reading needed, plus the compact
+Killingley *Cantonese* grammar sketch (vision-read, confirmed distinct numbered-tone romanization
+system). Flagship finds: an explicit "(slang)" label on *ji jeng* in the Basic Cantonese book; a
+documented colloquial-vs-formal vocabulary-doublet system and taboo-numeral avoidance in Colloquial
+Cantonese 2010.
+
+**Wave 3 outcome (2026-11-03):** 16 files (`032`-`047`), ~62,086 words — full vision-read extraction
+of *Intermediate Cantonese: A Grammar and Workbook* (6 chunks) and *Teach Yourself Cantonese* (10
+chunks), both front-to-back including confirmed back matter. Dense productive-morphology findings
+throughout: the *-lóu/-pó/-jái/-léui/-mūi* pejorative-suffix family (including the *gwái-*
+foreigner-naming set), the *gwái*-infixation intensifier mechanism ("magic of gwái"), a
+rule-governed English/Japanese loanword-nativization system (Unit 25 of Intermediate Grammar — a
+strong `analysis/`-layer candidate), the book's own named "Shortcuts" phrase-clipping sections, and
+an explicit "Secret society slang" culture box in Teach Yourself Cantonese.
+
+**Wave 4 outcome (2026-11-03):** 2 files (`048`-`049`), ~5,828 words — both academic sociolinguistic
+sources, clean text layer, no vision needed. *Language Relations in Guangzhou* (Page, NTNU thesis)
+documents a strict Cantonese/Mandarin register-separation system (no code-mixing, unlike Hong Kong)
+built on markedness/reciprocity/face theory. The Simpson "Hong Kong" chapter traces the
+Cantonese-English mixed-code prestige sociolect and argues Cantonese, not English or Mandarin,
+remains Hong Kong's real identity-carrier post-1997 — a useful contrast pair with Guangzhou's
+strict-separation norm.
+
+**Wave 5 outcome (2026-11-03):** 6 files (`050`-`055`), ~49,490 words — the Lonely Planet Cantonese
+Phrasebook (4 chunks, full book, no dedicated slang chapter found despite several explicit "(col)"-
+tagged entries and callout boxes, including a genuine "Gay Travellers" colloquialism section), the
+Pimsleur booklet (see incident #7), and the 1994 Colloquial Cantonese non-redundant-supplement check
+(confirmed near-identical to the already-extracted 2010 edition; only a swapped Unit 1/2 order and 2
+minor vocabulary rows were genuinely new — correctly concluded "no further extraction warranted"
+rather than padding the file).
+
+---
+
+## PHASE 1 COMPLETE — final totals (2026-11-03)
+
+**60 files** (`001`-`055`, with lettered sub-parts), **~323,000 words**, every file independently
+verified by the orchestrating session (12-column structural check + placeholder-residue grep on
+every single file across all 5 waves — never just trusted from a subagent's own report). All 5
+tiers from the triage catalog's priority order were covered; `11.Gateway to Cantonese.djvu` was the
+only planned title excluded (confirmed Chinese-medium, see incident #6).
+
+**Not yet done:**
+- `00_Extraction_Checklist.md` update (next step)
+- Graphify rebuild for `datasets/Cantonese/`
+- Cross-language tracking docs (`LANGUAGE_INDEX.md`, `00_Analysis_Index.md`, `ROADMAP.md`) and the
+  Language Ledger artifact
+- Native-speaker query folder is still empty — real candidate questions have accumulated across all
+  5 waves (tone-sandhi/pragmatic-force mappings, several unresolved idioms like *waahk-gwái-geuk*
+  flagged explicitly as needing native-speaker verification) and should be turned into real query
+  sheets whenever the `analysis/` layer work begins
+- Commit/push — **not done without asking first**, per standing project rule
