@@ -137,6 +137,7 @@ provisional if you ever need to cite one.
 | Language | Nations | `source_reference/` status | Priority |
 |---|---|---|---|
 | **Japanese** | Japan (~65M eff.) | Present (`Japanese`) | 🔴 **HIGH PRIORITY** |
+| Okinawan (Ryukyuan branch — not a Japanese dialect; split from Japanese ~1,500+ years ago, low mutual intelligibility) | — (Japan's census entry maps to Japanese as the national standard; Okinawan not separately broken out by the source doc) | **Not present — acquisition gap.** Newly added to this project's own roster 2026-11-04, per D-26 in the sibling `TepenianLanguage` repo (`handoffs_to_slang_synthesis/2026-11-04_okinawan_ruling.md`): the developer ruled Okinawan stays a `slang-synthesis` source language but is dropped entirely from the Hawaiian-synthesis roster — so it's tracked here now on its own terms, no longer tied to a Hawaii-contact justification. Severely endangered in its home domain (Okinawa); no material found yet in `source_reference/`, the external drive, or the LibGen-sourced unsorted stashes in any recent sweep. A targeted acquisition search hasn't been run — see this repo's own `handoffs_to_tepenian_language/2026-11-04_okinawan_reconsideration.md` for background. | cataloged, not GINI-tagged — acquisition gap, no sweep run yet |
 
 ## Koreanic
 
