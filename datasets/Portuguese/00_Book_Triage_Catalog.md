@@ -356,6 +356,19 @@ specifically because of the "non-English-medium-of-itself is flagged, not auto-e
 
 ## 8. Flagged for your ruling — Portuguese-medium-of-itself / native-medium literature (46 files)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* These 46 files are now **in scope as usage
+material** — arguably the cleanest fit for the ruling's own wording of any language's flagged
+pile, since a good share of this one is native-medium literature, not just foreign-learner course
+apparatus. The ruling answers the medium question but not the mechanics: it does not say when/how
+to extract, nor whether output belongs in `established/` or `language_corpus/` (this project's
+usage-corpus vs. reference-corpus distinction) — and here specifically, it also doesn't resolve
+this catalog's own pan-Portuguese/European/Brazilian regional-variation breakdown (§7) for this
+newly-in-scope material. **Do not extract on this ruling alone — wait for the next explicit
+instruction.**
+
 Per the task's explicit instruction, a Portuguese-medium reference work of Portuguese itself (or
 native-medium Portuguese-language literature) is never silently excluded or silently kept. **Not
 excluded, not kept — a decision is needed**, the same recurring open question this project has hit

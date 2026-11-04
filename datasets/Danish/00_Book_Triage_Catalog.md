@@ -136,6 +136,16 @@ German-medium exclusions in §1 rather than here.
 
 ## 5. FLAGGED FOR YOUR RULING — Danish-medium-of-Danish (16 files)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* All 16 of these files are genuinely
+Danish-medium, so this one is a clean case — they're now **in scope as usage material**. The
+ruling answers the medium question but not the mechanics: it does not say when/how to extract
+them, nor whether output belongs in `established/` or `language_corpus/` (this project's
+usage-corpus vs. reference-corpus distinction). **Do not extract on this ruling alone — wait for
+the next explicit instruction.**
+
 Same recurring open question this project has hit for every Scandinavian-family language so far
 (Norwegian's §5, Swedish's §5, closest siblings): this is real, substantial course and reference
 material, written **in Danish**, mostly explicitly for "dansk som andetsprog" ("Danish as a second

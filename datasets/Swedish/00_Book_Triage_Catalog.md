@@ -161,6 +161,16 @@ content.
 
 ## 5. FLAGGED FOR YOUR RULING — Swedish-medium-of-Swedish (37 files)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* These 37 files are now **in scope as usage
+material** — the ruling answers the medium question but not the mechanics. It does not say when
+or how to extract them, nor whether the output belongs in `established/` or `language_corpus/`
+(this project's usage-corpus vs. reference-corpus distinction, see
+`usage_corpus_vs_reference_corpus` in project memory). **Do not extract on this ruling alone — wait
+for the next explicit instruction.**
+
 Per the handoff's explicit instruction, these are **not excluded and not kept by default** — they
 are genuine Swedish-as-a-second-language course materials (the SFI — *Svenska för invandrare* —
 tradition: explanatory apparatus, instructions, and grammar notes written **in Swedish**, for

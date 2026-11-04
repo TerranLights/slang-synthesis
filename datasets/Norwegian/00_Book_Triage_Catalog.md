@@ -150,6 +150,21 @@ I.pdf`, `Norske folke-eventyr vol. II.pdf` — each individually rendered and co
 
 ## 5. FLAGGED FOR YOUR RULING — Norwegian/German/Portuguese-medium-of-Norwegian (41 files)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* This clearly covers the **Norwegian-medium**
+majority of this pile (§5a/§5c, the NFU/SFI course series and the idiom/dictionary items) — now
+**in scope as usage material**. **One open nuance the handoff itself doesn't resolve**: §5b's 3
+German-medium and 1 Portuguese-medium grammars *of* Norwegian aren't "written in the target
+language" at all — they're written in a third language *about* Norwegian, a different case from
+what this ruling's wording describes. Flagging rather than silently folding them in; worth a
+specific check before treating those 4 the same way as the other 37. **For the Norwegian-medium
+majority: the ruling answers the medium question but not the mechanics — it does not say when/how
+to extract, nor whether output belongs in `established/` or `language_corpus/` (this project's
+usage-corpus vs. reference-corpus distinction). Do not extract on this ruling alone — wait for the
+next explicit instruction.**
+
 Same open question this project has hit for every Scandinavian-family language so far (Swedish's
 §5, closest sibling): this is real, substantial reference and course material, but its explanatory
 apparatus is written in a language other than English — overwhelmingly **Norwegian itself** (the

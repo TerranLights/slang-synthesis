@@ -170,6 +170,17 @@ Indonesian-subject-matter is genuinely about one or both of those languages.
 
 ## 5. FLAGGED FOR YOUR RULING — non-English-medium-of-itself (1 file)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* This file is now **in scope as usage
+material** — the ruling answers the medium question but not the mechanics: it does not say
+when/how to extract it, nor whether output belongs in `established/` or `language_corpus/` (this
+project's usage-corpus vs. reference-corpus distinction). **Do not extract on this ruling alone —
+wait for the next explicit instruction.** (This is also Indonesian's only monolingual dictionary in
+this harvest — if it's ever extracted, note Malay still has zero such candidate, flagged/unflagged,
+per this catalog's own earlier gap finding.)
+
 Same recurring open question this project has hit for nearly every language triaged so far: a
 non-English-medium reference work of the language itself is never silently excluded or silently kept
 — it's flagged here instead. **Not excluded, not kept — a decision is needed.**

@@ -195,6 +195,15 @@ Tofa.pdf`.
 
 ## 6. FLAGGED FOR YOUR RULING — non-English-medium-of-itself (2 files)
 
+**RULING RECEIVED, 2026-11-04** (per `TepenianLanguage/handoffs_to_slang_synthesis/
+2026-11-04_native_medium_ruling.md`, citing `TepenianLanguage/DECISIONS.md` D-25 Books written in
+the target languages: usage study): *"Books written in target languages are to be used for
+studying how the languages are used in practice."* Both of these files are now **in scope as
+usage material** — the ruling answers the medium question but not the mechanics: it does not say
+when/how to extract them, nor whether output belongs in `established/` or `language_corpus/`
+(this project's usage-corpus vs. reference-corpus distinction). **Do not extract on this ruling
+alone — wait for the next explicit instruction.**
+
 The recurring open category this project flags rather than silently excludes or keeps — a
 non-English-medium reference/resource of the language itself:
 
