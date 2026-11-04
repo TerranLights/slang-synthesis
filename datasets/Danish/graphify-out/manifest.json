@@ -1,0 +1,74 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793788747.3191247,
+    "seen": 1793791042.2996287,
+    "ast_hash": "6071d5f35db4250dade16ca7574f1e25",
+    "semantic_hash": "6071d5f35db4250dade16ca7574f1e25"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793790464.5353014,
+    "seen": 1793791042.2996323,
+    "ast_hash": "13a60f1c82edccfb5d68a7866e11fa3e",
+    "semantic_hash": "13a60f1c82edccfb5d68a7866e11fa3e"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793789989.3987055,
+    "seen": 1793791042.2996337,
+    "ast_hash": "afe34090afaea964828330778355503f",
+    "semantic_hash": "afe34090afaea964828330778355503f"
+  },
+  "established/001_danish_an_essential_grammar.md": {
+    "mtime": 1793786944.2523494,
+    "seen": 1793791042.2996347,
+    "ast_hash": "f6bdfa09acd378905c225a48e65e8ca0",
+    "semantic_hash": "f6bdfa09acd378905c225a48e65e8ca0"
+  },
+  "established/002_danish_an_elementary_grammar_and_reader.md": {
+    "mtime": 1793787759.827299,
+    "seen": 1793791042.2996354,
+    "ast_hash": "bdd8ce16fea8b9ffe1d7823b497b3467",
+    "semantic_hash": "bdd8ce16fea8b9ffe1d7823b497b3467"
+  },
+  "established/003_mini_grammar_book_english_danish.md": {
+    "mtime": 1793787069.4992301,
+    "seen": 1793791042.2996361,
+    "ast_hash": "87be0ff938e51f685ae1ecb4774a6db9",
+    "semantic_hash": "87be0ff938e51f685ae1ecb4774a6db9"
+  },
+  "established/004_language_30_danish_phrase_dictionary.md": {
+    "mtime": 1793787339.7081366,
+    "seen": 1793791042.2996373,
+    "ast_hash": "4d74e399285dbf40efebbb04f4c65143",
+    "semantic_hash": "4d74e399285dbf40efebbb04f4c65143"
+  },
+  "established/005_colloquial_danish.md": {
+    "mtime": 1793788674.8564281,
+    "seen": 1793791042.2996378,
+    "ast_hash": "f375826d29854315965c1df2e9644708",
+    "semantic_hash": "f375826d29854315965c1df2e9644708"
+  },
+  "established/006_teach_yourself_danish.md": {
+    "mtime": 1793790579.8931732,
+    "seen": 1793791042.2996385,
+    "ast_hash": "f79f258a811b633705823104fb88e4ec",
+    "semantic_hash": "f79f258a811b633705823104fb88e4ec"
+  },
+  "established/007_danish_course_book.md": {
+    "mtime": 1793788587.9378371,
+    "seen": 1793791042.2996392,
+    "ast_hash": "6ae651bbbee0a07edb27919c3fedce7d",
+    "semantic_hash": "6ae651bbbee0a07edb27919c3fedce7d"
+  },
+  "established/008_hc_andersen_eventyr_og_historier.md": {
+    "mtime": 1793789220.7428365,
+    "seen": 1793791042.2996402,
+    "ast_hash": "f9f6889c9ae95b603aa92ffd3bbe481c",
+    "semantic_hash": "f9f6889c9ae95b603aa92ffd3bbe481c"
+  },
+  "established/009_grundtvig_danish_popular_tales.md": {
+    "mtime": 1793789282.1073098,
+    "seen": 1793791042.2996411,
+    "ast_hash": "7d518b147e3a1b0bce86996e8b69b6dc",
+    "semantic_hash": "7d518b147e3a1b0bce86996e8b69b6dc"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793762122.8571424,
+    "seen": 1793783222.4586883,
+    "ast_hash": "93b0b690521c0779ca83bd43b82ee3a1",
+    "semantic_hash": "93b0b690521c0779ca83bd43b82ee3a1"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793782408.532774,
+    "seen": 1793783222.4586911,
+    "ast_hash": "cf5f8d0ba2b767eb77fd2f4487a598aa",
+    "semantic_hash": "cf5f8d0ba2b767eb77fd2f4487a598aa"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793782364.559474,
+    "seen": 1793783222.4586923,
+    "ast_hash": "6a2347f64ce44c0c914ebe549a2aac09",
+    "semantic_hash": "6a2347f64ce44c0c914ebe549a2aac09"
+  },
+  "established/001_swedish_an_essential_grammar.md": {
+    "mtime": 1793775670.4124293,
+    "seen": 1793783222.458693,
+    "ast_hash": "fcb7e858fcb5f7cfda35a881039f9f30",
+    "semantic_hash": "fcb7e858fcb5f7cfda35a881039f9f30"
+  },
+  "established/002_swedish_grammar_modern_bjorkhagen.md": {
+    "mtime": 1793775934.636613,
+    "seen": 1793783222.4586937,
+    "ast_hash": "a62c10a26f51bf06c649ae0af6e96c4a",
+    "semantic_hash": "a62c10a26f51bf06c649ae0af6e96c4a"
+  },
+  "established/003_swedish_grammar_and_reader_uppvall.md": {
+    "mtime": 1793776149.271384,
+    "seen": 1793783222.4586945,
+    "ast_hash": "58cbbaf48d3df6d4561d20cfed76c142",
+    "semantic_hash": "58cbbaf48d3df6d4561d20cfed76c142"
+  },
+  "established/004_swedish_andersson_chapter.md": {
+    "mtime": 1793774943.1854513,
+    "seen": 1793783222.458695,
+    "ast_hash": "2c25bc0a89dcf2ee58c6766d37fd4bcf",
+    "semantic_hash": "2c25bc0a89dcf2ee58c6766d37fd4bcf"
+  },
+  "established/005_in_flight_swedish.md": {
+    "mtime": 1793774414.743158,
+    "seen": 1793783222.4586954,
+    "ast_hash": "5a18925472cbc17aaacfbafe2347d6a8",
+    "semantic_hash": "5a18925472cbc17aaacfbafe2347d6a8"
+  },
+  "established/006_norstedts_lilla_engelska_ordbok_sample.md": {
+    "mtime": 1793776968.1201305,
+    "seen": 1793783222.458696,
+    "ast_hash": "33c38a9bc36f453a8122404334f6cc92",
+    "semantic_hash": "33c38a9bc36f453a8122404334f6cc92"
+  },
+  "established/007_prismas_engelska_ordbok_sample.md": {
+    "mtime": 1793777806.3237562,
+    "seen": 1793783222.4586964,
+    "ast_hash": "c25b5223fe17d4fd5db055cdb059ff0e",
+    "semantic_hash": "c25b5223fe17d4fd5db055cdb059ff0e"
+  },
+  "established/008_teach_yourself_swedish_croghan.md": {
+    "mtime": 1793778747.3568635,
+    "seen": 1793783222.4586968,
+    "ast_hash": "c2d5bcd3e77e6d9a2277c3f641b7c833",
+    "semantic_hash": "c2d5bcd3e77e6d9a2277c3f641b7c833"
+  },
+  "established/009_teach_yourself_swedish_mcclean_1947.md": {
+    "mtime": 1793779100.2544105,
+    "seen": 1793783222.4586978,
+    "ast_hash": "19f3e079b3b78b2ed4b6c8dd0780fc31",
+    "semantic_hash": "19f3e079b3b78b2ed4b6c8dd0780fc31"
+  },
+  "established/010_teach_yourself_speak_swedish_with_confidence.md": {
+    "mtime": 1793779530.8675692,
+    "seen": 1793783222.4586983,
+    "ast_hash": "2956983f9393ad3c84e307101a1a731a",
+    "semantic_hash": "2956983f9393ad3c84e307101a1a731a"
+  },
+  "established/011a_beginning_swedish_johnson_1939.md": {
+    "mtime": 1793778726.8924613,
+    "seen": 1793783222.4586987,
+    "ast_hash": "08585ba6fd48f1713c98246f5ce92376",
+    "semantic_hash": "08585ba6fd48f1713c98246f5ce92376"
+  },
+  "established/011b_beginning_swedish_johnson_1939.md": {
+    "mtime": 1793778995.8170135,
+    "seen": 1793783222.4586992,
+    "ast_hash": "d619101fedaf614fa8eddf61f68cc4e0",
+    "semantic_hash": "d619101fedaf614fa8eddf61f68cc4e0"
+  },
+  "established/011c_beginning_swedish_johnson_1939.md": {
+    "mtime": 1793779222.3123028,
+    "seen": 1793783222.4586997,
+    "ast_hash": "6e2a6c682ade4c5164bc720d17c79f7e",
+    "semantic_hash": "6e2a6c682ade4c5164bc720d17c79f7e"
+  },
+  "established/012_glossika_swedish_1.md": {
+    "mtime": 1793778860.1906712,
+    "seen": 1793783222.4587002,
+    "ast_hash": "b578ae5656968e863857b9738618ea23",
+    "semantic_hash": "b578ae5656968e863857b9738618ea23"
+  },
+  "established/013_glossika_swedish_2.md": {
+    "mtime": 1793779121.9723592,
+    "seen": 1793783222.458701,
+    "ast_hash": "6e29096987f41a43bab393a46f282b0a",
+    "semantic_hash": "6e29096987f41a43bab393a46f282b0a"
+  },
+  "established/014_glossika_swedish_3.md": {
+    "mtime": 1793778824.8594174,
+    "seen": 1793783222.4587014,
+    "ast_hash": "85977aecaac0686c5462445d08ef124c",
+    "semantic_hash": "85977aecaac0686c5462445d08ef124c"
+  },
+  "established/015a_swedish_basic_course_fsi_part1.md": {
+    "mtime": 1793779313.7489738,
+    "seen": 1793783222.458702,
+    "ast_hash": "1dd6621ea1783298d22066b1170ed37b",
+    "semantic_hash": "1dd6621ea1783298d22066b1170ed37b"
+  },
+  "established/015b_swedish_basic_course_fsi_part2.md": {
+    "mtime": 1793779398.3773968,
+    "seen": 1793783222.4587026,
+    "ast_hash": "c4b7f7017cd284660a1e3dbbdec45b4d",
+    "semantic_hash": "c4b7f7017cd284660a1e3dbbdec45b4d"
+  },
+  "established/015c_swedish_basic_course_fsi_part3.md": {
+    "mtime": 1793779496.2563186,
+    "seen": 1793783222.458703,
+    "ast_hash": "a8502cde1107b6a15db170461cfaff74",
+    "semantic_hash": "a8502cde1107b6a15db170461cfaff74"
+  },
+  "established/016_advanced_spoken_swedish_soderback.md": {
+    "mtime": 1793780002.1349466,
+    "seen": 1793783222.4587035,
+    "ast_hash": "e5fd74f608d98bda0b795ce70c6e8cda",
+    "semantic_hash": "e5fd74f608d98bda0b795ce70c6e8cda"
+  },
+  "established/017a_colloquial_swedish_1996.md": {
+    "mtime": 1793779920.1888807,
+    "seen": 1793783222.4587042,
+    "ast_hash": "767f3a75f9af2e4a99d4970ccfc2fbf9",
+    "semantic_hash": "767f3a75f9af2e4a99d4970ccfc2fbf9"
+  },
+  "established/017b_colloquial_swedish_1996.md": {
+    "mtime": 1793779920.1893728,
+    "seen": 1793783222.4587047,
+    "ast_hash": "7fea6f93a606a1f0973941be9879a39a",
+    "semantic_hash": "7fea6f93a606a1f0973941be9879a39a"
+  },
+  "established/017c_colloquial_swedish_1996.md": {
+    "mtime": 1793779920.1898367,
+    "seen": 1793783222.4587054,
+    "ast_hash": "5b69e896b5524997106ebc3e12f66238",
+    "semantic_hash": "5b69e896b5524997106ebc3e12f66238"
+  },
+  "established/018a_colloquial_swedish_2007.md": {
+    "mtime": 1793779920.1903524,
+    "seen": 1793783222.458706,
+    "ast_hash": "c978ac78367d55d72d98252823b0f9b6",
+    "semantic_hash": "c978ac78367d55d72d98252823b0f9b6"
+  },
+  "established/018b_colloquial_swedish_2007.md": {
+    "mtime": 1793779920.1906536,
+    "seen": 1793783222.4587064,
+    "ast_hash": "a0cdc1b27d93f9fd20fd6d685c763f0d",
+    "semantic_hash": "a0cdc1b27d93f9fd20fd6d685c763f0d"
+  },
+  "established/018c_colloquial_swedish_2007.md": {
+    "mtime": 1793779920.1909215,
+    "seen": 1793783222.4587066,
+    "ast_hash": "b882f4b9e715f6e42cdd078439bd4dda",
+    "semantic_hash": "b882f4b9e715f6e42cdd078439bd4dda"
+  },
+  "established/019_beginners_swedish.md": {
+    "mtime": 1793780817.4729295,
+    "seen": 1793783222.458707,
+    "ast_hash": "fefcbf531f4e0d0ff0e847b4d38b76c7",
+    "semantic_hash": "fefcbf531f4e0d0ff0e847b4d38b76c7"
+  },
+  "established/020_lindgren_lillebror_och_karlsson.md": {
+    "mtime": 1793780583.623205,
+    "seen": 1793783222.4587078,
+    "ast_hash": "cb0d64625caf333c3300a551a1088afd",
+    "semantic_hash": "cb0d64625caf333c3300a551a1088afd"
+  },
+  "established/021_lindgren_karlsson_flyger_igen.md": {
+    "mtime": 1793780574.8822978,
+    "seen": 1793783222.4587083,
+    "ast_hash": "caa8f46ae62f17ed317c807f97bc1e44",
+    "semantic_hash": "caa8f46ae62f17ed317c807f97bc1e44"
+  },
+  "established/022_lindgren_karlsson_smyger_igen.md": {
+    "mtime": 1793780641.189629,
+    "seen": 1793783222.4587088,
+    "ast_hash": "95d9fdd692d8c16089c71546532b7c9b",
+    "semantic_hash": "95d9fdd692d8c16089c71546532b7c9b"
+  },
+  "established/023_lindgren_pippi_lagstrump_gar_ombord.md": {
+    "mtime": 1793781017.2894568,
+    "seen": 1793783222.4587095,
+    "ast_hash": "c23ed7e9975a18d620cf528ee493a67d",
+    "semantic_hash": "c23ed7e9975a18d620cf528ee493a67d"
+  },
+  "established/024_lindgren_kalle_blomkvist_och_rasmus.md": {
+    "mtime": 1793780933.2017844,
+    "seen": 1793783222.45871,
+    "ast_hash": "d250cb16f375c37f3e302d7a8b74832b",
+    "semantic_hash": "d250cb16f375c37f3e302d7a8b74832b"
+  },
+  "established/025_lindgren_masterdetektiven_blomkvist.md": {
+    "mtime": 1793781007.5473337,
+    "seen": 1793783222.4587104,
+    "ast_hash": "79429b6777582cf0f0a9874cac89af32",
+    "semantic_hash": "79429b6777582cf0f0a9874cac89af32"
+  },
+  "established/026_lindgren_masterdetektiven_lever_farligt.md": {
+    "mtime": 1793781268.5732646,
+    "seen": 1793783222.4587111,
+    "ast_hash": "f3f53de8110450eee01e8590b997b0e5",
+    "semantic_hash": "f3f53de8110450eee01e8590b997b0e5"
+  },
+  "established/027_lindgren_emil_i_lonneberga.md": {
+    "mtime": 1793781286.7783992,
+    "seen": 1793783222.4587116,
+    "ast_hash": "0a1b18d8b94c2572e01af37508a267f4",
+    "semantic_hash": "0a1b18d8b94c2572e01af37508a267f4"
+  },
+  "established/028_lindgren_vi_pa_saltkrakan.md": {
+    "mtime": 1793781445.6865757,
+    "seen": 1793783222.458712,
+    "ast_hash": "c19fec46368c78d5568bcb267804b133",
+    "semantic_hash": "c19fec46368c78d5568bcb267804b133"
+  },
+  "established/029_jansson_mummintrollets_forsta_vinter.md": {
+    "mtime": 1793781737.524434,
+    "seen": 1793783222.4587126,
+    "ast_hash": "b9327517ef14395b99bbb7a2a3e933c5",
+    "semantic_hash": "b9327517ef14395b99bbb7a2a3e933c5"
+  },
+  "established/030_holmstrom_tvasamhet.md": {
+    "mtime": 1793781874.776462,
+    "seen": 1793783222.458713,
+    "ast_hash": "2692c058a31afb61316b849913499d3a",
+    "semantic_hash": "2692c058a31afb61316b849913499d3a"
+  },
+  "established/031_wallstrom_da_hon_dog.md": {
+    "mtime": 1793781843.5070722,
+    "seen": 1793783222.4587135,
+    "ast_hash": "4b6de1ae68440bd3c770cbb7f9bea4ee",
+    "semantic_hash": "4b6de1ae68440bd3c770cbb7f9bea4ee"
+  },
+  "established/032_alander_sma_stycken_av_stockholm.md": {
+    "mtime": 1793782187.2222798,
+    "seen": 1793783222.458714,
+    "ast_hash": "2b7179c5fa2bd7f1ec638c385df26944",
+    "semantic_hash": "2b7179c5fa2bd7f1ec638c385df26944"
+  },
+  "established/033_alander_mellan_stockholm_och_abo.md": {
+    "mtime": 1793782216.0774722,
+    "seen": 1793783222.4587154,
+    "ast_hash": "6b705a9aa1e27dce74f1793c7cd0a033",
+    "semantic_hash": "6b705a9aa1e27dce74f1793c7cd0a033"
+  },
+  "established/034_the_svenssons_texts_1_22.md": {
+    "mtime": 1793782200.2303665,
+    "seen": 1793783222.4587162,
+    "ast_hash": "e0b87944e30872e2df8270691732feeb",
+    "semantic_hash": "e0b87944e30872e2df8270691732feeb"
+  },
+  "established/035_historical_dictionary_of_sweden.md": {
+    "mtime": 1793780430.2521777,
+    "seen": 1793783222.4587166,
+    "ast_hash": "f2021864fc591b47d7b466675df7b935",
+    "semantic_hash": "f2021864fc591b47d7b466675df7b935"
+  },
+  "established/036_culture_and_customs_of_sweden.md": {
+    "mtime": 1793780496.3575625,
+    "seen": 1793783222.4587173,
+    "ast_hash": "e3de7012932e0cc72fe6d7eb975d3a09",
+    "semantic_hash": "e3de7012932e0cc72fe6d7eb975d3a09"
+  }
+}

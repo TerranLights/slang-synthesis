@@ -219,6 +219,19 @@ test, worth checking for on any future language's sources rather than rediscover
   only by reading the printed page numbers themselves rather than assuming PDF page order tracks
   printed order; worth a quick sanity check (do the visible page numbers increase monotonically as
   you step through?) on any vision-read source before trusting sequential dispatch.
+- **A PDF can report a real text layer (`pdfinfo`/`pdffonts` show embedded fonts and text objects)
+  while `pdftotext` — with or without `-layout` — returns pure unstructured noise, not a decodable
+  cipher and not blank.** Found twice independently on 2026-11-04: Swedish's *Teach Yourself Speak
+  Swedish with Confidence* and all three *Glossika Swedish* levels (vector-outline text drawn as
+  paths with zero character/ToUnicode mapping at all — confirmed via `pdfimages -list` returning no
+  raster images either, so it isn't the embedded-raster-image case above); and Danish's *Teach
+  Yourself Danish*, where the garbage output isn't vector-outline but genuinely unrecoverable
+  extraction noise despite a direct render confirming the underlying scan is clean, legible print.
+  **Diagnostic recipe**: `pdftotext` near-empty or garbled AND `pdfimages -list` empty AND
+  `pdftoppm`-rendered pages show real legible content → treat as vision-only regardless of what
+  `pdfinfo` claims about the text layer; don't waste time hunting for a decode table, and don't
+  trust a triage catalog's "confirmed TEXT layer" note without re-verifying `pdftotext`'s actual
+  output yourself before dispatching a text-based extraction wave against it.
 
 ### Morphological composition
 

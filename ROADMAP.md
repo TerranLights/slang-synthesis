@@ -422,7 +422,54 @@ Travellers" colloquialism section in the Lonely Planet phrasebook paralleling th
 Japanese Rough Guide precedent. The `/graphify` graph (first ever for this language) was built from
 11 independently-dispatched chunks: 1,110 nodes, 1,168 edges, 33 hyperedges, 142 communities, with a
 perfectly clean health-check result — zero dangling/missing/self-loop/collapsed edges, the cleanest
-of any language graphify rebuild in this project to date.
+of any language graphify rebuild in this project to date (since surpassed by Danish, below).
+
+**Swedish, Norwegian, and Danish all reached Phase 1 completion 2026-11-04 — the 14th, 15th, and
+16th languages in the project, extracted overnight in a single unattended session at the user's
+explicit direction ("full complete data-extraction on the Scandinavian languages... continue
+through without me").** All three had already been triaged the day before (2026-11-03), per a
+handoff from the sibling `TepenianLanguage` repo naming them as "second-era" (Tepenian-stage)
+contributing-language candidates. Each triage catalog flagged a substantial pile of
+medium-of-itself source material (Swedish 37 files, Norwegian 41 files, Danish 16 files) — these
+were deliberately left un-extracted pending the user's explicit ruling, honoring this project's
+standing "flag, don't guess" rule even under the night's "continue without me" authorization; the
+instruction was read as license to proceed without pausing for process questions, not as license
+to resolve an already-flagged open decision unilaterally.
+
+- **Swedish** (`datasets/Swedish/`): 44 `established/` files, ~335,000 words. Flagship finds: a
+  documented 85-year diachronic arc of the noun-gender collapse (3→4→2 categories) corroborated
+  across three sources spanning 1923-2008; the Rinkebysvensk/förortsvenska immigrant multiethnolect;
+  a cross-dictionary register-tag disagreement on the *skit-*/*skita* cluster; the recurring
+  "världens bästa [X]" self-praise idiolect template, independently confirmed across all three
+  Karlsson books by three different subagents who hadn't seen each other's output. A new PDF gotcha
+  (vector-outline text with zero ToUnicode mapping) was found and logged to the shared extraction
+  spec. `/graphify` (first ever for this language): 481 nodes, 389 edges, 6 hyperedges, 111
+  communities, clean health check.
+- **Norwegian** (`datasets/Norwegian/`): 36 `established/` files, ~370,700 words. The triage caught
+  a 10-file Faroese-misfiled-as-Norwegian contamination before dispatch. Flagship finds: three
+  independent cross-dictionary register-tag systems; a double-tagged ethnic slur one dictionary
+  flags as offensive itself; the *kjempe-* productive intensifier prefix; a cross-folktale
+  stock-epithet naming system (Mikkel=fox, Bamse=bear, Askeladden=hero). Norwegian's flagged
+  medium-of-itself pile is the highest-stakes of any Scandinavian-family language here — it gates
+  all three of this stash's flagship slang/idiom dictionaries *and* every Nynorsk-standard source
+  in the whole corpus. `/graphify` (first ever for this language): 313 nodes, 320 edges, 6
+  hyperedges, 20 communities, clean health check.
+- **Danish** (`datasets/Danish/`): 9 `established/` files, ~150,600 words — the smallest and
+  cleanest of the three. Flagship find: the *nok/da/dog/jo/nu/vel/vist* unstressed
+  discourse-particle system, independently corroborated three separate times across the session. A
+  new PDF gotcha (a text layer that reports present via `pdfinfo` but returns pure unrecoverable
+  noise via `pdftotext`) was found and logged; a real-time file-rewrite race between two
+  concurrently-dispatched completion passes on the same source resolved cleanly to one complete,
+  independently-verified version. Unlike Swedish/Norwegian, Danish's flagged medium-of-itself pile
+  contains no flagship slang/idiom candidate at all — a real standing gap regardless of how the
+  ruling goes. `/graphify` (first ever for this language): 158 nodes, 42 edges, 3 hyperedges, 120
+  communities, with a **perfectly clean health check — zero issues of any kind** — the cleanest
+  graphify rebuild of any language in this project to date.
+
+Every file across all three languages was independently structurally verified (12-column +
+placeholder-residue checks) by the orchestrating session, consistent with every prior language's
+extraction discipline in this project. Full wave-by-wave detail, incident logs, and flagship
+findings for each language are in their own `00_RESUME_HERE.md` and `00_Extraction_Checklist.md`.
 
 1. **Exhaustive vs. representative extraction per book/language.** Manually extracting even 20
    well-sourced entries from ~2 pages of a 531-page book took a substantial single pass — exhaustive

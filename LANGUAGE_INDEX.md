@@ -62,9 +62,9 @@ provisional if you ever need to cite one.
 | **English** | USA (~155M eff.), UK (~32M eff.), Canada (~20M eff.), Australia (~13M eff.), New Zealand (~2.6M eff.) | Present, **Phase 1 complete** (`datasets/English/`; 259 `established/` files) — driven by the sibling `TepenianHawaiian` project's need for English as a required structural donor (English/Japanese/Tagalog pidgin origin), this closes out all three required-core languages. Covers the Chicago Manual of Style (incl. Garner's Grammar and Usage chapter), New Oxford Style Manual (incl. the flagship US/British contrast chapter), the full original ESL collection, and the full Old English pack. First `/graphify` run complete: 3,517 nodes, 4,187 edges, 252 communities. One source (`Comprehensive Grammar[A4].pdf`) turned out to be a misfiled Chinese grammar and was excluded. | 🔴 **HIGH PRIORITY — tenth language to reach full Phase 1 completion** — five separate nations; expect real dialectal slang divergence (American/British/Canadian/Australian/NZ) worth tracking per-nation once corpus work begins |
 | **German** | Germany (~46M eff.), Belgium (partial, ~6.4M eff., trilingual) | **Not in `source_reference/`**, but **triaged 2026-11-01** (`datasets/German/00_Book_Triage_Catalog.md`) directly from the external drive (`w-lang/German/`, 8.3G/222 files harvested as 164 after dedup/exclusion). 164 harvested → 6 excluded (wrong metalanguage/audience), 25 non-content assets, 3 unopened archives, ~50 bulk-corpus magazine issues set aside, leaving **≈133 real Phase 1 candidates** (51 TEXT/82 vision — the most vision-dependent stash in the project at 62%). 5 priority tiers assigned; flagship slang title *Dirty German Everyday Slang* identified (Tier 2). **Not yet staged for extraction** — the user has not authorized extraction. | 🔴 **HIGH PRIORITY — triaged, extraction not yet authorized** |
 | **Dutch** | Netherlands (~10M eff.), Belgium (partial, trilingual) | Present, **Phase 1 complete** (`Dutch`; ~813,000 words across 167 `established/` files; see `datasets/Dutch/`) | 🔴 **HIGH PRIORITY — sixth-furthest along of any GINI language** |
-| **Swedish** | Sweden (~6M eff.) | **Triaged 2026-11-03** (`datasets/Swedish/00_Book_Triage_Catalog.md`), combining the external drive, the in-repo folder, and two previously-unchecked unsorted stashes. 156 files harvested → 104 net-unique real candidates (31 text/73 vision, 70% vision-dominant). Flagship slang candidate found (*Svenska idiom*) but it's Swedish-medium; 37 Swedish-medium titles flagged for a ruling. Not staged for extraction. | 🔴 **HIGH PRIORITY — triaged, extraction not yet authorized** |
-| **Norwegian** | Norway (~3.3M eff.) | **Triaged 2026-11-03** (`datasets/Norwegian/00_Book_Triage_Catalog.md`) from the external drive, 109 files. Caught a real contamination finding: the "Reading Books" folder is two-thirds **Faroese**, not Norwegian (excluded). 41 files flagged for a ruling (Norwegian/German/Portuguese-medium), including 3 flagship slang/idiom candidates and the major academic reference grammar; 27 clearly in scope. 23 text/78 vision (77%). Not staged for extraction. | 🔴 **HIGH PRIORITY — triaged, extraction not yet authorized** |
-| Danish | — | **Triaged 2026-11-03** (`datasets/Danish/00_Book_Triage_Catalog.md`). 39 net-unique files (the 14-file in-repo folder was entirely duplicate of the external drive) → 10 clean candidates, 16 flagged for a ruling (Danish-medium-of-itself). The cleanest text/vision ratio of any Scandinavian language here (25 text/12 vision, 32%). No dedicated slang title found anywhere — a flagged gap. Not staged for extraction. | cataloged, not GINI-tagged |
+| **Swedish** | Sweden (~6M eff.) | **Phase 1 complete for the clearly-in-scope pool, 2026-11-04** (`datasets/Swedish/`; 44 `established/` files, ~335,000 words), extracted overnight at the user's explicit direction. The triage catalog's §5 pile of 37 Swedish-medium-of-Swedish files (incl. the flagship slang dictionary *Svenska idiom*) remains deliberately un-extracted pending the user's ruling. Own `graphify-out/`: 481 nodes, 111 communities, clean health check. | 🔴 **HIGH PRIORITY — 14th language to reach Phase 1** |
+| **Norwegian** | Norway (~3.3M eff.) | **Phase 1 complete for the clearly-in-scope pool, 2026-11-04** (`datasets/Norwegian/`; 36 `established/` files, ~370,700 words), extracted overnight at the user's explicit direction. The triage catalog's §5 pile of 41 Norwegian/German/Portuguese-medium files — the highest-stakes flagged pile of any Scandinavian-family language, gating all 3 flagship slang/idiom dictionaries AND every Nynorsk-standard source in the corpus — remains deliberately un-extracted pending the user's ruling. A 10-file Faroese-misfiled-as-Norwegian contamination was caught and excluded at triage. Own `graphify-out/`: 313 nodes, 20 communities, clean health check. | 🔴 **HIGH PRIORITY — 15th language to reach Phase 1** |
+| Danish | — | **Phase 1 complete for the clearly-in-scope pool, 2026-11-04** (`datasets/Danish/`; 9 `established/` files, ~150,600 words), extracted overnight at the user's explicit direction — the smallest and cleanest of the three Scandinavian languages extracted this session. The triage catalog's §5 pile of 16 Danish-medium-of-Danish files remains deliberately un-extracted pending the user's ruling; unlike Swedish/Norwegian it contains no flagship slang/idiom candidate at all. Own `graphify-out/`: 158 nodes, 120 communities, a perfectly clean health check (zero issues of any kind) — the cleanest graphify rebuild of any language in this project to date. | cataloged, not GINI-tagged — 16th language to reach Phase 1 |
 | Icelandic | — | Present (`Icelandic`, `Icelandic-Faroese`; +795M/48-file external-drive stash found 2026-10-26, untriaged) | cataloged, not GINI-tagged |
 | Old English | — (historical stage, not a living GINI nation) | Present (`Old English Language Learning Pack`) | cataloged, not GINI-tagged |
 
@@ -347,13 +347,15 @@ its Slavic-branch table entry above — though its corpus is thin (2 titles, no 
 readers) if extracted as-is. **German is no longer in this list either — it's triaged**, see "New
 external-drive addition batch" above.
 
-**Among the remaining GINI-priority languages with a real external-drive copy: German, Portuguese,
-Norwegian, Swedish, Indonesian (Indonesia), and Malay (Malaysia) have all now been triaged**
-(Malay/Indonesian together, see the Austronesian table below) — not just found. **Bulgarian,
-Ukrainian, Thai, and Vietnamese still have a real copy sitting untriaged.** Outside the GINI
-roster entirely, this same triage pass also covered Danish, Mongolian, Kazakh, Polish, and
-Belarusian (the last three not GINI-tagged at all) — see their own branch-table entries above for
-detail.
+**Among the remaining GINI-priority languages with a real external-drive copy: Swedish and
+Norwegian have reached full Phase 1 completion (2026-11-04, overnight extraction)**; **German,
+Portuguese, Indonesian (Indonesia), and Malay (Malaysia) have been triaged** (Malay/Indonesian
+together, see the Austronesian table below) but not yet extracted. **Bulgarian, Ukrainian, Thai,
+and Vietnamese still have a real copy sitting untriaged.** Outside the GINI roster entirely, this
+same 2026-11-03 triage pass also covered Danish, Mongolian, Kazakh, Polish, and Belarusian (none
+GINI-tagged) — Danish has since also reached full Phase 1 completion alongside Swedish and
+Norwegian; Mongolian, Kazakh, Polish, and Belarusian remain triaged-only — see their own
+branch-table entries above for detail.
 
 **27 of the 43 nations already have usable `source_reference/` material** (18 distinct languages,
 several covering multiple nations) and could start Phase 1 immediately once prioritized: English (USA, UK,
@@ -363,13 +365,16 @@ Mexico, Argentina, Chile, Uruguay — 5 nations), Romanian, Russian, Serbian/Cro
 Croatia — 2 nations), Slovenian, Lithuanian, Latvian, Finnish, Estonian, Hungarian, Japanese,
 Korean, Mandarin.
 
-**Thirteen languages have already reached full Phase 1 completion** (in completion order): Serbian/
-Croatian/Bosnian, Hungarian, Korean, Russian (by far the largest corpus of the thirteen), Spanish,
+**Sixteen languages have already reached full Phase 1 completion** (in completion order): Serbian/
+Croatian/Bosnian, Hungarian, Korean, Russian (by far the largest corpus of the sixteen), Spanish,
 Dutch, Romanian (the smallest of the original ten), Japanese, Tagalog, English (2026-10-27/29),
 Hawaiian, Ilocano (both 2026-10-30, closing acquisition gaps for the sibling `TepenianHawaiian`
-project), and Cantonese (2026-11-03, all four remaining waves run back-to-back in a single session
-at the user's explicit direction) — see `datasets/00_Analysis_Index.md` for current status of
-every language in progress. **Spanish is
+project), Cantonese (2026-11-03, all four remaining waves run back-to-back in a single session
+at the user's explicit direction), and Swedish, Norwegian, Danish (2026-11-04, all three extracted
+overnight in one unattended session per the user's explicit "continue through without me"
+instruction — each with a standing-ruling-pending pile of medium-of-itself source material left
+deliberately un-extracted) — see `datasets/00_Analysis_Index.md` for current status of every
+language in progress. **Spanish is
 still expanding**: it has a real external-drive stash that's triaged but not yet extracted, so its
 "complete" describes its original corpus only, not its full available material. **Korean's known
 external-drive stash was fully extracted 2026-10-29** (6 dispatch waves, K1-K6 — see

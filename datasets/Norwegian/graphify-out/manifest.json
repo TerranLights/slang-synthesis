@@ -1,0 +1,236 @@
+{
+  "00_Book_Triage_Catalog.md": {
+    "mtime": 1793763208.915638,
+    "seen": 1793787873.177409,
+    "ast_hash": "078aad1cf2eb32d6af97eb8a46540027",
+    "semantic_hash": "078aad1cf2eb32d6af97eb8a46540027"
+  },
+  "00_Extraction_Checklist.md": {
+    "mtime": 1793787208.5502102,
+    "seen": 1793787873.177412,
+    "ast_hash": "6f755b06061e4b504b93045fc297bb09",
+    "semantic_hash": "6f755b06061e4b504b93045fc297bb09"
+  },
+  "00_RESUME_HERE.md": {
+    "mtime": 1793786285.8757865,
+    "seen": 1793787873.1774135,
+    "ast_hash": "6bbdaa2f6a3fb5adaca37ee7b521d106",
+    "semantic_hash": "6bbdaa2f6a3fb5adaca37ee7b521d106"
+  },
+  "established/001_norwegian_verbs_and_essentials_of_grammar.md": {
+    "mtime": 1793783834.430064,
+    "seen": 1793787873.1774142,
+    "ast_hash": "e03997daca220a51afeb32e0535d1a69",
+    "semantic_hash": "e03997daca220a51afeb32e0535d1a69"
+  },
+  "established/002_practical_norwegian_grammar.md": {
+    "mtime": 1793784672.3624506,
+    "seen": 1793787873.1774147,
+    "ast_hash": "dfe41cf818f8c5113ad83f1e35e6b159",
+    "semantic_hash": "dfe41cf818f8c5113ad83f1e35e6b159"
+  },
+  "established/003_phonology_of_norwegian.md": {
+    "mtime": 1793783247.420109,
+    "seen": 1793787873.1774151,
+    "ast_hash": "63442145e5117e8cb313fe9ba0401c1f",
+    "semantic_hash": "63442145e5117e8cb313fe9ba0401c1f"
+  },
+  "established/004_norwegian_english_dictionary_haugen_sample.md": {
+    "mtime": 1793783610.2322497,
+    "seen": 1793787873.1774158,
+    "ast_hash": "941a4a5cd2fa3cbbdc07e4db90cd226a",
+    "semantic_hash": "941a4a5cd2fa3cbbdc07e4db90cd226a"
+  },
+  "established/005_engelsk_norsk_ordbok_sample.md": {
+    "mtime": 1793784171.3416836,
+    "seen": 1793787873.1774166,
+    "ast_hash": "2e9cc7c8db6c5c17cb1fa5eb21244068",
+    "semantic_hash": "2e9cc7c8db6c5c17cb1fa5eb21244068"
+  },
+  "established/006_berlitz_norwegian_phrase_dictionary.md": {
+    "mtime": 1793782829.381699,
+    "seen": 1793787873.1774173,
+    "ast_hash": "58fce767e623e579ea665eaf9a6c4274",
+    "semantic_hash": "58fce767e623e579ea665eaf9a6c4274"
+  },
+  "established/007_norwegian_reading_booklets.md": {
+    "mtime": 1793785188.276262,
+    "seen": 1793787873.1774178,
+    "ast_hash": "7f105729ed75875bcfba6c43c4fd933d",
+    "semantic_hash": "7f105729ed75875bcfba6c43c4fd933d"
+  },
+  "established/008_teach_yourself_norwegian_conversation.md": {
+    "mtime": 1793784844.0923605,
+    "seen": 1793787873.177418,
+    "ast_hash": "59327406c600b2cf864fa74c7c867b5e",
+    "semantic_hash": "59327406c600b2cf864fa74c7c867b5e"
+  },
+  "established/009_teach_yourself_speak_norwegian_with_confidence.md": {
+    "mtime": 1793785203.133371,
+    "seen": 1793787873.1774187,
+    "ast_hash": "69e424ec932525778b9c362c2bf0fb2e",
+    "semantic_hash": "69e424ec932525778b9c362c2bf0fb2e"
+  },
+  "established/010_teach_yourself_norwegian.md": {
+    "mtime": 1793785252.353733,
+    "seen": 1793787873.1774194,
+    "ast_hash": "71f686385e798549cd40ffa9ab44634c",
+    "semantic_hash": "71f686385e798549cd40ffa9ab44634c"
+  },
+  "established/010b_teach_yourself_norwegian.md": {
+    "mtime": 1793785520.6287024,
+    "seen": 1793787873.1774197,
+    "ast_hash": "5816ce3e51433effad8732a0ee0f7641",
+    "semantic_hash": "5816ce3e51433effad8732a0ee0f7641"
+  },
+  "established/010c_teach_yourself_norwegian.md": {
+    "mtime": 1793785748.7152693,
+    "seen": 1793787873.1774206,
+    "ast_hash": "e7fa2434f1a88e2988597652e9949dae",
+    "semantic_hash": "e7fa2434f1a88e2988597652e9949dae"
+  },
+  "established/011_colloquial_norwegian.md": {
+    "mtime": 1793785443.1751342,
+    "seen": 1793787873.177421,
+    "ast_hash": "93c4c293f83dfe140f66e7558163c8bf",
+    "semantic_hash": "93c4c293f83dfe140f66e7558163c8bf"
+  },
+  "established/011_colloquial_norwegian_register_notes.md": {
+    "mtime": 1793785458.3762457,
+    "seen": 1793787873.1774216,
+    "ast_hash": "69755ccb89bd4b2ed528abbff7fe566f",
+    "semantic_hash": "69755ccb89bd4b2ed528abbff7fe566f"
+  },
+  "established/011b_colloquial_norwegian.md": {
+    "mtime": 1793785220.5404992,
+    "seen": 1793787873.177422,
+    "ast_hash": "605e20eb2ad7116f895ae26e4a263772",
+    "semantic_hash": "605e20eb2ad7116f895ae26e4a263772"
+  },
+  "established/011c_colloquial_norwegian_glossary.md": {
+    "mtime": 1793785396.3587906,
+    "seen": 1793787873.1774225,
+    "ast_hash": "f05f2c80ccedd97805fd2b54bb4e0620",
+    "semantic_hash": "f05f2c80ccedd97805fd2b54bb4e0620"
+  },
+  "established/011d_colloquial_norwegian_glossary.md": {
+    "mtime": 1793785396.3657906,
+    "seen": 1793787873.177423,
+    "ast_hash": "a0c61553fbfc3f70397d5e851522bc98",
+    "semantic_hash": "a0c61553fbfc3f70397d5e851522bc98"
+  },
+  "established/011e_colloquial_norwegian_glossary.md": {
+    "mtime": 1793785396.373043,
+    "seen": 1793787873.177424,
+    "ast_hash": "b2b9ee1e972dc05938a93800b989f1ef",
+    "semantic_hash": "b2b9ee1e972dc05938a93800b989f1ef"
+  },
+  "established/011f_colloquial_norwegian_glossary.md": {
+    "mtime": 1793785396.3794198,
+    "seen": 1793787873.1774244,
+    "ast_hash": "746012a5d5bcf5a7033e07951d11054f",
+    "semantic_hash": "746012a5d5bcf5a7033e07951d11054f"
+  },
+  "established/012_norwegian_in_three_months.md": {
+    "mtime": 1793785214.4604545,
+    "seen": 1793787873.1774251,
+    "ast_hash": "ae684e85dd55d0f43b48df12020df7a4",
+    "semantic_hash": "ae684e85dd55d0f43b48df12020df7a4"
+  },
+  "established/012b_norwegian_in_three_months.md": {
+    "mtime": 1793785608.6083472,
+    "seen": 1793787873.1774256,
+    "ast_hash": "0bd7cae2eb5c0c05a29e1e276c8027fb",
+    "semantic_hash": "0bd7cae2eb5c0c05a29e1e276c8027fb"
+  },
+  "established/012c_norwegian_in_three_months.md": {
+    "mtime": 1793786166.3703282,
+    "seen": 1793787873.177426,
+    "ast_hash": "47b9584851df678d16e87c963a140079",
+    "semantic_hash": "47b9584851df678d16e87c963a140079"
+  },
+  "established/013_norwegian_in_10_minutes_a_day.md": {
+    "mtime": 1793785394.9607804,
+    "seen": 1793787873.177427,
+    "ast_hash": "4a8bef872cdb181a0adfeb70572fd18c",
+    "semantic_hash": "4a8bef872cdb181a0adfeb70572fd18c"
+  },
+  "established/014_linguaphone_norsk_kurs_part1.md": {
+    "mtime": 1793785195.1723127,
+    "seen": 1793787873.1774275,
+    "ast_hash": "c60aa483c426f635e5b5c154fe88a6ac",
+    "semantic_hash": "c60aa483c426f635e5b5c154fe88a6ac"
+  },
+  "established/014_linguaphone_norsk_kurs_part2.md": {
+    "mtime": 1793785571.3480742,
+    "seen": 1793787873.177428,
+    "ast_hash": "b772229fc5ffbf98def3b85556539328",
+    "semantic_hash": "b772229fc5ffbf98def3b85556539328"
+  },
+  "established/014_linguaphone_norsk_kurs_part3.md": {
+    "mtime": 1793785907.7112758,
+    "seen": 1793787873.1774285,
+    "ast_hash": "b49a6b2dee6fccca168926d7cbfa13f3",
+    "semantic_hash": "b49a6b2dee6fccca168926d7cbfa13f3"
+  },
+  "established/014_linguaphone_norsk_kurs_part4.md": {
+    "mtime": 1793786000.62288,
+    "seen": 1793787873.177429,
+    "ast_hash": "e44b1a53cf9e61791cc0ece126576037",
+    "semantic_hash": "e44b1a53cf9e61791cc0ece126576037"
+  },
+  "established/015_instant_norwegian.md": {
+    "mtime": 1793784948.0724924,
+    "seen": 1793787873.1774294,
+    "ast_hash": "37c5037deec0c143b78c6cf6dad0e682",
+    "semantic_hash": "37c5037deec0c143b78c6cf6dad0e682"
+  },
+  "established/016_norwegian_self_instruction_bokmal.md": {
+    "mtime": 1793785073.87042,
+    "seen": 1793787873.17743,
+    "ast_hash": "6928989ab8177d41a2313adeb9853610",
+    "semantic_hash": "6928989ab8177d41a2313adeb9853610"
+  },
+  "established/017_sa_snakker_vi_norsk.md": {
+    "mtime": 1793785077.7354484,
+    "seen": 1793787873.1774306,
+    "ast_hash": "bdbacd6d85072a0958f0d0ea75b371b8",
+    "semantic_hash": "bdbacd6d85072a0958f0d0ea75b371b8"
+  },
+  "established/018_norske_folke_eventyr_vol1.md": {
+    "mtime": 1793786866.5068042,
+    "seen": 1793787873.177431,
+    "ast_hash": "eb08f3ff4a762831a7522b5a3f1ec82a",
+    "semantic_hash": "eb08f3ff4a762831a7522b5a3f1ec82a"
+  },
+  "established/019_norske_folke_eventyr_vol2.md": {
+    "mtime": 1793786821.985237,
+    "seen": 1793787873.1774316,
+    "ast_hash": "6e4ef75c15dea8879fdd2184ea31036d",
+    "semantic_hash": "6e4ef75c15dea8879fdd2184ea31036d"
+  },
+  "established/020_jomfruen_pa_glassberget.md": {
+    "mtime": 1793786916.0591516,
+    "seen": 1793787873.177432,
+    "ast_hash": "89d79268efdc841d2aa6f956a8a72162",
+    "semantic_hash": "89d79268efdc841d2aa6f956a8a72162"
+  },
+  "established/021_kurt_blir_grusom.md": {
+    "mtime": 1793786887.9119542,
+    "seen": 1793787873.1774325,
+    "ast_hash": "22f910fd45ee9456ca5fdd9a5af3ba97",
+    "semantic_hash": "22f910fd45ee9456ca5fdd9a5af3ba97"
+  },
+  "established/022_framtidslandet.md": {
+    "mtime": 1793786878.6152604,
+    "seen": 1793787873.177433,
+    "ast_hash": "3498730f4cdb7707495c7f9a4a2da5fe",
+    "semantic_hash": "3498730f4cdb7707495c7f9a4a2da5fe"
+  },
+  "established/023_historical_dictionary_of_norway.md": {
+    "mtime": 1793787051.8201058,
+    "seen": 1793787873.177434,
+    "ast_hash": "cb68227691f074dfb4ad0545514901d3",
+    "semantic_hash": "cb68227691f074dfb4ad0545514901d3"
+  }
+}

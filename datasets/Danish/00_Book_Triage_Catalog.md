@@ -248,7 +248,12 @@ coverage, this stash does not currently supply a dedicated source for it.
     "unconfirmed" flag): an English-medium "how to use this audio course" instruction booklet
     (reading-lesson methodology) followed by graded Danish reading-lesson word/phrase lists ("Unit
     Two: hej, nej, sej, leg, jeg..." building to full sentences by "Unit Ten: Danmark er et dejligt
-    land"). Genuine English-narrated, Danish-content course material — in scope.
+    land"). Genuine English-narrated, Danish-content course material — in scope. **Correction
+    (2026-11-04, caught during extraction): this booklet is NOT part of the Univerb bundle at all —
+    its branding is unambiguously Pimsleur Language Programs (explicit Pimsleur/Graduated-Interval-
+    Recall branding throughout, no Univerb branding anywhere). It just happens to sit in the same
+    collector folder as the Univerb items. The other three bundle components below are still
+    genuinely Univerb-branded.**
   - `Mini Grammar Book English Danish.pdf` (23p, TEXT) — **rendered and confirmed**: "MINI GRAMMAR
     BOOK / ENGLISH / DANISH," Univerb; explicit preface: "englishspoken people can rest assured that
     acquiring a working knowledge of Danish is by all means possible... we wish you good luck as you
