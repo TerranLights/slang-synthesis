@@ -34,6 +34,14 @@ against authenticity.
 
 ## Axis 1 — Domain (why the slang exists)
 
+**Standing scope rule (author, 2026-11-26): research every domain, for every language.** A domain
+proposed for a language elsewhere (for example in TepenianLanguage's
+`synthesis_method/06_Domains_and_Later_Stage.md`) is not the limit of what gets researched here. In
+the author's words: *"We need to research everything. New information may come up, surprises may
+happen, plans may change. We need to be ready just in case. … Research everything, and then we'll
+pick and choose and decide later."* Search the whole axis below for each language, record
+surprises, and log domains where nothing was found. The choosing happens afterward, by the author.
+
 Grouped into areas of life that recur across most cultures, not just English-speaking ones:
 
 - **Subsistence/trade crafts** — farming, fishing/maritime, hunting, construction, artisan trades
